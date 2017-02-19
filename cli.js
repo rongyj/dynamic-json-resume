@@ -32,6 +32,8 @@ program
 						process.exit(1);
 					}
 			    	var resumeJson = JSON.parse(data);
+            var expectTags= ["devops"];
+            utils.filterProjects(resumeJson,expectTags);
 			    	var v = verifier.run(resumeJson);
 
 				    if (templateContent && v) {
@@ -53,7 +55,7 @@ program
 							pdf.create(html, {
 								width: '297mm',
 								height: '400mm',
-							}, 
+							},
 							function(err, buffer) {
 								if (err) {
 									console.log(err);
@@ -82,9 +84,11 @@ program
     });
 
 program
-  .command('exportToHtml <path_json> [html_location] [css_file_location]')
-  .description('Export an html resume from the json resume provided to the given location, applying the css file given')
-  .action(function(path_json, html_location, css_file_location) {
+  .command('exportToHtml <path_json> <resume_gen_tags> [html_location] [css_file_location] ')
+  .description('Export an html resume from the json resume provided to the given location,'+
+  'applying the css file given, also will choose the right projects based on the specified tags'+
+  'Example: exportToHtml ./resume-schema.json short|[any tags defined in the projects]')
+  .action(function(path_json, resume_gen_tags, html_location, css_file_location) {
   		fs.readFile(__dirname + "/templates/" + "resume.tpl", 'utf-8', function (err, data) {
 			if (err) {
 				console.log(err);
@@ -97,6 +101,12 @@ program
 						process.exit(1);
 					}
 			    	var resumeJson = JSON.parse(data);
+            if(resume_gen_tags == "short"){
+              utils.removeProjectsHighlights(resumeJson);
+            }else{
+              var expectTags= resume_gen_tags.split(',');
+              utils.filterProjects(resumeJson,expectTags);
+            }
 			    	var v = verifier.run(resumeJson);
 
 				    if (templateContent && v) {
@@ -116,7 +126,7 @@ program
 				    		var head = "<head><style>" + data + "</style></head>";
 				    		templateContent = head + templateContent;
 				    		var html = mustache.to_html(templateContent, {"resume" : resumeJson.resume});
-				    		
+
 				    		var outputLocation = '/resume.html';
 
 				    		if (html_location) {

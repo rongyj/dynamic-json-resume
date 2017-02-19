@@ -9,7 +9,7 @@
             {{ #resume.contact.github }}
             <div class="contact-external"> {{ resume.contact.github }} </div>
             {{ /resume.contact.github }}
-            <div class="contact-city">Living in {{ resume.contact.city }}</div>
+            <div class="contact-city">{{ resume.contact.city }}</div>
         </div>
 
         {{ #resume.education.length }}
@@ -17,15 +17,10 @@
             <div class="title-section">Education</div>
             {{ #resume.education }}
             <div class="education-item" {{#item-education.id}} data-id="{{ item-education.id }}" {{/item-education.id}}>
-                <span class="header-date">{{ item-education.start-date}} &ndash; {{ item-education.end-date }} </span>
-                <span class="header-school-name">{{ item-education.institution.name }}</span>
-                <span class="header-school-location">({{ item-education.institution.city }}, {{ item-education.institution.country }})</span> <br />
-                <span class="description-education">{{ item-education.description }}
-                {{ #item-education.additional-info }}
-                    <br />
-                    {{ item-education.additional-info }}
-                {{ /item-education.additional-info }}
-                </span>
+                <span class="header-date">{{ item-education.end-date }},</span>
+                <span class="description-education">{{ item-education.description }},</span>
+                <span class="header-school-name">{{ item-education.institution.name }},</span>
+                <span class="header-school-location">{{ item-education.institution.city }}, {{ item-education.institution.country }}</span>
             </div>
             {{ /resume.education }}
         </div>
@@ -36,47 +31,54 @@
             <div class="title-section">Work Experience</div>
             {{ #resume.work}}
             <div class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}}>
-                <span class="header-date">{{ item-work.start-date}} &ndash; {{ item-work.end-date }}</span>
-                <span class="header-company-name">{{ item-work.position }} at {{ item-work.company.name }}</span>
-                <span class="header-company-location">({{ item-work.company.city }}, {{ item-work.company.country }})</span><br />
+                <span class="header-date">{{ item-work.start-date}} &ndash; {{ item-work.end-date }},</span>
+                <span class="header-company-name">{{ item-work.position }}, {{ item-work.company.name }}</span>
+                <span class="header-company-location">, {{ item-work.company.city }},{{ item-work.company.country }}</span><br />
                 <div class="description-work"> {{ item-work.achievements }} </div>
                 {{ #item-work.technologies.length }}
                 <div class="technologies-work">
                     {{ #item-work.technologies }}
-                    <span>{{ . }} </span>
+                    <span>{{ . }}</span>
                     {{ /item-work.technologies }}
                 </div>
                 {{ /item-work.technologies.length }}
+                {{ #item-work.projects.length }}
+                <div id="projects" class="projects-section">
+                    {{ #item-work.projects }}
+                    <div class="project-item" {{#item-projects.id}} data-id="{{ item-projects.id }}" {{/item-projects.id}}>
+                            <span class="item-projects-title"> {{ item-projects.title }} </span><br/>
+                            <div class="description-work"> {{ item-projects.description }} </div>
+                            {{#item-projects.highlights.length}}
+                            <div class="subtitle-section">Highlights:</div>
+                            <ul class="highlighted">
+                                {{#item-projects.highlights}}
+                                <li>{{.}}</li>
+                                {{/item-projects.highlights}}
+                            </ul>
+                            {{/item-projects.highlights.length}}
+                            {{ #item-projects.technologies.length }}
+                            <div class="subtitle-section">Technologies:</div>
+                            <span class="technologies-work">
+                                {{ #item-projects.technologies }}
+                                {{ . }},
+                                {{ /item-projects.technologies }}
+                            </span>
+                            {{ /item-projects.technologies.length }}
+                    </div>
+                    {{ /item-work.projects }}
+                </div>
+                {{ /item-work.projects.length }}
             </div>
             {{ /resume.work}}
         </div>
         {{ /resume.work.length }}
-
-        {{ #resume.projects.length }}
-        <div id="projects" class="section">
-            <div class="title-section">Projects</div>
-            {{ #resume.projects }}
-                <div class="project-item" {{#item-projects.id}} data-id="{{ item-projects.id }}" {{/item-projects.id}}>
-                    <span class="header-company-name"> {{ item-projects.title }} </span><br />
-                    <div class="description-work"> {{ item-projects.description }} </div>
-                    {{ #item-projects.technologies.length }}
-                    <div class="technologies-work">
-                        {{ #item-projects.technologies }}
-                        <span> {{ . }} </span>
-                        {{ /item-projects.technologies }}
-                    </div>
-                    {{ /item-projects.technologies.length }}
-            </div>
-            {{ /resume.projects }}
-        </div>
-        {{ /resume.projects.length }}
 
         {{ #resume.skills.length }}
         <div id="skills" class="section">
             <div class="title-section">Skills</div>
             <div class="skills-items">
             {{ #resume.skills }}
-                <span> {{ . }} </span> 
+                <span> {{ . }} </span>
             {{ /resume.skills}}
             </div>
         </div>
@@ -100,7 +102,7 @@
             <div class="title-section">Hobbies</div>
             <div class="hobbies-items">
                 {{ #resume.hobbies }}
-                <span class="hooby-item" {{#item-hobbies.id}} data-id="{{ item-hobbies.id }}" {{/item-hobbies.id}}>{{ item-hobbies.name}} 
+                <span class="hooby-item" {{#item-hobbies.id}} data-id="{{ item-hobbies.id }}" {{/item-hobbies.id}}>{{ item-hobbies.name}}
                 {{ #item-hobbies.additional-info }}
                     ({{ item-hobbies.additional-info }})
                 {{ /item-hobbies.additional-info }}

@@ -1,81 +1,196 @@
 {
 	"resume": {
 		"contact" : {
-			"first_name": "",
-			"last_name": "",
+			"first_name": "Yongjun",
+			"last_name": "Rong",
 			"website": "",
-			"email": "",
+			"email": "rongyj@hotmail.com",
 			"github": "",
-			"city": ""
+			"city": "Cherry Hill, NJ, USA, 08003"
 		},
 
 		"education": [
 			{
 				"item-education": {
-					"start-date": "",
-					"end-date": "",
+					"start-date": "2002-09",
+					"end-date": "Jun.2006",
 					"institution": {
-						"name": "",
-						"city": "",
-						"country": ""
+						"name": "Texas Tech University",
+						"city": "Lubbock, TX",
+						"country": "USA"
 					},
-					"description": "",
-					"additional-info": ""
+					"description": "Master of Computer Science",
+					"additional-info": "GPA: 4.0"
 				}
 			},
-			{	
+			{
 				"item-education": {
-					"start-date": "",
-					"end-date": "",
+					"start-date": "1993-09-01",
+					"end-date": "Feb.1996",
 					"institution": {
-						"name": "",
-						"city": "",
-						"country": ""
+						"name": "Shanghai JiaoTong University",
+						"city": "Shanghai",
+						"country": "China"
 					},
-					"description": "",
-					"additional-info": ""
+					"description": "Master of Engineering",
+					"additional-info": "Speciality: Hydraulic Fluid Control in Mechanical Engineering"
 				}
 			},
-			{	
+			{
 				"item-education": {
-					"start-date": "",
-					"end-date": "",
+					"start-date": "1987-09-03",
+					"end-date": "Jul.1991",
 					"institution": {
-						"name": "",
-						"city": "",
-						"country": ""
+						"name": "Changsha Railway University",
+						"city": "Changsha, Hunan",
+						"country": "China"
 					},
-					"description": "",
-					"additional-info": ""
+					"description": "Bachelor of Engineering",
+					"additional-info": "Speciality: Engineering Machine"
 				}
 			}
 		],
 		"work": [
 			{
 				"item-work": {
-					"start-date": "",
-					"end-date": "",
-					"position": "",
+					"start-date": "May, 2014",
+					"end-date": "Current",
+					"position": "Lead Software Engineer",
 					"company": {
-						"name": "",
-						"city": "",
-						"country": ""
+						"name": "Oracle",
+						"city": "Redwood, CA (WFH@NJ)",
+						"country": "USA "
 					},
-					"achievements": "",
+					"achievements": "The Cloud Connectivity software engineering team is responsible to develop the Cloud Integration Connectivity SDK and Java Connectors which enable the SOA Suite and Oracle Integration Cloud Service (ICS) connectivity to any Oracle internal or external SaaS or On-Premises Enterprise Applications.",
 					"technologies": [
+					],
+					"projects": [
+						{
+							"item-projects": {
+								"title": "Docker Swarm/Compose/Stack Development and CI Test Environment for  Cloud SDK/APIs/Connectors",
+								"description":"Research and prototype the docker containers, compose and swarm technologies to help developer setup complex testing services stack and improve CI testing environments for the SDK/APIs and Java Connectors. ",
+								"highlights":[
+									"Implemented complex Docker containers network with Overlay and MACVLAN drivers ",
+									"Created Dockerfiles to build WebLogic docker images with different external modules and libraries",
+									"Built Docker Hosts in Oracle Cloud VMs, Amazon EC2 and local VirtualBox by using Docker Machine",
+									"Designed and built the pool of Docker Cluster Environment by using Docker Swarm",
+									"Created Docker Stack file and deploy the service stack for multiple microservices",
+									"Developed docker-compose.yml files with extending services for the full service stack including dependency Web Services, DBMS, NoSQL and JMS",
+									"Researched and prototyped the Docker Swarm and Docker Compose integration"
+								],
+								"technologies": [ "Docker", "Docker Machine", "Docker Compose", "Docker Swarm","Docker Stack", "Docker CLI (Rest APIs)",
+									 "Weblogic", "Oracle Cloud VMs", "Amazon EC2", "JMS", "NoSQL (Cassandra)",
+									"DBMS (MySQL and PostgreSQL)"
+								],
+								"tags":["devops","cloud","infrastructure","platform"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "Cloud integration connectivity SDK and Java Connectors",
+								"description":"The Cloud Integration Connectivity SDK and Java Connectors are built on the top of the Connector Architecture in the Award winning Oracle SOA Suite. It provides the plugin connectivity to any SaaS and On-Premises Enterprise Applications for the Oracle Integration Cloud Service and SOA Suite.",
+								"highlights":[
+									"Design and implement the WSDL regeneration framework by rebuilding the internal data model (DOM) from the persisted integration flow artifacts files (JCA, WSDL and XSD) and the remote custom data",
+									"Design and implement new APIs for the SDK to provide cache and pagination abilities for the backend persistent layer",
+									"Design and implement NLS and localization framework for displayable strings within the SDK",
+									"Troubleshoot the WSDL/XSD generation issues related to complex mixing namespaces and prefixes",
+									"Develop utility methods to handle the namespaces and prefixes conflicts while combining the importing schema to the same WSDL file",
+									"Develop recursive logic to follow the XML element types to embed the undefined data structure if it has the same target namespace or create new schema if it has different target namespace",
+									"Dynamically and Programmatically generate or regenerate the simplified integration WSDL from large set of source WSDL, schema XSD files and fresh custom data by using XDK/JAXP/WSDL4J/DOM",
+									"Programmatically manipulate the single WSDL file generation from the source WSDL and schema XSD files with external schema file importing",
+									"Programmatically handle the anonymous Complex and Simple XSD type for the integration WSDL generation and regeneration",
+									"Design and test Oracle RCU DB descriptive XML files for new DB tables/sequences with primary and foreign keys",
+									"Worked together with different connector development teams to joint debug the WSDL regeneration related issues",
+									"Train and transfer knowledge for the WSDL regeneration framework to geographically distributed connector development teams"
+								],
+								"technologies": [ "Java","SOA","SOAP/REST","WSDL/JSON","XML","XML Schema","API","SDK","IaaS","RCU","JCA","XDK","JAXP","WSDL4J",
+									"DOM","WS-Security","Jersey REST/JSON","MVC","ADF","NLS/L10","Oracle DB","Jira","Agile",
+									"ADE","GIT","Maven","Junit","XMLUnit","SoapUI","OSC","ERP","HCM","RightNow"],
+								"tags":["Java","Enterprise","Web Services", "SDK", "API", "SOA"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "Oracle Fusion Applications (FA) Business Event Connector Framework",
+								"description":"The business event connector framework provides the abilities to auto-discover the FA (OSS/ERP/HCM) business events (including custom events), set event filtering conditions, subscribe to interesting business event and expose the SOAP web service as the event listener through the ICS web/JDeveloper design time UI. This event connector framework enables the Fire-and-Forget/ Asynchronous Response and Publish/Subscribe integration pattern for Business Integration",
+								"highlights":[
+									"Design and implement the business event connector for FA (OSC/ERP/HCM)",
+									"Build the design time web UI using the Oracle Web UI SDK which is building on the top of ADF",
+									"Design and Implement the Business Event Connector Runtime  ",
+									"Programmatically manipulate the payload to align with the changed schema in the integration WSDL  ",
+									"Design and implement the custom event based on the generic event concepts ",
+									"Programmatically replace the xsi:anyType generic object type with the concrete object type selected by the end user from the web UI"
+								],
+								"technologies": ["Java","FA","OSC/ERP/HCM","WSDL/SOAP","REST","JSON","XSI","XML Schema","XDK","JAXP",
+									"WSDL4J","DOM","WS-Security","Jersey REST/JSON","MVC","ADF","ADE","Maven","Junit","XMLUnit","SoapUI"],
+								"tags":["Java","Enterprise Applications Integration"]
+							}
+						}
+					]
+				}
+			},
+			{
+				"item-work": {
+					"start-date": "Oct. 2010",
+					"end-date": "Apr. 2014",
+					"position": "Senior Infrastructure Automation Engineer",
+					"company": {
+						"name": "Comcast T&P",
+						"city": "Philadelphia, PA",
+						"country": "USA"
+					},
+					"achievements": "BITT(Build Integration Test Team) or DevOps provide development operation support for multiple development teams and supporting the developers for SDLC infrastructure system design/implementation, and Build/Release/Deployment/SCM/CI automation. As a senior engineer in the team, design, develop and implement the AutoBuild system, OpenSource performance monitoring system for the SDLC systems, two steps bare-metal Linux bootstrap system for HP servers, Linux HA Clusters for SCM/Maven/CI/Crowd servers, Ruby/Rails software system maintenance and improvement. Manage the SCM(Gerrit/Subversion), CI(Bamboo) and maven repo (Nexus and Artifactory) system. Design and development automation scripts (bash/ruby) to improve work efficiency. Lead and Train junior team members.",
+					"technologies": [
+					],
+					"projects": [
+						{
+							"item-projects": {
+								"title": "AutoBuild System",
+								"description":"Automate the branching/tagging process and improve the work efficiency from 3 days to 1 day for more than 100 projects. Using maven versions plugin and maven repo REST API to automatically detect the latest snapshot and released dependency version and update pom.xml automatically. The cut tag script can cut a bug-fixing tag for the bug-fixing patch within 5 minutes.",
+								"highlights":[
+									"Design and implement the error handling and logging system for ruby bash commands",
+									"Implement build dependency graph and tree using RGL for more than 200 projects",
+									"Refactoring autoBuild to adapt to much large organization development practices",
+									"Design and implement the whole AutoBuild system",
+									"Using ruby and bash scripts wraps multiple manual steps to automate the whole branching and tagging process",
+									"Modify maven versions plugin to fix the bug which cannot update the dependency version property variables and the bug which cannot update the latest snapshot version to the latest released version",
+									"Detect and update the dependency versions in pom.xml automatically using maven versions plugin and maven repo servers REST API",
+									"Design and implement the branching/tagging process",
+									"Design code standards and rule to follow AutoBuild conventions for developers",
+									"Apply convention over configuration for AutoBuild system",
+									"Develop ruby scripts to post json message to a BOM management system to allow the artifacts ready to deploy",
+									"Develop automation script to post message to Jira and Confluence page using Atlassian Jira-cli and Confluence-cli",
+									"Develop bamboo scripts using bamboo command-cli to create plans from git/svn repos automatically",
+									"Install and configure Bamboo, Nexus, Artifactory, Crowd/OpenID, Gerrit and Subversion servers.",
+									"Maintain Ruby/Rails BOM management system",
+									"Using and configuring maven release, versions, toolchains, dependency…etc. plugins "
+								],
+								"technologies": ["Ruby/Rails","gems","Bash","Maven","GIT","SVN","Bamboo/Jira/Confluence CLI",
+									"Nexus/Artifactory REST/XML","SDLC","CI/CD","Gerrit/Subversion","MySQL/PostgreSQL","Crowd/OpenID","Capistrano"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "Performance Monitoring System",
+								"description":"The performance monitoring system collects JMX, splunk and OS metrics and display stats graphs for all different kinds of metrics for JVM heaps, threads and OS CPU/Disk/Memory usage and IO throughputs. Using open source projects and modify ruby/scala/java/python tools to integrate all different projects into one performance monitoring system, the system helps to detect the performance bottlenecks.",
+								"highlights":[
+									"Helped design the whole monitoring system using open source projects such as graphite, gdash, metricsd, stated, jmxtrans and god...etc.",
+									"Developed UDP metrics connectors and ruby splunk searcher to collect splunk stats",
+									"Using java, scala modify open source project jmxtrans, metricsd to use UDP",
+									"Develop Capistrano task to dynamically generate gdash templates for the metrics graphs and jmxtrans configuration files.",
+									"Using open source god project to manage the ruby processes",
+									"Modify open source project jmxsh to be able to list the jmx attributes"
+								],
+								"technologies": [ "Metrics","graphite","jmx","splunk","ruby","splunk-ruby-SDK",
+									"performance monitoring","UDP","Capistrano","god","bash","gdash","graphite","statsd","metricsd"]
+							}
+						}
 					]
 				}
 			}
 		],
-		"projects": [
-			{
-				"item-projects": {
-					"title": "",
-					"description":"",
-					"technologies": []
-				}
-			}
-		],
+
+
 		"skills": [
 		],
 		"languages": [
