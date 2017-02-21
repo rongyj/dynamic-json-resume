@@ -78,6 +78,29 @@ div[id$='extra'] > img {
 	height: 25%;
 }
 
+table.work-experience {
+	  border: 3px solid black;
+    border-collapse: collapse;
+		table-layout: auto;
+}
+tr,th,td {
+	border: 2px solid black;
+}
+tr.work-item-header {
+	text-align:center;
+}
+tr.work-item {
+	text-align:left;
+}
+
+td.work-employer{
+	text-align:center;
+}
+
+td.work-accomplishments{
+	text-align:left;
+}
+
 div.work-item::before{
 	  counter-increment: company;
     content: counter(company)". ";
@@ -92,6 +115,10 @@ div.project-item::before{
     content: counter(company)"."counter(projects)" ";
 		font-size: 1.1em;
 		font-weight: bold;
+}
+
+.bold-font {
+	font-weight: bold;
 }
 
 #contact {

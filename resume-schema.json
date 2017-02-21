@@ -62,6 +62,8 @@
 					},
 					"achievements": "The Cloud Connectivity software engineering team is responsible to develop the Cloud Integration Connectivity SDK and Java Connectors which enable the SOA Suite and Oracle Integration Cloud Service (ICS) connectivity to any Oracle internal or external SaaS or On-Premises Enterprise Applications.",
 					"technologies": [
+						"Java","SOA","Web Services", "SOAP/WSDL", "REST/JSON/XML","XSchema/XSD", "DOM", "WSDL4J", "SDK", "API", "MVC",
+						"Docker", "Cloud", "Amazon EC2", "NoSQL", "GIT", "Maven", "Junit", "SoapUI", "IaaS", "SaaS"
 					],
 					"projects": [
 						{
@@ -81,7 +83,7 @@
 									 "Weblogic", "Oracle Cloud VMs", "Amazon EC2", "JMS", "NoSQL (Cassandra)",
 									"DBMS (MySQL and PostgreSQL)"
 								],
-								"tags":["devops","cloud","infrastructure","platform","containers"]
+								"tags":["devops","cloud","infrastructure","platform","containers", "OpenSource"]
 							}
 						},
 						{
@@ -138,13 +140,14 @@
 						"city": "Philadelphia, PA",
 						"country": "USA"
 					},
-					"achievements": "BITT(Build Integration Test Team) or DevOps provide development operation support for multiple development teams and supporting the developers for SDLC infrastructure system design/implementation, and Build/Release/Deployment/SCM/CI automation. As a senior engineer in the team, design, develop and implement the AutoBuild system, OpenSource performance monitoring system for the SDLC systems, two steps bare-metal Linux bootstrap system for HP servers, Linux HA Clusters for SCM/Maven/CI/Crowd servers, Ruby/Rails software system maintenance and improvement. Manage the SCM(Gerrit/Subversion), CI(Bamboo) and maven repo (Nexus and Artifactory) system. Design and development automation scripts (bash/ruby) to improve work efficiency. Lead and Train junior team members.",
+					"achievements": "As a senior engineer in BITT(Build Integration Test Team), provided DevOps support for multiple development teams and supporting the developers for SDLC infrastructure system design/implementation, and Build/Release/Deployment/SCM/CI automation., designed, developed and implemented the AutoBuild system, OpenSource performance monitoring system for the SDLC systems, two steps bare-metal Linux bootstrap system for HP servers, Linux HA Clusters for SCM/Maven/CI/Crowd servers, Ruby/Rails software system maintenance and improvement. Managed the SCM(Gerrit/Subversion), CI(Bamboo) and maven repo (Nexus and Artifactory) system. Designed and developmented automation scripts (bash/ruby) to improve work efficiency. Led and Trained junior team members.",
 					"technologies": [
+						"DevOps", "Automation", "Docker", "CoreOS", "Ruby", "Bash", "SDLC", "GIT", "Maven", "Jira/Confluence", "Bamboo/Jekins/Hudson", "Nexus/Artifactory", "Gerrit", "CI/CD", "Performance Monitoring", "Splunk", "JMX", "Capistrano", "PXE/TFTP", "DHCP", "DNS", "Cobbler", "Centos", "MySQL/PostgreSQL", "NoSQL","Cassandra","RabbitMQ", "JMS", "LDAP", "SSO", "Mtrics", "Graphite", "Agile", "RPC", "Cloud", "Clustering", "Linux HA", "HAProxy", "Pacemaker/Corrosync/Cman","SAN","GFS2","RAC", "Volume Manager"
 					],
 					"projects": [
 						{
 							"item-projects": {
-								"title": "AutoBuild System",
+								"title": "AutoBuild System for Build/Release more than 200 projects",
 								"description":"Automate the branching/tagging process and improve the work efficiency from 3 days to 1 day for more than 100 projects. Using maven versions plugin and maven repo REST API to automatically detect the latest snapshot and released dependency version and update pom.xml automatically. The cut tag script can cut a bug-fixing tag for the bug-fixing patch within 5 minutes.",
 								"highlights":[
 									"Design and implement the error handling and logging system for ruby bash commands",
@@ -166,12 +169,12 @@
 								],
 								"technologies": ["Ruby/Rails","gems","Bash","Maven","GIT","SVN","Bamboo/Jira/Confluence CLI",
 									"Nexus/Artifactory REST/XML","SDLC","CI/CD","Gerrit/Subversion","MySQL/PostgreSQL","Crowd/OpenID","Capistrano"],
-								"tags":["devops","automation","CI","CD"]
+								"tags":["devops","automation","CI","CD", "Scripts"]
 							}
 						},
 						{
 							"item-projects": {
-								"title": "Performance Monitoring System",
+								"title": "Performance Monitoring System for Jetty, JVM and Linux",
 								"description":"The performance monitoring system collects JMX, splunk and OS metrics and display stats graphs for all different kinds of metrics for JVM heaps, threads and OS CPU/Disk/Memory usage and IO throughputs. Using open source projects and modify ruby/scala/java/python tools to integrate all different projects into one performance monitoring system, the system helps to detect the performance bottlenecks.",
 								"highlights":[
 									"Helped design the whole monitoring system using open source projects such as graphite, gdash, metricsd, stated, jmxtrans and god...etc.",
@@ -183,7 +186,7 @@
 								],
 								"technologies": [ "Metrics","graphite","jmx","splunk","ruby","splunk-ruby-SDK",
 									"performance monitoring","UDP","Capistrano","god","bash","gdash","graphite","statsd","metricsd"],
-								"tag":["devops","monitoring"]
+								"tag":["devops","performance monitoring", "Scripts", "Automation"]
 							}
 						},
 						{
@@ -200,7 +203,7 @@
 									"Configure disk-array and virtual storage management (lvm, pv and vg..etc.)"
 								],
 								"technologies": [ "TFTP","PXE","DHCP","DNS","cobbler","RPC","xml","bash","ILO 3","IPMI","LVM","HP Servers","CentOS 6"],
-								"tags":["devops","automation"]
+								"tags":["devops","automation","Scripts"]
 							}
 						},
 						{
@@ -228,7 +231,7 @@
 						},
 						{
 							"item-projects": {
-								"title": "Automation scripts and tools",
+								"title": "Automation scripts and tools for DevOps",
 								"description":"Develop and use scripts (Ruby/bash) and tools to automate the build/release/deploy process to improve the work efficiency.",
 								"highlights":[
 									"Develop migration tools to migrate git repos from different remote git repos(Gerrit, stash and gitorious) to new Gerrit server",
@@ -297,6 +300,7 @@
 					},
 					"achievements": "As the market and technology leader in on-demand integration, Boomi is the industry’s first and leading integration platform-as-a-service and a two-time SIIA CODiE award winner — Best Application Integration Solution (2010) and Best On-Demand Platform (2009).",
 					"technologies": [
+						"Java", "SOA", "IaaS", "PaaS", "EAI", "XML","XSD", "JAXB", "Javascript", ".NET", "EC2", "S3", "EBS", "REST","SOAP", "WSDL", "SaaS", "SAP", "BAPI", "ABAP", "MySQL/PostgreSQL", "Maven", "SVN", "JVM", "JVM GC Tunning", "Apache Luncen", "Apache Solr", "VMWare", "Cloud"
 					],
 					"projects": [
 						{
@@ -504,6 +508,7 @@
 					},
 					"achievements": "As the leader in cost-effective, high volume, secure, scalable online assessment and instructional programs for K-12 and higher education, Vantage Learning leverage technology such as artificial intelligence, natural language understanding, and web-based learning objects. Vantage Learning has received accolades ranging from the prestigious CODIE Award for best instructional technology.",
 					"technologies": [
+						"Linux", "Centos", "SOA", "Java", ".NET", "Network", "VLAN", "Router", "Firewall", "Load Balancer", "SOAP/WSDL", "MySQL/PostgreSQL", "Struts", "Disk Array",  "Fedora", "Redhat Linux", "LAMP", "eCommerce", "SQL"
 					],
 					"projects": [
 						{
@@ -593,6 +598,7 @@
 					},
 					"achievements": "System Administrator for networked Unix(Solaris, AIX, Mac OSX and Linux) and windows servers with SSO for Kerberos and LDAP, Veritas Netbackup for Disk Array with RAID 0/1/5, Migration from NIS/NIS+ to LDAP and Postfix/Sendmail conifiguration for the research and teaching lab for computer science department.",
 					"technologies": [
+						"JAVA","C/C++", "GCC", "GNU Make", "perl", "LADP", "NFS", "SSO", "Kerberos", "SSL", "SMTP", "Email Sever and Client", "Solaris", "AIX", "Mac OSX", "Linux", "Windows Server", "PAM", "RAID", "SCSI", "Veritas", "TFTP", "RARP/ARP", "Bootparamd", "DHCP", "Postfix", "PostgreSQL", "NIS/NIS+"
 					],
 					"projects": [
 						{
@@ -769,6 +775,7 @@
 					},
 					"achievements": "Stuied as Master Student in the CS department while working as part time as System Administration for the Teaching and Research labs for Unix/Linux and Windows environments",
 					"technologies": [
+							"Java", "C/C++"," GCC", "Gnu Make", "Linux", "Linux Kernel", "GIS", "Ant", "Stuts", "J2EE", "UML2", "MVC", "Maven", "PostGIS", "PostgreSQL", "Solaris"
 					],
 					"projects": [
 						{
@@ -824,6 +831,7 @@
 					},
 					"achievements": "As Senior software engineer, provided consulting services for Java/J2EE technologies for local companies. Helped design and architecture the Java/J2EE systems around Sun's software products like iPlanet Application Server, Directory Server, Message Queue Server",
 					"technologies": [
+						"Java", "J2EE", "JMS", "EJB", "Servlets", "JDBC", "Message-Driven Bean", "LDAP", "SQL", "Weblogic", "OOA/OOD", "UML", "MVC", "Oracle DBMS", "Java IDL", "RMI", "CORBA", "JNDI", "Solaris", "CVS", "Ant"
 					],
 					"projects": [
 						{
@@ -903,6 +911,7 @@
 					},
 					"achievements": "As software engineer, designed and implemented Java/J2EE systems around IBM software products like IBM WebSphere ...etc.",
 					"technologies": [
+						"Java", "J2EE", "C/C++", "Servlets", "WebSphere", "SSL", "JDBC", "Windows NT", "SAN", "POS", "JNI", "DB2"
 					],
 					"projects": [
 						{
@@ -964,6 +973,7 @@
 					},
 					"achievements": "Worked for different teams as System/Network/Software Engineer. Provided production supporting services for IBM RS6000 and Disk Array products. Developed IC Card Application system. Designed Large scale network system with Cisco Router and Switches.",
 					"technologies": [
+						"C/C++", "Assembly", "Network Design", "Router", "Switch", "VLAN", "AIX", "Disk Array", "SSA", "RAID", "Volume Manager", "IC", "RIP/OSPF", "Ciso IOS"
 					],
 					"projects": [
 						{
@@ -1032,7 +1042,7 @@
 				"item-work": {
 					"start-date": "Jun., 1991",
 					"end-date": "Sep.,1993",
-					"position": "Mechanical Manufacture Engineer",
+					"position": "Mechanical Engineer",
 					"company": {
 						"name": "Yongji Electrical and Motor Factory",
 						"city": "ShanXi Province",
@@ -1040,6 +1050,7 @@
 					},
 					"achievements": "",
 					"technologies": [
+						"C/C++", "AutoCAD", "CAD/CAM/CAPP", "CIMS/FMS", "DOS"
 					],
 					"projects": [
 						{

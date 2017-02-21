@@ -84,12 +84,17 @@ program
     });
 
 program
-  .command('exportToHtml <path_json> [resume_gen_tags] [html_location] [css_file_location] ')
+  .command('exportToHtml <path_json> [resume_gen_tags] [template_location] [html_location] [css_file_location] ')
   .description('Export an html resume from the json resume provided to the given location,'+
   'applying the css file given, also will choose the right projects based on the specified tags'+
-  'Example: exportToHtml ./resume-schema.json short|[any tags defined in the projects]')
-  .action(function(path_json, resume_gen_tags, html_location, css_file_location) {
-  		fs.readFile(__dirname + "/templates/" + "resume.tpl", 'utf-8', function (err, data) {
+  'Example: exportToHtml ./resume-schema.json full|short|[any tags defined in the projects]')
+  .action(function(path_json, resume_gen_tags, temp_location, html_location, css_file_location) {
+      var template_location = __dirname + "/templates/" + "resume.tpl";
+      if(temp_location)
+        template_location =temp_location;
+      console.log(template_location);
+      console.log(html_location);
+  		fs.readFile(template_location, 'utf-8', function (err, data) {
 			if (err) {
 				console.log(err);
 				process.exit(1);
@@ -103,7 +108,7 @@ program
 			    	var resumeJson = JSON.parse(data);
             if(resume_gen_tags == "short"){
               utils.removeProjectsHighlights(resumeJson);
-            }else if(resume_gen_tags){
+            }else if(resume_gen_tags != "full" ){
               var expectTags= resume_gen_tags.split(',');
               utils.filterProjects(resumeJson,expectTags);
             }
