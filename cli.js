@@ -84,7 +84,7 @@ program
     });
 
 program
-  .command('exportToHtml <path_json> <resume_gen_tags> [html_location] [css_file_location] ')
+  .command('exportToHtml <path_json> [resume_gen_tags] [html_location] [css_file_location] ')
   .description('Export an html resume from the json resume provided to the given location,'+
   'applying the css file given, also will choose the right projects based on the specified tags'+
   'Example: exportToHtml ./resume-schema.json short|[any tags defined in the projects]')
@@ -103,7 +103,7 @@ program
 			    	var resumeJson = JSON.parse(data);
             if(resume_gen_tags == "short"){
               utils.removeProjectsHighlights(resumeJson);
-            }else{
+            }else if(resume_gen_tags){
               var expectTags= resume_gen_tags.split(',');
               utils.filterProjects(resumeJson,expectTags);
             }
