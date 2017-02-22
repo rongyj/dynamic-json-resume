@@ -10,6 +10,7 @@
             <div class="contact-external"> {{ resume.contact.github }} </div>
             {{ /resume.contact.github }}
             <div class="contact-city">{{ resume.contact.city }}</div>
+            <div> (Contact me for resume with project details)</div>
         </div>
 
         {{ #resume.education.length }}
@@ -25,50 +26,6 @@
             {{ /resume.education }}
         </div>
         {{ /resume.education.length }}
-
-        {{ #resume.work.length }}
-
-        <div id="work-experience" class="section">
-          <div class="title-section">Work Experience Summary: </div>
-          <div {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}}>
-          <table id="work-experience" class="section">
-            <tr class="work-item-header">
-                <th class="header-employer" style="width:18%">Employements and Titles</th>
-                <th class="header-accomplishments" style="width:60%"> Major Accomplishments </th>
-                <th class="header-Technologies"> Technologies </th>
-            </tr>
-            {{ #resume.work}}
-            <tr class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}}>
-                <td class="work-employer">
-                  <p>{{ item-work.start-date}} &ndash; {{ item-work.end-date }}
-                  <p class="bold-font">{{ item-work.company.name }}
-                  <p>{{ item-work.company.city }},{{ item-work.company.country }}
-                  <p class="bold-font">{{ item-work.position }}
-                </td>
-                <td>
-                  {{#item-work.projects.length }}
-                  <ul class="highlighted">
-                    {{ #item-work.projects}}
-                      <li>{{item-projects.title}}</li>
-                    {{/item-work.projects}}
-                  </ul>
-                  {{/item-work.projects.length }}
-                </td>
-                <td>
-                  {{ #item-work.technologies.length }}
-                  <span class="technologies-work">
-                      {{ #item-work.technologies }}
-                      {{ . }},
-                      {{ /item-work.technologies }}
-                  </span>
-                  {{ /item-work.technologies.length }}
-                </td>
-            </tr>
-            {{ /resume.work}}
-        </table>
-      </div>
-        </div>
-        {{ /resume.work.length }}
 
         {{ #resume.skills.length }}
         <div id="skills" class="section">
@@ -99,20 +56,53 @@
                   {{/resume.hobbies.hobby-items}}
                 </ul>
                 {{ /resume.hobbies.hobby-items.length}}
-
-
-
-                <!--span class="hobby-item" {{#item-hobbies.id}} data-id="{{ item-hobbies.id }}" {{/item-hobbies.id}}>
-
-                {{ item-hobbies.name}}
-                {{ #item-hobbies.additional-info }}
-                    ({{ item-hobbies.additional-info }})
-                {{ /item-hobbies.additional-info }}
-              </span><br /--> <!-- book i read !-->
-
             </div>
         </div>
         {{ /resume.hobbies.hobby-items.length}}
+
+        {{ #resume.work.length }}
+
+        <div id="work-experience" class="section">
+          <div class="title-section">Work Experience Summary:</div>
+          <div {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}}>
+          <table id="work-experience" class="section" style="page-break-before: always; page-break-after: auto;">
+            <tr class="work-item-header" style="page-break-inside: avoid;">
+                <th class="header-employer" style="width:20%">Employments</th>
+                <th class="header-accomplishments" style="width:55%"> Major Accomplishments </th>
+                <th class="header-technologies"> Technologies </th>
+            </tr>
+            {{ #resume.work}}
+            <tr class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}} style="page-break-inside: avoid;">
+                <td class="work-employer">
+                  <p>{{ item-work.start-date}} &ndash; {{ item-work.end-date }}
+                  <p class="bold-font">{{ item-work.company.name }}
+                  <p>{{ item-work.company.city }},{{ item-work.company.country }}
+                  <p class="bold-font">{{ item-work.position }}
+                </td>
+                <td>
+                  {{#item-work.projects.length }}
+                  <ul class="highlighted">
+                    {{ #item-work.projects}}
+                      <li>{{item-projects.title}}</li>
+                    {{/item-work.projects}}
+                  </ul>
+                  {{/item-work.projects.length }}
+                </td>
+                <td>
+                  {{ #item-work.technologies.length }}
+                  <span class="technologies-work">
+                      {{ #item-work.technologies }}
+                      {{ . }},
+                      {{ /item-work.technologies }}
+                  </span>
+                  {{ /item-work.technologies.length }}
+                </td>
+            </tr>
+            {{ /resume.work}}
+        </table>
+      </div>
+        </div>
+        {{ /resume.work.length }}
     </div>
     <div id="extra">
         {{ #extraContent }}

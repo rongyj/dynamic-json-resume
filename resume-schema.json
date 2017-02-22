@@ -1122,16 +1122,20 @@
 		"hobby-projects": [
 			{
 				"item-projects": {
-					"title": "CIMS and FMS CAPP/CAD/CAM manufacturing Automcation application development",
-					"description":"Locomotive's motor and generator related mechanical products design and manufacturing processing. Programming on FMS/CIM manufacture centers from GE (General Electric)",
+					"title": "Personalized JSON Schema Resume",
+					"description":"Customized the open source project dynamic-json-resume using JSON format and mustache templates with Node.js and CSS3. github url: https://github.com/rongyj/dynamic-json-resume/tree/rongyj",
 					"highlights":[
-						"Mechanical engineer of locomotive's motor and generator",
-						"Developed CAPP, CAD software of CIMS system(C, C++, AutoCAD)",
-						"Designed and implemented the manufacturing process of mechanical component in locomotive"
+						"Adapt the JSON schema to personal resume format",
+						"Developed new utility methods to filter the JSON data",
+						"Personalized CSS3 styles with auto counting for multiple counters",
+						"Added new table mustache template",
+						"Added @media print page numbers to the CSS3 styles",
+						"Added CSS3 style for large table crosing page breakes",
+						"Debug in Atom with an open source Node-Debugger package"
 					],
-					"technologies": [ "AutoCAD", "C", "C++", "DOS", "Z80(Single Chip Computer)","Borland C++"
+					"technologies": [ "JavaScripts", "HTML5", "CSS3", "Node.js", "JSON", "mustache"
 					],
-					"tags":["C/C++", "AutoCAD"]
+					"tags":["FullStack", "JavaScript"]
 				}
 			}
 		]

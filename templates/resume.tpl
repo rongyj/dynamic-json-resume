@@ -1,4 +1,5 @@
 <div class="container">
+
     <div id="cv">
         <div id="contact" {{#resume.contact.id}} data-id="{{ resume.contact.id }}" {{/resume.contact.id}}>
             <div class="contact-name">{{ resume.contact.first_name }} {{ resume.contact.last_name }}</div>
@@ -25,7 +26,18 @@
             {{ /resume.education }}
         </div>
         {{ /resume.education.length }}
-
+        {{ #resume.skills.length }}
+        <div id="skills" class="section">
+            <div class="title-section">Skills:</div>
+            <div>
+              <ul class="highlighted">
+                  {{ #resume.skills }}
+                  <li>{{.}}</li>
+                  {{ /resume.skills}}
+              </ul>
+            </div>
+        </div>
+        {{ /resume.skills.length }}
         {{ #resume.work.length }}
         <div id="work-experience" class="section">
             <div class="title-section">Work Experience</div>
@@ -35,13 +47,6 @@
                 <span class="header-company-name">{{ item-work.position }}, {{ item-work.company.name }}</span>
                 <span class="header-company-location">, {{ item-work.company.city }},{{ item-work.company.country }}</span><br />
                 <div class="description-work"> {{ item-work.achievements }} </div>
-                {{ #item-work.technologies.length }}
-                <div class="technologies-work">
-                    {{ #item-work.technologies }}
-                    <span>{{ . }}</span>
-                    {{ /item-work.technologies }}
-                </div>
-                {{ /item-work.technologies.length }}
                 {{ #item-work.projects.length }}
                 <div id="projects" class="projects-section">
                     {{ #item-work.projects }}
@@ -72,20 +77,6 @@
             {{ /resume.work}}
         </div>
         {{ /resume.work.length }}
-
-        {{ #resume.skills.length }}
-        <div id="skills" class="section">
-            <div class="title-section">Skills:</div>
-            <div>
-              <ul class="highlighted">
-                  {{ #resume.skills }}
-                  <li>{{.}}</li>
-                  {{ /resume.skills}}
-              </ul>
-            </div>
-        </div>
-        {{ /resume.skills.length }}
-
         <div id="hobbies" class="section" {{#resume.hobbies.id}} data-id="{{ resume.hobbies.id }}" {{/resume.hobbies.id}}>
             <div class="title-section">Hobbies</div>
             <div class="hobbies-items">
@@ -135,4 +126,6 @@
             {{{ . }}}
         {{ /extraContent }}
     </div>
+    <!--div id="print-foot"/-->
+
 </div>

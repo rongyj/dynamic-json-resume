@@ -84,6 +84,7 @@ table.work-experience {
     border-collapse: collapse;
 		table-layout: auto;
 }
+
 tr,th,td {
 	border: 2px solid black;
 }
@@ -181,7 +182,7 @@ div.project-item::before{
 	font-size: 1.1em;
 }
 
-.header-date ,.header-company-name,.header-school-name,.description-education, .item-projects-title {
+.header-date ,.header-company-name,.header-school-name,.description-education, .item-projects-title, .header-employer, .header-accomplishments, .header-technologies {
 	font-weight: bold;
 }
 
