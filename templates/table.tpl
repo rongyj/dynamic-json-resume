@@ -27,7 +27,11 @@
         {{ /resume.education.length }}
 
         {{ #resume.work.length }}
-        <table id="work-experience" class="section">
+
+        <div id="work-experience" class="section">
+          <div class="title-section">Work Experience Summary: </div>
+          <div {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}}>
+          <table id="work-experience" class="section">
             <tr class="work-item-header">
                 <th class="header-employer" style="width:18%">Employements and Titles</th>
                 <th class="header-accomplishments" style="width:60%"> Major Accomplishments </th>
@@ -62,46 +66,53 @@
             </tr>
             {{ /resume.work}}
         </table>
+      </div>
+        </div>
         {{ /resume.work.length }}
 
         {{ #resume.skills.length }}
         <div id="skills" class="section">
             <div class="title-section">Skills</div>
-            <div class="skills-items">
-            {{ #resume.skills }}
-                <span> {{ . }} </span>
-            {{ /resume.skills}}
+            <div>
+              <ul class="highlighted">
+                  {{ #resume.skills }}
+                  <li>{{.}}</li>
+                  {{ /resume.skills}}
+              </ul>
             </div>
         </div>
         {{ /resume.skills.length }}
 
-        {{ #resume.languages.length }}
-        <div id="languages" class="section">
-            <div class="title-section">Languages</div>
-            {{ #resume.languages }}
-            <div class="language-item" {{#item-languages.id}} data-id="{{ item-languages.id }}" {{/item-languages.id}}> {{ item-languages.name }}
-            {{ #item-languages.additional-info }}
-             ({{ item-languages.additional-info }})
-            {{ /item-languages.additional-info }}
-            </div>
-            {{ /resume.languages }}
-        </div>
-        {{ /resume.languages.length }}
-
-        {{ #resume.hobbies.length }}
+        {{ #resume.hobbies.hobby-items.length }}
         <div id="hobbies" class="section" {{#resume.hobbies.id}} data-id="{{ resume.hobbies.id }}" {{/resume.hobbies.id}}>
             <div class="title-section">Hobbies</div>
             <div class="hobbies-items">
-                {{ #resume.hobbies }}
-                <span class="hooby-item" {{#item-hobbies.id}} data-id="{{ item-hobbies.id }}" {{/item-hobbies.id}}>{{ item-hobbies.name}}
+                {{ #resume.hobbies.hobby-items.length }}
+                <ul class="highlighted">
+                  {{ #resume.hobbies.hobby-items}}
+                    <li>
+                      {{ item-hobbies.name}}
+                      {{ #item-hobbies.additional-info }}
+                          ({{ item-hobbies.additional-info }})
+                      {{ /item-hobbies.additional-info }}
+                    </li>
+                  {{/resume.hobbies.hobby-items}}
+                </ul>
+                {{ /resume.hobbies.hobby-items.length}}
+
+
+
+                <!--span class="hobby-item" {{#item-hobbies.id}} data-id="{{ item-hobbies.id }}" {{/item-hobbies.id}}>
+
+                {{ item-hobbies.name}}
                 {{ #item-hobbies.additional-info }}
                     ({{ item-hobbies.additional-info }})
                 {{ /item-hobbies.additional-info }}
-                </span><br /> <!-- book i read !-->
-                {{ /resume.hobbies }}
+              </span><br /--> <!-- book i read !-->
+
             </div>
         </div>
-        {{ /resume.hobbies.length}}
+        {{ /resume.hobbies.hobby-items.length}}
     </div>
     <div id="extra">
         {{ #extraContent }}

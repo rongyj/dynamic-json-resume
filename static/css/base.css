@@ -47,11 +47,12 @@ ul {
 	list-style: square;
 }
 li {
-	margin-left: 15px;
+	margin-left: 25px;
+	padding-left: 0px;
 }
 
 #cv {
-	padding-left: 10px;
+	  padding-left: 10px;
   	flex: 3;
 		counter-reset: company;
 }
@@ -110,6 +111,17 @@ div.work-item::before{
 .work-item{
     counter-reset: projects;
 }
+
+#hobbies{
+	counter-reset: hobby-projects;
+}
+div.hobby-project-item::before{
+	  counter-increment: hobby-projects;
+    content: "H."counter(hobby-projects)" ";
+		font-size: 1.1em;
+		font-weight: bold;
+}
+
 div.project-item::before{
 	  counter-increment: projects;
     content: counter(company)"."counter(projects)" ";
@@ -159,7 +171,7 @@ div.project-item::before{
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 1.2em;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 }
 .item-projects-title{
 	padding-top: 1em;

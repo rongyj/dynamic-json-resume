@@ -75,42 +75,60 @@
 
         {{ #resume.skills.length }}
         <div id="skills" class="section">
-            <div class="title-section">Skills</div>
-            <div class="skills-items">
-            {{ #resume.skills }}
-                <span> {{ . }} </span>
-            {{ /resume.skills}}
+            <div class="title-section">Skills:</div>
+            <div>
+              <ul class="highlighted">
+                  {{ #resume.skills }}
+                  <li>{{.}}</li>
+                  {{ /resume.skills}}
+              </ul>
             </div>
         </div>
         {{ /resume.skills.length }}
 
-        {{ #resume.languages.length }}
-        <div id="languages" class="section">
-            <div class="title-section">Languages</div>
-            {{ #resume.languages }}
-            <div class="language-item" {{#item-languages.id}} data-id="{{ item-languages.id }}" {{/item-languages.id}}> {{ item-languages.name }}
-            {{ #item-languages.additional-info }}
-             ({{ item-languages.additional-info }})
-            {{ /item-languages.additional-info }}
-            </div>
-            {{ /resume.languages }}
-        </div>
-        {{ /resume.languages.length }}
-
-        {{ #resume.hobbies.length }}
         <div id="hobbies" class="section" {{#resume.hobbies.id}} data-id="{{ resume.hobbies.id }}" {{/resume.hobbies.id}}>
             <div class="title-section">Hobbies</div>
             <div class="hobbies-items">
-                {{ #resume.hobbies }}
-                <span class="hooby-item" {{#item-hobbies.id}} data-id="{{ item-hobbies.id }}" {{/item-hobbies.id}}>{{ item-hobbies.name}}
-                {{ #item-hobbies.additional-info }}
-                    ({{ item-hobbies.additional-info }})
-                {{ /item-hobbies.additional-info }}
-                </span><br /> <!-- book i read !-->
-                {{ /resume.hobbies }}
+                {{ #resume.hobbies.hobby-items.length }}
+                <ul class="highlighted">
+                  {{ #resume.hobbies.hobby-items}}
+                    <li>
+                      {{ item-hobbies.name}}
+                      {{ #item-hobbies.additional-info }}
+                          ({{ item-hobbies.additional-info }})
+                      {{ /item-hobbies.additional-info }}
+                    </li>
+                  {{/resume.hobbies.hobby-items}}
+                </ul>
+                {{ /resume.hobbies.hobby-items.length}}
             </div>
+            {{ #resume.hobbies.hobby-projects.length }}
+            <div id="projects" class="projects-section">
+                {{ #resume.hobbies.hobby-projects }}
+                <div class="hobby-project-item" {{#item-projects.id}} data-id="{{ item-projects.id }}" {{/item-projects.id}}>
+                        <span class="item-projects-title"> {{ item-projects.title }} </span><br/>
+                        <div class="description-work"> {{ item-projects.description }} </div>
+                        {{#item-projects.highlights.length}}
+                        <div class="subtitle-section">Highlights:</div>
+                        <ul class="highlighted">
+                            {{#item-projects.highlights}}
+                            <li>{{.}}</li>
+                            {{/item-projects.highlights}}
+                        </ul>
+                        {{/item-projects.highlights.length}}
+                        {{ #item-projects.technologies.length }}
+                        <div class="subtitle-section">Technologies:</div>
+                        <span class="technologies-work">
+                            {{ #item-projects.technologies }}
+                            {{ . }},
+                            {{ /item-projects.technologies }}
+                        </span>
+                        {{ /item-projects.technologies.length }}
+                </div>
+                {{ /resume.hobbies.hobby-projects }}
+            </div>
+            {{ /resume.hobbies.hobby-projects.length }}
         </div>
-        {{ /resume.hobbies.length}}
     </div>
     <div id="extra">
         {{ #extraContent }}

@@ -1072,39 +1072,69 @@
 			}
 		],
 		"skills": [
+			"Cloud platform/infrastructure design and implementation and DevOps Automation (Amazon EC2, Docker, Ruby/Rails, Bash, REST, Maven, GIT, SVN, CI, SDLC, Linux HA, DHCP, PXE, Cobbler, MySQL/PostgreSQL, GFS2/SAN)",
+			"Large SOA Web Services (SOAP/WSDL, REST/XML/JSON, RIA ) Enterprise Application Cloud/On-Premises Integration Service (IaaS) design, development and deployment",
+			"Desktop and Online Accounting, CRM and ERP System Integration Architect (Java to C/C++/DLLs, COM/COM+/DCOM,.NET, WCF,SOAP/WSDL,REST)",
+			"Server-side software development with middleware (J2EE,.NET) and DBMS",
+			"Distributed Network System Administration(EC2, Linux/Unix/Windows, RAID, SAN, LDAP, Kerberos, NFS, DNS, LAN/VLAN, WAN, GSLB)"
 		],
 		"languages": [
 			{
 				"item-languages": {
-					"name": "",
-					"additional-info": ""
+					"name": "English",
+					"additional-info": "Fluent"
 				}
 			},
 			{
 				"item-languages": {
-					"name": ""
+					"name": "Chinese",
+					"additional-info": "Native"
 				}
 			}
 		],
-		"hobbies": [
+		"hobbies":{
+		"hobby-items":[
 			{
 				"item-hobbies": {
-					"name": ""
+					"name": "Pingpong",
+					"additional-info": "ITFF Score around 1200"
 				}
 			},
 			{
 				"item-hobbies": {
-					"name": "",
-					"additional-info": ""
+					"name": "IoT or Robot programming",
+					"additional-info": "Have iRobot and MIPOSaur at home. Programming against iRobot create SDK and MIPOSaur SDK."
 				}
 			},
 			{
 				"item-hobbies": {
-					"name": "",
-					"additional-info": ""
+					"name": "IOS/Andriod Apps Development",
+					"additional-info": "Developing a Chinese charater learning App"
+				}
+			},
+			{
+				"item-hobbies": {
+					"name": "Playing with cutting-edge technologies",
+					"additional-info": "Docker, Kafka, Kurbernets and Amazon Cloudformation, JavaScripts, AngularJs, ReactiveJs, Node.js"
+				}
+			}
+		],
+		"hobby-projects": [
+			{
+				"item-projects": {
+					"title": "CIMS and FMS CAPP/CAD/CAM manufacturing Automcation application development",
+					"description":"Locomotive's motor and generator related mechanical products design and manufacturing processing. Programming on FMS/CIM manufacture centers from GE (General Electric)",
+					"highlights":[
+						"Mechanical engineer of locomotive's motor and generator",
+						"Developed CAPP, CAD software of CIMS system(C, C++, AutoCAD)",
+						"Designed and implemented the manufacturing process of mechanical component in locomotive"
+					],
+					"technologies": [ "AutoCAD", "C", "C++", "DOS", "Z80(Single Chip Computer)","Borland C++"
+					],
+					"tags":["C/C++", "AutoCAD"]
 				}
 			}
 		]
-
+	}
 	}
 }
