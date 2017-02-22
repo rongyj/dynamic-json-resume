@@ -10,7 +10,7 @@
             <div class="contact-external"> {{ resume.contact.github }} </div>
             {{ /resume.contact.github }}
             <div class="contact-city">{{ resume.contact.city }}</div>
-            <div> (Contact me for resume with project details)</div>
+            <div class="contact-external"> (Contact me for resume in details)</div>
         </div>
 
         {{ #resume.education.length }}
@@ -68,12 +68,11 @@
           <table id="work-experience" class="section" style="page-break-before: always; page-break-after: auto;">
             <tr class="work-item-header" style="page-break-inside: avoid;">
                 <th class="header-employer" style="width:20%">Employments</th>
-                <th class="header-accomplishments" style="width:55%"> Major Accomplishments </th>
-                <th class="header-technologies"> Technologies </th>
+                <th class="header-accomplishments"> Major Accomplishments & Technologies </th>
             </tr>
             {{ #resume.work}}
-            <tr class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}} style="page-break-inside: avoid;">
-                <td class="work-employer">
+              <tr class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}} style="page-break-inside: avoid;">
+                <td class="work-employer" rowspan="2">
                   <p>{{ item-work.start-date}} &ndash; {{ item-work.end-date }}
                   <p class="bold-font">{{ item-work.company.name }}
                   <p>{{ item-work.company.city }},{{ item-work.company.country }}
@@ -88,6 +87,8 @@
                   </ul>
                   {{/item-work.projects.length }}
                 </td>
+              </tr>
+              <tr style="page-break-inside: avoid;">
                 <td>
                   {{ #item-work.technologies.length }}
                   <span class="technologies-work">
@@ -97,7 +98,7 @@
                   </span>
                   {{ /item-work.technologies.length }}
                 </td>
-            </tr>
+             </tr>
             {{ /resume.work}}
         </table>
       </div>
