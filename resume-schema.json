@@ -83,19 +83,19 @@
 									 "Weblogic", "Oracle Cloud VMs", "AWS", "JMS", "NoSQL (Cassandra)",
 									"DBMS (MySQL and PostgreSQL)"
 								],
-								"tags":["devops","cloud","infrastructure","platform","containers", "OpenSource"]
+								"tags":["devops","cloud","infrastructure","platform","containers", "OpenSource", "Linux", "Unix"]
 							}
 						},
 						{
 							"item-projects": {
-								"title": "Cloud integration connectivity SDK and Java Connectors",
+								"title": "Cloud Enterprise Applications Integration connectivity SDK and Java Connectors",
 								"description":"The Cloud Integration Connectivity SDK and Java Connectors are built on the top of the Connector Architecture in the Award winning Oracle SOA Suite. It provides the plugin connectivity to any SaaS and On-Premises Enterprise Applications for the Oracle Integration Cloud Service and SOA Suite.",
 								"highlights":[
 									"Design and implement the WSDL regeneration framework by rebuilding the internal data model (DOM) from the persisted integration flow artifacts files (JCA, WSDL and XSD) and the remote custom data",
 									"Design and implement new APIs for the SDK to provide cache and pagination abilities for the backend persistent layer",
 									"Design and implement NLS and localization framework for displayable strings within the SDK",
 									"Troubleshoot the WSDL/XSD generation issues related to complex mixing namespaces and prefixes",
-									"Develop utility methods to handle the namespaces and prefixes conflicts while combining the importing schema to the same WSDL file",
+									"Develop utility methods to handle the namespaces and prefixes conflicts while combining the importing external schema to a single WSDL file",
 									"Develop recursive logic to follow the XML element types to embed the undefined data structure if it has the same target namespace or create new schema if it has different target namespace",
 									"Dynamically and Programmatically generate or regenerate the simplified integration WSDL from large set of source WSDL, schema XSD files and fresh custom data by using XDK/JAXP/WSDL4J/DOM",
 									"Programmatically manipulate the single WSDL file generation from the source WSDL and schema XSD files with external schema file importing",
@@ -186,7 +186,7 @@
 								],
 								"technologies": [ "Metrics","graphite","jmx","splunk","ruby","splunk-ruby-SDK",
 									"performance monitoring","UDP","Capistrano","god","bash","gdash","graphite","statsd","metricsd"],
-								"tag":["devops","performance monitoring", "Scripts", "Automation", "Java", "JVM"]
+								"tag":["devops","performance monitoring", "Scripts", "Automation", "Java", "JVM", "Unix", "Linux"]
 							}
 						},
 						{
@@ -203,7 +203,7 @@
 									"Configure disk-array and virtual storage management (lvm, pv and vg..etc.)"
 								],
 								"technologies": [ "TFTP","PXE","DHCP","DNS","cobbler","RPC","xml","bash","ILO 3","IPMI","LVM","HP Servers","CentOS 6"],
-								"tags":["devops","automation","Scripts"]
+								"tags":["devops","automation","Scripts", "Unix", "Linux"]
 							}
 						},
 						{
@@ -226,7 +226,7 @@
 									"Setup Gerrit OpenID authentication with Atlassian crowd backend with Multiple LDAP servers"
 								],
 								"technologies": ["Pacemaker","Corosync","Cman","Keepalived","HAProxy","GFS2","DRBD","SAN","Gerrit","Artifactory","Nexus","PostgreSQ","OpenID","LDAP","Crowd"],
-								"tags":["devops","Linux HA", "Platform","Clustering"]
+								"tags":["devops","Linux HA", "Platform","Clustering", "Linux", "Unix"]
 							}
 						},
 						{
@@ -259,7 +259,7 @@
 									"Automate the dynamic deployment and provisioning process by using docker rest API and tools"
 								],
 								"technologies": ["CoreOS","Docker","Ruby","REST","LXC","cobbler","pxe","tftpboot","DHCP"],
-								"tags":["devops","Docker","CI/CD","cloud"]
+								"tags":["devops","Docker","CI/CD","cloud","Linux", "Unix"]
 							}
 						},
 						{
@@ -354,7 +354,7 @@
 									"Using Unix vmstat, top,...etc. to investigate the File system IO, CPU usage"
 								],
 								"technologies": ["64-bits Redhat Enterprise Linux","MySQL clustering","Apache","PHP","Jetty","64 bits Java","Apache Lucene/ Solr","Openlaszlo","distributed cache","distributed and parallel algorithm","ehcache","comet","continuation","DWR","JVM tuning","jmap","jstat","Sun JVM Heap","GC","vmstat"],
-								"tags":["devops","platform","Linux","Java", "JVM","GC","Clustering","Peformance Monitoring"]
+								"tags":["devops","platform","Linux","Java", "JVM","GC","Clustering","Peformance Monitoring","Linux", "Unix"]
 							}
 						},
 						{
@@ -405,7 +405,7 @@
 									"Implement cron job and shell scripts to backup EC2 instance data and EBS snapshot to S3"
 								],
 								"technologies": ["Fedora 6//7/8","AWS","EC2","S3","Jetty 6.x/7.x","MySQL 5.x","Apache httpd 2.x  and Solr 1.3.x/1.4.x","NFS","shell script(bash and sh)","ehCache","cron"],
-								"tags":["devops","cloud","platform","infrastructure", "MySQL", "DB Administration", "AWS"]
+								"tags":["devops","cloud","platform","infrastructure", "MySQL", "DB Administration", "AWS","Linux", "Unix"]
 							}
 						},
 						{
@@ -423,7 +423,7 @@
 									"Create unix shell scripts and Apache ant xml to release to QA, Staging and Production environment"
 								],
 								"technologies": ["Maven 2.x","subversion","TeamCity","PHP 5.x","Apache Http server 2.3","Apache Ant","MySQL5.x","Jetty 6.x","Openlaszlo 3.4","Apache Solr","Fedora 8"],
-								"tags":["devops","Java","platform","Lucene","cloud","SDLC", "Linux"]
+								"tags":["devops","Java","platform","Lucene","cloud","SDLC","Linux", "Unix"]
 							}
 						},
 						{
@@ -441,7 +441,7 @@
 									"Install and configure subversion 1.4, Maven 2.x, PHP5.x, Apache Httpd 2.x, MySQL 5.x."
 								],
 								"technologies": ["Virtualization","paravirtualization","VMware Workstation 6.2 and VMware Server 1.4","Xen","Microsoft Virtual PC","Fedora 8","RAID","SMP","Performance tuning","Subversion","Maven","PHP","MySQL"],
-								"tags":["devops","cloud","VmWare", "platform","linux"]
+								"tags":["devops","cloud","VmWare", "platform","Linux", "Unix"]
 							}
 						},
 						{
@@ -542,7 +542,7 @@
 									"Web based system troubleshooting and debug"
 								],
 								"technologies": ["Solaris 5,7","Linux(Redhat,Fedora)","F5 Big-IP load balancers","Switch","Router","VLAN","UPS","RAID 1,0,5","Windows Server","Terminal server","VNC","SPARCStorage","Tape Drive","Veritas","Apache","Resin","PostgreSQL"],
-								"tags":["Linux", "network", "DBMS"]
+								"tags":["Linux", "Unix","network", "DBMS"]
 							}
 						},
 						{
@@ -614,7 +614,7 @@
 									"Diagnosed hardware and software problems"
 								],
 								"technologies": [ "Solaris 8,9,10", "Linux", "AIX", "NFS", "NIS/NIS+", "LDAP", "SMTP", "IMAP", "POP3", "WebMail", "SSH", "Samba", "Kerberos", "Netgroup", "Jumpstart", "User Accounts", "Quota", "License server", "GNU Make", "GCC", "Java", "RAID", "Tape Library", "Veritas", "Apache","MySQL","Sun Ray Server","PAM","Security","Syslog"],
-								"tags":["devops","Unix","System Administration"]
+								"tags":["devops","Linux", "Unix","System Administration"]
 							}
 						},
 						{
@@ -648,7 +648,7 @@
 									"Configure SASL/GSSAPI authentication to LDAP server and identities mapping between SASL principal"
 								],
 								"technologies": ["SASL-2.1", "GSSAPI", "SEAM 1.2", "SunOne Directory Server 5.2", "NIS+", "LDAP V3", "PAM", "Solaris 9", "Windows Server 2003", "Active Directory"],
-								"tags":["devops", "System Administration", "LDAP", "Kerberos", "authentication"]
+								"tags":["devops", "System Administration", "LDAP", "Kerberos", "authentication","Linux", "Unix"]
 							}
 						},
 						{
@@ -663,7 +663,7 @@
 
 								],
 								"technologies": ["Sendmail", "Postfix", "Unix Mail Client", "Outlook", "Solaris 9", "Linux", "Windows Server", "Exchange Server", "IMAP/S", "POP3/S", "SSL"],
-								"tags":["System Administration", "Linux","Windows", "Mail Server/Client"]
+								"tags":["System Administration", "Linux","Windows", "Mail Server/Client","Linux", "Unix"]
 							}
 						},
 						{
@@ -676,7 +676,7 @@
 									"Configured SASL authentication on the IMAP/POP3 Unix client side (SquirrelMail and pine)"
 								],
 								"technologies": ["Openssl-0.9.7", "SASL-2.1", "Postfix 2.4", "SquirrelMail", "pine", "Solaris 9", "Linux"],
-								"tags":["System Administration", "SMTP Server", "email clients", "SSL", "Linux"]
+								"tags":["System Administration", "SMTP Server", "email clients", "SSL", "Linux", "Unix"]
 							}
 					  },
 						{
@@ -690,7 +690,7 @@
 									"Deployed SORCER/Jini/Rio dynamic provisioning environment"
 								],
 								"technologies": ["AIX 5.1", "NIM", "NFS", "NIS/NIS+", "SORCER/Jini/Rio"],
-								"tags":["System Administration", "AIX", "NIS/NIS+"]
+								"tags":["System Administration", "AIX", "NIS/NIS+", "Unix"]
 							}
 					  },
 						{
@@ -742,7 +742,7 @@
 									"Setup PAM modules configuration file (pam.conf) in UNIX (Debian Linux and Solaris) environments"
 								],
 								"technologies": ["Unix( Debian Linux, Solaris 8 and 9), LDAP(OpenLDAP2.1.2","SunONE Directory Server 5.2 ","MS Active Directory)","AFS (OpenAFS 1.2.10)","Kerberos (SEAM 1.2","MIT Kerberos V 1.3.1). PAM","GSSAPI","SSL","SASL","SSH","C++","GNU make","GCC", "Visual.NET","Perl"],
-								"tags":["devops","System Administration", "LDAP", "SSO", "OpenSource", "Kerberos"]
+								"tags":["devops","System Administration", "LDAP", "SSO", "OpenSource", "Kerberos","Linux", "Unix"]
 							}
 					  },
 						{
@@ -813,7 +813,7 @@
 									"Developed a Map Navigator (run as MIDlets and RMS on MIDP device) and Map Gateway (run as servlets in servlets engine) which can send a map query to mapquest.com and display the map image on the MIDP screen to help travel"
 								],
 								"technologies": ["GCC Compiler","Solaris","Linux Kernel 2.4","UML 2","Rational Rose","Java","SORCER","SOA","Jini","JavaSpace","JBoss","J2EE","VFS","Java Card platform","MIDP","MIDlets","Servlets","OCF","CLDC","Ant"],
-								"tags":["Java","C/C++","UML","Linux Kernel", "J2EE"]
+								"tags":["Java","C/C++","UML","Linux Kernel", "J2EE","Linux", "Unix"]
 							}
 						}
 					]
