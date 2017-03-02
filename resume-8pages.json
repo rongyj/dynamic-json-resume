@@ -1,0 +1,510 @@
+{
+	"resume": {
+		"contact" : {
+			"first_name": "Yongjun",
+			"last_name": "Rong",
+			"website": "",
+			"email": "rongyj@hotmail.com",
+			"github": "",
+			"city": "Cherry Hill, NJ, USA, 08003"
+		},
+		"education": [
+			{
+				"item-education": {
+					"start-date": "2002-09",
+					"end-date": "Jun.2006",
+					"institution": {
+						"name": "Texas Tech University",
+						"city": "Lubbock, TX",
+						"country": "USA"
+					},
+					"description": "Master of Computer Science",
+					"additional-info": "GPA: 4.0"
+				}
+			},
+			{
+				"item-education": {
+					"start-date": "1993-09-01",
+					"end-date": "Feb.1996",
+					"institution": {
+						"name": "Shanghai JiaoTong University",
+						"city": "Shanghai",
+						"country": "China"
+					},
+					"description": "Master of Engineering",
+					"additional-info": "Speciality: Hydraulic Fluid Control in Mechanical Engineering"
+				}
+			},
+			{
+				"item-education": {
+					"start-date": "1987-09-03",
+					"end-date": "Jul.1991",
+					"institution": {
+						"name": "Changsha Railway University",
+						"city": "Changsha, Hunan",
+						"country": "China"
+					},
+					"description": "Bachelor of Engineering",
+					"additional-info": "Speciality: Engineering Machine"
+				}
+			}
+		],
+		"work": [
+			{
+				"item-work": {
+					"start-date": "May, 2014",
+					"end-date": "Current",
+					"position": "Lead Software Engineer",
+					"company": {
+						"name": "Oracle",
+						"city": "Redwood, CA (WFH@NJ)",
+						"country": "USA "
+					},
+					"achievements": "The Cloud Connectivity software engineering team is responsible to develop the Cloud Integration Connectivity SDK and Java Connectors which enable the SOA Suite and Oracle Integration Cloud Service (ICS) connectivity to any Oracle internal or external SaaS or On-Premises Enterprise Applications.",
+					"technologies": [
+						"Java","SOA","Web Services", "SOAP/WSDL", "REST/JSON/XML","XSchema/XSD", "DOM", "WSDL4J", "SDK", "API", "MVC",
+						"Docker", "Cloud", "Amazon EC2", "NoSQL", "GIT", "Maven", "Junit", "SoapUI", "IaaS", "SaaS", "AWS"
+					],
+					"projects": [
+						{
+							"item-projects": {
+								"title": "Docker Swarm/Compose/Stack Development and CI Test Environment for  Cloud SDK/APIs/Connectors",
+								"description":"Research and prototype the docker containers, compose and swarm technologies to help developer setup complex testing services stack and improve CI testing environments for the SDK/APIs and Java Connectors. ",
+								"highlights":[
+									"Implemented complex Docker containers network with Overlay and MACVLAN drivers ",
+									"Created Dockerfiles to build WebLogic docker images with different external modules and libraries",
+									"Built Docker Hosts in Oracle Cloud VMs, Amazon EC2 and local VirtualBox by using Docker Machine",
+									"Designed and built the pool of Docker Cluster Environment by using Docker Swarm",
+									"Created Docker Stack file and deploy the service stack for multiple microservices",
+									"Developed docker-compose.yml files with extending services for the full service stack including dependency Web Services, DBMS, NoSQL and JMS",
+									"Researched and prototyped the Docker Swarm and Docker Compose integration"
+								],
+								"technologies": [ "Docker", "Docker Machine", "Docker Compose", "Docker Swarm","Docker Stack", "Docker CLI (Rest APIs)",
+									 "Weblogic", "Oracle Cloud VMs", "AWS", "JMS", "NoSQL (Cassandra)",
+									"DBMS (MySQL and PostgreSQL)"
+								],
+								"tags":["devops","cloud","infrastructure","platform","containers", "OpenSource", "Linux", "Unix"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "Cloud Enterprise Applications Integration connectivity SDK and Java Connectors",
+								"description":"The Cloud Integration Connectivity SDK and Java Connectors are built on the top of the Connector Architecture in the Award winning Oracle SOA Suite. It provides the plugin connectivity to any SaaS and On-Premises Enterprise Applications for the Oracle Integration Cloud Service and SOA Suite.",
+								"highlights":[
+									"Design and implement the WSDL regeneration framework by rebuilding the internal data model (DOM) from the persisted integration flow artifacts files (JCA, WSDL and XSD) and the remote custom data",
+									"Design and implement new APIs for the SDK to provide cache and pagination abilities for the backend persistent layer",
+									"Design and implement NLS and localization framework for displayable strings within the SDK",
+									"Troubleshoot the WSDL/XSD generation issues related to complex mixing namespaces and prefixes",
+									"Develop utility methods to handle the namespaces and prefixes conflicts while combining the importing external schema to a single WSDL file",
+									"Develop recursive logic to follow the XML element types to embed the undefined data structure if it has the same target namespace or create new schema if it has different target namespace",
+									"Dynamically and Programmatically generate or regenerate the simplified integration WSDL from large set of source WSDL, schema XSD files and fresh custom data by using XDK/JAXP/WSDL4J/DOM",
+									"Programmatically manipulate the single WSDL file generation from the source WSDL and schema XSD files with external schema file importing",
+									"Programmatically handle the anonymous Complex and Simple XSD type for the integration WSDL generation and regeneration",
+									"Design and test Oracle RCU DB descriptive XML files for new DB tables/sequences with primary and foreign keys",
+									"Worked together with different connector development teams to joint debug the WSDL regeneration related issues",
+									"Train and transfer knowledge for the WSDL regeneration framework to geographically distributed connector development teams"
+								],
+								"technologies": [ "Java","SOA","SOAP/REST","WSDL/JSON","XML","XML Schema","API","SDK","IaaS","RCU","JCA","XDK","JAXP","WSDL4J",
+									"DOM","WS-Security","Jersey REST/JSON","MVC","ADF","NLS/L10","Oracle DB","Jira","Agile",
+									"ADE","GIT","Maven","Junit","XMLUnit","SoapUI","OSC","ERP","HCM","RightNow"],
+								"tags":["Java","Enterprise Applications Integration","Web Services", "SDK", "API", "SOA"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "Oracle Fusion Applications (FA) Business Event Connector Framework",
+								"description":"The business event connector framework provides the abilities to auto-discover the FA (OSS/ERP/HCM) business events (including custom events), set event filtering conditions, subscribe to interesting business event and expose the SOAP web service as the event listener through the ICS web/JDeveloper design time UI. This event connector framework enables the Fire-and-Forget/ Asynchronous Response and Publish/Subscribe integration pattern for Business Integration",
+								"highlights":[
+									"Design and implement the business event connector for FA (OSC/ERP/HCM)",
+									"Build the design time web UI using the Oracle Web UI SDK which is building on the top of ADF",
+									"Design and Implement the Business Event Connector Runtime  ",
+									"Programmatically manipulate the payload to align with the changed schema in the integration WSDL  ",
+									"Design and implement the custom event based on the generic event concepts ",
+									"Programmatically replace the xsi:anyType generic object type with the concrete object type selected by the end user from the web UI"
+								],
+								"technologies": ["Java","FA","OSC/ERP/HCM","WSDL/SOAP","REST","JSON","XSI","XML Schema","XDK","JAXP",
+									"WSDL4J","DOM","WS-Security","Jersey REST/JSON","MVC","ADF","ADE","Maven","Junit","XMLUnit","SoapUI"],
+								"tags":["Java","Enterprise Applications Integration","Event"]
+							}
+						}
+					]
+				}
+			},
+			{
+				"item-work": {
+					"start-date": "Oct. 2010",
+					"end-date": "Apr. 2014",
+					"position": "Senior Infrastructure Automation Engineer",
+					"company": {
+						"name": "Comcast T&P",
+						"city": "Philadelphia, PA",
+						"country": "USA"
+					},
+					"achievements": "As a senior engineer in BITT(Build Integration Test Team), provided DevOps support for multiple development teams and supporting the developers for SDLC infrastructure system design/implementation, and Build/Release/Deployment/SCM/CI automation., designed, developed and implemented the AutoBuild system, OpenSource performance monitoring system for the SDLC systems, two steps bare-metal Linux bootstrap system for HP servers, Linux HA Clusters for SCM/Maven/CI/Crowd servers, Ruby/Rails software system maintenance and improvement. Managed the SCM(Gerrit/Subversion), CI(Bamboo) and maven repo (Nexus and Artifactory) system. Designed and developmented automation scripts (bash/ruby) to improve work efficiency. Led and Trained junior team members.",
+					"technologies": [
+						"DevOps", "Automation", "Docker", "CoreOS", "Ruby", "Bash", "SDLC", "GIT", "Maven", "Jira/Confluence", "Bamboo/Jekins/Hudson", "Nexus/Artifactory", "Gerrit", "CI/CD", "Performance Monitoring", "Splunk", "JMX", "Capistrano", "PXE/TFTP", "DHCP", "DNS", "Cobbler", "Centos", "MySQL/PostgreSQL", "NoSQL","Cassandra","RabbitMQ", "JMS", "LDAP", "SSO", "Mtrics", "Graphite", "Agile", "RPC", "Cloud", "Clustering", "Linux HA", "HAProxy", "Pacemaker/Corrosync/Cman","SAN","GFS2","RAC", "Volume Manager"
+					],
+					"projects": [
+						{
+							"item-projects": {
+								"title": "AutoBuild System for Build/Release more than 200 projects",
+								"description":"Automate the branching/tagging process and improve the work efficiency from 3 days to 1 day for more than 100 projects. Using maven versions plugin and maven repo REST API to automatically detect the latest snapshot and released dependency version and update pom.xml automatically. The cut tag script can cut a bug-fixing tag for the bug-fixing patch within 5 minutes.",
+								"highlights":[
+									"Design and implement the error handling and logging system for ruby bash commands",
+									"Implement build dependency graph and tree using RGL for more than 200 projects",
+									"Refactoring autoBuild to adapt to much large organization development practices",
+									"Design and implement the whole AutoBuild system",
+									"Using ruby and bash scripts wraps multiple manual steps to automate the whole branching and tagging process",
+									"Modify maven versions plugin to fix the bug which cannot update the dependency version property variables and the bug which cannot update the latest snapshot version to the latest released version",
+									"Detect and update the dependency versions in pom.xml automatically using maven versions plugin and maven repo servers REST API",
+									"Design and implement the branching/tagging process",
+									"Design code standards and rule to follow AutoBuild conventions for developers",
+									"Apply convention over configuration for AutoBuild system",
+									"Develop ruby scripts to post json message to a BOM management system to allow the artifacts ready to deploy",
+									"Develop automation script to post message to Jira and Confluence page using Atlassian Jira-cli and Confluence-cli",
+									"Develop bamboo scripts using bamboo command-cli to create plans from git/svn repos automatically",
+									"Install and configure Bamboo, Nexus, Artifactory, Crowd/OpenID, Gerrit and Subversion servers.",
+									"Maintain Ruby/Rails BOM management system",
+									"Using and configuring maven release, versions, toolchains, dependency…etc. plugins "
+								],
+								"technologies": ["Ruby/Rails","gems","Bash","Maven","GIT","SVN","Bamboo/Jira/Confluence CLI",
+									"Nexus/Artifactory REST/XML","SDLC","CI/CD","Gerrit/Subversion","MySQL/PostgreSQL","Crowd/OpenID","Capistrano"],
+								"tags":["devops","automation","CI","CD", "Scripts"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "Performance Monitoring System for Jetty, JVM and Linux",
+								"description":"The performance monitoring system collects JMX, splunk and OS metrics and display stats graphs for all different kinds of metrics for JVM heaps, threads and OS CPU/Disk/Memory usage and IO throughputs. Using open source projects and modify ruby/scala/java/python tools to integrate all different projects into one performance monitoring system, the system helps to detect the performance bottlenecks.",
+								"highlights":[
+									"Helped design the whole monitoring system using open source projects such as graphite, gdash, metricsd, stated, jmxtrans and god...etc.",
+									"Developed UDP metrics connectors and ruby splunk searcher to collect splunk stats",
+									"Using java, scala modify open source project jmxtrans, metricsd to use UDP",
+									"Develop Capistrano task to dynamically generate gdash templates for the metrics graphs and jmxtrans configuration files.",
+									"Using open source god project to manage the ruby processes",
+									"Modify open source project jmxsh to be able to list the jmx attributes"
+								],
+								"technologies": [ "Metrics","graphite","jmx","splunk","ruby","splunk-ruby-SDK",
+									"performance monitoring","UDP","Capistrano","god","bash","gdash","graphite","statsd","metricsd"],
+								"tag":["devops","performance monitoring", "Scripts", "Automation", "Java", "JVM", "Unix", "Linux"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "CoreOS and Docker prototyping and testing",
+								"description":"Using docker and CoreOS to dynamically create development and integration test environment on demand for each developer by launch a set of docker LXC with haproxy as the internal load balancer",
+								"highlights":[
+									"Helped design and implement the docker LXC system",
+									"Setup CoreOS stateful and stateless using pxe image via cobbler and tftpboot/DHCP",
+									"Create Docker images for CentOS/Java/Ruby/Haproxy",
+									"Create ruby Capistrano tasks to dynamically provision docker instances with haproxy as the internal LB on demand",
+									"Automate the dynamic deployment and provisioning process by using docker rest API and tools"
+								],
+								"technologies": ["CoreOS","Docker","Ruby","REST","LXC","cobbler","pxe","tftpboot","DHCP"],
+								"tags":["devops","Docker","CI/CD","cloud","Linux", "Unix"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "SDLC process management and junior team member training and mentoring",
+								"description":"Design and Manage the SDLC process to build/release/deploy more than 100 projects to maven repo/CI/Integration Test environments. Maintain the maven repo servers(Nexus and artifactory clusters), CI (Bamboo), SCM (Subversion and Git/Gerrit) and clustering integration environments.Identify and troubleshooting the build/release/deploy issues. Training, guiding and mentoring junior team member.",
+								"highlights":[
+									"Help to design and identify the build/release/deploy and configuration management strategies",
+									"Design standard development and code standards for developers to follow the autoBuild process.",
+									"Using Capistrano to manage deployment configuration for different environments(Dev, QA, Staging and Prod..etc.)",
+									"Communicate with developers to figure out the build/release issues",
+									"Troubleshooting build/release and configuration issues",
+									"Lead small team to develop autoBuild system using agile methodology",
+									"Train and guide new team member",
+									"Write confluence pages for documents",
+									"Presents to other team members in brown bag session",
+									"Transfer knowledge to other team member ",
+									"Administration the SCM/CI/Maven Repos clustering environments and SDLC tools",
+									"Research and design github enterprise branch/release process",
+									"Develop scripts to build dependency graphs and design algorithm to simplify it to dependency tree for more than 150 projects (git repos)"
+								],
+								"technologies": ["SDLC","SCM","Git/Subversion","GIT Hooks","Ruby","Bash","Confluence","Jira","Agile"],
+								"tags":["devops","Docker","CI/CD","SDLC"]
+							}
+						}
+					]
+				}
+			},
+			{
+				"item-work": {
+					"start-date": "Nov. 2006",
+					"end-date": "Oct., 2010",
+					"position": "Senior Software Engineer",
+					"company": {
+						"name": "Boomi Inc.",
+						"city": "Berwyn, PA",
+						"country": "USA"
+					},
+					"achievements": "As the market and technology leader in on-demand integration, Boomi is the industry's first and leading integration platform-as-a-service and a two-time SIIA CODiE award winner - Best Application Integration Solution (2010) and Best On-Demand Platform (2009).",
+					"technologies": [
+						"Java", "SOA", "IaaS", "PaaS", "EAI", "XML","XSD", "JAXB", "JavaScript", ".NET", "EC2", "S3", "EBS", "REST","SOAP", "WSDL", "SaaS", "SAP", "BAPI", "ABAP", "MySQL/PostgreSQL", "Maven", "SVN", "JVM", "JVM GC Tunning", "Apache Luncen", "Apache Solr", "VMWare", "Cloud"
+					],
+					"projects": [
+						{
+							"item-projects": {
+								"title": "Boomi  On-Demand Business Integration Service",
+								"description":"A Large On-Demand integration service-oriented (SOA) system helps to visually design the business integration process using Rich Internet Application (RIA), automatically deploy to distributed run-time engines based on REST/XML style.  The run-time engine named \"atom\" contains all the components required to execute an integration process from end-to-end including connectors, transformation rules, decision handling and processing logic. The software is delivered as a SaaS system based on web 2.0 technologies with zero installation and zero coding.",
+								"highlights":[
+									"Design and implement synchronous/asynchronous message framework using XML/JAXB/REST/HTTP",
+									"Design and implement dynamic reflection invocation connector framework using dynamic proxy and customized class loading to failover from local file system to remote webserver",
+									"User Management Subsystem (PKI certificate token based authentication and authorization)",
+									"Design and implement connectors to desktop accounting systems (QuickBooks, MAS 90, MS Dynamics Great Plains, Peachtree), ERP systems (MAS 500, SAP, MS Dynamics Navision, MS Dynamics CRM on-premise 4.0 and Online) and SaaS system ( Parature, AutoTask).",
+									"Design and implement Java to COM/DCOM/COM+/ .NET/WCF integration subsystem",
+									"Migrating data processing, mapping function …etc. modules from previous non-SOA version",
+									"Design and develop rich internet UI using openlaszlo",
+									"Design and deploy the load balancing and clustering SOA system in OpSource and Rackspace data center",
+									"Deploy SOA system in Amazon's EC2 and S3",
+									"Multiple threads concurrent subsystem design and implementation",
+									"Design and implement distributed cache in cluster using ehcache",
+									"Develop, build, deploy and release projects using IDEA, maven, subversion and TeamCity",
+									"Tracking bugs/Issues and interacting with QA/Support team using Jira Enterprise",
+									"Using confluence page to document ideas and functional design",
+									"Participate in agile development with scrum framework"
+								],
+								"technologies": ["Java","XML","XSD","JAXB","REST","HTTP","Hibernate","openlaszlo","SSL","PKI","com4j",".NET 3.0/2.0/1.1","COM/DCOM","Linux","QBXML","eConnect","servlet","Jetty","IDEA","Maven","subversion","Confluence","Jira","MySQL","RAID","SQL server","QuickBooks 2005","Sage MAS 90/200/500","MS Dynamics GP 9.0/10.0/2010","SOA"],
+								"tags":["Java","JavaScript","FullStack","EAI","cloud"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "Boomi On Demand Clustering Production Environment",
+								"description":"Distributed clustering production environment with ten 64-bits Redhat Enterprise Linux servers, Clustering MySQL DB servers, SAN and NFS is hosted in Rackspace and OpSource.",
+								"highlights":[
+									"Plan, Design and setup the clustering SOA production environment in OpSource and Rackspace",
+									"Maintain, build  and release the QA/production environment.",
+									"Migration of the production environment, application and MySQL DB data from OpSource to Rackspace",
+									"Setup and configure Apache Solr searching and indexing server",
+									"Create cron jobs and shell scripts to monitor hosted AtomSphere environment",
+									"Setup newrelic monitoring environment",
+									"Research and proto-type cluster solutions for the large SOA system.",
+									"Design distributed cache system using ehcache to reduce the DB access traffic from front end.",
+									"Design and implement the dynamic http polling algorithm on the front end to reduce the possibility of the suppress storm requests.",
+									"Using comet, jetty continuation to design an asynchronous http push (long polling) events system.",
+									"Using worker-stealing algorithm to design and implement an Apache solr indexing cluster with large throughput transactions (millions per day)",
+									"Research and proto-type MySQL clustering technologies",
+									"Setup and configuration Jetty and Openlaszlo clustering system (NFS sharing) ",
+									"Communicate with Rackspace support engineers with their tickets system to tracking issues ",
+									"Design, implement and troubleshooting Apache solr out of memory and DB table transaction lock and response time vibration problem.",
+									"Using Sun JVM troubleshooting utilities (visualVM, jmap, jstat,..etc.) to investigate the heap new generation and old generation usage",
+									"Tuning heap size and GC algorithm parameters to solve the out of memory issue",
+									"Collect response time statistics data to diagnose software system vibration",
+									"Using Unix vmstat, top,...etc. to investigate the File system IO, CPU usage"
+								],
+								"technologies": ["64-bits Redhat Enterprise Linux","MySQL clustering","Apache","PHP","Jetty","64 bits Java","Apache Lucene/ Solr","Openlaszlo","distributed cache","distributed and parallel algorithm","ehcache","comet","continuation","DWR","JVM tuning","jmap","jstat","Sun JVM Heap","GC","vmstat"],
+								"tags":["devops","platform","Linux","Java", "JVM","GC","Clustering","Peformance Monitoring","Linux", "Unix"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "Desktop Accounting and ERP Enterprise Applications Integration (EAI)",
+								"description":"Solutions integrating with some popular desktop accounting software (QuickBooks, MS Dynamics Great Plains, Sage Peachtree and Sage Simply Accounting,), and ERP(SAP, Oracle e-Business, PeopleSoft, JD Edwards and Siebel, MS Dynamics Navision, MS Dynamics CRM On-premise 4.0 and online) are developed to import and export business data using their related popular SDKs and APIs.",
+								"highlights":[
+									"Integrate QuickBooks (US, UK, Canada 2002-2008,) and QuickBooks Online Edition using the QBXML request processor.",
+									"Integrate Microsoft Dynamics Great Plains (9.x, 10.x and 2010) using eConnect (9.x, 10.x and 11) and WCF.",
+									"Integrate Microsoft Dynamics CRM on premise (3.0 and 4.0) and online using Web Services with NTLM authentication and windows live ID authentication ",
+									"Develop integration solution for Sage Peachtree Accounting system using its Import/Export engine API",
+									"Integrate with ERP (SAP, Oracle e-Business, PeopleSoft, JD Edwards and Siebel) using netmanage's Librados API.",
+									"Setup QuickBooks, Sage Peachtree, MS Dynamics GP desktop accounting system for testing",
+									"Setup Dynamics CRM 4.0 in EC2 windows server 2008 domain environment for testing",
+									"Research integration with QuickBooks POS system",
+									"Research integration with Sage Software (MAS 90/200, 500 ERP, Simply, Accpac ERP).",
+									"Research integration solution with Microsoft Dynamics Navision 4.0, 5.0 and 2009 using XMLPort, .NET Web services and Communication Components with windows socket bus adapter."
+								],
+								"technologies": ["QBXML RequestProcessor","Microsoft eConnect 9.x/10.x/11","Librados","SAP R3","BAPI","REST/XML","COM/COM+/DCOM",".NET","MS Dynamics Navision","MS Dynamics CRM","SOAP/WSDL","WCF","XMLPort","C/AL","CodeUnits"],
+								"tags":["Java","EAI",".NET"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "Amazon EC2 and S3 SOA HA Environment",
+								"description":"Three EC2 instances including two web instances as a cluster and one DB ( MySQL 5.x) instance, which is installed and configured with Apache open source search server solr and Apache httpd load balancer, are configured in Amazon web service virtual environment.",
+								"highlights":[
+									"Install and setup the Amazon EC2 client security (PKI token based authentication), commands and AMI tools",
+									"Setup Amazon EC2 large/small Linux/windows server instance with static IP address and EBS.",
+									"Install and configure two Jetty instances (Web UI + App server) in EC2 instance (Fedora 7)",
+									"Setup Apache httpd load balancer (mod_proxy_ajp and mod_proxy_balancer) for jetty 6.1.x",
+									"Setup NFS server and client to share data between two EC2 instances",
+									"Install MySQL 5.x server, create DB user, grant privileges and replicate the data.",
+									"Install and configure Solr in Jetty 6.x and create startup script",
+									"Create Jetty startup script to create log directory and grant permissions to the running users.",
+									"AMI bundles and images maintenance (create AMI bundles and upload it to S3, register AMI, remove AMI from S3).",
+									"Rescue the broken AMI (Download AMI bundles from S3, unbundle and mount it as loop device).",
+									"Setup EC2 security group and firewall.",
+									"Troubleshooting EC2 instance network and AMI booting problems",
+									"Troubleshooting timeout and performance problem",
+									"Setup Fedora 6/7/8 x86_64 EC2 large instance with Apache, MySQL",
+									"Troubleshooting MySQL 5.x 64-bit access denied problem",
+									"Troubleshooting MySQL 5.x  performance (table lock timeout and setup the right isolation level)",
+									"Configure distributed cache for the HA cluster using ehcache",
+									"Setup EBS for the HA cluster",
+									"Setup Rightscale auto-deploy scripts to start EC2 instance with Boomi AtomSphere built-in. ",
+									"Setup Windows Server 2008 domain environment with SQL Server ",
+									"Implement cron job and shell scripts to backup EC2 instance data and EBS snapshot to S3"
+								],
+								"technologies": ["Fedora 6//7/8","AWS","EC2","S3","Jetty 6.x/7.x","MySQL 5.x","Apache httpd 2.x  and Solr 1.3.x/1.4.x","NFS","shell script(bash and sh)","ehCache","cron"],
+								"tags":["devops","cloud","platform","infrastructure", "MySQL", "DB Administration", "AWS","Linux", "Unix"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "Java to C/C++, DLL, COM/COM+/DCOM/.NET Integration",
+								"description":"Using JNI, JNA, Com4j, ikvm, java application can be seamlessly integrated with c/c++ win32 DLLs, COM/COM+/DCOM Objects and .NET assemblies.",
+								"highlights":[
+									"Research and evaluate open source technologies such as com4j, JNBridge, ikvm, etc. for java-com and java-.net integration",
+									"Develop prototype application using the Microsoft Visual Studio 6.0, 2003 and 2005 (C# and VB) ",
+									"Configure COM/COM+/DCOM/.NET run time environment (regsvr32, dcomcnfg, gacutil, regasm, ..etc.)",
+									"Develop java to win32 DLL application using JNA (Java Native Access)",
+									"Develop java to COM/COM+/DCOM object application using com4j and register com object programmatically.",
+									"Using windows ComAdmin Objects access COM+ catalog to install and configure .NET assemblies' security permission programmatically in C#.",
+									"Using iKVM to integrate Java with .NET run-time",
+									"Using .NET System.Reflection namespace to dynamically invoke ComAdmin objects methods",
+									"Using open source JNA (Java Native Access) connect to win32 DLLs from java"
+								],
+								"technologies": ["Java",".NET 3.0/2.0/1.1","COM/DCOM","Com4j","iKVM","C#","VB.NET","JNI","JNA","Win32 DLL","COMAdmin"],
+								"tags":["Java",".NET", "C++"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "SaaS system integration",
+								"description":"Design, development and implement integration solutions for SaaS systems (Parature, AutoTask and Zuora) based on REST/XML and web services (SOAP/WSDL) technologies.",
+								"highlights":[
+									"Integrate with Parature.com using its’ REST style API",
+									"Integrate with AutoTask using SOAP/WSDL",
+									"Integrate with Zuora using SOAP/WSDL"
+								],
+								"technologies": ["REST/XML","SOAP/WSDL","namespace", "DOM","soapUI" ],
+								"tags":["Java","SaaS","SOA"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "SAP system integration",
+								"description":"Integrate with SAP NetWeaver and SAP R3 ECC 6.x via web services and librados (sapjco)",
+								"highlights":[
+									"Install and configure SAP NetWeaver 2006s/2007 test drive on Linux environment",
+									"Research and Prototype different SAP system integration solutions",
+									"Create and publish web service (SOAP/WSDL) for RFC and BAPI in SAP system using ABAP workbench",
+									"Self-teaching SAP basis system in two weeks",
+									"Troubleshooting librados/sapjco issues on SAP NetWeaver",
+									"Design and Implement Web Services (SOAP/WSDL) solution to integrate Java to SAP RFCs",
+									"Administrator SAP ABAP web services environment using SAP front-end UI."
+								],
+								"technologies": ["SAP R3","NetWeaver","Web Services","SOAP","WSDL","wsdl4j","SAP-JCO","RFC","BAPI","ABAP","Java"],
+								"tags":["SAP","Java","", "EAI","SOA"]
+							}
+						}
+					]
+				}
+			},
+			{
+				"item-work": {
+					"start-date": "Jun., 2006",
+					"end-date": "Nov.,2006",
+					"position": "Senior System Engineer Manager",
+					"company": {
+						"name": "Vantage learning",
+						"city": "Newtown, PA",
+						"country": "USA "
+					},
+					"achievements": "As the leader in cost-effective, high volume, secure, scalable online assessment and instructional programs for K-12 and higher education, Vantage Learning leverage technology such as artificial intelligence, natural language understanding, and web-based learning objects. Vantage Learning has received accolades ranging from the prestigious CODIE Award for best instructional technology.",
+					"technologies": [
+						"Linux", "Centos", "SOA", "Java", ".NET", "Network", "VLAN", "Router", "Firewall", "Load Balancer", "SOAP/WSDL", "MySQL/PostgreSQL", "Struts", "Disk Array",  "Fedora", "Redhat Linux", "LAMP", "eCommerce", "SQL"
+					],
+					"projects": [
+						{
+							"item-projects": {
+								"title": "Large scale SOA e-learning system architecture design and blueprinting",
+								"description":"Designed and blueprinted large scale SOA e-laerning system based on Java/.NET with PostgreSQL and MySQL DB clusters",
+								"highlights":[
+									"Researching and blueprinting SOA new technologies (WCF, WPF, XAML, AJAX, XML, SOAP, WSDL)",
+									"Setup proto-type environment for distributed session in a clustering SOA system",
+									"Design large-scale SOA clustering load balancing system",
+									"Design integration solution for Java and .NET",
+									"Researching on DB clustering environment for PostgreSQL and MySQL"
+								],
+								"technologies": [ "SOA","E-Learning","Struts","J2EE",".NET 2.0/3.0","Resin","SOAP","WSDL","UDDI","XML","PostgreSQL","MySQL"
+								],
+								"tags":["Java",".NET","SOA","DBMS","J2EE"]
+							}
+						}			
+					]
+				}
+			}
+		],
+		"skills": [
+			"Cloud platform/infrastructure design and implementation and DevOps Automation (AWS, Docker, Ruby/Rails, Bash, REST, Maven, GIT, SVN, CI, SDLC, Linux HA, DHCP, PXE, Cobbler, MySQL/PostgreSQL, GFS2/SAN)",
+			"Large SOA Web Services (SOAP/WSDL, REST/XML/JSON, RIA ) Enterprise Application Cloud/On-Premises Integration Service (IaaS) design, development and deployment",
+			"Desktop and Online Accounting, CRM and ERP System Integration Architect (Java to C/C++/DLLs, COM/COM+/DCOM,.NET, WCF,SOAP/WSDL,REST)",
+			"Server-side software development with middleware (J2EE,.NET) and DBMS",
+			"Cloud/On-premises Network System Administration(AWS, Linux/Unix/Windows, RAID, SAN, LDAP, Kerberos, NFS, DNS, LAN/VLAN, WAN, GSLB)"
+		],
+		"languages": [
+			{
+				"item-languages": {
+					"name": "English",
+					"additional-info": "Fluent"
+				}
+			},
+			{
+				"item-languages": {
+					"name": "Chinese",
+					"additional-info": "Native"
+				}
+			}
+		],
+		"hobbies":{
+		"hobby-items":[
+			{
+				"item-hobbies": {
+					"name": "Pingpong",
+					"additional-info": "ITFF Score around 1200"
+				}
+			},
+			{
+				"item-hobbies": {
+					"name": "IoT or Robot programming",
+					"additional-info": "Have iRobot and MIPOSaur at home. Programming against iRobot create SDK and MIPOSaur SDK."
+				}
+			},
+			{
+				"item-hobbies": {
+					"name": "IOS/Andriod Apps Development",
+					"additional-info": "Developing a Chinese charater learning App"
+				}
+			},
+			{
+				"item-hobbies": {
+					"name": "Playing with cutting-edge technologies",
+					"additional-info": "Docker, Go, Kafka, Kurbernets and Amazon Cloudformation, JavaScript, AngularJs, ReactiveJs, Node.js"
+				}
+			}
+		],
+		"hobby-projects": [
+			{
+				"item-projects": {
+					"title": "Personalized JSON Schema Resume",
+					"description":"Customized the open source project dynamic-json-resume using JSON format and mustache templates with Node.js and CSS3. github url: https://github.com/rongyj/dynamic-json-resume/tree/rongyj",
+					"highlights":[
+						"Adapt the JSON schema to personal resume format",
+						"Developed new utility methods to filter the JSON data",
+						"Personalized CSS3 styles with auto counting for multiple counters",
+						"Added new table mustache template",
+						"Added @media print page numbers to the CSS3 styles",
+						"Added CSS3 style for large table crosing page breakes",
+						"Debug in Atom with an open source Node-Debugger package"
+					],
+					"technologies": [ "JavaScript", "HTML5", "CSS3", "Node.js", "JSON", "mustache"
+					],
+					"tags":["FullStack", "JavaScript"]
+				}
+			}
+		]
+	}
+	}
+}
