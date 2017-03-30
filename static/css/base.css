@@ -139,7 +139,7 @@ div.project-item::before{
 	border-radius: 5px;
 	text-align: center;
 	margin: 0 auto;
-	width: 300px;
+	width: 500px;
 }
 
 .contact-name {
@@ -187,7 +187,7 @@ div.project-item::before{
 }
 
 .section > div {
-	padding-left: 50px;
+	padding-left: 45px;
 }
 .education-item {
 	padding-bottom: 5px;
@@ -219,7 +219,7 @@ div.project-item::before{
 }
 
 .skills-items {
-	padding-left: 50px;
+	padding-left: 45px;
 	display: flex;
 	flex-wrap: wrap;
 }

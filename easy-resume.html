@@ -1,0 +1,920 @@
+<head><style>html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	background-color:white;
+}
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.container {
+	display: flex;
+
+}
+
+ul.projects-section {
+	list-style: square;
+}
+ul.highlighted {
+	list-style: circle;
+}
+ul.skills-highlighted {
+	list-style: square;
+	padding-left: 15px;
+	border-radius: 5px;
+	font-size: medium;
+}
+li {
+	margin-left: 15px;
+	padding-left: 0px;
+}
+
+#cv {
+	  padding-left: 10px;
+  	flex: 3;
+		counter-reset: company;
+}
+
+
+#extra {
+	background-color: black;
+	color: white;
+  	flex: 1;
+  	font-size: large;
+  	padding: 10px;
+}
+
+div[id$='extra'] > a:link, div[id$='extra'] > ul > a:link{
+	text-decoration: : none;
+}
+
+div[id$='extra'] > a:visited, div[id$='extra'] > ul > a:link{
+	text-decoration: : none;
+}
+
+div[id$='extra'] > img {
+	width: 25%;
+	height: 25%;
+}
+
+table.work-experience {
+	  border: 2px solid black;
+    border-collapse: collapse;
+		table-layout: auto;
+}
+
+tr,th,td {
+	border: 1px solid black;
+}
+tr.work-item-header {
+	text-align:center;
+}
+tr.work-item {
+	text-align:left;
+}
+
+td.work-employer{
+	text-align:center;
+}
+
+td.work-accomplishments{
+	text-align:left;
+}
+
+.work-item{
+    counter-reset: projects;
+}
+
+
+.bold-font {
+	font-weight: bold;
+}
+
+#contact {
+	padding: 8px 4px;
+	border-radius: 5px;
+	text-align: center;
+	margin: 0 auto;
+	width: 300px;
+}
+
+.contact-name {
+	font-size: large;
+	font-weight: bold;
+}
+
+.section {
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+.projects-title-section {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: large;
+	padding-top: 8px;
+	padding-bottom: 5px;
+}
+.subtitle-section {
+	padding-left: 15px;
+	font-weight: bold;
+	font-size: medium;
+	text-decoration: underline;
+}
+
+.title-section {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: larger;
+	padding-bottom: 10px;
+}
+.item-projects-title{
+	padding-top: 0.5em;
+	font-size: large;
+}
+
+.header-date,.header-company-name,{
+	font-size: medium;
+}
+
+.header-date ,.header-company-name,.header-school-name,.description-education, .item-projects-title, .header-employer, .header-accomplishments, .header-technologies {
+	font-weight: bold;
+}
+
+.section > div {
+	padding-left: 50px;
+}
+.projects-section, #hobbies{
+	padding-left: 5px;
+}
+
+.education-item {
+	padding-bottom: 5px;
+}
+.work-item, .project-item {
+	padding-bottom: 12px;
+}
+.description-work {
+	padding-bottom: 5px;
+	padding-left: 12px;
+	display:inline-block;
+}
+
+.description-project {
+	padding-bottom: 5px;
+	padding-left: 6px;
+	display:inline-block;
+}
+
+span.technologies-work  {
+	font-size: medium;
+	margin-left: 15px;
+	display:inline-block;
+}
+
+.skills-items > span {
+	padding : 0px 10px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	border-radius: 6px;
+	border: 1px solid black;
+	background-color: #B2913F;
+	color: white;
+	font-weight: bold;
+	font-size: medium;
+	flex: 0 0 auto;
+}
+
+.skills-items {
+	padding-left: 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.highlighted {
+	padding-left: 15px;
+	border-radius: 5px;
+	font-size: medium;
+}
+@media (max-width: 900px) {
+    .container {
+        display: block;
+    }
+}
+
+@media print {
+	body {
+		margin: 0 0;
+	}
+	#extra {
+		display: none;
+	}
+}
+#extra {display: none;}</style></head><div class="container">
+
+    <div id="cv">
+        <div id="contact" >
+            <div class="contact-name">Yongjun Rong</div>
+            <div class="contact-email">rongyj@hotmail.com</div>
+            <div class="contact-city">Cherry Hill, NJ, USA, 08003</div>
+            <div class="contact-city">Tel: 856-408-4027</div>
+        </div>
+
+
+        <div id="skills" class="section">
+            <div class="title-section" style="page-break-after: avoid">Skills:</div>
+            <div>
+              <ul class="skills-highlighted">
+                  <li>Cloud platform&#x2F;infrastructure design and implementation and DevOps Automation (AWS, Docker, Ruby&#x2F;Rails, Bash, REST, Maven, GIT, SVN, CI, SDLC, Linux HA, DHCP, PXE, Cobbler, MySQL&#x2F;PostgreSQL, GFS2&#x2F;SAN)</li>
+                  <li>Large SOA Web Services (SOAP&#x2F;WSDL, REST&#x2F;XML&#x2F;JSON, RIA ) Enterprise Application Cloud&#x2F;On-Premises Integration Service (IaaS) design, development and deployment</li>
+                  <li>Desktop and Online Accounting, CRM and ERP System Integration Architect (Java to C&#x2F;C++&#x2F;DLLs, COM&#x2F;COM+&#x2F;DCOM,.NET, WCF,SOAP&#x2F;WSDL,REST)</li>
+                  <li>Server-side software development with middleware (J2EE,.NET) and DBMS</li>
+                  <li>Cloud&#x2F;On-premises Network System Administration(AWS, Linux&#x2F;Unix&#x2F;Windows, RAID, SAN, LDAP, Kerberos, NFS, DNS, LAN&#x2F;VLAN, WAN, GSLB)</li>
+              </ul>
+            </div>
+        </div>
+        <div id="work-experience" class="section">
+            <div class="title-section" style="page-break-after: avoid">Work Experience</div>
+            <div class="work-item" >
+              <div id="company-header">
+                <p class="header-company-name" style="text-align:left">Lead Software Engineer
+                  <span class="header-date" style="float:right">May, 2014 &ndash; Current</span>
+                </p>
+              </div>
+                <div class="header-company-name" style="page-break-inside: avoid">Oracle, Redwood, CA (WFH@NJ),USA </div><br />
+                <div class="description-work"> The Cloud Connectivity software engineering team is responsible to develop the Cloud Integration Connectivity SDK and Java Connectors which enable the SOA Suite and Oracle Integration Cloud Service (ICS) connectivity to any Oracle internal or external SaaS or On-Premises Enterprise Applications. </div>
+                <div id="projects" class="projects-section">
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Docker Swarm&#x2F;Compose&#x2F;Stack Development and CI Test Environment for  Cloud SDK&#x2F;APIs&#x2F;Connectors </li>
+                            <div class="description-project"> Research and prototype the docker containers, compose and swarm technologies to help developer setup complex testing services stack and improve CI testing environments for the SDK&#x2F;APIs and Java Connectors.  </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                Docker,
+                                Docker Machine,
+                                Docker Compose,
+                                Docker Swarm,
+                                Docker Stack,
+                                Docker CLI (Rest APIs),
+                                Weblogic,
+                                Oracle Cloud VMs,
+                                AWS,
+                                JMS,
+                                NoSQL (Cassandra),
+                                DBMS (MySQL and PostgreSQL),
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Cloud Enterprise Applications Integration connectivity SDK and Java Connectors </li>
+                            <div class="description-project"> The Cloud Integration Connectivity SDK and Java Connectors are built on the top of the Connector Architecture in the Award winning Oracle SOA Suite. It provides the plugin connectivity to any SaaS and On-Premises Enterprise Applications for the Oracle Integration Cloud Service and SOA Suite. </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                Java,
+                                SOA,
+                                SOAP&#x2F;REST,
+                                WSDL&#x2F;JSON,
+                                XML,
+                                XML Schema,
+                                API,
+                                SDK,
+                                IaaS,
+                                RCU,
+                                JCA,
+                                XDK,
+                                JAXP,
+                                WSDL4J,
+                                DOM,
+                                WS-Security,
+                                Jersey REST&#x2F;JSON,
+                                MVC,
+                                ADF,
+                                NLS&#x2F;L10,
+                                Oracle DB,
+                                Jira,
+                                Agile,
+                                ADE,
+                                GIT,
+                                Maven,
+                                Junit,
+                                XMLUnit,
+                                SoapUI,
+                                OSC,
+                                ERP,
+                                HCM,
+                                RightNow,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Oracle Fusion Applications (FA) Business Event Connector Framework </li>
+                            <div class="description-project"> The business event connector framework provides the abilities to auto-discover the FA (OSS&#x2F;ERP&#x2F;HCM) business events (including custom events), set event filtering conditions, subscribe to interesting business event and expose the SOAP web service as the event listener through the ICS web&#x2F;JDeveloper design time UI. This event connector framework enables the Fire-and-Forget&#x2F; Asynchronous Response and Publish&#x2F;Subscribe integration pattern for Business Integration </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                Java,
+                                FA,
+                                OSC&#x2F;ERP&#x2F;HCM,
+                                WSDL&#x2F;SOAP,
+                                REST,
+                                JSON,
+                                XSI,
+                                XML Schema,
+                                XDK,
+                                JAXP,
+                                WSDL4J,
+                                DOM,
+                                WS-Security,
+                                Jersey REST&#x2F;JSON,
+                                MVC,
+                                ADF,
+                                ADE,
+                                Maven,
+                                Junit,
+                                XMLUnit,
+                                SoapUI,
+                            </span>
+                    </div>
+                  </ul>
+                </div>
+            </div>
+            <div class="work-item" >
+              <div id="company-header">
+                <p class="header-company-name" style="text-align:left">Senior Platform&#x2F;Infrastructure Automation Engineer
+                  <span class="header-date" style="float:right">Oct. 2010 &ndash; Apr. 2014</span>
+                </p>
+              </div>
+                <div class="header-company-name" style="page-break-inside: avoid">Comcast T&amp;P, Philadelphia, PA,USA</div><br />
+                <div class="description-work"> As a senior engineer in BITT(Build Integration Test Team), provided DevOps support for multiple development teams and supporting the developers for SDLC infrastructure system design&#x2F;implementation, and Build&#x2F;Release&#x2F;Deployment&#x2F;SCM&#x2F;CI automation., designed, developed and implemented the AutoBuild system, OpenSource performance monitoring system for the SDLC systems, two steps bare-metal Linux bootstrap system for HP servers, Linux HA Clusters for SCM&#x2F;Maven&#x2F;CI&#x2F;Crowd servers, Ruby&#x2F;Rails software system maintenance and improvement. Managed the SCM(Gerrit&#x2F;Subversion), CI(Bamboo) and maven repo (Nexus and Artifactory) system. Designed and developmented automation scripts (bash&#x2F;ruby) to improve work efficiency. Led and Trained junior team members. </div>
+                <div id="projects" class="projects-section">
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> AutoBuild System for Build&#x2F;Release more than 200 projects </li>
+                            <div class="description-project"> Automate the branching&#x2F;tagging process and improve the work efficiency from 3 days to 1 day for more than 100 projects. Using maven versions plugin and maven repo REST API to automatically detect the latest snapshot and released dependency version and update pom.xml automatically. The cut tag script can cut a bug-fixing tag for the bug-fixing patch within 5 minutes. </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                Ruby&#x2F;Rails,
+                                gems,
+                                Bash,
+                                Maven,
+                                GIT,
+                                SVN,
+                                Bamboo&#x2F;Jira&#x2F;Confluence CLI,
+                                Nexus&#x2F;Artifactory REST&#x2F;XML,
+                                SDLC,
+                                CI&#x2F;CD,
+                                Gerrit&#x2F;Subversion,
+                                MySQL&#x2F;PostgreSQL,
+                                Crowd&#x2F;OpenID,
+                                Capistrano,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Performance Monitoring System for Jetty, JVM and Linux </li>
+                            <div class="description-project"> The performance monitoring system collects JMX, splunk and OS metrics and display stats graphs for all different kinds of metrics for JVM heaps, threads and OS CPU&#x2F;Disk&#x2F;Memory usage and IO throughputs. Using open source projects and modify ruby&#x2F;scala&#x2F;java&#x2F;python tools to integrate all different projects into one performance monitoring system, the system helps to detect the performance bottlenecks. </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                Metrics,
+                                graphite,
+                                jmx,
+                                splunk,
+                                ruby,
+                                splunk-ruby-SDK,
+                                performance monitoring,
+                                UDP,
+                                Capistrano,
+                                god,
+                                bash,
+                                gdash,
+                                graphite,
+                                statsd,
+                                metricsd,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Two Steps bare-metal Linux bootstrap system for HP Servers </li>
+                            <div class="description-project"> This system bootstrap the bare-metal HP box to automatically install and configure CentOS 6. First, it boots the HP bare-metal box to the HP-Toolkit via tftp&#x2F;pxe to setup BIOS configuration, collect the mac address, add DHCP host section with static ip and add new cobbler system using customized cobbler xmlrpc bash client. Second, it boots the bare-metal box to get the static DHCP IP and tftp&#x2F;pxe to the cobbler profile to install and configure CentOS 6 automatically. </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                TFTP,
+                                PXE,
+                                DHCP,
+                                DNS,
+                                cobbler,
+                                RPC,
+                                xml,
+                                bash,
+                                ILO 3,
+                                IPMI,
+                                LVM,
+                                HP Servers,
+                                CentOS 6,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Linux HA for SCM(Gerrit) &#x2F;Maven Repo (Artifactory&#x2F;Nexus) Servers </li>
+                            <div class="description-project"> The two nodes Linux HA cluster is for SCM(Gerrit) &#x2F; Maven Repo(Artifactory and Nexus) master&#x2F;slave failover system. Using pacemaker&#x2F;corosync&#x2F;cman or keepalived&#x2F;haproxy, it setup Gerrit, artifactory&#x2F;Nexus master&#x2F;slave automatically failover cluster with PostgreSQL&#x2F;RAC and GFS2 over SAN &#x2F; DRBD as backend DBMS and distributed file system. </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                Pacemaker,
+                                Corosync,
+                                Cman,
+                                Keepalived,
+                                HAProxy,
+                                GFS2,
+                                DRBD,
+                                SAN,
+                                Gerrit,
+                                Artifactory,
+                                Nexus,
+                                PostgreSQ,
+                                OpenID,
+                                LDAP,
+                                Crowd,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Automation scripts and tools for DevOps </li>
+                            <div class="description-project"> Develop and use scripts (Ruby&#x2F;bash) and tools to automate the build&#x2F;release&#x2F;deploy process to improve the work efficiency. </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                Ruby,
+                                Bash,
+                                Capistrano,
+                                Jira&#x2F;Rally,
+                                Bamboo&#x2F;Confluence,
+                                Git&#x2F;Gerrit,
+                                puppet,
+                                Nexus replication,
+                                REST&#x2F;XML,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> CoreOS and Docker prototyping and testing </li>
+                            <div class="description-project"> Using docker and CoreOS to dynamically create development and integration test environment on demand for each developer by launch a set of docker LXC with haproxy as the internal load balancer </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                CoreOS,
+                                Docker,
+                                Ruby,
+                                REST,
+                                LXC,
+                                cobbler,
+                                pxe,
+                                tftpboot,
+                                DHCP,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> SDLC process management and junior team member training and mentoring </li>
+                            <div class="description-project"> Design and Manage the SDLC process to build&#x2F;release&#x2F;deploy more than 100 projects to maven repo&#x2F;CI&#x2F;Integration Test environments. Maintain the maven repo servers(Nexus and artifactory clusters), CI (Bamboo), SCM (Subversion and Git&#x2F;Gerrit) and clustering integration environments.Identify and troubleshooting the build&#x2F;release&#x2F;deploy issues. Training, guiding and mentoring junior team member. </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                SDLC,
+                                SCM,
+                                Git&#x2F;Subversion,
+                                GIT Hooks,
+                                Ruby,
+                                Bash,
+                                Confluence,
+                                Jira,
+                                Agile,
+                            </span>
+                    </div>
+                  </ul>
+                </div>
+            </div>
+            <div class="work-item" >
+              <div id="company-header">
+                <p class="header-company-name" style="text-align:left">Senior Software Engineer
+                  <span class="header-date" style="float:right">Nov. 2006 &ndash; Oct., 2010</span>
+                </p>
+              </div>
+                <div class="header-company-name" style="page-break-inside: avoid">Boomi Inc., Berwyn, PA,USA</div><br />
+                <div class="description-work"> As the market and technology leader in on-demand integration, Boomi is the industry&#39;s first and leading integration platform-as-a-service and a two-time SIIA CODiE award winner - Best Application Integration Solution (2010) and Best On-Demand Platform (2009). </div>
+                <div id="projects" class="projects-section">
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Boomi  On-Demand Business Integration Service </li>
+                            <div class="description-project"> A Large On-Demand integration service-oriented (SOA) system helps to visually design the business integration process using Rich Internet Application (RIA), automatically deploy to distributed run-time engines based on REST&#x2F;XML style.  The run-time engine named &quot;atom&quot; contains all the components required to execute an integration process from end-to-end including connectors, transformation rules, decision handling and processing logic. The software is delivered as a SaaS system based on web 2.0 technologies with zero installation and zero coding. </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                Java,
+                                XML,
+                                XSD,
+                                JAXB,
+                                REST,
+                                HTTP,
+                                Hibernate,
+                                openlaszlo,
+                                SSL,
+                                PKI,
+                                com4j,
+                                .NET 3.0&#x2F;2.0&#x2F;1.1,
+                                COM&#x2F;DCOM,
+                                Linux,
+                                QBXML,
+                                eConnect,
+                                servlet,
+                                Jetty,
+                                IDEA,
+                                Maven,
+                                subversion,
+                                Confluence,
+                                Jira,
+                                MySQL,
+                                RAID,
+                                SQL server,
+                                QuickBooks 2005,
+                                Sage MAS 90&#x2F;200&#x2F;500,
+                                MS Dynamics GP 9.0&#x2F;10.0&#x2F;2010,
+                                SOA,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Boomi On Demand Clustering Production Environment </li>
+                            <div class="description-project"> Distributed clustering production environment with ten 64-bits Redhat Enterprise Linux servers, Clustering MySQL DB servers, SAN and NFS is hosted in Rackspace and OpSource. </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                64-bits Redhat Enterprise Linux,
+                                MySQL clustering,
+                                Apache,
+                                PHP,
+                                Jetty,
+                                64 bits Java,
+                                Apache Lucene&#x2F; Solr,
+                                Openlaszlo,
+                                distributed cache,
+                                distributed and parallel algorithm,
+                                ehcache,
+                                comet,
+                                continuation,
+                                DWR,
+                                JVM tuning,
+                                jmap,
+                                jstat,
+                                Sun JVM Heap,
+                                GC,
+                                vmstat,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Desktop Accounting and ERP Enterprise Applications Integration (EAI) </li>
+                            <div class="description-project"> Solutions integrating with some popular desktop accounting software (QuickBooks, MS Dynamics Great Plains, Sage Peachtree and Sage Simply Accounting,), and ERP(SAP, Oracle e-Business, PeopleSoft, JD Edwards and Siebel, MS Dynamics Navision, MS Dynamics CRM On-premise 4.0 and online) are developed to import and export business data using their related popular SDKs and APIs. </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                QBXML RequestProcessor,
+                                Microsoft eConnect 9.x&#x2F;10.x&#x2F;11,
+                                Librados,
+                                SAP R3,
+                                BAPI,
+                                REST&#x2F;XML,
+                                COM&#x2F;COM+&#x2F;DCOM,
+                                .NET,
+                                MS Dynamics Navision,
+                                MS Dynamics CRM,
+                                SOAP&#x2F;WSDL,
+                                WCF,
+                                XMLPort,
+                                C&#x2F;AL,
+                                CodeUnits,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Amazon EC2 and S3 SOA HA Environment </li>
+                            <div class="description-project"> Three EC2 instances including two web instances as a cluster and one DB ( MySQL 5.x) instance, which is installed and configured with Apache open source search server solr and Apache httpd load balancer, are configured in Amazon web service virtual environment. </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                Fedora 6&#x2F;&#x2F;7&#x2F;8,
+                                AWS,
+                                EC2,
+                                S3,
+                                Jetty 6.x&#x2F;7.x,
+                                MySQL 5.x,
+                                Apache httpd 2.x  and Solr 1.3.x&#x2F;1.4.x,
+                                NFS,
+                                shell script(bash and sh),
+                                ehCache,
+                                cron,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Setup Development, Build and Deployment Environment for QA, Staging and Production Environment </li>
+                            <div class="description-project"> Setup java, maven, subversion development, TeamCity build environment and Apache ant release xml, shell scripts and PHP scripts to maintain the user accounts. </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                Maven 2.x,
+                                subversion,
+                                TeamCity,
+                                PHP 5.x,
+                                Apache Http server 2.3,
+                                Apache Ant,
+                                MySQL5.x,
+                                Jetty 6.x,
+                                Openlaszlo 3.4,
+                                Apache Solr,
+                                Fedora 8,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Research virtualization technology and implement Virtual Machines using VMware server and workstation </li>
+                            <div class="description-project"> Researching and comparing current popular virtualization and paravirtualization technologies like VMware, Xen, Microsoft Virtual PC and implementing Virtualization Environments using VMware Workstation 6.x and Server 1.x. Performance diagnostics and tuning in Linux and VMware Environment. </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                Virtualization,
+                                paravirtualization,
+                                VMware Workstation 6.2 and VMware Server 1.4,
+                                Xen,
+                                Microsoft Virtual PC,
+                                Fedora 8,
+                                RAID,
+                                SMP,
+                                Performance tuning,
+                                Subversion,
+                                Maven,
+                                PHP,
+                                MySQL,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Java to C&#x2F;C++, DLL, COM&#x2F;COM+&#x2F;DCOM&#x2F;.NET Integration </li>
+                            <div class="description-project"> Using JNI, JNA, Com4j, ikvm, java application can be seamlessly integrated with c&#x2F;c++ win32 DLLs, COM&#x2F;COM+&#x2F;DCOM Objects and .NET assemblies. </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                Java,
+                                .NET 3.0&#x2F;2.0&#x2F;1.1,
+                                COM&#x2F;DCOM,
+                                Com4j,
+                                iKVM,
+                                C#,
+                                VB.NET,
+                                JNI,
+                                JNA,
+                                Win32 DLL,
+                                COMAdmin,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> SaaS system integration </li>
+                            <div class="description-project"> Design, development and implement integration solutions for SaaS systems (Parature, AutoTask and Zuora) based on REST&#x2F;XML and web services (SOAP&#x2F;WSDL) technologies. </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                REST&#x2F;XML,
+                                SOAP&#x2F;WSDL,
+                                namespace,
+                                DOM,
+                                soapUI,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> SAP system integration </li>
+                            <div class="description-project"> Integrate with SAP NetWeaver and SAP R3 ECC 6.x via web services and librados (sapjco) </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                SAP R3,
+                                NetWeaver,
+                                Web Services,
+                                SOAP,
+                                WSDL,
+                                wsdl4j,
+                                SAP-JCO,
+                                RFC,
+                                BAPI,
+                                ABAP,
+                                Java,
+                            </span>
+                    </div>
+                  </ul>
+                </div>
+            </div>
+            <div class="work-item" >
+              <div id="company-header">
+                <p class="header-company-name" style="text-align:left">Senior System Engineer Manager
+                  <span class="header-date" style="float:right">Jun., 2006 &ndash; Nov.,2006</span>
+                </p>
+              </div>
+                <div class="header-company-name" style="page-break-inside: avoid">Vantage learning, Newtown, PA,USA </div><br />
+                <div class="description-work"> As the leader in cost-effective, high volume, secure, scalable online assessment and instructional programs for K-12 and higher education, Vantage Learning leverage technology such as artificial intelligence, natural language understanding, and web-based learning objects. Vantage Learning has received accolades ranging from the prestigious CODIE Award for best instructional technology. </div>
+                <div id="projects" class="projects-section">
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Large scale SOA e-learning system architecture design and blueprinting </li>
+                            <div class="description-project"> Designed and blueprinted large scale SOA e-laerning system based on Java&#x2F;.NET with PostgreSQL and MySQL DB clusters </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                SOA,
+                                E-Learning,
+                                Struts,
+                                J2EE,
+                                .NET 2.0&#x2F;3.0,
+                                Resin,
+                                SOAP,
+                                WSDL,
+                                UDDI,
+                                XML,
+                                PostgreSQL,
+                                MySQL,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Large Data Center Design and Administration </li>
+                            <div class="description-project"> More than 100 Unix&#x2F;Linux&#x2F;Windows server machines and enterprise network devices (three sets of BIP load balancers, switch and routers) data center with more 30 mission-critical applications serving millions of Internet connections. </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                Solaris 5,7,
+                                Linux(Redhat,Fedora),
+                                F5 Big-IP load balancers,
+                                Switch,
+                                Router,
+                                VLAN,
+                                UPS,
+                                RAID 1,0,5,
+                                Windows Server,
+                                Terminal server,
+                                VNC,
+                                SPARCStorage,
+                                Tape Drive,
+                                Veritas,
+                                Apache,
+                                Resin,
+                                PostgreSQL,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Sun SPARCStorage SSA Array 100 and Sybase SQL Server (10.x, 11.x) Data (DB schema, data and Stored-Procedure) Recovery </li>
+                            <div class="description-project"> Recovered important patent data and technologies from an old dead Sun SPARCStorage SSA Array with Sybase Server </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                Solaris 5,7,
+                                Linux(Redhat, Fedora),
+                                Sybase SQL Server 10.x,
+                                Sybase ASE 11.x, 12,x 15.x,
+                                SSH,
+                                SPARCStorage  SSA Array 100,
+                                Tape Drive,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Ecommerce Open Source Software installation and Configuration </li>
+                            <div class="description-project"> Installed and Configuerd the osCommerce with the x-cart and Sales-n-Stats modules in PHP and MySQL environment </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                Linux(Redhat, Fedora),
+                                PHP5.x,
+                                MySQL 5.x,
+                                Apache 2.x,
+                            </span>
+                    </div>
+                  </ul>
+                    <ul class="projects-section">
+                    <div class="project-item"  >
+                            <li class="item-projects-title"> Resin Application Server Distributed Session Design and Setup </li>
+                            <div class="description-project"> Installed and Configuerd Resin Application Server with distributed session and http load balancer </div>
+                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                                Linux(Redhat, Fedora),
+                                resin 3.0,
+                                Java,
+                                Servlet,
+                                distributed session,
+                                cluster,
+                                load balancer (software and hardware),
+                            </span>
+                    </div>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div id="hobbies" class="section" >
+            <div class="title-section" style="page-break-after: avoid">Hobbies</div>
+            <div class="hobbies-items">
+                <ul class="highlighted">
+                    <li>
+                      Pingpong
+                          (ITFF Score around 1200)
+                    </li>
+                    <li>
+                      IoT or Robot programming
+                          (Have iRobot and MIPOSaur at home. Programming against iRobot create SDK and MIPOSaur SDK.)
+                    </li>
+                    <li>
+                      IOS&#x2F;Andriod Apps Development
+                          (Developing a Chinese charater learning App)
+                    </li>
+                    <li>
+                      Playing with cutting-edge technologies
+                          (Docker, Go, Kafka, Kurbernets and Amazon Cloudformation, JavaScript, AngularJs, ReactiveJs, Node.js)
+                    </li>
+                </ul>
+            </div>
+            <div id="projects" class="projects-section">
+                <ul class="projects-section">
+                <div class="hobby-project-item" >
+                        <li class="item-projects-title"> Personalized JSON Schema Resume </li><br/>
+                        <div class="description-project"> Customized the open source project dynamic-json-resume using JSON format and mustache templates with Node.js and CSS3. github url: https:&#x2F;&#x2F;github.com&#x2F;rongyj&#x2F;dynamic-json-resume&#x2F;tree&#x2F;rongyj </div>
+                        <div class="subtitle-section">Technologies:</div>
+                        <span class="technologies-work">
+                            JavaScript,
+                            HTML5,
+                            CSS3,
+                            Node.js,
+                            JSON,
+                            mustache,
+                        </span>
+                </div>
+              </ul>
+            </div>
+        </div>
+        <div id="education" class="section">
+            <div class="title-section">Education</div>
+            <div class="education-item" >
+                <span class="header-date">Jun.2006,</span>
+                <span class="description-education">Master of Computer Science,</span>
+                <span class="header-school-name">Texas Tech University,</span>
+                <span class="header-school-location">Lubbock, TX, USA</span>
+            </div>
+            <div class="education-item" >
+                <span class="header-date">Feb.1996,</span>
+                <span class="description-education">Master of Engineering,</span>
+                <span class="header-school-name">Shanghai JiaoTong University,</span>
+                <span class="header-school-location">Shanghai, China</span>
+            </div>
+            <div class="education-item" >
+                <span class="header-date">Jul.1991,</span>
+                <span class="description-education">Bachelor of Engineering,</span>
+                <span class="header-school-name">Changsha Railway University,</span>
+                <span class="header-school-location">Changsha, Hunan, China</span>
+            </div>
+        </div>
+    </div>
+    <div id="extra">
+    </div>
+    <!--div id="print-foot"/-->
+
+</div>

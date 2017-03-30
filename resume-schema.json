@@ -5,8 +5,10 @@
 			"last_name": "Rong",
 			"website": "",
 			"email": "rongyj@hotmail.com",
+			"phone": "856-408-4027",
 			"github": "",
-			"city": "Cherry Hill, NJ, USA, 08003"
+			"city": "Cherry Hill, NJ, USA, 08003",
+			"visa": "Green Card"
 		},
 		"education": [
 			{
@@ -19,12 +21,12 @@
 						"country": "USA"
 					},
 					"description": "Master of Computer Science",
-					"additional-info": "GPA: 4.0"
+					"additional-info": "GPA: 4.0/4.0"
 				}
 			},
 			{
 				"item-education": {
-					"start-date": "1993-09-01",
+					"start-date": "1993-09",
 					"end-date": "Feb.1996",
 					"institution": {
 						"name": "Shanghai JiaoTong University",
@@ -37,7 +39,7 @@
 			},
 			{
 				"item-education": {
-					"start-date": "1987-09-03",
+					"start-date": "1987-09",
 					"end-date": "Jul.1991",
 					"institution": {
 						"name": "Changsha Railway University",
@@ -71,7 +73,7 @@
 								"title": "Docker Swarm/Compose/Stack Development and CI Test Environment for  Cloud SDK/APIs/Connectors",
 								"description":"Research and prototype the docker containers, compose and swarm technologies to help developer setup complex testing services stack and improve CI testing environments for the SDK/APIs and Java Connectors. ",
 								"highlights":[
-									"Implemented complex Docker containers network with Overlay and MACVLAN drivers ",
+									"Designed and setup complex Docker containers network with Overlay and MACVLAN drivers ",
 									"Created Dockerfiles to build WebLogic docker images with different external modules and libraries",
 									"Built Docker Hosts in Oracle Cloud VMs, Amazon EC2 and local VirtualBox by using Docker Machine",
 									"Designed and built the pool of Docker Cluster Environment by using Docker Swarm",
@@ -91,9 +93,9 @@
 								"title": "Cloud Enterprise Applications Integration connectivity SDK and Java Connectors",
 								"description":"The Cloud Integration Connectivity SDK and Java Connectors are built on the top of the Connector Architecture in the Award winning Oracle SOA Suite. It provides the plugin connectivity to any SaaS and On-Premises Enterprise Applications for the Oracle Integration Cloud Service and SOA Suite.",
 								"highlights":[
-									"Design and implement the WSDL regeneration framework by rebuilding the internal data model (DOM) from the persisted integration flow artifacts files (JCA, WSDL and XSD) and the remote custom data",
-									"Design and implement new APIs for the SDK to provide cache and pagination abilities for the backend persistent layer",
-									"Design and implement NLS and localization framework for displayable strings within the SDK",
+									"Designed and implemented the WSDL regeneration framework by rebuilding the internal data model (DOM) from the persisted integration flow artifacts files (JCA, WSDL and XSD) and the remote custom data",
+									"Designed and implemented new APIs for the SDK to provide cache and pagination abilities for the backend persistent layer",
+									"Designed and implemented NLS and localization framework for displayable strings within the SDK",
 									"Troubleshoot the WSDL/XSD generation issues related to complex mixing namespaces and prefixes",
 									"Develop utility methods to handle the namespaces and prefixes conflicts while combining the importing external schema to a single WSDL file",
 									"Develop recursive logic to follow the XML element types to embed the undefined data structure if it has the same target namespace or create new schema if it has different target namespace",
@@ -158,14 +160,15 @@
 									"Modify maven versions plugin to fix the bug which cannot update the dependency version property variables and the bug which cannot update the latest snapshot version to the latest released version",
 									"Detect and update the dependency versions in pom.xml automatically using maven versions plugin and maven repo servers REST API",
 									"Design and implement the branching/tagging process",
+									"Developed ruby/bash scripts to lock/unlock remote GIT branch in gerri server during branching and cutting tags period",
 									"Design code standards and rule to follow AutoBuild conventions for developers",
-									"Apply convention over configuration for AutoBuild system",
+									"Applied convention over configuration for AutoBuild system",
 									"Develop ruby scripts to post json message to a BOM management system to allow the artifacts ready to deploy",
 									"Develop automation script to post message to Jira and Confluence page using Atlassian Jira-cli and Confluence-cli",
 									"Develop bamboo scripts using bamboo command-cli to create plans from git/svn repos automatically",
 									"Install and configure Bamboo, Nexus, Artifactory, Crowd/OpenID, Gerrit and Subversion servers.",
 									"Maintain Ruby/Rails BOM management system",
-									"Using and configuring maven release, versions, toolchains, dependency…etc. plugins "
+									"Setup maven release, versions, toolchains, dependency…etc. plugins"
 								],
 								"technologies": ["Ruby/Rails","gems","Bash","Maven","GIT","SVN","Bamboo/Jira/Confluence CLI",
 									"Nexus/Artifactory REST/XML","SDLC","CI/CD","Gerrit/Subversion","MySQL/PostgreSQL","Crowd/OpenID","Capistrano"],
@@ -174,19 +177,90 @@
 						},
 						{
 							"item-projects": {
-								"title": "Performance Monitoring System for Jetty, JVM and Linux",
+								"title": "Configuration management and deployment automation with Puppet and Capistrano",
+								"description":"Configuration management and deployment automation system by using puppet for linux os level configuration and capistrano for application level deployment automation",
+								"highlights":[
+									"Setup puppet master server and agent in Linux centos for DevOps and CI/CD environments",
+									"Designed and implemented develop/build/deployment process for the puppet templates files by using GIT",
+									"Developed puppet templates file for linux os patch and lib yum installation and updates",
+									"Developed capistrano deployment automation tasks and functions used by operation team for production deployment",
+									"Maintained and troubleshooting complex configuration and deployment automation issue within Capistrano and Puppet",
+									"Developed puppet templates and capistrano tasks to automate the configuration and deployment process for microservices with Dev/CI/CD environments",
+									"Developed Capistrano tasks to automate the Liferay deployment to Dev/QA/Staging/Prod environments with JDBC driver configuration to Oracle DB Server 11g"
+								],
+								"technologies": [ "Puppet","Capistrano","Ruby","bash","CI/CD","GIT", "Maven", "Perl", "Python"],
+								"tags":["devops", "Scripts", "Automation", "Linux", "CI/CD"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "Continious Integration (CI) and Continious Deployment (CD) with Bamboo and Jenkins",
+								"description":"Automation and Integration of the CI/CD clusting environments for more than 100 microservices with build/runtime dependencies using Bamboo and Jenkins",
+								"highlights":[
+									"Designed and implemented the CI/CD clustering environments using Bamboo and Jenkins for all different development and release branches",
+									"Developed automation scripts using Ruby/Bash/Perl/Python to launch the CI/CD environments with complex dependencies for more than 100 microservices",
+									"Developed auotmated integration scripts to integrated Bamboo/Jenkins with Jira/Confluence, GIT/Maven repo",
+									"Designed and implemented complex tasks/jobs chains/pipeline with trigger or events",
+									"Maintained and Troubleshooted complex CI/CD issues within the clustering environments with multiple Subsystems for more than 100 microservices",
+									"Developed automation scripts to automatically create Bamboo tasks from git repo and capistrano",
+									"Developed Capistrano automation tasks to deploy microservices stack with multiple microservices to Dev/QA/Staging/Prod",
+									"Developed Capistrano tasks to generate configuration file for HAProxy automatically",
+									"Setup Bamboo and Jenkins Servers Cluster with multiple remote agents/nodes as the build/deployment servers"
+								],
+								"technologies": [ "CI/CD","Bamboo","Jenkins","Ruby","Bash","Python","GIT", "Maven", "Jira/Confluence"],
+								"tags":["devops", "Scripts", "Automation","CI/CD", "Linux"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "Performance Monitoring System for Jetty, JVM, Linux and Splunk",
 								"description":"The performance monitoring system collects JMX, splunk and OS metrics and display stats graphs for all different kinds of metrics for JVM heaps, threads and OS CPU/Disk/Memory usage and IO throughputs. Using open source projects and modify ruby/scala/java/python tools to integrate all different projects into one performance monitoring system, the system helps to detect the performance bottlenecks.",
 								"highlights":[
-									"Helped design the whole monitoring system using open source projects such as graphite, gdash, metricsd, stated, jmxtrans and god...etc.",
+									"Designed the whole monitoring system using open source projects such as graphite, gdash, metricsd, stated, jmxtrans and god...etc.",
 									"Developed UDP metrics connectors and ruby splunk searcher to collect splunk stats",
-									"Using java, scala modify open source project jmxtrans, metricsd to use UDP",
-									"Develop Capistrano task to dynamically generate gdash templates for the metrics graphs and jmxtrans configuration files.",
-									"Using open source god project to manage the ruby processes",
-									"Modify open source project jmxsh to be able to list the jmx attributes"
+									"Devloped UDP connection for open source project jmxtrans, metricsd by using Java and Scala",
+									"Developed Capistrano task to dynamically generate gdash templates for the metrics graphs and jmxtrans configuration files.",
+									"Developed scripts manage the ruby processes by using open source God project",
+									"Fixed the bug cannot listing the jmx attributes in details for open source project jmxsh"
 								],
 								"technologies": [ "Metrics","graphite","jmx","splunk","ruby","splunk-ruby-SDK",
 									"performance monitoring","UDP","Capistrano","god","bash","gdash","graphite","statsd","metricsd"],
-								"tag":["devops","performance monitoring", "Scripts", "Automation", "Java", "JVM", "Unix", "Linux"]
+								"tags":["devops","performance monitoring", "Scripts", "Automation", "Java", "JVM", "Unix", "Linux"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "Secured FTP server with virtual users and admins users with complex access permissions",
+								"description":"Setup vsftp with virtual ftp only users and sftp servers with chrooted admin users to get complex access control for different type of users",
+								"highlights":[
+									"Setup vsftp server with virtual ftp only user which can only do ftp access and do not have local account associated",
+									"Setup sftp server with admin users which are chrooted such that they do not have access to the files",
+									"Setup the hybrid users with both ftp and sftp access",
+									"Modified open source vuser administration bash scripts to adapt to the special requirements",
+									"Developed script to sync the virtual user and local user for the hybrid user account",
+									"Setup complex user and group permission to do access control for different users"
+								],
+								"technologies": [ "ftp","sftp","chroot","bash","linux","user/group unix permission","sshd"],
+								"tags":["devops","Scripts", "Automation", "Linux"]
+							}
+						},
+						{
+							"item-projects": {
+								"title": "BOM (Bill Of Materials) Administration and Management Application (BAMA) Enhancement and maintenance",
+								"description":"Implemented with Ruby on Rails 3, Delayed_jobs, Ruby Websocket server, mySQL as the DB server, Passangers(mod_rails) and Apache HTTPD as LB, an internal BOM Administration and Management Application provides deployment automation and Management for more than 200 microservices for different environments (Dev/QA/Staging/Prod).The Enhancement feature enables the user to customize the list of microservices to deploy to different systems with matched Capistrano versions and BOM versions.",
+								"highlights":[
+									"Installed and configured Ruby on Rails 3 for BAMA for different environments with Delayed_jobs, Websocket server",
+									"Developed the Enhancement feature for BAMA to enable customization of list of microservices deployment to different systems",
+									"Developed Rails3 ActiveRecord DB Migraiton scripts to add new columns to the DB tables",
+									"Developed Rail3 Model, View, Controller, Routes, Websocket and Validation jobs",
+									"Developed Websocket server customized startup script",
+									"Developed scripts to integrate Capistrano and BOM GIT repo and BAMA together to deploy microservices with matching versions for Dev/QA/Staging/Prod environments",
+									"Developed automation ruby scripts to post JSON message to BAMA for the released artifacts",
+									"Developed scripts to upload artifacts to Maven Repo (Artifactory and Nexus) by using their REST APIs",
+									"Setup SSO (Signle-Sign-On) for BAMA with Atlassian Crowd ID and LDAP-based Authentication"
+								],
+								"technologies": [ "Ruby","RoR 3","Rails 3","ActiveRecord", "ActionView","ActionController","ActionMailer","Websocket","linux","JSON","Capistrano"],
+								"tags":["devops","RoR 3", "Scripts", "Automation", "Linux"]
 							}
 						},
 						{
@@ -208,13 +282,14 @@
 						},
 						{
 							"item-projects": {
-								"title": "Linux HA for SCM(Gerrit) /Maven Repo (Artifactory/Nexus) Servers",
-								"description":"The two nodes Linux HA cluster is for SCM(Gerrit) / Maven Repo(Artifactory and Nexus) master/slave failover system. Using pacemaker/corosync/cman or keepalived/haproxy, it setup Gerrit, artifactory/Nexus master/slave automatically failover cluster with PostgreSQL/RAC and GFS2 over SAN / DRBD as backend DBMS and distributed file system.",
+								"title": "Linux HA for Git Repo(Gerrit) and Maven Repo (Artifactory/Nexus) Servers",
+								"description":"The two nodes Linux HA cluster is for Git repo (Gerrit) / Maven Repo(Artifactory and Nexus) master/slave failover system. Using pacemaker/corosync/cman or keepalived/haproxy, it setup Gerrit, artifactory/Nexus master/slave automatically failover cluster with PostgreSQL/RAC and GFS2 over SAN / DRBD as backend DBMS and distributed file system.",
 								"highlights":[
 									"Design Linux HA master/slave failover cluster for Gerrit, Artifactory.",
 									"Configure pacemaker/corosync/cman for two-nodes cluster",
 									"Create Pacemaker resources and constraints for the services using pcs",
 									"Setup and configure  keepalived and haproxy for Nexus, artifactory",
+									"Developed HAProxy initd scripts to automatically failover to the latest good configure file if capistrano generate incorrect config file",
 									"Setup Distributed filesystem GFS2 over SAN(Multipath) and DRBD",
 									"Developed keepalived check scripts for Nexus and artifactory",
 									"Setup PostgreSQL master/slave cluster over SAN",
@@ -241,9 +316,17 @@
 									"Developed tools to automatically build the source dependency tree and branch/tagging parallel",
 									"Maintain configuration management tool Capistrano and automate the environment and service configuration ",
 									"Using Puppet to automate the system level configuration",
-									"Developed Nexus replication scripts from master to slave automatically with keepalived "
+									"Developed Nexus replication scripts from master to slave automatically with keepalived",
+									"Developed maven circular dependency checking scripts and created nightly CI jobs to run it against more than 100 microservices projects",
+									"Develope Capistrano logic to automatically check ruby version and install the right ruby version with rbenv",
+									"Developed bash scripts to launch python scripts to generate data parity reports and upload to confluence pages automatically",
+									"Developed automation tools to create Rally defect ticket and upload the heapDump file and grep the exception logs",
+									"Migrated Solr from Single-core to multi-core with automated Capistrano tasks",
+									"Developed Capistrano task to automatically migrate the solr data while upgarde jettey to new version",
+									"Installed and configured Python 2 and Python 3 in the same linux host",
+									"Developed Capistrano logic to automatically detect DB schema changes made by developers from source code"
 								],
-								"technologies": ["Ruby","Bash","Capistrano","Jira/Rally","Bamboo/Confluence","Git/Gerrit","puppet","Nexus replication","REST/XML"],
+								"technologies": ["Ruby","Bash","Python","Capistrano","Jira/Rally","Bamboo/Confluence","Git/Gerrit","puppet","Nexus replication","REST/XML"],
 								"tags":["devops","automation"]
 							}
 						},
@@ -305,7 +388,7 @@
 					"projects": [
 						{
 							"item-projects": {
-								"title": "Boomi  On-Demand Business Integration Service",
+								"title": "Boomi  On-Demand Business Integration Cloud Service",
 								"description":"A Large On-Demand integration service-oriented (SOA) system helps to visually design the business integration process using Rich Internet Application (RIA), automatically deploy to distributed run-time engines based on REST/XML style.  The run-time engine named \"atom\" contains all the components required to execute an integration process from end-to-end including connectors, transformation rules, decision handling and processing logic. The software is delivered as a SaaS system based on web 2.0 technologies with zero installation and zero coding.",
 								"highlights":[
 									"Design and implement synchronous/asynchronous message framework using XML/JAXB/REST/HTTP",
@@ -330,7 +413,7 @@
 						},
 						{
 							"item-projects": {
-								"title": "Boomi On Demand Clustering Production Environment",
+								"title": "Cloud (AWS, S3 and EBS) Platform/Infrastructure Design and Implementation for Boomi On Demand Production Environment",
 								"description":"Distributed clustering production environment with ten 64-bits Redhat Enterprise Linux servers, Clustering MySQL DB servers, SAN and NFS is hosted in Rackspace and OpSource.",
 								"highlights":[
 									"Plan, Design and setup the clustering SOA production environment in OpSource and Rackspace",
@@ -542,7 +625,7 @@
 									"Web based system troubleshooting and debug"
 								],
 								"technologies": ["Solaris 5,7","Linux(Redhat,Fedora)","F5 Big-IP load balancers","Switch","Router","VLAN","UPS","RAID 1,0,5","Windows Server","Terminal server","VNC","SPARCStorage","Tape Drive","Veritas","Apache","Resin","PostgreSQL"],
-								"tags":["Linux", "Unix","network", "DBMS"]
+								"tags":["devops","Linux", "Unix","network", "DBMS"]
 							}
 						},
 						{
@@ -1072,11 +1155,20 @@
 			}
 		],
 		"skills": [
-			"Cloud platform/infrastructure design and implementation and DevOps Automation (Amazon EC2, Docker, Ruby/Rails, Bash, REST, Maven, GIT, SVN, CI, SDLC, Linux HA, DHCP, PXE, Cobbler, MySQL/PostgreSQL, GFS2/SAN)",
+			"Cloud platform/infrastructure design and implementation and DevOps Automation (AWS, Docker, VMWare/Openstack, Linux HA, Ruby/Rails, Bash, REST, Maven, GIT, SVN, CI, SDLC, DHCP, PXE, Cobbler, MySQL/PostgreSQL, GFS2/SAN)",
 			"Large SOA Web Services (SOAP/WSDL, REST/XML/JSON, RIA ) Enterprise Application Cloud/On-Premises Integration Service (IaaS) design, development and deployment",
 			"Desktop and Online Accounting, CRM and ERP System Integration Architect (Java to C/C++/DLLs, COM/COM+/DCOM,.NET, WCF,SOAP/WSDL,REST)",
 			"Server-side software development with middleware (J2EE,.NET) and DBMS",
 			"Distributed Network System Administration(EC2, Linux/Unix/Windows, RAID, SAN, LDAP, Kerberos, NFS, DNS, LAN/VLAN, WAN, GSLB)"
+		],
+		"technologies":[
+			{	"daily-programing-language":["Java","JavaScript","Bash","Ruby"]
+
+			},
+			{
+
+			}
+
 		],
 		"languages": [
 			{

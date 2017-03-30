@@ -5,6 +5,7 @@ var path = require('path');
 var fs = require('fs');
 var mustache = require('mustache');
 var pdf = require('html-pdf');
+//var pdf = require('jspdf');
 var pkg = require('./package.json');
 var verifier = require('./lib/verifier');
 var extraManager = require('./lib/extraItemsManager');
@@ -17,10 +18,14 @@ program
   .version(pkg.version)
 
 program
-  .command('export <path_json> [pdf_location] [css_file_location]')
+  .command('export <path_json> [resume_gen_tags] [template_location] [pdf_location] [css_file_location]')
   .description('Export a pdf resume from the json resume provided to the given location, applying the css file given')
-  .action(function(path_json, pdf_location, css_file_location) {
-  		fs.readFile(__dirname + "/templates/" + "resume.tpl", 'utf-8', function (err, data) {
+  .action(function(path_json, resume_gen_tags, temp_location, pdf_location, css_file_location) {
+    var template_location = __dirname + "/templates/" + "resume.tpl";
+    if(temp_location)
+      template_location =temp_location;
+    fs.readFile(template_location, 'utf-8', function (err, data) {
+  		//fs.readFile(__dirname + "/templates/" + "resume.tpl", 'utf-8', function (err, data) {
 			if (err) {
 				console.log(err);
 				process.exit(1);
@@ -32,8 +37,16 @@ program
 						process.exit(1);
 					}
 			    	var resumeJson = JSON.parse(data);
-            var expectTags= ["devops"];
-            utils.filterProjects(resumeJson,expectTags);
+            if(resume_gen_tags == "short"){
+              utils.removeProjectsHighlights(resumeJson);
+            }else if(resume_gen_tags == "FullStack"){
+              var expectTags= ["Java", "JavaScript", "FullStack"];
+              utils.filterProjects(resumeJson,expectTags);
+            }else if( resume_gen_tags && resume_gen_tags != "full" ){
+              var expectTags= resume_gen_tags.split(',');
+              utils.filterProjects(resumeJson,expectTags);
+            }
+
 			    	var v = verifier.run(resumeJson);
 
 				    if (templateContent && v) {
@@ -51,6 +64,41 @@ program
 				    		var head = "<head><style>" + data + "</style></head>";
 				    		templateContent = head + templateContent;
 				    		var html = mustache.to_html(templateContent, {"resume" : resumeJson.resume});
+
+
+                              /*  jsPdf
+                              //var pdf= new jsPDF();
+
+                              //global.window = {document: {createElementNS: () => {return {}} }};
+                              //global.navigator = {};
+                              //global.btoa = () => {};
+
+
+                              //let jsPDF = require('jspdf');
+
+                              let pdf = new jsPDF();
+                              let jQuery = require('jquery');
+                              var htmlDom= jQuery.parseHTML(html);
+                              pdf.fromHTML(htmlDom);
+                              let pdfdata = pdf.output();
+                              pdf.text(html);
+                              var finalPdfLocation = '/resume.pdf';
+
+                              if (pdf_location) {
+                                finalPdfLocation = '/' + pdf_location;
+                              }
+                              var _path = process.cwd() + finalPdfLocation;
+                              //pdf.save(_path);
+
+                              fs.writeFileSync(_path, pdfdata);
+
+                              delete global.window;
+                              delete global.navigator;
+                              delete global.btoa;
+                              */
+
+
+
 
 							pdf.create(html, {
 								width: '297mm',
@@ -76,6 +124,7 @@ program
 									}
 								}
 							});
+
 				    	});
 					}
 			    });
@@ -109,15 +158,7 @@ program
 						process.exit(1);
 					}
 			    	var resumeJson = JSON.parse(data);
-            if(resume_gen_tags == "short"){
-              utils.removeProjectsHighlights(resumeJson);
-            }else if(resume_gen_tags == "FullStack"){
-              var expectTags= ["Java", "JavaScript", "FullStack"];
-              utils.filterProjects(resumeJson,expectTags);
-            }else if(resume_gen_tags != "full" ){
-              var expectTags= resume_gen_tags.split(',');
-              utils.filterProjects(resumeJson,expectTags);
-            }
+            var originalResumeJson = JSON.parse(data);
 			    	var v = verifier.run(resumeJson);
 
 				    if (templateContent && v) {
@@ -136,6 +177,20 @@ program
 
 				    		var head = "<head><style>" + data + "</style></head>";
 				    		templateContent = head + templateContent;
+
+                resumeJson.resume["original"]=originalResumeJson.resume;
+                if(resume_gen_tags == "short"){
+                  utils.removeProjectsHighlights(resumeJson);
+                }else if(resume_gen_tags == "FullStack"){
+                  var expectTags= ["Java", "JavaScript", "FullStack"];
+                  utils.filterProjects(resumeJson,expectTags);
+                }else if(resume_gen_tags == "table") {
+                  delete resumeJson.resume.work;
+                  delete resumeJson.resume.hobbies["hobby-projects"];
+                }else if( resume_gen_tags && resume_gen_tags != "full" ){
+                  var expectTags= resume_gen_tags.split(',');
+                  utils.filterProjects(resumeJson,expectTags);
+                }
 				    		var html = mustache.to_html(templateContent, {"resume" : resumeJson.resume});
 
 				    		var outputLocation = '/resume.html';
