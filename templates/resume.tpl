@@ -102,7 +102,7 @@
         {{ /resume.original.work.length}}
         {{ #resume.work.length }}
         <div id="work-experience" class="section">
-            <div class="title-section" style="page-break-after: avoid">Selected Projects</div>
+            <div class="title-section" style="page-break-before: always; page-break-after: auto">Selected Projects</div>
             {{ #resume.work}}
             <div class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}}>
                 <span class="header-date">{{ item-work.start-date}} &ndash; {{ item-work.end-date }},</span>
@@ -113,7 +113,7 @@
                 <div id="projects" class="projects-section">
                     {{ #item-work.projects }}
                     <div class="project-item" {{#item-projects.id}} data-id="{{ item-projects.id }}" {{/item-projects.id}} >
-                            <span class="item-projects-title" style="page-break-inside: avoid"> {{ item-projects.title }} </span><br/>
+                            <span class="item-projects-title" style="page-break-after: auto;page-break-inside: avoid"> {{ item-projects.title }} </span><br/>
                             <div class="description-work" style="page-break-inside: avoid"> {{ item-projects.description }} </div>
                             {{#item-projects.highlights.length}}
                             <div class="subtitle-section" style="page-break-after: avoid">Highlights:</div>

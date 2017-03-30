@@ -149,11 +149,11 @@
 					"projects": [
 						{
 							"item-projects": {
-								"title": "AutoBuild System for Build/Release more than 200 projects",
+								"title": "AutoBuild System for Build/Release more than 100 projects",
 								"description":"Automate the branching/tagging process and improve the work efficiency from 3 days to 1 day for more than 100 projects. Using maven versions plugin and maven repo REST API to automatically detect the latest snapshot and released dependency version and update pom.xml automatically. The cut tag script can cut a bug-fixing tag for the bug-fixing patch within 5 minutes.",
 								"highlights":[
 									"Design and implement the error handling and logging system for ruby bash commands",
-									"Implement build dependency graph and tree using RGL for more than 200 projects",
+									"Implement build dependency graph and tree using RGL for more than 100 projects",
 									"Refactoring autoBuild to adapt to much large organization development practices",
 									"Design and implement the whole AutoBuild system",
 									"Using ruby and bash scripts wraps multiple manual steps to automate the whole branching and tagging process",
@@ -223,7 +223,7 @@
 									"Developed scripts manage the ruby processes by using open source God project",
 									"Fixed the bug cannot listing the jmx attributes in details for open source project jmxsh"
 								],
-								"technologies": [ "Metrics","graphite","jmx","splunk","ruby","splunk-ruby-SDK",
+								"technologies": [ "Metrics","graphite","jmx","splunk","Ruby","splunk-ruby-SDK",
 									"performance monitoring","UDP","Capistrano","god","bash","gdash","graphite","statsd","metricsd"],
 								"tags":["devops","performance monitoring", "Scripts", "Automation", "Java", "JVM", "Unix", "Linux"]
 							}
@@ -413,7 +413,7 @@
 						},
 						{
 							"item-projects": {
-								"title": "Cloud (AWS, S3 and EBS) Platform/Infrastructure Design and Implementation for Boomi On Demand Production Environment",
+								"title": "Cloud Platform/Infrastructure Design and Implementation for Boomi On Demand Production Environment",
 								"description":"Distributed clustering production environment with ten 64-bits Redhat Enterprise Linux servers, Clustering MySQL DB servers, SAN and NFS is hosted in Rackspace and OpSource.",
 								"highlights":[
 									"Plan, Design and setup the clustering SOA production environment in OpSource and Rackspace",
