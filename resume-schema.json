@@ -144,16 +144,16 @@
 					},
 					"achievements": "As a senior engineer in BITT(Build Integration Test Team), provided DevOps support for multiple development teams and supporting the developers for SDLC infrastructure system design/implementation, and Build/Release/Deployment/SCM/CI automation., designed, developed and implemented the AutoBuild system, OpenSource performance monitoring system for the SDLC systems, two steps bare-metal Linux bootstrap system for HP servers, Linux HA Clusters for SCM/Maven/CI/Crowd servers, Ruby/Rails software system maintenance and improvement. Managed the SCM(Gerrit/Subversion), CI(Bamboo) and maven repo (Nexus and Artifactory) system. Designed and developmented automation scripts (bash/ruby) to improve work efficiency. Led and Trained junior team members.",
 					"technologies": [
-						"DevOps", "Automation", "Docker", "CoreOS", "Ruby", "Bash", "SDLC", "GIT", "Maven", "Jira/Confluence", "Bamboo/Jekins/Hudson", "Nexus/Artifactory", "Gerrit", "CI/CD", "Performance Monitoring", "Splunk", "JMX", "Capistrano", "PXE/TFTP", "DHCP", "DNS", "Cobbler", "Centos", "MySQL/PostgreSQL", "NoSQL","Cassandra","RabbitMQ", "JMS", "LDAP", "SSO", "Mtrics", "Graphite", "Agile", "RPC", "Cloud", "Clustering", "Linux HA", "HAProxy", "Pacemaker/Corrosync/Cman","SAN","GFS2","RAC", "Volume Manager"
+						"DevOps", "Automation", "Docker", "CoreOS", "Ruby", "Ruby on Rails 3", "Bash", "SDLC", "GIT", "Maven", "Jira/Confluence", "Bamboo/Jekins/Hudson", "Nexus/Artifactory", "Gerrit", "CI/CD", "Performance Monitoring", "Splunk", "JMX", "Capistrano", "PXE/TFTP", "DHCP", "DNS", "Cobbler", "Centos", "MySQL/PostgreSQL", "NoSQL","Cassandra","RabbitMQ", "JMS", "LDAP", "SSO", "Mtrics", "Graphite", "Agile", "RPC", "Cloud", "Clustering", "Linux HA", "HAProxy", "Pacemaker/Corrosync/Cman","SAN","GFS2","RAC", "Volume Manager"
 					],
 					"projects": [
 						{
 							"item-projects": {
-								"title": "AutoBuild System for Build/Release more than 100 projects",
-								"description":"Automate the branching/tagging process and improve the work efficiency from 3 days to 1 day for more than 100 projects. Using maven versions plugin and maven repo REST API to automatically detect the latest snapshot and released dependency version and update pom.xml automatically. The cut tag script can cut a bug-fixing tag for the bug-fixing patch within 5 minutes.",
+								"title": "AutoBuild System for Build/Release more than 200 microservices projects",
+								"description":"Automate the branching/tagging process and improve the work efficiency from 3 days to 1 day for more than 200 projects. Using maven versions plugin and maven repo REST API to automatically detect the latest snapshot and released dependency version and update pom.xml automatically. The cut tag script can cut a bug-fixing tag for the bug-fixing patch within 5 minutes.",
 								"highlights":[
 									"Design and implement the error handling and logging system for ruby bash commands",
-									"Implement build dependency graph and tree using RGL for more than 100 projects",
+									"Implement build dependency graph and tree using RGL for more than 200 projects",
 									"Refactoring autoBuild to adapt to much large organization development practices",
 									"Design and implement the whole AutoBuild system",
 									"Using ruby and bash scripts wraps multiple manual steps to automate the whole branching and tagging process",
@@ -307,7 +307,7 @@
 						{
 							"item-projects": {
 								"title": "Automation scripts and tools for DevOps",
-								"description":"Develop and use scripts (Ruby/bash) and tools to automate the build/release/deploy process to improve the work efficiency.",
+								"description":"Develop and use scripts (Ruby/Bash) and tools to automate the build/release/deploy process to improve the work efficiency.",
 								"highlights":[
 									"Develop migration tools to migrate git repos from different remote git repos(Gerrit, stash and gitorious) to new Gerrit server",
 									"Develop scripts to find the largest commit object and rewrite git history to improve git performance",
@@ -348,7 +348,7 @@
 						{
 							"item-projects": {
 								"title": "SDLC process management and junior team member training and mentoring",
-								"description":"Design and Manage the SDLC process to build/release/deploy more than 100 projects to maven repo/CI/Integration Test environments. Maintain the maven repo servers(Nexus and artifactory clusters), CI (Bamboo), SCM (Subversion and Git/Gerrit) and clustering integration environments.Identify and troubleshooting the build/release/deploy issues. Training, guiding and mentoring junior team member.",
+								"description":"Design and Manage the SDLC process to build/release/deploy more than 200 projects to maven repo/CI/Integration Test environments. Maintain the maven repo servers(Nexus and artifactory clusters), CI (Bamboo), SCM (Subversion and Git/Gerrit) and clustering integration environments.Identify and troubleshooting the build/release/deploy issues. Training, guiding and mentoring junior team member.",
 								"highlights":[
 									"Help to design and identify the build/release/deploy and configuration management strategies",
 									"Design standard development and code standards for developers to follow the autoBuild process.",
@@ -1189,7 +1189,7 @@
 			{
 				"item-hobbies": {
 					"name": "Pingpong",
-					"additional-info": "ITFF Score around 1200"
+					"additional-info": "ITTF Score around 1200"
 				}
 			},
 			{
