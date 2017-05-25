@@ -214,18 +214,32 @@ program
     });
 
 program
-  .command('exportToPlainText <path_json> [output_location]')
+  .command('exportToPlainText <path_json>  <resume_gen_tags> [output_location]')
   .description('Export a text file resume from the json resume provided to the given location')
-  .action(function(path_json, output_location) {
+  .action(function(path_json, resume_gen_tags, output_location) {
 		fs.readFile(__dirname + '/' + path_json, 'utf-8', function (err, data) {
 			if (err) {
 				console.log(err);
 				process.exit(1);
 			}
-	    	var resumeJson = JSON.parse(data);
+	    	var resumeJson = JSON.parse(data);			
+    		//var originalResumeJson = JSON.parse(data);
 	    	var v = verifier.run(resumeJson);
-
-		    if (v) {
+		    if (v) {				
+		        //resumeJson.resume["original"]=originalResumeJson.resume;
+		        if(resume_gen_tags == "short"){
+		          utils.removeProjectsHighlights(resumeJson);
+		        }else if(resume_gen_tags == "FullStack"){
+		          var expectTags= ["Java", "JavaScript", "FullStack"];
+		          utils.filterProjects(resumeJson,expectTags);
+		        }else if(resume_gen_tags == "table") {
+		          delete resumeJson.resume.work;
+		          delete resumeJson.resume.hobbies["hobby-projects"];
+		        }else if( resume_gen_tags && resume_gen_tags != "full" ){
+		          var expectTags= resume_gen_tags.split(',');
+		          utils.filterProjects(resumeJson,expectTags);
+		        }
+				
 		    	var outputLocation = '/resume.txt';
 
     			if (output_location) {
@@ -245,9 +259,9 @@ program
     });
 
 program
-	.command('generateFromJsonResume <path_json> [output_location]')
+	.command('generateFromJsonResume <path_json>  [output_location]')
 	.description('Generate a json from a json-resume file')
-	.action(function(path_json, output_location) {
+	.action(function(path_json,  output_location) {
 		fs.readFile(__dirname + '/' + path_json, 'utf-8', function(err, data) {
 			if (err) {
 				console.log(err);

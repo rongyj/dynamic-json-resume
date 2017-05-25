@@ -70,7 +70,7 @@
 					"projects": [
 						{
 							"item-projects": {
-								"title": "Docker Swarm/Compose/Stack Development and CI Test Environment for  Cloud SDK/APIs/Connectors",
+								"title": "Docker Swarm/Compose/Stack CD/CI Test Environment for  Cloud SDK/APIs/Connectors",
 								"description":"Research and prototype the docker containers, compose and swarm technologies to help developer setup complex testing services stack and improve CI testing environments for the SDK/APIs and Java Connectors. ",
 								"highlights":[
 									"Designed and setup complex Docker containers network with Overlay and MACVLAN drivers ",
@@ -90,7 +90,7 @@
 						},
 						{
 							"item-projects": {
-								"title": "Cloud Enterprise Applications Integration connectivity SDK and Java Connectors",
+								"title": "Cloud Enterprise Applications Integration(EAI) connectivity SDK/API plugin framework for Oracle SOA Suite",
 								"description":"The Cloud Integration Connectivity SDK and Java Connectors are built on the top of the Connector Architecture in the Award winning Oracle SOA Suite. It provides the plugin connectivity to any SaaS and On-Premises Enterprise Applications for the Oracle Integration Cloud Service and SOA Suite.",
 								"highlights":[
 									"Designed and implemented the WSDL regeneration framework by rebuilding the internal data model (DOM) from the persisted integration flow artifacts files (JCA, WSDL and XSD) and the remote custom data",
@@ -114,8 +114,8 @@
 						},
 						{
 							"item-projects": {
-								"title": "Oracle Fusion Applications (FA) Business Event Connector Framework",
-								"description":"The business event connector framework provides the abilities to auto-discover the FA (OSS/ERP/HCM) business events (including custom events), set event filtering conditions, subscribe to interesting business event and expose the SOAP web service as the event listener through the ICS web/JDeveloper design time UI. This event connector framework enables the Fire-and-Forget/ Asynchronous Response and Publish/Subscribe integration pattern for Business Integration",
+								"title": "Oracle Fusion Applications (FA) Business Event/Message-Driven Connector Framework",
+								"description":"The business event connector framework provides the abilities to auto-discover the FA (OSS/ERP/HCM) business events (including custom events), set event filtering conditions, subscribe to interesting business event and expose the SOAP web service as the event listener through the ICS web/JDeveloper design time UI. This event connector framework enables the Fire-and-Forget/ Asynchronous Response and Publish/Subscribe integration pattern for Business Event/Message Integration",
 								"highlights":[
 									"Design and implement the business event connector for FA (OSC/ERP/HCM)",
 									"Build the design time web UI using the Oracle Web UI SDK which is building on the top of ADF",
@@ -136,20 +136,20 @@
 				"item-work": {
 					"start-date": "Oct. 2010",
 					"end-date": "Apr. 2014",
-					"position": "Senior Infrastructure Automation Engineer",
+					"position": "Senior Cloud DevOps/Infrastructure Automation Engineer",
 					"company": {
 						"name": "Comcast T&P",
 						"city": "Philadelphia, PA",
 						"country": "USA"
 					},
-					"achievements": "As a senior engineer in BITT(Build Integration Test Team), provided DevOps support for multiple development teams and supporting the developers for SDLC infrastructure system design/implementation, and Build/Release/Deployment/SCM/CI automation., designed, developed and implemented the AutoBuild system, OpenSource performance monitoring system for the SDLC systems, two steps bare-metal Linux bootstrap system for HP servers, Linux HA Clusters for SCM/Maven/CI/Crowd servers, Ruby/Rails software system maintenance and improvement. Managed the SCM(Gerrit/Subversion), CI(Bamboo) and maven repo (Nexus and Artifactory) system. Designed and developmented automation scripts (bash/ruby) to improve work efficiency. Led and Trained junior team members.",
+					"achievements": "As a senior engineer in BITT(Build Integration Test Team), provided DevOps support for multiple development teams and supporting the developers for SDLC infrastructure system design/implementation, and Build/Release/Deployment/SCM/CI automation., designed, developed and implemented the AutoBuild system, OpenSource performance monitoring system for the SDLC systems, two steps bare-metal Linux bootstrap system for HP servers, Linux HA Clusters for SCM/Maven/CI/Crowd servers, Ruby/Rails software system maintenance and improvement. Managed the SCM(Gerrit/Subversion), CI(Bamboo/Jenkins) and maven repo (Nexus and Artifactory) system. Designed and developmented automation scripts (bash/ruby) to improve work efficiency. Led and Trained junior team members.",
 					"technologies": [
 						"DevOps", "Automation", "Docker", "CoreOS", "Ruby", "Ruby on Rails 3", "Bash", "SDLC", "GIT", "Maven", "Jira/Confluence", "Bamboo/Jekins/Hudson", "Nexus/Artifactory", "Gerrit", "CI/CD", "Performance Monitoring", "Splunk", "JMX", "Capistrano", "PXE/TFTP", "DHCP", "DNS", "Cobbler", "Centos", "MySQL/PostgreSQL", "NoSQL","Cassandra","RabbitMQ", "JMS", "LDAP", "SSO", "Mtrics", "Graphite", "Agile", "RPC", "Cloud", "Clustering", "Linux HA", "HAProxy", "Pacemaker/Corrosync/Cman","SAN","GFS2","RAC", "Volume Manager"
 					],
 					"projects": [
 						{
 							"item-projects": {
-								"title": "AutoBuild System for Build/Release more than 200 microservices projects",
+								"title": "AutoBuild System for Build/Release more than 200 microservices projects with GIT/SVN/Maven",
 								"description":"Automate the branching/tagging process and improve the work efficiency from 3 days to 1 day for more than 200 projects. Using maven versions plugin and maven repo REST API to automatically detect the latest snapshot and released dependency version and update pom.xml automatically. The cut tag script can cut a bug-fixing tag for the bug-fixing patch within 5 minutes.",
 								"highlights":[
 									"Design and implement the error handling and logging system for ruby bash commands",
@@ -160,7 +160,7 @@
 									"Modify maven versions plugin to fix the bug which cannot update the dependency version property variables and the bug which cannot update the latest snapshot version to the latest released version",
 									"Detect and update the dependency versions in pom.xml automatically using maven versions plugin and maven repo servers REST API",
 									"Design and implement the branching/tagging process",
-									"Developed ruby/bash scripts to lock/unlock remote GIT branch in gerri server during branching and cutting tags period",
+									"Developed ruby/bash scripts to lock/unlock remote GIT branch in gerrit server during branching and cutting tags period",
 									"Design code standards and rule to follow AutoBuild conventions for developers",
 									"Applied convention over configuration for AutoBuild system",
 									"Develop ruby scripts to post json message to a BOM management system to allow the artifacts ready to deploy",
@@ -168,7 +168,7 @@
 									"Develop bamboo scripts using bamboo command-cli to create plans from git/svn repos automatically",
 									"Install and configure Bamboo, Nexus, Artifactory, Crowd/OpenID, Gerrit and Subversion servers.",
 									"Maintain Ruby/Rails BOM management system",
-									"Setup maven release, versions, toolchains, dependency…etc. plugins"
+									"Setup maven release, versions, toolchains, dependenc ...etc. plugins"
 								],
 								"technologies": ["Ruby/Rails","gems","Bash","Maven","GIT","SVN","Bamboo/Jira/Confluence CLI",
 									"Nexus/Artifactory REST/XML","SDLC","CI/CD","Gerrit/Subversion","MySQL/PostgreSQL","Crowd/OpenID","Capistrano"],
@@ -195,13 +195,13 @@
 						{
 							"item-projects": {
 								"title": "Continious Integration (CI) and Continious Deployment (CD) with Bamboo and Jenkins",
-								"description":"Automation and Integration of the CI/CD clusting environments for more than 100 microservices with build/runtime dependencies using Bamboo and Jenkins",
+								"description":"Automation and Integration of the CI/CD clusting environments for more than 200 microservices with build/runtime dependencies using Bamboo and Jenkins",
 								"highlights":[
 									"Designed and implemented the CI/CD clustering environments using Bamboo and Jenkins for all different development and release branches",
-									"Developed automation scripts using Ruby/Bash/Perl/Python to launch the CI/CD environments with complex dependencies for more than 100 microservices",
+									"Developed automation scripts using Ruby/Bash/Perl/Python to launch the CI/CD environments with complex dependencies for more than 200 microservices",
 									"Developed auotmated integration scripts to integrated Bamboo/Jenkins with Jira/Confluence, GIT/Maven repo",
 									"Designed and implemented complex tasks/jobs chains/pipeline with trigger or events",
-									"Maintained and Troubleshooted complex CI/CD issues within the clustering environments with multiple Subsystems for more than 100 microservices",
+									"Maintained and Troubleshooted complex CI/CD issues within the clustering environments with multiple Subsystems for more than 200 microservices",
 									"Developed automation scripts to automatically create Bamboo tasks from git repo and capistrano",
 									"Developed Capistrano automation tasks to deploy microservices stack with multiple microservices to Dev/QA/Staging/Prod",
 									"Developed Capistrano tasks to generate configuration file for HAProxy automatically",
@@ -270,7 +270,7 @@
 								"highlights":[
 									"Design the two steps bootstrap system using tftp/pxe/dhcp and cobbler",
 									"Statically build netstat tool using make/gcc to run it in HP-Toolkit with limited dynamic libraries",
-									"Developed a XMLRPC bash client to remotely connect back to the cobbler server to add a new system from the bare-metal box during the first boot",
+									"Developed a XMLRPC bash client to remotely connect back to the DHCP/cobbler server to add a new system from the bare-metal box during the first boot",
 									"Modify the bootstrap script for the first boot to collect the mac-address and parse a boot configure file to add a new system to cobbler server.",
 									"Physically upgrade the memory, disks and fusion IO adapter for HP blade servers",
 									"Setup ILO and IPMI",

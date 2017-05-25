@@ -1,0 +1,126 @@
+contact
+first_name : Yongjun
+last_name : Rong
+website : 
+email : rongyj@hotmail.com
+phone : 856-408-4027
+github : 
+city : Cherry Hill, NJ, USA, 08003
+visa : Green Card
+education
+start-date : 2002-09
+end-date : Jun.2006
+
+description : Master of Computer Science
+additional-info : GPA: 4.0/4.0
+
+start-date : 1993-09
+end-date : Feb.1996
+
+description : Master of Engineering
+additional-info : Speciality: Hydraulic Fluid Control in Mechanical Engineering
+
+start-date : 1987-09
+end-date : Jul.1991
+
+description : Bachelor of Engineering
+additional-info : Speciality: Engineering Machine
+
+work
+start-date : May, 2014
+end-date : Current
+position : Lead Software Engineer
+
+achievements : The Cloud Connectivity software engineering team is responsible to develop the Cloud Integration Connectivity SDK and Java Connectors which enable the SOA Suite and Oracle Integration Cloud Service (ICS) connectivity to any Oracle internal or external SaaS or On-Premises Enterprise Applications.
+technologies : Java,SOA,Web Services,SOAP/WSDL,REST/JSON/XML,XSchema/XSD,DOM,WSDL4J,SDK,API,MVC,Docker,Cloud,Amazon EC2,NoSQL,GIT,Maven,Junit,SoapUI,IaaS,SaaS,AWS
+projects : [object Object],[object Object],[object Object]
+
+start-date : Oct. 2010
+end-date : Apr. 2014
+position : Senior Cloud DevOps/Infrastructure Automation Engineer
+
+achievements : As a senior engineer in BITT(Build Integration Test Team), provided DevOps support for multiple development teams and supporting the developers for SDLC infrastructure system design/implementation, and Build/Release/Deployment/SCM/CI automation., designed, developed and implemented the AutoBuild system, OpenSource performance monitoring system for the SDLC systems, two steps bare-metal Linux bootstrap system for HP servers, Linux HA Clusters for SCM/Maven/CI/Crowd servers, Ruby/Rails software system maintenance and improvement. Managed the SCM(Gerrit/Subversion), CI(Bamboo/Jenkins) and maven repo (Nexus and Artifactory) system. Designed and developmented automation scripts (bash/ruby) to improve work efficiency. Led and Trained junior team members.
+technologies : DevOps,Automation,Docker,CoreOS,Ruby,Ruby on Rails 3,Bash,SDLC,GIT,Maven,Jira/Confluence,Bamboo/Jekins/Hudson,Nexus/Artifactory,Gerrit,CI/CD,Performance Monitoring,Splunk,JMX,Capistrano,PXE/TFTP,DHCP,DNS,Cobbler,Centos,MySQL/PostgreSQL,NoSQL,Cassandra,RabbitMQ,JMS,LDAP,SSO,Mtrics,Graphite,Agile,RPC,Cloud,Clustering,Linux HA,HAProxy,Pacemaker/Corrosync/Cman,SAN,GFS2,RAC,Volume Manager
+projects : [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+
+start-date : Nov. 2006
+end-date : Oct., 2010
+position : Senior Software Engineer
+
+achievements : As the market and technology leader in on-demand integration, Boomi is the industry's first and leading integration platform-as-a-service and a two-time SIIA CODiE award winner - Best Application Integration Solution (2010) and Best On-Demand Platform (2009).
+technologies : Java,SOA,IaaS,PaaS,EAI,XML,XSD,JAXB,JavaScript,.NET,EC2,S3,EBS,REST,SOAP,WSDL,SaaS,SAP,BAPI,ABAP,MySQL/PostgreSQL,Maven,SVN,JVM,JVM GC Tunning,Apache Luncen,Apache Solr,VMWare,Cloud
+projects : [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+
+start-date : Jun., 2006
+end-date : Nov.,2006
+position : Senior System Engineer Manager
+
+achievements : As the leader in cost-effective, high volume, secure, scalable online assessment and instructional programs for K-12 and higher education, Vantage Learning leverage technology such as artificial intelligence, natural language understanding, and web-based learning objects. Vantage Learning has received accolades ranging from the prestigious CODIE Award for best instructional technology.
+technologies : Linux,Centos,SOA,Java,.NET,Network,VLAN,Router,Firewall,Load Balancer,SOAP/WSDL,MySQL/PostgreSQL,Struts,Disk Array,Fedora,Redhat Linux,LAMP,eCommerce,SQL
+projects : [object Object],[object Object],[object Object],[object Object],[object Object]
+
+start-date : May, 2002
+end-date : Jun.,2006
+position : Senior Programmer/Analyst and Unix System Administrator
+
+achievements : System Administrator for networked Unix(Solaris, AIX, Mac OSX and Linux) and windows servers with SSO for Kerberos and LDAP, Veritas Netbackup for Disk Array with RAID 0/1/5, Migration from NIS/NIS+ to LDAP and Postfix/Sendmail conifiguration for the research and teaching lab for computer science department.
+technologies : JAVA,C/C++,GCC,GNU Make,perl,LADP,NFS,SSO,Kerberos,SSL,SMTP,Email Sever and Client,Solaris,AIX,Mac OSX,Linux,Windows Server,PAM,RAID,SCSI,Veritas,TFTP,RARP/ARP,Bootparamd,DHCP,Postfix,PostgreSQL,NIS/NIS+
+projects : [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+
+start-date : Aug.,2002
+end-date : Aug.,2006
+position : Master Student
+
+achievements : Stuied as Master Student in the CS department while working as part time as System Administration for the Teaching and Research labs for Unix/Linux and Windows environments
+technologies : Java,C/C++, GCC,Gnu Make,Linux,Linux Kernel,GIS,Ant,Stuts,J2EE,UML2,MVC,Maven,PostGIS,PostgreSQL,Solaris
+projects : [object Object],[object Object],[object Object]
+
+start-date : Apr., 2000 
+end-date : May, 2002
+position : Senior Software Engineer
+
+achievements : As Senior software engineer, provided consulting services for Java/J2EE technologies for local companies. Helped design and architecture the Java/J2EE systems around Sun's software products like iPlanet Application Server, Directory Server, Message Queue Server
+technologies : Java,J2EE,JMS,EJB,Servlets,JDBC,Message-Driven Bean,LDAP,SQL,Weblogic,OOA/OOD,UML,MVC,Oracle DBMS,Java IDL,RMI,CORBA,JNDI,Solaris,CVS,Ant
+projects : [object Object],[object Object],[object Object],[object Object]
+
+start-date : Aug.,1998
+end-date : Apr.,2000
+position : Software Engineer
+
+achievements : As software engineer, designed and implemented Java/J2EE systems around IBM software products like IBM WebSphere ...etc.
+technologies : Java,J2EE,C/C++,Servlets,WebSphere,SSL,JDBC,Windows NT,SAN,POS,JNI,DB2
+projects : [object Object],[object Object],[object Object]
+
+start-date : Apr.,1996
+end-date : Jul.,1997
+position : System/Network/Software Engineer
+
+achievements : Worked for different teams as System/Network/Software Engineer. Provided production supporting services for IBM RS6000 and Disk Array products. Developed IC Card Application system. Designed Large scale network system with Cisco Routers and Switches.
+technologies : C/C++,Assembly,Network Design,Router,Switch,VLAN,AIX,Disk Array,SSA,RAID,Volume Manager,IC,RIP/OSPF,Ciso IOS
+projects : [object Object],[object Object],[object Object]
+
+start-date : Jun., 1991
+end-date : Sep.,1993
+position : Mechanical Engineer
+
+achievements : Designed Locomotive engine electic motor/generator cases and automated with AutoCAD, CAPP and CAM with FMS/CIMS
+technologies : C/C++,AutoCAD,CAD/CAM/CAPP,CIMS/FMS,DOS
+projects : [object Object]
+
+projects
+skills
+Cloud platform/infrastructure design and implementation and DevOps Automation (AWS, Docker, VMWare/Openstack, Linux HA, Ruby/Rails, Bash, REST, Maven, GIT, SVN, CI, SDLC, DHCP, PXE, Cobbler, MySQL/PostgreSQL, GFS2/SAN)
+Large SOA Web Services (SOAP/WSDL, REST/XML/JSON, RIA ) Enterprise Application Cloud/On-Premises Integration Service (IaaS) design, development and deployment
+Desktop and Online Accounting, CRM and ERP System Integration Architect (Java to C/C++/DLLs, COM/COM+/DCOM,.NET, WCF,SOAP/WSDL,REST)
+Server-side software development with middleware (J2EE,.NET) and DBMS
+Distributed Network System Administration(EC2, Linux/Unix/Windows, RAID, SAN, LDAP, Kerberos, NFS, DNS, LAN/VLAN, WAN, GSLB)
+languages
+name : English
+additional-info : Fluent
+
+name : Chinese
+additional-info : Native
+
+hobbies
+hobby-items : [object Object],[object Object],[object Object],[object Object]
+hobby-projects : [object Object]
