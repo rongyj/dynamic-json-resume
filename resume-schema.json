@@ -6,9 +6,9 @@
       "website": "",
       "email": "rongyj@hotmail.com",
       "phone": "856-408-4027",
-      "github": "",
+      "github": "https://github.com/rongyj",
       "city": "Cherry Hill, NJ, USA, 08003",
-      "visa": "Green Card"
+      "visa": "US Citizen"
     },
     "education": [
       {
@@ -62,22 +62,29 @@
             "city": "Wilmington, DE",
             "country": "USA "
           },
-          "achievements": "Delievery lead for Distributed System technology domain which includes Microservices, Event Drivent Architecture (EDA), Mesasge transports, integration (Batch/ETL) and (Event) Stream processing technologies",
+          "achievements": "Delivery lead for Distributed System technology domain which includes Microservices, Event Drivent Architecture (EDA), Mesasge transports, integration (Batch/ETL) and (Event) Stream processing technologies. Cloud Adoption to migrate on-premise enterprise systems to cloud",
 		  "technologies": [
 			  "Microservices",
 			  "CQRS",
 			  "Event Store",
 			  "Event Driven Architecture (EDA)",
-			  "Kafka",
+			  "Kafka/ActiveMQ/IBM MQ",
 			  "Kafka Stream",
 			  "SpringBoot",
 			  "Docker",
-			  "AWS"		  
+			  "AWS(EC2/IAM/S3/ECS/ELB/Lamda/RDS/VPC/R53/Security/AutoScaling..etc)",
+			  "Kubernete/Terraform/Puppet/Chef/Ansible",
+			  "Git/Maven/Jenkins/Bamboo",
+			  "Python/Ruby/Scala/Bash/Go",
+			  "ELK/AppDynamic",
+			  "DynamoDB/MongoDB/ElasticCache/Gridgain",
+			  "Linux/Windows/AIX/Solaris",
+			  "aPaaS/VMWare/Cytrix"
 		  ],
 		  "projects":[
 			  {
 			  	"item-projects": {
-			  		"title": "Delevery lead for Distributed system technology domain which includes Microservices, Event Drivent Architecture (EDA), Mesasge transports, integration (Batch/ETL) and (Event) Stream processing technologies"
+			  		"title": "Delivery lead for Distributed system technology domain which includes Microservices, Event Drivent Architecture (EDA), Mesasge transports, integration (Batch/ETL) and (Event) Stream processing technologies"
 			  	}
 					
 			  }
