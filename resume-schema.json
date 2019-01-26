@@ -3,7 +3,7 @@
     "contact": {
       "first_name": "Yongjun",
       "last_name": "Rong",
-      "website": "",
+      "website": "https://www.linkedin.com/in/rongyongjun/",
       "email": "rongyj@hotmail.com",
       "phone": "856-408-4027",
       "github": "https://github.com/rongyj",
@@ -62,7 +62,7 @@
             "city": "Wilmington, DE",
             "country": "USA "
           },
-          "achievements": "Delivery lead for Distributed System technology domain which includes Microservices, Event Drivent Architecture (EDA), Mesasge transports, integration (Batch/ETL) and (Event) Stream processing technologies. Cloud Adoption to migrate on-premise enterprise systems to cloud",
+          "achievements": "Delivery lead for Distributed System technology domain which includes Microservices, Event Drivent Architecture (EDA), Mesasge transports, integration (Batch/ETL) and (Event) Stream processing technologies. Cloud Adoption to migrate on-premise enterprise systems to public cloud",
 		  "technologies": [
 			  "Microservices",
 			  "CQRS",

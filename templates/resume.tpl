@@ -3,14 +3,19 @@
     <div id="cv">
         <div id="contact" {{#resume.contact.id}} data-id="{{ resume.contact.id }}" {{/resume.contact.id}}>
             <div class="contact-name">{{ resume.contact.first_name }} {{ resume.contact.last_name }}</div>
-            <div class="contact-email">Email:{{ resume.contact.email }} Tel:{{ resume.contact.phone }}</div>
-            {{ #resume.contact.website }}
-                <div class="contact-website"> {{ resume.contact.website }}</div>
-            {{ /resume.contact.website }}
-            {{ #resume.contact.github }}
-            <div class="contact-external"> {{ resume.contact.github }} </div>
-            {{ /resume.contact.github }}
-            <div class="contact-email">{{ resume.contact.city }} (Visa Status: {{ resume.contact.visa}})</div>
+            <div class="contact-email">
+              <span class="header-date"> Email: </span>
+              <span class="header-school-location">  {{ resume.contact.email }} </span>
+              <span class="header-date"> Tel: </span>
+              <span class="header-school-location">  {{ resume.contact.phone }} </span>
+            </div>
+            <div class="contact-email">{{ resume.contact.city }} ({{ resume.contact.visa}})</div>
+            <div class="contact-website">
+                  <span class="header-date"> Linkedin: </span>
+                  <span class="header-school-location"> {{ resume.contact.website }},   </span>
+                  <span class="header-date"> Github: </span>
+                  <span class="header-school-location"> {{ resume.contact.github }} </span>
+            </div>
         </div>
 
         {{ #resume.education.length }}
