@@ -83,10 +83,52 @@
 		  ],
 		  "projects":[
 			  {
+          "item-projects": {
+            "title": "Delivery Lead for strategic distributed system technology domain",
+            "description": "Delivery lead for Distributed system technology domain which includes Microservices, Event Drivent Architecture (EDA), Mesasge transports, integration (Batch/ETL) and (Event) Stream processing technologies",
+            "highlights": [
+              "Drive technology transformation from on-premises to public cloud, multi-tiers monolithic system to cloud-native microservices system, strong ACID to BASE data consistency ",
+              "Establish group-wide distributed system architecture and technlogy strategy",
+              "Build PoC and Reference Architecture for common use cases for distributed system",
+              "Evaluate around 200 existing products/technologies and decide the invest/divest house positions",
+              "Create the Archiecture Handbook for Microservices",
+              "Design vendor and technlogy selection and design principles/standards and best practices for distributed system domain",
+              "Review and approve the new request for product/technology in the domain",
+              "Maintain teh scope document and product list for the domain",
+              "Develop the roadmap to adopt new products/technology and decomission legancy products/technology"
+            ],
+            "technologies": [
+              "Distributed system",
+              "Domain Driven Design",
+              "Microservices",
+              "BASE/CAP",
+              "(Event) Stream /Batch Prcoessing",
+              "Event Driven Architectiure (EDA)",
+              "Message Transports (Kafka, ActiveMQ, IBM MQ)",
+              "Data Integration (ETL/ELT)",
+              "Compensating transactions/Sagas",
+              "JMS/AMQP",
+              "Resillience and Performance",
+              "DBMS (MySQL and PostgreSQL)"
+            ],
+            "tags": [
+              "devops",
+              "cloud",
+              "infrastructure",
+              "platform",
+              "containers",
+              "OpenSource",
+              "Linux",
+              "Unix"
+            ]
+          }
+        },
 			  	"item-projects": {
 			  		"title": "Delivery lead for Distributed system technology domain which includes Microservices, Event Drivent Architecture (EDA), Mesasge transports, integration (Batch/ETL) and (Event) Stream processing technologies"
-			  	}
-					
+			  	},
+          "item-projects": {
+          }
+
 			  }
 		  ]
         }
