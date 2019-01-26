@@ -87,21 +87,24 @@
             "title": "Delivery Lead for strategic distributed system technology domain",
             "description": "Delivery lead for Distributed system technology domain which includes Microservices, Event Drivent Architecture (EDA), Mesasge transports, integration (Batch/ETL) and (Event) Stream processing technologies",
             "highlights": [
-              "Drive technology transformation from on-premises to public cloud, multi-tiers monolithic system to cloud-native microservices system, strong ACID to BASE data consistency ",
+              "Drive technology transformation from on-premises to public cloud, multi-tiers monolithic to cloud-native microservices system, strong ACID to BASE data consistency, Sync/Reques/RPC driven to Async/Event driven architecture, tight coupling to loose coupling, ETL/Batch/Time to realtime streaming processing, vendor locked to resillient commodity system, vendor favor to OSS, vertical scaling to horizontabl scaling",
               "Establish group-wide distributed system architecture and technlogy strategy",
               "Build PoC and Reference Architecture for common use cases for distributed system",
               "Evaluate around 200 existing products/technologies and decide the invest/divest house positions",
-              "Create the Archiecture Handbook for Microservices",
-              "Design vendor and technlogy selection and design principles/standards and best practices for distributed system domain",
+              "Create the architecture handbook for Microservices as group-wide guidance for solution Architect",
+              "Contriibute to and review the architecture handbook for EDA, Stream Processing and Integraiton",
+              "Design vendor and technlogy selection and design principles/standards and best practices for the domain",
               "Review and approve the new request for product/technology in the domain",
               "Maintain teh scope document and product list for the domain",
-              "Develop the roadmap to adopt new products/technology and decomission legancy products/technology"
+              "Develop the roadmap to adopt new products/technology and decomission legancy products/technology",
+              "Lead working group (~30 members) forum to discuss and make decision on technlogy strategies"
             ],
             "technologies": [
+              "Technology strategic Design and Stewardship",
               "Distributed system",
               "Domain Driven Design",
               "Microservices",
-              "BASE/CAP",
+              "ACID/BASE",
               "(Event) Stream /Batch Prcoessing",
               "Event Driven Architectiure (EDA)",
               "Message Transports (Kafka, ActiveMQ, IBM MQ)",
@@ -109,27 +112,46 @@
               "Compensating transactions/Sagas",
               "JMS/AMQP",
               "Resillience and Performance",
-              "DBMS (MySQL and PostgreSQL)"
+              "CQRS/SOA",
+              "CAP Thereom"
             ],
             "tags": [
-              "devops",
-              "cloud",
-              "infrastructure",
-              "platform",
-              "containers",
-              "OpenSource",
-              "Linux",
-              "Unix"
+              "Technology Strategy",
+              "Technology Stewardship",
+              "Technology Strategic Architecture"
             ]
           }
         },
-			  	"item-projects": {
-			  		"title": "Delivery lead for Distributed system technology domain which includes Microservices, Event Drivent Architecture (EDA), Mesasge transports, integration (Batch/ETL) and (Event) Stream processing technologies"
-			  	},
+        {
           "item-projects": {
+            "title": "Group-wide Cloud Adoption for Contact Center, Merchant Services and Fraud",
+            "description": "Cloud Assessment and consulting for cloud architecture for on-premises applications migration to AWS. Troubleshooting the cloud migration related issues",
+            "highlights": [
+              "Assess ~500 on-premises applications to determin the cloud migration rediness",
+              "Provide guidance to application team to design cloud migraiton architecture",
+              "Guide the .NET system to AWS migration",
+              "Consulting to migration on-premises system to AWS ECS",
+              "Collect system data from Abacus, ServiceFirst query and repo tools"
+            ],
+            "technologies": [
+              "AWS",
+              "EC2",
+              "RDS",
+              "S3",
+              "ECS",
+              "VPC",
+              "ACL/Security Group/Routing table",
+              "ELB/NLB/ALB",
+              "Private Link",
+              "EBS"
+            ],
+            "tags": [
+              "AWS",
+              "Architecture",
+              "Cloud"
+            ]
           }
-
-			  }
+        }
 		  ]
         }
       },
