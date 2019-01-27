@@ -139,7 +139,7 @@ div.project-item::before{
 	border-radius: 5px;
 	text-align: center;
 	margin: 0 auto;
-	width: 800px;
+	width: 1000px;
 }
 
 .contact-name {
@@ -182,7 +182,12 @@ div.project-item::before{
 	font-size: medium;
 }
 
-.header-date ,.header-company-name,.header-school-name,.description-education, .item-projects-title, .header-employer, .header-accomplishments, .header-technologies {
+.item-work-header-date,.item-work-header-company-name,.item-work-header-company-location {
+	font-size: large;
+	text-decoration: underline;
+}
+
+.header-date ,.header-company-name,.header-school-name,.description-education, .item-projects-title, .header-employer, .header-accomplishments, .header-technologies,.item-work-header-date,.item-work-header-company-name {
 	font-weight: bold;
 }
 

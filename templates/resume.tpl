@@ -66,24 +66,24 @@
         <div id="work-experience" class="section">
           <div class="title-section">Work Experience Summary:</div>
           <div {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}}>
-          <table id="work-experience" class="section" style="page-break-before: always; page-break-after: auto;">
+          <table id="work-experience" class="section" style="page-break-before: auto; page-break-after: auto;">
             <tr class="work-item-header" style="page-break-inside: avoid;">
                 <th class="header-employer" style="width:20%">Employments</th>
                 <th class="header-accomplishments"> Major Accomplishments & Technologies </th>
             </tr>
             {{ #resume.original.work}}
-              <tr class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}} style="page-break-inside: avoid;">
-                <td class="work-employer" rowspan="2">
-                  <p>{{ item-work.start-date}} &ndash; {{ item-work.end-date }}
-                  <p class="bold-font">{{ item-work.company.name }}
-                  <p>{{ item-work.company.city }},{{ item-work.company.country }}
-                  <p class="bold-font">{{ item-work.position }}
+              <tr class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}} style="page-break-before: auto; page-break-after: auto; page-break-inside: avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside: avoid;">
+                  <p style="page-break-inside: avoid;">{{ item-work.start-date}} &ndash; {{ item-work.end-date }}
+                  <p class="bold-font" style="page-break-inside: avoid;">{{ item-work.company.name }}
+                  <p style="page-break-inside: avoid;">{{ item-work.company.city }},{{ item-work.company.country }}
+                  <p class="bold-font" style="page-break-inside: avoid;">{{ item-work.position }}
                 </td>
-                <td style="page-break-inside: avoid;">
+                <td style="page-break-inside: avoid; page-break-after: avoid;">
                   {{#item-work.projects.length }}
-                  <ul class="highlighted">
+                  <ul class="highlighted" style="page-break-inside: avoid;">
                     {{ #item-work.projects}}
-                      <li>{{item-projects.title}}</li>
+                      <li style="page-break-inside: avoid;">{{item-projects.title}}</li>
                     {{/item-work.projects}}
                   </ul>
                   {{/item-work.projects.length }}
@@ -110,9 +110,9 @@
             <div class="title-section" style="page-break-before: always; page-break-after: auto">Selected Projects</div>
             {{ #resume.work}}
             <div class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}}>
-                <span class="header-date">{{ item-work.start-date}} &ndash; {{ item-work.end-date }},</span>
-                <span class="header-company-name">{{ item-work.position }}, {{ item-work.company.name }}</span>
-                <span class="header-company-location" style="page-break-inside: avoid">, {{ item-work.company.city }},{{ item-work.company.country }}</span><br />
+                <span class="item-work-header-date">{{ item-work.start-date}} &ndash; {{ item-work.end-date }},</span>
+                <span class="item-work-header-company-name">{{ item-work.position }}, {{ item-work.company.name }}</span>
+                <span class="item-work-header-company-location" style="page-break-inside: avoid">, {{ item-work.company.city }},{{ item-work.company.country }}</span><br />
                 <div class="description-work"> {{ item-work.achievements }} </div>
                 {{ #item-work.projects.length }}
                 <div id="projects" class="projects-section">

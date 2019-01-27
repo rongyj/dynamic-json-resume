@@ -138,6 +138,7 @@ program
   'applying the css file given, also will choose the right projects based on the specified tags'+
   'Example: exportToHtml ./resume-schema.json full|short|[any tags defined in the projects]'+
   'Example: ./cli.js exportToHtml ./resume-schema.json short'+
+  'Example: ./cli.js exportToHtml ./resume-schema.json USA'+
   'Example: ./cli.js exportToHtml ./resume-schema.json devops'+
   'Example: ./cli.js exportToHtml ./resume-schema.json Java'+
   'Example: ./cli.js exportToHtml ./resume-schema.json FullStack'+
@@ -181,7 +182,10 @@ program
                 resumeJson.resume["original"]=originalResumeJson.resume;
                 if(resume_gen_tags == "short"){
                   utils.removeProjectsHighlights(resumeJson);
-                }else if(resume_gen_tags == "FullStack"){
+                }else if(resume_gen_tags == "USA"){
+                  utils.removeNonUSACompanies(resumeJson);
+                }
+                else if(resume_gen_tags == "FullStack"){
                   var expectTags= ["Java", "JavaScript", "FullStack"];
                   utils.filterProjects(resumeJson,expectTags);
                 }else if(resume_gen_tags == "table") {
@@ -222,10 +226,10 @@ program
 				console.log(err);
 				process.exit(1);
 			}
-	    	var resumeJson = JSON.parse(data);			
+	    	var resumeJson = JSON.parse(data);
     		//var originalResumeJson = JSON.parse(data);
 	    	var v = verifier.run(resumeJson);
-		    if (v) {				
+		    if (v) {
 		        //resumeJson.resume["original"]=originalResumeJson.resume;
 		        if(resume_gen_tags == "short"){
 		          utils.removeProjectsHighlights(resumeJson);
@@ -239,7 +243,7 @@ program
 		          var expectTags= resume_gen_tags.split(',');
 		          utils.filterProjects(resumeJson,expectTags);
 		        }
-				
+
 		    	var outputLocation = '/resume.txt';
 
     			if (output_location) {
