@@ -1,12 +1,12 @@
 contact
 first_name : Yongjun
 last_name : Rong
-website : 
+website : https://www.linkedin.com/in/rongyongjun/
 email : rongyj@hotmail.com
 phone : 856-408-4027
-github : 
+github : https://github.com/rongyj
 city : Cherry Hill, NJ, USA, 08003
-visa : Green Card
+visa : US Citizen
 education
 start-date : 2002-09
 end-date : Jun.2006
@@ -27,8 +27,16 @@ description : Bachelor of Engineering
 additional-info : Speciality: Engineering Machine
 
 work
-start-date : May, 2014
+start-date : Jun, 2017
 end-date : Current
+position : VP,Lead Architect Engineer
+
+achievements : Delivery lead for Distributed System technology domain which includes Microservices, Event Drivent Architecture (EDA), Mesasge transports, integration (Batch/ETL) and (Event) Stream processing technologies. Cloud Adoption to migrate on-premise enterprise systems to public cloud
+technologies : Microservices,CQRS,Event Store,Event Driven Architecture (EDA),Kafka/ActiveMQ/IBM MQ,Kafka Stream,SpringBoot,Docker,AWS(EC2/IAM/S3/ECS/ELB/Lamda/RDS/VPC/R53/Security/AutoScaling..etc),Kubernete/Terraform/Puppet/Chef/Ansible,Git/Maven/Jenkins/Bamboo,Python/Ruby/Scala/Bash/Go,ELK/AppDynamic,DynamoDB/MongoDB/ElasticCache/Gridgain,Linux/Windows/AIX/Solaris,aPaaS/VMWare/Cytrix
+projects : [object Object],[object Object]
+
+start-date : May, 2014
+end-date : June, 2017
 position : Lead Software Engineer
 
 achievements : The Cloud Connectivity software engineering team is responsible to develop the Cloud Integration Connectivity SDK and Java Connectors which enable the SOA Suite and Oracle Integration Cloud Service (ICS) connectivity to any Oracle internal or external SaaS or On-Premises Enterprise Applications.
@@ -60,7 +68,7 @@ technologies : Linux,Centos,SOA,Java,.NET,Network,VLAN,Router,Firewall,Load Bala
 projects : [object Object],[object Object],[object Object],[object Object],[object Object]
 
 start-date : May, 2002
-end-date : Jun.,2006
+end-date : Jun.,22,2006
 position : Senior Programmer/Analyst and Unix System Administrator
 
 achievements : System Administrator for networked Unix(Solaris, AIX, Mac OSX and Linux) and windows servers with SSO for Kerberos and LDAP, Veritas Netbackup for Disk Array with RAID 0/1/5, Migration from NIS/NIS+ to LDAP and Postfix/Sendmail conifiguration for the research and teaching lab for computer science department.
@@ -68,7 +76,7 @@ technologies : JAVA,C/C++,GCC,GNU Make,perl,LADP,NFS,SSO,Kerberos,SSL,SMTP,Email
 projects : [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
 
 start-date : Aug.,2002
-end-date : Aug.,2006
+end-date : Jun.,2006
 position : Master Student
 
 achievements : Stuied as Master Student in the CS department while working as part time as System Administration for the Teaching and Research labs for Unix/Linux and Windows environments

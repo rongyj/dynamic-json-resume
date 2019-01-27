@@ -219,7 +219,8 @@ program
 
 program
   .command('exportToPlainText <path_json>  <resume_gen_tags> [output_location]')
-  .description('Export a text file resume from the json resume provided to the given location')
+  .description('Export a text file resume from the json resume provided to the given location'+
+                'Example: ./cli.js exportToPlainText ./resume-schema.json full')
   .action(function(path_json, resume_gen_tags, output_location) {
 		fs.readFile(__dirname + '/' + path_json, 'utf-8', function (err, data) {
 			if (err) {
