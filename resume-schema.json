@@ -62,7 +62,7 @@
             "city": "Wilmington, DE",
             "country": "USA "
           },
-          "achievements": "Delivery lead for Distributed System technology domain which includes Microservices, Event Drivent Architecture (EDA), Mesasge transports, integration (Batch/ETL) and (Event) Stream processing technologies. Cloud Adoption to migrate on-premise enterprise systems to public cloud",
+          "achievements": "Delivery lead for Distributed System technology domain which includes Microservices, Event Drivent Architecture (EDA), Mesasge transports, integration (Batch/ETL) and (Event) Stream processing technologies. Cloud Adoption to migrate on-Premises enterprise systems to public cloud (AWS)",
 		  "technologies": [
 			  "Microservices",
 			  "CQRS",

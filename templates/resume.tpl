@@ -2,14 +2,14 @@
 
     <div id="cv">
         <div id="contact" {{#resume.contact.id}} data-id="{{ resume.contact.id }}" {{/resume.contact.id}}>
-            <div class="contact-name">{{ resume.contact.first_name }} {{ resume.contact.last_name }}</div>
+            <div class="contact-name">{{ resume.contact.first_name }} {{ resume.contact.last_name }}</div>          
+            <div class="contact-email">{{ resume.contact.city }} ({{ resume.contact.visa}})</div>
             <div class="contact-email">
               <span class="header-date"> Email: </span>
               <span class="header-school-location">  {{ resume.contact.email }} </span>
               <span class="header-date"> Tel: </span>
               <span class="header-school-location">  {{ resume.contact.phone }} </span>
             </div>
-            <div class="contact-email">{{ resume.contact.city }} ({{ resume.contact.visa}})</div>
             <div class="contact-website">
                   <span class="header-date"> Linkedin: </span>
                   <span class="header-school-location"> {{ resume.contact.website }},   </span>
