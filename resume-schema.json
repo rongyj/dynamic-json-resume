@@ -62,7 +62,7 @@
             "city": "Wilmington, DE",
             "country": "USA "
           },
-          "achievements": "Delivery lead for Distributed System technology domain which includes Microservices, Event Drivent Architecture (EDA), Mesasge transports, integration (Batch/ETL) and (Event) Stream processing technologies. Cloud Adoption to migrate on-Premises enterprise systems to public cloud (AWS)",
+          "achievements": "Delivery lead for Distributed System technology domain which includes Microservices, Event Driven Architecture (EDA), Message transports, integration (Batch/ETL) and (Event) Stream processing technologies. Cloud Adoption to migrate on-Premises enterprise systems to public cloud (AWS)",
 		  "technologies": [
 			  "Microservices",
 			  "CQRS",
@@ -85,19 +85,19 @@
 			  {
           "item-projects": {
             "title": "Delivery Lead for strategic distributed system technology domain",
-            "description": "Delivery lead for Distributed system technology domain which includes Microservices, Event Drivent Architecture (EDA), Mesasge transports, integration (Batch/ETL) and (Event) Stream processing technologies",
+            "description": "Delivery lead for Distributed system technology domain which includes Microservices, Event Driven Architecture (EDA), Message transports, integration (Batch/ETL) and (Event) Stream processing technologies",
             "highlights": [
-              "Drive technology transformation from on-premises to public cloud, multi-tiers monolithic to cloud-native microservices system, strong ACID to BASE data consistency, Sync/Reques/RPC driven to Async/Event driven architecture, tight coupling to loose coupling, ETL/Batch/Time to realtime streaming processing, vendor locked to resillient commodity system, vendor favor to OSS, vertical scaling to horizontabl scaling",
-              "Establish group-wide distributed system architecture and technlogy strategy",
+              "Drive technology transformation from on-premises to public cloud, multi-tiers monolithic to cloud-native Microservices system, strong ACID to BASE data consistency, Sync/Request/RPC driven to Async/Event driven architecture, tight coupling to loose coupling, ETL/Batch/Time to realtime streaming processing, vendor locked to resilient commodity system, vendor favor to OSS, vertical scaling to horizontal scaling",
+              "Establish group-wide distributed system architecture and technology strategy",
               "Build PoC and Reference Architecture for common use cases for distributed system",
               "Evaluate around 200 existing products/technologies and decide the invest/divest house positions",
               "Create the architecture handbook for Microservices as group-wide guidance for solution Architect",
-              "Contriibute to and review the architecture handbook for EDA, Stream Processing and Integraiton",
-              "Design vendor and technlogy selection and design principles/standards and best practices for the domain",
+              "Contribute to and review the architecture handbook for EDA, Stream Processing and Integration",
+              "Design vendor and technology selection and design principles/standards and best practices for the domain",
               "Review and approve the new request for product/technology in the domain",
-              "Maintain teh scope document and product list for the domain",
-              "Develop the roadmap to adopt new products/technology and decomission legancy products/technology",
-              "Lead working group (~30 members) forum to discuss and make decision on technlogy strategies"
+              "Maintain the scope document and product list for the domain",
+              "Develop the roadmap to adopt new products/technology and decommission legacy products/technology",
+              "Lead working group (~30 members) forum to discuss and make decision on technology strategies"
             ],
             "technologies": [
               "Technology strategic Design and Stewardship",
@@ -105,15 +105,15 @@
               "Domain Driven Design",
               "Microservices",
               "ACID/BASE",
-              "(Event) Stream /Batch Prcoessing",
-              "Event Driven Architectiure (EDA)",
+              "(Event) Stream /Batch Processing",
+              "Event Driven Architecture (EDA)",
               "Message Transports (Kafka, ActiveMQ, IBM MQ)",
               "Data Integration (ETL/ELT)",
               "Compensating transactions/Sagas",
               "JMS/AMQP",
-              "Resillience and Performance",
+              "Resilience and Performance",
               "CQRS/SOA",
-              "CAP Thereom"
+              "CAP"
             ],
             "tags": [
               "Technology Strategy",
@@ -127,8 +127,8 @@
             "title": "Group-wide Cloud Adoption for Contact Center, Merchant Services and Fraud",
             "description": "Cloud Assessment and consulting for cloud architecture for on-premises applications migration to AWS. Troubleshooting the cloud migration related issues",
             "highlights": [
-              "Assess ~500 on-premises applications to determin the cloud migration rediness",
-              "Provide guidance to application team to design cloud migraiton architecture",
+              "Assess ~500 on-premises applications to determine the cloud migration readiness",
+              "Provide guidance to application team to design cloud migration architecture",
               "Guide the .NET system to AWS migration",
               "Consulting to migration on-premises system to AWS ECS",
               "Collect system data from Abacus, ServiceFirst query and repo tools"
@@ -348,7 +348,7 @@
             "city": "Philadelphia, PA",
             "country": "USA"
           },
-          "achievements": "As a senior engineer in BITT(Build Integration Test Team), provided DevOps support for multiple development teams and supporting the developers for SDLC infrastructure system design/implementation, and Build/Release/Deployment/SCM/CI automation., designed, developed and implemented the AutoBuild system, OpenSource performance monitoring system for the SDLC systems, two steps bare-metal Linux bootstrap system for HP servers, Linux HA Clusters for SCM/Maven/CI/Crowd servers, Ruby/Rails software system maintenance and improvement. Managed the SCM(Gerrit/Subversion), CI(Bamboo/Jenkins) and maven repo (Nexus and Artifactory) system. Designed and developmented automation scripts (bash/ruby) to improve work efficiency. Led and Trained junior team members.",
+          "achievements": "As a senior engineer in BITT(Build Integration Test Team), provided DevOps support for multiple development teams and supporting the developers for SDLC infrastructure system design/implementation, and Build/Release/Deployment/SCM/CI automation., designed, developed and implemented the AutoBuild system, OpenSource performance monitoring system for the SDLC systems, two steps bare-metal Linux bootstrap system for HP servers, Linux HA Clusters for SCM/Maven/CI/Crowd servers, Ruby/Rails software system maintenance and improvement. Managed the SCM(Gerrit/Subversion), CI(Bamboo/Jenkins) and maven repo (Nexus and Artifactory) system. Designed and developed automation scripts (bash/ruby) to improve work efficiency. Led and Trained junior team members.",
           "technologies": [
             "DevOps",
             "Automation",
@@ -417,7 +417,7 @@
                   "Develop bamboo scripts using bamboo command-cli to create plans from git/svn repos automatically",
                   "Install and configure Bamboo, Nexus, Artifactory, Crowd/OpenID, Gerrit and Subversion servers.",
                   "Maintain Ruby/Rails BOM management system",
-                  "Setup maven release, versions, toolchains, dependenc ...etc. plugins"
+                  "Setup maven release, versions, toolchains, dependencies ...etc. plugins"
                 ],
                 "technologies": [
                   "Ruby/Rails",
@@ -479,8 +479,8 @@
             },
             {
               "item-projects": {
-                "title": "Continious Integration (CI) and Continious Deployment (CD) with Bamboo and Jenkins",
-                "description": "Automation and Integration of the CI/CD clusting environments for more than 200 microservices with build/runtime dependencies using Bamboo and Jenkins",
+                "title": "Continuous Integration (CI) and Continuous Deployment (CD) with Bamboo and Jenkins",
+                "description": "Automation and Integration of the CI/CD clustering environments for more than 200 microservices with build/runtime dependencies using Bamboo and Jenkins",
                 "highlights": [
                   "Designed and implemented the CI/CD clustering environments using Bamboo and Jenkins for all different development and release branches",
                   "Developed automation scripts using Ruby/Bash/Perl/Python to launch the CI/CD environments with complex dependencies for more than 200 microservices",
@@ -519,7 +519,7 @@
                 "highlights": [
                   "Designed the whole monitoring system using open source projects such as graphite, gdash, metricsd, stated, jmxtrans and god...etc.",
                   "Developed UDP metrics connectors and ruby splunk searcher to collect splunk stats",
-                  "Devloped UDP connection for open source project jmxtrans, metricsd by using Java and Scala",
+                  "Developed UDP connection for open source project jmxtrans, metricsd by using Java and Scala",
                   "Developed Capistrano task to dynamically generate gdash templates for the metrics graphs and jmxtrans configuration files.",
                   "Developed scripts manage the ruby processes by using open source God project",
                   "Fixed the bug cannot listing the jmx attributes in details for open source project jmxsh"
@@ -589,13 +589,13 @@
                 "highlights": [
                   "Installed and configured Ruby on Rails 3 for BAMA for different environments with Delayed_jobs, Websocket server",
                   "Developed the Enhancement feature for BAMA to enable customization of list of microservices deployment to different systems",
-                  "Developed Rails3 ActiveRecord DB Migraiton scripts to add new columns to the DB tables",
+                  "Developed Rails3 ActiveRecord DB Migration scripts to add new columns to the DB tables",
                   "Developed Rail3 Model, View, Controller, Routes, Websocket and Validation jobs",
                   "Developed Websocket server customized startup script",
                   "Developed scripts to integrate Capistrano and BOM GIT repo and BAMA together to deploy microservices with matching versions for Dev/QA/Staging/Prod environments",
                   "Developed automation ruby scripts to post JSON message to BAMA for the released artifacts",
                   "Developed scripts to upload artifacts to Maven Repo (Artifactory and Nexus) by using their REST APIs",
-                  "Setup SSO (Signle-Sign-On) for BAMA with Atlassian Crowd ID and LDAP-based Authentication"
+                  "Setup SSO (Single-Sign-On) for BAMA with Atlassian Crowd ID and LDAP-based Authentication"
                 ],
                 "technologies": [
                   "Ruby",
@@ -717,7 +717,7 @@
                   "Using Puppet to automate the system level configuration",
                   "Developed Nexus replication scripts from master to slave automatically with keepalived",
                   "Developed maven circular dependency checking scripts and created nightly CI jobs to run it against more than 100 microservices projects",
-                  "Develope Capistrano logic to automatically check ruby version and install the right ruby version with rbenv",
+                  "Developed Capistrano logic to automatically check ruby version and install the right ruby version with rbenv",
                   "Developed bash scripts to launch python scripts to generate data parity reports and upload to confluence pages automatically",
                   "Developed automation tools to create Rally defect ticket and upload the heapDump file and grep the exception logs",
                   "Migrated Solr from Single-core to multi-core with automated Capistrano tasks",
