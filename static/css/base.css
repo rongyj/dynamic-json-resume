@@ -67,11 +67,11 @@ li {
 }
 
 div[id$='extra'] > a:link, div[id$='extra'] > ul > a:link{
-	text-decoration: : none;
+	text-decoration: none;
 }
 
 div[id$='extra'] > a:visited, div[id$='extra'] > ul > a:link{
-	text-decoration: : none;
+	text-decoration: none;
 }
 
 div[id$='extra'] > img {
@@ -152,9 +152,6 @@ div.project-item::before{
 	padding-bottom: 10px;
 }
 
-.projecs-section {
-
-}
 .projects-title-section {
 	text-transform: uppercase;
 	font-weight: bold;
@@ -233,6 +230,29 @@ div.project-item::before{
 	border-radius: 5px;
 	font-size: medium;
 }
+
+.footer-same-line {
+    height: 60px; /*childrens it's all absolute position, so must set height*/
+	position: relative;
+	
+}
+.footer-same-line{
+    display: inline-block;
+	position: absolute;
+}
+.footer-on-the-left{
+ 	left:0px;
+}
+.footer-on-the-center{
+    left: 0%;
+	right: 0%;
+	text-align: center;
+
+}
+.footer-on-the-right{
+   right: 0px;
+}
+
 @media (max-width: 900px) {
     .container {
         display: block;
@@ -241,7 +261,7 @@ div.project-item::before{
 
 @media print {
 	body {
-		margin: 0 0;
+		margin: 0 0 0 0;
 	}
 	#extra {
 		display: none;

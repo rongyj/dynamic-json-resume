@@ -8,13 +8,13 @@
       "phone": "856-408-4027",
       "github": "https://github.com/rongyj",
       "city": "Cherry Hill, NJ, USA, 08003",
-      "visa": "US Citizen"
+      "Work Permit": "US Citizen"
     },
     "education": [
       {
         "item-education": {
-          "start-date": "2002-09",
-          "end-date": "Jun.2006",
+          "start-date": "Sept.,2002",
+          "end-date": "Jun.,2006",
           "institution": {
             "name": "Texas Tech University",
             "city": "Lubbock, TX",
@@ -26,8 +26,8 @@
       },
       {
         "item-education": {
-          "start-date": "1993-09",
-          "end-date": "Feb.1996",
+          "start-date": "Sept.,1993",
+          "end-date": "Feb.,1996",
           "institution": {
             "name": "Shanghai JiaoTong University",
             "city": "Shanghai",
@@ -39,8 +39,8 @@
       },
       {
         "item-education": {
-          "start-date": "1987-09",
-          "end-date": "Jul.1991",
+          "start-date": "Sept.,1987-09",
+          "end-date": "Jul.,1991",
           "institution": {
             "name": "Changsha Railway University",
             "city": "Changsha, Hunan",
@@ -54,13 +54,13 @@
     "work": [
       {
         "item-work": {
-          "start-date": "Jun, 2017",
+          "start-date": "Jun.,2017",
           "end-date": "Current",
           "position": "VP,Lead Architect Engineer",
           "company": {
             "name": "Barclays",
             "city": "Wilmington, DE",
-            "country": "USA "
+            "country": "USA"
           },
           "achievements": "Delivery lead for Distributed System technology domain which includes Microservices, Event Driven Architecture (EDA), Message transports, integration (Batch/ETL) and (Event) Stream processing technologies. Cloud Adoption to migrate on-Premises enterprise systems to public cloud (AWS)",
 		  "technologies": [
@@ -87,6 +87,7 @@
             "title": "Delivery Lead for strategic distributed system technology domain",
             "description": "Delivery lead for Distributed system technology domain which includes Microservices, Event Driven Architecture (EDA), Message transports, integration (Batch/ETL) and (Event) Stream processing technologies",
             "highlights": [
+              "End to End Architecture; guiding solution architecture; developing design patterns Architecture Reviews - identifying reuse opportunities, manage technical debt Monitoring emerging technologies, industry trends and their applicability to the enterprise Capability roadmaps and heatmaps Drive/Foster Innovation Influencing Strategic Planning",
               "Drive technology transformation from on-premises to public cloud, multi-tiers monolithic to cloud-native Microservices system, strong ACID to BASE data consistency, Sync/Request/RPC driven to Async/Event driven architecture, tight coupling to loose coupling, ETL/Batch/Time to realtime streaming processing, vendor locked to resilient commodity system, vendor favor to OSS, vertical scaling to horizontal scaling",
               "Establish group-wide distributed system architecture and technology strategy",
               "Build PoC and Reference Architecture for common use cases for distributed system",
@@ -127,6 +128,8 @@
             "title": "Group-wide Cloud Adoption for Contact Center, Merchant Services and Fraud",
             "description": "Cloud Assessment and consulting for cloud architecture for on-premises applications migration to AWS. Troubleshooting the cloud migration related issues",
             "highlights": [
+              "Defined and designed cloud strategy and roadmap/journey for Merchant services, Fraud and Contact Center",
+              "Ensured ",
               "Assess ~500 on-premises applications to determine the cloud migration readiness",
               "Provide guidance to application team to design cloud migration architecture",
               "Guide the .NET system to AWS migration",
@@ -296,7 +299,7 @@
             {
               "item-projects": {
                 "title": "Oracle Fusion Applications (FA) Business Event/Message-Driven Connector Framework",
-                "description": "The business event connector framework provides the abilities to auto-discover the FA (OSS/ERP/HCM) business events (including custom events), set event filtering conditions, subscribe to interesting business event and expose the SOAP web service as the event listener through the ICS web/JDeveloper design time UI. This event connector framework enables the Fire-and-Forget/ Asynchronous Response and Publish/Subscribe integration pattern for Business Event/Message Integration",
+                "description": "The business event connector framework provides the abilities to auto-discover the FA (OSS/ERP/HCM) business events (including custom events), set event filtering conditions, allow the end user to subscribe to interesting business event and expose the end user's SOAP web service as the event listener through the ICS web/JDeveloper design time UI. This event connector framework enables the Fire-and-Forget/ Asynchronous Response and Publish/Subscribe integration pattern for Business Event/Message Integration",
                 "highlights": [
                   "Design and implement the business event connector for FA (OSC/ERP/HCM)",
                   "Build the design time web UI using the Oracle Web UI SDK which is building on the top of ADF",
