@@ -31,6 +31,21 @@
             {{ /resume.education }}
         </div>
         {{ /resume.education.length }}
+        {{ #resume.summaries.length }}
+        <div id="skills" class="section">
+            <div class="title-section" style="page-break-after: avoid">Summary:</div>
+            
+            <div>
+              <ul class="highlighted">
+                  {{ #resume.summaries }}
+                  <div class="description-work" style="page-break-inside: avoid"> {{ summary }} </div>
+                  <!--li>{{.}}</li-->
+                  {{ /resume.summaries}}
+              </ul>
+            </div>
+        </div>
+        {{ /resume.summaries.length }}
+
         {{ #resume.skills.length }}
         <div id="skills" class="section">
             <div class="title-section" style="page-break-after: avoid">Skills:</div>
@@ -64,35 +79,35 @@
         {{ /resume.hobbies.hobby-items.length}}
         {{ #resume.original.work.length}}
         <div id="work-experience" class="section">
-          <div class="title-section">Work Experience Summary:</div>
+          <div class="title-section" style="page-break-before: always;">Work Experience Summary:</div>
           <div {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}}>
-          <table id="work-experience" class="section" style="page-break-before: auto; page-break-after: auto;">
-            <tr class="work-item-header" style="page-break-inside: avoid;">
+          <table id="work-experience" class="section" style="page-break-inside:auto;">
+            <tr class="work-item-header">
                 <th class="header-employer" style="width:20%">Employments</th>
                 <th class="header-accomplishments"> Major Accomplishments & Technologies </th>
             </tr>
             {{ #resume.original.work}}
-              <tr class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}} style="page-break-before: auto; page-break-after: auto; page-break-inside: avoid;">
-                <td class="work-employer" rowspan="2" style="page-break-inside: avoid;">
-                  <p style="page-break-inside: avoid;">{{ item-work.start-date}} &ndash; {{ item-work.end-date }}
-                  <p class="bold-font" style="page-break-inside: avoid;">{{ item-work.company.name }}
-                  <p style="page-break-inside: avoid;">{{ item-work.company.city }},{{ item-work.company.country }}
-                  <p class="bold-font" style="page-break-inside: avoid;">{{ item-work.position }}
+              <tr class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}} style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>{{ item-work.start-date}} &ndash; {{ item-work.end-date }}
+                  <p class="bold-font">{{ item-work.company.name }}
+                  <p>{{ item-work.company.city }},{{ item-work.company.country }}
+                  <p class="bold-font">{{ item-work.position }}
                 </td>
-                <td style="page-break-inside: avoid; page-break-after: avoid;">
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
                   {{#item-work.projects.length }}
-                  <ul class="highlighted" style="page-break-inside: avoid;">
+                  <ul class="highlighted">
                     {{ #item-work.projects}}
-                      <li style="page-break-inside: avoid;">{{item-projects.title}}</li>
+                      <li>{{item-projects.title}}</li>
                     {{/item-work.projects}}
                   </ul>
                   {{/item-work.projects.length }}
                 </td>
               </tr>
-              <tr style="page-break-inside: avoid;">
-                <td style="page-break-inside: avoid;">
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
                   {{ #item-work.technologies.length }}
-                  <span class="technologies-work" style="page-break-inside: avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
                       {{ #item-work.technologies }}
                       {{ . }},
                       {{ /item-work.technologies }}
@@ -107,34 +122,34 @@
         {{ /resume.original.work.length}}
         {{ #resume.work.length }}
         <div id="work-experience" class="section">
-            <div class="title-section" style="page-break-before: always; page-break-after: auto">Selected Projects</div>
+            <div class="title-section" style="page-break-before:always;">Selected Projects</div>
             {{ #resume.work}}
-            <div class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}}>
+            <div class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}} >
                 <span class="item-work-header-date">{{ item-work.start-date}} &ndash; {{ item-work.end-date }},</span>
                 <span class="item-work-header-company-name">{{ item-work.position }}, {{ item-work.company.name }}</span>
-                <span class="item-work-header-company-location" style="page-break-inside: avoid">, {{ item-work.company.city }},{{ item-work.company.country }}</span><br />
-                <div class="description-work"> {{ item-work.achievements }} </div>
+                <span class="item-work-header-company-location">, {{ item-work.company.city }},{{ item-work.company.country }}</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> {{ item-work.achievements }} </div><br/>
                 {{ #item-work.projects.length }}
                 <div id="projects" class="projects-section">
                     {{ #item-work.projects }}
-                    <div class="project-item" {{#item-projects.id}} data-id="{{ item-projects.id }}" {{/item-projects.id}} >
-                            <span class="item-projects-title" style="page-break-after: auto;page-break-inside: avoid"> {{ item-projects.title }} </span><br/>
-                            <div class="description-work" style="page-break-inside: avoid"> {{ item-projects.description }} </div>
+                    <div class="project-item" {{#item-projects.id}} data-id="{{ item-projects.id }}" {{/item-projects.id}}>
+                            <span class="item-projects-title" style="page-break-after:avoid;"> {{ item-projects.title }} </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> {{ item-projects.description }} </div>
                             {{#item-projects.highlights.length}}
-                            <div class="subtitle-section" style="page-break-after: avoid">Highlights:</div>
-                            <ul class="highlighted" style="page-break-after: auto">
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
                                 {{#item-projects.highlights}}
-                                <li style="page-break-after: auto;page-break-inside: avoid">{{.}}</li>
+                                <li>{{.}}</li>
                                 {{/item-projects.highlights}}
                             </ul>
                             {{/item-projects.highlights.length}}
                             {{ #item-projects.technologies.length }}
-                            <div class="subtitle-section" style="page-break-before: auto;page-break-after: avoid">Technologies:</div>
-                            <span class="technologies-work" style="page-break-before: avoid;page-break-inside: avoid">
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-berak-after:always;">
                                 {{ #item-projects.technologies }}
                                 {{ . }},
                                 {{ /item-projects.technologies }}
-                            </span>
+                            </span><br/>
                             {{ /item-projects.technologies.length }}
                     </div>
                     {{ /item-work.projects }}
@@ -146,8 +161,8 @@
         {{ /resume.work.length }}
         <div id="hobbies" class="section" {{#resume.hobbies.id}} data-id="{{ resume.hobbies.id }}" {{/resume.hobbies.id}}>
             {{ #resume.hobbies.hobby-projects.length }}
-            <div class="title-section" style="page-break-after: avoid">Hobbies Projects:</div>
-            <div id="projects" class="projects-section">
+            <div class="title-section" style="page-break-before:always;page-break-after:avoid;">Hobbies Projects:</div>
+            <div id="projects" class="projects-section" style="page-break-before:avoid;page-break-inside:avoid;">
                 {{ #resume.hobbies.hobby-projects }}
                 <div class="hobby-project-item" {{#item-projects.id}} data-id="{{ item-projects.id }}" {{/item-projects.id}}>
                         <span class="item-projects-title"> {{ item-projects.title }} </span><br/>

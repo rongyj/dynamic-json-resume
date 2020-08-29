@@ -8,7 +8,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+figure, figcaption, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -19,10 +19,17 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+footer {
+	position:fixed;
+	bottom:0;
+	vertical-align:bottom;
+	width:100%;
+}
+
 
 body {
 	line-height: 1;
@@ -229,28 +236,6 @@ div.project-item::before{
 .highlighted {
 	border-radius: 5px;
 	font-size: medium;
-}
-
-.footer-same-line {
-    height: 60px; /*childrens it's all absolute position, so must set height*/
-	position: relative;
-	
-}
-.footer-same-line{
-    display: inline-block;
-	position: absolute;
-}
-.footer-on-the-left{
- 	left:0px;
-}
-.footer-on-the-center{
-    left: 0%;
-	right: 0%;
-	text-align: center;
-
-}
-.footer-on-the-right{
-   right: 0px;
 }
 
 @media (max-width: 900px) {

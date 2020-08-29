@@ -25,7 +25,7 @@ program
 	.command('export <path_json> [resume_gen_tags] [template_location] [pdf_location] [css_file_location]')
 	.description('Export a pdf resume from the json resume provided to the given location, applying the css file given')
 	.action(function (path_json, resume_gen_tags, temp_location, pdf_location, css_file_location) {
-		const html = createHtml(path_json, resume_gen_tags, temp_location, css_file_location, function (err, html) {
+		createHtml(path_json, resume_gen_tags, temp_location, css_file_location, function (err, html) {
 			if (err) {
 				console.log(err);
 				process.exit(1);
@@ -80,13 +80,13 @@ const createPdf = (html, pdf_location, callback) => {
 			printBackground: true,
 			preferCSSPageSize: true,
 			margin: {
-					top: '60px',
-					bottom: '60px',
-					right: '40px',
+				top: '50px',
+				bottom: '45px',
+				right: '40px',
 			},
 			displayHeaderFooter: true,
 			headerTemplate: "<div/>",
-			footerTemplate:"<table style=\"width:100%; font-size:10px; \"><tr><td style=\"width:33.333%;text-align:left;\"></td><td style=\"width:33.333%; text-align:center; \">Yongjun Rong</td><td style=\"width:33.333%; text-align:right; padding-right:15px;\" class=\"pageNumber\"></td></tr></table>",          
+			footerTemplate: "<table style=\"width:100%; font-size:10px; \"><tr><td style=\"width:33.333%;text-align:left;\"></td><td style=\"width:33.333%; text-align:center;vertical-align:bottom; \">Yongjun Rong</td><td style=\"width:33.333%; text-align:right;vertical-align:bottom; padding-right:20px;\" class=\"pageNumber\"></td></tr></table>",
 		});
 
 		console.log("pdf file is created at " + _path);
@@ -174,7 +174,7 @@ program
 		'Example: ./cli.js exportToHtml ./resume-schema.json FullStack' +
 		'Example: ./cli.js exportToHtml ./resume-schema.json full ./templates/table.tpl')
 	.action(function (path_json, resume_gen_tags, temp_location, html_location, css_file_location) {
-		createHtml(path_json, resume_gen_tags, temp_location, html_location, css_file_location, function (err, html) {
+		createHtml(path_json, resume_gen_tags, temp_location, css_file_location, function (err, html) {
 			if (err) {
 				console.log(err);
 				process.exit(1);
@@ -191,7 +191,9 @@ program
 					console.log(err);
 					process.exit(1);
 				}
+				console.log("HTML file is created at " + outputLocation);
 			});
+			
 		});
 
 	});
