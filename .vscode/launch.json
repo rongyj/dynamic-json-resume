@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [         
+
        {
             "name": "ExportPDF",
             "program": "${workspaceFolder}/cli.js",
@@ -14,9 +15,9 @@
             "type": "node",
             "args": ["export","resume.json","full"],
         },
-        /*
+       
         {
-            "name": "Export HTML",
+            "name": "ExportHTML",
             "program": "${workspaceFolder}/cli.js",
             "request": "launch",
             "skipFiles": [
@@ -24,7 +25,14 @@
             ],
             "type": "node",
             "args": ["exportToHtml","resume.json","full"],
-        },*/
+        },
            
+    ],
+    "compounds": [
+        {
+            "name": "ExportPDF/ExportHTML",
+            "configurations": ["ExportPDF", "ExportHTML"],
+            "preLaunchTask": "${defaultBuildTask}",
+        }
     ]
 }

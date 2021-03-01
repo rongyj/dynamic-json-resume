@@ -34,7 +34,7 @@
                         "country": "China"
                     },
                     "description": "Master of Engineering",
-                    "additional-info": "Specialization: Hydraulic Fluid Control in Mechanical Engineering"
+                    "additional-info": "Speciality: Hydraulic Fluid Control in Mechanical Engineering"
                 }
             },
             {
@@ -47,7 +47,7 @@
                         "country": "China"
                     },
                     "description": "Bachelor of Engineering",
-                    "additional-info": "Specialization: Engineering Machine"
+                    "additional-info": "Speciality: Engineering Machine"
                 }
             }
         ],
@@ -72,7 +72,7 @@
                         "Kafka Stream",
                         "SpringBoot",
                         "Docker",
-                        "AWS(EC2/IAM/S3/ECS/ELB/Lambda/RDS/VPC/R53/Security/AutoScaling..etc)",
+                        "AWS(EC2/IAM/S3/ECS/ELB/Lamda/RDS/VPC/R53/Security/AutoScaling..etc)",
                         "Kubernete/Terraform/Puppet/Chef/Ansible",
                         "Git/Maven/Jenkins/Bamboo",
                         "Python/Ruby/Scala/Bash/Go",
@@ -203,7 +203,7 @@
                                     "Created Dockerfiles to build WebLogic docker images with different external modules and libraries",
                                     "Built Docker Hosts in Oracle Cloud VMs, Amazon EC2 and local VirtualBox by using Docker Machine",
                                     "Designed and built the pool of Docker Cluster Environment by using Docker Swarm",
-                                    "Created Docker Stack file and deploy the service stack for multiple Microservices",
+                                    "Created Docker Stack file and deploy the service stack for multiple microservices",
                                     "Developed docker-compose.yml files with extending services for the full service stack including dependency Web Services, DBMS, NoSQL and JMS",
                                     "Researched and prototyped the Docker Swarm and Docker Compose integration"
                                 ],
@@ -384,7 +384,7 @@
                         "JMS",
                         "LDAP",
                         "SSO",
-                        "Metrics",
+                        "Mtrics",
                         "Graphite",
                         "Agile",
                         "RPC",
@@ -401,7 +401,7 @@
                     "projects": [
                         {
                             "item-projects": {
-                                "title": "AutoBuild System for Build/Release more than 200 Microservices projects with GIT/SVN/Maven",
+                                "title": "AutoBuild System for Build/Release more than 200 microservices projects with GIT/SVN/Maven",
                                 "description": "Automate the branching/tagging process and improve the work efficiency from 3 days to 1 day for more than 200 projects. Using maven versions plugin and maven repo REST API to automatically detect the latest snapshot and released dependency version and update pom.xml automatically. The cut tag script can cut a bug-fixing tag for the bug-fixing patch within 5 minutes.",
                                 "highlights": [
                                     "Design and implement the error handling and logging system for ruby bash commands",
@@ -412,7 +412,7 @@
                                     "Modify maven versions plugin to fix the bug which cannot update the dependency version property variables and the bug which cannot update the latest snapshot version to the latest released version",
                                     "Detect and update the dependency versions in pom.xml automatically using maven versions plugin and maven repo servers REST API",
                                     "Design and implement the branching/tagging process",
-                                    "Developed ruby/bash scripts to lock/unlock remote GIT branch in Gerrit server during branching and cutting tags period",
+                                    "Developed ruby/bash scripts to lock/unlock remote GIT branch in gerrit server during branching and cutting tags period",
                                     "Design code standards and rule to follow AutoBuild conventions for developers",
                                     "Applied convention over configuration for AutoBuild system",
                                     "Develop ruby scripts to post json message to a BOM management system to allow the artifacts ready to deploy",
@@ -452,12 +452,12 @@
                                 "title": "Configuration management and deployment automation with Puppet and Capistrano",
                                 "description": "Configuration management and deployment automation system by using puppet for linux os level configuration and capistrano for application level deployment automation",
                                 "highlights": [
-                                    "Setup puppet master server and agent in Linux Centos for DevOps and CI/CD environments",
+                                    "Setup puppet master server and agent in Linux centos for DevOps and CI/CD environments",
                                     "Designed and implemented develop/build/deployment process for the puppet templates files by using GIT",
                                     "Developed puppet templates file for linux os patch and lib yum installation and updates",
                                     "Developed capistrano deployment automation tasks and functions used by operation team for production deployment",
                                     "Maintained and troubleshooting complex configuration and deployment automation issue within Capistrano and Puppet",
-                                    "Developed puppet templates and capistrano tasks to automate the configuration and deployment process for Microservices with Dev/CI/CD environments",
+                                    "Developed puppet templates and capistrano tasks to automate the configuration and deployment process for microservices with Dev/CI/CD environments",
                                     "Developed Capistrano tasks to automate the Liferay deployment to Dev/QA/Staging/Prod environments with JDBC driver configuration to Oracle DB Server 11g"
                                 ],
                                 "technologies": [
@@ -483,15 +483,15 @@
                         {
                             "item-projects": {
                                 "title": "Continuous Integration (CI) and Continuous Deployment (CD) with Bamboo and Jenkins",
-                                "description": "Automation and Integration of the CI/CD clustering environments for more than 200 Microservices with build/runtime dependencies using Bamboo and Jenkins",
+                                "description": "Automation and Integration of the CI/CD clustering environments for more than 200 microservices with build/runtime dependencies using Bamboo and Jenkins",
                                 "highlights": [
                                     "Designed and implemented the CI/CD clustering environments using Bamboo and Jenkins for all different development and release branches",
-                                    "Developed automation scripts using Ruby/Bash/Perl/Python to launch the CI/CD environments with complex dependencies for more than 200 Microservices",
-                                    "Developed automated integration scripts to integrated Bamboo/Jenkins with Jira/Confluence, GIT/Maven repo",
+                                    "Developed automation scripts using Ruby/Bash/Perl/Python to launch the CI/CD environments with complex dependencies for more than 200 microservices",
+                                    "Developed auotmated integration scripts to integrated Bamboo/Jenkins with Jira/Confluence, GIT/Maven repo",
                                     "Designed and implemented complex tasks/jobs chains/pipeline with trigger or events",
-                                    "Maintained and Troubleshooted complex CI/CD issues within the clustering environments with multiple Subsystems for more than 200 Microservices",
+                                    "Maintained and Troubleshooted complex CI/CD issues within the clustering environments with multiple Subsystems for more than 200 microservices",
                                     "Developed automation scripts to automatically create Bamboo tasks from git repo and capistrano",
-                                    "Developed Capistrano automation tasks to deploy Microservices stack with multiple Microservices to Dev/QA/Staging/Prod",
+                                    "Developed Capistrano automation tasks to deploy microservices stack with multiple microservices to Dev/QA/Staging/Prod",
                                     "Developed Capistrano tasks to generate configuration file for HAProxy automatically",
                                     "Setup Bamboo and Jenkins Servers Cluster with multiple remote agents/nodes as the build/deployment servers"
                                 ],
@@ -588,14 +588,14 @@
                         {
                             "item-projects": {
                                 "title": "BOM (Bill Of Materials) Administration and Management Application (BAMA) Enhancement and maintenance",
-                                "description": "Implemented with Ruby on Rails 3, Delayed_jobs, Ruby Websocket server, mySQL as the DB server, Passangers(mod_rails) and Apache HTTPD as LB, an internal BOM Administration and Management Application provides deployment automation and Management for more than 200 Microservices for different environments (Dev/QA/Staging/Prod).The Enhancement feature enables the user to customize the list of Microservices to deploy to different systems with matched Capistrano versions and BOM versions.",
+                                "description": "Implemented with Ruby on Rails 3, Delayed_jobs, Ruby Websocket server, mySQL as the DB server, Passangers(mod_rails) and Apache HTTPD as LB, an internal BOM Administration and Management Application provides deployment automation and Management for more than 200 microservices for different environments (Dev/QA/Staging/Prod).The Enhancement feature enables the user to customize the list of microservices to deploy to different systems with matched Capistrano versions and BOM versions.",
                                 "highlights": [
                                     "Installed and configured Ruby on Rails 3 for BAMA for different environments with Delayed_jobs, Websocket server",
-                                    "Developed the Enhancement feature for BAMA to enable customization of list of Microservices deployment to different systems",
+                                    "Developed the Enhancement feature for BAMA to enable customization of list of microservices deployment to different systems",
                                     "Developed Rails3 ActiveRecord DB Migration scripts to add new columns to the DB tables",
                                     "Developed Rail3 Model, View, Controller, Routes, Websocket and Validation jobs",
                                     "Developed Websocket server customized startup script",
-                                    "Developed scripts to integrate Capistrano and BOM GIT repo and BAMA together to deploy Microservices with matching versions for Dev/QA/Staging/Prod environments",
+                                    "Developed scripts to integrate Capistrano and BOM GIT repo and BAMA together to deploy microservices with matching versions for Dev/QA/Staging/Prod environments",
                                     "Developed automation ruby scripts to post JSON message to BAMA for the released artifacts",
                                     "Developed scripts to upload artifacts to Maven Repo (Artifactory and Nexus) by using their REST APIs",
                                     "Setup SSO (Single-Sign-On) for BAMA with Atlassian Crowd ID and LDAP-based Authentication"
@@ -691,7 +691,7 @@
                                     "Gerrit",
                                     "Artifactory",
                                     "Nexus",
-                                    "PostgreSQL",
+                                    "PostgreSQ",
                                     "OpenID",
                                     "LDAP",
                                     "Crowd"
@@ -711,7 +711,7 @@
                                 "title": "Automation scripts and tools for DevOps",
                                 "description": "Develop and use scripts (Ruby/Bash) and tools to automate the build/release/deploy process to improve the work efficiency.",
                                 "highlights": [
-                                    "Develop migration tools to migrate git repos from different remote git repos(Gerrit, stash and gittorious) to new Gerrit server",
+                                    "Develop migration tools to migrate git repos from different remote git repos(Gerrit, stash and gitorious) to new Gerrit server",
                                     "Develop scripts to find the largest commit object and rewrite git history to improve git performance",
                                     "Develop Gerrit/git hooks for rally and jira",
                                     "Develop multiple automation tools using confluence, jira and bamboo CLI",
@@ -719,12 +719,12 @@
                                     "Maintain configuration management tool Capistrano and automate the environment and service configuration ",
                                     "Using Puppet to automate the system level configuration",
                                     "Developed Nexus replication scripts from master to slave automatically with keepalived",
-                                    "Developed maven circular dependency checking scripts and created nightly CI jobs to run it against more than 100 Microservices projects",
+                                    "Developed maven circular dependency checking scripts and created nightly CI jobs to run it against more than 100 microservices projects",
                                     "Developed Capistrano logic to automatically check ruby version and install the right ruby version with rbenv",
                                     "Developed bash scripts to launch python scripts to generate data parity reports and upload to confluence pages automatically",
                                     "Developed automation tools to create Rally defect ticket and upload the heapDump file and grep the exception logs",
                                     "Migrated Solr from Single-core to multi-core with automated Capistrano tasks",
-                                    "Developed Capistrano task to automatically migrate the Solr data while upgrade jettey to new version",
+                                    "Developed Capistrano task to automatically migrate the solr data while upgarde jettey to new version",
                                     "Installed and configured Python 2 and Python 3 in the same linux host",
                                     "Developed Capistrano logic to automatically detect DB schema changes made by developers from source code"
                                 ],
@@ -855,8 +855,8 @@
                         "Maven",
                         "SVN",
                         "JVM",
-                        "JVM GC Tuning",
-                        "Apache Luncene",
+                        "JVM GC Tunning",
+                        "Apache Luncen",
                         "Apache Solr",
                         "VMWare",
                         "Cloud"
@@ -979,7 +979,7 @@
                                     "JVM",
                                     "GC",
                                     "Clustering",
-                                    "Performance Monitoring",
+                                    "Peformance Monitoring",
                                     "Linux",
                                     "Unix"
                                 ]
@@ -1826,7 +1826,7 @@
                         "city": "Lubbock, Texas",
                         "country": "USA"
                     },
-                    "achievements": "Studied as Master Student in the CS department while working as part time as System Administration for the Teaching and Research labs for Unix/Linux and Windows environments",
+                    "achievements": "Stuied as Master Student in the CS department while working as part time as System Administration for the Teaching and Research labs for Unix/Linux and Windows environments",
                     "technologies": [
                         "Java",
                         "C/C++",
@@ -1836,7 +1836,7 @@
                         "Linux Kernel",
                         "GIS",
                         "Ant",
-                        "Struts",
+                        "Stuts",
                         "J2EE",
                         "UML2",
                         "MVC",
@@ -2235,7 +2235,7 @@
                                 "title": "Handwriting Recognizing System",
                                 "description": "Using Java JNI, MFC, Lotus Domino, LS:DO, RDO:ODBC and DB2, developed a handwriting recognition testing, research environment for IBM ThinkScribe. It includes a web-based client (servlets communicate with ThinkScribe Driver via JNI), DB accessing (LS:DO and RDO:ODBC) and stand-alone application client (MFC)",
                                 "highlights": [
-                                    "Analysis the requirements and design the system",
+                                    "Anylisis the requirements and design the system",
                                     "Set up Lotus Domino R5 web environment and developed lotus script agents querying the data in DB2 through LS:DO",
                                     "Developed MFC application connecting to DB2 via RDO:ODBC",
                                     "Developed the Java class calling the handwriting recognition engine (.Dll) via JNI"
@@ -2365,7 +2365,7 @@
                         },
                         {
                             "item-projects": {
-                                "title": "Large scale Network System Design and Administration",
+                                "title": "Large scale Network System Design and Administion",
                                 "description": "Designed large-scale network system plan and implemented the network system (hardware installation, Data link layer and IP layer configuration) with fiber network products (Cisco, IBM ATM and 3Com)",
                                 "highlights": [
                                     "People's Bank of China (The Central Bank of China) ATM network system design and implementation (ATM 622M, ELAN, VLAN, CISCO Router 7500)",
@@ -2403,7 +2403,7 @@
                                     "Ethernet"
                                 ],
                                 "tags": [
-                                    "System Administration",
+                                    "System Administrion",
                                     "Network Design"
                                 ]
                             }
@@ -2421,7 +2421,7 @@
                         "city": "ShanXi Province",
                         "country": "P. R. China"
                     },
-                    "achievements": "Designed Locomotive engine electric motor/generator cases and automated with AutoCAD, CAPP and CAM with FMS/CIMS",
+                    "achievements": "Designed Locomotive engine electic motor/generator cases and automated with AutoCAD, CAPP and CAM with FMS/CIMS",
                     "technologies": [
                         "C/C++",
                         "AutoCAD",
@@ -2432,7 +2432,7 @@
                     "projects": [
                         {
                             "item-projects": {
-                                "title": "CIMS and FMS CAPP/CAD/CAM manufacturing Automation application development",
+                                "title": "CIMS and FMS CAPP/CAD/CAM manufacturing Automcation application development",
                                 "description": "Locomotive's motor and generator related mechanical products design and manufacturing processing. Programming on FMS/CIM manufacture centers from GE (General Electric)",
                                 "highlights": [
                                     "Mechanical engineer of locomotive's motor and generator",
@@ -2459,19 +2459,24 @@
         ],
         "summaries": [
             {
-                "summary": "A lead architect engineer with strong hands-on digital transformation experiences in finance industry to migrate on-premises legacy monolithic tightly coupled system to cloud-native Microservices loosely coupled system and refactor strong synchronous ACID relational data consistency system to asynchronous event driven architecture (EDA) eventual consistency system, designed and implemented Internet scale cloud-native and hybrid enterprise system for financial/insurance and tele-communication industries. A full stack lead software engineer with emerging technologies worked as lead architect engineer, lead developer, lead DevOps engineer, senior system/network engineer for Barclays, Oracle, Comcast, IBM and Sun with over 20 years professional experiences focusing on back-end distributed system architecture design and implementation, system/network administration, infrastructure automation/orchestration. A tech lead and player with excellent verbal and written communication skills engaged in small or large team with agile methodology. A hard worker, who will bring valuable experiences, knowledges/skills and expertises to the team's success, is looking for enterprise architect, technical architect, cloud infrastructure architect or tech lead opportunities within Metro Philadelphia area or allowing work remotely.",
+                "summary": "As a lead cloud platform/infrastructure and enterprise software architect engineer, I worked for Barclays, Oracle, Comcast T&P, IBM/Sun R&D with over 20 years of professional experiences focusing on Cloud/BigData platform/infrasturcture architecture design and implementation, DevOps/Automation, Web Services (SOA/SOAP/REST) Enterprise Application Cloud/On-Premises Integration, Full Stack (Client/Server-side) Enterprise System, Distributed Network Environment and Linux/Unix system administration.I'm an expert with strong troubleshooting skills and detail-oriented attitude.  I always keep myself up with the cutting-edge technologies with hands-on projects. I has been involved in design, development and deployment of large scale (clustering/VMs/cloud) hardware and software systems.I'm a team leader and player with effective communications skills engaged in small and large professional groups using agile methodology. I have Green Card with studying and working in USA for more than 15 years.I'm looking for infrastructure automation, SDLC system and software R&D lead engineer or architect position with less than 10% travel. I'm a hard worker who will bring valuable experience, knowledge and expertise to the team’s success.",
+                "tags": [
+                    "general"
+                ]
+            },
+            {
+                "summary": "A lead architect engineer with strong hands-on digital transofrmation experiences to migrate from on-premises legacy monilithic tightly coupled system to cloud-native microservices loosely coupled system and refactor strong synchornonous ACID relational data consistency system to asynchronous event driven architecture (EDA) eventaul consistency system, designed and implemented large scale distributed system including web/app system, enterprise sytem",
                 "tags": [
                     "architect"
                 ]
             }
         ],
         "skills": [
-            "Enterprise Architecture for large Finance/Insurance/Telecommunication organization (Strategic technology Domain, Distributed system, Microservices, EDA, streaming processing, integration, message transportation, architecture handbook, ServiceFirst)",
-            "Digital transformation architecture engineering from on-premises legacy monolithic tightly-coupled system to cloud-native distributed loosely-coupled system (AWS, JEE, SQL, NoSQL, Microservices, CAP, BASE, Clean Architecture)",
-            "Cloud infrastructure Design, Implementation and Automation (AWS/GCP/Azure, EC2 Lambda, S3, RDS, DynamoDB, VPC, API Gateway, ELB, R53, PrivateLink, ECS/EKS, IAM, Docker, Terraform, Kubernete, Serverless, IaC)",
-            "Cloud/On-premises infrastructure DevOps/System/Networking administration Automation and Orchestration(AWS, Docker, Kubernete, Terraform, Chef/Puppet/Ansible, CI/CD, GIT, Maven/Gradle, Linux HA, SAN, Ruby/Python/Bash, Nexus/Artifactory, Jenkins/Bamboo)",
-            "SaaS Enterprise Application (ERP/CRM/Accounting/HR) Integration (EAI) Architecture Design and Implementation (AWS, VPC Endpoints, PrivateLink, SOAP/REST, WSDL/XML/JSON,)",
-            "Internet scale loosely-coupled high available/scalable enterprise Microservices system design, development and deployment (Java, SpringBoot, Istio, Node.js, lambda, Rest/JSON, CQRS, event sourcing, kafka, EDA)"
+            "Cloud platform/infrastructure design and implementation and DevOps Automation (AWS, Docker, VMWare/Openstack, Linux HA, Ruby/Rails, Bash, REST, Maven, GIT, SVN, CI, SDLC, DHCP, PXE, Cobbler, MySQL/PostgreSQL, GFS2/SAN)",
+            "Large SOA Web Services (SOAP/WSDL, REST/XML/JSON, RIA ) Enterprise Application Cloud/On-Premises Integration Service (IaaS) design, development and deployment",
+            "Desktop and Online Accounting, CRM and ERP System Integration Architect (Java to C/C++/DLLs, COM/COM+/DCOM,.NET, WCF,SOAP/WSDL,REST)",
+            "Server-side software development with middleware (J2EE,.NET) and DBMS",
+            "Distributed Network System Administration(EC2, Linux/Unix/Windows, RAID, SAN, LDAP, Kerberos, NFS, DNS, LAN/VLAN, WAN, GSLB)"
         ],
         "technologies": [
             {
@@ -2529,14 +2534,14 @@
                 {
                     "item-projects": {
                         "title": "Personalized JSON Schema Resume",
-                        "description": "Customized the open source project dynamic-json-resume using JSON format and mustache templates with Node.js and CSS3. GitHub url: https://github.com/rongyj/dynamic-json-resume/tree/rongyj",
+                        "description": "Customized the open source project dynamic-json-resume using JSON format and mustache templates with Node.js and CSS3. github url: https://github.com/rongyj/dynamic-json-resume/tree/rongyj",
                         "highlights": [
                             "Adapt the JSON schema to personal resume format",
                             "Developed new utility methods to filter the JSON data",
                             "Personalized CSS3 styles with auto counting for multiple counters",
                             "Add new table mustache template",
                             "Add @media print page numbers to the CSS3 styles",
-                            "Add CSS3 style for large table crossing page breaks",
+                            "Add CSS3 style for large table crosing page breakes",
                             "Debug in Atom with an open source Node-Debugger package",
                             "Generate pdf file from html using puppeteer"
                         ],

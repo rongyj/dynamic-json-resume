@@ -2,9 +2,9 @@
 
     <div id="cv">
         <div id="contact" {{#resume.contact.id}} data-id="{{ resume.contact.id }}" {{/resume.contact.id}}>
-            <div class="contact-name">{{ resume.contact.first_name }} {{ resume.contact.last_name }}</div>          
-            <div class="contact-email">{{ resume.contact.city }} ({{ resume.contact.visa}})</div>
+            <div class="contact-name">{{ resume.contact.first_name }} {{ resume.contact.last_name }}</div>
             <div class="contact-email">
+              <span class="contact-email">{{ resume.contact.city }} ({{ resume.contact.visa}})</span>
               <span class="header-date"> Email: </span>
               <span class="header-school-location">  {{ resume.contact.email }} </span>
               <span class="header-date"> Tel: </span>
@@ -34,7 +34,7 @@
         {{ #resume.summaries.length }}
         <div id="skills" class="section">
             <div class="title-section" style="page-break-after: avoid">Summary:</div>
-            
+
             <div>
               <ul class="highlighted">
                   {{ #resume.summaries }}
@@ -127,13 +127,13 @@
             <div class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}} >
                 <span class="item-work-header-date">{{ item-work.start-date}} &ndash; {{ item-work.end-date }},</span>
                 <span class="item-work-header-company-name">{{ item-work.position }}, {{ item-work.company.name }}</span>
-                <span class="item-work-header-company-location">, {{ item-work.company.city }},{{ item-work.company.country }}</span><br/>
-                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> {{ item-work.achievements }} </div><br/>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, {{ item-work.company.city }},{{ item-work.company.country }}</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> {{ item-work.achievements }} </div>
                 {{ #item-work.projects.length }}
                 <div id="projects" class="projects-section">
                     {{ #item-work.projects }}
-                    <div class="project-item" {{#item-projects.id}} data-id="{{ item-projects.id }}" {{/item-projects.id}}>
-                            <span class="item-projects-title" style="page-break-after:avoid;"> {{ item-projects.title }} </span>
+                    <div class="project-item" {{#item-projects.id}} data-id="{{ item-projects.id }}" {{/item-projects.id}} style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> {{ item-projects.title }} </span>
                             <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> {{ item-projects.description }} </div>
                             {{#item-projects.highlights.length}}
                             <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
@@ -145,7 +145,7 @@
                             {{/item-projects.highlights.length}}
                             {{ #item-projects.technologies.length }}
                             <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
-                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-berak-after:always;">
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
                                 {{ #item-projects.technologies }}
                                 {{ . }},
                                 {{ /item-projects.technologies }}
@@ -159,9 +159,9 @@
             {{ /resume.work}}
         </div>
         {{ /resume.work.length }}
-        <div id="hobbies" class="section" {{#resume.hobbies.id}} data-id="{{ resume.hobbies.id }}" {{/resume.hobbies.id}}>
+        <div id="hobbies" class="section" {{#resume.hobbies.id}} data-id="{{ resume.hobbies.id }}" {{/resume.hobbies.id}} style="page-break-inside:avoid;">
             {{ #resume.hobbies.hobby-projects.length }}
-            <div class="title-section" style="page-break-before:always;page-break-after:avoid;">Hobbies Projects:</div>
+            <div class="title-section" style="page-break-after:avoid;">Hobbies Projects:</div>
             <div id="projects" class="projects-section" style="page-break-before:avoid;page-break-inside:avoid;">
                 {{ #resume.hobbies.hobby-projects }}
                 <div class="hobby-project-item" {{#item-projects.id}} data-id="{{ item-projects.id }}" {{/item-projects.id}}>

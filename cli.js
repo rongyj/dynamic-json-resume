@@ -86,7 +86,7 @@ const createPdf = (html, pdf_location, callback) => {
 			},
 			displayHeaderFooter: true,
 			headerTemplate: "<div/>",
-			footerTemplate: "<table style=\"width:100%; font-size:10px; \"><tr><td style=\"width:33.333%;text-align:left;\"></td><td style=\"width:33.333%; text-align:center;vertical-align:bottom; \">Yongjun Rong</td><td style=\"width:33.333%; text-align:right;vertical-align:bottom; padding-right:20px;\" class=\"pageNumber\"></td></tr></table>",
+			footerTemplate: "<table style=\"width:100%; font-size:6px; \"><tr><td style=\"width:33.333%;text-align:left;\"></td><td style=\"width:33.333%; text-align:center;vertical-align:bottom; \">Yongjun Rong</td><td style=\"width:33.333%; text-align:right;vertical-align:bottom; padding-right:20px;\" class=\"pageNumber\"></td></tr></table>",
 		});
 
 		console.log("pdf file is created at " + _path);
@@ -193,7 +193,7 @@ program
 				}
 				console.log("HTML file is created at " + outputLocation);
 			});
-			
+
 		});
 
 	});
