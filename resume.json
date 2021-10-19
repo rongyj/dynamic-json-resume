@@ -2499,15 +2499,15 @@
             }
         ],
         "summaries": [{
-            "summary": "A lead architect engineer with strong hands-on digital transformation experiences in finance industry to migrate on-premises legacy monolithic tightly coupled system to cloud-native Microservice loosely coupled system and refactor strong synchronous ACID relational data consistency system to asynchronous event driven architecture (EDA) eventual consistency system, designed and implemented Internet scale cloud-native and hybrid enterprise system for financial/insurance and tele-communication industries. A full stack lead software engineer with emerging technologies worked as lead architect engineer, lead developer, lead DevOps engineer, senior system/network engineer for Barclays, Oracle, Comcast, IBM and Sun with over 20 years professional experiences focusing on back-end distributed system architecture design and implementation, system/network administration, infrastructure automation/orchestration. A tech lead and player with excellent verbal and written communication skills engaged in small or large team with agile methodology. A hard worker, who will bring valuable experiences, knowledges/skills and expertises to the team's success, is looking for enterprise architect, technical architect, cloud infrastructure architect or tech lead opportunities within Metro Philadelphia area or allowing work remotely.",
+            "summary": "A lead cloud architect engineer with strong hands-on digital transformation experiences in finance industry to migrate on-premises legacy monolithic tightly coupled system to cloud-native Microservice loosely coupled system and refactor strong synchronous ACID relational data consistency system to asynchronous event driven architecture (EDA) eventual consistency system, designed and implemented Internet scale cloud-native and hybrid enterprise system for financial/insurance and tele-communication industries. A full stack lead software engineer with emerging technologies worked as lead architect engineer, lead developer, lead infrastructure/DevOps engineer, senior system/network engineer for Barclays, Oracle, Comcast, IBM and Sun with over 20 years professional experiences focusing on back-end distributed system architecture design and implementation, system/network administration, infrastructure automation/orchestration. A tech lead and player with excellent verbal and written communication skills engaged in small or large team with agile methodology. A hard worker, who will bring valuable experiences, knowledges/skills and expertises to the team's success, is looking for enterprise architect, technical architect, cloud infrastructure architect or tech lead opportunities within Metro Philadelphia area or allowing work remotely.",
             "tags": [
                 "architect"
             ]
         }],
         "skills": [
+            "Cloud (AWS/GCP/Azure) infrastructure Design, Implementation and Automation (EC2,EKS/AKS/GKS, ECS, Lambda, S3, RDS, DynamoDB, VPC, API Gateway, ELB/ALB, R53, PrivateLink, IAM, Docker, Terraform, Kubernetes, Serverless, IaC)",
             "Enterprise Architecture for large Finance/Insurance/Telecommunication organization (Strategic technology Domain, Distributed system, Microservice, EDA, streaming processing, integration, message transportation, architecture handbook, ServiceFirst)",
             "Digital transformation architecture engineering from on-premises legacy monolithic tightly-coupled system to cloud-native distributed loosely-coupled system (AWS, JEE, SQL, NoSQL, Microservice, CAP, BASE, Clean Architecture)",
-            "Cloud infrastructure Design, Implementation and Automation (AWS/GCP/Azure, EC2 Lambda, S3, RDS, DynamoDB, VPC, API Gateway, ELB, R53, PrivateLink, ECS/EKS, IAM, Docker, Terraform, Kubernetes, Serverless, IaC)",
             "Cloud/On-premises infrastructure DevOps/System/Networking administration Automation and Orchestration(AWS, Docker, Kubernetes, Terraform, Chef/Puppet/Ansible, CI/CD, GIT, Maven/Gradle, Linux HA, SAN, Ruby/Python/Bash, Nexus/Artifactory, Jenkins/Bamboo)",
             "SaaS Enterprise Application (ERP/CRM/Accounting/HR) Integration (EAI) Architecture Design and Implementation (AWS, VPC Endpoints, PrivateLink, SOAP/REST, WSDL/XML/JSON,)",
             "Internet scale loosely-coupled high available/scalable enterprise Microservice system design, development and deployment (Java, SpringBoot, Istio, Node.js, lambda, Rest/JSON, CQRS, event sourcing, kafka, EDA)"
@@ -2561,8 +2561,8 @@
                 },
                 {
                     "item-hobbies": {
-                        "name": "IFTT Home Automation",
-                        "additional-info": "IFTT, WeMo, EcoBee, Weather Underground, SaaS, REST, Home Automation"
+                        "name": "IFTTT Home Automation",
+                        "additional-info": "IFTTT, WeMo, EcoBee, Weather Underground, SaaS, REST, Home Automation"
                     }
                 }
             ],
