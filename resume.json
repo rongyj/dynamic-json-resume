@@ -10,7 +10,8 @@
             "city": "Cherry Hill, NJ, USA, 08003",
             "US Work Authorization": "US Citizen"
         },
-        "education": [{
+        "education": [
+            {
                 "item-education": {
                     "start-date": "Sept.,2002",
                     "end-date": "Jun.,2006",
@@ -50,17 +51,73 @@
                 }
             }
         ],
-        "work": [{
+        "work": [
+            {
                 "item-work": {
-                    "start-date": "Jun.,2017",
+                    "start-date": "Dec.,2021",
                     "end-date": "Current",
-                    "position": "VP,Lead Architect Engineer",
+                    "position": "Senior Cloud Engineer II (Associate)",
                     "company": {
-                        "name": "Barclays",
-                        "city": "Wilmington, DE",
+                        "name": "McKinsey & Company",
+                        "city": "Cherry Hill, NJ (WFH)",
                         "country": "USA"
                     },
-                    "achievements": "Cloud(AWS/Azure/GCP) Cost Analytics/Optimization/Management platform. Cloud Adoption to migrate on-premises enterprise systems to public cloud (AWS). Delivery lead for Distributed System technology domain which includes Microservice, Event Driven Architecture (EDA), Message transports, integration (Batch/ETL) and (Event) Stream processing technologies.",
+                    "achievements": "Working on migrating/refactoring complicated EDA mainframe system to Cloud (AWS) serverless EDA system with EventBridge/Lambda/Step Function/SQS/SNS/CloudWatch/EKS..etc.",
+                    "technologies": [
+                        "Event Driven Architecture (EDA)",
+                        "Terraform",
+                        "Microservices",
+                        "Java/SpringBoot/NodeJs",
+                        "EventBridge/CloudWatch/Lambda/Step Functions",
+                        "DynamoDB/RDS/Oracle",
+                        "EKS",
+                        "Json Schema",
+                        "JOI",
+                        "OpenAPI/Swagger"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "Migration/Refactoring of Mainframe (IBM MQ) EDA system to AWS by using EventBridge/Lambda/Step Function/CloudWatch/EKS/SQS/SNS...etc.",
+                                "description": "Design and Implement/Deploy the EKS Router to integrate AWS EventBridge with external MQ events",
+                                "highlights": [
+                                    "Develop SpringBoot EKS router to convert XML/XSD to JSON schema and integrate with MQ events",
+                                    "Design and implement the monitoring terraform module for all different AWS resources (Lambda, EventBridge, S3, DynamoDB, Step Function..etc.) using cloudwatch metrics",
+                                    "Design and implement the reusable report generator using Lambda and EventBridge and deployed as Microservices which can be called to run any custom AWS CloudWatch insights queries in custom schedule"
+                                ],
+                                "technologies": [
+                                    "Java/SpringBoot",
+                                    "Terraform",
+                                    "Microservice",
+                                    "Java/JavaScript",
+                                    "EKS",
+                                    "AWS/EventBridge/CloudWatch/Lambda",
+                                    "XML/XSD/Json/Json Schema",
+                                    "DynamoDB",
+                                    "RDS/Oracle"
+                                ],
+                                "tags": [
+                                    "Cloud",
+                                    "DevOps",
+                                    "Infrastructure",
+                                    "Microservice"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "item-work": {
+                    "start-date": "Dec.,2020",
+                    "end-date": "Dec., 2021",
+                    "position": "Staff Engineer",
+                    "company": {
+                        "name": "Yotascale",
+                        "city": "Cherry Hill, NJ (WFH)",
+                        "country": "USA"
+                    },
+                    "achievements": "Cloud(AWS/Azure/GCP) Cost Analytics/Optimization/Management platform. ",
                     "technologies": [
                         "OpenAPI/Swagger",
                         "Microservice",
@@ -76,14 +133,12 @@
                         "Docker",
                         "AWS(EC2/IAM/S3/ECS/EKS/ELB/Lambda/RDS/VPC/R53/Secret Manager/AutoScaling/SES..etc)",
                         "Puppet/Chef/Ansible",
-                        "Git/Maven/Jenkins/Bamboo",
-                        "Python/Ruby/Scala/Bash/Go",
-                        "ELK/AppDynamic",
-                        "DynamoDB/MongoDB/ElasticCache/GridGain",
-                        "Linux/Windows/AIX/Solaris",
-                        "aPaaS/VMWare/Citrix"
+                        "Git/Maven/Jenkins",
+                        "Python/Bash/Go",
+                        "ELK/AppDynamic/Datadog"
                     ],
-                    "projects": [{
+                    "projects": [
+                        {
                             "item-projects": {
                                 "title": "Lead Architect and Lead Implementation Engineer for Cloud(AWS/Azure/GCP) Cost Analytics/Optimization/Management platform",
                                 "description": "Design and Implement/Deploy the Cloud Cost Analytics/Optimization/Management platform to help different stakeholders to understand/manage the cloud cost from different perspectives (Lens: Organizational/Technology stack/Business domain...etc.).The platform ingests the raw cost data (CUR file..etc.) into data warehouse (ClickHouse) with kubeflow pipelines and allocates the cost data based on customizable allocation rules/trees. Metadata driven analytics widgets config and cost analytics Microservices with openAPI/Swagger spec are deployed in EKS with Istio and Auth0/JWT tokens for SSO authentication and external authorization for RBAC. Apollo GraphQL cluster is used to simply the cache management and REST APIs aggregation. One page REACT front-end is developed to generate the cost analytics diagrams/graphs dynamically.",
@@ -104,7 +159,6 @@
                                     "Implement Junit test cases with local docker test containers",
                                     "Develop common multiple DBMS (ClickHouse and PostgreSQL) access lib with AWS secrets manager",
                                     "Implement json schema validation using open source"
-
                                 ],
                                 "technologies": [
                                     "Cloud Cost Analytics/Optimization/Management",
@@ -129,7 +183,104 @@
                                     "Microservice"
                                 ]
                             }
-                        },
+                        }
+                    ]
+                }
+            },
+            {
+                "item-work": {
+                    "start-date": "Mar.,2020",
+                    "end-date": "Nov., 2021",
+                    "position": "Technical Infrastructure/Devops Architect",
+                    "company": {
+                        "name": "Gigster Inc.",
+                        "city": "CHerry Hill, NJ",
+                        "country": "USA"
+                    },
+                    "achievements": "Cloud (AWS) Infrastructure architecture (CICD/Automation/Terraform/EKS) design and implementation",
+                    "technologies": [
+                        "Microservice",
+                        "NodeJs",
+                        "Kubernetes/EKS",
+                        "Terraform",
+                        "RabbitMQ/ActiveMQ",
+                        "Docker",
+                        "AWS(EC2/IAM/S3/EKS/ALB/RDS/VPC/R53/AutoScaling/SES/ECR..etc)",
+                        "Puppet/Chef/Ansible",
+                        "Git/Maven/Jenkins",
+                        "JavaScript"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "Images manipulation/detection software evaluation system",
+                                "description": "Lead Infrastructure /DevOps Architect/Implementation Engineer for Images manipulation/detection software evaluation system using Microservices (NodeJs) and EDA (RabbitMQ with PostgreSQL) within EKS cluster ",
+                                "highlights": [
+                                    "Design and implement AWS infrastructure for Microservices (NodeJs) and EDA within EKS cluster",
+                                    "Design and implement fully automated AWS stack in IaaS git repo by using terraform/terragrunt/bash",
+                                    "Develop terraform scripts/modules to dynamically deploy/configure multiple Microservices with pods/containers/services to EKS cluster by using kubernetes terraform provider",
+                                    "Develop terraform scripts to deploy/configure AWS ALB as eks ingress controller  by using helm terraform provider",
+                                    "Develop terraform scripts to customize IAM role/policy, k8s SA(service account) and CRD (Custom Resources Descriptor) for ALB Ingress Controller by using Kubernetes-alpha terraform provider",
+                                    "Develop terraform templates to deploy RabbitMQ and PostgreSQL by using terraform helm provider",                       
+                                    "Design/Develop multiple terraform modules with Terragrunt.hcl to maintain the inputs/outputs dependencies between modules and keep configurations DRY",
+                                    "Develop terraform templates to dynamically add R53 zone and records with TLS certificates validations",
+                                    "Develop terraform templates to dynamically create S3 buckets with IAM policies to allow k8's service account to assume IAM role to access control using OIDC",
+                                    "Develop terraform templates to create SFTP server backed with S3 bucket with IAM role and policy for sftp users",
+                                    "Develop terraform templates to dynamically create IAM user with customized group and policies"
+                                ],
+                                "technologies": [
+                                    "Cloud Cost Analytics/Optimization/Management",
+                                    "OpenAPI/Swagger",
+                                    "Microservice",
+                                    "Java/Kotlin/Python",
+                                    "Spring/SpringBoot/Flask",
+                                    "Kubernetes/EKS/AKS/GKS",
+                                    "Terraform/Terragrunt/Ansible",
+                                    "AWS/EC2/EBS/S3/VPC/Security/R53/IAM/Secrets Manager/Lambda",
+                                    "Service Mesh/Istio/Envy",
+                                    "Helm/Chart",
+                                    "RabbitMQ"
+                                ],
+                                "tags": [
+                                    "Cloud",
+                                    "DevOps",
+                                    "Infrastructure",
+                                    "Microservice"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "item-work": {
+                    "start-date": "Jun.,2017",
+                    "end-date": "Feb., 2020",
+                    "position": "VP,Lead Architect Engineer",
+                    "company": {
+                        "name": "Barclays",
+                        "city": "Wilmington, DE",
+                        "country": "USA"
+                    },
+                    "achievements": "Cloud Adoption to migrate on-premises enterprise systems to public cloud (AWS). Delivery lead for Distributed System technology domain which includes Microservice, Event Driven Architecture (EDA), Message transports, integration (Batch/ETL) and (Event) Stream processing technologies.",
+                    "technologies": [
+                        "Terraform",
+                        "CQRS",
+                        "Event Store",
+                        "Event Driven Architecture (EDA)",
+                        "Kafka/ActiveMQ/IBM MQ",
+                        "Kafka Stream",
+                        "Docker",
+                        "AWS(EC2/IAM/S3/ECS/EKS/ELB/Lambda/RDS/VPC/R53/Secret Manager/AutoScaling/SES..etc)",
+                        "Puppet/Chef/Ansible",
+                        "Git/Maven/Jenkins/Bamboo",
+                        "Python/Ruby/Scala/Bash/Go",
+                        "ELK/AppDynamic",
+                        "DynamoDB/MongoDB/ElasticCache/GridGain",
+                        "Linux/Windows/AIX/Solaris",
+                        "aPaaS/VMWare/Citrix"
+                    ],
+                    "projects": [
                         {
                             "item-projects": {
                                 "title": "Delivery Lead for strategic distributed system technology domain",
@@ -245,7 +396,8 @@
                         "SaaS",
                         "AWS"
                     ],
-                    "projects": [{
+                    "projects": [
+                        {
                             "item-projects": {
                                 "title": "Docker Swarm/Compose/Stack CD/CI Test Environment for  Cloud SDK/APIs/Connectors",
                                 "description": "Research and prototype the docker containers, compose and swarm technologies to help developer setup complex testing services stack and improve CI testing environments for the SDK/APIs and Java Connectors. ",
@@ -449,7 +601,8 @@
                         "RAC",
                         "Volume Manager"
                     ],
-                    "projects": [{
+                    "projects": [
+                        {
                             "item-projects": {
                                 "title": "AutoBuild System for Build/Release more than 200 Microservice projects with GIT/SVN/Maven",
                                 "description": "Automate the branching/tagging process and improve the work efficiency from 3 days to 1 day for more than 200 projects. Using maven versions plugin and maven repo REST API to automatically detect the latest snapshot and released dependency version and update pom.xml automatically. The cut tag script can cut a bug-fixing tag for the bug-fixing patch within 5 minutes.",
@@ -911,7 +1064,8 @@
                         "VMWare",
                         "Cloud"
                     ],
-                    "projects": [{
+                    "projects": [
+                        {
                             "item-projects": {
                                 "title": "Boomi  On-Demand Business Integration Cloud Service",
                                 "description": "A Large On-Demand integration service-oriented (SOA) system helps to visually design the business integration process using Rich Internet Application (RIA), automatically deploy to distributed run-time engines based on REST/XML style.  The run-time engine named \"atom\" contains all the components required to execute an integration process from end-to-end including connectors, transformation rules, decision handling and processing logic. The software is delivered as a SaaS system based on web 2.0 technologies with zero installation and zero coding.",
@@ -1333,7 +1487,8 @@
                         "eCommerce",
                         "SQL"
                     ],
-                    "projects": [{
+                    "projects": [
+                        {
                             "item-projects": {
                                 "title": "Large scale SOA e-learning system architecture design and blueprinting",
                                 "description": "Designed and blueprinted large scale SOA e-laerning system based on Java/.NET with PostgreSQL and MySQL DB clusters",
@@ -1525,7 +1680,8 @@
                         "PostgreSQL",
                         "NIS/NIS+"
                     ],
-                    "projects": [{
+                    "projects": [
+                        {
                             "item-projects": {
                                 "title": "Unix network System and Software routine maintenance",
                                 "description": "Daily maintenance and system administration for networking Solaris, AIX and Mac OSX",
@@ -1892,7 +2048,8 @@
                         "PostgreSQL",
                         "Solaris"
                     ],
-                    "projects": [{
+                    "projects": [
+                        {
                             "item-projects": {
                                 "title": "Master Thesis: A Service Wrapping and Provisioning Framework for SOA",
                                 "description": "Based on Jini/Rio technologies, this framework automatically generates the service wrapper codes (service dynamic smart proxy, bean wrapper and provisioning descriptions in xml format ...etc.) for legacy code and autonomic provision it as a service provider (JSB - Jini Service Bean) into SOA grid environment.  A GIS based Yield Tracker system (developed in Basic language) is wrapped as service provider and provisioned into multiple Rio cyber nodes.",
@@ -2032,7 +2189,8 @@
                         "CVS",
                         "Ant"
                     ],
-                    "projects": [{
+                    "projects": [
+                        {
                             "item-projects": {
                                 "title": "Java Message Service(JMS) Prototype Application",
                                 "description": "The prototype proves the idea of using JMS to develop a software system to implement tax documents approval process in Tax Bureau of China. Two computer nodes were deployed to emulate city node and province/state node. Each node includes JSPs as input interface to human user, Servlets as messages sender to JMS message queue, Message-Driven Beans (MDBs) act as JMS message listener to message queue and also include JDBC connectors to local DBMS. This prototype fulfills a typical JMS system which includes the message queue server and application server and DBMS.",
@@ -2210,7 +2368,8 @@
                         "JNI",
                         "DB2"
                     ],
-                    "projects": [{
+                    "projects": [
+                        {
                             "item-projects": {
                                 "title": "Credit Card Internet Online Payment System",
                                 "description": "Based on the existing POS payment system supported by ICBC(Industrial and Commercial Bank of China), a credit card online payment system was developed and deployed using IBM Payment Server, Net.Commerce (previous version of IBM WebSphere Commerce Suite), WebSphere Application server. Payment Server connected to ICBC POS front server via encrypted communication by using a serial (COM port) interface software module which emulates the typical POS credit card operation for the internet online user.",
@@ -2338,7 +2497,8 @@
                         "RIP/OSPF",
                         "Ciso IOS"
                     ],
-                    "projects": [{
+                    "projects": [
+                        {
                             "item-projects": {
                                 "title": "System Engineer,IBM Service Center",
                                 "description": "This service center is the joint department of IBM and Taiji Computers Company. It provides professional technical supports for IBM RS6000 and IBM Disk Array Products.",
@@ -2472,38 +2632,42 @@
                         "CIMS/FMS",
                         "DOS"
                     ],
-                    "projects": [{
-                        "item-projects": {
-                            "title": "CIMS and FMS CAPP/CAD/CAM manufacturing Automation application development",
-                            "description": "Locomotive's motor and generator related mechanical products design and manufacturing processing. Programming on FMS/CIM manufacture centers from GE (General Electric)",
-                            "highlights": [
-                                "Mechanical engineer of locomotive's motor and generator",
-                                "Developed CAPP, CAD software of CIMS system(C, C++, AutoCAD)",
-                                "Designed and implemented the manufacturing process of mechanical component in locomotive"
-                            ],
-                            "technologies": [
-                                "AutoCAD",
-                                "C",
-                                "C++",
-                                "DOS",
-                                "Z80(Single Chip Computer)",
-                                "Borland C++"
-                            ],
-                            "tags": [
-                                "C/C++",
-                                "AutoCAD"
-                            ]
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "CIMS and FMS CAPP/CAD/CAM manufacturing Automation application development",
+                                "description": "Locomotive's motor and generator related mechanical products design and manufacturing processing. Programming on FMS/CIM manufacture centers from GE (General Electric)",
+                                "highlights": [
+                                    "Mechanical engineer of locomotive's motor and generator",
+                                    "Developed CAPP, CAD software of CIMS system(C, C++, AutoCAD)",
+                                    "Designed and implemented the manufacturing process of mechanical component in locomotive"
+                                ],
+                                "technologies": [
+                                    "AutoCAD",
+                                    "C",
+                                    "C++",
+                                    "DOS",
+                                    "Z80(Single Chip Computer)",
+                                    "Borland C++"
+                                ],
+                                "tags": [
+                                    "C/C++",
+                                    "AutoCAD"
+                                ]
+                            }
                         }
-                    }]
+                    ]
                 }
             }
         ],
-        "summaries": [{
-            "summary": "A lead cloud architect engineer with strong hands-on digital transformation experiences in finance industry to migrate on-premises legacy monolithic tightly coupled system to cloud-native Microservice loosely coupled system and refactor strong synchronous ACID relational data consistency system to asynchronous event driven architecture (EDA) eventual consistency system, designed and implemented Internet scale cloud-native and hybrid enterprise system for financial/insurance and tele-communication industries. A full stack lead software engineer with emerging technologies worked as lead architect engineer, lead developer, lead infrastructure/DevOps engineer, senior system/network engineer for Barclays, Oracle, Comcast, IBM and Sun with over 20 years professional experiences focusing on back-end distributed system architecture design and implementation, system/network administration, infrastructure automation/orchestration. A tech lead and player with excellent verbal and written communication skills engaged in small or large team with agile methodology. A hard worker, who will bring valuable experiences, knowledges/skills and expertises to the team's success, is looking for enterprise architect, technical architect, cloud infrastructure architect or tech lead opportunities within Metro Philadelphia area or allowing work remotely.",
-            "tags": [
-                "architect"
-            ]
-        }],
+        "summaries": [
+            {
+                "summary": "A lead cloud architect engineer with strong hands-on digital transformation experiences in finance industry to migrate on-premises legacy monolithic tightly coupled system to cloud-native Microservice loosely coupled system and refactor strong synchronous ACID relational data consistency system to asynchronous event driven architecture (EDA) eventual consistency system, designed and implemented Internet scale cloud-native and hybrid enterprise system for financial/insurance/tel-communication industries. A full stack lead software engineer with emerging technologies worked as lead architect engineer, lead developer, lead infrastructure/DevOps engineer, senior system/network engineer for Mckinsey,Barclays, Oracle, Comcast, IBM and Sun with over 20 years professional experiences focusing on large scale back-end distributed system architecture design and implementation, system/network administration, infrastructure automation/orchestration. A tech lead and player with excellent verbal and written communication skills engaged in small or large team with agile methodology. A hard worker, who will bring valuable experiences, knowledges/skills and expertises to the team's success, is looking for enterprise architect, technical architect, cloud infrastructure architect or tech lead opportunities within Metro Philadelphia area or allowing work remotely.",
+                "tags": [
+                    "architect"
+                ]
+            }
+        ],
         "skills": [
             "Cloud (AWS/GCP/Azure) infrastructure Design, Implementation and Automation (EC2,EKS/AKS/GKS, ECS, Lambda, S3, RDS, DynamoDB, VPC, API Gateway, ELB/ALB, R53, PrivateLink, IAM, Docker, Terraform, Kubernetes, Serverless, IaC)",
             "Enterprise Architecture for large Finance/Insurance/Telecommunication organization (Strategic technology Domain, Distributed system, Microservice, EDA, streaming processing, integration, message transportation, architecture handbook, ServiceFirst)",
@@ -2512,16 +2676,19 @@
             "SaaS Enterprise Application (ERP/CRM/Accounting/HR) Integration (EAI) Architecture Design and Implementation (AWS, VPC Endpoints, PrivateLink, SOAP/REST, WSDL/XML/JSON,)",
             "Internet scale loosely-coupled high available/scalable enterprise Microservice system design, development and deployment (Java, SpringBoot, Istio, Node.js, lambda, Rest/JSON, CQRS, event sourcing, kafka, EDA)"
         ],
-        "technologies": [{
-            "daily-programing-language": [
-                "Java",
-                "JavaScript",
-                "Python",
-                "Bash",
-                "Ruby"
-            ]
-        }],
-        "languages": [{
+        "technologies": [
+            {
+                "daily-programing-language": [
+                    "Java",
+                    "JavaScript",
+                    "Python",
+                    "Bash",
+                    "Ruby"
+                ]
+            }
+        ],
+        "languages": [
+            {
                 "item-languages": {
                     "name": "English",
                     "additional-info": "Fluent"
@@ -2535,7 +2702,8 @@
             }
         ],
         "hobbies": {
-            "hobby-items": [{
+            "hobby-items": [
+                {
                     "item-hobbies": {
                         "name": "Pingpong",
                         "additional-info": "ITTF Score around 1200"
@@ -2566,35 +2734,37 @@
                     }
                 }
             ],
-            "hobby-projects": [{
-                "item-projects": {
-                    "title": "Personalized JSON Schema Resume",
-                    "description": "Customized the open source project dynamic-json-resume using JSON format and mustache templates with Node.js and CSS3. GitHub url: https://github.com/rongyj/dynamic-json-resume/tree/rongyj",
-                    "highlights": [
-                        "Adapt the JSON schema to personal resume format",
-                        "Developed new utility methods to filter the JSON data",
-                        "Personalized CSS3 styles with auto counting for multiple counters",
-                        "Add new table mustache template",
-                        "Add @media print page numbers to the CSS3 styles",
-                        "Add CSS3 style for large table crossing page breaks",
-                        "Debug in Atom with an open source Node-Debugger package",
-                        "Generate pdf file from html using puppeteer"
-                    ],
-                    "technologies": [
-                        "JavaScript",
-                        "HTML5",
-                        "CSS3",
-                        "Node.js",
-                        "JSON",
-                        "mustache",
-                        "Puppeteer"
-                    ],
-                    "tags": [
-                        "FullStack",
-                        "JavaScript"
-                    ]
+            "hobby-projects": [
+                {
+                    "item-projects": {
+                        "title": "Personalized JSON Schema Resume",
+                        "description": "Customized the open source project dynamic-json-resume using JSON format and mustache templates with Node.js and CSS3. GitHub url: https://github.com/rongyj/dynamic-json-resume/tree/rongyj",
+                        "highlights": [
+                            "Adapt the JSON schema to personal resume format",
+                            "Developed new utility methods to filter the JSON data",
+                            "Personalized CSS3 styles with auto counting for multiple counters",
+                            "Add new table mustache template",
+                            "Add @media print page numbers to the CSS3 styles",
+                            "Add CSS3 style for large table crossing page breaks",
+                            "Debug in Atom with an open source Node-Debugger package",
+                            "Generate pdf file from html using puppeteer"
+                        ],
+                        "technologies": [
+                            "JavaScript",
+                            "HTML5",
+                            "CSS3",
+                            "Node.js",
+                            "JSON",
+                            "mustache",
+                            "Puppeteer"
+                        ],
+                        "tags": [
+                            "FullStack",
+                            "JavaScript"
+                        ]
+                    }
                 }
-            }]
+            ]
         }
     }
 }
