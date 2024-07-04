@@ -62,20 +62,114 @@
                         "city": "Cherry Hill, NJ (WFH)",
                         "country": "USA"
                     },
-                    "achievements": "Working on migrating/refactoring complicated EDA mainframe system to Cloud (AWS) serverless EDA system with EventBridge/Lambda/Step Function/SQS/SNS/CloudWatch/EKS..etc.",
+                    "achievements": "Using genAI with RAG and multi-agents to accelerate the migration of mainfarme to modern technologies. Building genAI system with RAG to accelerate the development of data pipelines running on pyspark and databricks to transform source to target data  with different data structures. Scaling RAG vectorstore(ChromaDB) for Call center chatbo copilot.  Migrating/refactoring complicated EDA mainframe system to Cloud (AWS) serverless EDA system with EventBridge/Lambda/Step Function/SQS/SNS/CloudWatch/EKS..etc.",
                     "technologies": [
+                        "genAI/openAI/Langchain/RAG/Multi-agents/prompts tuning",
+                        "VectorStore/ChromaDB/Milvus",
+                        "Python/Flask/FastAPI/Pydantic/Jupyter",
+                        "Databricks/pyspark",
+                        "Typescript/JavaScript/NodeJs",
                         "Event Driven Architecture (EDA)",
                         "Terraform",
                         "Microservices",
-                        "Java/SpringBoot/NodeJs",
+                        "Java/SpringBoot/NodeJs/Python/Flask/FastAPI",
                         "EventBridge/CloudWatch/Lambda/Step Functions",
                         "DynamoDB/RDS/Oracle",
-                        "EKS",
+                        "Docker/K8s/EKS/AKS",
                         "Json Schema",
                         "JOI",
                         "OpenAPI/Swagger"
                     ],
                     "projects": [
+                        {
+                            "item-projects": {
+                                "title": "Using genAI (openAI) with RAG (ChromaDB, Milvus) to accelerate the development of data pipelines running on pyspark and databricks",
+                                "description": "Design and implement the genAI system with RAG (ChromaDB/Milvus) for customized DBML columns naming dictionary and descriptions to accelerate development of data pipelines to transform source tables to target tables with different data structures",
+                                "highlights": [
+                                    "Prompts tuning to generate data pipelien pyspark function code and unitest code",   
+                                    "Design and implement chunking system (by target table or by relationship) to split the large inputs into small chunks to avoid overflowing the openAI API token limit",
+                                    "Design and implement parallel calls to openAI API by using asyncio with yield to improve performance",
+                                    "Implement FastAPI API to expose source to target data transformation as REST service",
+                                    "Design and document the local development and debug workflow by using debugpy with VSC and pycharm"
+                                ],
+                                "technologies": [
+                                    "Langchain/VectoreStore/ChromaDB/Milvus",
+                                    "genAI/openAI",
+                                    "RAG",
+                                    "Python/Pydantic/Asyncio/Flask/FastAPI/Debugpy",
+                                    "Typescript/JavaScript/NodeJs",
+                                    "Microservice",
+                                    "Dockerfile/Docker/Compose",
+                                    "PostgreSQL"
+                                ],
+                                "tags": [
+                                    "genAI",
+                                    "OpenAI",
+                                    "OpenAPI",   
+                                    "Cloud",
+                                    "Microservice",
+                                    "REST"
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Using genAI (openAI) with multi-agents to accelerate the migration of mainfarme to modern technologies",
+                                "description": "Contribute to core development of genAI system with multi-agents for automation and RAG for context to accelerate migration of mainframe (frontend ex:BMS/JSF/JSP...etc. and backend ex: Cobol/JCL...etc.) to modern technologies (React/Angular..etc. and Python/FastAPI/Flask, Java/Springboot, Typescript/JavaScript/NodeJs..etc.)",
+                                "highlights": [
+                                    "Core Contributors to genAI system to migrate mainframe frontend technologies (BMS/JSF/JSP) to modern technologies (React/Angular..etc.)",   
+                                    "Contribute to develop multi-agents genAI system to automate the development/testing/deployment process",
+                                    "Contribute to develop RAG system to accelerate the migration process from Cobol to Java by using ChromaDB/Milvus to store the dendepncy context"
+                                ],
+                                "technologies": [
+                                    "Langchain/VectoreStore/ChromaDB/Milvus",
+                                    "genAI/openAI",
+                                    "RAG",
+                                    "Agents/Multi-agents/Autogen",
+                                    "Python/FastAPI",
+                                    "Typescript/JavaScript/NodeJs",
+                                    "Microservice",
+                                    "Dockerfile/Docker Compose",
+                                    "PostgreSQL"
+                                ],
+                                "tags": [
+                                    "AI",
+                                    "OpenAI",
+                                    "OpenAPI",   
+                                    "Cloud",
+                                    "Microservice",
+                                    "REST"
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Migration/Refactoring of Mainframe (IBM MQ) EDA system to AWS by using EventBridge/Lambda/Step Function/CloudWatch/EKS/SQS/SNS...etc.",
+                                "description": "Design and Implement/Deploy the EKS Router to integrate AWS EventBridge with external MQ events",
+                                "highlights": [
+                                    "Develop SpringBoot EKS router to convert XML/XSD to JSON schema and integrate with MQ events",
+                                    "Design and implement the monitoring terraform module for all different AWS resources (Lambda, EventBridge, S3, DynamoDB, Step Function..etc.) using cloudwatch metrics",
+                                    "Design and implement the reusable report generator using Lambda and EventBridge and deployed as Microservices which can be called to run any custom AWS CloudWatch insights queries in custom schedule"
+                                ],
+                                "technologies": [
+                                    "Java/SpringBoot",
+                                    "Terraform",
+                                    "Microservice",
+                                    "Java/JavaScript",
+                                    "EKS",
+                                    "AWS/EventBridge/CloudWatch/Lambda",
+                                    "XML/XSD/Json/Json Schema",
+                                    "DynamoDB",
+                                    "RDS/Oracle"
+                                ],
+                                "tags": [
+                                    "Cloud",
+                                    "DevOps",
+                                    "Infrastructure",
+                                    "Microservice"
+                                ]
+                            }
+                        },
                         {
                             "item-projects": {
                                 "title": "Migration/Refactoring of Mainframe (IBM MQ) EDA system to AWS by using EventBridge/Lambda/Step Function/CloudWatch/EKS/SQS/SNS...etc.",
