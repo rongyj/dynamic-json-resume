@@ -2763,6 +2763,7 @@
             }
         ],
         "skills": [
+            "GenAI system with RAG and Multiagents design and implementation to accelerate software system development/miragtion from mainframe to modern cloud-native system",
             "Cloud (AWS/GCP/Azure) infrastructure Design, Implementation and Automation (EC2,EKS/AKS/GKS, ECS, Lambda, S3, RDS, DynamoDB, VPC, API Gateway, ELB/ALB, R53, PrivateLink, IAM, Docker, Terraform, Kubernetes, Serverless, IaC)",
             "Enterprise Architecture for large Finance/Insurance/Telecommunication organization (Strategic technology Domain, Distributed system, Microservice, EDA, streaming processing, integration, message transportation, architecture handbook, ServiceFirst)",
             "Digital transformation architecture engineering from on-premises legacy monolithic tightly-coupled system to cloud-native distributed loosely-coupled system (AWS, JEE, SQL, NoSQL, Microservice, CAP, BASE, Clean Architecture)",
@@ -2773,9 +2774,10 @@
         "technologies": [
             {
                 "daily-programing-language": [
-                    "Java",
-                    "JavaScript",
                     "Python",
+                    "Typescript/JavaScript",
+                    "Terraform",
+                    "Java",  
                     "Bash",
                     "Ruby"
                 ]
@@ -2799,6 +2801,12 @@
             "hobby-items": [
                 {
                     "item-hobbies": {
+                        "name": "Pickleball",
+                        "additional-info": "3.5 to 4.0 player"
+                    }
+                },
+                {
+                    "item-hobbies": {
                         "name": "Pingpong",
                         "additional-info": "ITTF Score around 1200"
                     }
@@ -2818,7 +2826,7 @@
                 {
                     "item-hobbies": {
                         "name": "Playing with cutting-edge technologies",
-                        "additional-info": "Docker, Go, Kafka, Kurbernets and Amazon Cloudformation, JavaScript, AngularJs, ReactiveJs, Node.js"
+                        "additional-info": "genAI/Autogen/Multiagents, Docker, Go, Kafka, Kurbernets and Amazon Cloudformation, JavaScript, AngularJs, ReactiveJs, Node.js"
                     }
                 },
                 {
