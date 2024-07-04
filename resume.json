@@ -169,34 +169,6 @@
                                     "Microservice"
                                 ]
                             }
-                        },
-                        {
-                            "item-projects": {
-                                "title": "Migration/Refactoring of Mainframe (IBM MQ) EDA system to AWS by using EventBridge/Lambda/Step Function/CloudWatch/EKS/SQS/SNS...etc.",
-                                "description": "Design and Implement/Deploy the EKS Router to integrate AWS EventBridge with external MQ events",
-                                "highlights": [
-                                    "Develop SpringBoot EKS router to convert XML/XSD to JSON schema and integrate with MQ events",
-                                    "Design and implement the monitoring terraform module for all different AWS resources (Lambda, EventBridge, S3, DynamoDB, Step Function..etc.) using cloudwatch metrics",
-                                    "Design and implement the reusable report generator using Lambda and EventBridge and deployed as Microservices which can be called to run any custom AWS CloudWatch insights queries in custom schedule"
-                                ],
-                                "technologies": [
-                                    "Java/SpringBoot",
-                                    "Terraform",
-                                    "Microservice",
-                                    "Java/JavaScript",
-                                    "EKS",
-                                    "AWS/EventBridge/CloudWatch/Lambda",
-                                    "XML/XSD/Json/Json Schema",
-                                    "DynamoDB",
-                                    "RDS/Oracle"
-                                ],
-                                "tags": [
-                                    "Cloud",
-                                    "DevOps",
-                                    "Infrastructure",
-                                    "Microservice"
-                                ]
-                            }
                         }
                     ]
                 }
@@ -2756,7 +2728,7 @@
         ],
         "summaries": [
             {
-                "summary": "A lead cloud architect engineer with strong hands-on digital transformation experiences in finance industry to migrate on-premises legacy monolithic tightly coupled system to cloud-native Microservice loosely coupled system and refactor strong synchronous ACID relational data consistency system to asynchronous event driven architecture (EDA) eventual consistency system, designed and implemented Internet scale cloud-native and hybrid enterprise system for financial/insurance/tel-communication industries. A full stack lead software engineer with emerging technologies worked as lead architect engineer, lead developer, lead infrastructure/DevOps engineer, senior system/network engineer for Mckinsey,Barclays, Oracle, Comcast, IBM and Sun with over 20 years professional experiences focusing on large scale back-end distributed system architecture design and implementation, system/network administration, infrastructure automation/orchestration. A tech lead and player with excellent verbal and written communication skills engaged in small or large team with agile methodology. A hard worker, who will bring valuable experiences, knowledges/skills and expertises to the team's success, is looking for enterprise architect, technical architect, cloud infrastructure architect or tech lead opportunities within Metro Philadelphia area or allowing work remotely.",
+                "summary": "Yongjun Rong is a highly experienced lead cloud architect engineer specializing in the finance industry, with a strong focus on digital transformations, cloud migrations, and system refactoring. His career spans over two decades and includes roles as an architect, developer, DevOps engineer, and senior system/network engineer at notable firms such as McKinsey & Company, Barclays, Oracle, and Comcast. Key projects and achievements include the use of GenAI with RAG and multi-agents to expedite the transition of mainframe systems to modern technologies, the implementation of genAI systems with RAG to accelerate data pipeline development on pyspark and databricks, and the migration and refactoring of complex EDA mainframe systems to AWS serverless EDA systems.Yongjun is proficient in a range of technologies such as AWS, GCP, Azure, Java, Python, JavaScript, and more. He has a strong command of English and Chinese and is skilled in agile methodology, with a particular emphasis on back-end distributed system design and implementation. His technical hobbies span various interests including IoT or robot programming, developing iOS/Android apps, exploring new technologies, and home automation using IFTTT.Yongjun is actively seeking roles that align with his expertise, such as enterprise architect, technical architect, or tech lead, and is open to opportunities in the Philadelphia area or remote positions. His broad technical skill set and substantial industry experience make him an asset to organizations seeking to innovate and strengthen their digital infrastructure.",
                 "tags": [
                     "architect"
                 ]
