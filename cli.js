@@ -173,6 +173,7 @@ program
         'Example: ./cli.js exportToHtml ./resume-schema.json devops' +
         'Example: ./cli.js exportToHtml ./resume-schema.json Java' +
         'Example: ./cli.js exportToHtml ./resume-schema.json FullStack' +
+        'Example: ./cli.js exportToHtml ./resume.json full ./templates/table.tpl'+
         'Example: ./cli.js exportToHtml ./resume-schema.json full ./templates/table.tpl')
     .action(function(path_json, resume_gen_tags, temp_location, html_location, css_file_location) {
         createHtml(path_json, resume_gen_tags, temp_location, css_file_location, function(err, html) {
