@@ -83,6 +83,37 @@
                     "projects": [
                         {
                             "item-projects": {
+                                "title": "Implement genAI (openAI API/Langchain) system with vector store and file/web search to build AI driven knowledge/assistant system ",
+                                "description": "",
+                                "highlights": [
+                                    "Prompts tuning to generate data pipelien pyspark function code and unitest code",   
+                                    "Design and implement chunking system (by target table or by relationship) to split the large inputs into small chunks to avoid overflowing the openAI API token limit",
+                                    "Design and implement parallel calls to openAI API by using asyncio with yield to improve performance",
+                                    "Implement FastAPI API to expose source to target data transformation as REST service",
+                                    "Design and document the local development and debug workflow by using debugpy with VSC and pycharm"
+                                ],
+                                "technologies": [
+                                    "Langchain/VectoreStore/ChromaDB/Milvus",
+                                    "genAI/openAI",
+                                    "RAG",
+                                    "Python/Pydantic/Asyncio/Flask/FastAPI/Debugpy",
+                                    "Typescript/JavaScript/NodeJs",
+                                    "Microservice",
+                                    "Dockerfile/Docker/Compose",
+                                    "PostgreSQL"
+                                ],
+                                "tags": [
+                                    "genAI",
+                                    "OpenAI",
+                                    "OpenAPI",   
+                                    "Cloud",
+                                    "Microservice",
+                                    "REST"
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
                                 "title": "Using genAI (openAI) with RAG (ChromaDB, Milvus) to accelerate the development of data pipelines running on pyspark and databricks",
                                 "description": "Design and implement the genAI system with RAG (ChromaDB/Milvus) for customized DBML columns naming dictionary and descriptions to accelerate development of data pipelines to transform source tables to target tables with different data structures",
                                 "highlights": [
