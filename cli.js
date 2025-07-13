@@ -22,22 +22,49 @@ program
     .version(pkg.version)
 
 program
-    .command('export <path_json> [resume_gen_tags] [template_location] [pdf_location] [css_file_location]')
-    .description('Export a pdf resume from the json resume provided to the given location, applying the css file given')
-    .action(function(path_json, resume_gen_tags, temp_location, pdf_location, css_file_location) {
-        createHtml(path_json, resume_gen_tags, temp_location, css_file_location, function(err, html) {
+    .command('export <path_json>')
+    .option('--remove-leaderships', 'Remove the leaderships section from all projects')
+    .option('-t, --template <template>', 'Path to the mustache template file')
+    .option('-o, --output <output>', 'Output PDF file location')
+    .option('-c, --css <css>', 'Path to the CSS file')
+    .option('-g, --gen-tags <tags>', 'Tags to filter projects (e.g., full, short, USA, Java, etc.)')
+    .description(`Export a PDF resume from the provided JSON file.
+
+Arguments:
+  <path_json>           Path to the JSON resume file
+
+Options:
+  --remove-leaderships  Remove the leaderships section from all projects
+  -t, --template        Path to the mustache template file
+  -o, --output          Output PDF file location
+  -c, --css             Path to the CSS file
+  -g, --gen-tags        Tags to filter projects (e.g., full, short, USA, Java, etc.)
+
+Examples:
+  $ ./cli.js export ./resume.json
+  $ ./cli.js export ./resume.json --gen-tags full
+  $ ./cli.js export ./resume.json --gen-tags short --template ./templates/resume.tpl --output resume.pdf --css static/css/base.css
+  $ ./cli.js export ./resume.json --gen-tags full --remove-leaderships
+`)
+    .action(function(path_json, cmdObj) {
+        const removeLeaderships = cmdObj.removeLeaderships === true;
+        const template = cmdObj.template;
+        const output = cmdObj.output;
+        const css = cmdObj.css;
+        const genTags = cmdObj.genTags;
+        
+        createHtml(path_json, genTags, template, css, function(err, html, resumeJson) {
             if (err) {
                 console.log(err);
                 process.exit(1);
             }
-            createPdf(html, pdf_location, (error) => {
+            createPdf(html, output, (error) => {
                 if (error) {
                     console.error(error, '`createPdf` errored out');
-                    callback(error);
+                    process.exit(1);
                 }
             });
-        });
-
+        }, removeLeaderships);
     });
 
 const createPdf = (html, pdf_location, callback) => {
@@ -97,22 +124,20 @@ const createPdf = (html, pdf_location, callback) => {
 
 };
 
-function createHtml(path_json, resume_gen_tags, temp_location, css_file_location, callback) {
+function createHtml(path_json, resume_gen_tags, temp_location, css_file_location, callback, noLeaderships) {
     var template_location = __dirname + "/templates/" + "resume.tpl";
     if (temp_location)
         template_location = temp_location;
     fs.readFile(template_location, 'utf-8', function(err, data) {
         if (err) {
             console.log(err);
-            return callback(err, null);
-            //process.exit(1);
+            return callback(err, null, null);
         } else {
             var templateContent = data;
             fs.readFile(__dirname + '/' + path_json, 'utf-8', function(err, data) {
                 if (err) {
                     console.log(err);
-                    return callback(err, null);
-                    //process.exit(1);
+                    return callback(err, null, null);
                 }
                 var resumeJson = JSON.parse(data);
                 var originalResumeJson = JSON.parse(data);
@@ -127,8 +152,7 @@ function createHtml(path_json, resume_gen_tags, temp_location, css_file_location
                     fs.readFile(__dirname + _cssFile, 'utf-8', function(err, data) {
                         if (err) {
                             console.log(err);
-                            return callback(err, null);
-                            //process.exit(1);
+                            return callback(err, null, null);
                         }
 
                         data += "#extra {display: none;}"
@@ -137,24 +161,46 @@ function createHtml(path_json, resume_gen_tags, temp_location, css_file_location
                         templateContent = head + templateContent;
 
                         resumeJson.resume["original"] = originalResumeJson.resume;
-                        if (isNaN(resume_gen_tags)) {
-                            utils.removeProjectsHighlights(resumeJson, resume_gen_tags);
-                        } else if (resume_gen_tags == "short") {
+                        
+                        // Apply primary filters based on gen-tags
+                        if (resume_gen_tags && resume_gen_tags.includes("short")) {
                             utils.removeProjectsHighlights(resumeJson);
-                        } else if (resume_gen_tags == "USA") {
-                            utils.removeNonUSACompanies(resumeJson);
-                        } else if (resume_gen_tags == "FullStack") {
+                        }
+                        
+                        if (resume_gen_tags && resume_gen_tags.includes("FullStack")) {
                             var expectTags = ["Java", "JavaScript", "FullStack"];
                             utils.filterProjects(resumeJson, expectTags);
-                        } else if (resume_gen_tags == "table") {
-                            delete resumeJson.resume.work;
-                            delete resumeJson.resume.hobbies["hobby-projects"];
-                        } else if (resume_gen_tags && resume_gen_tags != "full") {
+                        }
+                        
+                        // Apply custom tag filtering (for tags like Java, Python, etc.)
+                        if (resume_gen_tags && resume_gen_tags != "full" && !resume_gen_tags.includes("USA") && !resume_gen_tags.includes("table") && !resume_gen_tags.includes("AICloud") && !resume_gen_tags.includes("short") && !resume_gen_tags.includes("FullStack")) {
                             var expectTags = resume_gen_tags.split(',');
                             utils.filterProjects(resumeJson, expectTags);
                         }
+                        
+                        // Apply USA filtering (can be combined with other formats)
+                        if (resume_gen_tags && resume_gen_tags.includes("USA")) {
+                            utils.removeNonUSACompanies(resumeJson);
+                        }
+                        
+                        // Apply AI/Cloud filtering (can be combined with other formats)
+                        if (resume_gen_tags && resume_gen_tags.includes("AICloud")) {
+                            utils.removeNonAICloudCompanies(resumeJson);
+                        }
+                        
+                        // Apply table format filtering (can be combined with other filters)
+                        if (resume_gen_tags && resume_gen_tags.includes("table")) {
+                            // For table format, keep work experience but remove detailed projects
+                            // and hobby projects, but keep summaries for the summary view
+                            delete resumeJson.resume.hobbies["hobby-projects"];
+                            delete resumeJson.resume.hobbies["hobby-items"];
+                        }
+                        
+                        if (noLeaderships) {
+                            utils.removeLeaderships(resumeJson);
+                        }
                         var html = mustache.to_html(templateContent, { "resume": resumeJson.resume });
-                        callback(null, html);
+                        callback(null, html, resumeJson);
                     });
                 }
             });
@@ -163,30 +209,63 @@ function createHtml(path_json, resume_gen_tags, temp_location, css_file_location
 }
 
 program
-    .command('exportToHtml <path_json> [resume_gen_tags] [template_location] [html_location] [css_file_location] ')
-    .description('Export an html resume from the json resume provided to the given location,' +
-        'applying the css file given, also will choose the right projects based on the specified tags' +
-        'Example: exportToHtml ./resume-schema.json full|short|[any tags defined in the projects]' +
-        'Example: ./cli.js exportToHtml ./resume-schema.json 2' +
-        'Example: ./cli.js exportToHtml ./resume-schema.json short' +
-        'Example: ./cli.js exportToHtml ./resume-schema.json USA' +
-        'Example: ./cli.js exportToHtml ./resume-schema.json devops' +
-        'Example: ./cli.js exportToHtml ./resume-schema.json Java' +
-        'Example: ./cli.js exportToHtml ./resume-schema.json FullStack' +
-        'Example: ./cli.js exportToHtml ./resume.json full ./templates/table.tpl'+
-        'Example: ./cli.js exportToHtml ./resume-schema.json full ./templates/table.tpl')
-    .action(function(path_json, resume_gen_tags, temp_location, html_location, css_file_location) {
-        createHtml(path_json, resume_gen_tags, temp_location, css_file_location, function(err, html) {
+    .command('exportToHtml <path_json>')
+    .option('--remove-leaderships', 'Remove the leaderships section from all projects')
+    .option('-t, --template <template>', 'Path to the mustache template file')
+    .option('-o, --output <output>', 'Output HTML file location')
+    .option('-c, --css <css>', 'Path to the CSS file')
+    .option('-g, --gen-tags <tags>', 'Tags to filter projects (e.g., full, short, USA, AICloud, Java, etc.)')
+    .description(`Export an HTML resume from the provided JSON file.
+
+Arguments:
+  <path_json>           Path to the JSON resume file
+
+Options:
+  --remove-leaderships  Remove the leaderships section from all projects
+  -t, --template        Path to the mustache template file
+  -o, --output          Output HTML file location
+  -c, --css             Path to the CSS file
+  -g, --gen-tags        Tags to filter projects (e.g., full, short, USA, AICloud, Java, etc.)
+
+Examples:
+  $ ./cli.js exportToHtml ./resume.json
+  $ ./cli.js exportToHtml ./resume.json --gen-tags full
+  $ ./cli.js exportToHtml ./resume.json --gen-tags short
+  $ ./cli.js exportToHtml ./resume.json --gen-tags USA
+  $ ./cli.js exportToHtml ./resume.json --gen-tags AICloud
+  $ ./cli.js exportToHtml ./resume.json --gen-tags USA,AICloud
+  $ ./cli.js exportToHtml ./resume.json --gen-tags short,USA
+  $ ./cli.js exportToHtml ./resume.json --gen-tags short,AICloud
+  $ ./cli.js exportToHtml ./resume.json --gen-tags Java
+  $ ./cli.js exportToHtml ./resume.json --gen-tags FullStack
+  $ ./cli.js exportToHtml ./resume.json --gen-tags full --template ./templates/table.tpl
+  $ ./cli.js exportToHtml ./resume.json --gen-tags USA --template ./templates/table.tpl
+  $ ./cli.js exportToHtml ./resume.json --gen-tags AICloud --template ./templates/table.tpl
+  $ ./cli.js exportToHtml ./resume.json --gen-tags USA,AICloud --template ./templates/table.tpl
+  $ ./cli.js exportToHtml ./resume.json --gen-tags short,USA --template ./templates/table.tpl
+  $ ./cli.js exportToHtml ./resume.json --gen-tags full --remove-leaderships
+  $ ./cli.js exportToHtml ./resume.json --gen-tags USA --remove-leaderships
+  $ ./cli.js exportToHtml ./resume.json --gen-tags AICloud --remove-leaderships
+  $ ./cli.js exportToHtml ./resume.json --gen-tags USA,AICloud --remove-leaderships
+  $ ./cli.js exportToHtml ./resume.json --gen-tags short,USA --remove-leaderships
+  $ ./cli.js exportToHtml ./resume.json --gen-tags full --template ./templates/resume.tpl --output resume-no-leaderships.html --remove-leaderships
+`)
+    .action(function(path_json, cmdObj) {
+        const removeLeaderships = cmdObj.removeLeaderships === true;
+        const template = cmdObj.template;
+        const output = cmdObj.output;
+        const css = cmdObj.css;
+        const genTags = cmdObj.genTags;
+        
+        createHtml(path_json, genTags, template, css, function(err, html, resumeJson) {
             if (err) {
                 console.log(err);
                 process.exit(1);
             }
             var outputLocation = '/resume.html';
-
-            if (html_location) {
-                outputLocation = '/' + html_location;
+            if (output) {
+                outputLocation = '/' + output;
             }
-
             outputLocation = process.cwd() + outputLocation;
             fs.writeFile(outputLocation, html, function(err) {
                 if (err) {
@@ -195,45 +274,87 @@ program
                 }
                 console.log("HTML file is created at " + outputLocation);
             });
-
-        });
-
+        }, removeLeaderships);
     });
 
 program
-    .command('exportToPlainText <path_json>  <resume_gen_tags> [output_location]')
-    .description('Export a text file resume from the json resume provided to the given location' +
-        'Example: ./cli.js exportToPlainText ./resume-schema.json full')
-    .action(function(path_json, resume_gen_tags, output_location) {
+    .command('exportToPlainText <path_json>')
+    .option('--remove-leaderships', 'Remove the leaderships section from all projects')
+    .option('-o, --output <output>', 'Output text file location')
+    .option('-g, --gen-tags <tags>', 'Tags to filter projects (e.g., full, short, USA, AICloud, Java, etc.)')
+    .description(`Export a plain text resume from the provided JSON file.
+
+Arguments:
+  <path_json>           Path to the JSON resume file
+
+Options:
+  --remove-leaderships  Remove the leaderships section from all projects
+  -o, --output          Output text file location
+  -g, --gen-tags        Tags to filter projects (e.g., full, short, USA, AICloud, Java, etc.)
+
+Examples:
+  $ ./cli.js exportToPlainText ./resume.json --gen-tags full
+  $ ./cli.js exportToPlainText ./resume.json --gen-tags short --output resume.txt
+  $ ./cli.js exportToPlainText ./resume.json --gen-tags USA
+  $ ./cli.js exportToPlainText ./resume.json --gen-tags USA --output usa-resume.txt
+  $ ./cli.js exportToPlainText ./resume.json --gen-tags AICloud
+  $ ./cli.js exportToPlainText ./resume.json --gen-tags AICloud --output ai-cloud-resume.txt
+  $ ./cli.js exportToPlainText ./resume.json --gen-tags USA,AICloud
+  $ ./cli.js exportToPlainText ./resume.json --gen-tags USA,AICloud --output usa-ai-cloud-resume.txt
+  $ ./cli.js exportToPlainText ./resume.json --gen-tags full --remove-leaderships
+`)
+    .action(function(path_json, cmdObj) {
+        const removeLeaderships = cmdObj.removeLeaderships === true;
+        const output = cmdObj.output;
+        const genTags = cmdObj.genTags;
+        
         fs.readFile(__dirname + '/' + path_json, 'utf-8', function(err, data) {
             if (err) {
                 console.log(err);
                 process.exit(1);
             }
             var resumeJson = JSON.parse(data);
-            //var originalResumeJson = JSON.parse(data);
             var v = verifier.run(resumeJson);
             if (v) {
-                //resumeJson.resume["original"]=originalResumeJson.resume;
-                if (resume_gen_tags == "short") {
+                if (removeLeaderships) {
+                    utils.removeLeaderships(resumeJson);
+                }
+                if (genTags && genTags.includes("short")) {
                     utils.removeProjectsHighlights(resumeJson);
-                } else if (resume_gen_tags == "FullStack") {
+                }
+                
+                if (genTags && genTags.includes("FullStack")) {
                     var expectTags = ["Java", "JavaScript", "FullStack"];
                     utils.filterProjects(resumeJson, expectTags);
-                } else if (resume_gen_tags == "table") {
-                    delete resumeJson.resume.work;
-                    delete resumeJson.resume.hobbies["hobby-projects"];
-                } else if (resume_gen_tags && resume_gen_tags != "full") {
-                    var expectTags = resume_gen_tags.split(',');
+                }
+                
+                // Apply custom tag filtering (for tags like Java, Python, etc.)
+                if (genTags && genTags != "full" && !genTags.includes("USA") && !genTags.includes("table") && !genTags.includes("AICloud") && !genTags.includes("short") && !genTags.includes("FullStack")) {
+                    var expectTags = genTags.split(',');
                     utils.filterProjects(resumeJson, expectTags);
                 }
-
-                var outputLocation = '/resume.txt';
-
-                if (output_location) {
-                    outputLocation = '/' + output_location;
+                
+                // Apply USA filtering (can be combined with other formats)
+                if (genTags && genTags.includes("USA")) {
+                    utils.removeNonUSACompanies(resumeJson);
                 }
-
+                
+                // Apply AI/Cloud filtering (can be combined with other formats)
+                if (genTags && genTags.includes("AICloud")) {
+                    utils.removeNonAICloudCompanies(resumeJson);
+                }
+                
+                // Apply table format filtering (can be combined with other filters)
+                if (genTags && genTags.includes("table")) {
+                    // For table format, keep work experience but remove detailed projects
+                    // and hobby projects, but keep summaries for the summary view
+                    delete resumeJson.resume.hobbies["hobby-projects"];
+                    delete resumeJson.resume.hobbies["hobby-items"];
+                }
+                var outputLocation = '/resume.txt';
+                if (output) {
+                    outputLocation = '/' + output;
+                }
                 outputLocation = process.cwd() + outputLocation;
                 var textFileContent = utils.generatePlainTextFromJson(resumeJson);
                 fs.writeFile(outputLocation, textFileContent, function(err) {
@@ -241,24 +362,32 @@ program
                         console.log(err);
                         process.exit(1);
                     }
+                    console.log("Text file is created at " + outputLocation);
                 });
             }
         });
     });
 
 program
-    .command('generateFromJsonResume <path_json>  [output_location]')
-    .description('Generate a json from a json-resume file')
+    .command('generateFromJsonResume <path_json> [output_location]')
+    .description(`Generate a JSON resume from a json-resume file.
+
+Arguments:
+  <path_json>           Path to the json-resume file
+  [output_location]     (Optional) Output file location
+
+Examples:
+  $ ./cli.js generateFromJsonResume ./resume-schema.json
+  $ ./cli.js generateFromJsonResume ./resume-schema.json converted.json
+`)
     .action(function(path_json, output_location) {
         fs.readFile(__dirname + '/' + path_json, 'utf-8', function(err, data) {
             if (err) {
                 console.log(err);
                 process.exit(1);
             }
-
             var asJsonResume = JSON.parse(data);
             var generatedJson = converter.parseJsonResumeFormat(asJsonResume);
-
             if (output_location) {
                 converter.writeGeneratedJsonToFile(__dirname + '/' + output_location, generatedJson);
             } else {

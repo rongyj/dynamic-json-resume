@@ -4,6 +4,7 @@
   "description": "A tool to generate a web page containing your resume",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.27.2",
     "btoa": "^1.2.1",
     "chai": "^1.10.0",
     "commander": "^2.19.0",

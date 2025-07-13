@@ -1,0 +1,967 @@
+<head><style>html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+footer {
+	position:fixed;
+	bottom:0;
+	vertical-align:bottom;
+	width:100%;
+}
+
+
+body {
+	line-height: 1;
+	background-color:white;
+}
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.container {
+	display: flex;
+
+}
+
+ul {
+	list-style: initial;
+}
+li {
+	margin-left: 25px;
+	padding-left: 0px;
+}
+
+#cv {
+	  padding-left: 10px;
+  	flex: 3;
+		counter-reset: company;
+}
+
+
+#extra {
+	background-color: black;
+	color: white;
+  	flex: 1;
+  	font-size: large;
+  	padding: 10px;
+}
+
+div[id$='extra'] > a:link, div[id$='extra'] > ul > a:link{
+	text-decoration: none;
+}
+
+div[id$='extra'] > a:visited, div[id$='extra'] > ul > a:link{
+	text-decoration: none;
+}
+
+div[id$='extra'] > img {
+	width: 25%;
+	height: 25%;
+}
+
+table.work-experience {
+	  border: 2px solid black;
+    border-collapse: collapse;
+		table-layout: auto;
+}
+
+tr,th,td {
+	border: 1px solid black;
+}
+tr.work-item-header {
+	text-align:center;
+}
+tr.work-item {
+	text-align:left;
+}
+
+td.work-employer{
+	text-align:center;
+}
+
+td.work-accomplishments{
+	text-align:left;
+}
+
+div.work-item::before{
+	  counter-increment: company;
+    content: counter(company)". ";
+		font-size: large;
+		font-weight: bold;
+}
+.work-item{
+    counter-reset: projects;
+}
+
+#hobbies{
+	counter-reset: hobby-projects;
+}
+div.hobby-project-item::before{
+	  counter-increment: hobby-projects;
+    content: "H."counter(hobby-projects)" ";
+		font-size: large;
+		font-weight: bold;
+}
+
+div.project-item::before{
+	  counter-increment: projects;
+    content: counter(company)"."counter(projects)" ";
+		font-size: large;
+		font-weight: bold;
+}
+
+.bold-font {
+	font-weight: bold;
+}
+
+#contact {
+	padding: 8px 4px;
+	border-radius: 5px;
+	text-align: center;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.contact-name {
+	font-size: large;
+	font-weight: bold;
+}
+
+.section {
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+.projects-title-section {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: large;
+	padding-top: 8px;
+	padding-bottom: 5px;
+}
+.subtitle-section {
+	font-weight: bold;
+	font-size: medium;
+	text-decoration: underline;
+}
+
+.title-section {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: larger;
+	padding-bottom: 10px;
+}
+.item-projects-title{
+	padding-top: 1em;
+	font-size: large;
+}
+.header-date,.header-company-name{
+	font-size: medium;
+}
+
+.item-work-header-date,.item-work-header-company-name,.item-work-header-company-location {
+	font-size: large;
+	text-decoration: underline;
+}
+
+.header-date ,.header-company-name,.header-school-name,.description-education, .item-projects-title, .header-employer, .header-accomplishments, .header-technologies,.item-work-header-date,.item-work-header-company-name {
+	font-weight: bold;
+}
+
+.section > div {
+	padding-left: 45px;
+}
+.education-item {
+	padding-bottom: 5px;
+}
+.work-item, .project-item {
+	padding-bottom: 15px;
+}
+.description-work {
+	padding-bottom: 5px;
+	text-indent: 1.5em;
+}
+
+.technologies-work > span {
+	font-weight: bold;
+	font-size: medium;
+}
+
+.skills-items > span {
+	padding : 0px 10px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	border-radius: 6px;
+	border: 1px solid black;
+	background-color: #B2913F;
+	color: white;
+	font-weight: bold;
+	font-size: medium;
+	flex: 0 0 auto;
+}
+
+.skills-items {
+	padding-left: 45px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.highlighted {
+	border-radius: 5px;
+	font-size: medium;
+}
+
+@media (max-width: 900px) {
+    .container {
+        display: block;
+    }
+}
+
+@media print {
+	body {
+		margin: 0 0 0 0;
+	}
+	#extra {
+		display: none;
+	}
+}
+#extra {display: none;}</style></head><div class="container">
+    <div id="cv">
+        <div id="contact" >
+            <div class="contact-name">Yongjun Rong</div>
+            <div class="contact-email">rongyj@hotmail.com</div>
+                <div class="contact-website"> https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;rongyongjun&#x2F;</div>
+            <div class="contact-external"> https:&#x2F;&#x2F;github.com&#x2F;rongyj </div>
+            <div class="contact-city">Cherry Hill, NJ, USA, 08003</div>
+            <div class="contact-external"> (Contact me for resume in details)</div>
+        </div>
+
+        <div id="education" class="section">
+            <div class="title-section">Education</div>
+            <div class="education-item" >
+                <span class="header-date">Jun.,2006,</span>
+                <span class="description-education">Master of Computer Science,</span>
+                <span class="header-school-name">Texas Tech University,</span>
+                <span class="header-school-location">Lubbock, TX, USA</span>
+            </div>
+            <div class="education-item" >
+                <span class="header-date">Feb.,1996,</span>
+                <span class="description-education">Master of Engineering,</span>
+                <span class="header-school-name">Shanghai JiaoTong University,</span>
+                <span class="header-school-location">Shanghai, China</span>
+            </div>
+            <div class="education-item" >
+                <span class="header-date">Jul.,1991,</span>
+                <span class="description-education">Bachelor of Engineering,</span>
+                <span class="header-school-name">Changsha Railway University,</span>
+                <span class="header-school-location">Changsha, Hunan, China</span>
+            </div>
+        </div>
+
+        <div id="skills" class="section">
+            <div class="title-section" style="page-break-after: avoid">Summary:</div>
+
+            <div>
+              <ul class="highlighted">
+                  <div class="description-work" style="page-break-inside: avoid"> Yongjun Rong is a visionary cloud architect and technology leader with deep expertise in GenAI systems, prompt engineering, cloud infrastructure, and digital transformation. With over two decades of experience spanning finance, consulting, SaaS, and technology sectors, he has architected and delivered large-scale distributed systems, led mainframe-to-cloud migrations, and pioneered automation and DevOps best practices. Yongjun excels at designing resilient, scalable microservices, integrating enterprise SaaS applications, and driving innovation through mentorship and cross-team enablement. His technical breadth covers AWS, GCP, Azure, Java, Python, Node.js, Kubernetes, Terraform, and more. Fluent in both English and Chinese, he is passionate about empowering organizations to achieve agility, reliability, and business impact through modern cloud-native solutions. </div>
+              </ul>
+            </div>
+        </div>
+
+        <div id="skills" class="section">
+            <div class="title-section">Skills</div>
+            <div>
+              <ul class="highlighted">
+                  <li>GenAI system architecture and implementation with Retrieval-Augmented Generation (RAG) and multi-agent orchestration to accelerate software development and mainframe migration to modern cloud-native platforms.</li>
+                  <li>Cloud infrastructure design, automation, and migration across AWS, GCP, and Azure, including serverless architectures (Lambda, EventBridge, Step Functions), container orchestration (EKS, AKS, GKS), and Infrastructure as Code (Terraform, Terragrunt, CloudFormation, Ansible, Puppet, Chef).</li>
+                  <li>Enterprise architecture leadership for large-scale finance, insurance, and telecommunications organizations, specializing in distributed systems, microservices, event-driven architectures, streaming data processing, and technology strategy development.</li>
+                  <li>Digital transformation engineering, refactoring legacy monolithic systems to cloud-native, loosely-coupled distributed architectures using Java, Python, Node.js, SpringBoot, and modern data stores (SQL, NoSQL, DynamoDB, MongoDB, ClickHouse, PostgreSQL, Oracle).</li>
+                  <li>DevOps and automation expertise in cloud and on-premises environments, including CI&#x2F;CD pipeline design, configuration management, system&#x2F;network administration, and orchestration with Docker, Kubernetes, Jenkins, Bamboo, and Linux HA technologies.</li>
+                  <li>Integration architecture and implementation for SaaS enterprise applications (ERP, CRM, Accounting, HR), leveraging VPC Endpoints, PrivateLink, REST&#x2F;SOAP APIs, WSDL&#x2F;XML&#x2F;JSON, and secure authentication&#x2F;authorization mechanisms.</li>
+                  <li>Design and delivery of highly available, scalable, and resilient microservices and event-driven systems, applying best practices in CQRS, event sourcing, domain-driven design, and cloud-native patterns for internet-scale applications.</li>
+                  <li>Mentorship and leadership in technology adoption, process automation, and cross-team enablement, fostering a culture of innovation, reliability, and continuous improvement across engineering organizations.</li>
+              </ul>
+            </div>
+        </div>
+
+        <div id="hobbies" class="section" >
+            <div class="title-section">Hobbies</div>
+            <div class="hobbies-items">
+                <ul class="highlighted">
+                    <li>
+                      Pickleball
+                          ( ~4.0 player)
+                    </li>
+                    <li>
+                      Pingpong
+                          (ITTF Score around 1200)
+                    </li>
+                    <li>
+                      IoT or Robot programming
+                          (Have iRobot and MIPOSaur at home. Programming against iRobot create SDK and MIPOSaur SDK.)
+                    </li>
+                    <li>
+                      iOS&#x2F;Android Apps Development
+                          (Developing a Chinese character learning App)
+                    </li>
+                    <li>
+                      Playing with cutting-edge technologies
+                          (genAI&#x2F;Autogen&#x2F;Multiagents, Docker, Go, Kafka, Kubernetes and Amazon CloudFormation, JavaScript, AngularJS, ReactiveJS, Node.js)
+                    </li>
+                    <li>
+                      IFTTT Home Automation
+                          (IFTTT, WeMo, EcoBee, Weather Underground, SaaS, REST, Home Automation)
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="work-experience" class="section">
+          <div class="title-section">Work Experience Summary:</div>
+          <div >
+          <table id="work-experience" class="section" style="page-break-before: always; page-break-after: auto;">
+            <tr class="work-item-header" style="page-break-inside: avoid;">
+                <th class="header-employer" style="width:20%">Employments</th>
+                <th class="header-accomplishments"> Major Accomplishments & Technologies </th>
+            </tr>
+              <tr class="work-item"  style="page-break-inside: avoid;">
+                <td class="work-employer" rowspan="2">
+                  <p>Feb.,2025 &ndash; Current
+                  <p class="bold-font">Biophy
+                  <p>Cherry Hill, NJ (WFH),USA
+                  <p class="bold-font">Director of Cloud Architecture
+                </td>
+                <td>
+                  <ul class="highlighted">
+                      <li>Comprehensive Infrastructure as Code (IaC) Design and Implementation</li>
+                      <li>AI-Powered Data Ingestion and Scraping System for RAG</li>
+                      <li>Custom AWS CloudWatch Alerting System with EventBridge, Lambda, SQS and SNS</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid;">
+                <td>
+                  <span class="technologies-work">
+                      IaC,
+                      Terraform&#x2F;Terragrunt,
+                      AWS&#x2F;EC2&#x2F;EBS&#x2F;S3&#x2F;VPC&#x2F;ALB&#x2F;Security&#x2F;R53&#x2F;IAM&#x2F;Secrets Manager&#x2F;Lambda&#x2F;CloudWatch&#x2F;EventBridge&#x2F;SQS&#x2F;SNS,
+                      Python&#x2F;DJango&#x2F;Pydantic,
+                      openAI API&#x2F;LangChain,
+                      SOLID Principles,
+                      Clean Architecture,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-inside: avoid;">
+                <td class="work-employer" rowspan="2">
+                  <p>Dec.,2021 &ndash; Feb.,2025
+                  <p class="bold-font">McKinsey &amp; Company
+                  <p>Cherry Hill, NJ (WFH),USA
+                  <p class="bold-font">Senior Cloud Engineer II (Associate)
+                </td>
+                <td>
+                  <ul class="highlighted">
+                      <li>Using genAI (openAI) with RAG (ChromaDB, Milvus) to accelerate the development of data pipelines running on pyspark and databricks</li>
+                      <li>Using genAI (openAI) with multi-agents to accelerate the migration of mainfarme to modern technologies</li>
+                      <li>Migration&#x2F;Refactoring of Mainframe (IBM MQ) EDA system to AWS by using EventBridge&#x2F;Lambda&#x2F;Step Function&#x2F;CloudWatch&#x2F;EKS&#x2F;SQS&#x2F;SNS...etc.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid;">
+                <td>
+                  <span class="technologies-work">
+                      genAI&#x2F;openAI&#x2F;Langchain&#x2F;RAG&#x2F;Multi-agents&#x2F;prompts tuning,
+                      VectorStore&#x2F;ChromaDB&#x2F;Milvus,
+                      Python&#x2F;Flask&#x2F;FastAPI&#x2F;Pydantic&#x2F;Jupyter,
+                      Databricks&#x2F;pyspark,
+                      Typescript&#x2F;JavaScript&#x2F;NodeJs,
+                      Event Driven Architecture (EDA),
+                      Terraform,
+                      Microservices,
+                      Java&#x2F;SpringBoot&#x2F;NodeJs&#x2F;Python&#x2F;Flask&#x2F;FastAPI,
+                      EventBridge&#x2F;CloudWatch&#x2F;Lambda&#x2F;Step Functions,
+                      DynamoDB&#x2F;RDS&#x2F;Oracle,
+                      Docker&#x2F;K8s&#x2F;EKS&#x2F;AKS,
+                      Json Schema,
+                      JOI,
+                      OpenAPI&#x2F;Swagger,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-inside: avoid;">
+                <td class="work-employer" rowspan="2">
+                  <p>Dec.,2020 &ndash; Dec., 2021
+                  <p class="bold-font">Yotascale
+                  <p>Cherry Hill, NJ (WFH),USA
+                  <p class="bold-font">Staff Engineer
+                </td>
+                <td>
+                  <ul class="highlighted">
+                      <li>Lead Architect and Lead Implementation Engineer for Cloud(AWS&#x2F;Azure&#x2F;GCP) Cost Analytics&#x2F;Optimization&#x2F;Management platform</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid;">
+                <td>
+                  <span class="technologies-work">
+                      OpenAPI&#x2F;Swagger,
+                      Microservice,
+                      Java&#x2F;Kotlin&#x2F;SpringBoot,
+                      Kubernetes&#x2F;EKS&#x2F;AKS,
+                      Istio,
+                      Terraform,
+                      CQRS,
+                      Event Store,
+                      Event Driven Architecture (EDA),
+                      Kafka&#x2F;ActiveMQ&#x2F;IBM MQ,
+                      Kafka Stream,
+                      Docker,
+                      AWS(EC2&#x2F;IAM&#x2F;S3&#x2F;ECS&#x2F;EKS&#x2F;ELB&#x2F;Lambda&#x2F;RDS&#x2F;VPC&#x2F;R53&#x2F;Secret Manager&#x2F;AutoScaling&#x2F;SES..etc),
+                      Puppet&#x2F;Chef&#x2F;Ansible,
+                      Git&#x2F;Maven&#x2F;Jenkins,
+                      Python&#x2F;Bash&#x2F;Go,
+                      ELK&#x2F;AppDynamic&#x2F;Datadog,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-inside: avoid;">
+                <td class="work-employer" rowspan="2">
+                  <p>Mar.,2020 &ndash; Nov., 2021
+                  <p class="bold-font">Gigster Inc.
+                  <p>Cherry Hill, NJ,USA
+                  <p class="bold-font">Technical Infrastructure&#x2F;Devops Architect
+                </td>
+                <td>
+                  <ul class="highlighted">
+                      <li>Images manipulation&#x2F;detection software evaluation system</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid;">
+                <td>
+                  <span class="technologies-work">
+                      Microservice,
+                      NodeJs,
+                      Kubernetes&#x2F;EKS,
+                      Terraform,
+                      RabbitMQ&#x2F;ActiveMQ,
+                      Docker,
+                      AWS(EC2&#x2F;IAM&#x2F;S3&#x2F;EKS&#x2F;ALB&#x2F;RDS&#x2F;VPC&#x2F;R53&#x2F;AutoScaling&#x2F;SES&#x2F;ECR..etc),
+                      Puppet&#x2F;Chef&#x2F;Ansible,
+                      Git&#x2F;Maven&#x2F;Jenkins,
+                      JavaScript,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-inside: avoid;">
+                <td class="work-employer" rowspan="2">
+                  <p>Jun.,2017 &ndash; Feb., 2020
+                  <p class="bold-font">Barclays
+                  <p>Wilmington, DE,USA
+                  <p class="bold-font">VP,Lead Architect Engineer
+                </td>
+                <td>
+                  <ul class="highlighted">
+                      <li>Delivery Lead for strategic distributed system technology domain</li>
+                      <li>Group-wide Cloud Adoption for Contact Center, Merchant Services and Fraud</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid;">
+                <td>
+                  <span class="technologies-work">
+                      Terraform,
+                      CQRS,
+                      Event Store,
+                      Event Driven Architecture (EDA),
+                      Kafka&#x2F;ActiveMQ&#x2F;IBM MQ,
+                      Kafka Stream,
+                      Docker,
+                      AWS(EC2&#x2F;IAM&#x2F;S3&#x2F;ECS&#x2F;EKS&#x2F;ELB&#x2F;Lambda&#x2F;RDS&#x2F;VPC&#x2F;R53&#x2F;Secret Manager&#x2F;AutoScaling&#x2F;SES..etc),
+                      Puppet&#x2F;Chef&#x2F;Ansible,
+                      Git&#x2F;Maven&#x2F;Jenkins&#x2F;Bamboo,
+                      Python&#x2F;Ruby&#x2F;Scala&#x2F;Bash&#x2F;Go,
+                      ELK&#x2F;AppDynamic,
+                      DynamoDB&#x2F;MongoDB&#x2F;ElasticCache&#x2F;GridGain,
+                      Linux&#x2F;Windows&#x2F;AIX&#x2F;Solaris,
+                      aPaaS&#x2F;VMWare&#x2F;Citrix,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-inside: avoid;">
+                <td class="work-employer" rowspan="2">
+                  <p>May, 2014 &ndash; June, 2017
+                  <p class="bold-font">Oracle
+                  <p>Redwood, CA (WFH@NJ),USA 
+                  <p class="bold-font">Lead Software Engineer
+                </td>
+                <td>
+                  <ul class="highlighted">
+                      <li>Docker Swarm&#x2F;Compose&#x2F;Stack CD&#x2F;CI Test Environment for  Cloud SDK&#x2F;APIs&#x2F;Connectors</li>
+                      <li>Cloud Enterprise Applications Integration(EAI) connectivity SDK&#x2F;API plugin framework for Oracle SOA Suite</li>
+                      <li>Oracle Fusion Applications (FA) Business Event&#x2F;Message-Driven Connector Framework</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid;">
+                <td>
+                  <span class="technologies-work">
+                      Java,
+                      SOA,
+                      Web Services,
+                      SOAP&#x2F;WSDL,
+                      REST&#x2F;JSON&#x2F;XML,
+                      XSchema&#x2F;XSD,
+                      DOM,
+                      WSDL4J,
+                      SDK,
+                      API,
+                      MVC,
+                      Docker,
+                      Cloud,
+                      Amazon EC2,
+                      NoSQL,
+                      GIT,
+                      Maven,
+                      Junit,
+                      SoapUI,
+                      IaaS,
+                      SaaS,
+                      AWS,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-inside: avoid;">
+                <td class="work-employer" rowspan="2">
+                  <p>Oct. 2010 &ndash; Apr. 2014
+                  <p class="bold-font">Comcast T&amp;P
+                  <p>Philadelphia, PA,USA
+                  <p class="bold-font">Senior Cloud DevOps&#x2F;Infrastructure Automation Engineer
+                </td>
+                <td>
+                  <ul class="highlighted">
+                      <li>AutoBuild System for Build&#x2F;Release more than 200 Microservice projects with GIT&#x2F;SVN&#x2F;Maven</li>
+                      <li>Configuration management and deployment automation with Puppet and Capistrano</li>
+                      <li>Continuous Integration (CI) and Continuous Deployment (CD) with Bamboo and Jenkins</li>
+                      <li>Performance Monitoring System for Jetty, JVM, Linux and Splunk</li>
+                      <li>Secured FTP server with virtual users and admins users with complex access permissions</li>
+                      <li>BOM (Bill Of Materials) Administration and Management Application (BAMA) Enhancement and maintenance</li>
+                      <li>Two Steps bare-metal Linux bootstrap system for HP Servers</li>
+                      <li>Linux HA for Git Repo(Gerrit) and Maven Repo (Artifactory&#x2F;Nexus) Servers</li>
+                      <li>Automation scripts and tools for DevOps</li>
+                      <li>CoreOS and Docker prototyping and testing</li>
+                      <li>SDLC process management and junior team member training and mentoring</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid;">
+                <td>
+                  <span class="technologies-work">
+                      DevOps,
+                      Automation,
+                      Docker,
+                      CoreOS,
+                      Ruby,
+                      Ruby on Rails 3,
+                      Bash,
+                      SDLC,
+                      GIT,
+                      Maven,
+                      Jira&#x2F;Confluence,
+                      Bamboo&#x2F;Jekins&#x2F;Hudson,
+                      Nexus&#x2F;Artifactory,
+                      Gerrit,
+                      CI&#x2F;CD,
+                      Performance Monitoring,
+                      Splunk,
+                      JMX,
+                      Capistrano,
+                      PXE&#x2F;TFTP,
+                      DHCP,
+                      DNS,
+                      Cobbler,
+                      Centos,
+                      MySQL&#x2F;PostgreSQL,
+                      NoSQL,
+                      Cassandra,
+                      RabbitMQ,
+                      JMS,
+                      LDAP,
+                      SSO,
+                      Metrics,
+                      Graphite,
+                      Agile,
+                      RPC,
+                      Cloud,
+                      Clustering,
+                      Linux HA,
+                      HAProxy,
+                      Pacemaker&#x2F;Corosync&#x2F;Cman,
+                      SAN,
+                      GFS2,
+                      RAC,
+                      Volume Manager,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-inside: avoid;">
+                <td class="work-employer" rowspan="2">
+                  <p>Nov., 2006 &ndash; Oct., 2010
+                  <p class="bold-font">Boomi Inc.
+                  <p>Berwyn, PA,USA
+                  <p class="bold-font">Senior Software Engineer
+                </td>
+                <td>
+                  <ul class="highlighted">
+                      <li>Boomi  On-Demand Business Integration Cloud Service</li>
+                      <li>Cloud Platform&#x2F;Infrastructure Design and Implementation for Boomi On Demand Production Environment</li>
+                      <li>Desktop Accounting and ERP Enterprise Applications Integration (EAI)</li>
+                      <li>Amazon EC2 and S3 SOA HA Environment</li>
+                      <li>Setup Development, Build and Deployment Environment for QA, Staging and Production Environment</li>
+                      <li>Research virtualization technology and implement Virtual Machines using VMware server and workstation</li>
+                      <li>Java to C&#x2F;C++, DLL, COM&#x2F;COM+&#x2F;DCOM&#x2F;.NET Integration</li>
+                      <li>SaaS system integration</li>
+                      <li>SAP system integration</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid;">
+                <td>
+                  <span class="technologies-work">
+                      Java,
+                      SOA,
+                      IaaS,
+                      PaaS,
+                      EAI,
+                      XML,
+                      XSD,
+                      JAXB,
+                      JavaScript,
+                      .NET,
+                      EC2,
+                      S3,
+                      EBS,
+                      REST,
+                      SOAP,
+                      WSDL,
+                      SaaS,
+                      SAP,
+                      BAPI,
+                      ABAP,
+                      MySQL&#x2F;PostgreSQL,
+                      Maven,
+                      SVN,
+                      JVM,
+                      JVM GC Tuning,
+                      Apache Lucene,
+                      Apache Solr,
+                      VMWare,
+                      Cloud,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-inside: avoid;">
+                <td class="work-employer" rowspan="2">
+                  <p>Jun., 2006 &ndash; Nov.,2006
+                  <p class="bold-font">Vantage learning
+                  <p>Newtown, PA,USA 
+                  <p class="bold-font">Senior System Engineer Manager
+                </td>
+                <td>
+                  <ul class="highlighted">
+                      <li>Large scale SOA e-learning system architecture design and blueprinting</li>
+                      <li>Large Data Center Design and Administration</li>
+                      <li>Sun SPARCStorage SSA Array 100 and Sybase SQL Server (10.x, 11.x) Data (DB schema, data and Stored-Procedure) Recovery</li>
+                      <li>Ecommerce Open Source Software installation and Configuration</li>
+                      <li>Resin Application Server Distributed Session Design and Setup</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid;">
+                <td>
+                  <span class="technologies-work">
+                      Linux,
+                      Centos,
+                      SOA,
+                      Java,
+                      .NET,
+                      Network,
+                      VLAN,
+                      Router,
+                      Firewall,
+                      Load Balancer,
+                      SOAP&#x2F;WSDL,
+                      MySQL&#x2F;PostgreSQL,
+                      Struts,
+                      Disk Array,
+                      Fedora,
+                      Redhat Linux,
+                      LAMP,
+                      eCommerce,
+                      SQL,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-inside: avoid;">
+                <td class="work-employer" rowspan="2">
+                  <p>May, 2002 &ndash; Jun.,22,2006
+                  <p class="bold-font">Computer Science, Texas Tech University
+                  <p>Lubbock, Texas,USA
+                  <p class="bold-font">Senior Programmer&#x2F;Analyst and Unix System Administrator
+                </td>
+                <td>
+                  <ul class="highlighted">
+                      <li>Unix network System and Software routine maintenance</li>
+                      <li>Setup Veritas Netbackup System with RAID0&#x2F;1&#x2F;5  and Tape Library</li>
+                      <li>Setup LDAP,  Kerberos KDC and Cross-Realm system</li>
+                      <li>Migrated email system from UNIX mail server to Windows Exchange Server</li>
+                      <li>Secured Postfix SMTP server with SASL Authentication and Verification</li>
+                      <li>Installed AIX 5.1 and configured NIM on IBM RS6000 (10x 7043-140 boxes and 1x 7024-E30 box) </li>
+                      <li>Deployed Globus Tookit3.2.1 (OGSA&#x2F;OGSI) Grid Computing Environment on Solaris 9(3 boxes) and Linux (3 boxes)</li>
+                      <li>Setup Jumpstart Environment for Solaris 9 and Solaris 10</li>
+                      <li>Designed and Implemented the Single Sign-On (SSO) for Unix and Windows Environments</li>
+                      <li>The Migration from NIS+ to LDAP for Solaris</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid;">
+                <td>
+                  <span class="technologies-work">
+                      JAVA,
+                      C&#x2F;C++,
+                      GCC,
+                      GNU Make,
+                      perl,
+                      LDAP,
+                      NFS,
+                      SSO,
+                      Kerberos,
+                      SSL,
+                      SMTP,
+                      Email Server and Client,
+                      Solaris,
+                      AIX,
+                      Mac OSX,
+                      Linux,
+                      Windows Server,
+                      PAM,
+                      RAID,
+                      SCSI,
+                      Veritas,
+                      TFTP,
+                      RARP&#x2F;ARP,
+                      Bootparamd,
+                      DHCP,
+                      Postfix,
+                      PostgreSQL,
+                      NIS&#x2F;NIS+,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-inside: avoid;">
+                <td class="work-employer" rowspan="2">
+                  <p>Aug.,2002 &ndash; Jun.,2006
+                  <p class="bold-font">Computer Science, Texas Tech University
+                  <p>Lubbock, Texas,USA
+                  <p class="bold-font">Master Student
+                </td>
+                <td>
+                  <ul class="highlighted">
+                      <li>Master Thesis: A Service Wrapping and Provisioning Framework for SOA</li>
+                      <li>GIS Project: A Yield Mapping and Prediction Information Delivery System</li>
+                      <li>Independently finished practical course projects list</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid;">
+                <td>
+                  <span class="technologies-work">
+                      Java,
+                      C&#x2F;C++,
+                       GCC,
+                      Gnu Make,
+                      Linux,
+                      Linux Kernel,
+                      GIS,
+                      Ant,
+                      Struts,
+                      J2EE,
+                      UML2,
+                      MVC,
+                      Maven,
+                      PostGIS,
+                      PostgreSQL,
+                      Solaris,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-inside: avoid;">
+                <td class="work-employer" rowspan="2">
+                  <p>Apr., 2000  &ndash; May, 2002
+                  <p class="bold-font">Technology Development Center, Sun Microsystem (China) Co.,Ltd.
+                  <p>Beijing,P. R. China
+                  <p class="bold-font">Senior Software Engineer
+                </td>
+                <td>
+                  <ul class="highlighted">
+                      <li>Java Message Service(JMS) Prototype Application</li>
+                      <li>Remote Learning Management Platform (www.ambow.com)</li>
+                      <li>Bao Steel B2B Website (www.bsteel.com)</li>
+                      <li>Project Management Tools</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid;">
+                <td>
+                  <span class="technologies-work">
+                      Java,
+                      J2EE,
+                      JMS,
+                      EJB,
+                      Servlets,
+                      JDBC,
+                      Message-Driven Bean,
+                      LDAP,
+                      SQL,
+                      Weblogic,
+                      OOA&#x2F;OOD,
+                      UML,
+                      MVC,
+                      Oracle DBMS,
+                      Java IDL,
+                      RMI,
+                      CORBA,
+                      JNDI,
+                      Solaris,
+                      CVS,
+                      Ant,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-inside: avoid;">
+                <td class="work-employer" rowspan="2">
+                  <p>Aug.,1998 &ndash; Apr.,2000
+                  <p class="bold-font">IBM China Research and Development Lab
+                  <p>Beijing,P. R. China
+                  <p class="bold-font">Software Engineer
+                </td>
+                <td>
+                  <ul class="highlighted">
+                      <li>Credit Card Internet Online Payment System</li>
+                      <li>Jiro&#x2F;Jini-based Storage Management System</li>
+                      <li>Handwriting Recognizing System</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid;">
+                <td>
+                  <span class="technologies-work">
+                      Java,
+                      J2EE,
+                      C&#x2F;C++,
+                      Servlets,
+                      WebSphere,
+                      SSL,
+                      JDBC,
+                      Windows NT,
+                      SAN,
+                      POS,
+                      JNI,
+                      DB2,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-inside: avoid;">
+                <td class="work-employer" rowspan="2">
+                  <p>Apr.,1996 &ndash; Jul.,1997
+                  <p class="bold-font">North China Institute (Taiji Computers Corporation)
+                  <p>Beijing,P. R. China
+                  <p class="bold-font">System&#x2F;Network&#x2F;Software Engineer
+                </td>
+                <td>
+                  <ul class="highlighted">
+                      <li>System Engineer,IBM Service Center</li>
+                      <li>Software Engineer, HUAXU Golden Card Co.Ltd.</li>
+                      <li>Large scale Network System Design and Administration</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid;">
+                <td>
+                  <span class="technologies-work">
+                      C&#x2F;C++,
+                      Assembly,
+                      Network Design,
+                      Router,
+                      Switch,
+                      VLAN,
+                      AIX,
+                      Disk Array,
+                      SSA,
+                      RAID,
+                      Volume Manager,
+                      IC,
+                      RIP&#x2F;OSPF,
+                      Ciso IOS,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-inside: avoid;">
+                <td class="work-employer" rowspan="2">
+                  <p>Jun., 1991 &ndash; Sep.,1993
+                  <p class="bold-font">Yongji Electrical and Motor Factory
+                  <p>ShanXi Province,P. R. China
+                  <p class="bold-font">Mechanical Engineer
+                </td>
+                <td>
+                  <ul class="highlighted">
+                      <li>CIMS and FMS CAPP&#x2F;CAD&#x2F;CAM manufacturing Automation application development</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid;">
+                <td>
+                  <span class="technologies-work">
+                      C&#x2F;C++,
+                      AutoCAD,
+                      CAD&#x2F;CAM&#x2F;CAPP,
+                      CIMS&#x2F;FMS,
+                      DOS,
+                  </span>
+                </td>
+             </tr>
+        </table>
+      </div>
+        </div>
+    </div>
+    <div id="extra">
+    </div>
+</div>

@@ -8,31 +8,63 @@ github : https://github.com/rongyj
 city : Cherry Hill, NJ, USA, 08003
 visa : US Citizen
 education
-start-date : 2002-09
-end-date : Jun.2006
+start-date : Sept.,2002
+end-date : Jun.,2006
 
 description : Master of Computer Science
 additional-info : GPA: 4.0/4.0
 
-start-date : 1993-09
-end-date : Feb.1996
+start-date : Sept.,1993
+end-date : Feb.,1996
 
 description : Master of Engineering
-additional-info : Speciality: Hydraulic Fluid Control in Mechanical Engineering
+additional-info : Major: Hydraulic Fluid Control in Mechanical Engineering
 
-start-date : 1987-09
-end-date : Jul.1991
+start-date : Sept.,1987-09
+end-date : Jul.,1991
 
 description : Bachelor of Engineering
-additional-info : Speciality: Engineering Machine
+additional-info : Major: Engineering Machine
 
 work
-start-date : Jun, 2017
+start-date : Feb.,2025
 end-date : Current
+position : Director of Cloud Architecture
+
+achievements : As a hands-on director of cloud architecture, I designed and implemented comprehensive infrastructure as code (IaC) by importing existing AWS resources and redesigning them according to AWS best practices. I led the development of a data ingestion and scraping system for an AI-powered RAG platform, following SOLID principles and Clean Architecture patterns. Additionally, I created a custom AWS CloudWatch custom alerting system leveraging Lambda, SQS and SNS for robust monitoring and notification.
+technologies : IaC,Terraform/Terragrunt,AWS/EC2/EBS/S3/VPC/ALB/Security/R53/IAM/Secrets Manager/Lambda/CloudWatch/EventBridge/SQS/SNS,Python/DJango/Pydantic,openAI API/LangChain,SOLID Principles,Clean Architecture
+projects : [object Object],[object Object],[object Object]
+
+start-date : Dec.,2021
+end-date : Feb.,2025
+position : Senior Cloud Engineer II (Associate)
+
+achievements : Led the development of genAI systems with RAG and multi-agents to accelerate mainframe migration to modern technologies. Built comprehensive genAI solutions with RAG to speed up data pipeline development on PySpark and Databricks for complex data transformations. Scaled RAG vectorstore (ChromaDB) for a call center chatbot copilot. Successfully migrated and refactored complex EDA mainframe systems to AWS serverless architecture using EventBridge, Lambda, Step Functions, SQS, SNS, CloudWatch, and EKS.
+technologies : genAI/openAI/Langchain/RAG/Multi-agents/prompts tuning,VectorStore/ChromaDB/Milvus,Python/Flask/FastAPI/Pydantic/Jupyter,Databricks/pyspark,Typescript/JavaScript/NodeJs,Event Driven Architecture (EDA),Terraform,Microservices,Java/SpringBoot/NodeJs/Python/Flask/FastAPI,EventBridge/CloudWatch/Lambda/Step Functions,DynamoDB/RDS/Oracle,Docker/K8s/EKS/AKS,Json Schema,JOI,OpenAPI/Swagger
+projects : [object Object],[object Object],[object Object]
+
+start-date : Dec.,2020
+end-date : Dec., 2021
+position : Staff Engineer
+
+achievements : Led the architecture and development of a comprehensive cloud cost analytics, optimization, and management platform supporting AWS, Azure, and GCP. Designed and implemented cross-cloud cost visibility, allocation, and optimization capabilities to help organizations manage cloud spending effectively.
+technologies : OpenAPI/Swagger,Microservice,Java/Kotlin/SpringBoot,Kubernetes/EKS/AKS,Istio,Terraform,CQRS,Event Store,Event Driven Architecture (EDA),Kafka/ActiveMQ/IBM MQ,Kafka Stream,Docker,AWS(EC2/IAM/S3/ECS/EKS/ELB/Lambda/RDS/VPC/R53/Secret Manager/AutoScaling/SES..etc),Puppet/Chef/Ansible,Git/Maven/Jenkins,Python/Bash/Go,ELK/AppDynamic/Datadog
+projects : [object Object]
+
+start-date : Mar.,2020
+end-date : Nov., 2021
+position : Technical Infrastructure/Devops Architect
+
+achievements : Designed and implemented comprehensive AWS infrastructure architecture including CI/CD automation, Terraform infrastructure as code, and EKS container orchestration. Led the development of scalable, automated cloud infrastructure solutions to support microservices and distributed systems.
+technologies : Microservice,NodeJs,Kubernetes/EKS,Terraform,RabbitMQ/ActiveMQ,Docker,AWS(EC2/IAM/S3/EKS/ALB/RDS/VPC/R53/AutoScaling/SES/ECR..etc),Puppet/Chef/Ansible,Git/Maven/Jenkins,JavaScript
+projects : [object Object]
+
+start-date : Jun.,2017
+end-date : Feb., 2020
 position : VP,Lead Architect Engineer
 
-achievements : Delivery lead for Distributed System technology domain which includes Microservices, Event Driven Architecture (EDA), Message transports, integration (Batch/ETL) and (Event) Stream processing technologies. Cloud Adoption to migrate on-Premises enterprise systems to public cloud (AWS)
-technologies : Microservices,CQRS,Event Store,Event Driven Architecture (EDA),Kafka/ActiveMQ/IBM MQ,Kafka Stream,SpringBoot,Docker,AWS(EC2/IAM/S3/ECS/ELB/Lamda/RDS/VPC/R53/Security/AutoScaling..etc),Kubernete/Terraform/Puppet/Chef/Ansible,Git/Maven/Jenkins/Bamboo,Python/Ruby/Scala/Bash/Go,ELK/AppDynamic,DynamoDB/MongoDB/ElasticCache/Gridgain,Linux/Windows/AIX/Solaris,aPaaS/VMWare/Cytrix
+achievements : Directed the cloud adoption journey, migrating on-premises enterprise systems to AWS. Served as delivery lead for distributed system technology, including microservices, event-driven architecture, message transport, integration (batch/ETL), and event stream processing.
+technologies : Terraform,CQRS,Event Store,Event Driven Architecture (EDA),Kafka/ActiveMQ/IBM MQ,Kafka Stream,Docker,AWS(EC2/IAM/S3/ECS/EKS/ELB/Lambda/RDS/VPC/R53/Secret Manager/AutoScaling/SES..etc),Puppet/Chef/Ansible,Git/Maven/Jenkins/Bamboo,Python/Ruby/Scala/Bash/Go,ELK/AppDynamic,DynamoDB/MongoDB/ElasticCache/GridGain,Linux/Windows/AIX/Solaris,aPaaS/VMWare/Citrix
 projects : [object Object],[object Object]
 
 start-date : May, 2014
@@ -48,15 +80,15 @@ end-date : Apr. 2014
 position : Senior Cloud DevOps/Infrastructure Automation Engineer
 
 achievements : As a senior engineer in BITT(Build Integration Test Team), provided DevOps support for multiple development teams and supporting the developers for SDLC infrastructure system design/implementation, and Build/Release/Deployment/SCM/CI automation., designed, developed and implemented the AutoBuild system, OpenSource performance monitoring system for the SDLC systems, two steps bare-metal Linux bootstrap system for HP servers, Linux HA Clusters for SCM/Maven/CI/Crowd servers, Ruby/Rails software system maintenance and improvement. Managed the SCM(Gerrit/Subversion), CI(Bamboo/Jenkins) and maven repo (Nexus and Artifactory) system. Designed and developed automation scripts (bash/ruby) to improve work efficiency. Led and Trained junior team members.
-technologies : DevOps,Automation,Docker,CoreOS,Ruby,Ruby on Rails 3,Bash,SDLC,GIT,Maven,Jira/Confluence,Bamboo/Jekins/Hudson,Nexus/Artifactory,Gerrit,CI/CD,Performance Monitoring,Splunk,JMX,Capistrano,PXE/TFTP,DHCP,DNS,Cobbler,Centos,MySQL/PostgreSQL,NoSQL,Cassandra,RabbitMQ,JMS,LDAP,SSO,Mtrics,Graphite,Agile,RPC,Cloud,Clustering,Linux HA,HAProxy,Pacemaker/Corrosync/Cman,SAN,GFS2,RAC,Volume Manager
+technologies : DevOps,Automation,Docker,CoreOS,Ruby,Ruby on Rails 3,Bash,SDLC,GIT,Maven,Jira/Confluence,Bamboo/Jekins/Hudson,Nexus/Artifactory,Gerrit,CI/CD,Performance Monitoring,Splunk,JMX,Capistrano,PXE/TFTP,DHCP,DNS,Cobbler,Centos,MySQL/PostgreSQL,NoSQL,Cassandra,RabbitMQ,JMS,LDAP,SSO,Metrics,Graphite,Agile,RPC,Cloud,Clustering,Linux HA,HAProxy,Pacemaker/Corosync/Cman,SAN,GFS2,RAC,Volume Manager
 projects : [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
 
-start-date : Nov. 2006
+start-date : Nov., 2006
 end-date : Oct., 2010
 position : Senior Software Engineer
 
 achievements : As the market and technology leader in on-demand integration, Boomi is the industry's first and leading integration platform-as-a-service and a two-time SIIA CODiE award winner - Best Application Integration Solution (2010) and Best On-Demand Platform (2009).
-technologies : Java,SOA,IaaS,PaaS,EAI,XML,XSD,JAXB,JavaScript,.NET,EC2,S3,EBS,REST,SOAP,WSDL,SaaS,SAP,BAPI,ABAP,MySQL/PostgreSQL,Maven,SVN,JVM,JVM GC Tunning,Apache Luncen,Apache Solr,VMWare,Cloud
+technologies : Java,SOA,IaaS,PaaS,EAI,XML,XSD,JAXB,JavaScript,.NET,EC2,S3,EBS,REST,SOAP,WSDL,SaaS,SAP,BAPI,ABAP,MySQL/PostgreSQL,Maven,SVN,JVM,JVM GC Tuning,Apache Lucene,Apache Solr,VMWare,Cloud
 projects : [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
 
 start-date : Jun., 2006
@@ -79,8 +111,8 @@ start-date : Aug.,2002
 end-date : Jun.,2006
 position : Master Student
 
-achievements : Stuied as Master Student in the CS department while working as part time as System Administration for the Teaching and Research labs for Unix/Linux and Windows environments
-technologies : Java,C/C++, GCC,Gnu Make,Linux,Linux Kernel,GIS,Ant,Stuts,J2EE,UML2,MVC,Maven,PostGIS,PostgreSQL,Solaris
+achievements : Studied as Master Student in the CS department while working as part time as System Administration for the Teaching and Research labs for Unix/Linux and Windows environments
+technologies : Java,C/C++, GCC,Gnu Make,Linux,Linux Kernel,GIS,Ant,Struts,J2EE,UML2,MVC,Maven,PostGIS,PostgreSQL,Solaris
 projects : [object Object],[object Object],[object Object]
 
 start-date : Apr., 2000 
@@ -111,17 +143,20 @@ start-date : Jun., 1991
 end-date : Sep.,1993
 position : Mechanical Engineer
 
-achievements : Designed Locomotive engine electic motor/generator cases and automated with AutoCAD, CAPP and CAM with FMS/CIMS
+achievements : Designed Locomotive engine electric motor/generator cases and automated with AutoCAD, CAPP and CAM with FMS/CIMS
 technologies : C/C++,AutoCAD,CAD/CAM/CAPP,CIMS/FMS,DOS
 projects : [object Object]
 
 projects
 skills
-Cloud platform/infrastructure design and implementation and DevOps Automation (AWS, Docker, VMWare/Openstack, Linux HA, Ruby/Rails, Bash, REST, Maven, GIT, SVN, CI, SDLC, DHCP, PXE, Cobbler, MySQL/PostgreSQL, GFS2/SAN)
-Large SOA Web Services (SOAP/WSDL, REST/XML/JSON, RIA ) Enterprise Application Cloud/On-Premises Integration Service (IaaS) design, development and deployment
-Desktop and Online Accounting, CRM and ERP System Integration Architect (Java to C/C++/DLLs, COM/COM+/DCOM,.NET, WCF,SOAP/WSDL,REST)
-Server-side software development with middleware (J2EE,.NET) and DBMS
-Distributed Network System Administration(EC2, Linux/Unix/Windows, RAID, SAN, LDAP, Kerberos, NFS, DNS, LAN/VLAN, WAN, GSLB)
+GenAI system architecture and implementation with Retrieval-Augmented Generation (RAG) and multi-agent orchestration to accelerate software development and mainframe migration to modern cloud-native platforms.
+Cloud infrastructure design, automation, and migration across AWS, GCP, and Azure, including serverless architectures (Lambda, EventBridge, Step Functions), container orchestration (EKS, AKS, GKS), and Infrastructure as Code (Terraform, Terragrunt, CloudFormation, Ansible, Puppet, Chef).
+Enterprise architecture leadership for large-scale finance, insurance, and telecommunications organizations, specializing in distributed systems, microservices, event-driven architectures, streaming data processing, and technology strategy development.
+Digital transformation engineering, refactoring legacy monolithic systems to cloud-native, loosely-coupled distributed architectures using Java, Python, Node.js, SpringBoot, and modern data stores (SQL, NoSQL, DynamoDB, MongoDB, ClickHouse, PostgreSQL, Oracle).
+DevOps and automation expertise in cloud and on-premises environments, including CI/CD pipeline design, configuration management, system/network administration, and orchestration with Docker, Kubernetes, Jenkins, Bamboo, and Linux HA technologies.
+Integration architecture and implementation for SaaS enterprise applications (ERP, CRM, Accounting, HR), leveraging VPC Endpoints, PrivateLink, REST/SOAP APIs, WSDL/XML/JSON, and secure authentication/authorization mechanisms.
+Design and delivery of highly available, scalable, and resilient microservices and event-driven systems, applying best practices in CQRS, event sourcing, domain-driven design, and cloud-native patterns for internet-scale applications.
+Mentorship and leadership in technology adoption, process automation, and cross-team enablement, fostering a culture of innovation, reliability, and continuous improvement across engineering organizations.
 languages
 name : English
 additional-info : Fluent
@@ -130,5 +165,5 @@ name : Chinese
 additional-info : Native
 
 hobbies
-hobby-items : [object Object],[object Object],[object Object],[object Object]
+hobby-items : [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
 hobby-projects : [object Object]

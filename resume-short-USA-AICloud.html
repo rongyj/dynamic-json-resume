@@ -1,0 +1,2140 @@
+<head><style>html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+footer {
+	position:fixed;
+	bottom:0;
+	vertical-align:bottom;
+	width:100%;
+}
+
+
+body {
+	line-height: 1;
+	background-color:white;
+}
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.container {
+	display: flex;
+
+}
+
+ul {
+	list-style: initial;
+}
+li {
+	margin-left: 25px;
+	padding-left: 0px;
+}
+
+#cv {
+	  padding-left: 10px;
+  	flex: 3;
+		counter-reset: company;
+}
+
+
+#extra {
+	background-color: black;
+	color: white;
+  	flex: 1;
+  	font-size: large;
+  	padding: 10px;
+}
+
+div[id$='extra'] > a:link, div[id$='extra'] > ul > a:link{
+	text-decoration: none;
+}
+
+div[id$='extra'] > a:visited, div[id$='extra'] > ul > a:link{
+	text-decoration: none;
+}
+
+div[id$='extra'] > img {
+	width: 25%;
+	height: 25%;
+}
+
+table.work-experience {
+	  border: 2px solid black;
+    border-collapse: collapse;
+		table-layout: auto;
+}
+
+tr,th,td {
+	border: 1px solid black;
+}
+tr.work-item-header {
+	text-align:center;
+}
+tr.work-item {
+	text-align:left;
+}
+
+td.work-employer{
+	text-align:center;
+}
+
+td.work-accomplishments{
+	text-align:left;
+}
+
+div.work-item::before{
+	  counter-increment: company;
+    content: counter(company)". ";
+		font-size: large;
+		font-weight: bold;
+}
+.work-item{
+    counter-reset: projects;
+}
+
+#hobbies{
+	counter-reset: hobby-projects;
+}
+div.hobby-project-item::before{
+	  counter-increment: hobby-projects;
+    content: "H."counter(hobby-projects)" ";
+		font-size: large;
+		font-weight: bold;
+}
+
+div.project-item::before{
+	  counter-increment: projects;
+    content: counter(company)"."counter(projects)" ";
+		font-size: large;
+		font-weight: bold;
+}
+
+.bold-font {
+	font-weight: bold;
+}
+
+#contact {
+	padding: 8px 4px;
+	border-radius: 5px;
+	text-align: center;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.contact-name {
+	font-size: large;
+	font-weight: bold;
+}
+
+.section {
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+.projects-title-section {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: large;
+	padding-top: 8px;
+	padding-bottom: 5px;
+}
+.subtitle-section {
+	font-weight: bold;
+	font-size: medium;
+	text-decoration: underline;
+}
+
+.title-section {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: larger;
+	padding-bottom: 10px;
+}
+.item-projects-title{
+	padding-top: 1em;
+	font-size: large;
+}
+.header-date,.header-company-name{
+	font-size: medium;
+}
+
+.item-work-header-date,.item-work-header-company-name,.item-work-header-company-location {
+	font-size: large;
+	text-decoration: underline;
+}
+
+.header-date ,.header-company-name,.header-school-name,.description-education, .item-projects-title, .header-employer, .header-accomplishments, .header-technologies,.item-work-header-date,.item-work-header-company-name {
+	font-weight: bold;
+}
+
+.section > div {
+	padding-left: 45px;
+}
+.education-item {
+	padding-bottom: 5px;
+}
+.work-item, .project-item {
+	padding-bottom: 15px;
+}
+.description-work {
+	padding-bottom: 5px;
+	text-indent: 1.5em;
+}
+
+.technologies-work > span {
+	font-weight: bold;
+	font-size: medium;
+}
+
+.skills-items > span {
+	padding : 0px 10px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	border-radius: 6px;
+	border: 1px solid black;
+	background-color: #B2913F;
+	color: white;
+	font-weight: bold;
+	font-size: medium;
+	flex: 0 0 auto;
+}
+
+.skills-items {
+	padding-left: 45px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.highlighted {
+	border-radius: 5px;
+	font-size: medium;
+}
+
+@media (max-width: 900px) {
+    .container {
+        display: block;
+    }
+}
+
+@media print {
+	body {
+		margin: 0 0 0 0;
+	}
+	#extra {
+		display: none;
+	}
+}
+#extra {display: none;}</style></head><div class="container">
+
+    <div id="cv">
+        <div id="contact" >
+            <div class="contact-name">Yongjun Rong</div>
+            <div class="contact-email">
+              <span class="contact-email">Cherry Hill, NJ, USA, 08003 (US Citizen)</span>
+              <span class="header-date"> Email: </span>
+              <span class="header-school-location">  rongyj@hotmail.com </span>
+              <span class="header-date"> Tel: </span>
+              <span class="header-school-location">  856-408-4027 </span>
+            </div>
+            <div class="contact-website">
+                  <span class="header-date"> Linkedin: </span>
+                  <span class="header-school-location"> https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;rongyongjun&#x2F;,   </span>
+                  <span class="header-date"> Github: </span>
+                  <span class="header-school-location"> https:&#x2F;&#x2F;github.com&#x2F;rongyj </span>
+            </div>
+        </div>
+
+        <div id="education" class="section">
+            <div class="title-section">Education</div>
+            <div class="education-item" >
+                <span class="header-date">Jun.,2006,</span>
+                <span class="description-education">Master of Computer Science,</span>
+                <span class="header-school-name">Texas Tech University,</span>
+                <span class="header-school-location">Lubbock, TX, USA</span>
+            </div>
+            <div class="education-item" >
+                <span class="header-date">Feb.,1996,</span>
+                <span class="description-education">Master of Engineering,</span>
+                <span class="header-school-name">Shanghai JiaoTong University,</span>
+                <span class="header-school-location">Shanghai, China</span>
+            </div>
+            <div class="education-item" >
+                <span class="header-date">Jul.,1991,</span>
+                <span class="description-education">Bachelor of Engineering,</span>
+                <span class="header-school-name">Changsha Railway University,</span>
+                <span class="header-school-location">Changsha, Hunan, China</span>
+            </div>
+        </div>
+        <div id="skills" class="section">
+            <div class="title-section" style="page-break-after: avoid">Summary:</div>
+
+            <div>
+              <ul class="highlighted">
+                  <div class="description-work" style="page-break-inside: avoid"> Yongjun Rong is a visionary cloud architect and technology leader with deep expertise in GenAI systems, prompt engineering, cloud infrastructure, and digital transformation. With over two decades of experience spanning finance, consulting, SaaS, and technology sectors, he has architected and delivered large-scale distributed systems, led mainframe-to-cloud migrations, and pioneered automation and DevOps best practices. Yongjun excels at designing resilient, scalable microservices, integrating enterprise SaaS applications, and driving innovation through mentorship and cross-team enablement. His technical breadth covers AWS, GCP, Azure, Java, Python, Node.js, Kubernetes, Terraform, and more. Fluent in both English and Chinese, he is passionate about empowering organizations to achieve agility, reliability, and business impact through modern cloud-native solutions. </div>
+                  <!--li>[object Object]</li-->
+              </ul>
+            </div>
+        </div>
+
+        <div id="skills" class="section">
+            <div class="title-section" style="page-break-after: avoid">Skills:</div>
+            <div>
+              <ul class="highlighted">
+                  <li>GenAI system architecture and implementation with Retrieval-Augmented Generation (RAG) and multi-agent orchestration to accelerate software development and mainframe migration to modern cloud-native platforms.</li>
+                  <li>Cloud infrastructure design, automation, and migration across AWS, GCP, and Azure, including serverless architectures (Lambda, EventBridge, Step Functions), container orchestration (EKS, AKS, GKS), and Infrastructure as Code (Terraform, Terragrunt, CloudFormation, Ansible, Puppet, Chef).</li>
+                  <li>Enterprise architecture leadership for large-scale finance, insurance, and telecommunications organizations, specializing in distributed systems, microservices, event-driven architectures, streaming data processing, and technology strategy development.</li>
+                  <li>Digital transformation engineering, refactoring legacy monolithic systems to cloud-native, loosely-coupled distributed architectures using Java, Python, Node.js, SpringBoot, and modern data stores (SQL, NoSQL, DynamoDB, MongoDB, ClickHouse, PostgreSQL, Oracle).</li>
+                  <li>DevOps and automation expertise in cloud and on-premises environments, including CI&#x2F;CD pipeline design, configuration management, system&#x2F;network administration, and orchestration with Docker, Kubernetes, Jenkins, Bamboo, and Linux HA technologies.</li>
+                  <li>Integration architecture and implementation for SaaS enterprise applications (ERP, CRM, Accounting, HR), leveraging VPC Endpoints, PrivateLink, REST&#x2F;SOAP APIs, WSDL&#x2F;XML&#x2F;JSON, and secure authentication&#x2F;authorization mechanisms.</li>
+                  <li>Design and delivery of highly available, scalable, and resilient microservices and event-driven systems, applying best practices in CQRS, event sourcing, domain-driven design, and cloud-native patterns for internet-scale applications.</li>
+                  <li>Mentorship and leadership in technology adoption, process automation, and cross-team enablement, fostering a culture of innovation, reliability, and continuous improvement across engineering organizations.</li>
+              </ul>
+            </div>
+        </div>
+        <div id="hobbies" class="section" >
+            <div class="title-section">Hobbies</div>
+            <div class="hobbies-items">
+                <ul class="highlighted">
+                    <li>
+                      Pickleball
+                          ( ~4.0 player)
+                    </li>
+                    <li>
+                      Pingpong
+                          (ITTF Score around 1200)
+                    </li>
+                    <li>
+                      IoT or Robot programming
+                          (Have iRobot and MIPOSaur at home. Programming against iRobot create SDK and MIPOSaur SDK.)
+                    </li>
+                    <li>
+                      iOS&#x2F;Android Apps Development
+                          (Developing a Chinese character learning App)
+                    </li>
+                    <li>
+                      Playing with cutting-edge technologies
+                          (genAI&#x2F;Autogen&#x2F;Multiagents, Docker, Go, Kafka, Kubernetes and Amazon CloudFormation, JavaScript, AngularJS, ReactiveJS, Node.js)
+                    </li>
+                    <li>
+                      IFTTT Home Automation
+                          (IFTTT, WeMo, EcoBee, Weather Underground, SaaS, REST, Home Automation)
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="work-experience" class="section">
+          <div class="title-section" style="page-break-before: always;">Work Experience Summary:</div>
+          <div >
+          <table id="work-experience" class="section" style="page-break-inside:auto;">
+            <tr class="work-item-header">
+                <th class="header-employer" style="width:20%">Employments</th>
+                <th class="header-accomplishments"> Major Accomplishments & Technologies </th>
+            </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Feb.,2025 &ndash; Current
+                  <p class="bold-font">Biophy
+                  <p>Cherry Hill, NJ (WFH),USA
+                  <p class="bold-font">Director of Cloud Architecture
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Comprehensive Infrastructure as Code (IaC) Design and Implementation</li>
+                      <li>AI-Powered Data Ingestion and Scraping System for RAG</li>
+                      <li>Custom AWS CloudWatch Alerting System with EventBridge, Lambda, SQS and SNS</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      IaC,
+                      Terraform&#x2F;Terragrunt,
+                      AWS&#x2F;EC2&#x2F;EBS&#x2F;S3&#x2F;VPC&#x2F;ALB&#x2F;Security&#x2F;R53&#x2F;IAM&#x2F;Secrets Manager&#x2F;Lambda&#x2F;CloudWatch&#x2F;EventBridge&#x2F;SQS&#x2F;SNS,
+                      Python&#x2F;DJango&#x2F;Pydantic,
+                      openAI API&#x2F;LangChain,
+                      SOLID Principles,
+                      Clean Architecture,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Dec.,2021 &ndash; Feb.,2025
+                  <p class="bold-font">McKinsey &amp; Company
+                  <p>Cherry Hill, NJ (WFH),USA
+                  <p class="bold-font">Senior Cloud Engineer II (Associate)
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Using genAI (openAI) with RAG (ChromaDB, Milvus) to accelerate the development of data pipelines running on pyspark and databricks</li>
+                      <li>Using genAI (openAI) with multi-agents to accelerate the migration of mainfarme to modern technologies</li>
+                      <li>Migration&#x2F;Refactoring of Mainframe (IBM MQ) EDA system to AWS by using EventBridge&#x2F;Lambda&#x2F;Step Function&#x2F;CloudWatch&#x2F;EKS&#x2F;SQS&#x2F;SNS...etc.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      genAI&#x2F;openAI&#x2F;Langchain&#x2F;RAG&#x2F;Multi-agents&#x2F;prompts tuning,
+                      VectorStore&#x2F;ChromaDB&#x2F;Milvus,
+                      Python&#x2F;Flask&#x2F;FastAPI&#x2F;Pydantic&#x2F;Jupyter,
+                      Databricks&#x2F;pyspark,
+                      Typescript&#x2F;JavaScript&#x2F;NodeJs,
+                      Event Driven Architecture (EDA),
+                      Terraform,
+                      Microservices,
+                      Java&#x2F;SpringBoot&#x2F;NodeJs&#x2F;Python&#x2F;Flask&#x2F;FastAPI,
+                      EventBridge&#x2F;CloudWatch&#x2F;Lambda&#x2F;Step Functions,
+                      DynamoDB&#x2F;RDS&#x2F;Oracle,
+                      Docker&#x2F;K8s&#x2F;EKS&#x2F;AKS,
+                      Json Schema,
+                      JOI,
+                      OpenAPI&#x2F;Swagger,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Dec.,2020 &ndash; Dec., 2021
+                  <p class="bold-font">Yotascale
+                  <p>Cherry Hill, NJ (WFH),USA
+                  <p class="bold-font">Staff Engineer
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Lead Architect and Lead Implementation Engineer for Cloud(AWS&#x2F;Azure&#x2F;GCP) Cost Analytics&#x2F;Optimization&#x2F;Management platform</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      OpenAPI&#x2F;Swagger,
+                      Microservice,
+                      Java&#x2F;Kotlin&#x2F;SpringBoot,
+                      Kubernetes&#x2F;EKS&#x2F;AKS,
+                      Istio,
+                      Terraform,
+                      CQRS,
+                      Event Store,
+                      Event Driven Architecture (EDA),
+                      Kafka&#x2F;ActiveMQ&#x2F;IBM MQ,
+                      Kafka Stream,
+                      Docker,
+                      AWS(EC2&#x2F;IAM&#x2F;S3&#x2F;ECS&#x2F;EKS&#x2F;ELB&#x2F;Lambda&#x2F;RDS&#x2F;VPC&#x2F;R53&#x2F;Secret Manager&#x2F;AutoScaling&#x2F;SES..etc),
+                      Puppet&#x2F;Chef&#x2F;Ansible,
+                      Git&#x2F;Maven&#x2F;Jenkins,
+                      Python&#x2F;Bash&#x2F;Go,
+                      ELK&#x2F;AppDynamic&#x2F;Datadog,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Mar.,2020 &ndash; Nov., 2021
+                  <p class="bold-font">Gigster Inc.
+                  <p>Cherry Hill, NJ,USA
+                  <p class="bold-font">Technical Infrastructure&#x2F;Devops Architect
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Images manipulation&#x2F;detection software evaluation system</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      Microservice,
+                      NodeJs,
+                      Kubernetes&#x2F;EKS,
+                      Terraform,
+                      RabbitMQ&#x2F;ActiveMQ,
+                      Docker,
+                      AWS(EC2&#x2F;IAM&#x2F;S3&#x2F;EKS&#x2F;ALB&#x2F;RDS&#x2F;VPC&#x2F;R53&#x2F;AutoScaling&#x2F;SES&#x2F;ECR..etc),
+                      Puppet&#x2F;Chef&#x2F;Ansible,
+                      Git&#x2F;Maven&#x2F;Jenkins,
+                      JavaScript,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Jun.,2017 &ndash; Feb., 2020
+                  <p class="bold-font">Barclays
+                  <p>Wilmington, DE,USA
+                  <p class="bold-font">VP,Lead Architect Engineer
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Delivery Lead for strategic distributed system technology domain</li>
+                      <li>Group-wide Cloud Adoption for Contact Center, Merchant Services and Fraud</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      Terraform,
+                      CQRS,
+                      Event Store,
+                      Event Driven Architecture (EDA),
+                      Kafka&#x2F;ActiveMQ&#x2F;IBM MQ,
+                      Kafka Stream,
+                      Docker,
+                      AWS(EC2&#x2F;IAM&#x2F;S3&#x2F;ECS&#x2F;EKS&#x2F;ELB&#x2F;Lambda&#x2F;RDS&#x2F;VPC&#x2F;R53&#x2F;Secret Manager&#x2F;AutoScaling&#x2F;SES..etc),
+                      Puppet&#x2F;Chef&#x2F;Ansible,
+                      Git&#x2F;Maven&#x2F;Jenkins&#x2F;Bamboo,
+                      Python&#x2F;Ruby&#x2F;Scala&#x2F;Bash&#x2F;Go,
+                      ELK&#x2F;AppDynamic,
+                      DynamoDB&#x2F;MongoDB&#x2F;ElasticCache&#x2F;GridGain,
+                      Linux&#x2F;Windows&#x2F;AIX&#x2F;Solaris,
+                      aPaaS&#x2F;VMWare&#x2F;Citrix,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>May, 2014 &ndash; June, 2017
+                  <p class="bold-font">Oracle
+                  <p>Redwood, CA (WFH@NJ),USA 
+                  <p class="bold-font">Lead Software Engineer
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Docker Swarm&#x2F;Compose&#x2F;Stack CD&#x2F;CI Test Environment for  Cloud SDK&#x2F;APIs&#x2F;Connectors</li>
+                      <li>Cloud Enterprise Applications Integration(EAI) connectivity SDK&#x2F;API plugin framework for Oracle SOA Suite</li>
+                      <li>Oracle Fusion Applications (FA) Business Event&#x2F;Message-Driven Connector Framework</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      Java,
+                      SOA,
+                      Web Services,
+                      SOAP&#x2F;WSDL,
+                      REST&#x2F;JSON&#x2F;XML,
+                      XSchema&#x2F;XSD,
+                      DOM,
+                      WSDL4J,
+                      SDK,
+                      API,
+                      MVC,
+                      Docker,
+                      Cloud,
+                      Amazon EC2,
+                      NoSQL,
+                      GIT,
+                      Maven,
+                      Junit,
+                      SoapUI,
+                      IaaS,
+                      SaaS,
+                      AWS,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Oct. 2010 &ndash; Apr. 2014
+                  <p class="bold-font">Comcast T&amp;P
+                  <p>Philadelphia, PA,USA
+                  <p class="bold-font">Senior Cloud DevOps&#x2F;Infrastructure Automation Engineer
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>AutoBuild System for Build&#x2F;Release more than 200 Microservice projects with GIT&#x2F;SVN&#x2F;Maven</li>
+                      <li>Configuration management and deployment automation with Puppet and Capistrano</li>
+                      <li>Continuous Integration (CI) and Continuous Deployment (CD) with Bamboo and Jenkins</li>
+                      <li>Performance Monitoring System for Jetty, JVM, Linux and Splunk</li>
+                      <li>Secured FTP server with virtual users and admins users with complex access permissions</li>
+                      <li>BOM (Bill Of Materials) Administration and Management Application (BAMA) Enhancement and maintenance</li>
+                      <li>Two Steps bare-metal Linux bootstrap system for HP Servers</li>
+                      <li>Linux HA for Git Repo(Gerrit) and Maven Repo (Artifactory&#x2F;Nexus) Servers</li>
+                      <li>Automation scripts and tools for DevOps</li>
+                      <li>CoreOS and Docker prototyping and testing</li>
+                      <li>SDLC process management and junior team member training and mentoring</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      DevOps,
+                      Automation,
+                      Docker,
+                      CoreOS,
+                      Ruby,
+                      Ruby on Rails 3,
+                      Bash,
+                      SDLC,
+                      GIT,
+                      Maven,
+                      Jira&#x2F;Confluence,
+                      Bamboo&#x2F;Jekins&#x2F;Hudson,
+                      Nexus&#x2F;Artifactory,
+                      Gerrit,
+                      CI&#x2F;CD,
+                      Performance Monitoring,
+                      Splunk,
+                      JMX,
+                      Capistrano,
+                      PXE&#x2F;TFTP,
+                      DHCP,
+                      DNS,
+                      Cobbler,
+                      Centos,
+                      MySQL&#x2F;PostgreSQL,
+                      NoSQL,
+                      Cassandra,
+                      RabbitMQ,
+                      JMS,
+                      LDAP,
+                      SSO,
+                      Metrics,
+                      Graphite,
+                      Agile,
+                      RPC,
+                      Cloud,
+                      Clustering,
+                      Linux HA,
+                      HAProxy,
+                      Pacemaker&#x2F;Corosync&#x2F;Cman,
+                      SAN,
+                      GFS2,
+                      RAC,
+                      Volume Manager,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Nov., 2006 &ndash; Oct., 2010
+                  <p class="bold-font">Boomi Inc.
+                  <p>Berwyn, PA,USA
+                  <p class="bold-font">Senior Software Engineer
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Boomi  On-Demand Business Integration Cloud Service</li>
+                      <li>Cloud Platform&#x2F;Infrastructure Design and Implementation for Boomi On Demand Production Environment</li>
+                      <li>Desktop Accounting and ERP Enterprise Applications Integration (EAI)</li>
+                      <li>Amazon EC2 and S3 SOA HA Environment</li>
+                      <li>Setup Development, Build and Deployment Environment for QA, Staging and Production Environment</li>
+                      <li>Research virtualization technology and implement Virtual Machines using VMware server and workstation</li>
+                      <li>Java to C&#x2F;C++, DLL, COM&#x2F;COM+&#x2F;DCOM&#x2F;.NET Integration</li>
+                      <li>SaaS system integration</li>
+                      <li>SAP system integration</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      Java,
+                      SOA,
+                      IaaS,
+                      PaaS,
+                      EAI,
+                      XML,
+                      XSD,
+                      JAXB,
+                      JavaScript,
+                      .NET,
+                      EC2,
+                      S3,
+                      EBS,
+                      REST,
+                      SOAP,
+                      WSDL,
+                      SaaS,
+                      SAP,
+                      BAPI,
+                      ABAP,
+                      MySQL&#x2F;PostgreSQL,
+                      Maven,
+                      SVN,
+                      JVM,
+                      JVM GC Tuning,
+                      Apache Lucene,
+                      Apache Solr,
+                      VMWare,
+                      Cloud,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Jun., 2006 &ndash; Nov.,2006
+                  <p class="bold-font">Vantage learning
+                  <p>Newtown, PA,USA 
+                  <p class="bold-font">Senior System Engineer Manager
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Large scale SOA e-learning system architecture design and blueprinting</li>
+                      <li>Large Data Center Design and Administration</li>
+                      <li>Sun SPARCStorage SSA Array 100 and Sybase SQL Server (10.x, 11.x) Data (DB schema, data and Stored-Procedure) Recovery</li>
+                      <li>Ecommerce Open Source Software installation and Configuration</li>
+                      <li>Resin Application Server Distributed Session Design and Setup</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      Linux,
+                      Centos,
+                      SOA,
+                      Java,
+                      .NET,
+                      Network,
+                      VLAN,
+                      Router,
+                      Firewall,
+                      Load Balancer,
+                      SOAP&#x2F;WSDL,
+                      MySQL&#x2F;PostgreSQL,
+                      Struts,
+                      Disk Array,
+                      Fedora,
+                      Redhat Linux,
+                      LAMP,
+                      eCommerce,
+                      SQL,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>May, 2002 &ndash; Jun.,22,2006
+                  <p class="bold-font">Computer Science, Texas Tech University
+                  <p>Lubbock, Texas,USA
+                  <p class="bold-font">Senior Programmer&#x2F;Analyst and Unix System Administrator
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Unix network System and Software routine maintenance</li>
+                      <li>Setup Veritas Netbackup System with RAID0&#x2F;1&#x2F;5  and Tape Library</li>
+                      <li>Setup LDAP,  Kerberos KDC and Cross-Realm system</li>
+                      <li>Migrated email system from UNIX mail server to Windows Exchange Server</li>
+                      <li>Secured Postfix SMTP server with SASL Authentication and Verification</li>
+                      <li>Installed AIX 5.1 and configured NIM on IBM RS6000 (10x 7043-140 boxes and 1x 7024-E30 box) </li>
+                      <li>Deployed Globus Tookit3.2.1 (OGSA&#x2F;OGSI) Grid Computing Environment on Solaris 9(3 boxes) and Linux (3 boxes)</li>
+                      <li>Setup Jumpstart Environment for Solaris 9 and Solaris 10</li>
+                      <li>Designed and Implemented the Single Sign-On (SSO) for Unix and Windows Environments</li>
+                      <li>The Migration from NIS+ to LDAP for Solaris</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      JAVA,
+                      C&#x2F;C++,
+                      GCC,
+                      GNU Make,
+                      perl,
+                      LDAP,
+                      NFS,
+                      SSO,
+                      Kerberos,
+                      SSL,
+                      SMTP,
+                      Email Server and Client,
+                      Solaris,
+                      AIX,
+                      Mac OSX,
+                      Linux,
+                      Windows Server,
+                      PAM,
+                      RAID,
+                      SCSI,
+                      Veritas,
+                      TFTP,
+                      RARP&#x2F;ARP,
+                      Bootparamd,
+                      DHCP,
+                      Postfix,
+                      PostgreSQL,
+                      NIS&#x2F;NIS+,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Aug.,2002 &ndash; Jun.,2006
+                  <p class="bold-font">Computer Science, Texas Tech University
+                  <p>Lubbock, Texas,USA
+                  <p class="bold-font">Master Student
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Master Thesis: A Service Wrapping and Provisioning Framework for SOA</li>
+                      <li>GIS Project: A Yield Mapping and Prediction Information Delivery System</li>
+                      <li>Independently finished practical course projects list</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      Java,
+                      C&#x2F;C++,
+                       GCC,
+                      Gnu Make,
+                      Linux,
+                      Linux Kernel,
+                      GIS,
+                      Ant,
+                      Struts,
+                      J2EE,
+                      UML2,
+                      MVC,
+                      Maven,
+                      PostGIS,
+                      PostgreSQL,
+                      Solaris,
+                  </span>
+                </td>
+             </tr>
+            </table>
+          </div>
+        </div>
+        <div id="work-experience" class="section">
+            <div class="title-section" style="page-break-before:always;">Selected Projects</div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Feb.,2025 &ndash; Current,</span>
+                <span class="item-work-header-company-name">Director of Cloud Architecture, Biophy</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Cherry Hill, NJ (WFH),USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> As a hands-on director of cloud architecture, I designed and implemented comprehensive infrastructure as code (IaC) by importing existing AWS resources and redesigning them according to AWS best practices. I led the development of a data ingestion and scraping system for an AI-powered RAG platform, following SOLID principles and Clean Architecture patterns. Additionally, I created a custom AWS CloudWatch custom alerting system leveraging Lambda, SQS and SNS for robust monitoring and notification. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Comprehensive Infrastructure as Code (IaC) Design and Implementation </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Led the transformation of AWS infrastructure to infrastructure as code (IaC), importing and redesigning resources to align with best practices. Developed modular Terraform configurations and established secure, standardized cloud operations. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Terraform,
+                                AWS EC2&#x2F;EBS&#x2F;S3&#x2F;VPC&#x2F;ALB&#x2F;Security&#x2F;R53&#x2F;IAM&#x2F;Secrets Manager,
+                                Infrastructure as Code,
+                                AWS Best Practices,
+                                Security Controls,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Led the transformation from manual infrastructure management to fully automated IaC practices.</li>
+                                <li>Established infrastructure standards and patterns that improved team productivity and security posture.</li>
+                                <li>Mentored team members on AWS best practices and Terraform&#x2F;Terragrunt development.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> AI-Powered Data Ingestion and Scraping System for RAG </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Architected and delivered a robust data ingestion and scraping platform for AI-powered RAG, applying SOLID and Clean Architecture principles to ensure scalability, maintainability, and high data quality. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Python&#x2F;Django&#x2F;Pydantic,
+                                openAI API&#x2F;LangChain,
+                                SOLID Principles,
+                                Clean Architecture,
+                                Data Processing,
+                                Web Scraping,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Drove the adoption of Clean Architecture and SOLID principles across the data engineering team.</li>
+                                <li>Established data quality standards and monitoring practices for AI system reliability.</li>
+                                <li>Mentored developers on modern software design patterns and best practices.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Custom AWS CloudWatch Alerting System with EventBridge, Lambda, SQS and SNS </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Developed a proactive monitoring and alerting system using AWS CloudWatch, Lambda, SQS, and SNS, enabling automated detection and response to critical events across cloud infrastructure. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                AWS CloudWatch,
+                                SQS&#x2F;SNS,
+                                Lambda,
+                                EventBridge,
+                                Monitoring,
+                                Alerting,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Established comprehensive monitoring and alerting standards across the organization.</li>
+                                <li>Reduced mean time to detection (MTTD) and mean time to resolution (MTTR) through proactive monitoring.</li>
+                                <li>Trained operations teams on monitoring best practices and incident response procedures.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Dec.,2021 &ndash; Feb.,2025,</span>
+                <span class="item-work-header-company-name">Senior Cloud Engineer II (Associate), McKinsey &amp; Company</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Cherry Hill, NJ (WFH),USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Led the development of genAI systems with RAG and multi-agents to accelerate mainframe migration to modern technologies. Built comprehensive genAI solutions with RAG to speed up data pipeline development on PySpark and Databricks for complex data transformations. Scaled RAG vectorstore (ChromaDB) for a call center chatbot copilot. Successfully migrated and refactored complex EDA mainframe systems to AWS serverless architecture using EventBridge, Lambda, Step Functions, SQS, SNS, CloudWatch, and EKS. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Using genAI (openAI) with RAG (ChromaDB, Milvus) to accelerate the development of data pipelines running on pyspark and databricks </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Designed and implemented a genAI system with RAG (ChromaDB&#x2F;Milvus) to automate and accelerate the development of data pipelines, enabling seamless transformation of source tables to target tables with varying data structures. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Langchain&#x2F;VectoreStore&#x2F;ChromaDB&#x2F;Milvus,
+                                genAI&#x2F;openAI,
+                                RAG,
+                                Python&#x2F;Pydantic&#x2F;Asyncio&#x2F;Flask&#x2F;FastAPI&#x2F;Debugpy,
+                                Typescript&#x2F;JavaScript&#x2F;NodeJs,
+                                Microservice,
+                                Dockerfile&#x2F;Docker&#x2F;Compose,
+                                PostgreSQL,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Spearheaded the integration of genAI and RAG for data pipeline automation, enabling rapid transformation of complex data structures.</li>
+                                <li>Mentored engineers on advanced prompt engineering and parallel AI workflow design, raising team proficiency in cutting-edge AI techniques.</li>
+                                <li>Established robust local development and debugging standards, improving team productivity and onboarding efficiency.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Using genAI (openAI) with multi-agents to accelerate the migration of mainfarme to modern technologies </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Built a multi-agent genAI platform to automate and accelerate the migration of mainframe applications to modern technologies, integrating RAG for context-aware transformation and process automation. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Langchain&#x2F;VectoreStore&#x2F;ChromaDB&#x2F;Milvus,
+                                genAI&#x2F;openAI,
+                                RAG,
+                                Agents&#x2F;Multi-agents&#x2F;Autogen,
+                                Python&#x2F;FastAPI,
+                                Typescript&#x2F;JavaScript&#x2F;NodeJs,
+                                Microservice,
+                                Dockerfile&#x2F;Docker Compose,
+                                PostgreSQL,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Drove the integration of multi-agent genAI systems to automate legacy migration, reducing manual effort and error rates.</li>
+                                <li>Collaborated across frontend and backend teams to ensure seamless modernization from mainframe to cloud-native stacks.</li>
+                                <li>Championed the use of RAG for context-aware migration, setting a new benchmark for future modernization projects.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Migration&#x2F;Refactoring of Mainframe (IBM MQ) EDA system to AWS by using EventBridge&#x2F;Lambda&#x2F;Step Function&#x2F;CloudWatch&#x2F;EKS&#x2F;SQS&#x2F;SNS...etc. </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Engineered and deployed an EKS-based router to integrate AWS EventBridge with external MQ events, providing robust monitoring, reporting, and cloud-native migration for mainframe EDA systems. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Java&#x2F;SpringBoot,
+                                Terraform,
+                                Microservice,
+                                Java&#x2F;JavaScript,
+                                EKS,
+                                AWS&#x2F;EventBridge&#x2F;CloudWatch&#x2F;Lambda,
+                                XML&#x2F;XSD&#x2F;Json&#x2F;Json Schema,
+                                DynamoDB,
+                                RDS&#x2F;Oracle,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Led the end-to-end migration of mission-critical EDA systems to AWS, ensuring zero downtime and robust cloud integration.</li>
+                                <li>Developed reusable infrastructure modules, empowering other teams to accelerate their own cloud migration journeys.</li>
+                                <li>Instituted comprehensive monitoring and reporting standards, elevating operational visibility and reliability.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Dec.,2020 &ndash; Dec., 2021,</span>
+                <span class="item-work-header-company-name">Staff Engineer, Yotascale</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Cherry Hill, NJ (WFH),USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Led the architecture and development of a comprehensive cloud cost analytics, optimization, and management platform supporting AWS, Azure, and GCP. Designed and implemented cross-cloud cost visibility, allocation, and optimization capabilities to help organizations manage cloud spending effectively. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Lead Architect and Lead Implementation Engineer for Cloud(AWS&#x2F;Azure&#x2F;GCP) Cost Analytics&#x2F;Optimization&#x2F;Management platform </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Architected and implemented a cross-cloud cost analytics and optimization platform, enabling organizations to gain actionable insights and manage cloud spending across AWS, Azure, and GCP. Led the design of scalable data pipelines, analytics microservices, and secure infrastructure. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Cloud Cost Analytics&#x2F;Optimization&#x2F;Management,
+                                OpenAPI&#x2F;Swagger,
+                                Microservice,
+                                Java&#x2F;Kotlin&#x2F;Python,
+                                Spring&#x2F;SpringBoot&#x2F;Flask,
+                                Kubernetes&#x2F;EKS&#x2F;AKS&#x2F;GKS,
+                                Terraform&#x2F;Terragrunt&#x2F;Ansible,
+                                AWS&#x2F;EC2&#x2F;EBS&#x2F;S3&#x2F;VPC&#x2F;Security&#x2F;R53&#x2F;IAM&#x2F;Secrets Manager&#x2F;Lambda,
+                                Service Mesh&#x2F;Istio&#x2F;Envy,
+                                Helm&#x2F;Chart,
+                                RabbitMQ,
+                                Azure&#x2F;GCP,
+                                Junit&#x2F;Test Containers,
+                                Docker&#x2F;Minikube,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Architected a cross-cloud cost analytics platform, aligning technical vision with business goals for multiple stakeholders.</li>
+                                <li>Introduced and enforced microservice design-first culture, elevating team standards and delivery quality.</li>
+                                <li>Mentored engineers in infrastructure-as-code and CI&#x2F;CD best practices, fostering a culture of automation and reliability.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Mar.,2020 &ndash; Nov., 2021,</span>
+                <span class="item-work-header-company-name">Technical Infrastructure&#x2F;Devops Architect, Gigster Inc.</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Cherry Hill, NJ,USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Designed and implemented comprehensive AWS infrastructure architecture including CI&#x2F;CD automation, Terraform infrastructure as code, and EKS container orchestration. Led the development of scalable, automated cloud infrastructure solutions to support microservices and distributed systems. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Images manipulation&#x2F;detection software evaluation system </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Led the architecture and implementation of an image manipulation and detection evaluation platform using microservices and event-driven architecture on AWS EKS. Automated infrastructure provisioning and deployment pipelines for scalable, efficient operations. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Cloud Cost Analytics&#x2F;Optimization&#x2F;Management,
+                                OpenAPI&#x2F;Swagger,
+                                Microservice,
+                                Java&#x2F;Kotlin&#x2F;Python,
+                                Spring&#x2F;SpringBoot&#x2F;Flask,
+                                Kubernetes&#x2F;EKS&#x2F;AKS&#x2F;GKS,
+                                Terraform&#x2F;Terragrunt&#x2F;Ansible,
+                                AWS&#x2F;EC2&#x2F;EBS&#x2F;S3&#x2F;VPC&#x2F;Security&#x2F;R53&#x2F;IAM&#x2F;Secrets Manager&#x2F;Lambda,
+                                Service Mesh&#x2F;Istio&#x2F;Envy,
+                                Helm&#x2F;Chart,
+                                RabbitMQ,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Designed and implemented a fully automated cloud infrastructure, setting a new standard for deployment efficiency.</li>
+                                <li>Enabled rapid scaling and reproducibility by modularizing infrastructure as code, empowering future project teams.</li>
+                                <li>Provided hands-on mentorship in DevOps automation, upskilling team members in Terraform and Kubernetes.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Jun.,2017 &ndash; Feb., 2020,</span>
+                <span class="item-work-header-company-name">VP,Lead Architect Engineer, Barclays</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Wilmington, DE,USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Directed the cloud adoption journey, migrating on-premises enterprise systems to AWS. Served as delivery lead for distributed system technology, including microservices, event-driven architecture, message transport, integration (batch&#x2F;ETL), and event stream processing. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Delivery Lead for strategic distributed system technology domain </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Directed the architecture and technology strategy for distributed systems, microservices, event-driven architecture, and stream processing, driving innovation and technology transformation across the organization. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Technology strategic Design and Stewardship,
+                                Distributed system,
+                                Domain Driven Design,
+                                Microservice,
+                                ACID&#x2F;BASE,
+                                (Event) Stream &#x2F;Batch Processing,
+                                Event Driven Architecture (EDA),
+                                Message Transports (Kafka, ActiveMQ, IBM MQ),
+                                Data Integration (ETL&#x2F;ELT),
+                                Compensating transactions&#x2F;Sagas,
+                                JMS&#x2F;AMQP,
+                                Resilience and Performance,
+                                CQRS&#x2F;SOA,
+                                CAP,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Directed a cross-functional working group to define and execute the distributed systems technology strategy.</li>
+                                <li>Authored the architecture handbook for microservices, influencing solution design across the organization.</li>
+                                <li>Drove technology transformation initiatives, guiding teams through cloud adoption and event-driven architecture.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Group-wide Cloud Adoption for Contact Center, Merchant Services and Fraud </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Led cloud assessment and migration strategy for hundreds of on-premises applications, providing technical guidance and troubleshooting to ensure successful adoption of AWS cloud architecture. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                AWS,
+                                EC2,
+                                RDS,
+                                S3,
+                                ECS,
+                                VPC,
+                                ACL&#x2F;Security Group&#x2F;Routing table,
+                                ELB&#x2F;NLB&#x2F;ALB,
+                                Private Link,
+                                EBS,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Led the assessment and migration of 500+ on-premises applications to AWS, ensuring business continuity.</li>
+                                <li>Developed cloud migration roadmaps and provided hands-on guidance to application teams.</li>
+                                <li>Championed automation of cloud infrastructure, reducing manual errors and accelerating delivery.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">May, 2014 &ndash; June, 2017,</span>
+                <span class="item-work-header-company-name">Lead Software Engineer, Oracle</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Redwood, CA (WFH@NJ),USA </span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> The Cloud Connectivity software engineering team is responsible to develop the Cloud Integration Connectivity SDK and Java Connectors which enable the SOA Suite and Oracle Integration Cloud Service (ICS) connectivity to any Oracle internal or external SaaS or On-Premises Enterprise Applications. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Docker Swarm&#x2F;Compose&#x2F;Stack CD&#x2F;CI Test Environment for  Cloud SDK&#x2F;APIs&#x2F;Connectors </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Pioneered the use of Docker Swarm, Compose, and Stack to create scalable, automated CI&#x2F;CD test environments for cloud SDKs, APIs, and Java connectors, streamlining development and testing workflows. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Docker,
+                                Docker Machine,
+                                Docker Compose,
+                                Docker Swarm,
+                                Docker Stack,
+                                Docker CLI (Rest APIs),
+                                WebLogic,
+                                Oracle Cloud VMs,
+                                AWS,
+                                JMS,
+                                NoSQL (Cassandra),
+                                DBMS (MySQL and PostgreSQL),
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Pioneered the adoption of containerization for CI&#x2F;CD environments, reducing setup time and increasing test reliability.</li>
+                                <li>Developed reusable Docker orchestration templates, enabling rapid prototyping for SDK and connector teams.</li>
+                                <li>Trained team members on advanced Docker networking and orchestration concepts.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Cloud Enterprise Applications Integration(EAI) connectivity SDK&#x2F;API plugin framework for Oracle SOA Suite </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Developed a robust SDK and plugin framework for seamless integration between Oracle SOA Suite and a wide range of SaaS and on-premises enterprise applications, enhancing connectivity and extensibility. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Java,
+                                SOA,
+                                SOAP&#x2F;REST,
+                                WSDL&#x2F;JSON,
+                                XML,
+                                XML Schema,
+                                API,
+                                SDK,
+                                IaaS,
+                                RCU,
+                                JCA,
+                                XDK,
+                                JAXP,
+                                WSDL4J,
+                                DOM,
+                                WS-Security,
+                                Jersey REST&#x2F;JSON,
+                                MVC,
+                                ADF,
+                                NLS&#x2F;L10,
+                                Oracle DB,
+                                Jira,
+                                Agile,
+                                ADE,
+                                GIT,
+                                Maven,
+                                Junit,
+                                XMLUnit,
+                                SoapUI,
+                                OSC,
+                                ERP,
+                                HCM,
+                                RightNow,
+                            </span><br/>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Oracle Fusion Applications (FA) Business Event&#x2F;Message-Driven Connector Framework </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Engineered a business event and message-driven connector framework for Oracle Fusion Applications, enabling real-time event discovery, filtering, and integration with external systems. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Java,
+                                FA,
+                                OSC&#x2F;ERP&#x2F;HCM,
+                                WSDL&#x2F;SOAP,
+                                REST,
+                                JSON,
+                                XSI,
+                                XML Schema,
+                                XDK,
+                                JAXP,
+                                WSDL4J,
+                                DOM,
+                                WS-Security,
+                                Jersey REST&#x2F;JSON,
+                                MVC,
+                                ADF,
+                                ADE,
+                                Maven,
+                                Junit,
+                                XMLUnit,
+                                SoapUI,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Architected a business event connector framework, enabling real-time integration for enterprise applications.</li>
+                                <li>Drove the adoption of event-driven patterns, empowering teams to build scalable, asynchronous integrations.</li>
+                                <li>Mentored developers on advanced payload manipulation and schema evolution.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Oct. 2010 &ndash; Apr. 2014,</span>
+                <span class="item-work-header-company-name">Senior Cloud DevOps&#x2F;Infrastructure Automation Engineer, Comcast T&amp;P</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Philadelphia, PA,USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> As a senior engineer in BITT(Build Integration Test Team), provided DevOps support for multiple development teams and supporting the developers for SDLC infrastructure system design&#x2F;implementation, and Build&#x2F;Release&#x2F;Deployment&#x2F;SCM&#x2F;CI automation., designed, developed and implemented the AutoBuild system, OpenSource performance monitoring system for the SDLC systems, two steps bare-metal Linux bootstrap system for HP servers, Linux HA Clusters for SCM&#x2F;Maven&#x2F;CI&#x2F;Crowd servers, Ruby&#x2F;Rails software system maintenance and improvement. Managed the SCM(Gerrit&#x2F;Subversion), CI(Bamboo&#x2F;Jenkins) and maven repo (Nexus and Artifactory) system. Designed and developed automation scripts (bash&#x2F;ruby) to improve work efficiency. Led and Trained junior team members. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> AutoBuild System for Build&#x2F;Release more than 200 Microservice projects with GIT&#x2F;SVN&#x2F;Maven </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Developed and automated the AutoBuild system to streamline build, release, and dependency management for over 200 microservice projects, reducing release cycles from days to hours. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Ruby&#x2F;Rails,
+                                gems,
+                                Bash,
+                                Maven,
+                                GIT,
+                                SVN,
+                                Bamboo&#x2F;Jira&#x2F;Confluence CLI,
+                                Nexus&#x2F;Artifactory REST&#x2F;XML,
+                                SDLC,
+                                CI&#x2F;CD,
+                                Gerrit&#x2F;Subversion,
+                                MySQL&#x2F;PostgreSQL,
+                                Crowd&#x2F;OpenID,
+                                Capistrano,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Invented and led the development of the AutoBuild system, reducing release cycle time from days to hours.</li>
+                                <li>Established code standards and conventions for automated build and release processes.</li>
+                                <li>Enabled organization-wide adoption of automated dependency management and versioning.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Configuration management and deployment automation with Puppet and Capistrano </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Implemented configuration management and deployment automation using Puppet and Capistrano, eliminating manual errors and accelerating application delivery across environments. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Puppet,
+                                Capistrano,
+                                Ruby,
+                                bash,
+                                CI&#x2F;CD,
+                                GIT,
+                                Maven,
+                                Perl,
+                                Python,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Introduced configuration management automation, eliminating manual errors in deployment.</li>
+                                <li>Developed reusable deployment tasks, empowering operations teams to manage complex environments.</li>
+                                <li>Provided training and documentation for DevOps best practices.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Continuous Integration (CI) and Continuous Deployment (CD) with Bamboo and Jenkins </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Standardized and automated CI&#x2F;CD pipelines for 200+ microservices using Bamboo and Jenkins, improving release reliability and developer productivity. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                CI&#x2F;CD,
+                                Bamboo,
+                                Jenkins,
+                                Ruby,
+                                Bash,
+                                Python,
+                                GIT,
+                                Maven,
+                                Jira&#x2F;Confluence,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Standardized CI&#x2F;CD pipelines across 200+ microservices, improving release consistency and reducing deployment errors.</li>
+                                <li>Automated integration between build systems and project management tools, streamlining developer workflows.</li>
+                                <li>Mentored junior engineers in best practices for automation and pipeline design.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Performance Monitoring System for Jetty, JVM, Linux and Splunk </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Designed and integrated a comprehensive performance monitoring system for JVM, Linux, and Splunk, enabling proactive detection and resolution of system bottlenecks. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Metrics,
+                                graphite,
+                                jmx,
+                                splunk,
+                                Ruby,
+                                splunk-ruby-SDK,
+                                performance monitoring,
+                                UDP,
+                                Capistrano,
+                                god,
+                                bash,
+                                gdash,
+                                graphite,
+                                statsd,
+                                metricsd,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Unified disparate open-source tools into a single, cohesive monitoring platform, enabling proactive performance management.</li>
+                                <li>Led the integration of custom metrics connectors, providing deep visibility into JVM and OS health.</li>
+                                <li>Mentored team members on advanced monitoring and troubleshooting techniques.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Secured FTP server with virtual users and admins users with complex access permissions </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Engineered a secure FTP&#x2F;SFTP environment with advanced user and group access controls, automating user management and improving security compliance. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                ftp,
+                                sftp,
+                                chroot,
+                                bash,
+                                linux,
+                                user&#x2F;group unix permission,
+                                sshd,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Engineered a secure, multi-user FTP&#x2F;SFTP environment, balancing usability with strict access controls.</li>
+                                <li>Automated user and group management, reducing administrative overhead and improving security compliance.</li>
+                                <li>Documented complex permission structures for future maintainers.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> BOM (Bill Of Materials) Administration and Management Application (BAMA) Enhancement and maintenance </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Enhanced and maintained the BAMA system for automated deployment and management of microservices, introducing customizable deployment features and integration with CI&#x2F;CD tools. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Ruby,
+                                RoR 3,
+                                Rails 3,
+                                ActiveRecord,
+                                ActionView,
+                                ActionController,
+                                ActionMailer,
+                                Websocket,
+                                linux,
+                                JSON,
+                                Capistrano,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Enhanced deployment automation for 200+ microservices, streamlining environment management.</li>
+                                <li>Introduced customizable deployment features, empowering users to tailor release processes.</li>
+                                <li>Provided cross-functional training on Ruby on Rails and deployment automation.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Two Steps bare-metal Linux bootstrap system for HP Servers </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Developed a two-phase, fully automated Linux server bootstrap system for HP hardware, enabling zero-touch provisioning and configuration. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                TFTP,
+                                PXE,
+                                DHCP,
+                                DNS,
+                                cobbler,
+                                RPC,
+                                xml,
+                                bash,
+                                ILO 3,
+                                IPMI,
+                                LVM,
+                                HP Servers,
+                                CentOS 6,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Designed a two-phase, fully automated server bootstrap process, reducing manual provisioning time.</li>
+                                <li>Developed custom scripts for dynamic system registration and configuration, enabling true zero-touch deployment.</li>
+                                <li>Trained operations staff on advanced PXE, DHCP, and cobbler automation.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Linux HA for Git Repo(Gerrit) and Maven Repo (Artifactory&#x2F;Nexus) Servers </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> The two nodes Linux HA cluster is for Git repo (Gerrit) &#x2F; Maven Repo(Artifactory and Nexus) master&#x2F;slave failover system. Using pacemaker&#x2F;corosync&#x2F;cman or keepalived&#x2F;haproxy, it setup Gerrit, artifactory&#x2F;Nexus master&#x2F;slave automatically failover cluster with PostgreSQL&#x2F;RAC and GFS2 over SAN &#x2F; DRBD as backend DBMS and distributed file system. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Pacemaker,
+                                Corosync,
+                                Cman,
+                                Keepalived,
+                                HAProxy,
+                                GFS2,
+                                DRBD,
+                                SAN,
+                                Gerrit,
+                                Artifactory,
+                                Nexus,
+                                PostgreSQL,
+                                OpenID,
+                                LDAP,
+                                Crowd,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Architected a high-availability cluster for critical SCM and artifact repositories, ensuring business continuity.</li>
+                                <li>Automated failover and recovery processes, minimizing downtime during incidents.</li>
+                                <li>Standardized HA deployment patterns for future infrastructure projects.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Automation scripts and tools for DevOps </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Created a suite of automation tools and scripts to streamline DevOps workflows, improve efficiency, and reduce manual toil across the SDLC. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Ruby,
+                                Bash,
+                                Python,
+                                Capistrano,
+                                Jira&#x2F;Rally,
+                                Bamboo&#x2F;Confluence,
+                                Git&#x2F;Gerrit,
+                                puppet,
+                                Nexus replication,
+                                REST&#x2F;XML,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Developed a suite of automation tools, significantly improving DevOps efficiency and reducing manual toil.</li>
+                                <li>Pioneered migration and optimization scripts for large-scale git repositories.</li>
+                                <li>Shared best practices and tools with the wider engineering community.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> CoreOS and Docker prototyping and testing </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Led the design and implementation of dynamic development and integration test environments using CoreOS and Docker, reducing setup time and increasing productivity. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                CoreOS,
+                                Docker,
+                                Ruby,
+                                REST,
+                                LXC,
+                                cobbler,
+                                pxe,
+                                tftpboot,
+                                DHCP,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Led the design and implementation of a dynamic development and integration test environment using Docker, significantly reducing setup time and improving developer productivity.</li>
+                                <li>Created reusable Docker orchestration templates, enabling rapid prototyping for SDK and connector teams.</li>
+                                <li>Trained team members on advanced Docker networking and orchestration concepts.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> SDLC process management and junior team member training and mentoring </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Managed SDLC processes and mentored junior engineers, standardizing build, release, and deployment practices for over 200 projects. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                SDLC,
+                                SCM,
+                                Git&#x2F;Subversion,
+                                GIT Hooks,
+                                Ruby,
+                                Bash,
+                                Confluence,
+                                Jira,
+                                Agile,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Managed the SDLC process to build&#x2F;release&#x2F;deploy more than 200 projects, maintaining maven repo servers, CI (Bamboo), SCM (Subversion and Git&#x2F;Gerrit) and clustering integration environments.</li>
+                                <li>Identified and troubleshooted build&#x2F;release&#x2F;deploy issues, and trained and mentored junior team members.</li>
+                                <li>Wrote confluence pages for documentation and presented to other team members in brown bag sessions.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Nov., 2006 &ndash; Oct., 2010,</span>
+                <span class="item-work-header-company-name">Senior Software Engineer, Boomi Inc.</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Berwyn, PA,USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> As the market and technology leader in on-demand integration, Boomi is the industry&#39;s first and leading integration platform-as-a-service and a two-time SIIA CODiE award winner - Best Application Integration Solution (2010) and Best On-Demand Platform (2009). </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Boomi  On-Demand Business Integration Cloud Service </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Designed and developed a scalable, on-demand SOA integration platform enabling visual business process design, automated deployment, and seamless integration with desktop, ERP, and SaaS systems. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Java,
+                                XML,
+                                XSD,
+                                JAXB,
+                                REST,
+                                HTTP,
+                                Hibernate,
+                                openlaszlo,
+                                SSL,
+                                PKI,
+                                com4j,
+                                .NET 3.0&#x2F;2.0&#x2F;1.1,
+                                COM&#x2F;DCOM,
+                                Linux,
+                                QBXML,
+                                eConnect,
+                                servlet,
+                                Jetty,
+                                IDEA,
+                                Maven,
+                                subversion,
+                                Confluence,
+                                Jira,
+                                MySQL,
+                                RAID,
+                                SQL server,
+                                QuickBooks 2005,
+                                Sage MAS 90&#x2F;200&#x2F;500,
+                                MS Dynamics GP 9.0&#x2F;10.0&#x2F;2010,
+                                SOA,
+                            </span><br/>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Cloud Platform&#x2F;Infrastructure Design and Implementation for Boomi On Demand Production Environment </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Architected and managed a distributed, high-availability production environment for Boomi&#39;s cloud platform, including clustering, monitoring, and migration of critical infrastructure. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                64-bits Redhat Enterprise Linux,
+                                MySQL clustering,
+                                Apache,
+                                PHP,
+                                Jetty,
+                                64 bits Java,
+                                Apache Lucene&#x2F; Solr,
+                                Openlaszlo,
+                                distributed cache,
+                                distributed and parallel algorithm,
+                                ehcache,
+                                comet,
+                                continuation,
+                                DWR,
+                                JVM tuning,
+                                jmap,
+                                jstat,
+                                Sun JVM Heap,
+                                GC,
+                                vmstat,
+                            </span><br/>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Desktop Accounting and ERP Enterprise Applications Integration (EAI) </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Engineered integration solutions for leading desktop accounting and ERP systems, enabling automated business data exchange and process automation. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                QBXML RequestProcessor,
+                                Microsoft eConnect 9.x&#x2F;10.x&#x2F;11,
+                                Librados,
+                                SAP R3,
+                                BAPI,
+                                REST&#x2F;XML,
+                                COM&#x2F;COM+&#x2F;DCOM,
+                                .NET,
+                                MS Dynamics Navision,
+                                MS Dynamics CRM,
+                                SOAP&#x2F;WSDL,
+                                WCF,
+                                XMLPort,
+                                C&#x2F;AL,
+                                CodeUnits,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Led the integration of multiple accounting and ERP systems, enabling seamless business data exchange.</li>
+                                <li>Researched and implemented SDK-based solutions, setting a foundation for future integrations.</li>
+                                <li>Documented integration strategies for cross-team knowledge sharing.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Amazon EC2 and S3 SOA HA Environment </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Built and maintained a high-availability SOA environment on AWS EC2 and S3, implementing clustering, load balancing, and automated backup for robust cloud operations. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Fedora 6&#x2F;&#x2F;7&#x2F;8,
+                                AWS,
+                                EC2,
+                                S3,
+                                Jetty 6.x&#x2F;7.x,
+                                MySQL 5.x,
+                                Apache httpd 2.x  and Solr 1.3.x&#x2F;1.4.x,
+                                NFS,
+                                shell script(bash and sh),
+                                ehCache,
+                                cron,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Engineered a high-availability SOA environment on AWS, pioneering cloud adoption within the team.</li>
+                                <li>Automated deployment and backup processes, ensuring data integrity and system resilience.</li>
+                                <li>Provided training on AWS best practices and troubleshooting.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Setup Development, Build and Deployment Environment for QA, Staging and Production Environment </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Established and automated development, build, and deployment environments for QA, staging, and production, streamlining release management and system administration. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Maven 2.x,
+                                subversion,
+                                TeamCity,
+                                PHP 5.x,
+                                Apache Http server 2.3,
+                                Apache Ant,
+                                MySQL5.x,
+                                Jetty 6.x,
+                                Openlaszlo 3.4,
+                                Apache Solr,
+                                Fedora 8,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Standardized build and deployment environments across all stages, improving release reliability.</li>
+                                <li>Automated user account and database management, reducing manual errors.</li>
+                                <li>Mentored team members on build automation and environment setup.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Research virtualization technology and implement Virtual Machines using VMware server and workstation </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Researched and implemented virtualization solutions using VMware, optimizing resource utilization and performance for development and testing environments. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Virtualization,
+                                paravirtualization,
+                                VMware Workstation 6.2 and VMware Server 1.4,
+                                Xen,
+                                Microsoft Virtual PC,
+                                Fedora 8,
+                                RAID,
+                                SMP,
+                                Performance tuning,
+                                Subversion,
+                                Maven,
+                                PHP,
+                                MySQL,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Evaluated and implemented virtualization solutions, enabling efficient resource utilization.</li>
+                                <li>Developed performance tuning guidelines for virtualized environments.</li>
+                                <li>Shared virtualization best practices with the broader engineering team.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Java to C&#x2F;C++, DLL, COM&#x2F;COM+&#x2F;DCOM&#x2F;.NET Integration </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Developed seamless integration between Java applications and native Windows technologies (C&#x2F;C++, DLL, COM&#x2F;DCOM, .NET), enabling cross-platform interoperability. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Java,
+                                .NET 3.0&#x2F;2.0&#x2F;1.1,
+                                COM&#x2F;DCOM,
+                                Com4j,
+                                iKVM,
+                                C#,
+                                VB.NET,
+                                JNI,
+                                JNA,
+                                Win32 DLL,
+                                COMAdmin,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Pioneered seamless integration between Java and native Windows technologies, enabling cross-platform interoperability.</li>
+                                <li>Developed proof-of-concept applications that set technical direction for future integration projects.</li>
+                                <li>Provided technical guidance on COM&#x2F;DCOM and .NET integration to the engineering team.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> SaaS system integration </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Designed and delivered integration solutions for leading SaaS platforms using REST&#x2F;XML and SOAP&#x2F;WSDL, expanding product connectivity and automation. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                REST&#x2F;XML,
+                                SOAP&#x2F;WSDL,
+                                namespace,
+                                DOM,
+                                soapUI,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Designed and implemented robust integration solutions for leading SaaS platforms, expanding product connectivity.</li>
+                                <li>Standardized REST and SOAP integration patterns, improving maintainability and scalability.</li>
+                                <li>Mentored junior engineers on SaaS API best practices.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> SAP system integration </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Engineered robust integration between Java and SAP systems using web services and SAP JCO, enabling automated business process integration. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                SAP R3,
+                                NetWeaver,
+                                Web Services,
+                                SOAP,
+                                WSDL,
+                                wsdl4j,
+                                SAP-JCO,
+                                RFC,
+                                BAPI,
+                                ABAP,
+                                Java,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Pioneered integration between Java and SAP systems, enabling seamless business process automation.</li>
+                                <li>Self-taught SAP basis and led troubleshooting efforts, accelerating project delivery.</li>
+                                <li>Documented integration patterns for future SAP-related projects.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Jun., 2006 &ndash; Nov.,2006,</span>
+                <span class="item-work-header-company-name">Senior System Engineer Manager, Vantage learning</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Newtown, PA,USA </span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> As the leader in cost-effective, high-volume, secure, scalable online assessment and instructional programs for K-12 and higher education, Vantage Learning leverages technology such as artificial intelligence, natural language understanding, and web-based learning objects. Vantage Learning has received accolades ranging from the prestigious CODIE Award for best instructional technology. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Large scale SOA e-learning system architecture design and blueprinting </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Architected a scalable SOA-based e-learning platform leveraging Java&#x2F;.NET and clustered PostgreSQL&#x2F;MySQL databases, enabling secure, high-volume online assessment and instruction. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                SOA,
+                                E-Learning,
+                                Struts,
+                                J2EE,
+                                .NET 2.0&#x2F;3.0,
+                                Resin,
+                                SOAP,
+                                WSDL,
+                                UDDI,
+                                XML,
+                                PostgreSQL,
+                                MySQL,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Blueprinted a scalable SOA e-learning architecture, setting the technical vision for the organization.</li>
+                                <li>Researched and introduced new SOA technologies, driving innovation in the e-learning platform.</li>
+                                <li>Facilitated cross-team collaboration between Java and .NET development groups.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Large Data Center Design and Administration </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Designed and managed a mission-critical data center with 100+ servers and enterprise network devices, supporting 30+ applications and millions of user connections with high availability. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Solaris 5,7,
+                                Linux(Redhat,Fedora),
+                                F5 Big-IP load balancers,
+                                Switch,
+                                Router,
+                                VLAN,
+                                UPS,
+                                RAID 1,0,5,
+                                Windows Server,
+                                Terminal server,
+                                VNC,
+                                SPARCStorage,
+                                Tape Drive,
+                                Veritas,
+                                Apache,
+                                Resin,
+                                PostgreSQL,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Led the design and deployment of a mission-critical data center serving millions of connections.</li>
+                                <li>Standardized clustering and load balancing practices, improving system reliability.</li>
+                                <li>Mentored junior engineers in data center operations and troubleshooting.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Sun SPARCStorage SSA Array 100 and Sybase SQL Server (10.x, 11.x) Data (DB schema, data and Stored-Procedure) Recovery </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Recovered critical patent data and database assets from failed Sun SPARCStorage SSA Array and Sybase SQL Server, ensuring business continuity and data integrity. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Solaris 5,7,
+                                Linux(Redhat, Fedora),
+                                Sybase SQL Server 10.x,
+                                Sybase ASE 11.x, 12,x 15.x,
+                                SSH,
+                                SPARCStorage  SSA Array 100,
+                                Tape Drive,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Directed the recovery of critical patent data, ensuring business continuity after hardware failure.</li>
+                                <li>Developed and documented robust data recovery procedures for future incidents.</li>
+                                <li>Coordinated efforts between hardware, database, and software teams.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Ecommerce Open Source Software installation and Configuration </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Deployed and configured open source e-commerce platforms (osCommerce, x-cart, Sales-n-Stats) on PHP&#x2F;MySQL, standardizing installation for rapid business enablement. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Linux(Redhat, Fedora),
+                                PHP5.x,
+                                MySQL 5.x,
+                                Apache 2.x,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Led the evaluation and deployment of open source e-commerce solutions, expanding business capabilities.</li>
+                                <li>Standardized installation and configuration processes for rapid future deployments.</li>
+                                <li>Provided training on PHP&#x2F;MySQL stack to team members.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Resin Application Server Distributed Session Design and Setup </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Implemented distributed session management and HTTP load balancing on Resin Application Server, enhancing scalability and reliability for enterprise web applications. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Linux(Redhat, Fedora),
+                                resin 3.0,
+                                Java,
+                                Servlet,
+                                distributed session,
+                                cluster,
+                                load balancer (software and hardware),
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Designed and implemented distributed session management, improving application scalability.</li>
+                                <li>Automated cluster and load balancer setup, reducing manual configuration time.</li>
+                                <li>Documented best practices for session management in clustered environments.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">May, 2002 &ndash; Jun.,22,2006,</span>
+                <span class="item-work-header-company-name">Senior Programmer&#x2F;Analyst and Unix System Administrator, Computer Science, Texas Tech University</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Lubbock, Texas,USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> System Administrator for networked Unix(Solaris, AIX, Mac OSX and Linux) and windows servers with SSO for Kerberos and LDAP, Veritas Netbackup for Disk Array with RAID 0&#x2F;1&#x2F;5, Migration from NIS&#x2F;NIS+ to LDAP and Postfix&#x2F;Sendmail conifiguration for the research and teaching lab for computer science department. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Unix network System and Software routine maintenance </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Performed daily administration and maintenance of Solaris, AIX, and Mac OSX network systems, ensuring reliability and security across research and teaching labs. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Solaris 8,9,10,
+                                Linux,
+                                AIX,
+                                NFS,
+                                NIS&#x2F;NIS+,
+                                LDAP,
+                                SMTP,
+                                IMAP,
+                                POP3,
+                                WebMail,
+                                SSH,
+                                Samba,
+                                Kerberos,
+                                Netgroup,
+                                Jumpstart,
+                                User Accounts,
+                                Quota,
+                                License server,
+                                GNU Make,
+                                GCC,
+                                Java,
+                                RAID,
+                                Tape Library,
+                                Veritas,
+                                Apache,
+                                MySQL,
+                                Sun Ray Server,
+                                PAM,
+                                Security,
+                                Syslog,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Standardized system maintenance procedures, improving uptime and reliability across multiple platforms.</li>
+                                <li>Developed and shared custom scripts for automation, reducing manual workload.</li>
+                                <li>Mentored student assistants in Unix system administration.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Setup Veritas Netbackup System with RAID0&#x2F;1&#x2F;5  and Tape Library </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Implemented enterprise backup and recovery solutions for large RAID storage arrays and virtual file systems using Veritas NetBackup and tape libraries. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Veritas NetBackup Enterprise Server 5.1,
+                                Veritas NetBackup Client,
+                                RAID 0,1,5,
+                                SCSI,
+                                Volume Manager,
+                                VFS,
+                                Tape Library,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Led the implementation of enterprise backup solutions, safeguarding critical research and teaching data.</li>
+                                <li>Developed backup and recovery policies, ensuring data integrity.</li>
+                                <li>Trained staff and students on backup best practices.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Setup LDAP,  Kerberos KDC and Cross-Realm system </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Designed and deployed a secure Single Sign-On (SSO) system with LDAP, Kerberos KDC, and cross-realm authentication, unifying access across Unix and Windows platforms. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                SASL-2.1,
+                                GSSAPI,
+                                SEAM 1.2,
+                                SunOne Directory Server 5.2,
+                                NIS+,
+                                LDAP V3,
+                                PAM,
+                                Solaris 9,
+                                Windows Server 2003,
+                                Active Directory,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Designed and implemented a secure, unified authentication system for the department.</li>
+                                <li>Coordinated cross-platform integration between Unix and Windows environments.</li>
+                                <li>Documented SSO setup and provided training for system administrators.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Migrated email system from UNIX mail server to Windows Exchange Server </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Led the migration of departmental email from Unix servers to Windows Exchange, configuring secure SMTP&#x2F;IMAP&#x2F;POP3 with SSL for diverse clients. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Sendmail,
+                                Postfix,
+                                Unix Mail Client,
+                                Outlook,
+                                Solaris 9,
+                                Linux,
+                                Windows Server,
+                                Exchange Server,
+                                IMAP&#x2F;S,
+                                POP3&#x2F;S,
+                                SSL,
+                            </span><br/>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Secured Postfix SMTP server with SASL Authentication and Verification </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Configured Postfix SMTP with SASL authentication and verification, enhancing email security for Unix and Linux environments. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Openssl-0.9.7,
+                                SASL-2.1,
+                                Postfix 2.4,
+                                SquirrelMail,
+                                pine,
+                                Solaris 9,
+                                Linux,
+                            </span><br/>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Installed AIX 5.1 and configured NIM on IBM RS6000 (10x 7043-140 boxes and 1x 7024-E30 box)  </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Installed and configured IBM AIX with NIM and NFS on RS6000 systems, enabling automated provisioning and dynamic resource management. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                AIX 5.1,
+                                NIM,
+                                NFS,
+                                NIS&#x2F;NIS+,
+                                SORCER&#x2F;Jini&#x2F;Rio,
+                            </span><br/>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Deployed Globus Tookit3.2.1 (OGSA&#x2F;OGSI) Grid Computing Environment on Solaris 9(3 boxes) and Linux (3 boxes) </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Deployed and secured Globus Toolkit 3.2.1 grid computing environments on Solaris and Linux, supporting distributed research workloads with SSL certificates. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Unix ( Solaris  9, Redhat Linux 9),
+                                NFS,
+                                NIS&#x2F;NIS+,
+                                Perl,
+                                PKI,
+                                X509,
+                                GNU Tools,
+                                Globus Toolkit 3.2.1,
+                                OGSA&#x2F;OGSI,
+                                GSI,
+                            </span><br/>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Setup Jumpstart Environment for Solaris 9 and Solaris 10 </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Engineered automated Solaris deployments using Jumpstart, supporting multi-subnet installations and custom Perl scripts for NIS+ and tftp management. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Unix( Solaris  9), Jumpstart, TFTP, Bootparamd, NIS+, Perl, Security, snoop, RARP&#x2F;ARP,
+                            </span><br/>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Designed and Implemented the Single Sign-On (SSO) for Unix and Windows Environments </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Integrated Unix and Windows environments with a unified SSO solution using LDAP, Kerberos, AFS, and Samba, streamlining authentication and access control. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Unix( Debian Linux, Solaris 8 and 9), LDAP(OpenLDAP2.1.2,
+                                SunONE Directory Server 5.2 ,
+                                MS Active Directory),
+                                AFS (OpenAFS 1.2.10),
+                                Kerberos (SEAM 1.2,
+                                MIT Kerberos V 1.3.1). PAM,
+                                GSSAPI,
+                                SSL,
+                                SASL,
+                                SSH,
+                                C++,
+                                GNU make,
+                                GCC,
+                                Visual.NET,
+                                Perl,
+                            </span><br/>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> The Migration from NIS+ to LDAP for Solaris </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Migrated Solaris NIS+ directory services to LDAP, designing custom schemas and automation scripts to modernize user management and authentication. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Unix(Solaris 8 and 9),
+                                LDAP( SunONE Directory Server 5.1 ),
+                                Kerberos (SEAM 1.2). NIS&#x2F;NIS+,
+                                SSL,
+                                SSH,
+                                Perl,
+                                GNU make ,
+                                GCC,
+                            </span><br/>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Aug.,2002 &ndash; Jun.,2006,</span>
+                <span class="item-work-header-company-name">Master Student, Computer Science, Texas Tech University</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Lubbock, Texas,USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Studied as Master Student in the CS department while working as part time as System Administration for the Teaching and Research labs for Unix&#x2F;Linux and Windows environments </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Master Thesis: A Service Wrapping and Provisioning Framework for SOA </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Developed an automated SOA framework using Jini&#x2F;Rio to wrap legacy applications as dynamic, provisioned services in a distributed grid environment, including a GIS-based yield tracker system. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Jini 2.0,
+                                RIO,
+                                JERI,
+                                Globus Toolkits 3.x,
+                                J2EE,
+                                Web Service,
+                                OpenGIS,
+                                PostGIS,
+                                JDBC,
+                                GeoServer,
+                                Struts,
+                                Ant,
+                                Tomcat,
+                                Servlet,
+                                JSP,
+                                UML2,
+                            </span><br/>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> GIS Project: A Yield Mapping and Prediction Information Delivery System </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Built a web-based GIS platform integrating OpenGIS, GeoServer, and PostGIS to deliver real-time yield prediction maps for farmers using satellite and field data. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                OpenGIS,
+                                PostGIS,
+                                PostgreSQL,
+                                JDBC,
+                                GeoServer,
+                                GeoTools,
+                                Struts,
+                                Ant,
+                                Apache Maven,
+                                Servlet,
+                                JSP,
+                                MVC,
+                            </span><br/>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Independently finished practical course projects list </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Completed advanced projects including a C-based LL(1) compiler, UML-modeled supermarket system, parallel matrix multiplication service, Linux kernel modules, Java card applications, and mobile map navigation tools. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                GCC Compiler,
+                                Solaris,
+                                Linux Kernel 2.4,
+                                UML 2,
+                                Rational Rose,
+                                Java,
+                                SORCER,
+                                SOA,
+                                Jini,
+                                JavaSpace,
+                                JBoss,
+                                J2EE,
+                                VFS,
+                                Java Card platform,
+                                MIDP,
+                                MIDlets,
+                                Servlets,
+                                OCF,
+                                CLDC,
+                                Ant,
+                            </span><br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="hobbies" class="section"  style="page-break-inside:avoid;">
+            <div class="title-section" style="page-break-after:avoid;">Hobbies Projects:</div>
+            <div id="projects" class="projects-section" style="page-break-before:avoid;page-break-inside:avoid;">
+                <div class="hobby-project-item" >
+                        <span class="item-projects-title"> Personalized JSON Schema Resume </span><br/>
+                        <div class="description-work"> Customized the open source project dynamic-json-resume using JSON format and mustache templates with Node.js and CSS3. GitHub url: https:&#x2F;&#x2F;github.com&#x2F;rongyj&#x2F;dynamic-json-resume&#x2F;tree&#x2F;rongyj </div>
+                        <div class="subtitle-section">Technologies:</div>
+                        <span class="technologies-work">
+                            JavaScript,
+                            HTML5,
+                            CSS3,
+                            Node.js,
+                            JSON,
+                            mustache,
+                            Puppeteer,
+                        </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="extra">
+    </div>
+    <!--div id="print-foot"/-->
+
+</div>

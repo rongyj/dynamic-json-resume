@@ -27,6 +27,20 @@
         </div>
         {{ /resume.education.length }}
 
+        {{ #resume.summaries.length }}
+        <div id="skills" class="section">
+            <div class="title-section" style="page-break-after: avoid">Summary:</div>
+
+            <div>
+              <ul class="highlighted">
+                  {{ #resume.summaries }}
+                  <div class="description-work" style="page-break-inside: avoid"> {{ summary }} </div>
+                  {{ /resume.summaries}}
+              </ul>
+            </div>
+        </div>
+        {{ /resume.summaries.length }}
+
         {{ #resume.skills.length }}
         <div id="skills" class="section">
             <div class="title-section">Skills</div>

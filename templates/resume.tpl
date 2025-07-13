@@ -77,7 +77,7 @@
             </div>
         </div>
         {{ /resume.hobbies.hobby-items.length}}
-        {{ #resume.original.work.length}}
+        {{ #resume.work.length}}
         <div id="work-experience" class="section">
           <div class="title-section" style="page-break-before: always;">Work Experience Summary:</div>
           <div {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}}>
@@ -86,7 +86,7 @@
                 <th class="header-employer" style="width:20%">Employments</th>
                 <th class="header-accomplishments"> Major Accomplishments & Technologies </th>
             </tr>
-            {{ #resume.original.work}}
+            {{ #resume.work}}
               <tr class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}} style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
                 <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
                   <p>{{ item-work.start-date}} &ndash; {{ item-work.end-date }}
@@ -115,11 +115,11 @@
                   {{ /item-work.technologies.length }}
                 </td>
              </tr>
-             {{ /resume.original.work}}
+             {{ /resume.work}}
             </table>
           </div>
         </div>
-        {{ /resume.original.work.length}}
+        {{ /resume.work.length}}
         {{ #resume.work.length }}
         <div id="work-experience" class="section">
             <div class="title-section" style="page-break-before:always;">Selected Projects</div>
@@ -151,6 +151,14 @@
                                 {{ /item-projects.technologies }}
                             </span><br/>
                             {{ /item-projects.technologies.length }}
+                            {{#item-projects.leaderships.length}}
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                {{#item-projects.leaderships}}
+                                <li>{{.}}</li>
+                                {{/item-projects.leaderships}}
+                            </ul>
+                            {{/item-projects.leaderships.length}}
                     </div>
                     {{ /item-work.projects }}
                 </div>
