@@ -1,16 +1,21 @@
 <div class="container">
+
     <div id="cv">
         <div id="contact" {{#resume.contact.id}} data-id="{{ resume.contact.id }}" {{/resume.contact.id}}>
             <div class="contact-name">{{ resume.contact.first_name }} {{ resume.contact.last_name }}</div>
-            <div class="contact-email">{{ resume.contact.email }}</div>
-            {{ #resume.contact.website }}
-                <div class="contact-website"> {{ resume.contact.website }}</div>
-            {{ /resume.contact.website }}
-            {{ #resume.contact.github }}
-            <div class="contact-external"> {{ resume.contact.github }} </div>
-            {{ /resume.contact.github }}
-            <div class="contact-city">{{ resume.contact.city }}</div>
-            <div class="contact-external"> (Contact me for resume in details)</div>
+            <div class="contact-email">
+              <span class="contact-email">{{ resume.contact.city }} ({{ resume.contact.visa}})</span>
+              <span class="header-date"> Email: </span>
+              <span class="header-school-location">  {{ resume.contact.email }} </span>
+              <span class="header-date"> Tel: </span>
+              <span class="header-school-location">  {{ resume.contact.phone }} </span>
+            </div>
+            <div class="contact-website">
+                  <span class="header-date"> Linkedin: </span>
+                  <span class="header-school-location"> {{ resume.contact.website }},   </span>
+                  <span class="header-date"> Github: </span>
+                  <span class="header-school-location"> {{ resume.contact.github }} </span>
+            </div>
         </div>
 
         {{ #resume.education.length }}
@@ -43,7 +48,7 @@
 
         {{ #resume.skills.length }}
         <div id="skills" class="section">
-            <div class="title-section">Skills</div>
+            <div class="title-section" style="page-break-after: avoid">Skills:</div>
             <div>
               <ul class="highlighted">
                   {{ #resume.skills }}
@@ -74,25 +79,25 @@
         </div>
         {{ /resume.hobbies.hobby-items.length}}
 
-        {{ #resume.work.length }}
+        {{ #resume.work.length}}
 
         <div id="work-experience" class="section">
-          <div class="title-section">Work Experience Summary:</div>
+          <div class="title-section" style="page-break-before: always;">Work Experience Summary:</div>
           <div {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}}>
-          <table id="work-experience" class="section" style="page-break-before: always; page-break-after: auto;">
-            <tr class="work-item-header" style="page-break-inside: avoid;">
+          <table id="work-experience" class="section" style="page-break-inside:auto;">
+            <tr class="work-item-header">
                 <th class="header-employer" style="width:20%">Employments</th>
                 <th class="header-accomplishments"> Major Accomplishments & Technologies </th>
             </tr>
             {{ #resume.work}}
-              <tr class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}} style="page-break-inside: avoid;">
-                <td class="work-employer" rowspan="2">
+              <tr class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}} style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
                   <p>{{ item-work.start-date}} &ndash; {{ item-work.end-date }}
                   <p class="bold-font">{{ item-work.company.name }}
                   <p>{{ item-work.company.city }},{{ item-work.company.country }}
                   <p class="bold-font">{{ item-work.position }}
                 </td>
-                <td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
                   {{#item-work.projects.length }}
                   <ul class="highlighted">
                     {{ #item-work.projects}}
@@ -102,10 +107,10 @@
                   {{/item-work.projects.length }}
                 </td>
               </tr>
-              <tr style="page-break-inside: avoid;">
-                <td>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
                   {{ #item-work.technologies.length }}
-                  <span class="technologies-work">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
                       {{ #item-work.technologies }}
                       {{ . }},
                       {{ /item-work.technologies }}
@@ -113,11 +118,11 @@
                   {{ /item-work.technologies.length }}
                 </td>
              </tr>
-            {{ /resume.work}}
-        </table>
-      </div>
+             {{ /resume.work}}
+            </table>
+          </div>
         </div>
-        {{ /resume.work.length }}
+        {{ /resume.work.length}}
     </div>
     <div id="extra">
         {{ #extraContent }}

@@ -104,15 +104,16 @@ const createPdf = (html, pdf_location, callback) => {
             path: _path,
             format: 'Letter',
             printBackground: true,
-            preferCSSPageSize: true,
+            preferCSSPageSize: false,
             margin: {
-                top: '50px',
-                bottom: '45px',
-                right: '40px',
+                top: '15mm',
+                bottom: '10mm',
+                right: '10mm',
+                left: '5mm',
             },
             displayHeaderFooter: true,
             headerTemplate: "<div/>",
-            footerTemplate: "<table style=\"width:100%; font-size:6px; \"><tr><td style=\"width:33.333%;text-align:left;\"></td><td style=\"width:33.333%; text-align:center;vertical-align:bottom; \">Yongjun Rong</td><td style=\"width:33.333%; text-align:right;vertical-align:bottom; padding-right:20px;\" class=\"pageNumber\"></td></tr></table>",
+            footerTemplate: '<div style="font-size:8px; width:100%; text-align:right; padding-right:20px;"><span class="pageNumber"></span> of <span class="totalPages"></span></div>',
         });
 
         console.log("pdf file is created at " + _path);
@@ -192,8 +193,8 @@ function createHtml(path_json, resume_gen_tags, temp_location, css_file_location
                         if (resume_gen_tags && resume_gen_tags.includes("table")) {
                             // For table format, keep work experience but remove detailed projects
                             // and hobby projects, but keep summaries for the summary view
-                            delete resumeJson.resume.hobbies["hobby-projects"];
-                            delete resumeJson.resume.hobbies["hobby-items"];
+                            // delete resumeJson.resume.hobbies["hobby-projects"];
+                            // delete resumeJson.resume.hobbies["hobby-items"];
                         }
                         
                         if (noLeaderships) {
@@ -348,8 +349,8 @@ Examples:
                 if (genTags && genTags.includes("table")) {
                     // For table format, keep work experience but remove detailed projects
                     // and hobby projects, but keep summaries for the summary view
-                    delete resumeJson.resume.hobbies["hobby-projects"];
-                    delete resumeJson.resume.hobbies["hobby-items"];
+                    // delete resumeJson.resume.hobbies["hobby-projects"];
+                    // delete resumeJson.resume.hobbies["hobby-items"];
                 }
                 var outputLocation = '/resume.txt';
                 if (output) {
