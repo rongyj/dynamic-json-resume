@@ -4,7 +4,6 @@ var commander = require('commander');
 var path = require('path');
 var fs = require('fs');
 var mustache = require('mustache');
-var pdf = require('html-pdf-node');
 //var pdf = require('jspdf');
 var pkg = require('./package.json');
 var verifier = require('./lib/verifier');

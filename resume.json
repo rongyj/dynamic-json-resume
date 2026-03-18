@@ -54,8 +54,77 @@
         "work": [
             {
                 "item-work":{
-                    "start-date": "Feb.,2025",
+                    "start-date": "Oct.,2025",
                     "end-date": "Current",
+                    "position": "Senior Cloud and Platform Architect",
+                    "company":{
+                        "name": "Intuitive.ai",
+                        "city": "Cherry Hill, NJ (WFH)",
+                        "country": "USA"
+                    },
+                    "achievements":"As a hands-on of senior cloud and platform architect, I designed and implemented eks, service mesh framework to support the development of on-demand platform for hundreds of developers.",
+                    "technologies":[
+                        "IaC",
+                        "Terraform",
+                        "AWS/EKS/Service Mesh/Istio",
+                        "TLS Certificate"
+
+                    ],
+                    "projects":[
+                        {
+                            "item-projects": {
+                                "title": "EKS Service Mesh (Istio) on-demand framework Design and Implementation",
+                                "description": "Architected and implemented a comprehensive EKS-based service mesh framework using Istio to enable on-demand platform capabilities for hundreds of developers. Designed a scalable, secure, and automated infrastructure that supports dynamic service provisioning, traffic management, and observability across microservices.",
+                                "highlights": [
+                                    "Designed and implemented EKS cluster architecture with Istio service mesh for multi-tenant on-demand platform",
+                                    "Developed automated framework for dynamic service mesh provisioning and configuration management",
+                                    "Implemented mTLS (mutual TLS) for secure service-to-service communication across all microservices",
+                                    "Configured Istio VirtualServices and DestinationRules for advanced traffic routing and load balancing",
+                                    "Designed and implemented centralized certificate management system for TLS/mTLS certificates",
+                                    "Built comprehensive observability stack with distributed tracing, metrics, and logging integration",
+                                    "Created Terraform modules for automated EKS and Istio deployment and configuration",
+                                    "Implemented service mesh policies for security, rate limiting, and circuit breaking",
+                                    "Designed multi-namespace isolation strategy for secure multi-tenant operations",
+                                    "Established CI/CD pipelines for automated service mesh configuration updates and deployments"
+                                ],
+                                "technologies": [
+                                    "AWS EKS",
+                                    "Istio Service Mesh",
+                                    "Kubernetes",
+                                    "Terraform",
+                                    "TLS/mTLS",
+                                    "Envoy Proxy",
+                                    "Prometheus",
+                                    "Grafana",
+                                    "Jaeger",
+                                    "Kiali",
+                                    "Helm",
+                                    "AWS IAM/RBAC"
+                                ],
+                                "tags": [
+                                    "Cloud",
+                                    "Kubernetes",
+                                    "Service Mesh",
+                                    "AWS",
+                                    "Istio",
+                                    "Microservices",
+                                    "DevOps"
+                                ],
+                                "leaderships": [
+                                    "Led the architecture and implementation of the service mesh framework that supports hundreds of developers on the on-demand platform.",
+                                    "Established service mesh best practices and patterns that improved security, observability, and operational efficiency.",
+                                    "Mentored platform and development teams on Istio service mesh concepts, traffic management, and security policies."
+                                ]
+                            }
+                        }
+                    ]
+                }
+
+            },
+            {
+                "item-work":{
+                    "start-date": "Feb.,2025",
+                    "end-date": "Oct.,2025",
                     "position": "Director of Cloud Architecture",
                     "company":{
                         "name": "Biophy",

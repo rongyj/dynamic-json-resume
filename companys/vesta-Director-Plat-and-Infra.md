@@ -1,0 +1,8 @@
+
+***Do you have 5+ years of hands-on experience building and operating highly scalable distributed systems and relational databases, with significant time spent directly optimizing system performance, reliability, and scalability? Please provide brief response***
+
+AI/RAG Systems (3+ years): Built production-scale genAI systems with RAG at McKinsey, including scaling ChromaDB vectorstores for call center chatbots, designing chunking systems to handle large inputs within OpenAI API token limits, and implementing parallel async calls to optimize performance. Currently architecting AI-powered RAG platforms at Biophy with robust data ingestion pipelines.
+Cloud-Scale Distributed Systems (8+ years): At Yotascale, architected cross-cloud analytics platforms supporting AWS/Azure/GCP with ClickHouse and PostgreSQL data warehouses handling massive cost data. At McKinsey, migrated complex mainframe EDA systems to AWS serverless architecture using EventBridge, Lambda, Step Functions, and DynamoDB at enterprise scale.
+Performance Optimization: Direct hands-on optimization includes RAG vectorstore scaling, async OpenAI API performance tuning, AWS Lambda optimization, CloudWatch metrics design for comprehensive system visibility, and data pipeline performance optimization on Databricks/PySpark for complex transformations.
+Database Experience: Extensive work with both traditional (PostgreSQL, Oracle) and modern cloud databases (DynamoDB, ClickHouse) specifically for AI workloads and cloud-native applications, including data warehouse design and query optimization for analytics platforms.
+All recent experience is cloud-native and includes significant AI/ML system architecture and optimization.
