@@ -14,7 +14,6 @@ var converter = require('./lib/converterJsonResumeFormat');
 var program = require('commander');
 
 var Handlebars = require('handlebars');
-const puppeteer = require('puppeteer');
 const btoa = require('btoa');
 
 program
@@ -67,6 +66,9 @@ Examples:
     });
 
 const createPdf = (html, pdf_location, callback) => {
+    // Required lazily: only PDF export needs puppeteer, so a broken/absent browser
+    // install can never stop exportToHtml / exportToPlainText from working.
+    const puppeteer = require('puppeteer');
     (async() => {
         const puppeteerLaunchArgs = [];
 

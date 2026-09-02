@@ -1,0 +1,1098 @@
+<head><style>html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+footer {
+	position:fixed;
+	bottom:0;
+	vertical-align:bottom;
+	width:100%;
+}
+
+
+body {
+	line-height: 1;
+	background-color:white;
+}
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.container {
+	display: flex;
+
+}
+
+ul {
+	list-style: initial;
+}
+li {
+	margin-left: 25px;
+	padding-left: 0px;
+}
+
+#cv {
+	  padding-left: 10px;
+  	flex: 3;
+		counter-reset: company;
+}
+
+
+#extra {
+	background-color: black;
+	color: white;
+  	flex: 1;
+  	font-size: large;
+  	padding: 10px;
+}
+
+div[id$='extra'] > a:link, div[id$='extra'] > ul > a:link{
+	text-decoration: none;
+}
+
+div[id$='extra'] > a:visited, div[id$='extra'] > ul > a:link{
+	text-decoration: none;
+}
+
+div[id$='extra'] > img {
+	width: 25%;
+	height: 25%;
+}
+
+table.work-experience {
+	  border: 2px solid black;
+    border-collapse: collapse;
+		table-layout: auto;
+}
+
+tr,th,td {
+	border: 1px solid black;
+}
+tr.work-item-header {
+	text-align:center;
+}
+tr.work-item {
+	text-align:left;
+}
+
+td.work-employer{
+	text-align:center;
+}
+
+/* Let newlines inside the employer cell render as line breaks, so a consolidated
+   entry can list one company/role/period per line instead of one run-on paragraph.
+   No effect on cells whose text contains no newlines. */
+td.work-employer p{
+	white-space: pre-line;
+}
+
+/* Consolidated earlier-career entry, summary-table left cell only: each employer is a
+   bold line with its role and dates indented underneath, left-aligned so wrapped text
+   stays readable in the narrow column. */
+.career-list{
+	display: block;
+	text-align: left;
+	margin-top: 4px;
+}
+.career-item{
+	display: block;
+	margin-bottom: 2px;
+}
+.career-co{
+	display: block;
+	font-weight: bold;
+}
+.career-yr{
+	font-weight: normal;
+	font-size: 0.75em;
+}
+.career-role{
+	display: block;
+	font-weight: normal;
+	font-size: 0.75em;
+	padding-left: 0.9em;
+}
+
+td.work-accomplishments{
+	text-align:left;
+}
+
+div.work-item::before{
+	  counter-increment: company;
+    content: counter(company)". ";
+		font-size: large;
+		font-weight: bold;
+}
+.work-item{
+    counter-reset: projects;
+}
+
+#hobbies{
+	counter-reset: hobby-projects;
+}
+div.hobby-project-item::before{
+	  counter-increment: hobby-projects;
+    content: "H."counter(hobby-projects)" ";
+		font-size: large;
+		font-weight: bold;
+}
+
+div.project-item::before{
+	  counter-increment: projects;
+    content: counter(company)"."counter(projects)" ";
+		font-size: large;
+		font-weight: bold;
+}
+
+.bold-font {
+	font-weight: bold;
+}
+
+#contact {
+	padding: 8px 4px;
+	border-radius: 5px;
+	text-align: center;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.contact-name {
+	font-size: large;
+	font-weight: bold;
+}
+
+.section {
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+.projects-title-section {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: large;
+	padding-top: 8px;
+	padding-bottom: 5px;
+}
+.subtitle-section {
+	font-weight: bold;
+	font-size: medium;
+	text-decoration: underline;
+}
+
+.title-section {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: larger;
+	padding-bottom: 10px;
+}
+.item-projects-title{
+	padding-top: 1em;
+	font-size: large;
+}
+.header-date,.header-company-name{
+	font-size: medium;
+}
+
+.item-work-header-date,.item-work-header-company-name,.item-work-header-company-location {
+	font-size: large;
+	text-decoration: underline;
+}
+
+.header-date ,.header-company-name,.header-school-name,.description-education, .item-projects-title, .header-employer, .header-accomplishments, .header-technologies,.item-work-header-date,.item-work-header-company-name {
+	font-weight: bold;
+}
+
+.section > div {
+	padding-left: 45px;
+}
+.education-item {
+	padding-bottom: 5px;
+}
+.work-item, .project-item {
+	padding-bottom: 15px;
+}
+.description-work {
+	padding-bottom: 5px;
+	text-indent: 1.5em;
+}
+
+.technologies-work > span {
+	font-weight: bold;
+	font-size: medium;
+}
+
+.skills-items > span {
+	padding : 0px 10px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	border-radius: 6px;
+	border: 1px solid black;
+	background-color: #B2913F;
+	color: white;
+	font-weight: bold;
+	font-size: medium;
+	flex: 0 0 auto;
+}
+
+.skills-items {
+	padding-left: 45px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.highlighted {
+	border-radius: 5px;
+	font-size: medium;
+}
+
+@media (max-width: 900px) {
+    .container {
+        display: block;
+    }
+}
+
+@media print {
+	body {
+		margin: 0 0 0 0;
+	}
+	#extra {
+		display: none;
+	}
+}
+#extra {display: none;}</style></head><div class="container">
+
+    <div id="cv">
+        <div id="contact" >
+            <div class="contact-name">Yongjun Rong</div>
+            <div class="contact-email">
+              <span class="contact-email">Cherry Hill, NJ, USA, 08003 (US Citizen)</span>
+              <span class="header-date"> Email: </span>
+              <span class="header-school-location">  rongyj@hotmail.com </span>
+              <span class="header-date"> Tel: </span>
+              <span class="header-school-location">  856-408-4027 </span>
+            </div>
+            <div class="contact-website">
+                  <span class="header-date"> Linkedin: </span>
+                  <span class="header-school-location"> https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;rongyongjun&#x2F;,   </span>
+                  <span class="header-date"> Github: </span>
+                  <span class="header-school-location"> https:&#x2F;&#x2F;github.com&#x2F;rongyj </span>
+            </div>
+        </div>
+
+        <div id="education" class="section">
+            <div class="title-section">Education</div>
+            <div class="education-item" >
+                <span class="header-date">Jun.,2006,</span>
+                <span class="description-education">Master of Computer Science,</span>
+                <span class="header-school-name">Texas Tech University,</span>
+                <span class="header-school-location">Lubbock, TX, USA</span>
+            </div>
+            <div class="education-item" >
+                <span class="header-date">Feb.,1996,</span>
+                <span class="description-education">Master of Engineering,</span>
+                <span class="header-school-name">Shanghai JiaoTong University,</span>
+                <span class="header-school-location">Shanghai, China</span>
+            </div>
+            <div class="education-item" >
+                <span class="header-date">Jul.,1991,</span>
+                <span class="description-education">Bachelor of Engineering,</span>
+                <span class="header-school-name">Changsha Railway University,</span>
+                <span class="header-school-location">Changsha, Hunan, China</span>
+            </div>
+        </div>
+        <div id="skills" class="section">
+            <div class="title-section" style="page-break-after: avoid">Summary:</div>
+
+            <div>
+              <ul class="highlighted">
+                  <div class="description-work" style="page-break-inside: avoid"> Platform architect and hands-on engineer who builds the shared infrastructure AI applications run on. Four years delivering production GenAI systems - RAG over ChromaDB&#x2F;Milvus, multi-agent orchestration with AutoGen, prompt engineering and tuning, concurrent LLM invocation, model-backed services behind FastAPI - on top of fifteen years of Infrastructure as Code and multi-tenant AWS container platforms (ECS&#x2F;EKS, Istio service mesh with mesh-wide mTLS, versioned Terraform&#x2F;Terragrunt module libraries). At McKinsey, built the GenAI platform capability that accelerated mainframe modernization for enterprise clients: COBOL to Java and BMS&#x2F;JSF&#x2F;JSP to React through multi-agent pipelines, plus LLM-generated PySpark&#x2F;Databricks pipeline code shipped with generated unit tests. Now owns the reference architecture for an on-demand application platform serving hundreds of developers at a global bank. Brings the governance half as well: authored group-wide architecture handbooks, set invest&#x2F;divest positions on ~200 technologies, and architected a commercial multi-cloud cost analytics and optimization platform - directly transferable to token accounting, cost attribution and quota enforcement for shared AI infrastructure. US Citizen; fluent English, native Chinese. </div>
+                  <!--li>[object Object]</li-->
+              </ul>
+            </div>
+        </div>
+
+        <div id="skills" class="section">
+            <div class="title-section" style="page-break-after: avoid">Skills:</div>
+            <div>
+              <ul class="highlighted">
+                  <li>GenAI platform engineering: RAG systems over ChromaDB&#x2F;Milvus with chunking strategies tuned to model context limits, multi-agent orchestration (AutoGen), prompt engineering and tuning, concurrent&#x2F;async LLM invocation for throughput, and FastAPI&#x2F;Flask services that expose model-backed capabilities as governed internal APIs.</li>
+                  <li>AI-assisted modernization at enterprise scale: multi-agent and RAG pipelines that migrated mainframe estates to modern stacks - COBOL to Java, BMS&#x2F;JSF&#x2F;JSP to React&#x2F;Angular - and LLM-generated PySpark&#x2F;Databricks pipeline code shipped with generated unit tests.</li>
+                  <li>Cloud platform architecture on AWS: multi-tenant ECS&#x2F;EKS container platforms, Istio service mesh with mesh-wide mTLS, serverless event-driven systems (EventBridge, Lambda, Step Functions, SQS&#x2F;SNS), and self-service environment provisioning consumed by hundreds of developers. Deepest on AWS, with multi-cloud exposure through Azure AKS and GCP in a commercial multi-cloud cost platform.</li>
+                  <li>Infrastructure as Code at scale: fifteen years from Puppet&#x2F;Chef&#x2F;Ansible through Terraform&#x2F;Terragrunt - versioned reusable module libraries, DRY multi-environment configuration, and code-driven provisioning of full AWS stacks including EKS, IAM&#x2F;OIDC&#x2F;IRSA, Route 53, ACM, RDS and secrets.</li>
+                  <li>Platform security and governance: AWS Secrets Manager and KMS patterns that remove hardcoded credentials from source, least-privilege IAM, per-tenant isolation and quota enforcement, TLS&#x2F;mTLS certificate management, and enterprise technology stewardship (invest&#x2F;divest positions across ~200 products at Barclays).</li>
+                  <li>Observability and cost governance: telemetry pipelines across Splunk, Dynatrace, Prometheus&#x2F;Grafana&#x2F;Jaeger&#x2F;Kiali and CloudWatch; and a commercial multi-cloud cost analytics and optimization platform (FinOps allocation, showback, unit-cost metrics, rightsizing) architected and implemented end to end.</li>
+                  <li>Distributed systems and data engineering: event-driven architecture, CQRS and event sourcing, Kafka and stream processing, design-first microservices on OpenAPI, and Databricks&#x2F;PySpark pipelines. Polyglot: Python, Java&#x2F;Spring Boot, TypeScript&#x2F;Node.js, Terraform, Bash.</li>
+                  <li>Technical leadership: authored the group-wide Microservices Architecture Handbook at Barclays, chaired a ~30-member technology strategy working group, led a ~500-application cloud migration readiness assessment, and mentors engineers on IaC, service mesh, prompt engineering and modern design practice.</li>
+              </ul>
+            </div>
+        </div>
+        <div id="hobbies" class="section" >
+            <div class="title-section">Hobbies</div>
+            <div class="hobbies-items">
+                <ul class="highlighted">
+                    <li>
+                      Pickleball
+                          ( ~4.0 player)
+                    </li>
+                    <li>
+                      IoT or Robot programming
+                          (Have iRobot and MIPOSaur at home. Programming against iRobot create SDK and MIPOSaur SDK.)
+                    </li>
+                    <li>
+                      Playing with cutting-edge technologies
+                          (genAI&#x2F;Autogen&#x2F;Multiagents, Docker, Go, Kafka, Kubernetes and Amazon CloudFormation, JavaScript, AngularJS, ReactiveJS, Node.js)
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="work-experience" class="section">
+          <div class="title-section" style="page-break-before: always;">Work Experience Summary:</div>
+          <div >
+          <table id="work-experience" class="section" style="page-break-inside:auto;">
+            <tr class="work-item-header">
+                <th class="header-employer" style="width:20%">Employments</th>
+                <th class="header-accomplishments"> Major Accomplishments & Technologies </th>
+            </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Oct.,2025 &ndash; Current
+                  <p class="bold-font">Intuitive.ai
+                  <p>Cherry Hill, NJ (WFH),USA
+                  <p class="bold-font">Principal Cloud and Platform Architect (JPMC)
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>On Demand Environment (ODE) backend (Java Spring Boot) infrastructure (ECS) design and implementation</li>
+                      <li>Design and implement Splunk and Dynatrace onboarding for Spring Boot ECS Microservices</li>
+                      <li>Design and implement AWS Secrets (ASM) solution for Java Spring Boot Microservices</li>
+                      <li>EKS Service Mesh (Istio) on-demand framework Design and Implementation</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      IaC,
+                      Terraform,
+                      AWS&#x2F;EKS&#x2F;Service Mesh&#x2F;Istio,
+                      TLS Certificate,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Feb.,2025 &ndash; Oct.,2025
+                  <p class="bold-font">Biophy
+                  <p>Cherry Hill, NJ (WFH),USA
+                  <p class="bold-font">Director of Cloud Architecture
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Comprehensive Infrastructure as Code (IaC) Design and Implementation</li>
+                      <li>AI-Powered Data Ingestion and Scraping System for RAG</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      IaC,
+                      Terraform&#x2F;Terragrunt,
+                      AWS&#x2F;EC2&#x2F;EBS&#x2F;S3&#x2F;VPC&#x2F;ALB&#x2F;Security&#x2F;R53&#x2F;IAM&#x2F;Secrets Manager&#x2F;Lambda&#x2F;CloudWatch&#x2F;EventBridge&#x2F;SQS&#x2F;SNS,
+                      Python&#x2F;DJango&#x2F;Pydantic,
+                      openAI API&#x2F;LangChain,
+                      SOLID Principles,
+                      Clean Architecture,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Dec.,2021 &ndash; Feb.,2025
+                  <p class="bold-font">McKinsey &amp; Company
+                  <p>Cherry Hill, NJ (WFH),USA
+                  <p class="bold-font">Senior Cloud Engineer II (Associate)
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Using genAI (openAI) with RAG (ChromaDB, Milvus) to accelerate the development of data pipelines running on pyspark and databricks</li>
+                      <li>Using genAI (openAI) with multi-agents to accelerate the migration of mainframe to modern technologies</li>
+                      <li>Migration&#x2F;Refactoring of Mainframe (IBM MQ) EDA system to AWS by using EventBridge&#x2F;Lambda&#x2F;Step Function&#x2F;CloudWatch&#x2F;EKS&#x2F;SQS&#x2F;SNS...etc.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      genAI&#x2F;openAI&#x2F;Langchain&#x2F;RAG&#x2F;Multi-agents&#x2F;prompts tuning,
+                      VectorStore&#x2F;ChromaDB&#x2F;Milvus,
+                      Python&#x2F;Flask&#x2F;FastAPI&#x2F;Pydantic&#x2F;Jupyter,
+                      Databricks&#x2F;pyspark,
+                      Typescript&#x2F;JavaScript&#x2F;NodeJs,
+                      Event Driven Architecture (EDA),
+                      Terraform,
+                      Microservices,
+                      Java&#x2F;SpringBoot&#x2F;NodeJs&#x2F;Python&#x2F;Flask&#x2F;FastAPI,
+                      EventBridge&#x2F;CloudWatch&#x2F;Lambda&#x2F;Step Functions,
+                      DynamoDB&#x2F;RDS&#x2F;Oracle,
+                      Docker&#x2F;K8s&#x2F;EKS&#x2F;AKS,
+                      Json Schema,
+                      JOI,
+                      OpenAPI&#x2F;Swagger,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Dec.,2020 &ndash; Dec., 2021
+                  <p class="bold-font">Yotascale
+                  <p>Cherry Hill, NJ (WFH),USA
+                  <p class="bold-font">Staff Engineer
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Lead Architect and Lead Implementation Engineer for Cloud(AWS&#x2F;Azure&#x2F;GCP) Cost Analytics&#x2F;Optimization&#x2F;Management platform</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      OpenAPI&#x2F;Swagger,
+                      Microservice,
+                      Java&#x2F;Kotlin&#x2F;SpringBoot,
+                      Kubernetes&#x2F;EKS&#x2F;AKS,
+                      Istio,
+                      Terraform,
+                      CQRS,
+                      Event Store,
+                      Event Driven Architecture (EDA),
+                      Kafka&#x2F;ActiveMQ&#x2F;IBM MQ,
+                      Kafka Stream,
+                      Docker,
+                      AWS(EC2&#x2F;IAM&#x2F;S3&#x2F;ECS&#x2F;EKS&#x2F;ELB&#x2F;Lambda&#x2F;RDS&#x2F;VPC&#x2F;R53&#x2F;Secret Manager&#x2F;AutoScaling&#x2F;SES..etc),
+                      Puppet&#x2F;Chef&#x2F;Ansible,
+                      Git&#x2F;Maven&#x2F;Jenkins,
+                      Python&#x2F;Bash&#x2F;Go,
+                      ELK&#x2F;AppDynamic&#x2F;Datadog,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Mar.,2020 &ndash; Nov., 2020
+                  <p class="bold-font">Gigster Inc.
+                  <p>Cherry Hill, NJ,USA
+                  <p class="bold-font">Technical Infrastructure/Devops Architect
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>AWS EKS platform for Node.js microservices and event-driven workloads</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      Microservice,
+                      NodeJs,
+                      Kubernetes&#x2F;EKS,
+                      Terraform,
+                      RabbitMQ&#x2F;ActiveMQ,
+                      Docker,
+                      AWS(EC2&#x2F;IAM&#x2F;S3&#x2F;EKS&#x2F;ALB&#x2F;RDS&#x2F;VPC&#x2F;R53&#x2F;AutoScaling&#x2F;SES&#x2F;ECR..etc),
+                      Puppet&#x2F;Chef&#x2F;Ansible,
+                      Git&#x2F;Maven&#x2F;Jenkins,
+                      JavaScript,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Jun.,2017 &ndash; Feb., 2020
+                  <p class="bold-font">Barclays
+                  <p>Wilmington, DE,USA
+                  <p class="bold-font">VP,Lead Architect Engineer
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Delivery Lead for strategic distributed system technology domain</li>
+                      <li>Group-wide Cloud Adoption for Contact Center, Merchant Services and Fraud</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      Terraform,
+                      CQRS,
+                      Event Store,
+                      Event Driven Architecture (EDA),
+                      Kafka&#x2F;ActiveMQ&#x2F;IBM MQ,
+                      Kafka Stream,
+                      Docker,
+                      AWS(EC2&#x2F;IAM&#x2F;S3&#x2F;ECS&#x2F;EKS&#x2F;ELB&#x2F;Lambda&#x2F;RDS&#x2F;VPC&#x2F;R53&#x2F;Secret Manager&#x2F;AutoScaling&#x2F;SES..etc),
+                      Puppet&#x2F;Chef&#x2F;Ansible,
+                      Git&#x2F;Maven&#x2F;Jenkins&#x2F;Bamboo,
+                      Python&#x2F;Ruby&#x2F;Scala&#x2F;Bash&#x2F;Go,
+                      ELK&#x2F;AppDynamic,
+                      DynamoDB&#x2F;MongoDB&#x2F;ElasticCache&#x2F;GridGain,
+                      Linux&#x2F;Windows&#x2F;AIX&#x2F;Solaris,
+                      aPaaS&#x2F;VMWare&#x2F;Citrix,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Apr.,1996 &ndash; Jun., 2017
+                  <p class="bold-font">Earlier career
+                  <p>USA,China
+                  <p class="bold-font"><span class="career-list"><span class="career-item"><span class="career-co">Oracle<span class="career-yr"> 2014-2017</span></span><span class="career-role">Lead Software Engineer</span></span><span class="career-item"><span class="career-co">Comcast<span class="career-yr"> 2010-2014</span></span><span class="career-role">Sr. DevOps / Infra Automation Eng.</span></span><span class="career-item"><span class="career-co">Boomi<span class="career-yr"> 2006-2010</span></span><span class="career-role">Sr. Software Engineer</span></span><span class="career-item"><span class="career-co">Vantage Learning<span class="career-yr"> 2006</span></span><span class="career-role">Sr. System Engineer Manager</span></span><span class="career-item"><span class="career-co">Texas Tech University<span class="career-yr"> 2002-2006</span></span><span class="career-role">Programmer/Analyst, Unix SysAdmin</span></span><span class="career-item"><span class="career-co">Sun Microsystems China<span class="career-yr"> 2000-2002</span></span><span class="career-role">Sr. Software Engineer</span></span><span class="career-item"><span class="career-co">IBM China R&amp;D<span class="career-yr"> 1998-2000</span></span><span class="career-role">Software Engineer</span></span><span class="career-item"><span class="career-co">Taiji Computers<span class="career-yr"> 1996-1997</span></span><span class="career-role">System / Network Engineer</span></span></span>
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Oracle cloud integration connectivity SDK, Java connectors and Docker CI environments</li>
+                      <li>Comcast AutoBuild: dependency-graph release automation for 200+ microservices</li>
+                      <li>Boomi AtomSphere iPaaS: connector framework and production cloud platform on AWS</li>
+                      <li>Kerberos&#x2F;LDAP single sign-on, Globus grid computing and enterprise Java delivery</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      Java&#x2F;J2EE,
+                      SOA &#x2F; EAI &#x2F; iPaaS,
+                      Docker Swarm&#x2F;Compose,
+                      CI&#x2F;CD (Bamboo, Jenkins, Maven),
+                      Puppet&#x2F;Capistrano,
+                      AWS EC2&#x2F;S3,
+                      Linux HA clustering,
+                      JVM &amp; GC tuning,
+                      Kerberos&#x2F;LDAP&#x2F;SSO,
+                  </span>
+                </td>
+             </tr>
+            </table>
+          </div>
+        </div>
+        <div id="work-experience" class="section">
+            <div class="title-section" style="page-break-before:always;">Selected Projects</div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Oct.,2025 &ndash; Current,</span>
+                <span class="item-work-header-company-name">Principal Cloud and Platform Architect (JPMC), Intuitive.ai</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Cherry Hill, NJ (WFH),USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Hands-on principal architect for the on-demand application platform used by hundreds of developers across more than 80 product teams. Own the ECS&#x2F;EKS and Istio service-mesh reference architecture, the Terraform module library behind it, and the observability, secrets and TLS standards every onboarding service inherits. Cut new-service environment provisioning from weeks to hours and onboarded more than 200 microservices onto the paved road. Self-taught the firm&#39;s proprietary Environment as Code (EAC) platform and became the team&#39;s subject-matter expert, mentoring the team on it. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> On Demand Environment (ODE) backend (Java Spring Boot) infrastructure (ECS) design and implementation </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Designed and implemented ODE to unify the provisioning and deployment flows for hundreds of applications, microservices and their supporting infrastructure, replacing per-team bespoke scripts with a single self-service paved road. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Architected the backend infrastructure with ECS&#x2F;ALB&#x2F;R53&#x2F;Fargate&#x2F;RDS&#x2F;IAM</li>
+                                <li>Designed and implemented reusable Terraform modules for different environments (Dev&#x2F;Test&#x2F;Prod)</li>
+                                <li>Built the Java Spring Boot backend that unifies provisioning and deployment behind one self-service flow, so a team requests an environment instead of assembling it</li>
+                                <li>Ran workloads on ECS Fargate to take EC2 capacity management out of the request path, with per-service autoscaling and rolling deployments in every environment</li>
+                                <li>Automated ALB listener and target-group wiring together with Route 53 records and ACM-issued certificates, so each provisioned environment comes up with a working TLS-terminated endpoint</li>
+                                <li>Provisioned RDS instances with per-service IAM task and execution roles, keeping database credentials out of application configuration and images</li>
+                                <li>Kept Dev&#x2F;Test&#x2F;Prod configuration DRY behind versioned module inputs, so an environment is reproduced from code rather than hand-assembled</li>
+                                <li>Made provisioning idempotent and repeatable end to end, taking new-environment turnaround from weeks of coordinated manual setup to hours</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Java,
+                                Spring Boot,
+                                AWS ECS,
+                                AWS Fargate,
+                                AWS ALB,
+                                Amazon Route 53,
+                                Amazon RDS,
+                                AWS IAM,
+                                AWS ACM,
+                                Terraform,
+                                Infrastructure as Code,
+                                Docker,
+                                CI&#x2F;CD,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Designed the On Demand Environment as a product with a single paved-road flow, consolidating the provisioning and deployment paths individual teams had each been maintaining themselves</li>
+                                <li>Set the reusable Terraform module contract that other platform engineers extended for new environment types</li>
+                                <li>Partnered with application teams during onboarding to fold their environment requirements back into the shared modules instead of one-off forks</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Design and implement Splunk and Dynatrace onboarding for Spring Boot ECS Microservices </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Designed and Implemented Splunk Universal Forwarder (UF) sidecar and Dynatrace OneAgent JVM instrument to collect application and JVM logs </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Architected the Splunk Universal Forwarder (UF) sidecar pattern for AWS ECS task definitions, adopted across all lower and production environments as the enterprise standard for container log routing</li>
+                                <li>Instrumented Java Spring Boot microservices with Dynatrace OneAgent injected at JVM startup via customized Dockerfiles, delivering APM, distributed tracing and JVM metric collection with no application code changes</li>
+                                <li>Built the reusable Terraform module that bootstraps every new service with the correct IAM roles, sidecar configuration and telemetry variables, cutting observability onboarding from days of hand-wired configuration to minutes</li>
+                                <li>Delivered Splunk dashboards and Dynatrace alerting profiles for application health and cross-service transaction latency, taking incident triage from hours of log-hunting to minutes of trace inspection</li>
+                                <li>Optimized Splunk log ingestion through logback.xml tuning, materially reducing indexed volume and the associated license cost</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Splunk Universal Forwarder (UF),
+                                Dynatrace OneAgent,
+                                AWS ECS,
+                                Java,
+                                Spring Boot,
+                                Terraform,
+                                Docker,
+                                AWS IAM,
+                                Logback,
+                                APM &#x2F; Observability,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Standardized enterprise observability and telemetry practices by defining reusable, scalable patterns for logging and monitoring across all containerized AWS workloads</li>
+                                <li>Partnered with application development teams to troubleshoot complex performance issues using Dynatrace distributed tracing, significantly reducing Mean Time to Resolution (MTTR) for production incidents</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Design and implement AWS Secrets (ASM) solution for Java Spring Boot Microservices </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Architected and implemented a comprehensive AWS Secrets Manager solution to remove the secret value from the git repo for local development and aws deployment </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Designed and implemented the Terraform modules provisioning AWS Secrets Manager secrets, keys and values across every service and deployment environment</li>
+                                <li>Developed the Terraform resources creating least-privilege IAM read policies bound to ECS task roles, replacing broad shared policies with per-service access</li>
+                                <li>Integrated AWS SDK and Spring Cloud AWS in Java Spring Boot microservices for startup-time credential and configuration resolution, removing hardcoded secrets from the team&#39;s git repositories</li>
+                                <li>Established a secure local development workflow in which developers fetch secrets dynamically via temporary AWS credentials, eliminating local .env files from version control</li>
+                                <li>Enforced encryption at rest with AWS KMS and strict least-privilege access, closing the outstanding secrets-handling findings from security review</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                AWS Secrets Manager (ASM),
+                                Java,
+                                Spring Boot,
+                                Terraform,
+                                AWS ECS,
+                                AWS IAM,
+                                AWS KMS,
+                                Spring Cloud AWS,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Championed DevSecOps best practices by successfully driving the initiative to eliminate hardcoded secrets across the organization&#39;s source code repositories</li>
+                                <li>Mentored backend engineering teams on secure credential management, IAM role assumptions, and AWS SDK integration for Spring Boot applications</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> EKS Service Mesh (Istio) on-demand framework Design and Implementation </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Architected and implemented a comprehensive EKS-based service mesh framework using Istio to enable on-demand platform capabilities for hundreds of developers. Designed a scalable, secure, and automated infrastructure that supports dynamic service provisioning, traffic management, and observability across microservices. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Designed and implemented the multi-tenant EKS + Istio architecture behind the on-demand platform, carrying the platform&#39;s full microservice estate across per-team tenant namespaces</li>
+                                <li>Developed the automation framework for dynamic service-mesh provisioning and configuration management, cutting tenant onboarding from weeks to under a day</li>
+                                <li>Enforced mTLS mesh-wide in STRICT mode for all service-to-service communication, replacing per-application TLS handling with a platform-level guarantee</li>
+                                <li>Configured Istio VirtualServices and DestinationRules for advanced traffic routing, load balancing and progressive rollout</li>
+                                <li>Designed and implemented centralized TLS&#x2F;mTLS certificate management, eliminating manual per-service certificate renewal</li>
+                                <li>Built the mesh observability stack (Prometheus, Grafana, Jaeger, Kiali), giving product teams golden-signal dashboards and distributed traces they previously had to build themselves</li>
+                                <li>Authored the versioned Terraform modules for automated EKS and Istio deployment, consumed by product teams across the platform</li>
+                                <li>Implemented mesh policies for authorization, rate limiting and circuit breaking, containing retry storms and cascading failures at the mesh boundary rather than in application code</li>
+                                <li>Designed the multi-namespace isolation strategy for secure multi-tenancy, with ResourceQuota and LimitRange per tenant namespace and Istio AuthorizationPolicy enforced at each boundary</li>
+                                <li>Established CI&#x2F;CD pipelines for service-mesh configuration changes, taking rollout from multi-day manual change windows to minutes behind automated lint, policy and staged-rollout gates</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                AWS EKS,
+                                Istio Service Mesh,
+                                Kubernetes,
+                                Terraform,
+                                TLS&#x2F;mTLS,
+                                Envoy Proxy,
+                                Prometheus,
+                                Grafana,
+                                Jaeger,
+                                Kiali,
+                                Helm,
+                                AWS IAM&#x2F;RBAC,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Led the architecture and implementation of the service mesh framework that supports hundreds of developers on the on-demand platform.</li>
+                                <li>Established service mesh best practices and patterns that improved security, observability, and operational efficiency.</li>
+                                <li>Mentored platform and development teams on Istio service mesh concepts, traffic management, and security policies.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Feb.,2025 &ndash; Oct.,2025,</span>
+                <span class="item-work-header-company-name">Director of Cloud Architecture, Biophy</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Cherry Hill, NJ (WFH),USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Hands-on director of cloud architecture for an AI-powered healthcare platform. Led the retrieval corpus pipeline behind the product&#39;s RAG system - multi-source ingestion, scraping, transformation and data-quality controls built on Python&#x2F;Django&#x2F;Pydantic with LangChain and the OpenAI API, structured under Clean Architecture and SOLID so the pipeline stayed testable as sources multiplied. In parallel brought the existing AWS estate under Terraform&#x2F;Terragrunt by importing live resources and redesigning them to the Well-Architected Framework, and built a custom CloudWatch alerting system on EventBridge, Lambda, SQS and SNS. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Comprehensive Infrastructure as Code (IaC) Design and Implementation </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Led the transformation of AWS infrastructure to infrastructure as code (IaC), importing and redesigning resources to align with best practices. Developed modular Terraform configurations and established secure, standardized cloud operations. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Imported and catalogued existing AWS resources including EC2 instances, VPC configurations, security groups, and IAM policies</li>
+                                <li>Redesigned infrastructure architecture following AWS Well-Architected Framework principles</li>
+                                <li>Implemented modular Terraform configurations with reusable modules for consistent deployment</li>
+                                <li>Established comprehensive security controls including least-privilege IAM policies and network segmentation</li>
+                                <li>Created automated validation and testing procedures for infrastructure changes</li>
+                                <li>Documented infrastructure patterns and best practices for team adoption</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Terraform,
+                                AWS EC2&#x2F;EBS&#x2F;S3&#x2F;VPC&#x2F;ALB&#x2F;Security&#x2F;R53&#x2F;IAM&#x2F;Secrets Manager,
+                                Infrastructure as Code,
+                                AWS Best Practices,
+                                Security Controls,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Led the transformation from manual infrastructure management to fully automated IaC practices.</li>
+                                <li>Established infrastructure standards and patterns that improved team productivity and security posture.</li>
+                                <li>Mentored team members on AWS best practices and Terraform&#x2F;Terragrunt development.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> AI-Powered Data Ingestion and Scraping System for RAG </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Architected and delivered a robust data ingestion and scraping platform for AI-powered RAG, applying SOLID and Clean Architecture principles to ensure scalability, maintainability, and high data quality. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Architected a modular data ingestion pipeline supporting multiple data sources and formats</li>
+                                <li>Implemented intelligent web scraping capabilities with rate limiting and error handling across hundreds of recurring sources feeding the retrieval corpus</li>
+                                <li>Built the chunking, embedding and upsert path that turned heterogeneous scraped and uploaded documents into a queryable corpus of tens of thousands of embedded chunks, with deduplication and re-embedding on source change</li>
+                                <li>Designed data transformation layers following Clean Architecture principles</li>
+                                <li>Built robust error handling and retry mechanisms for data processing failures</li>
+                                <li>Implemented comprehensive logging and monitoring for data pipeline health</li>
+                                <li>Created automated testing frameworks for data quality and pipeline reliability</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Python&#x2F;Django&#x2F;Pydantic,
+                                openAI API&#x2F;LangChain,
+                                SOLID Principles,
+                                Clean Architecture,
+                                Data Processing,
+                                Web Scraping,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Drove the adoption of Clean Architecture and SOLID principles across the data engineering team.</li>
+                                <li>Established data quality standards and monitoring practices for AI system reliability.</li>
+                                <li>Mentored developers on modern software design patterns and best practices.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Dec.,2021 &ndash; Feb.,2025,</span>
+                <span class="item-work-header-company-name">Senior Cloud Engineer II (Associate), McKinsey &amp; Company</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Cherry Hill, NJ (WFH),USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Built GenAI platform capability for enterprise modernization engagements: retrieval systems over ChromaDB&#x2F;Milvus, multi-agent orchestration with AutoGen, and FastAPI services that exposed model-backed capabilities as internal APIs other engineering teams consumed rather than rebuilt. Scaled the retrieval layer behind a call-centre chatbot copilot from a single-node prototype to a persistent, concurrently queried vector store as the knowledge corpus and user base grew. Led the GenAI + RAG system that accelerated mainframe migration to modern stacks, the RAG-assisted code generation platform for PySpark&#x2F;Databricks data pipelines, and the scaling of the retrieval layer behind a call-centre chatbot copilot. Separately migrated and refactored complex mainframe event-driven systems onto AWS serverless (EventBridge, Lambda, Step Functions, SQS&#x2F;SNS, CloudWatch, EKS). </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Using genAI (openAI) with RAG (ChromaDB, Milvus) to accelerate the development of data pipelines running on pyspark and databricks </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Designed and implemented a genAI system with RAG (ChromaDB&#x2F;Milvus) to automate and accelerate the development of data pipelines, enabling seamless transformation of source tables to target tables with varying data structures. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Prompt engineering and tuning to generate PySpark data-pipeline functions together with their unit tests</li>
+                                <li>Designed the context-window management strategy - chunking by target table or by relationship - so large schema inputs fit within model token limits without losing referential context</li>
+                                <li>Built concurrent inference orchestration over the OpenAI API using asyncio with generators, raising pipeline throughput without exceeding rate limits</li>
+                                <li>Curated the retrieval corpus from the enterprise data dictionary - source and target schemas, column-level lineage and prior transformation examples - embedded with OpenAI embeddings into HNSW-indexed vector collections spanning thousands of table definitions</li>
+                                <li>Tuned the retrieval layer rather than only the prompt: chunk granularity, top-k depth and similarity thresholds, measured against whether the generated PySpark compiled and passed its generated tests, which mattered more to output quality than further prompt iteration</li>
+                                <li>Operated the vector store as shared infrastructure - collection layout, embedding refresh on schema change, and reproducible rebuilds from source - so retrieval quality did not silently decay as the data dictionary evolved, holding sub-second retrieval at interactive latencies</li>
+                                <li>Implement FastAPI API to expose source to target data transformation as REST service</li>
+                                <li>Design and document the local development and debug workflow by using debugpy with VSC and pycharm</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Langchain&#x2F;VectorStore&#x2F;ChromaDB&#x2F;Milvus,
+                                genAI&#x2F;openAI,
+                                RAG,
+                                Python&#x2F;Pydantic&#x2F;Asyncio&#x2F;Flask&#x2F;FastAPI&#x2F;Debugpy,
+                                Typescript&#x2F;JavaScript&#x2F;NodeJs,
+                                Microservice,
+                                Dockerfile&#x2F;Docker&#x2F;Compose,
+                                PostgreSQL,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Spearheaded the integration of genAI and RAG for data pipeline automation, enabling rapid transformation of complex data structures.</li>
+                                <li>Mentored engineers on advanced prompt engineering and parallel AI workflow design, raising team proficiency in cutting-edge AI techniques.</li>
+                                <li>Established robust local development and debugging standards, improving team productivity and onboarding efficiency.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Using genAI (openAI) with multi-agents to accelerate the migration of mainframe to modern technologies </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Built a multi-agent genAI platform to automate and accelerate the migration of mainframe applications to modern technologies, integrating RAG for context-aware transformation and process automation. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Core Contributors to genAI system to migrate mainframe frontend technologies (BMS&#x2F;JSF&#x2F;JSP) to modern technologies (React&#x2F;Angular..etc.)</li>
+                                <li>Contribute to develop multi-agents genAI system to automate the development&#x2F;testing&#x2F;deployment process</li>
+                                <li>Built the RAG layer that accelerated COBOL-to-Java migration, operating ChromaDB&#x2F;Milvus as shared retrieval infrastructure holding the dependency context that multiple migration workstreams queried</li>
+                                <li>Indexed the mainframe dependency graph - copybooks, JCL, called modules and data definitions across a legacy estate of thousands of COBOL programs - so an agent converting one module retrieved its true upstream and downstream context instead of guessing at it</li>
+                                <li>Sized and partitioned collections per application domain to keep retrieval relevant as the corpus grew, running ChromaDB for fast local iteration and Milvus where persistence and concurrent multi-agent querying were needed</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Langchain&#x2F;VectorStore&#x2F;ChromaDB&#x2F;Milvus,
+                                genAI&#x2F;openAI,
+                                RAG,
+                                Agents&#x2F;Multi-agents&#x2F;Autogen,
+                                Python&#x2F;FastAPI,
+                                Typescript&#x2F;JavaScript&#x2F;NodeJs,
+                                Microservice,
+                                Dockerfile&#x2F;Docker Compose,
+                                PostgreSQL,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Drove the integration of multi-agent genAI systems to automate legacy migration, reducing manual effort and error rates.</li>
+                                <li>Collaborated across frontend and backend teams to ensure seamless modernization from mainframe to cloud-native stacks.</li>
+                                <li>Championed the use of RAG for context-aware migration, setting a new benchmark for future modernization projects.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Migration&#x2F;Refactoring of Mainframe (IBM MQ) EDA system to AWS by using EventBridge&#x2F;Lambda&#x2F;Step Function&#x2F;CloudWatch&#x2F;EKS&#x2F;SQS&#x2F;SNS...etc. </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Engineered and deployed an EKS-based router to integrate AWS EventBridge with external MQ events, providing robust monitoring, reporting, and cloud-native migration for mainframe EDA systems. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Develop SpringBoot EKS router to convert XML&#x2F;XSD to JSON schema and integrate with MQ events</li>
+                                <li>Design and implement the monitoring terraform module for all different AWS resources (Lambda, EventBridge, S3, DynamoDB, Step Function..etc.) using cloudwatch metrics</li>
+                                <li>Design and implement the reusable report generator using Lambda and EventBridge and deployed as Microservices which can be called to run any custom AWS CloudWatch insights queries in custom schedule</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Java&#x2F;SpringBoot,
+                                Terraform,
+                                Microservice,
+                                Java&#x2F;JavaScript,
+                                EKS,
+                                AWS&#x2F;EventBridge&#x2F;CloudWatch&#x2F;Lambda,
+                                XML&#x2F;XSD&#x2F;Json&#x2F;Json Schema,
+                                DynamoDB,
+                                RDS&#x2F;Oracle,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Led the end-to-end migration of mission-critical EDA systems to AWS, ensuring zero downtime and robust cloud integration.</li>
+                                <li>Developed reusable infrastructure modules, empowering other teams to accelerate their own cloud migration journeys.</li>
+                                <li>Instituted comprehensive monitoring and reporting standards, elevating operational visibility and reliability.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Dec.,2020 &ndash; Dec., 2021,</span>
+                <span class="item-work-header-company-name">Staff Engineer, Yotascale</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Cherry Hill, NJ (WFH),USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Lead architect and lead implementation engineer for a multi-cloud (AWS&#x2F;Azure&#x2F;GCP) cost analytics, optimization and management platform - the FinOps tooling layer giving customers unit-cost visibility, allocation&#x2F;showback and rightsizing recommendations across enterprise customers&#39; multi-account cloud estates and the large annual cloud spend under management. Owned both the product architecture (design-first microservices on ClickHouse&#x2F;PostgreSQL) and the AWS platform it ran on (EKS&#x2F;Istio&#x2F;Terraform&#x2F;Terragrunt). </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Lead Architect and Lead Implementation Engineer for Cloud(AWS&#x2F;Azure&#x2F;GCP) Cost Analytics&#x2F;Optimization&#x2F;Management platform </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Architected and implemented a cross-cloud cost analytics and optimization platform, enabling organizations to gain actionable insights and manage cloud spending across AWS, Azure, and GCP. Led the design of scalable data pipelines, analytics microservices, and secure infrastructure. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Introduce and Build Microservice Design First Methodology and team culture based on OpenAPI&#x2F;Swagger Specification</li>
+                                <li>Design and develop Cost Analytics&#x2F;Lens Navigation&#x2F;Lens Management Microservice using SpringBoot with ClickHouse and PostgreSQL as DW and DBMS</li>
+                                <li>Design and implement dynamic metadata driven widget&#x2F;filter configuration Microservice</li>
+                                <li>Implement bitbucket CI&#x2F;CD pipeline to build, deploy Microservices&#x2F;GraphQL to eks&#x2F;k8s with Istio</li>
+                                <li>Design the AWS infrastructure architecture with EKS&#x2F;ALB&#x2F;Istio&#x2F;S3&#x2F;SES&#x2F;R53&#x2F;ECR&#x2F;PostgreSQL&#x2F;RabbitMQ&#x2F;SFTP</li>
+                                <li>Design&#x2F;Implement terraform templates&#x2F;scripts to deploy the full AWS infrastructure stack with IAM roles&#x2F;users</li>
+                                <li>Develop terraform templates to deploy ALB controller&#x2F;RabbitMQ and PostgreSQL by using helm provider</li>
+                                <li>Develop terraform templates to deploy k8s&#39; CRDs, Pods, Services, Service Account by using Kubernetes-alpha and Kubernetes providers</li>
+                                <li>Design&#x2F;Develop multiple terraform modules with Terragrunt.hcl to maintain the inputs&#x2F;outputs dependencies between modules and keep configurations DRY</li>
+                                <li>Develop terraform templates to dynamically add R53 zone and records with TLS certificates validations</li>
+                                <li>Develop terraform templates to dynamically create S3 buckets with IAM policies to allow k8&#39;s service account to assume IAM role to access control using OIDC</li>
+                                <li>Develop terraform templates to create SFTP server backed with S3 bucket with IAM role and policy for sftp users</li>
+                                <li>Compile Microservice design&#x2F;development guide lines based on OpenAPI&#x2F;Swagger Spec</li>
+                                <li>Implement Junit test cases with local docker test containers</li>
+                                <li>Develop common multiple DBMS (ClickHouse and PostgreSQL) access lib with AWS secrets manager</li>
+                                <li>Implement json schema validation using open source</li>
+                                <li>Delivered cost allocation, showback and rightsizing views over multi-terabyte cloud billing datasets in ClickHouse, holding interactive query latency on high-cardinality, multi-dimension slices</li>
+                                <li>Established the FinOps model inside the product - tagging&#x2F;allocation taxonomy, unit-cost metrics, savings-plan and rightsizing recommendations - surfacing double-digit percentage savings opportunities for customers</li>
+                                <li>Stood up the entire AWS platform as code with versioned Terraform&#x2F;Terragrunt modules, provisioning a complete environment from an empty AWS account in hours rather than weeks</li>
+                                <li>Onboarded the engineering teams onto the design-first OpenAPI workflow, making the published contract the single source of truth for client and server code</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Cloud Cost Analytics&#x2F;Optimization&#x2F;Management,
+                                OpenAPI&#x2F;Swagger,
+                                Microservice,
+                                Java&#x2F;Kotlin&#x2F;Python,
+                                Spring&#x2F;SpringBoot&#x2F;Flask,
+                                Kubernetes&#x2F;EKS&#x2F;AKS&#x2F;GKE,
+                                Terraform&#x2F;Terragrunt&#x2F;Ansible,
+                                AWS&#x2F;EC2&#x2F;EBS&#x2F;S3&#x2F;VPC&#x2F;Security&#x2F;R53&#x2F;IAM&#x2F;Secrets Manager&#x2F;Lambda,
+                                Service Mesh&#x2F;Istio&#x2F;Envoy,
+                                Helm&#x2F;Chart,
+                                RabbitMQ,
+                                Azure&#x2F;GCP,
+                                Junit&#x2F;Test Containers,
+                                Docker&#x2F;Minikube,
+                            </span><br/>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Mar.,2020 &ndash; Nov., 2020,</span>
+                <span class="item-work-header-company-name">Technical Infrastructure/Devops Architect, Gigster Inc.</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Cherry Hill, NJ,USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Designed and implemented comprehensive AWS infrastructure architecture including CI&#x2F;CD automation, Terraform infrastructure as code, and EKS container orchestration. Led the development of scalable, automated cloud infrastructure solutions to support microservices and distributed systems. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> AWS EKS platform for Node.js microservices and event-driven workloads </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> AWS architecture for Node.js microservices and event-driven workloads on EKS, fully provisioned through Terraform&#x2F;Terragrunt with ALB ingress controller, IAM&#x2F;OIDC service-account roles and Helm-deployed dependencies. </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Jun.,2017 &ndash; Feb., 2020,</span>
+                <span class="item-work-header-company-name">VP,Lead Architect Engineer, Barclays</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Wilmington, DE,USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Directed the cloud adoption journey, migrating on-premises enterprise systems to AWS. Served as delivery lead for distributed system technology, including microservices, event-driven architecture, message transport, integration (batch&#x2F;ETL), and event stream processing. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Delivery Lead for strategic distributed system technology domain </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Directed the architecture and technology strategy for distributed systems, microservices, event-driven architecture, and stream processing, driving innovation and technology transformation across the organization. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Owned end-to-end architecture for the group&#39;s distributed-systems domain: solution-architecture guidance, design-pattern development, and architecture reviews across the domain&#39;s application estate</li>
+                                <li>Ran architecture reviews identifying reuse opportunities and managing technical debt, with documented invest&#x2F;divest and reuse decisions feeding the domain roadmap</li>
+                                <li>Maintained the domain capability roadmap and technology heatmap, monitoring emerging technologies and industry trends for enterprise applicability</li>
+                                <li>Influenced group-level strategic planning and drove innovation forums across the group&#39;s engineering teams</li>
+                                <li>Drive technology transformation from on-premises to public cloud, multi-tiers monolithic to cloud-native Microservice system, strong ACID to BASE data consistency, Sync&#x2F;Request&#x2F;RPC driven to Async&#x2F;Event driven architecture, tight coupling to loose coupling, ETL&#x2F;Batch&#x2F;Time to realtime streaming processing, vendor locked to resilient commodity system, vendor favor to OSS, vertical scaling to horizontal scaling</li>
+                                <li>Establish group-wide distributed system architecture and technology strategy</li>
+                                <li>Build PoC and Reference Architecture for common use cases for distributed system</li>
+                                <li>Evaluate around 200 existing products&#x2F;technologies and decide the invest&#x2F;divest house positions</li>
+                                <li>Create the architecture handbook for Microservice as group-wide guidance for solution Architect</li>
+                                <li>Contribute to and review the architecture handbook for EDA, Stream Processing and Integration</li>
+                                <li>Design vendor and technology selection and design principles&#x2F;standards and best practices for the domain</li>
+                                <li>Review and approve the new request for product&#x2F;technology in the domain</li>
+                                <li>Maintain the scope document and product list for the domain</li>
+                                <li>Develop the roadmap to adopt new products&#x2F;technology and decommission legacy products&#x2F;technology</li>
+                                <li>Lead working group (~30 members) forum to discuss and make decision on technology strategies</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Technology strategic Design and Stewardship,
+                                Distributed system,
+                                Domain Driven Design,
+                                Microservice,
+                                ACID&#x2F;BASE,
+                                (Event) Stream &#x2F;Batch Processing,
+                                Event Driven Architecture (EDA),
+                                Message Transports (Kafka, ActiveMQ, IBM MQ),
+                                Data Integration (ETL&#x2F;ELT),
+                                Compensating transactions&#x2F;Sagas,
+                                JMS&#x2F;AMQP,
+                                Resilience and Performance,
+                                CQRS&#x2F;SOA,
+                                CAP,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Chaired a ~30-member cross-functional working group that set and executed the group-wide distributed-systems technology strategy, issuing invest&#x2F;divest house positions on ~200 products and technologies</li>
+                                <li>Authored the group-wide Microservices Architecture Handbook and contributed to the EDA, Stream Processing and Integration handbooks - reference artifacts used group-wide by Barclays solution architects</li>
+                                <li>Owned cloud-adoption strategy and roadmap for Contact Center, Merchant Services and Fraud: assessed ~500 on-premises applications for migration readiness and guided the prioritized migration waves to AWS</li>
+                                <li>Drove the transformation agenda - on-premises to public cloud, monolith to cloud-native microservices, ACID to BASE, synchronous RPC to asynchronous event-driven, batch&#x2F;ETL to real-time streaming, vendor-locked to OSS commodity, vertical to horizontal scaling</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Group-wide Cloud Adoption for Contact Center, Merchant Services and Fraud </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Led cloud assessment and migration strategy for hundreds of on-premises applications, providing technical guidance and troubleshooting to ensure successful adoption of AWS cloud architecture. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Build python automation tools to access AWS secret manager via boto3</li>
+                                <li>Using python boto3 to build tools to dynamically manipulate the IAM policies, roles and users</li>
+                                <li>Using terraform to dynamically deploy whole AWS infrastructure including EKS, IAM, DNS, ALB, S3 ...etc.</li>
+                                <li>Building and maintaining the EKS cluster via terraform and k8s yaml</li>
+                                <li>Defined and designed cloud strategy and roadmap&#x2F;journey for Merchant services, Fraud and Contact Center</li>
+                                <li>Ensured ~500 on-premises application cloud migration journey</li>
+                                <li>Assess ~500 on-premises applications to determine the cloud migration readiness</li>
+                                <li>Provide guidance to application team to design cloud migration architecture</li>
+                                <li>Guide the .NET system to AWS migration</li>
+                                <li>Consulting to migration on-premises system to AWS ECS</li>
+                                <li>Collect system data from Abacus, ServiceFirst query and repo tools</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                AWS,
+                                EC2,
+                                RDS,
+                                S3,
+                                ECS,
+                                VPC,
+                                ACL&#x2F;Security Group&#x2F;Routing table,
+                                ELB&#x2F;NLB&#x2F;ALB,
+                                Private Link,
+                                EBS,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Led the assessment and migration of 500+ on-premises applications to AWS, ensuring business continuity.</li>
+                                <li>Developed cloud migration roadmaps and provided hands-on guidance to application teams.</li>
+                                <li>Championed automation of cloud infrastructure, reducing manual errors and accelerating delivery.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Apr.,1996 &ndash; Jun., 2017,</span>
+                <span class="item-work-header-company-name">Lead Software Engineer / Senior DevOps & Infrastructure Engineer / Systems Engineer, Earlier career</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, USA,China</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Twenty-one years of platform, automation and integration engineering preceding the current cloud-native and GenAI work. At Oracle, built the cloud integration connectivity SDK and Java connectors joining SOA Suite and Integration Cloud Service to SaaS and on-premises applications, and pioneered Docker Swarm&#x2F;Compose CI environments for the connector teams. At Comcast, designed the AutoBuild system that built and released 200+ microservice projects from a dependency graph, cutting release cycles from days to hours, and ran the Gerrit&#x2F;Bamboo&#x2F;Nexus estate on Pacemaker&#x2F;HAProxy clusters with Puppet and Capistrano automation. Earlier: the SOA connector framework and production cloud platform at Boomi - one of the first iPaaS products - on AWS EC2&#x2F;S3 and managed data centres, including JVM&#x2F;GC tuning and Apache Solr indexing at millions of transactions per day; a 100+ server data centre at Vantage Learning; Kerberos&#x2F;LDAP single sign-on and Globus grid computing at Texas Tech University alongside an MS in Computer Science; and enterprise Java, payments and storage-management systems at Sun Microsystems China and IBM China R&amp;D. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Oracle cloud integration connectivity SDK, Java connectors and Docker CI environments </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> SDK and plugin framework linking Oracle SOA Suite and Integration Cloud Service to SaaS and on-premises enterprise applications, with Docker Swarm&#x2F;Compose&#x2F;Stack CI test environments built for geographically distributed connector teams. </div>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Comcast AutoBuild: dependency-graph release automation for 200+ microservices </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Directed-acyclic-graph driven build, branch and release automation across 200+ repositories, reducing release cycles from days to hours, with the Gerrit&#x2F;Bamboo&#x2F;Nexus estate on Pacemaker&#x2F;HAProxy clusters and configuration managed by Puppet and Capistrano. </div>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Boomi AtomSphere iPaaS: connector framework and production cloud platform on AWS </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> SOA connector framework with synchronous&#x2F;asynchronous messaging, plus the clustered production platform on EC2&#x2F;S3 including distributed caching, Solr indexing at millions of transactions per day and JVM heap&#x2F;GC tuning. </div>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Kerberos&#x2F;LDAP single sign-on, Globus grid computing and enterprise Java delivery </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Cross-realm Kerberos KDC, OpenLDAP and PAM single sign-on across Unix and Windows at Texas Tech University; OGSA&#x2F;OGSI grid deployment with PKI&#x2F;X.509 security; J2EE architecture at Sun Microsystems China and IBM China R&amp;D. </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="hobbies" class="section"  style="page-break-inside:avoid;">
+        </div>
+    </div>
+    <div id="extra">
+    </div>
+    <!--div id="print-foot"/-->
+
+</div>

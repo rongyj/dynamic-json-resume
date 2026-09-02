@@ -63,7 +63,7 @@
             {{ #resume.work}}
             <div class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}}>
                 <span class="header-date">{{ item-work.start-date}} &ndash; {{ item-work.end-date }},</span>
-                <span class="header-company-name">{{ item-work.position }}, {{ item-work.company.name }}</span>
+                <span class="header-company-name">{{#item-work.position-header}}{{{ item-work.position-header }}}{{/item-work.position-header}}{{^item-work.position-header}}{{{ item-work.position }}}{{/item-work.position-header}}, {{ item-work.company.name }}</span>
                 <span class="header-company-location" style="page-break-inside: avoid">, {{ item-work.company.city }},{{ item-work.company.country }}</span><br />
                 <div class="description-work"> {{ item-work.achievements }} </div>
                 {{ #item-work.projects.length }}

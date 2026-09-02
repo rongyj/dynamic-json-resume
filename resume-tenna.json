@@ -1,0 +1,3353 @@
+{
+  "resume": {
+    "contact": {
+      "first_name": "Yongjun",
+      "last_name": "Rong",
+      "website": "https://www.linkedin.com/in/rongyongjun/",
+      "email": "rongyj@hotmail.com",
+      "phone": "856-408-4027",
+      "github": "https://github.com/rongyj",
+      "city": "Cherry Hill, NJ, USA, 08003",
+      "visa": "US Citizen"
+    },
+    "education": [
+      {
+        "item-education": {
+          "start-date": "Sept.,2002",
+          "end-date": "Jun.,2006",
+          "institution": {
+            "name": "Texas Tech University",
+            "city": "Lubbock, TX",
+            "country": "USA"
+          },
+          "description": "Master of Computer Science",
+          "additional-info": "GPA: 4.0/4.0"
+        }
+      },
+      {
+        "item-education": {
+          "start-date": "Sept.,1993",
+          "end-date": "Feb.,1996",
+          "institution": {
+            "name": "Shanghai JiaoTong University",
+            "city": "Shanghai",
+            "country": "China"
+          },
+          "description": "Master of Engineering",
+          "additional-info": "Major: Hydraulic Fluid Control in Mechanical Engineering"
+        }
+      },
+      {
+        "item-education": {
+          "start-date": "Sept.,1987-09",
+          "end-date": "Jul.,1991",
+          "institution": {
+            "name": "Changsha Railway University",
+            "city": "Changsha, Hunan",
+            "country": "China"
+          },
+          "description": "Bachelor of Engineering",
+          "additional-info": "Major: Engineering Machine"
+        }
+      }
+    ],
+    "work": [
+      {
+        "item-work": {
+          "start-date": "Oct.,2025",
+          "end-date": "Current",
+          "position": "Principal Cloud and Platform Architect (JPMC)",
+          "company": {
+            "name": "Intuitive.ai",
+            "city": "Cherry Hill, NJ (WFH)",
+            "country": "USA"
+          },
+          "achievements": "As a hands-on Principal Cloud and Platform Architect, designed and implemented ECS, EKS, and Istio service mesh frameworks supporting an on-demand platform for hundreds of developers. Established observability (Splunk, Dynatrace) and secrets-management standards for containerized microservices, and mentored teams on the proprietary Environment as Code (EAC) framework through self-teaching and troubleshooting.",
+          "technologies": [
+            "IaC",
+            "Terraform",
+            "AWS/EKS/Service Mesh/Istio",
+            "TLS Certificate"
+          ],
+          "projects": [
+            {
+              "item-projects": {
+                "title": "Design and implement Splunk and Dynatrace onboarding for Spring Boot ECS Microservices",
+                "description": "Designed and Implemented Splunk Universal Forwarder (UF) sidecar and Dynatrace OneAgent JVM instrument to collect application and JVM logs",
+                "highlights": [
+                  "Architected and deployed the Splunk Universal Forwarder (UF) as a sidecar container within AWS ECS task definitions, enabling reliable, decoupled routing of Spring Boot application logs to enterprise Splunk indexers",
+                  "Instrumented Java Spring Boot microservices with Dynatrace OneAgent by customizing Dockerfiles to inject the agent at JVM startup, unlocking deep Application Performance Monitoring (APM), distributed tracing, and JVM metric collection",
+                  "Developed reusable Terraform modules to automate the provisioning of ECS task definitions, ensuring all new microservices were automatically bootstrapped with the correct IAM roles, sidecar configurations, and telemetry environment variables",
+                  "Designed and implemented comprehensive Splunk dashboards and Dynatrace alerting profiles to monitor application health, track cross-service transaction latency, and proactively identify performance bottlenecks",
+                  "Optimized Splunk log ingestion by customizing logback.xml"
+                ],
+                "technologies": [
+                  "Splunk Universal Forwarder (UF)",
+                  "Dynatrace OneAgent",
+                  "AWS ECS",
+                  "Java",
+                  "Spring Boot",
+                  "Terraform",
+                  "Docker",
+                  "AWS IAM",
+                  "Logback",
+                  "APM / Observability"
+                ],
+                "tags": [
+                  "Observability",
+                  "Monitoring",
+                  "AWS",
+                  "Microservices",
+                  "Infrastructure as Code"
+                ],
+                "leaderships": [
+                  "Standardized enterprise observability and telemetry practices by defining reusable, scalable patterns for logging and monitoring across all containerized AWS workloads",
+                  "Partnered with application development teams to troubleshoot complex performance issues using Dynatrace distributed tracing, significantly reducing Mean Time to Resolution (MTTR) for production incidents"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Design and implement AWS Secrets (ASM) solution for Java Spring Boot Microservices",
+                "description": "Architected and implemented a comprehensive AWS Secrets Manager solution to remove the secret value from the git repo for local development and aws deployment",
+                "highlights": [
+                  "Designed and implemented terraform modules to deploy AWS Secrets Manager, secrets keys and values",
+                  "Developed terraform resources to create iam reading policies and attach it to ecs task role to allow ecs app to be able to extract the secret value",
+                  "Integrated AWS SDK and Spring Cloud AWS within Java Spring Boot microservices to dynamically retrieve credentials and configuration properties during application startup",
+                  "Established a secure local development workflow enabling developers to fetch secrets dynamically via temporary AWS credentials, completely removing the need for local `.env` files in version control",
+                  "Enhanced the overall security posture by encrypting secret data at rest using AWS KMS and enforcing strict least-privilege access controls"
+                ],
+                "technologies": [
+                  "AWS Secrets Manager (ASM)",
+                  "Java",
+                  "Spring Boot",
+                  "Terraform",
+                  "AWS ECS",
+                  "AWS IAM",
+                  "AWS KMS",
+                  "Spring Cloud AWS"
+                ],
+                "tags": [
+                  "Cloud Security",
+                  "DevSecOps",
+                  "AWS",
+                  "Microservices",
+                  "Infrastructure as Code"
+                ],
+                "leaderships": [
+                  "Championed DevSecOps best practices by successfully driving the initiative to eliminate hardcoded secrets across the organization's source code repositories",
+                  "Mentored backend engineering teams on secure credential management, IAM role assumptions, and AWS SDK integration for Spring Boot applications"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "EKS Service Mesh (Istio) on-demand framework Design and Implementation",
+                "description": "Architected and implemented a comprehensive EKS-based service mesh framework using Istio to enable on-demand platform capabilities for hundreds of developers. Designed a scalable, secure, and automated infrastructure that supports dynamic service provisioning, traffic management, and observability across microservices.",
+                "highlights": [
+                  "Designed and implemented EKS cluster architecture with Istio service mesh for multi-tenant on-demand platform",
+                  "Developed automated framework for dynamic service mesh provisioning and configuration management",
+                  "Implemented mTLS (mutual TLS) for secure service-to-service communication across all microservices",
+                  "Configured Istio VirtualServices and DestinationRules for advanced traffic routing and load balancing",
+                  "Designed and implemented centralized certificate management system for TLS/mTLS certificates",
+                  "Built comprehensive observability stack with distributed tracing, metrics, and logging integration",
+                  "Created Terraform modules for automated EKS and Istio deployment and configuration",
+                  "Implemented service mesh policies for security, rate limiting, and circuit breaking",
+                  "Designed multi-namespace isolation strategy for secure multi-tenant operations",
+                  "Established CI/CD pipelines for automated service mesh configuration updates and deployments"
+                ],
+                "technologies": [
+                  "AWS EKS",
+                  "Istio Service Mesh",
+                  "Kubernetes",
+                  "Terraform",
+                  "TLS/mTLS",
+                  "Envoy Proxy",
+                  "Prometheus",
+                  "Grafana",
+                  "Jaeger",
+                  "Kiali",
+                  "Helm",
+                  "AWS IAM/RBAC"
+                ],
+                "tags": [
+                  "Cloud",
+                  "Kubernetes",
+                  "Service Mesh",
+                  "AWS",
+                  "Istio",
+                  "Microservices",
+                  "DevOps"
+                ],
+                "leaderships": [
+                  "Led the architecture and implementation of the service mesh framework that supports hundreds of developers on the on-demand platform.",
+                  "Established service mesh best practices and patterns that improved security, observability, and operational efficiency.",
+                  "Mentored platform and development teams on Istio service mesh concepts, traffic management, and security policies."
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Proprietary Environment As Code (EAC/IAC) self-teaching, mentoring and troubleshooting",
+                "description": "Self-taught proprietary infrastructure as code software named Enviornment As Code (EAC) and mentoring teammembers and troubleshooting complex AWS infrastructure configuration issues.",
+                "highlights": [
+                  "Designed and implemented EKS cluster architecture with Istio service mesh for multi-tenant on-demand platform",
+                  "Developed automated framework for dynamic service mesh provisioning and configuration management",
+                  "Implemented mTLS (mutual TLS) for secure service-to-service communication across all microservices",
+                  "Configured Istio VirtualServices and DestinationRules for advanced traffic routing and load balancing",
+                  "Designed and implemented centralized certificate management system for TLS/mTLS certificates",
+                  "Built comprehensive observability stack with distributed tracing, metrics, and logging integration",
+                  "Created Terraform modules for automated EKS and Istio deployment and configuration",
+                  "Implemented service mesh policies for security, rate limiting, and circuit breaking",
+                  "Designed multi-namespace isolation strategy for secure multi-tenant operations",
+                  "Established CI/CD pipelines for automated service mesh configuration updates and deployments"
+                ],
+                "technologies": [
+                  "AWS EKS",
+                  "Istio Service Mesh",
+                  "Kubernetes",
+                  "Terraform",
+                  "TLS/mTLS",
+                  "Envoy Proxy",
+                  "Prometheus",
+                  "Grafana",
+                  "Jaeger",
+                  "Kiali",
+                  "Helm",
+                  "AWS IAM/RBAC"
+                ],
+                "tags": [
+                  "Cloud",
+                  "Kubernetes",
+                  "Service Mesh",
+                  "AWS",
+                  "Istio",
+                  "Microservices",
+                  "DevOps"
+                ],
+                "leaderships": [
+                  "Led the architecture and implementation of the service mesh framework that supports hundreds of developers on the on-demand platform.",
+                  "Established service mesh best practices and patterns that improved security, observability, and operational efficiency.",
+                  "Mentored platform and development teams on Istio service mesh concepts, traffic management, and security policies."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "item-work": {
+          "start-date": "Feb.,2025",
+          "end-date": "Oct.,2025",
+          "position": "Director of Cloud Architecture",
+          "company": {
+            "name": "Biophy",
+            "city": "Cherry Hill, NJ (WFH)",
+            "country": "USA"
+          },
+          "achievements": "As a hands-on director of cloud architecture, I designed and implemented comprehensive infrastructure as code (IaC) by importing existing AWS resources and redesigning them according to AWS best practices. I led the development of a data ingestion and scraping system for an AI-powered RAG platform, following SOLID principles and Clean Architecture patterns. Additionally, I created a custom AWS CloudWatch custom alerting system leveraging Lambda, SQS and SNS for robust monitoring and notification.",
+          "technologies": [
+            "IaC",
+            "Terraform/Terragrunt",
+            "AWS/EC2/EBS/S3/VPC/ALB/Security/R53/IAM/Secrets Manager/Lambda/CloudWatch/EventBridge/SQS/SNS",
+            "Python/DJango/Pydantic",
+            "openAI API/LangChain",
+            "SOLID Principles",
+            "Clean Architecture"
+          ],
+          "projects": [
+            {
+              "item-projects": {
+                "title": "Comprehensive Infrastructure as Code (IaC) Design and Implementation",
+                "description": "Led the transformation of AWS infrastructure to infrastructure as code (IaC), importing and redesigning resources to align with best practices. Developed modular Terraform configurations and established secure, standardized cloud operations.",
+                "highlights": [
+                  "Imported and catalogued existing AWS resources including EC2 instances, VPC configurations, security groups, and IAM policies",
+                  "Redesigned infrastructure architecture following AWS Well-Architected Framework principles",
+                  "Implemented modular Terraform configurations with reusable modules for consistent deployment",
+                  "Established comprehensive security controls including least-privilege IAM policies and network segmentation",
+                  "Created automated validation and testing procedures for infrastructure changes",
+                  "Documented infrastructure patterns and best practices for team adoption"
+                ],
+                "technologies": [
+                  "Terraform",
+                  "AWS EC2/EBS/S3/VPC/ALB/Security/R53/IAM/Secrets Manager",
+                  "Infrastructure as Code",
+                  "AWS Best Practices",
+                  "Security Controls"
+                ],
+                "tags": [
+                  "Cloud",
+                  "Infrastructure",
+                  "AWS",
+                  "Terraform"
+                ],
+                "leaderships": [
+                  "Led the transformation from manual infrastructure management to fully automated IaC practices.",
+                  "Established infrastructure standards and patterns that improved team productivity and security posture.",
+                  "Mentored team members on AWS best practices and Terraform/Terragrunt development."
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "AI-Powered Data Ingestion and Scraping System for RAG",
+                "description": "Architected and delivered a robust data ingestion and scraping platform for AI-powered RAG, applying SOLID and Clean Architecture principles to ensure scalability, maintainability, and high data quality.",
+                "highlights": [
+                  "Architected a modular data ingestion pipeline supporting multiple data sources and formats",
+                  "Implemented intelligent web scraping capabilities with rate limiting and error handling",
+                  "Designed data transformation layers following Clean Architecture principles",
+                  "Built robust error handling and retry mechanisms for data processing failures",
+                  "Implemented comprehensive logging and monitoring for data pipeline health",
+                  "Created automated testing frameworks for data quality and pipeline reliability"
+                ],
+                "technologies": [
+                  "Python/Django/Pydantic",
+                  "openAI API/LangChain",
+                  "SOLID Principles",
+                  "Clean Architecture",
+                  "Data Processing",
+                  "Web Scraping"
+                ],
+                "tags": [
+                  "AI",
+                  "Data Engineering",
+                  "Python",
+                  "RAG"
+                ],
+                "leaderships": [
+                  "Drove the adoption of Clean Architecture and SOLID principles across the data engineering team.",
+                  "Established data quality standards and monitoring practices for AI system reliability.",
+                  "Mentored developers on modern software design patterns and best practices."
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Custom AWS CloudWatch Alerting System with EventBridge, Lambda, SQS and SNS",
+                "description": "Developed a proactive monitoring and alerting system using AWS CloudWatch, Lambda, SQS, and SNS, enabling automated detection and response to critical events across cloud infrastructure.",
+                "highlights": [
+                  "Designed custom CloudWatch metrics and dashboards for comprehensive system visibility",
+                  "Implemented SQS-based message queuing for reliable alert processing and delivery",
+                  "Configured SNS topics and subscriptions for multi-channel notifications (email, SMS, Slack)",
+                  "Built automated response workflows triggered by specific alert conditions",
+                  "Created alert escalation policies based on severity and time-based thresholds",
+                  "Implemented alert correlation and deduplication to reduce alert fatigue"
+                ],
+                "technologies": [
+                  "AWS CloudWatch",
+                  "SQS/SNS",
+                  "Lambda",
+                  "EventBridge",
+                  "Monitoring",
+                  "Alerting"
+                ],
+                "tags": [
+                  "DevOps",
+                  "Monitoring",
+                  "AWS",
+                  "Automation"
+                ],
+                "leaderships": [
+                  "Established comprehensive monitoring and alerting standards across the organization.",
+                  "Reduced mean time to detection (MTTD) and mean time to resolution (MTTR) through proactive monitoring.",
+                  "Trained operations teams on monitoring best practices and incident response procedures."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "item-work": {
+          "start-date": "Dec.,2021",
+          "end-date": "Feb.,2025",
+          "position": "Senior Cloud Engineer II (Associate)",
+          "company": {
+            "name": "McKinsey & Company",
+            "city": "Cherry Hill, NJ (WFH)",
+            "country": "USA"
+          },
+          "achievements": "Migrated and refactored mission-critical mainframe (IBM MQ) event-driven architecture systems to AWS using EventBridge, Lambda, Step Functions, SQS, SNS, CloudWatch, and EKS, and built reusable Terraform monitoring modules and reporting microservices that set operational visibility standards across teams. Led the development of genAI systems with RAG and multi-agents to accelerate mainframe migration to modern technologies, and built genAI solutions with RAG to speed up data pipeline development on PySpark and Databricks; scaled a RAG vectorstore (ChromaDB) for a call center chatbot copilot.",
+          "technologies": [
+            "genAI/openAI/Langchain/RAG/Multi-agents/prompts tuning",
+            "VectorStore/ChromaDB/Milvus",
+            "Python/Flask/FastAPI/Pydantic/Jupyter",
+            "Databricks/pyspark",
+            "Typescript/JavaScript/NodeJs",
+            "Event Driven Architecture (EDA)",
+            "Terraform",
+            "Microservices",
+            "Java/SpringBoot/NodeJs/Python/Flask/FastAPI",
+            "EventBridge/CloudWatch/Lambda/Step Functions",
+            "DynamoDB/RDS/Oracle",
+            "Docker/K8s/EKS/AKS",
+            "Json Schema",
+            "JOI",
+            "OpenAPI/Swagger"
+          ],
+          "projects": [
+            {
+              "item-projects": {
+                "title": "Using genAI (openAI) with RAG (ChromaDB, Milvus) to accelerate the development of data pipelines running on pyspark and databricks",
+                "description": "Designed and implemented a genAI system with RAG (ChromaDB/Milvus) to automate and accelerate the development of data pipelines, enabling seamless transformation of source tables to target tables with varying data structures.",
+                "highlights": [
+                  "Prompts tuning to generate data pipelien pyspark function code and unitest code",
+                  "Design and implement chunking system (by target table or by relationship) to split the large inputs into small chunks to avoid overflowing the openAI API token limit",
+                  "Design and implement parallel calls to openAI API by using asyncio with yield to improve performance",
+                  "Implement FastAPI API to expose source to target data transformation as REST service",
+                  "Design and document the local development and debug workflow by using debugpy with VSC and pycharm"
+                ],
+                "technologies": [
+                  "Langchain/VectoreStore/ChromaDB/Milvus",
+                  "genAI/openAI",
+                  "RAG",
+                  "Python/Pydantic/Asyncio/Flask/FastAPI/Debugpy",
+                  "Typescript/JavaScript/NodeJs",
+                  "Microservice",
+                  "Dockerfile/Docker/Compose",
+                  "PostgreSQL"
+                ],
+                "tags": [
+                  "genAI",
+                  "OpenAI",
+                  "OpenAPI",
+                  "Cloud",
+                  "Microservice",
+                  "REST"
+                ],
+                "leaderships": [
+                  "Spearheaded the integration of genAI and RAG for data pipeline automation, enabling rapid transformation of complex data structures.",
+                  "Mentored engineers on advanced prompt engineering and parallel AI workflow design, raising team proficiency in cutting-edge AI techniques.",
+                  "Established robust local development and debugging standards, improving team productivity and onboarding efficiency."
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Using genAI (openAI) with multi-agents to accelerate the migration of mainfarme to modern technologies",
+                "description": "Built a multi-agent genAI platform to automate and accelerate the migration of mainframe applications to modern technologies, integrating RAG for context-aware transformation and process automation.",
+                "highlights": [
+                  "Core Contributors to genAI system to migrate mainframe frontend technologies (BMS/JSF/JSP) to modern technologies (React/Angular..etc.)",
+                  "Contribute to develop multi-agents genAI system to automate the development/testing/deployment process",
+                  "Contribute to develop RAG system to accelerate the migration process from Cobol to Java by using ChromaDB/Milvus to store the dendepncy context"
+                ],
+                "technologies": [
+                  "Langchain/VectoreStore/ChromaDB/Milvus",
+                  "genAI/openAI",
+                  "RAG",
+                  "Agents/Multi-agents/Autogen",
+                  "Python/FastAPI",
+                  "Typescript/JavaScript/NodeJs",
+                  "Microservice",
+                  "Dockerfile/Docker Compose",
+                  "PostgreSQL"
+                ],
+                "tags": [
+                  "AI",
+                  "OpenAI",
+                  "OpenAPI",
+                  "Cloud",
+                  "Microservice",
+                  "REST"
+                ],
+                "leaderships": [
+                  "Drove the integration of multi-agent genAI systems to automate legacy migration, reducing manual effort and error rates.",
+                  "Collaborated across frontend and backend teams to ensure seamless modernization from mainframe to cloud-native stacks.",
+                  "Championed the use of RAG for context-aware migration, setting a new benchmark for future modernization projects."
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Migration/Refactoring of Mainframe (IBM MQ) EDA system to AWS by using EventBridge/Lambda/Step Function/CloudWatch/EKS/SQS/SNS...etc.",
+                "description": "Engineered and deployed an EKS-based router to integrate AWS EventBridge with external MQ events, providing robust monitoring, reporting, and cloud-native migration for mainframe EDA systems.",
+                "highlights": [
+                  "Develop SpringBoot EKS router to convert XML/XSD to JSON schema and integrate with MQ events",
+                  "Design and implement the monitoring terraform module for all different AWS resources (Lambda, EventBridge, S3, DynamoDB, Step Function..etc.) using cloudwatch metrics",
+                  "Design and implement the reusable report generator using Lambda and EventBridge and deployed as Microservices which can be called to run any custom AWS CloudWatch insights queries in custom schedule"
+                ],
+                "technologies": [
+                  "Java/SpringBoot",
+                  "Terraform",
+                  "Microservice",
+                  "Java/JavaScript",
+                  "EKS",
+                  "AWS/EventBridge/CloudWatch/Lambda",
+                  "XML/XSD/Json/Json Schema",
+                  "DynamoDB",
+                  "RDS/Oracle"
+                ],
+                "tags": [
+                  "Cloud",
+                  "DevOps",
+                  "Infrastructure",
+                  "Microservice"
+                ],
+                "leaderships": [
+                  "Led the end-to-end migration of mission-critical EDA systems to AWS, ensuring zero downtime and robust cloud integration.",
+                  "Developed reusable infrastructure modules, empowering other teams to accelerate their own cloud migration journeys.",
+                  "Instituted comprehensive monitoring and reporting standards, elevating operational visibility and reliability."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "item-work": {
+          "start-date": "Dec.,2020",
+          "end-date": "Dec., 2021",
+          "position": "Staff Engineer",
+          "company": {
+            "name": "Yotascale",
+            "city": "Cherry Hill, NJ (WFH)",
+            "country": "USA"
+          },
+          "achievements": "Led the architecture and hands-on implementation of a high-volume cloud cost analytics, optimization, and management platform spanning AWS, Azure, and GCP. Introduced and enforced an OpenAPI/Swagger design-first microservice methodology as the team standard, designed analytics services on ClickHouse and PostgreSQL, and built the full EKS/Istio/RabbitMQ AWS infrastructure with Terraform/Terragrunt.",
+          "technologies": [
+            "OpenAPI/Swagger",
+            "Microservice",
+            "Java/Kotlin/SpringBoot",
+            "Kubernetes/EKS/AKS",
+            "Istio",
+            "Terraform",
+            "CQRS",
+            "Event Store",
+            "Event Driven Architecture (EDA)",
+            "Kafka/ActiveMQ/IBM MQ",
+            "Kafka Stream",
+            "Docker",
+            "AWS(EC2/IAM/S3/ECS/EKS/ELB/Lambda/RDS/VPC/R53/Secret Manager/AutoScaling/SES..etc)",
+            "Puppet/Chef/Ansible",
+            "Git/Maven/Jenkins",
+            "Python/Bash/Go",
+            "ELK/AppDynamic/Datadog"
+          ],
+          "projects": [
+            {
+              "item-projects": {
+                "title": "Lead Architect and Lead Implementation Engineer for Cloud(AWS/Azure/GCP) Cost Analytics/Optimization/Management platform",
+                "description": "Architected and implemented a cross-cloud cost analytics and optimization platform, enabling organizations to gain actionable insights and manage cloud spending across AWS, Azure, and GCP. Led the design of scalable data pipelines, analytics microservices, and secure infrastructure.",
+                "highlights": [
+                  "Introduce and Build Microservice Design First Methodology and team culture based on OpenAPI/Swagger Specification",
+                  "Design and develop Cost Analytics/Lens Navigation/Lens Management Microservice using SpringBoot with ClickHouse and PostgreSQL as DW and DBMS",
+                  "Design and implement dynamic metadata driven widget/filter configuration Microservice",
+                  "Implement bitbucket CI/CD pipeline to build, deploy Microservices/GraphQL to eks/k8s with Istio",
+                  "Design the AWS infrastructure architecture with EKS/ALB/Istio/S3/SES/R53/ECR/PostgreSQL/RabbitMQ/SFTP",
+                  "Design/Implement terraform templates/scripts to deploy the full AWS infrastructure stack with IAM roles/users",
+                  "Develop terraform templates to deploy ALB controller/RabbitMQ and PostgreSQL by using helm provider",
+                  "Develop terraform templates to deploy k8s' CRDs, Pods, Services, Service Account by using Kubernetes-alpha and Kubernetes providers",
+                  "Design/Develop multiple terraform modules with Terragrunt.hcl to maintain the inputs/outputs dependencies between modules and keep configurations DRY",
+                  "Develop terraform templates to dynamically add R53 zone and records with TLS certificates validations",
+                  "Develop terraform templates to dynamically create S3 buckets with IAM policies to allow k8's service account to assume IAM role to access control using OIDC",
+                  "Develop terraform templates to create SFTP server backed with S3 bucket with IAM role and policy for sftp users",
+                  "Compile Microservice design/development guide lines based on OpenAPI/Swagger Spec",
+                  "Implement Junit test cases with local docker test containers",
+                  "Develop common multiple DBMS (ClickHouse and PostgreSQL) access lib with AWS secrets manager",
+                  "Implement json schema validation using open source"
+                ],
+                "technologies": [
+                  "Cloud Cost Analytics/Optimization/Management",
+                  "OpenAPI/Swagger",
+                  "Microservice",
+                  "Java/Kotlin/Python",
+                  "Spring/SpringBoot/Flask",
+                  "Kubernetes/EKS/AKS/GKS",
+                  "Terraform/Terragrunt/Ansible",
+                  "AWS/EC2/EBS/S3/VPC/Security/R53/IAM/Secrets Manager/Lambda",
+                  "Service Mesh/Istio/Envy",
+                  "Helm/Chart",
+                  "RabbitMQ",
+                  "Azure/GCP",
+                  "Junit/Test Containers",
+                  "Docker/Minikube"
+                ],
+                "tags": [
+                  "Cloud",
+                  "DevOps",
+                  "Infrastructure",
+                  "Microservice"
+                ],
+                "leaderships": [
+                  "Architected a cross-cloud cost analytics platform, aligning technical vision with business goals for multiple stakeholders.",
+                  "Introduced and enforced microservice design-first culture, elevating team standards and delivery quality.",
+                  "Mentored engineers in infrastructure-as-code and CI/CD best practices, fostering a culture of automation and reliability."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "item-work": {
+          "start-date": "Mar.,2020",
+          "end-date": "Nov., 2020",
+          "position": "Technical Infrastructure/Devops Architect",
+          "company": {
+            "name": "Gigster Inc.",
+            "city": "Cherry Hill, NJ",
+            "country": "USA"
+          },
+          "achievements": "Architected and delivered a Node.js microservices and event-driven platform on AWS EKS, with RabbitMQ for asynchronous communication and PostgreSQL for persistence. Designed the complete AWS infrastructure as code with Terraform/Terragrunt, including ALB ingress, IAM/OIDC service-account access control, and fully automated CI/CD, enabling scalable, reproducible deployments for distributed systems.",
+          "technologies": [
+            "Microservice",
+            "NodeJs",
+            "Kubernetes/EKS",
+            "Terraform",
+            "RabbitMQ/ActiveMQ",
+            "Docker",
+            "AWS(EC2/IAM/S3/EKS/ALB/RDS/VPC/R53/AutoScaling/SES/ECR..etc)",
+            "Puppet/Chef/Ansible",
+            "Git/Maven/Jenkins",
+            "JavaScript"
+          ],
+          "projects": [
+            {
+              "item-projects": {
+                "title": "Images manipulation/detection software evaluation system",
+                "description": "Led the architecture and implementation of an image manipulation and detection evaluation platform using microservices and event-driven architecture on AWS EKS. Automated infrastructure provisioning and deployment pipelines for scalable, efficient operations.",
+                "highlights": [
+                  "Design and implement AWS infrastructure for Microservices (NodeJs) and EDA within EKS cluster",
+                  "Design and implement fully automated AWS stack in IaaS git repo by using terraform/terragrunt/bash",
+                  "Develop terraform scripts/modules to dynamically deploy/configure multiple Microservices with pods/containers/services to EKS cluster by using kubernetes terraform provider",
+                  "Develop terraform scripts to deploy/configure AWS ALB as eks ingress controller  by using helm terraform provider",
+                  "Develop terraform scripts to customize IAM role/policy, k8s SA(service account) and CRD (Custom Resources Descriptor) for ALB Ingress Controller by using Kubernetes-alpha terraform provider",
+                  "Develop terraform templates to deploy RabbitMQ and PostgreSQL by using terraform helm provider",
+                  "Design/Develop multiple terraform modules with Terragrunt.hcl to maintain the inputs/outputs dependencies between modules and keep configurations DRY",
+                  "Develop terraform templates to dynamically add R53 zone and records with TLS certificates validations",
+                  "Develop terraform templates to dynamically create S3 buckets with IAM policies to allow k8's service account to assume IAM role to access control using OIDC",
+                  "Develop terraform templates to create SFTP server backed with S3 bucket with IAM role and policy for sftp users",
+                  "Develop terraform templates to dynamically create IAM user with customized group and policies"
+                ],
+                "technologies": [
+                  "Cloud Cost Analytics/Optimization/Management",
+                  "OpenAPI/Swagger",
+                  "Microservice",
+                  "Java/Kotlin/Python",
+                  "Spring/SpringBoot/Flask",
+                  "Kubernetes/EKS/AKS/GKS",
+                  "Terraform/Terragrunt/Ansible",
+                  "AWS/EC2/EBS/S3/VPC/Security/R53/IAM/Secrets Manager/Lambda",
+                  "Service Mesh/Istio/Envy",
+                  "Helm/Chart",
+                  "RabbitMQ"
+                ],
+                "leaderships": [
+                  "Designed and implemented a fully automated cloud infrastructure, setting a new standard for deployment efficiency.",
+                  "Enabled rapid scaling and reproducibility by modularizing infrastructure as code, empowering future project teams.",
+                  "Provided hands-on mentorship in DevOps automation, upskilling team members in Terraform and Kubernetes."
+                ],
+                "tags": [
+                  "Cloud",
+                  "DevOps",
+                  "Infrastructure",
+                  "Microservice"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "item-work": {
+          "start-date": "Jun.,2017",
+          "end-date": "Feb., 2020",
+          "position": "VP,Lead Architect Engineer",
+          "company": {
+            "name": "Barclays",
+            "city": "Wilmington, DE",
+            "country": "USA"
+          },
+          "achievements": "Owned technical standards and design quality for the distributed systems technology domain across the group: authored the microservices architecture handbook, ran architecture reviews managing technical debt and reuse, evaluated ~200 products/technologies to set invest/divest positions, and led a ~30-member working group to drive alignment on technology strategy. Directed the cloud adoption journey migrating on-premises enterprise systems to AWS, spanning microservices, event-driven architecture, message transports, integration, and event stream processing.",
+          "technologies": [
+            "Terraform",
+            "CQRS",
+            "Event Store",
+            "Event Driven Architecture (EDA)",
+            "Kafka/ActiveMQ/IBM MQ",
+            "Kafka Stream",
+            "Docker",
+            "AWS(EC2/IAM/S3/ECS/EKS/ELB/Lambda/RDS/VPC/R53/Secret Manager/AutoScaling/SES..etc)",
+            "Puppet/Chef/Ansible",
+            "Git/Maven/Jenkins/Bamboo",
+            "Python/Ruby/Scala/Bash/Go",
+            "ELK/AppDynamic",
+            "DynamoDB/MongoDB/ElasticCache/GridGain",
+            "Linux/Windows/AIX/Solaris",
+            "aPaaS/VMWare/Citrix"
+          ],
+          "projects": [
+            {
+              "item-projects": {
+                "title": "Delivery Lead for strategic distributed system technology domain",
+                "description": "Directed the architecture and technology strategy for distributed systems, microservices, event-driven architecture, and stream processing, driving innovation and technology transformation across the organization.",
+                "highlights": [
+                  "End to End Architecture; guiding solution architecture; developing design patterns Architecture Reviews - identifying reuse opportunities, manage technical debt Monitoring emerging technologies, industry trends and their applicability to the enterprise Capability roadmap and heatmap Drive/Foster Innovation Influencing Strategic Planning",
+                  "Drive technology transformation from on-premises to public cloud, multi-tiers monolithic to cloud-native Microservice system, strong ACID to BASE data consistency, Sync/Request/RPC driven to Async/Event driven architecture, tight coupling to loose coupling, ETL/Batch/Time to realtime streaming processing, vendor locked to resilient commodity system, vendor favor to OSS, vertical scaling to horizontal scaling",
+                  "Establish group-wide distributed system architecture and technology strategy",
+                  "Build PoC and Reference Architecture for common use cases for distributed system",
+                  "Evaluate around 200 existing products/technologies and decide the invest/divest house positions",
+                  "Create the architecture handbook for Microservice as group-wide guidance for solution Architect",
+                  "Contribute to and review the architecture handbook for EDA, Stream Processing and Integration",
+                  "Design vendor and technology selection and design principles/standards and best practices for the domain",
+                  "Review and approve the new request for product/technology in the domain",
+                  "Maintain the scope document and product list for the domain",
+                  "Develop the roadmap to adopt new products/technology and decommission legacy products/technology",
+                  "Lead working group (~30 members) forum to discuss and make decision on technology strategies"
+                ],
+                "technologies": [
+                  "Technology strategic Design and Stewardship",
+                  "Distributed system",
+                  "Domain Driven Design",
+                  "Microservice",
+                  "ACID/BASE",
+                  "(Event) Stream /Batch Processing",
+                  "Event Driven Architecture (EDA)",
+                  "Message Transports (Kafka, ActiveMQ, IBM MQ)",
+                  "Data Integration (ETL/ELT)",
+                  "Compensating transactions/Sagas",
+                  "JMS/AMQP",
+                  "Resilience and Performance",
+                  "CQRS/SOA",
+                  "CAP"
+                ],
+                "leaderships": [
+                  "Directed a cross-functional working group to define and execute the distributed systems technology strategy.",
+                  "Authored the architecture handbook for microservices, influencing solution design across the organization.",
+                  "Drove technology transformation initiatives, guiding teams through cloud adoption and event-driven architecture."
+                ],
+                "tags": [
+                  "Technology Strategy",
+                  "Technology Stewardship",
+                  "Technology Strategic Architecture"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Group-wide Cloud Adoption for Contact Center, Merchant Services and Fraud",
+                "description": "Led cloud assessment and migration strategy for hundreds of on-premises applications, providing technical guidance and troubleshooting to ensure successful adoption of AWS cloud architecture.",
+                "highlights": [
+                  "Build python automation tools to access AWS secret manager via boto3",
+                  "Using python boto3 to build tools to dynamically manipulate the IAM policies, roles and users",
+                  "Using terraform to dynamically deploy whole AWS infrastructure including EKS, IAM, DNS, ALB, S3 ...etc.",
+                  "Building and maintaining the EKS cluster via terraform and k8s yaml",
+                  "Defined and designed cloud strategy and roadmap/journey for Merchant services, Fraud and Contact Center",
+                  "Ensured ~500 on-premises application cloud migration journey",
+                  "Assess ~500 on-premises applications to determine the cloud migration readiness",
+                  "Provide guidance to application team to design cloud migration architecture",
+                  "Guide the .NET system to AWS migration",
+                  "Consulting to migration on-premises system to AWS ECS",
+                  "Collect system data from Abacus, ServiceFirst query and repo tools"
+                ],
+                "technologies": [
+                  "AWS",
+                  "EC2",
+                  "RDS",
+                  "S3",
+                  "ECS",
+                  "VPC",
+                  "ACL/Security Group/Routing table",
+                  "ELB/NLB/ALB",
+                  "Private Link",
+                  "EBS"
+                ],
+                "leaderships": [
+                  "Led the assessment and migration of 500+ on-premises applications to AWS, ensuring business continuity.",
+                  "Developed cloud migration roadmaps and provided hands-on guidance to application teams.",
+                  "Championed automation of cloud infrastructure, reducing manual errors and accelerating delivery."
+                ],
+                "tags": [
+                  "AWS",
+                  "Architecture",
+                  "Cloud"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "item-work": {
+          "start-date": "May, 2014",
+          "end-date": "June, 2017",
+          "position": "Lead Software Engineer",
+          "company": {
+            "name": "Oracle",
+            "city": "Redwood, CA (WFH@NJ)",
+            "country": "USA "
+          },
+          "achievements": "The Cloud Connectivity software engineering team is responsible to develop the Cloud Integration Connectivity SDK and Java Connectors which enable the SOA Suite and Oracle Integration Cloud Service (ICS) connectivity to any Oracle internal or external SaaS or On-Premises Enterprise Applications.",
+          "technologies": [
+            "Java",
+            "SOA",
+            "Web Services",
+            "SOAP/WSDL",
+            "REST/JSON/XML",
+            "XSchema/XSD",
+            "DOM",
+            "WSDL4J",
+            "SDK",
+            "API",
+            "MVC",
+            "Docker",
+            "Cloud",
+            "Amazon EC2",
+            "NoSQL",
+            "GIT",
+            "Maven",
+            "Junit",
+            "SoapUI",
+            "IaaS",
+            "SaaS",
+            "AWS"
+          ],
+          "projects": [
+            {
+              "item-projects": {
+                "title": "Docker Swarm/Compose/Stack CD/CI Test Environment for  Cloud SDK/APIs/Connectors",
+                "description": "Pioneered the use of Docker Swarm, Compose, and Stack to create scalable, automated CI/CD test environments for cloud SDKs, APIs, and Java connectors, streamlining development and testing workflows.",
+                "highlights": [
+                  "Designed and setup complex Docker containers network with Overlay and MACVLAN drivers ",
+                  "Created Dockerfile to build WebLogic docker images with different external modules and libraries",
+                  "Built Docker Hosts in Oracle Cloud VMs, Amazon EC2 and local VirtualBox by using Docker Machine",
+                  "Designed and built the pool of Docker Cluster Environment by using Docker Swarm",
+                  "Created Docker Stack file and deploy the service stack for multiple Microservice",
+                  "Developed docker-compose.yml files with extending services for the full service stack including dependency Web Services, DBMS, NoSQL and JMS",
+                  "Researched and prototyped the Docker Swarm and Docker Compose integration"
+                ],
+                "technologies": [
+                  "Docker",
+                  "Docker Machine",
+                  "Docker Compose",
+                  "Docker Swarm",
+                  "Docker Stack",
+                  "Docker CLI (Rest APIs)",
+                  "WebLogic",
+                  "Oracle Cloud VMs",
+                  "AWS",
+                  "JMS",
+                  "NoSQL (Cassandra)",
+                  "DBMS (MySQL and PostgreSQL)"
+                ],
+                "leaderships": [
+                  "Pioneered the adoption of containerization for CI/CD environments, reducing setup time and increasing test reliability.",
+                  "Developed reusable Docker orchestration templates, enabling rapid prototyping for SDK and connector teams.",
+                  "Trained team members on advanced Docker networking and orchestration concepts."
+                ],
+                "tags": [
+                  "devops",
+                  "cloud",
+                  "infrastructure",
+                  "platform",
+                  "containers",
+                  "OpenSource",
+                  "Linux",
+                  "Unix"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Cloud Enterprise Applications Integration(EAI) connectivity SDK/API plugin framework for Oracle SOA Suite",
+                "description": "Developed a robust SDK and plugin framework for seamless integration between Oracle SOA Suite and a wide range of SaaS and on-premises enterprise applications, enhancing connectivity and extensibility.",
+                "highlights": [
+                  "Designed and implemented the WSDL regeneration framework by rebuilding the internal data model (DOM) from the persisted integration flow artifacts files (JCA, WSDL and XSD) and the remote custom data",
+                  "Designed and implemented new APIs for the SDK to provide cache and pagination abilities for the backend persistent layer",
+                  "Designed and implemented NLS and localization framework for displayable strings within the SDK",
+                  "Troubleshoot the WSDL/XSD generation issues related to complex mixing namespaces and prefixes",
+                  "Develop utility methods to handle the namespaces and prefixes conflicts while combining the importing external schema to a single WSDL file",
+                  "Develop recursive logic to follow the XML element types to embed the undefined data structure if it has the same target namespace or create new schema if it has different target namespace",
+                  "Dynamically and Programmatically generate or regenerate the simplified integration WSDL from large set of source WSDL, schema XSD files and fresh custom data by using XDK/JAXP/WSDL4J/DOM",
+                  "Programmatically manipulate the single WSDL file generation from the source WSDL and schema XSD files with external schema file importing",
+                  "Programmatically handle the anonymous Complex and Simple XSD type for the integration WSDL generation and regeneration",
+                  "Design and test Oracle RCU DB descriptive XML files for new DB tables/sequences with primary and foreign keys",
+                  "Worked together with different connector development teams to joint debug the WSDL regeneration related issues",
+                  "Train and transfer knowledge for the WSDL regeneration framework to geographically distributed connector development teams"
+                ],
+                "technologies": [
+                  "Java",
+                  "SOA",
+                  "SOAP/REST",
+                  "WSDL/JSON",
+                  "XML",
+                  "XML Schema",
+                  "API",
+                  "SDK",
+                  "IaaS",
+                  "RCU",
+                  "JCA",
+                  "XDK",
+                  "JAXP",
+                  "WSDL4J",
+                  "DOM",
+                  "WS-Security",
+                  "Jersey REST/JSON",
+                  "MVC",
+                  "ADF",
+                  "NLS/L10",
+                  "Oracle DB",
+                  "Jira",
+                  "Agile",
+                  "ADE",
+                  "GIT",
+                  "Maven",
+                  "Junit",
+                  "XMLUnit",
+                  "SoapUI",
+                  "OSC",
+                  "ERP",
+                  "HCM",
+                  "RightNow"
+                ],
+                "tags": [
+                  "Java",
+                  "Enterprise Applications Integration",
+                  "Web Services",
+                  "SDK",
+                  "API",
+                  "SOA"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Oracle Fusion Applications (FA) Business Event/Message-Driven Connector Framework",
+                "description": "Engineered a business event and message-driven connector framework for Oracle Fusion Applications, enabling real-time event discovery, filtering, and integration with external systems.",
+                "highlights": [
+                  "Design and implement the business event connector for FA (OSC/ERP/HCM)",
+                  "Build the design time web UI using the Oracle Web UI SDK which is building on the top of ADF",
+                  "Design and Implement the Business Event Connector Runtime  ",
+                  "Programmatically manipulate the payload to align with the changed schema in the integration WSDL  ",
+                  "Design and implement the custom event based on the generic event concepts ",
+                  "Programmatically replace the xsi:anyType generic object type with the concrete object type selected by the end user from the web UI"
+                ],
+                "technologies": [
+                  "Java",
+                  "FA",
+                  "OSC/ERP/HCM",
+                  "WSDL/SOAP",
+                  "REST",
+                  "JSON",
+                  "XSI",
+                  "XML Schema",
+                  "XDK",
+                  "JAXP",
+                  "WSDL4J",
+                  "DOM",
+                  "WS-Security",
+                  "Jersey REST/JSON",
+                  "MVC",
+                  "ADF",
+                  "ADE",
+                  "Maven",
+                  "Junit",
+                  "XMLUnit",
+                  "SoapUI"
+                ],
+                "leaderships": [
+                  "Architected a business event connector framework, enabling real-time integration for enterprise applications.",
+                  "Drove the adoption of event-driven patterns, empowering teams to build scalable, asynchronous integrations.",
+                  "Mentored developers on advanced payload manipulation and schema evolution."
+                ],
+                "tags": [
+                  "Java",
+                  "Enterprise Applications Integration",
+                  "Event"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "item-work": {
+          "start-date": "Oct. 2010",
+          "end-date": "Apr. 2014",
+          "position": "Senior Cloud DevOps/Infrastructure Automation Engineer",
+          "company": {
+            "name": "Comcast T&P",
+            "city": "Philadelphia, PA",
+            "country": "USA"
+          },
+          "achievements": "As a senior engineer in BITT(Build Integration Test Team), provided DevOps support for multiple development teams and supporting the developers for SDLC infrastructure system design/implementation, and Build/Release/Deployment/SCM/CI automation., designed, developed and implemented the AutoBuild system, OpenSource performance monitoring system for the SDLC systems, two steps bare-metal Linux bootstrap system for HP servers, Linux HA Clusters for SCM/Maven/CI/Crowd servers, Ruby/Rails software system maintenance and improvement. Managed the SCM(Gerrit/Subversion), CI(Bamboo/Jenkins) and maven repo (Nexus and Artifactory) system. Designed and developed automation scripts (bash/ruby) to improve work efficiency. Led and Trained junior team members.",
+          "technologies": [
+            "DevOps",
+            "Automation",
+            "Docker",
+            "CoreOS",
+            "Ruby",
+            "Ruby on Rails 3",
+            "Bash",
+            "SDLC",
+            "GIT",
+            "Maven",
+            "Jira/Confluence",
+            "Bamboo/Jekins/Hudson",
+            "Nexus/Artifactory",
+            "Gerrit",
+            "CI/CD",
+            "Performance Monitoring",
+            "Splunk",
+            "JMX",
+            "Capistrano",
+            "PXE/TFTP",
+            "DHCP",
+            "DNS",
+            "Cobbler",
+            "Centos",
+            "MySQL/PostgreSQL",
+            "NoSQL",
+            "Cassandra",
+            "RabbitMQ",
+            "JMS",
+            "LDAP",
+            "SSO",
+            "Metrics",
+            "Graphite",
+            "Agile",
+            "RPC",
+            "Cloud",
+            "Clustering",
+            "Linux HA",
+            "HAProxy",
+            "Pacemaker/Corosync/Cman",
+            "SAN",
+            "GFS2",
+            "RAC",
+            "Volume Manager"
+          ],
+          "projects": [
+            {
+              "item-projects": {
+                "title": "AutoBuild System for Build/Release more than 200 Microservice projects with GIT/SVN/Maven",
+                "description": "Developed and automated the AutoBuild system to streamline build, release, and dependency management for over 200 microservice projects, reducing release cycles from days to hours.",
+                "highlights": [
+                  "Design and implement the error handling and logging system for ruby bash commands",
+                  "Implement build dependency graph (directed acyclic graph - DAG) using RGL for more than 200 projects",
+                  "Refactoring autoBuild to adapt to much large organization development practices",
+                  "Design and implement the whole AutoBuild system",
+                  "Using ruby and bash scripts wraps multiple manual steps to automate the whole branching and tagging process",
+                  "Modify maven versions plugin to fix the bug which cannot update the dependency version property variables and the bug which cannot update the latest snapshot version to the latest released version",
+                  "Detect and update the dependency versions in pom.xml automatically using maven versions plugin and maven repo servers REST API",
+                  "Design and implement the branching/tagging process",
+                  "Developed ruby/bash scripts to lock/unlock remote GIT branch in Gerrit server during branching and cutting tags period",
+                  "Design code standards and rule to follow AutoBuild conventions for developers",
+                  "Applied convention over configuration for AutoBuild system",
+                  "Develop ruby scripts to post json message to a BOM management system to allow the artifacts ready to deploy",
+                  "Develop automation script to post message to Jira and Confluence page using Atlassian Jira-cli and Confluence-cli",
+                  "Develop bamboo scripts using bamboo command-cli to create plans from git/svn repos automatically",
+                  "Install and configure Bamboo, Nexus, Artifactory, Crowd/OpenID, Gerrit and Subversion servers.",
+                  "Maintain Ruby/Rails BOM management system",
+                  "Setup maven release, versions, toolchains, dependencies ...etc. plugins"
+                ],
+                "technologies": [
+                  "Ruby/Rails",
+                  "gems",
+                  "Bash",
+                  "Maven",
+                  "GIT",
+                  "SVN",
+                  "Bamboo/Jira/Confluence CLI",
+                  "Nexus/Artifactory REST/XML",
+                  "SDLC",
+                  "CI/CD",
+                  "Gerrit/Subversion",
+                  "MySQL/PostgreSQL",
+                  "Crowd/OpenID",
+                  "Capistrano"
+                ],
+                "leaderships": [
+                  "Invented and led the development of the AutoBuild system, reducing release cycle time from days to hours.",
+                  "Established code standards and conventions for automated build and release processes.",
+                  "Enabled organization-wide adoption of automated dependency management and versioning."
+                ],
+                "tags": [
+                  "devops",
+                  "automation",
+                  "CI",
+                  "CD",
+                  "Scripts"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Configuration management and deployment automation with Puppet and Capistrano",
+                "description": "Implemented configuration management and deployment automation using Puppet and Capistrano, eliminating manual errors and accelerating application delivery across environments.",
+                "highlights": [
+                  "Setup puppet master server and agent in Linux Centos for DevOps and CI/CD environments",
+                  "Designed and implemented develop/build/deployment process for the puppet templates files by using GIT",
+                  "Developed puppet templates file for linux os patch and lib yum installation and updates",
+                  "Developed capistrano deployment automation tasks and functions used by operation team for production deployment",
+                  "Maintained and troubleshooting complex configuration and deployment automation issue within Capistrano and Puppet",
+                  "Developed puppet templates and capistrano tasks to automate the configuration and deployment process for Microservice with Dev/CI/CD environments",
+                  "Developed Capistrano tasks to automate the Liferay deployment to Dev/QA/Staging/Prod environments with JDBC driver configuration to Oracle DB Server 11g"
+                ],
+                "technologies": [
+                  "Puppet",
+                  "Capistrano",
+                  "Ruby",
+                  "bash",
+                  "CI/CD",
+                  "GIT",
+                  "Maven",
+                  "Perl",
+                  "Python"
+                ],
+                "leaderships": [
+                  "Introduced configuration management automation, eliminating manual errors in deployment.",
+                  "Developed reusable deployment tasks, empowering operations teams to manage complex environments.",
+                  "Provided training and documentation for DevOps best practices."
+                ],
+                "tags": [
+                  "devops",
+                  "Scripts",
+                  "Automation",
+                  "Linux",
+                  "CI/CD"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Continuous Integration (CI) and Continuous Deployment (CD) with Bamboo and Jenkins",
+                "description": "Standardized and automated CI/CD pipelines for 200+ microservices using Bamboo and Jenkins, improving release reliability and developer productivity.",
+                "highlights": [
+                  "Designed and implemented the CI/CD clustering environments using Bamboo and Jenkins for all different development and release branches",
+                  "Developed automation scripts using Ruby/Bash/Perl/Python to launch the CI/CD environments with complex dependencies for more than 200 Microservice",
+                  "Developed automated integration scripts to integrated Bamboo/Jenkins with Jira/Confluence, GIT/Maven repo",
+                  "Designed and implemented complex tasks/jobs chains/pipeline with trigger or events",
+                  "Maintained and Troubleshooted complex CI/CD issues within the clustering environments with multiple Subsystems for more than 200 Microservice",
+                  "Developed automation scripts to automatically create Bamboo tasks from git repo and capistrano",
+                  "Developed Capistrano automation tasks to deploy Microservice stack with multiple Microservice to Dev/QA/Staging/Prod",
+                  "Developed Capistrano tasks to generate configuration file for HAProxy automatically",
+                  "Setup Bamboo and Jenkins Servers Cluster with multiple remote agents/nodes as the build/deployment servers"
+                ],
+                "technologies": [
+                  "CI/CD",
+                  "Bamboo",
+                  "Jenkins",
+                  "Ruby",
+                  "Bash",
+                  "Python",
+                  "GIT",
+                  "Maven",
+                  "Jira/Confluence"
+                ],
+                "leaderships": [
+                  "Standardized CI/CD pipelines across 200+ microservices, improving release consistency and reducing deployment errors.",
+                  "Automated integration between build systems and project management tools, streamlining developer workflows.",
+                  "Mentored junior engineers in best practices for automation and pipeline design."
+                ],
+                "tags": [
+                  "devops",
+                  "Scripts",
+                  "Automation",
+                  "CI/CD",
+                  "Linux"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Performance Monitoring System for Jetty, JVM, Linux and Splunk",
+                "description": "Designed and integrated a comprehensive performance monitoring system for JVM, Linux, and Splunk, enabling proactive detection and resolution of system bottlenecks.",
+                "highlights": [
+                  "Designed the whole monitoring system using open source projects such as graphite, gdash, metricsd, stated, jmxtrans and god...etc.",
+                  "Developed UDP metrics connectors and ruby splunk searcher to collect splunk stats",
+                  "Developed UDP connection for open source project jmxtrans, metricsd by using Java and Scala",
+                  "Developed Capistrano task to dynamically generate gdash templates for the metrics graphs and jmxtrans configuration files.",
+                  "Developed scripts manage the ruby processes by using open source God project",
+                  "Fixed the bug cannot listing the jmx attributes in details for open source project jmxsh"
+                ],
+                "technologies": [
+                  "Metrics",
+                  "graphite",
+                  "jmx",
+                  "splunk",
+                  "Ruby",
+                  "splunk-ruby-SDK",
+                  "performance monitoring",
+                  "UDP",
+                  "Capistrano",
+                  "god",
+                  "bash",
+                  "gdash",
+                  "graphite",
+                  "statsd",
+                  "metricsd"
+                ],
+                "leaderships": [
+                  "Unified disparate open-source tools into a single, cohesive monitoring platform, enabling proactive performance management.",
+                  "Led the integration of custom metrics connectors, providing deep visibility into JVM and OS health.",
+                  "Mentored team members on advanced monitoring and troubleshooting techniques."
+                ],
+                "tags": [
+                  "devops",
+                  "performance monitoring",
+                  "Scripts",
+                  "Automation",
+                  "Java",
+                  "JVM",
+                  "Unix",
+                  "Linux"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Secured FTP server with virtual users and admins users with complex access permissions",
+                "description": "Engineered a secure FTP/SFTP environment with advanced user and group access controls, automating user management and improving security compliance.",
+                "highlights": [
+                  "Setup vsftp server with virtual ftp only user which can only do ftp access and do not have local account associated",
+                  "Setup sftp server with admin users which are chrooted such that they do not have access to the files",
+                  "Setup the hybrid users with both ftp and sftp access",
+                  "Modified open source vuser administration bash scripts to adapt to the special requirements",
+                  "Developed script to sync the virtual user and local user for the hybrid user account",
+                  "Setup complex user and group permission to do access control for different users"
+                ],
+                "technologies": [
+                  "ftp",
+                  "sftp",
+                  "chroot",
+                  "bash",
+                  "linux",
+                  "user/group unix permission",
+                  "sshd"
+                ],
+                "tags": [
+                  "devops",
+                  "Scripts",
+                  "Automation",
+                  "Linux"
+                ],
+                "leaderships": [
+                  "Engineered a secure, multi-user FTP/SFTP environment, balancing usability with strict access controls.",
+                  "Automated user and group management, reducing administrative overhead and improving security compliance.",
+                  "Documented complex permission structures for future maintainers."
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "BOM (Bill Of Materials) Administration and Management Application (BAMA) Enhancement and maintenance",
+                "description": "Enhanced and maintained the BAMA system for automated deployment and management of microservices, introducing customizable deployment features and integration with CI/CD tools.",
+                "highlights": [
+                  "Installed and configured Ruby on Rails 3 for BAMA for different environments with Delayed_jobs, Websocket server",
+                  "Developed the Enhancement feature for BAMA to enable customization of list of Microservice deployment to different systems",
+                  "Developed Rails3 ActiveRecord DB Migration scripts to add new columns to the DB tables",
+                  "Developed Rail3 Model, View, Controller, Routes, Websocket and Validation jobs",
+                  "Developed Websocket server customized startup script",
+                  "Developed scripts to integrate Capistrano and BOM GIT repo and BAMA together to deploy Microservice with matching versions for Dev/QA/Staging/Prod environments",
+                  "Developed automation ruby scripts to post JSON message to BAMA for the released artifacts",
+                  "Developed scripts to upload artifacts to Maven Repo (Artifactory and Nexus) by using their REST APIs",
+                  "Setup SSO (Single-Sign-On) for BAMA with Atlassian Crowd ID and LDAP-based Authentication"
+                ],
+                "technologies": [
+                  "Ruby",
+                  "RoR 3",
+                  "Rails 3",
+                  "ActiveRecord",
+                  "ActionView",
+                  "ActionController",
+                  "ActionMailer",
+                  "Websocket",
+                  "linux",
+                  "JSON",
+                  "Capistrano"
+                ],
+                "leaderships": [
+                  "Enhanced deployment automation for 200+ microservices, streamlining environment management.",
+                  "Introduced customizable deployment features, empowering users to tailor release processes.",
+                  "Provided cross-functional training on Ruby on Rails and deployment automation."
+                ],
+                "tags": [
+                  "devops",
+                  "RoR 3",
+                  "Scripts",
+                  "Automation",
+                  "Linux"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Two Steps bare-metal Linux bootstrap system for HP Servers",
+                "description": "Developed a two-phase, fully automated Linux server bootstrap system for HP hardware, enabling zero-touch provisioning and configuration.",
+                "highlights": [
+                  "Design the two steps bootstrap system using tftp/pxe/dhcp and cobbler",
+                  "Statically build netstat tool using make/gcc to run it in HP-Toolkit with limited dynamic libraries",
+                  "Developed a XMLRPC bash client to remotely connect back to the DHCP/cobbler server to add a new system from the bare-metal box during the first boot",
+                  "Modify the bootstrap script for the first boot to collect the mac-address and parse a boot configure file to add a new system to cobbler server.",
+                  "Physically upgrade the memory, disks and fusion IO adapter for HP blade servers",
+                  "Setup ILO and IPMI",
+                  "Configure disk-array and virtual storage management (lvm, pv and vg..etc.)"
+                ],
+                "technologies": [
+                  "TFTP",
+                  "PXE",
+                  "DHCP",
+                  "DNS",
+                  "cobbler",
+                  "RPC",
+                  "xml",
+                  "bash",
+                  "ILO 3",
+                  "IPMI",
+                  "LVM",
+                  "HP Servers",
+                  "CentOS 6"
+                ],
+                "tags": [
+                  "devops",
+                  "automation",
+                  "Scripts",
+                  "Unix",
+                  "Linux"
+                ],
+                "leaderships": [
+                  "Designed a two-phase, fully automated server bootstrap process, reducing manual provisioning time.",
+                  "Developed custom scripts for dynamic system registration and configuration, enabling true zero-touch deployment.",
+                  "Trained operations staff on advanced PXE, DHCP, and cobbler automation."
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Linux HA for Git Repo(Gerrit) and Maven Repo (Artifactory/Nexus) Servers",
+                "description": "The two nodes Linux HA cluster is for Git repo (Gerrit) / Maven Repo(Artifactory and Nexus) master/slave failover system. Using pacemaker/corosync/cman or keepalived/haproxy, it setup Gerrit, artifactory/Nexus master/slave automatically failover cluster with PostgreSQL/RAC and GFS2 over SAN / DRBD as backend DBMS and distributed file system.",
+                "highlights": [
+                  "Design Linux HA master/slave failover cluster for Gerrit, Artifactory.",
+                  "Configure pacemaker/corosync/cman for two-nodes cluster",
+                  "Create Pacemaker resources and constraints for the services using pcs",
+                  "Setup and configure  keepalived and haproxy for Nexus, artifactory",
+                  "Developed HAProxy initd scripts to automatically failover to the latest good configure file if capistrano generate incorrect config file",
+                  "Setup Distributed filesystem GFS2 over SAN(Multipath) and DRBD",
+                  "Developed keepalived check scripts for Nexus and artifactory",
+                  "Setup PostgreSQL master/slave cluster over SAN",
+                  "Setup LVM over SAN",
+                  "Setup OpenID authentication for Gerrit",
+                  "Setup Gerrit cluster over SAN and PostgreSQL",
+                  "Setup Artifactory Cluster over SAN and RAC",
+                  "Setup Nexus Cluster via replication scripts with rsync",
+                  "Setup Gerrit OpenID authentication with Atlassian crowd backend with Multiple LDAP servers"
+                ],
+                "technologies": [
+                  "Pacemaker",
+                  "Corosync",
+                  "Cman",
+                  "Keepalived",
+                  "HAProxy",
+                  "GFS2",
+                  "DRBD",
+                  "SAN",
+                  "Gerrit",
+                  "Artifactory",
+                  "Nexus",
+                  "PostgreSQL",
+                  "OpenID",
+                  "LDAP",
+                  "Crowd"
+                ],
+                "tags": [
+                  "devops",
+                  "Linux HA",
+                  "Platform",
+                  "Clustering",
+                  "Linux",
+                  "Unix"
+                ],
+                "leaderships": [
+                  "Architected a high-availability cluster for critical SCM and artifact repositories, ensuring business continuity.",
+                  "Automated failover and recovery processes, minimizing downtime during incidents.",
+                  "Standardized HA deployment patterns for future infrastructure projects."
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Automation scripts and tools for DevOps",
+                "description": "Created a suite of automation tools and scripts to streamline DevOps workflows, improve efficiency, and reduce manual toil across the SDLC.",
+                "highlights": [
+                  "Develop migration tools to migrate git repos from different remote git repos(Gerrit, stash and gittorious) to new Gerrit server",
+                  "Develop scripts to find the largest commit object and rewrite git history to improve git performance",
+                  "Develop Gerrit/git hooks for rally and jira",
+                  "Develop multiple automation tools using confluence, jira and bamboo CLI",
+                  "Developed tools to automatically build the source dependency tree and branch/tagging parallel",
+                  "Maintain configuration management tool Capistrano and automate the environment and service configuration ",
+                  "Using Puppet to automate the system level configuration",
+                  "Developed Nexus replication scripts from master to slave automatically with keepalived",
+                  "Developed maven circular dependency checking scripts and created nightly CI jobs to run it against more than 100 Microservice projects",
+                  "Developed Capistrano logic to automatically check ruby version and install the right ruby version with rbenv",
+                  "Developed bash scripts to launch python scripts to generate data parity reports and upload to confluence pages automatically",
+                  "Developed automation tools to create Rally defect ticket and upload the heapDump file and grep the exception logs",
+                  "Migrated Solr from Single-core to multi-core with automated Capistrano tasks",
+                  "Developed Capistrano task to automatically migrate the Solr data while upgrade jetty to new version",
+                  "Installed and configured Python 2 and Python 3 in the same linux host",
+                  "Developed Capistrano logic to automatically detect DB schema changes made by developers from source code"
+                ],
+                "technologies": [
+                  "Ruby",
+                  "Bash",
+                  "Python",
+                  "Capistrano",
+                  "Jira/Rally",
+                  "Bamboo/Confluence",
+                  "Git/Gerrit",
+                  "puppet",
+                  "Nexus replication",
+                  "REST/XML"
+                ],
+                "leaderships": [
+                  "Developed a suite of automation tools, significantly improving DevOps efficiency and reducing manual toil.",
+                  "Pioneered migration and optimization scripts for large-scale git repositories.",
+                  "Shared best practices and tools with the wider engineering community."
+                ],
+                "tags": [
+                  "devops",
+                  "automation"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "CoreOS and Docker prototyping and testing",
+                "description": "Led the design and implementation of dynamic development and integration test environments using CoreOS and Docker, reducing setup time and increasing productivity.",
+                "highlights": [
+                  "Helped design and implement the docker LXC system",
+                  "Setup CoreOS stateful and stateless using pxe image via cobbler and tftpboot/DHCP",
+                  "Create Docker images for CentOS/Java/Ruby/Haproxy",
+                  "Create ruby Capistrano tasks to dynamically provision docker instances with haproxy as the internal LB on demand",
+                  "Automate the dynamic deployment and provisioning process by using docker rest API and tools"
+                ],
+                "technologies": [
+                  "CoreOS",
+                  "Docker",
+                  "Ruby",
+                  "REST",
+                  "LXC",
+                  "cobbler",
+                  "pxe",
+                  "tftpboot",
+                  "DHCP"
+                ],
+                "tags": [
+                  "devops",
+                  "Docker",
+                  "CI/CD",
+                  "cloud",
+                  "Linux",
+                  "Unix"
+                ],
+                "leaderships": [
+                  "Led the design and implementation of a dynamic development and integration test environment using Docker, significantly reducing setup time and improving developer productivity.",
+                  "Created reusable Docker orchestration templates, enabling rapid prototyping for SDK and connector teams.",
+                  "Trained team members on advanced Docker networking and orchestration concepts."
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "SDLC process management and junior team member training and mentoring",
+                "description": "Managed SDLC processes and mentored junior engineers, standardizing build, release, and deployment practices for over 200 projects.",
+                "highlights": [
+                  "Help to design and identify the build/release/deploy and configuration management strategies",
+                  "Design standard development and code standards for developers to follow the autoBuild process.",
+                  "Using Capistrano to manage deployment configuration for different environments(Dev, QA, Staging and Prod..etc.)",
+                  "Communicate with developers to figure out the build/release issues",
+                  "Troubleshooting build/release and configuration issues",
+                  "Lead small team to develop autoBuild system using agile methodology",
+                  "Train and guide new team member",
+                  "Write confluence pages for documents",
+                  "Presents to other team members in brown bag session",
+                  "Transfer knowledge to other team member ",
+                  "Administration the SCM/CI/Maven Repos clustering environments and SDLC tools",
+                  "Research and design github enterprise branch/release process",
+                  "Develop scripts to build dependency graphs and design algorithm to simplify it to dependency tree for more than 150 projects (git repos)"
+                ],
+                "technologies": [
+                  "SDLC",
+                  "SCM",
+                  "Git/Subversion",
+                  "GIT Hooks",
+                  "Ruby",
+                  "Bash",
+                  "Confluence",
+                  "Jira",
+                  "Agile"
+                ],
+                "tags": [
+                  "devops",
+                  "Docker",
+                  "CI/CD",
+                  "SDLC"
+                ],
+                "leaderships": [
+                  "Managed the SDLC process to build/release/deploy more than 200 projects, maintaining maven repo servers, CI (Bamboo), SCM (Subversion and Git/Gerrit) and clustering integration environments.",
+                  "Identified and troubleshooted build/release/deploy issues, and trained and mentored junior team members.",
+                  "Wrote confluence pages for documentation and presented to other team members in brown bag sessions."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "item-work": {
+          "start-date": "Nov., 2006",
+          "end-date": "Oct., 2010",
+          "position": "Senior Software Engineer",
+          "company": {
+            "name": "Boomi Inc.",
+            "city": "Berwyn, PA",
+            "country": "USA"
+          },
+          "achievements": "As the market and technology leader in on-demand integration, Boomi is the industry's first and leading integration platform-as-a-service and a two-time SIIA CODiE award winner - Best Application Integration Solution (2010) and Best On-Demand Platform (2009).",
+          "technologies": [
+            "Java",
+            "SOA",
+            "IaaS",
+            "PaaS",
+            "EAI",
+            "XML",
+            "XSD",
+            "JAXB",
+            "JavaScript",
+            ".NET",
+            "EC2",
+            "S3",
+            "EBS",
+            "REST",
+            "SOAP",
+            "WSDL",
+            "SaaS",
+            "SAP",
+            "BAPI",
+            "ABAP",
+            "MySQL/PostgreSQL",
+            "Maven",
+            "SVN",
+            "JVM",
+            "JVM GC Tuning",
+            "Apache Lucene",
+            "Apache Solr",
+            "VMWare",
+            "Cloud"
+          ],
+          "projects": [
+            {
+              "item-projects": {
+                "title": "Boomi  On-Demand Business Integration Cloud Service",
+                "description": "Designed and developed a scalable, on-demand SOA integration platform enabling visual business process design, automated deployment, and seamless integration with desktop, ERP, and SaaS systems.",
+                "highlights": [
+                  "Design and implement synchronous/asynchronous message framework using XML/JAXB/REST/HTTP",
+                  "Design and implement dynamic reflection invocation connector framework using dynamic proxy and customized class loading to failover from local file system to remote webserver",
+                  "User Management Subsystem (PKI certificate token based authentication and authorization)",
+                  "Design and implement connectors to desktop accounting systems (QuickBooks, MAS 90, MS Dynamics Great Plains, Peachtree), ERP systems (MAS 500, SAP, MS Dynamics Navision, MS Dynamics CRM on-premise 4.0 and Online) and SaaS system ( Parature, AutoTask).",
+                  "Design and implement Java to COM/DCOM/COM+/ .NET/WCF integration subsystem",
+                  "Migrating data processing, mapping function …etc. modules from previous non-SOA version",
+                  "Design and develop rich internet UI using openlaszlo",
+                  "Design and deploy the load balancing and clustering SOA system in OpSource and Rackspace data center",
+                  "Deploy SOA system in Amazon's EC2 and S3",
+                  "Multiple threads concurrent subsystem design and implementation",
+                  "Design and implement distributed cache in cluster using ehcache",
+                  "Develop, build, deploy and release projects using IDEA, maven, subversion and TeamCity",
+                  "Tracking bugs/Issues and interacting with QA/Support team using Jira Enterprise",
+                  "Using confluence page to document ideas and functional design",
+                  "Participate in agile development with scrum framework"
+                ],
+                "technologies": [
+                  "Java",
+                  "XML",
+                  "XSD",
+                  "JAXB",
+                  "REST",
+                  "HTTP",
+                  "Hibernate",
+                  "openlaszlo",
+                  "SSL",
+                  "PKI",
+                  "com4j",
+                  ".NET 3.0/2.0/1.1",
+                  "COM/DCOM",
+                  "Linux",
+                  "QBXML",
+                  "eConnect",
+                  "servlet",
+                  "Jetty",
+                  "IDEA",
+                  "Maven",
+                  "subversion",
+                  "Confluence",
+                  "Jira",
+                  "MySQL",
+                  "RAID",
+                  "SQL server",
+                  "QuickBooks 2005",
+                  "Sage MAS 90/200/500",
+                  "MS Dynamics GP 9.0/10.0/2010",
+                  "SOA"
+                ],
+                "tags": [
+                  "Java",
+                  "JavaScript",
+                  "FullStack",
+                  "EAI",
+                  "cloud"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Cloud Platform/Infrastructure Design and Implementation for Boomi On Demand Production Environment",
+                "description": "Architected and managed a distributed, high-availability production environment for Boomi's cloud platform, including clustering, monitoring, and migration of critical infrastructure.",
+                "highlights": [
+                  "Plan, Design and setup the clustering SOA production environment in OpSource and Rackspace",
+                  "Maintain, build  and release the QA/production environment.",
+                  "Migration of the production environment, application and MySQL DB data from OpSource to Rackspace",
+                  "Setup and configure Apache Solr searching and indexing server",
+                  "Create cron jobs and shell scripts to monitor hosted AtomSphere environment",
+                  "Setup newrelic monitoring environment",
+                  "Research and proto-type cluster solutions for the large SOA system.",
+                  "Design distributed cache system using ehcache to reduce the DB access traffic from front end.",
+                  "Design and implement the dynamic http polling algorithm on the front end to reduce the possibility of the suppress storm requests.",
+                  "Using comet, jetty continuation to design an asynchronous http push (long polling) events system.",
+                  "Using worker-stealing algorithm to design and implement an Apache solr indexing cluster with large throughput transactions (millions per day)",
+                  "Research and proto-type MySQL clustering technologies",
+                  "Setup and configuration Jetty and Openlaszlo clustering system (NFS sharing) ",
+                  "Communicate with Rackspace support engineers with their tickets system to tracking issues ",
+                  "Design, implement and troubleshooting Apache solr out of memory and DB table transaction lock and response time vibration problem.",
+                  "Using Sun JVM troubleshooting utilities (visualVM, jmap, jstat,..etc.) to investigate the heap new generation and old generation usage",
+                  "Tuning heap size and GC algorithm parameters to solve the out of memory issue",
+                  "Collect response time statistics data to diagnose software system vibration",
+                  "Using Unix vmstat, top,...etc. to investigate the File system IO, CPU usage"
+                ],
+                "technologies": [
+                  "64-bits Redhat Enterprise Linux",
+                  "MySQL clustering",
+                  "Apache",
+                  "PHP",
+                  "Jetty",
+                  "64 bits Java",
+                  "Apache Lucene/ Solr",
+                  "Openlaszlo",
+                  "distributed cache",
+                  "distributed and parallel algorithm",
+                  "ehcache",
+                  "comet",
+                  "continuation",
+                  "DWR",
+                  "JVM tuning",
+                  "jmap",
+                  "jstat",
+                  "Sun JVM Heap",
+                  "GC",
+                  "vmstat"
+                ],
+                "tags": [
+                  "devops",
+                  "platform",
+                  "Linux",
+                  "Java",
+                  "JVM",
+                  "GC",
+                  "Clustering",
+                  "Performance Monitoring",
+                  "Linux",
+                  "Unix"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Desktop Accounting and ERP Enterprise Applications Integration (EAI)",
+                "description": "Engineered integration solutions for leading desktop accounting and ERP systems, enabling automated business data exchange and process automation.",
+                "highlights": [
+                  "Integrate QuickBooks (US, UK, Canada 2002-2008,) and QuickBooks Online Edition using the QBXML request processor.",
+                  "Integrate Microsoft Dynamics Great Plains (9.x, 10.x and 2010) using eConnect (9.x, 10.x and 11) and WCF.",
+                  "Integrate Microsoft Dynamics CRM on premise (3.0 and 4.0) and online using Web Services with NTLM authentication and windows live ID authentication ",
+                  "Develop integration solution for Sage Peachtree Accounting system using its Import/Export engine API",
+                  "Integrate with ERP (SAP, Oracle e-Business, PeopleSoft, JD Edwards and Siebel) using netmanage's Librados API.",
+                  "Setup QuickBooks, Sage Peachtree, MS Dynamics GP desktop accounting system for testing",
+                  "Setup Dynamics CRM 4.0 in EC2 windows server 2008 domain environment for testing",
+                  "Research integration with QuickBooks POS system",
+                  "Research integration with Sage Software (MAS 90/200, 500 ERP, Simply, Accpac ERP).",
+                  "Research integration solution with Microsoft Dynamics Navision 4.0, 5.0 and 2009 using XMLPort, .NET Web services and Communication Components with windows socket bus adapter."
+                ],
+                "technologies": [
+                  "QBXML RequestProcessor",
+                  "Microsoft eConnect 9.x/10.x/11",
+                  "Librados",
+                  "SAP R3",
+                  "BAPI",
+                  "REST/XML",
+                  "COM/COM+/DCOM",
+                  ".NET",
+                  "MS Dynamics Navision",
+                  "MS Dynamics CRM",
+                  "SOAP/WSDL",
+                  "WCF",
+                  "XMLPort",
+                  "C/AL",
+                  "CodeUnits"
+                ],
+                "leaderships": [
+                  "Led the integration of multiple accounting and ERP systems, enabling seamless business data exchange.",
+                  "Researched and implemented SDK-based solutions, setting a foundation for future integrations.",
+                  "Documented integration strategies for cross-team knowledge sharing."
+                ],
+                "tags": [
+                  "Java",
+                  "EAI",
+                  ".NET"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Amazon EC2 and S3 SOA HA Environment",
+                "description": "Built and maintained a high-availability SOA environment on AWS EC2 and S3, implementing clustering, load balancing, and automated backup for robust cloud operations.",
+                "highlights": [
+                  "Install and setup the Amazon EC2 client security (PKI token based authentication), commands and AMI tools",
+                  "Setup Amazon EC2 large/small Linux/windows server instance with static IP address and EBS.",
+                  "Install and configure two Jetty instances (Web UI + App server) in EC2 instance (Fedora 7)",
+                  "Setup Apache httpd load balancer (mod_proxy_ajp and mod_proxy_balancer) for jetty 6.1.x",
+                  "Setup NFS server and client to share data between two EC2 instances",
+                  "Install MySQL 5.x server, create DB user, grant privileges and replicate the data.",
+                  "Install and configure Solr in Jetty 6.x and create startup script",
+                  "Create Jetty startup script to create log directory and grant permissions to the running users.",
+                  "AMI bundles and images maintenance (create AMI bundles and upload it to S3, register AMI, remove AMI from S3).",
+                  "Rescue the broken AMI (Download AMI bundles from S3, unbundle and mount it as loop device).",
+                  "Setup EC2 security group and firewall.",
+                  "Troubleshooting EC2 instance network and AMI booting problems",
+                  "Troubleshooting timeout and performance problem",
+                  "Setup Fedora 6/7/8 x86_64 EC2 large instance with Apache, MySQL",
+                  "Troubleshooting MySQL 5.x 64-bit access denied problem",
+                  "Troubleshooting MySQL 5.x  performance (table lock timeout and setup the right isolation level)",
+                  "Configure distributed cache for the HA cluster using ehcache",
+                  "Setup EBS for the HA cluster",
+                  "Setup Rightscale auto-deploy scripts to start EC2 instance with Boomi AtomSphere built-in. ",
+                  "Setup Windows Server 2008 domain environment with SQL Server ",
+                  "Implement cron job and shell scripts to backup EC2 instance data and EBS snapshot to S3"
+                ],
+                "technologies": [
+                  "Fedora 6//7/8",
+                  "AWS",
+                  "EC2",
+                  "S3",
+                  "Jetty 6.x/7.x",
+                  "MySQL 5.x",
+                  "Apache httpd 2.x  and Solr 1.3.x/1.4.x",
+                  "NFS",
+                  "shell script(bash and sh)",
+                  "ehCache",
+                  "cron"
+                ],
+                "leaderships": [
+                  "Engineered a high-availability SOA environment on AWS, pioneering cloud adoption within the team.",
+                  "Automated deployment and backup processes, ensuring data integrity and system resilience.",
+                  "Provided training on AWS best practices and troubleshooting."
+                ],
+                "tags": [
+                  "devops",
+                  "cloud",
+                  "platform",
+                  "infrastructure",
+                  "MySQL",
+                  "DB Administration",
+                  "AWS",
+                  "Linux",
+                  "Unix"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Setup Development, Build and Deployment Environment for QA, Staging and Production Environment",
+                "description": "Established and automated development, build, and deployment environments for QA, staging, and production, streamlining release management and system administration.",
+                "highlights": [
+                  "Install and configure java, maven and subversion.",
+                  "Install and configure MySQL 5.x, PHP5.x, Jetty 6.x, openlaszlo, quartz and Apache solr.",
+                  "MySQL 5.x administration (create database, create user, grant permission and populate data)",
+                  "Create Jetty startup script and DB update SQL script",
+                  "Upgrade MySQL DB Structure",
+                  "Using TeamCity create deploy and release projects",
+                  "Create PHP scripts connecting to MySQL DB to maintain user accounts",
+                  "Create unix shell scripts and Apache ant xml to release to QA, Staging and Production environment"
+                ],
+                "technologies": [
+                  "Maven 2.x",
+                  "subversion",
+                  "TeamCity",
+                  "PHP 5.x",
+                  "Apache Http server 2.3",
+                  "Apache Ant",
+                  "MySQL5.x",
+                  "Jetty 6.x",
+                  "Openlaszlo 3.4",
+                  "Apache Solr",
+                  "Fedora 8"
+                ],
+                "leaderships": [
+                  "Standardized build and deployment environments across all stages, improving release reliability.",
+                  "Automated user account and database management, reducing manual errors.",
+                  "Mentored team members on build automation and environment setup."
+                ],
+                "tags": [
+                  "devops",
+                  "Java",
+                  "platform",
+                  "Lucene",
+                  "cloud",
+                  "SDLC",
+                  "Linux",
+                  "Unix"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Research virtualization technology and implement Virtual Machines using VMware server and workstation",
+                "description": "Researched and implemented virtualization solutions using VMware, optimizing resource utilization and performance for development and testing environments.",
+                "highlights": [
+                  "Research, compare and evaluate VMware workstation 6.2, VMware server 1.4 and Microsoft Virtual PC.",
+                  "Install and Configure VMware Workstation 6.2, VMware Server 1.4, VMware Server Console.",
+                  "Adding new hard disk to Logic Volume Group (pvcreat, vgextend, lvcreate,mke2fs) ",
+                  "Using top, vmstat, iostat and sar and some benchmark tools(dbench, unicbench) to diagnostics the Linux system performance",
+                  "Upgrade Dell and LSI RAID Controller BIOS firmware and Seagate SCSI Hard disk driver",
+                  "Tuning Disk I/O performance via distributing the VM disk to different partition",
+                  "Install and setup VNC server and client on Linux",
+                  "Install and configure subversion 1.4, Maven 2.x, PHP5.x, Apache Httpd 2.x, MySQL 5.x."
+                ],
+                "technologies": [
+                  "Virtualization",
+                  "paravirtualization",
+                  "VMware Workstation 6.2 and VMware Server 1.4",
+                  "Xen",
+                  "Microsoft Virtual PC",
+                  "Fedora 8",
+                  "RAID",
+                  "SMP",
+                  "Performance tuning",
+                  "Subversion",
+                  "Maven",
+                  "PHP",
+                  "MySQL"
+                ],
+                "leaderships": [
+                  "Evaluated and implemented virtualization solutions, enabling efficient resource utilization.",
+                  "Developed performance tuning guidelines for virtualized environments.",
+                  "Shared virtualization best practices with the broader engineering team."
+                ],
+                "tags": [
+                  "devops",
+                  "cloud",
+                  "VmWare",
+                  "platform",
+                  "Linux",
+                  "Unix"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Java to C/C++, DLL, COM/COM+/DCOM/.NET Integration",
+                "description": "Developed seamless integration between Java applications and native Windows technologies (C/C++, DLL, COM/DCOM, .NET), enabling cross-platform interoperability.",
+                "highlights": [
+                  "Research and evaluate open source technologies such as com4j, JNBridge, ikvm, etc. for java-com and java-.net integration",
+                  "Develop prototype application using the Microsoft Visual Studio 6.0, 2003 and 2005 (C# and VB) ",
+                  "Configure COM/COM+/DCOM/.NET run time environment (regsvr32, dcomcnfg, gacutil, regasm, ..etc.)",
+                  "Develop java to win32 DLL application using JNA (Java Native Access)",
+                  "Develop java to COM/COM+/DCOM object application using com4j and register com object programmatically.",
+                  "Using windows ComAdmin Objects access COM+ catalog to install and configure .NET assemblies' security permission programmatically in C#.",
+                  "Using iKVM to integrate Java with .NET run-time",
+                  "Using .NET System.Reflection namespace to dynamically invoke ComAdmin objects methods",
+                  "Using open source JNA (Java Native Access) connect to win32 DLLs from java"
+                ],
+                "technologies": [
+                  "Java",
+                  ".NET 3.0/2.0/1.1",
+                  "COM/DCOM",
+                  "Com4j",
+                  "iKVM",
+                  "C#",
+                  "VB.NET",
+                  "JNI",
+                  "JNA",
+                  "Win32 DLL",
+                  "COMAdmin"
+                ],
+                "leaderships": [
+                  "Pioneered seamless integration between Java and native Windows technologies, enabling cross-platform interoperability.",
+                  "Developed proof-of-concept applications that set technical direction for future integration projects.",
+                  "Provided technical guidance on COM/DCOM and .NET integration to the engineering team."
+                ],
+                "tags": [
+                  "Java",
+                  ".NET",
+                  "C++"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "SaaS system integration",
+                "description": "Designed and delivered integration solutions for leading SaaS platforms using REST/XML and SOAP/WSDL, expanding product connectivity and automation.",
+                "highlights": [
+                  "Integrate with Parature.com using its' REST style API",
+                  "Integrate with AutoTask using SOAP/WSDL",
+                  "Integrate with Zuora using SOAP/WSDL"
+                ],
+                "technologies": [
+                  "REST/XML",
+                  "SOAP/WSDL",
+                  "namespace",
+                  "DOM",
+                  "soapUI"
+                ],
+                "leaderships": [
+                  "Designed and implemented robust integration solutions for leading SaaS platforms, expanding product connectivity.",
+                  "Standardized REST and SOAP integration patterns, improving maintainability and scalability.",
+                  "Mentored junior engineers on SaaS API best practices."
+                ],
+                "tags": [
+                  "Java",
+                  "SaaS",
+                  "SOA"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "SAP system integration",
+                "description": "Engineered robust integration between Java and SAP systems using web services and SAP JCO, enabling automated business process integration.",
+                "highlights": [
+                  "Install and configure SAP NetWeaver 2006s/2007 test drive on Linux environment",
+                  "Research and Prototype different SAP system integration solutions",
+                  "Create and publish web service (SOAP/WSDL) for RFC and BAPI in SAP system using ABAP workbench",
+                  "Self-teaching SAP basis system in two weeks",
+                  "Troubleshooting librados/sapjco issues on SAP NetWeaver",
+                  "Design and Implement Web Services (SOAP/WSDL) solution to integrate Java to SAP RFCs",
+                  "Administrator SAP ABAP web services environment using SAP front-end UI."
+                ],
+                "technologies": [
+                  "SAP R3",
+                  "NetWeaver",
+                  "Web Services",
+                  "SOAP",
+                  "WSDL",
+                  "wsdl4j",
+                  "SAP-JCO",
+                  "RFC",
+                  "BAPI",
+                  "ABAP",
+                  "Java"
+                ],
+                "leaderships": [
+                  "Pioneered integration between Java and SAP systems, enabling seamless business process automation.",
+                  "Self-taught SAP basis and led troubleshooting efforts, accelerating project delivery.",
+                  "Documented integration patterns for future SAP-related projects."
+                ],
+                "tags": [
+                  "SAP",
+                  "Java",
+                  "",
+                  "EAI",
+                  "SOA"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "item-work": {
+          "start-date": "Jun., 2006",
+          "end-date": "Nov.,2006",
+          "position": "Senior System Engineer Manager",
+          "company": {
+            "name": "Vantage learning",
+            "city": "Newtown, PA",
+            "country": "USA "
+          },
+          "achievements": "As the leader in cost-effective, high-volume, secure, scalable online assessment and instructional programs for K-12 and higher education, Vantage Learning leverages technology such as artificial intelligence, natural language understanding, and web-based learning objects. Vantage Learning has received accolades ranging from the prestigious CODIE Award for best instructional technology.",
+          "technologies": [
+            "Linux",
+            "Centos",
+            "SOA",
+            "Java",
+            ".NET",
+            "Network",
+            "VLAN",
+            "Router",
+            "Firewall",
+            "Load Balancer",
+            "SOAP/WSDL",
+            "MySQL/PostgreSQL",
+            "Struts",
+            "Disk Array",
+            "Fedora",
+            "Redhat Linux",
+            "LAMP",
+            "eCommerce",
+            "SQL"
+          ],
+          "projects": [
+            {
+              "item-projects": {
+                "title": "Large scale SOA e-learning system architecture design and blueprinting",
+                "description": "Architected a scalable SOA-based e-learning platform leveraging Java/.NET and clustered PostgreSQL/MySQL databases, enabling secure, high-volume online assessment and instruction.",
+                "highlights": [
+                  "Researching and blueprinting SOA new technologies (WCF, WPF, XAML, AJAX, XML, SOAP, WSDL)",
+                  "Setup proto-type environment for distributed session in a clustering SOA system",
+                  "Design large-scale SOA clustering load balancing system",
+                  "Design integration solution for Java and .NET",
+                  "Researching on DB clustering environment for PostgreSQL and MySQL"
+                ],
+                "technologies": [
+                  "SOA",
+                  "E-Learning",
+                  "Struts",
+                  "J2EE",
+                  ".NET 2.0/3.0",
+                  "Resin",
+                  "SOAP",
+                  "WSDL",
+                  "UDDI",
+                  "XML",
+                  "PostgreSQL",
+                  "MySQL"
+                ],
+                "leaderships": [
+                  "Blueprinted a scalable SOA e-learning architecture, setting the technical vision for the organization.",
+                  "Researched and introduced new SOA technologies, driving innovation in the e-learning platform.",
+                  "Facilitated cross-team collaboration between Java and .NET development groups."
+                ],
+                "tags": [
+                  "Java",
+                  ".NET",
+                  "SOA",
+                  "DBMS",
+                  "J2EE"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Large Data Center Design and Administration",
+                "description": "Designed and managed a mission-critical data center with 100+ servers and enterprise network devices, supporting 30+ applications and millions of user connections with high availability.",
+                "highlights": [
+                  "Design data center network architecture and plan budgets on new devices and spare parts",
+                  "Design and implement clustering and load balancing hosting environment",
+                  "Design and deploy large-scale SOA clustering system",
+                  "Deployment of clustering hosting environment with enterprise DBMS",
+                  "RAID 1,0,5 and SAN design and setup",
+                  "Veritas backup system setup and maintenance",
+                  "Unix and DBMS maintenance",
+                  "Web based system troubleshooting and debug"
+                ],
+                "technologies": [
+                  "Solaris 5,7",
+                  "Linux(Redhat,Fedora)",
+                  "F5 Big-IP load balancers",
+                  "Switch",
+                  "Router",
+                  "VLAN",
+                  "UPS",
+                  "RAID 1,0,5",
+                  "Windows Server",
+                  "Terminal server",
+                  "VNC",
+                  "SPARCStorage",
+                  "Tape Drive",
+                  "Veritas",
+                  "Apache",
+                  "Resin",
+                  "PostgreSQL"
+                ],
+                "leaderships": [
+                  "Led the design and deployment of a mission-critical data center serving millions of connections.",
+                  "Standardized clustering and load balancing practices, improving system reliability.",
+                  "Mentored junior engineers in data center operations and troubleshooting."
+                ],
+                "tags": [
+                  "devops",
+                  "Linux",
+                  "Unix",
+                  "network",
+                  "DBMS"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Sun SPARCStorage SSA Array 100 and Sybase SQL Server (10.x, 11.x) Data (DB schema, data and Stored-Procedure) Recovery",
+                "description": "Recovered critical patent data and database assets from failed Sun SPARCStorage SSA Array and Sybase SQL Server, ensuring business continuity and data integrity.",
+                "highlights": [
+                  "Troubleshooting the hardware failure of Sun SPARCStorage SSA Array",
+                  "Install and Configure Sybase SQL Server",
+                  "Use bcp, dump and load database to recover the crashed databases and stored procedure",
+                  "Output the SQL statements (DDL, DML) of the old data"
+                ],
+                "technologies": [
+                  "Solaris 5,7",
+                  "Linux(Redhat, Fedora)",
+                  "Sybase SQL Server 10.x",
+                  "Sybase ASE 11.x, 12,x 15.x",
+                  "SSH",
+                  "SPARCStorage  SSA Array 100",
+                  "Tape Drive"
+                ],
+                "leaderships": [
+                  "Directed the recovery of critical patent data, ensuring business continuity after hardware failure.",
+                  "Developed and documented robust data recovery procedures for future incidents.",
+                  "Coordinated efforts between hardware, database, and software teams."
+                ],
+                "tags": [
+                  "Data Recovery",
+                  "Data storage",
+                  "DBMS"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Ecommerce Open Source Software installation and Configuration",
+                "description": "Deployed and configured open source e-commerce platforms (osCommerce, x-cart, Sales-n-Stats) on PHP/MySQL, standardizing installation for rapid business enablement.",
+                "highlights": [
+                  "Install and Configure test environment for osCommerce with CREloaded on PHP, MySQL environment",
+                  "Install and Configure x-cart with Sales-n-Stats module on PHP, MySQL environment"
+                ],
+                "technologies": [
+                  "Linux(Redhat, Fedora)",
+                  "PHP5.x",
+                  "MySQL 5.x",
+                  "Apache 2.x"
+                ],
+                "leaderships": [
+                  "Led the evaluation and deployment of open source e-commerce solutions, expanding business capabilities.",
+                  "Standardized installation and configuration processes for rapid future deployments.",
+                  "Provided training on PHP/MySQL stack to team members."
+                ],
+                "tags": [
+                  "eCommerce",
+                  "Linux",
+                  "LAMP"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Resin Application Server Distributed Session Design and Setup",
+                "description": "Implemented distributed session management and HTTP load balancing on Resin Application Server, enhancing scalability and reliability for enterprise web applications.",
+                "highlights": [
+                  "Setup resin cluster environment with distributed session enabled",
+                  "Setup http load balancer for resin with sticky bit"
+                ],
+                "technologies": [
+                  "Linux(Redhat, Fedora)",
+                  "resin 3.0",
+                  "Java",
+                  "Servlet",
+                  "distributed session",
+                  "cluster",
+                  "load balancer (software and hardware)"
+                ],
+                "leaderships": [
+                  "Designed and implemented distributed session management, improving application scalability.",
+                  "Automated cluster and load balancer setup, reducing manual configuration time.",
+                  "Documented best practices for session management in clustered environments."
+                ],
+                "tags": [
+                  "Java",
+                  "Servlet",
+                  "Cluster",
+                  "LB"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "item-work": {
+          "start-date": "May, 2002",
+          "end-date": "Jun.,22,2006",
+          "position": "Senior Programmer/Analyst and Unix System Administrator",
+          "company": {
+            "name": "Computer Science, Texas Tech University",
+            "city": "Lubbock, Texas",
+            "country": "USA"
+          },
+          "achievements": "System Administrator for networked Unix(Solaris, AIX, Mac OSX and Linux) and windows servers with SSO for Kerberos and LDAP, Veritas Netbackup for Disk Array with RAID 0/1/5, Migration from NIS/NIS+ to LDAP and Postfix/Sendmail conifiguration for the research and teaching lab for computer science department.",
+          "technologies": [
+            "JAVA",
+            "C/C++",
+            "GCC",
+            "GNU Make",
+            "perl",
+            "LDAP",
+            "NFS",
+            "SSO",
+            "Kerberos",
+            "SSL",
+            "SMTP",
+            "Email Server and Client",
+            "Solaris",
+            "AIX",
+            "Mac OSX",
+            "Linux",
+            "Windows Server",
+            "PAM",
+            "RAID",
+            "SCSI",
+            "Veritas",
+            "TFTP",
+            "RARP/ARP",
+            "Bootparamd",
+            "DHCP",
+            "Postfix",
+            "PostgreSQL",
+            "NIS/NIS+"
+          ],
+          "projects": [
+            {
+              "item-projects": {
+                "title": "Unix network System and Software routine maintenance",
+                "description": "Performed daily administration and maintenance of Solaris, AIX, and Mac OSX network systems, ensuring reliability and security across research and teaching labs.",
+                "highlights": [
+                  "Troubleshooting Unix network system with multiple services (NFS, NIS+, SMTP, LDAP ...etc.) running",
+                  "Developed system maintenance scripts (Perl, bash)",
+                  "Unix Security design and analysis",
+                  "Compiled, Installed and configured system and development software",
+                  "NIS+ user accounts managements",
+                  "Diagnosed hardware and software problems"
+                ],
+                "technologies": [
+                  "Solaris 8,9,10",
+                  "Linux",
+                  "AIX",
+                  "NFS",
+                  "NIS/NIS+",
+                  "LDAP",
+                  "SMTP",
+                  "IMAP",
+                  "POP3",
+                  "WebMail",
+                  "SSH",
+                  "Samba",
+                  "Kerberos",
+                  "Netgroup",
+                  "Jumpstart",
+                  "User Accounts",
+                  "Quota",
+                  "License server",
+                  "GNU Make",
+                  "GCC",
+                  "Java",
+                  "RAID",
+                  "Tape Library",
+                  "Veritas",
+                  "Apache",
+                  "MySQL",
+                  "Sun Ray Server",
+                  "PAM",
+                  "Security",
+                  "Syslog"
+                ],
+                "leaderships": [
+                  "Standardized system maintenance procedures, improving uptime and reliability across multiple platforms.",
+                  "Developed and shared custom scripts for automation, reducing manual workload.",
+                  "Mentored student assistants in Unix system administration."
+                ],
+                "tags": [
+                  "devops",
+                  "Linux",
+                  "Unix",
+                  "System Administration"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Setup Veritas Netbackup System with RAID0/1/5  and Tape Library",
+                "description": "Implemented enterprise backup and recovery solutions for large RAID storage arrays and virtual file systems using Veritas NetBackup and tape libraries.",
+                "highlights": [
+                  "Setup Veritas NetBackup Enterprise Server 5.1 on Solaris 9",
+                  "Setup Veritas  NetBackup client software on Linux and Solaris",
+                  "Designed and setup tape backup policies",
+                  "Installed and setup Sun StorEdge Tape Library L25 and L9",
+                  "Installed and setup Sun StorEdge A100 and 3300",
+                  "Configured hardware and software RAID 0,1 and RAID 5",
+                  "Setup Logical Partitions on RAID systems",
+                  "Setup volume and file system on the RAID system",
+                  "Maintained (expand partition, clean file system) a large virtual file systems. (>300GB). ",
+                  "Backup and restored the system and user data using Veritas software"
+                ],
+                "technologies": [
+                  "Veritas NetBackup Enterprise Server 5.1",
+                  "Veritas NetBackup Client",
+                  "RAID 0,1,5",
+                  "SCSI",
+                  "Volume Manager",
+                  "VFS",
+                  "Tape Library"
+                ],
+                "leaderships": [
+                  "Led the implementation of enterprise backup solutions, safeguarding critical research and teaching data.",
+                  "Developed backup and recovery policies, ensuring data integrity.",
+                  "Trained staff and students on backup best practices."
+                ],
+                "tags": [
+                  "devops",
+                  "Storage",
+                  "Disk Array",
+                  "Backup",
+                  "VFS"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Setup LDAP,  Kerberos KDC and Cross-Realm system",
+                "description": "Designed and deployed a secure Single Sign-On (SSO) system with LDAP, Kerberos KDC, and cross-realm authentication, unifying access across Unix and Windows platforms.",
+                "highlights": [
+                  "Setup SunOne Directory Server 5.2 and populate the LDAP data from NIS+ tables",
+                  "Setup SEAM Kerberos KDC, cross-realm authentication with Microsoft Active Directory Server",
+                  "Configure Kerberos and LDAP client and PAM authentication",
+                  "Configure SASL/GSSAPI authentication to LDAP server and identities mapping between SASL principal"
+                ],
+                "technologies": [
+                  "SASL-2.1",
+                  "GSSAPI",
+                  "SEAM 1.2",
+                  "SunOne Directory Server 5.2",
+                  "NIS+",
+                  "LDAP V3",
+                  "PAM",
+                  "Solaris 9",
+                  "Windows Server 2003",
+                  "Active Directory"
+                ],
+                "leaderships": [
+                  "Designed and implemented a secure, unified authentication system for the department.",
+                  "Coordinated cross-platform integration between Unix and Windows environments.",
+                  "Documented SSO setup and provided training for system administrators."
+                ],
+                "tags": [
+                  "devops",
+                  "System Administration",
+                  "LDAP",
+                  "Kerberos",
+                  "authentication",
+                  "Linux",
+                  "Unix"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Migrated email system from UNIX mail server to Windows Exchange Server",
+                "description": "Led the migration of departmental email from Unix servers to Windows Exchange, configuring secure SMTP/IMAP/POP3 with SSL for diverse clients.",
+                "highlights": [
+                  "Led the email migration team and plan the email migration for whole department (more than 50 faculty/staff and more than 500 students email accounts)",
+                  "Configured Unix/windows mail client to connect to Microsoft exchange server via IMAP with SSL authentication",
+                  "Written reports and provide recommendations to Department Computer Use Committee",
+                  "Implemented IMPA/S mail client to Microsoft Exchange Server"
+                ],
+                "technologies": [
+                  "Sendmail",
+                  "Postfix",
+                  "Unix Mail Client",
+                  "Outlook",
+                  "Solaris 9",
+                  "Linux",
+                  "Windows Server",
+                  "Exchange Server",
+                  "IMAP/S",
+                  "POP3/S",
+                  "SSL"
+                ],
+                "tags": [
+                  "System Administration",
+                  "Linux",
+                  "Windows",
+                  "Mail Server/Client",
+                  "Linux",
+                  "Unix"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Secured Postfix SMTP server with SASL Authentication and Verification",
+                "description": "Configured Postfix SMTP with SASL authentication and verification, enhancing email security for Unix and Linux environments.",
+                "highlights": [
+                  "Compiled, installed and configured the open source openssl, perl, SASL, postfix",
+                  "Enable SMTP with SASL authentication for postfix",
+                  "Configured SASL authentication on the IMAP/POP3 Unix client side (SquirrelMail and pine)"
+                ],
+                "technologies": [
+                  "Openssl-0.9.7",
+                  "SASL-2.1",
+                  "Postfix 2.4",
+                  "SquirrelMail",
+                  "pine",
+                  "Solaris 9",
+                  "Linux"
+                ],
+                "tags": [
+                  "System Administration",
+                  "SMTP Server",
+                  "email clients",
+                  "SSL",
+                  "Linux",
+                  "Unix"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Installed AIX 5.1 and configured NIM on IBM RS6000 (10x 7043-140 boxes and 1x 7024-E30 box) ",
+                "description": "Installed and configured IBM AIX with NIM and NFS on RS6000 systems, enabling automated provisioning and dynamic resource management.",
+                "highlights": [
+                  "Configured Network Interface and IP network",
+                  "Installed AIX 5.1 and configured NFS Server/Clients, NIS Clients",
+                  "Configured Network Installation Management (NIM)",
+                  "Deployed SORCER/Jini/Rio dynamic provisioning environment"
+                ],
+                "technologies": [
+                  "AIX 5.1",
+                  "NIM",
+                  "NFS",
+                  "NIS/NIS+",
+                  "SORCER/Jini/Rio"
+                ],
+                "tags": [
+                  "System Administration",
+                  "AIX",
+                  "NIS/NIS+",
+                  "Unix"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Deployed Globus Tookit3.2.1 (OGSA/OGSI) Grid Computing Environment on Solaris 9(3 boxes) and Linux (3 boxes)",
+                "description": "Deployed and secured Globus Toolkit 3.2.1 grid computing environments on Solaris and Linux, supporting distributed research workloads with SSL certificates.",
+                "highlights": [
+                  "Installed and configured OGSI core on Solaris 9 and Redhat Linux 9",
+                  "Installed OGSI GRAM, MDS, GSI, GridFTP and RLS on Solaris 9 and Red Hat Linux 9",
+                  "Configured distributing security (SSL certificate based) for Globus Toolkit 3.2.1",
+                  "Compiled, installed and Configured Perl on Solaris 9"
+                ],
+                "technologies": [
+                  "Unix ( Solaris  9, Redhat Linux 9)",
+                  "NFS",
+                  "NIS/NIS+",
+                  "Perl",
+                  "PKI",
+                  "X509",
+                  "GNU Tools",
+                  "Globus Toolkit 3.2.1",
+                  "OGSA/OGSI",
+                  "GSI"
+                ],
+                "tags": [
+                  "Distributed System",
+                  "Scripting languages",
+                  "Unix",
+                  "Linux"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Setup Jumpstart Environment for Solaris 9 and Solaris 10",
+                "description": "Engineered automated Solaris deployments using Jumpstart, supporting multi-subnet installations and custom Perl scripts for NIS+ and tftp management.",
+                "highlights": [
+                  "Configured tftp and bootparamd server for the Jumpstart client machine on Solaris 9 and Solaris 10 Server",
+                  "Diagnosed and debug the problems related to RARP/ARP",
+                  "Setup Jumpstart rules, profiles, sysidcfg configuration files, begin, install and post install scripts",
+                  "Setup NIS+ client configuration files in the Jumpstart",
+                  "Developed Perl scripts to maintain NIS+ tables and tftp boot parameters"
+                ],
+                "technologies": [
+                  "Unix( Solaris  9), Jumpstart, TFTP, Bootparamd, NIS+, Perl, Security, snoop, RARP/ARP"
+                ],
+                "tags": [
+                  "devops",
+                  "System Administration",
+                  "Scripting languages",
+                  "Unix",
+                  "Network"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Designed and Implemented the Single Sign-On (SSO) for Unix and Windows Environments",
+                "description": "Integrated Unix and Windows environments with a unified SSO solution using LDAP, Kerberos, AFS, and Samba, streamlining authentication and access control.",
+                "highlights": [
+                  "Designed the Single-Sign-On (SSO) Solution for computer science department",
+                  "Researched the feasibility of different solutions of Single sign-on (SSO)",
+                  "Built the test environment for the solution in Solaris 8 and 9 platform",
+                  "Built the GNU compiling and make environment to make the source file of samba in Solaris 9 platform",
+                  "Tested the Microsoft Service for Unix 3.0 for our requirement",
+                  "Built and Configure Samba environment",
+                  "Developed a customized Kerberos and AFS client with AFS home drive mapping in windows environment",
+                  "Compiled OpenAFS, OpenLDAP and MIT Kerberos in UNIX (Linux and Solaris) environment",
+                  "Setup and Configure MIT Kerberos, OpenAFS and OpenLDAP in Unix (Linux, and Solaris) environment",
+                  "Rebuilt MIT Kerberos with krb524 in windows environment",
+                  "Developed PAM module for TMP dir environment variable setting",
+                  "Setup PAM modules configuration file (pam.conf) in UNIX (Debian Linux and Solaris) environments"
+                ],
+                "technologies": [
+                  "Unix( Debian Linux, Solaris 8 and 9), LDAP(OpenLDAP2.1.2",
+                  "SunONE Directory Server 5.2 ",
+                  "MS Active Directory)",
+                  "AFS (OpenAFS 1.2.10)",
+                  "Kerberos (SEAM 1.2",
+                  "MIT Kerberos V 1.3.1). PAM",
+                  "GSSAPI",
+                  "SSL",
+                  "SASL",
+                  "SSH",
+                  "C++",
+                  "GNU make",
+                  "GCC",
+                  "Visual.NET",
+                  "Perl"
+                ],
+                "tags": [
+                  "devops",
+                  "System Administration",
+                  "LDAP",
+                  "SSO",
+                  "OpenSource",
+                  "Kerberos",
+                  "Linux",
+                  "Unix"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "The Migration from NIS+ to LDAP for Solaris",
+                "description": "Migrated Solaris NIS+ directory services to LDAP, designing custom schemas and automation scripts to modernize user management and authentication.",
+                "highlights": [
+                  "Installed and Configured the Solaris 8, Solaris 9 Environment",
+                  "Installed and configured the iPlanet Directory Server in Solaris platform",
+                  "Designed the LDAP schema for department's requirements",
+                  "Populated the NIS+ data to the LDAP",
+                  "Developed Perl scripts with LDAP enabled for user managements"
+                ],
+                "technologies": [
+                  "Unix(Solaris 8 and 9)",
+                  "LDAP( SunONE Directory Server 5.1 )",
+                  "Kerberos (SEAM 1.2). NIS/NIS+",
+                  "SSL",
+                  "SSH",
+                  "Perl",
+                  "GNU make ",
+                  "GCC"
+                ],
+                "tags": [
+                  "Authentication",
+                  "System Administration",
+                  "Scripting languages",
+                  "Unix",
+                  "Network"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "item-work": {
+          "start-date": "Aug.,2002",
+          "end-date": "Jun.,2006",
+          "position": "Master Student",
+          "company": {
+            "name": "Computer Science, Texas Tech University",
+            "city": "Lubbock, Texas",
+            "country": "USA"
+          },
+          "achievements": "Studied as Master Student in the CS department while working as part time as System Administration for the Teaching and Research labs for Unix/Linux and Windows environments",
+          "technologies": [
+            "Java",
+            "C/C++",
+            " GCC",
+            "Gnu Make",
+            "Linux",
+            "Linux Kernel",
+            "GIS",
+            "Ant",
+            "Struts",
+            "J2EE",
+            "UML2",
+            "MVC",
+            "Maven",
+            "PostGIS",
+            "PostgreSQL",
+            "Solaris"
+          ],
+          "projects": [
+            {
+              "item-projects": {
+                "title": "Master Thesis: A Service Wrapping and Provisioning Framework for SOA",
+                "description": "Developed an automated SOA framework using Jini/Rio to wrap legacy applications as dynamic, provisioned services in a distributed grid environment, including a GIS-based yield tracker system.",
+                "highlights": [],
+                "technologies": [
+                  "Jini 2.0",
+                  "RIO",
+                  "JERI",
+                  "Globus Toolkits 3.x",
+                  "J2EE",
+                  "Web Service",
+                  "OpenGIS",
+                  "PostGIS",
+                  "JDBC",
+                  "GeoServer",
+                  "Struts",
+                  "Ant",
+                  "Tomcat",
+                  "Servlet",
+                  "JSP",
+                  "UML2"
+                ],
+                "tags": [
+                  "Java",
+                  "Distributed Computing",
+                  "J2EE",
+                  "GIS"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "GIS Project: A Yield Mapping and Prediction Information Delivery System",
+                "description": "Built a web-based GIS platform integrating OpenGIS, GeoServer, and PostGIS to deliver real-time yield prediction maps for farmers using satellite and field data.",
+                "highlights": [],
+                "technologies": [
+                  "OpenGIS",
+                  "PostGIS",
+                  "PostgreSQL",
+                  "JDBC",
+                  "GeoServer",
+                  "GeoTools",
+                  "Struts",
+                  "Ant",
+                  "Apache Maven",
+                  "Servlet",
+                  "JSP",
+                  "MVC"
+                ],
+                "tags": [
+                  "Java",
+                  "GIS",
+                  "DBMS",
+                  "PostGIS"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Independently finished practical course projects list",
+                "description": "Completed advanced projects including a C-based LL(1) compiler, UML-modeled supermarket system, parallel matrix multiplication service, Linux kernel modules, Java card applications, and mobile map navigation tools.",
+                "highlights": [],
+                "technologies": [
+                  "GCC Compiler",
+                  "Solaris",
+                  "Linux Kernel 2.4",
+                  "UML 2",
+                  "Rational Rose",
+                  "Java",
+                  "SORCER",
+                  "SOA",
+                  "Jini",
+                  "JavaSpace",
+                  "JBoss",
+                  "J2EE",
+                  "VFS",
+                  "Java Card platform",
+                  "MIDP",
+                  "MIDlets",
+                  "Servlets",
+                  "OCF",
+                  "CLDC",
+                  "Ant"
+                ],
+                "tags": [
+                  "Java",
+                  "C/C++",
+                  "UML",
+                  "Linux Kernel",
+                  "J2EE",
+                  "Linux",
+                  "Unix"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "item-work": {
+          "start-date": "Apr., 2000 ",
+          "end-date": "May, 2002",
+          "position": "Senior Software Engineer",
+          "company": {
+            "name": "Technology Development Center, Sun Microsystem (China) Co.,Ltd.",
+            "city": "Beijing",
+            "country": "P. R. China"
+          },
+          "achievements": "As Senior software engineer, provided consulting services for Java/J2EE technologies for local companies. Helped design and architecture the Java/J2EE systems around Sun's software products like iPlanet Application Server, Directory Server, Message Queue Server",
+          "technologies": [
+            "Java",
+            "J2EE",
+            "JMS",
+            "EJB",
+            "Servlets",
+            "JDBC",
+            "Message-Driven Bean",
+            "LDAP",
+            "SQL",
+            "Weblogic",
+            "OOA/OOD",
+            "UML",
+            "MVC",
+            "Oracle DBMS",
+            "Java IDL",
+            "RMI",
+            "CORBA",
+            "JNDI",
+            "Solaris",
+            "CVS",
+            "Ant"
+          ],
+          "projects": [
+            {
+              "item-projects": {
+                "title": "Java Message Service(JMS) Prototype Application",
+                "description": "Designed and implemented a JMS-based prototype for tax document approval, integrating web interfaces, message-driven beans, and database connectors to emulate multi-level government workflows.",
+                "highlights": [
+                  "Setup Application Server, Message Queue Server, Directory Server and Oracle DB Server in tow emulation nodes",
+                  "Designed and developed JSP, Servlets and Message-Driven Beans",
+                  "Deployed the application packages (.war and .ear) in two nodes",
+                  "Design the test cases for the JMS prototype application"
+                ],
+                "technologies": [
+                  "iPlanet Application 6.0",
+                  "iPlanet Directory Server",
+                  "iPlanet Message Queue Server",
+                  "Oracle 8.x",
+                  "Solaris",
+                  " JSP",
+                  "Servlet",
+                  "EJB",
+                  "JDBC",
+                  "JNDI",
+                  "LDAP",
+                  "SQL",
+                  "JMS",
+                  "Message-Driven Bean",
+                  "JMS",
+                  "J2EE"
+                ],
+                "tags": [
+                  "Java",
+                  "J2EE",
+                  "JMS",
+                  "DBMS"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Remote Learning Management Platform (www.ambow.com)",
+                "description": "Architected a J2EE-based e-learning platform with course, certificate, and management modules, leveraging RUP, UML, and OOA/OOD best practices for scalable online education.",
+                "highlights": [
+                  "Managed the project engineering process based on RUP",
+                  "Directed the whole development team (over 20 software engineers)",
+                  "Trained the team members with J2EE design and implementation technologies",
+                  "Provided Consulting Service in the system of OOA and OOD",
+                  "Directed Java and J2EE coding, debug and deployment in Weblogic 6.0",
+                  "Setup Weblogic and Oracle DBMS development environments"
+                ],
+                "technologies": [
+                  "Weblogic 6.0",
+                  "Oracle 8.x",
+                  "Windows 2000",
+                  "Solaris",
+                  "Rational Rose 2000",
+                  "Microsoft Visual SourceSafe 6.0",
+                  "JSP",
+                  "Servlet",
+                  "EJB",
+                  "JDBC",
+                  "JNDI",
+                  "LDAP",
+                  "SQL",
+                  "Security",
+                  "UML",
+                  "OOA",
+                  "OOD",
+                  "MVC"
+                ],
+                "tags": [
+                  "Java",
+                  "J2EE",
+                  "UML"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Bao Steel B2B Website (www.bsteel.com)",
+                "description": "Developed China's first large-scale B2B website using J2EE MVC patterns, delivering modular solutions for auctions, ordering, user management, and more than 100 database tables.",
+                "highlights": [
+                  "Set up the iPlanet App Server development and test environment in Solaris platform",
+                  "Provide Consulting Services in the development of bargaining module (Includes 2 session beans and over 10 JSPs and many other helper classes)",
+                  "Analyzed, designed, developed and deployed auction module (Includes 6 EJBs and over 20 JSPs and many other helper classes such as value-object etc.)",
+                  "Directed the Java coding and deployment in iPlanet App Server 6.0",
+                  "Setup Oracle DB server for development and production environments",
+                  "Setup CVS system on Solaris platform"
+                ],
+                "technologies": [
+                  "iPlanet Application Server 6.0",
+                  "iPlanet Directory Server 4.1",
+                  "iPlanet Web Server 4.1",
+                  "Oracle 8.1.5",
+                  "Solaris 2.7",
+                  "Window NT 4.0-Sp6",
+                  "Jakarta Ant 1.1",
+                  "CVS",
+                  "JSP",
+                  "Servlets",
+                  "EJB",
+                  "JDBC",
+                  "JNDI",
+                  "LDAP",
+                  "SQL",
+                  "Security"
+                ],
+                "tags": [
+                  "Java",
+                  "J2EE",
+                  "Unix",
+                  "Windows",
+                  "SQL"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Project Management Tools",
+                "description": "Built web-based project, user, and document management tools on iPlanet Application Server, featuring LDAP authentication and CORBA-based local resource access for EJBs.",
+                "highlights": [
+                  "Set up and administered the development of iPlanet App Server 6.0",
+                  "Designed, developed and deployed the LDAP based user management module",
+                  "Designed and developed the CORBA based project management tool",
+                  "Designed the Security and Transaction of the whole project"
+                ],
+                "technologies": [
+                  "iPlanet Application Server 6.0",
+                  "iPlanet Directory Server 4.1",
+                  "iPlanet Web Server 4.1",
+                  "Oracle 8.1.5",
+                  "Solaris 2.7",
+                  " JSP",
+                  "Servlet",
+                  "EJB",
+                  "JDBC",
+                  "Java IDL",
+                  "CORBA",
+                  "JNDI",
+                  "LDAP",
+                  "SQL",
+                  "Security"
+                ],
+                "tags": [
+                  "Java",
+                  "J2EE",
+                  "CORBA",
+                  "IDL",
+                  "SQL"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "item-work": {
+          "start-date": "Aug.,1998",
+          "end-date": "Apr.,2000",
+          "position": "Software Engineer",
+          "company": {
+            "name": "IBM China Research and Development Lab",
+            "city": "Beijing",
+            "country": "P. R. China"
+          },
+          "achievements": "As software engineer, designed and implemented Java/J2EE systems around IBM software products like IBM WebSphere ...etc.",
+          "technologies": [
+            "Java",
+            "J2EE",
+            "C/C++",
+            "Servlets",
+            "WebSphere",
+            "SSL",
+            "JDBC",
+            "Windows NT",
+            "SAN",
+            "POS",
+            "JNI",
+            "DB2"
+          ],
+          "projects": [
+            {
+              "item-projects": {
+                "title": "Credit Card Internet Online Payment System",
+                "description": "Engineered a secure online credit card payment system integrating IBM Payment Server, Net.Commerce, and WebSphere, with encrypted POS emulation for internet transactions.",
+                "highlights": [
+                  "Analyzed the requirements of interface software",
+                  "Developed and implemented the communication module(C lib) with POS",
+                  "Designed and developed COM port interface module using javax.comm",
+                  "Developed and deployed the interface module (servlets) in the WebSphere Application Server between Net.Commerce and PaymentServe",
+                  "Followed SDLC process to design, develop and test the system",
+                  "Written SDLC documents during design, development and testing phase"
+                ],
+                "technologies": [
+                  "WebSphere Application Server",
+                  "Net.Commerce",
+                  "Payment Server",
+                  "DB2",
+                  "WinNT Server",
+                  "JSP",
+                  "Servlet",
+                  "Security",
+                  "SSL",
+                  "JDBC",
+                  "C",
+                  "Socket and Serial Communication Programming",
+                  "javax.comm",
+                  "SDLC"
+                ],
+                "leaderships": [
+                  "Led the design and implementation of secure online payment modules, ensuring compliance with banking standards.",
+                  "Coordinated cross-team efforts between POS, web, and backend teams for seamless integration.",
+                  "Documented SDLC processes for future payment system projects."
+                ],
+                "tags": [
+                  "Java",
+                  "J2EE",
+                  "DBMS",
+                  "SSL",
+                  "C"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Jiro/Jini-based Storage Management System",
+                "description": "Developed a distributed SAN management system using Jiro/Jini, delivering web-based administration and dynamic storage control.",
+                "highlights": [
+                  "Analyzed requirements of the SAN (Storage Area Network) system",
+                  "Participated in the system prototype design and development",
+                  "Developed web-based management client for the system which include some servlets connecting to the Jini services (Management Facade- MF)"
+                ],
+                "technologies": [
+                  "Apache1.3",
+                  "JDK1.2.x",
+                  "Solaris 2.7",
+                  "JSP",
+                  "Servlet",
+                  "Jiro/jini",
+                  "RMI",
+                  "SAN"
+                ],
+                "leaderships": [
+                  "Contributed to the design and prototyping of distributed storage management systems using emerging Java technologies.",
+                  "Developed web-based management clients, improving system usability.",
+                  "Facilitated knowledge transfer on Jini and distributed computing concepts."
+                ],
+                "tags": [
+                  "Java",
+                  "Distributed Computing",
+                  "Disk Storage",
+                  "OpenSource"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Handwriting Recognizing System",
+                "description": "Built a cross-platform handwriting recognition research environment for IBM ThinkScribe, integrating Java JNI, MFC, Lotus Domino, and DB2 for data capture and analysis.",
+                "highlights": [
+                  "Analysis the requirements and design the system",
+                  "Set up Lotus Domino R5 web environment and developed lotus script agents querying the data in DB2 through LS:DO",
+                  "Developed MFC application connecting to DB2 via RDO:ODBC",
+                  "Developed the Java class calling the handwriting recognition engine (.Dll) via JNI"
+                ],
+                "technologies": [
+                  "Lotus Domino R5",
+                  "Visual Basic 6.0",
+                  "DB2",
+                  "WinNT-sp5",
+                  "Lotus Notes",
+                  "MS-IE",
+                  "JSP",
+                  "Servlet",
+                  "Lotus Script",
+                  "LS:DO",
+                  "RDO:ODBC",
+                  "Visual Basic",
+                  "MFC"
+                ],
+                "leaderships": [
+                  "Led the integration of handwriting recognition technology into enterprise systems, expanding product capabilities.",
+                  "Coordinated multi-language and multi-platform development efforts.",
+                  "Provided technical mentorship on JNI and cross-platform integration."
+                ],
+                "tags": [
+                  "Java",
+                  "J2EE",
+                  "JNI",
+                  "Windows",
+                  "Lotus"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "item-work": {
+          "start-date": "Apr.,1996",
+          "end-date": "Jul.,1997",
+          "position": "System/Network/Software Engineer",
+          "company": {
+            "name": "North China Institute (Taiji Computers Corporation)",
+            "city": "Beijing",
+            "country": "P. R. China"
+          },
+          "achievements": "Worked for different teams as System/Network/Software Engineer. Provided production supporting services for IBM RS6000 and Disk Array products. Developed IC Card Application system. Designed Large scale network system with Cisco Routers and Switches.",
+          "technologies": [
+            "C/C++",
+            "Assembly",
+            "Network Design",
+            "Router",
+            "Switch",
+            "VLAN",
+            "AIX",
+            "Disk Array",
+            "SSA",
+            "RAID",
+            "Volume Manager",
+            "IC",
+            "RIP/OSPF",
+            "Ciso IOS"
+          ],
+          "projects": [
+            {
+              "item-projects": {
+                "title": "System Engineer,IBM Service Center",
+                "description": "Provided expert technical support and maintenance for IBM RS6000 servers and Disk Array products, standardizing installation and troubleshooting procedures.",
+                "highlights": [
+                  "Installed Software in RS6000/AIX",
+                  "Setup HACMP software in RS6000/AIX system",
+                  "Troubleshooting RS6000 and IBM disk array (SCSI, SSA) hardware system",
+                  "Troubleshooting software problems in AIX system",
+                  "Installed and Maintained IBM RS6000 and IBM Disk Array (SCSI and SSA) Products hardware",
+                  "Setup volume, logical partition, Journal file system and RAID 0,1,5 on IBM Disk Array Products"
+                ],
+                "technologies": [
+                  "IBM RS6000 (SP2, R50, ..., 43P)",
+                  "AIX",
+                  "IBM Disk Array",
+                  "AIX",
+                  "TCP/IP",
+                  "HACMP",
+                  "RAID0,1,5",
+                  "SCSI. JFS",
+                  "SSA",
+                  "Volume Manager",
+                  "Logical/Physical Partition"
+                ],
+                "leaderships": [
+                  "Provided expert technical support for IBM RS6000 and Disk Array products, ensuring high customer satisfaction.",
+                  "Developed troubleshooting guides and training materials for junior engineers.",
+                  "Standardized installation and maintenance procedures for critical hardware."
+                ],
+                "tags": [
+                  "System Administration",
+                  "Disk Storage",
+                  "RAID",
+                  "SCSI",
+                  "AIX"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Software Engineer, HUAXU Golden Card Co.Ltd.",
+                "description": "Developed secure IC card hardware, drivers, and application systems, delivering cross-platform solutions for card management and user interfaces.",
+                "highlights": [
+                  "Developed IC Card (includes Memory, Security and CPU) Application System",
+                  "Developed IC Card Reader Application System",
+                  "Developed IC Card Reader Driver Application (DLL) using C++ (BC++ and VC++) on windows platform",
+                  "Developed IC Card Reader GUI user Application using Visual Basic on windows platform",
+                  "Designed and Developed IC Card Information Management System using FoxPro, PowerBuilder and Perl on Windows Platform"
+                ],
+                "technologies": [
+                  "ATMEL Chips",
+                  "Motorola",
+                  "Memory/Security/CPU Card. M51 (Single Chip Computer). Visual C++",
+                  "Visual Basic",
+                  "Borland C++",
+                  "Power Builder",
+                  "Windows NT",
+                  "C++",
+                  "DLL",
+                  "Lib",
+                  "COS (Chip OS)",
+                  "DES",
+                  "Assembly Language",
+                  "FoxPro"
+                ],
+                "leaderships": [
+                  "Led the development of IC card application systems, driving innovation in secure hardware solutions.",
+                  "Designed and implemented cross-platform drivers and GUIs, improving product usability.",
+                  "Documented system architectures for future development teams."
+                ],
+                "tags": [
+                  "C/C++",
+                  "IC",
+                  "DLL"
+                ]
+              }
+            },
+            {
+              "item-projects": {
+                "title": "Large scale Network System Design and Administration",
+                "description": "Designed and implemented large-scale network systems for major financial and broadcast institutions, integrating Cisco, IBM ATM, and 3Com fiber technologies.",
+                "highlights": [
+                  "People's Bank of China (The Central Bank of China) ATM network system design and implementation (ATM 622M, ELAN, VLAN, CISCO Router 7500)",
+                  "China Investment Bank WAN network system",
+                  "JiNan, ShanDong Province Broadcast & TV network system (HFC)",
+                  "ATM Network system of Beijing People's Broadcast Station (IBM 8285, Cisco 7500)",
+                  "PICC Property of Tianjin network system (IBM 8274,8273,Cisco 2511)",
+                  "PICC Property of LiaoNing and ShenYang Network system",
+                  "PICC Property of HeiLongJiang Network System (IBM 8260,8274, 8271),Notes: PICC - People's Insurance Company of China",
+                  "Responsible for network project design, implementation and plan",
+                  "Provided system (IBM RS6000, PC Server, AIX, SCO UNIX, NT, Informix) integration plans for customers",
+                  "Achieved the certificate of IBM advanced networking training and networking hands-on training",
+                  "Configured RIP, OSPF routing protocol in Cisco Routers via IOS",
+                  "Detailed Design ELAN and VLAN with IP subnet",
+                  "Configured ELAN, VLAN in IBM ATM Switch",
+                  "Configured IP WAN in Cisco Router",
+                  "Configured Ethernet, Token-Ring, X.25, ISDN, Frame-Relay and other data layer network",
+                  "IBM Network Products hardware installation and repair",
+                  "Installed Cisco and 3Com network products (Router, Switch, and Fiber Products)"
+                ],
+                "technologies": [
+                  "IBM 8265/8285/8274",
+                  "Cisco Router 7500",
+                  "Cisco 2511",
+                  "ATM",
+                  "ELAN",
+                  "VLAN",
+                  "HFC",
+                  "RIP",
+                  "OSPF",
+                  "Cisco IOS",
+                  "X.25",
+                  "Frame-Relay",
+                  "ISDN",
+                  "Ethernet"
+                ],
+                "leaderships": [
+                  "Designed and implemented large-scale network systems for major financial and broadcast institutions.",
+                  "Provided hands-on training and certification for network engineers.",
+                  "Standardized network design documentation and troubleshooting procedures."
+                ],
+                "tags": [
+                  "System Administration",
+                  "Network Design"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "item-work": {
+          "start-date": "Jun., 1991",
+          "end-date": "Sep.,1993",
+          "position": "Mechanical Engineer",
+          "company": {
+            "name": "Yongji Electrical and Motor Factory",
+            "city": "ShanXi Province",
+            "country": "P. R. China"
+          },
+          "achievements": "Designed Locomotive engine electric motor/generator cases and automated with AutoCAD, CAPP and CAM with FMS/CIMS",
+          "technologies": [
+            "C/C++",
+            "AutoCAD",
+            "CAD/CAM/CAPP",
+            "CIMS/FMS",
+            "DOS"
+          ],
+          "projects": [
+            {
+              "item-projects": {
+                "title": "CIMS and FMS CAPP/CAD/CAM manufacturing Automation application development",
+                "description": "Engineered and automated the design and manufacturing processes for locomotive motors and generators using CAPP/CAD/CAM software and FMS/CIMS centers from GE.",
+                "highlights": [
+                  "Mechanical engineer of locomotive's motor and generator",
+                  "Developed CAPP, CAD software of CIMS system(C, C++, AutoCAD)",
+                  "Designed and implemented the manufacturing process of mechanical component in locomotive"
+                ],
+                "technologies": [
+                  "AutoCAD",
+                  "C",
+                  "C++",
+                  "DOS",
+                  "Z80(Single Chip Computer)",
+                  "Borland C++"
+                ],
+                "leaderships": [
+                  "Led the automation of locomotive motor and generator manufacturing processes, increasing production efficiency.",
+                  "Developed custom CAD/CAM software solutions, modernizing legacy workflows.",
+                  "Trained engineering staff on new automation tools and methodologies."
+                ],
+                "tags": [
+                  "C/C++",
+                  "AutoCAD"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "summaries": [
+      {
+        "summary": "Yongjun Rong is a hands-on Principal Architect and technology leader with 25+ years of experience designing, operating, and evolving large-scale distributed systems and microservices platforms. He brings production-hardened expertise in Node.js and JavaScript/TypeScript service-based architectures, asynchronous messaging (RabbitMQ, Kafka, SQS/SNS, EventBridge), and AWS cloud-native infrastructure (EKS, Aurora/PostgreSQL, Lambda, Terraform). Yongjun has owned technical standards and design quality across multiple engineering organizations - authoring group-wide architecture handbooks for microservices and event-driven architecture, establishing design-first methodologies, running rigorous design reviews, and evaluating ~200 products and technologies to set enterprise house positions - while personally building the prototypes, core libraries, and reference architectures that set the standard for how teams build. He has architected high-volume, real-time, event-driven data platforms across the full lifecycle from ingestion to storage, processing, and access, and has repeatedly raised reliability bars through observability, monitoring, and fault-tolerance engineering. Fluent in English and Chinese, he excels at turning executive-level technical strategy into actionable milestones and documented patterns that teams can implement independently.",
+        "tags": [
+          "architect"
+        ]
+      }
+    ],
+    "skills": [
+      "Distributed systems and microservices architecture, including operating and evolving mature (not just greenfield) microservices environments: service boundaries, API design, backward compatibility, technical-debt reduction, and failure-mode-driven design at enterprise scale.",
+      "Strong hands-on Node.js and JavaScript/TypeScript in service-based architectures, including Node.js microservices communicating via RabbitMQ and HTTP on AWS (EKS, PostgreSQL), REST/OpenAPI-first design, JSON Schema/JOI validation, and asynchronous communication patterns.",
+      "Data architecture for high-volume, real-time systems: IoT and event-driven ingestion, streaming and batch processing (Kafka/Kafka Streams, EventBridge, SQS/SNS, Step Functions), and storage/processing/access-pattern tradeoffs across PostgreSQL/Aurora, ClickHouse, DynamoDB, MongoDB, and Oracle.",
+      "System reliability and performance at scale: observability and monitoring standards (CloudWatch, Prometheus/Grafana, Jaeger/Kiali, Splunk, Dynatrace, Datadog, ELK), alerting/escalation and deduplication design, distributed tracing, circuit breaking, fault tolerance, and MTTD/MTTR reduction.",
+      "Architectural leadership across teams: owning technical standards, running design review processes, authoring architecture handbooks and reference architectures, and turning high-level strategy into clear, documented patterns that teams implement independently - driving alignment through influence rather than authority.",
+      "Cloud infrastructure design, automation, and migration across AWS, GCP, and Azure, including EKS/Kubernetes with Istio service mesh, serverless architectures (Lambda, EventBridge, Step Functions), and Infrastructure as Code (Terraform, Terragrunt, CloudFormation, Ansible).",
+      "GenAI system architecture and implementation with Retrieval-Augmented Generation (RAG) and multi-agent orchestration to accelerate software development and legacy modernization to cloud-native platforms.",
+      "Mentorship and cross-team enablement: leading working groups (~30 members), training geographically distributed teams, and fostering a culture of quality obsession, reliability, and continuous learning across engineering organizations."
+    ],
+    "technologies": [
+      {
+        "daily-programing-language": [
+          "Python",
+          "Typescript/JavaScript",
+          "Terraform",
+          "Java",
+          "Bash",
+          "Ruby"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "item-languages": {
+          "name": "English",
+          "additional-info": "Fluent"
+        }
+      },
+      {
+        "item-languages": {
+          "name": "Chinese",
+          "additional-info": "Native"
+        }
+      }
+    ],
+    "hobbies": {
+      "hobby-items": [
+        {
+          "item-hobbies": {
+            "name": "Pickleball",
+            "additional-info": " ~4.0 player"
+          }
+        },
+        {
+          "item-hobbies": {
+            "name": "Pingpong",
+            "additional-info": "ITTF Score around 1200"
+          }
+        },
+        {
+          "item-hobbies": {
+            "name": "IoT or Robot programming",
+            "additional-info": "Have iRobot and MIPOSaur at home. Programming against iRobot create SDK and MIPOSaur SDK."
+          }
+        },
+        {
+          "item-hobbies": {
+            "name": "iOS/Android Apps Development",
+            "additional-info": "Developing a Chinese character learning App"
+          }
+        },
+        {
+          "item-hobbies": {
+            "name": "Playing with cutting-edge technologies",
+            "additional-info": "genAI/Autogen/Multiagents, Docker, Go, Kafka, Kubernetes and Amazon CloudFormation, JavaScript, AngularJS, ReactiveJS, Node.js"
+          }
+        },
+        {
+          "item-hobbies": {
+            "name": "IFTTT Home Automation",
+            "additional-info": "IFTTT, WeMo, EcoBee, Weather Underground, SaaS, REST, Home Automation"
+          }
+        }
+      ],
+      "hobby-projects": [
+        {
+          "item-projects": {
+            "title": "Personalized JSON Schema Resume",
+            "description": "Customized the open source project dynamic-json-resume using JSON format and mustache templates with Node.js and CSS3. GitHub url: https://github.com/rongyj/dynamic-json-resume/tree/rongyj",
+            "highlights": [
+              "Adapt the JSON schema to personal resume format",
+              "Developed new utility methods to filter the JSON data",
+              "Personalized CSS3 styles with auto counting for multiple counters",
+              "Add new table mustache template",
+              "Add @media print page numbers to the CSS3 styles",
+              "Add CSS3 style for large table crossing page breaks",
+              "Debug in Atom with an open source Node-Debugger package",
+              "Generate pdf file from html using puppeteer"
+            ],
+            "technologies": [
+              "JavaScript",
+              "HTML5",
+              "CSS3",
+              "Node.js",
+              "JSON",
+              "mustache",
+              "Puppeteer"
+            ],
+            "tags": [
+              "FullStack",
+              "JavaScript"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

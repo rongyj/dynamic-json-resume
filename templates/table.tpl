@@ -95,7 +95,7 @@
                   <p>{{ item-work.start-date}} &ndash; {{ item-work.end-date }}
                   <p class="bold-font">{{ item-work.company.name }}
                   <p>{{ item-work.company.city }},{{ item-work.company.country }}
-                  <p class="bold-font">{{ item-work.position }}
+                  <p class="bold-font">{{{ item-work.position }}}
                 </td>
                 <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
                   {{#item-work.projects.length }}

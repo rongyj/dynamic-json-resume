@@ -33,7 +33,7 @@
             {{ #resume.work}}
             <div class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}}>
               <div id="company-header">
-                <p class="header-company-name" style="text-align:left">{{ item-work.position }}
+                <p class="header-company-name" style="text-align:left">{{#item-work.position-header}}{{{ item-work.position-header }}}{{/item-work.position-header}}{{^item-work.position-header}}{{{ item-work.position }}}{{/item-work.position-header}}
                   <span class="header-date" style="float:right">{{ item-work.start-date}} &ndash; {{ item-work.end-date }}</span>
                 </p>
               </div>

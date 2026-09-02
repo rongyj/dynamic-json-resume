@@ -1,0 +1,462 @@
+{
+    "resume": {
+        "contact": {
+            "first_name": "Yongjun",
+            "last_name": "Rong",
+            "website": "https://www.linkedin.com/in/rongyongjun/",
+            "email": "rongyj@hotmail.com",
+            "phone": "856-408-4027",
+            "github": "https://github.com/rongyj",
+            "city": "Cherry Hill, NJ, USA, 08003",
+            "visa": "US Citizen"
+        },
+        "education": [
+            {
+                "item-education": {
+                    "start-date": "Sept.,2002",
+                    "end-date": "Jun.,2006",
+                    "institution": {
+                        "name": "Texas Tech University",
+                        "city": "Lubbock, TX",
+                        "country": "USA"
+                    },
+                    "description": "Master of Computer Science",
+                    "additional-info": "GPA: 4.0/4.0"
+                }
+            },
+            {
+                "item-education": {
+                    "start-date": "Sept.,1993",
+                    "end-date": "Feb.,1996",
+                    "institution": {
+                        "name": "Shanghai JiaoTong University",
+                        "city": "Shanghai",
+                        "country": "China"
+                    },
+                    "description": "Master of Engineering",
+                    "additional-info": "Major: Hydraulic Fluid Control in Mechanical Engineering"
+                }
+            },
+            {
+                "item-education": {
+                    "start-date": "Sept.,1987-09",
+                    "end-date": "Jul.,1991",
+                    "institution": {
+                        "name": "Changsha Railway University",
+                        "city": "Changsha, Hunan",
+                        "country": "China"
+                    },
+                    "description": "Bachelor of Engineering",
+                    "additional-info": "Major: Engineering Machine"
+                }
+            }
+        ],
+        "work": [
+            {
+                "item-work": {
+                    "start-date": "Oct.,2025",
+                    "end-date": "Current",
+                    "position": "Principal Cloud and Platform Architect (JPMC)",
+                    "company": {
+                        "name": "Intuitive.ai",
+                        "city": "Cherry Hill, NJ (WFH)",
+                        "country": "USA"
+                    },
+                    "achievements": "Hands-on principal architect for the on-demand application platform used by hundreds of developers across more than 80 product teams. Owns the ECS/EKS and Istio service-mesh reference architecture, the Terraform module library behind it, and the observability, secrets and TLS standards every onboarding service inherits. Cut new-service environment provisioning from weeks to hours and onboarded more than 200 microservices onto the paved road.",
+                    "technologies": [
+                        "IaC",
+                        "Terraform",
+                        "AWS/EKS/Service Mesh/Istio",
+                        "TLS Certificate"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "On Demand Environment (ODE) backend (Java Spring Boot) infrastructure (ECS) design and implementation",
+                                "description": "Designed and implemented ODE to unify the provisioning and deployment flows for hundreds of applications, microservices and their supporting infrastructure, replacing per-team bespoke scripts with a single self-service paved road.",
+                                "highlights": [
+                                    "Architected the backend infrastructure with ECS/ALB/R53/Fargate/RDS/IAM",
+                                    "Built the Java Spring Boot backend that unifies provisioning and deployment behind one self-service flow, so a team requests an environment instead of assembling it",
+                                    "Made provisioning idempotent and repeatable end to end, taking new-environment turnaround from weeks of coordinated manual setup to hours"
+                                ],
+                                "technologies": [
+                                    "Java",
+                                    "Spring Boot",
+                                    "AWS ECS",
+                                    "AWS Fargate",
+                                    "AWS ALB",
+                                    "Amazon Route 53"
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Design and implement Splunk and Dynatrace onboarding for Spring Boot ECS Microservices",
+                                "description": "Designed and Implemented Splunk Universal Forwarder (UF) sidecar and Dynatrace OneAgent JVM instrument to collect application and JVM logs",
+                                "highlights": [
+                                    "Built the reusable Terraform module that bootstraps every new service with the correct IAM roles, sidecar configuration and telemetry variables, cutting observability onboarding from days of hand-wired configuration to minutes",
+                                    "Delivered Splunk dashboards and Dynatrace alerting profiles for application health and cross-service transaction latency, taking incident triage from hours of log-hunting to minutes of trace inspection"
+                                ],
+                                "technologies": [
+                                    "Splunk Universal Forwarder (UF)",
+                                    "Dynatrace OneAgent",
+                                    "AWS ECS",
+                                    "Java",
+                                    "Spring Boot",
+                                    "Terraform"
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "EKS Service Mesh (Istio) on-demand framework Design and Implementation",
+                                "description": "Architected and implemented a comprehensive EKS-based service mesh framework using Istio to enable on-demand platform capabilities for hundreds of developers. Designed a scalable, secure, and automated infrastructure that supports dynamic service provisioning, traffic management, and observability across microservices.",
+                                "highlights": [
+                                    "Designed and implemented the multi-tenant EKS + Istio architecture behind the on-demand platform, carrying the platform's full microservice estate across per-team tenant namespaces",
+                                    "Developed the automation framework for dynamic service-mesh provisioning and configuration management, cutting tenant onboarding from weeks to under a day",
+                                    "Enforced mTLS mesh-wide in STRICT mode for all service-to-service communication, replacing per-application TLS handling with a platform-level guarantee"
+                                ],
+                                "technologies": [
+                                    "AWS EKS",
+                                    "Istio Service Mesh",
+                                    "Kubernetes",
+                                    "Terraform",
+                                    "TLS/mTLS",
+                                    "Envoy Proxy"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "item-work": {
+                    "start-date": "Feb.,2025",
+                    "end-date": "Oct.,2025",
+                    "position": "Director of Cloud Architecture",
+                    "company": {
+                        "name": "Biophy",
+                        "city": "Cherry Hill, NJ (WFH)",
+                        "country": "USA"
+                    },
+                    "achievements": "Hands-on director of cloud architecture for an AI-powered healthcare platform. Led the retrieval corpus pipeline behind the product's RAG system - multi-source ingestion and scraping, chunking and embedding, deduplication and data-quality controls on Python/Django/Pydantic with LangChain - and brought the live AWS estate under Terraform/Terragrunt.",
+                    "technologies": [
+                        "IaC",
+                        "Terraform/Terragrunt",
+                        "AWS/EC2/EBS/S3/VPC/ALB/Security/R53/IAM/Secrets Manager/Lambda/CloudWatch/EventBridge/SQS/SNS",
+                        "Python/DJango/Pydantic",
+                        "openAI API/LangChain",
+                        "SOLID Principles"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "AI-Powered Data Ingestion and Scraping System for RAG",
+                                "description": "Architected and delivered a robust data ingestion and scraping platform for AI-powered RAG, applying SOLID and Clean Architecture principles to ensure scalability, maintainability, and high data quality.",
+                                "highlights": [
+                                    "Architected a modular data ingestion pipeline supporting multiple data sources and formats",
+                                    "Built the chunking, embedding and upsert path that turned heterogeneous scraped and uploaded documents into a queryable corpus of tens of thousands of embedded chunks, with deduplication and re-embedding on source change",
+                                    "Created automated testing frameworks for data quality and pipeline reliability"
+                                ],
+                                "technologies": [
+                                    "Python/Django/Pydantic",
+                                    "openAI API/LangChain",
+                                    "SOLID Principles",
+                                    "Clean Architecture",
+                                    "Data Processing",
+                                    "Web Scraping"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "item-work": {
+                    "start-date": "Dec.,2021",
+                    "end-date": "Feb.,2025",
+                    "position": "Senior Cloud Engineer II (Associate)",
+                    "company": {
+                        "name": "McKinsey & Company",
+                        "city": "Cherry Hill, NJ (WFH)",
+                        "country": "USA"
+                    },
+                    "achievements": "Built GenAI platform capability for enterprise modernization: curated retrieval corpora over ChromaDB/Milvus, multi-agent orchestration with AutoGen, and FastAPI services exposing model-backed capabilities as internal APIs other teams consumed rather than rebuilt. Scaled the retrieval layer behind a call-centre chatbot copilot from single-node prototype to a persistent, concurrently queried vector store. Also migrated complex mainframe event-driven systems onto AWS serverless (EventBridge, Lambda, Step Functions, SQS/SNS, EKS).",
+                    "technologies": [
+                        "genAI/openAI/Langchain/RAG/Multi-agents/prompts tuning",
+                        "VectorStore/ChromaDB/Milvus",
+                        "Python/Flask/FastAPI/Pydantic/Jupyter",
+                        "Databricks/pyspark",
+                        "Typescript/JavaScript/NodeJs",
+                        "Event Driven Architecture (EDA)"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "Using genAI (openAI) with RAG (ChromaDB, Milvus) to accelerate the development of data pipelines running on pyspark and databricks",
+                                "description": "Designed and implemented a genAI system with RAG (ChromaDB/Milvus) to automate and accelerate the development of data pipelines, enabling seamless transformation of source tables to target tables with varying data structures.",
+                                "highlights": [
+                                    "Prompt engineering and tuning to generate PySpark data-pipeline functions together with their unit tests",
+                                    "Curated the retrieval corpus from the enterprise data dictionary - source and target schemas, column-level lineage and prior transformation examples - embedded with OpenAI embeddings into HNSW-indexed vector collections spanning thousands of table definitions",
+                                    "Tuned the retrieval layer rather than only the prompt: chunk granularity, top-k depth and similarity thresholds, measured against whether the generated PySpark compiled and passed its generated tests, which mattered more to output quality than further prompt iteration",
+                                    "Operated the vector store as shared infrastructure - collection layout, embedding refresh on schema change, and reproducible rebuilds from source - so retrieval quality did not silently decay as the data dictionary evolved, holding sub-second retrieval at interactive latencies"
+                                ],
+                                "technologies": [
+                                    "Langchain/VectorStore/ChromaDB/Milvus",
+                                    "genAI/openAI",
+                                    "RAG",
+                                    "Python/Pydantic/Asyncio/Flask/FastAPI/Debugpy",
+                                    "Typescript/JavaScript/NodeJs",
+                                    "Microservice"
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Using genAI (openAI) with multi-agents to accelerate the migration of mainframe to modern technologies",
+                                "description": "Built a multi-agent genAI platform to automate and accelerate the migration of mainframe applications to modern technologies, integrating RAG for context-aware transformation and process automation.",
+                                "highlights": [
+                                    "Contribute to develop multi-agents genAI system to automate the development/testing/deployment process",
+                                    "Built the RAG layer that accelerated COBOL-to-Java migration, operating ChromaDB/Milvus as shared retrieval infrastructure holding the dependency context that multiple migration workstreams queried",
+                                    "Indexed the mainframe dependency graph - copybooks, JCL, called modules and data definitions across a legacy estate of thousands of COBOL programs - so an agent converting one module retrieved its true upstream and downstream context instead of guessing at it"
+                                ],
+                                "technologies": [
+                                    "Langchain/VectorStore/ChromaDB/Milvus",
+                                    "genAI/openAI",
+                                    "RAG",
+                                    "Agents/Multi-agents/Autogen",
+                                    "Python/FastAPI",
+                                    "Typescript/JavaScript/NodeJs"
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Migration/Refactoring of Mainframe (IBM MQ) EDA system to AWS by using EventBridge/Lambda/Step Function/CloudWatch/EKS/SQS/SNS...etc.",
+                                "description": "Engineered and deployed an EKS-based router to integrate AWS EventBridge with external MQ events, providing robust monitoring, reporting, and cloud-native migration for mainframe EDA systems.",
+                                "highlights": [
+                                    "Develop SpringBoot EKS router to convert XML/XSD to JSON schema and integrate with MQ events",
+                                    "Design and implement the monitoring terraform module for all different AWS resources (Lambda, EventBridge, S3, DynamoDB, Step Function..etc.) using cloudwatch metrics"
+                                ],
+                                "technologies": [
+                                    "Java/SpringBoot",
+                                    "Terraform",
+                                    "Microservice",
+                                    "Java/JavaScript",
+                                    "EKS",
+                                    "AWS/EventBridge/CloudWatch/Lambda"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "item-work": {
+                    "start-date": "Dec.,2020",
+                    "end-date": "Dec., 2021",
+                    "position": "Staff Engineer",
+                    "company": {
+                        "name": "Yotascale",
+                        "city": "Cherry Hill, NJ (WFH)",
+                        "country": "USA"
+                    },
+                    "achievements": "Lead architect and lead implementation engineer for a multi-cloud (AWS/Azure/GCP) cost analytics and optimization platform - the FinOps layer giving enterprise customers unit-cost visibility, allocation/showback and rightsizing across multi-account cloud estates. Owned the product architecture and the AWS platform it ran on.",
+                    "technologies": [
+                        "OpenAPI/Swagger",
+                        "Microservice",
+                        "Java/Kotlin/SpringBoot",
+                        "Kubernetes/EKS/AKS",
+                        "Istio",
+                        "Terraform"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "Lead Architect and Lead Implementation Engineer for Cloud(AWS/Azure/GCP) Cost Analytics/Optimization/Management platform",
+                                "description": "Architected and implemented a cross-cloud cost analytics and optimization platform, enabling organizations to gain actionable insights and manage cloud spending across AWS, Azure, and GCP. Led the design of scalable data pipelines, analytics microservices, and secure infrastructure.",
+                                "highlights": [
+                                    "Delivered cost allocation, showback and rightsizing views over multi-terabyte cloud billing datasets in ClickHouse, holding interactive query latency on high-cardinality, multi-dimension slices",
+                                    "Established the FinOps model inside the product - tagging/allocation taxonomy, unit-cost metrics, savings-plan and rightsizing recommendations - surfacing double-digit percentage savings opportunities for customers",
+                                    "Stood up the entire AWS platform as code with versioned Terraform/Terragrunt modules, provisioning a complete environment from an empty AWS account in hours rather than weeks"
+                                ],
+                                "technologies": [
+                                    "Cloud Cost Analytics/Optimization/Management",
+                                    "OpenAPI/Swagger",
+                                    "Microservice",
+                                    "Java/Kotlin/Python",
+                                    "Spring/SpringBoot/Flask",
+                                    "Kubernetes/EKS/AKS/GKE"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "item-work": {
+                    "start-date": "Mar.,2020",
+                    "end-date": "Nov., 2020",
+                    "position": "Technical Infrastructure/Devops Architect",
+                    "company": {
+                        "name": "Gigster Inc.",
+                        "city": "Cherry Hill, NJ",
+                        "country": "USA"
+                    },
+                    "achievements": "Technical infrastructure and DevOps architect: AWS architecture for Node.js microservices and event-driven workloads on EKS, fully provisioned through Terraform/Terragrunt with ALB ingress, IAM/OIDC and Helm-deployed dependencies.",
+                    "technologies": [
+                        "Microservice",
+                        "NodeJs",
+                        "Kubernetes/EKS",
+                        "Terraform",
+                        "RabbitMQ/ActiveMQ",
+                        "Docker"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "AWS EKS platform for Node.js microservices and event-driven workloads"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "item-work": {
+                    "start-date": "Jun.,2017",
+                    "end-date": "Feb., 2020",
+                    "position": "VP,Lead Architect Engineer",
+                    "company": {
+                        "name": "Barclays",
+                        "city": "Wilmington, DE",
+                        "country": "USA"
+                    },
+                    "achievements": "VP, lead architect for the group's distributed-systems domain and cloud adoption. Set group-wide architecture and technology strategy, issued invest/divest positions on ~200 products, authored the group-wide Microservices Architecture Handbook, and led cloud strategy for Contact Center, Merchant Services and Fraud including a ~500-application migration readiness assessment.",
+                    "technologies": [
+                        "Terraform",
+                        "CQRS",
+                        "Event Store",
+                        "Event Driven Architecture (EDA)",
+                        "Kafka/ActiveMQ/IBM MQ",
+                        "Kafka Stream"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "Delivery Lead for strategic distributed system technology domain",
+                                "description": "Directed the architecture and technology strategy for distributed systems, microservices, event-driven architecture, and stream processing, driving innovation and technology transformation across the organization.",
+                                "highlights": [
+                                    "Evaluate around 200 existing products/technologies and decide the invest/divest house positions",
+                                    "Create the architecture handbook for Microservice as group-wide guidance for solution Architect"
+                                ],
+                                "technologies": [
+                                    "Technology strategic Design and Stewardship",
+                                    "Distributed system",
+                                    "Domain Driven Design",
+                                    "Microservice",
+                                    "ACID/BASE",
+                                    "(Event) Stream /Batch Processing"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "item-work": {
+                    "start-date": "Apr.,1996",
+                    "end-date": "Jun., 2017",
+                    "position": "<span class=\"career-list\"><span class=\"career-item\"><span class=\"career-co\">Oracle<span class=\"career-yr\"> 2014-2017</span></span><span class=\"career-role\">Lead Software Engineer</span></span><span class=\"career-item\"><span class=\"career-co\">Comcast<span class=\"career-yr\"> 2010-2014</span></span><span class=\"career-role\">Sr. DevOps / Infra Automation Eng.</span></span><span class=\"career-item\"><span class=\"career-co\">Boomi<span class=\"career-yr\"> 2006-2010</span></span><span class=\"career-role\">Sr. Software Engineer</span></span><span class=\"career-item\"><span class=\"career-co\">Vantage Learning<span class=\"career-yr\"> 2006</span></span><span class=\"career-role\">Sr. System Engineer Manager</span></span><span class=\"career-item\"><span class=\"career-co\">Texas Tech University<span class=\"career-yr\"> 2002-2006</span></span><span class=\"career-role\">Programmer/Analyst, Unix SysAdmin</span></span><span class=\"career-item\"><span class=\"career-co\">Sun Microsystems China<span class=\"career-yr\"> 2000-2002</span></span><span class=\"career-role\">Sr. Software Engineer</span></span><span class=\"career-item\"><span class=\"career-co\">IBM China R&amp;D<span class=\"career-yr\"> 1998-2000</span></span><span class=\"career-role\">Software Engineer</span></span><span class=\"career-item\"><span class=\"career-co\">Taiji Computers<span class=\"career-yr\"> 1996-1997</span></span><span class=\"career-role\">System / Network Engineer</span></span></span>",
+                    "position-header": "Lead Software Engineer / Senior DevOps & Infrastructure Engineer / Systems Engineer",
+                    "company": {
+                        "name": "Earlier career",
+                        "city": "USA",
+                        "country": "China"
+                    },
+                    "achievements": "Twenty-one years of platform, automation and integration engineering before the current cloud-native and GenAI work: the cloud connectivity SDK and Docker-based CI environments at Oracle; AutoBuild dependency-graph release automation for 200+ microservices and the SCM/CI estate on Linux HA clusters at Comcast; the connector framework and production cloud platform at Boomi, one of the first iPaaS products; a 100+ server data centre at Vantage Learning; Kerberos/LDAP single sign-on and Globus grid computing at Texas Tech alongside an MS in Computer Science; and enterprise Java, payments and storage systems at Sun Microsystems China and IBM China R&D.",
+                    "technologies": [
+                        "Java/J2EE",
+                        "SOA / EAI / iPaaS",
+                        "Docker Swarm/Compose",
+                        "CI/CD (Bamboo, Jenkins, Maven)",
+                        "Puppet/Capistrano",
+                        "AWS EC2/S3"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "Oracle cloud connectivity SDK, Java connectors and Docker CI environments"
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Comcast AutoBuild: dependency-graph release automation for 200+ microservices"
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Boomi AtomSphere iPaaS: connector framework and production cloud platform on AWS"
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Kerberos/LDAP single sign-on, Globus grid computing and enterprise Java (Texas Tech, Sun, IBM)"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "summaries": [
+            {
+                "summary": "Platform architect and hands-on engineer who builds the shared infrastructure AI applications run on. Four years shipping production GenAI systems - RAG over ChromaDB/Milvus with curated, HNSW-indexed retrieval corpora, multi-agent orchestration with AutoGen, prompt engineering, model-backed services on FastAPI - on fifteen years of Infrastructure as Code and multi-tenant AWS platforms (ECS/EKS, Istio with mesh-wide mTLS, versioned Terraform/Terragrunt modules). Built the GenAI capability behind mainframe modernization at McKinsey; now owns the reference architecture for an on-demand platform serving hundreds of developers at a global bank. Also architected a commercial multi-cloud cost platform - directly transferable to token accounting and quota enforcement for shared AI infrastructure. US Citizen.",
+                "tags": [
+                    "AIPlatform"
+                ]
+            }
+        ],
+        "skills": [
+            "GenAI platform: RAG over ChromaDB/Milvus - corpus curation, OpenAI embeddings, HNSW-indexed collections, chunk-granularity and top-k tuning, embedding refresh on source change - plus multi-agent orchestration (AutoGen), prompt engineering, concurrent LLM invocation, model-backed APIs on FastAPI.",
+            "AI-assisted modernization: multi-agent and RAG pipelines migrating COBOL to Java and BMS/JSF/JSP to React, retrieving real mainframe dependency context; LLM-generated PySpark/Databricks pipeline code shipped with generated unit tests.",
+            "AWS platform architecture: multi-tenant ECS/EKS, Istio service mesh with mesh-wide mTLS, serverless event-driven systems (EventBridge, Lambda, Step Functions, SQS/SNS), self-service environment provisioning consumed by hundreds of developers.",
+            "Infrastructure as Code: fifteen years Puppet/Chef/Ansible through Terraform/Terragrunt - versioned module libraries, DRY multi-environment config, IaC-provisioned EKS, IAM/OIDC, Route 53, ACM, RDS, secrets.",
+            "Security, observability and cost governance: Secrets Manager/KMS, least-privilege IAM, per-tenant isolation and quotas; Splunk, Dynatrace, Prometheus/Grafana/Jaeger; FinOps allocation, unit-cost metrics, rightsizing. Python, Java/Spring Boot, TypeScript, Terraform, Bash."
+        ],
+        "technologies": [
+            {
+                "daily-programming-language": [
+                    "Python",
+                    "Terraform",
+                    "TypeScript/JavaScript",
+                    "Java",
+                    "Bash",
+                    "SQL"
+                ]
+            }
+        ],
+        "languages": [
+            {
+                "item-languages": {
+                    "name": "English",
+                    "additional-info": "Fluent"
+                }
+            },
+            {
+                "item-languages": {
+                    "name": "Chinese",
+                    "additional-info": "Native"
+                }
+            }
+        ],
+        "hobbies": {
+            "hobby-items": [
+                {
+                    "item-hobbies": {
+                        "name": "Playing with cutting-edge technologies",
+                        "additional-info": "genAI/Autogen/Multiagents, Docker, Go, Kafka, Kubernetes and Amazon CloudFormation, JavaScript, AngularJS, ReactiveJS, Node.js"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -77,7 +77,7 @@
                   <p style="page-break-inside: avoid;">{{ item-work.start-date}} &ndash; {{ item-work.end-date }}
                   <p class="bold-font" style="page-break-inside: avoid;">{{ item-work.company.name }}
                   <p style="page-break-inside: avoid;">{{ item-work.company.city }},{{ item-work.company.country }}
-                  <p class="bold-font" style="page-break-inside: avoid;">{{ item-work.position }}
+                  <p class="bold-font" style="page-break-inside: avoid;">{{{ item-work.position }}}
                 </td>
                 <td style="page-break-inside: avoid; page-break-after: avoid;">
                   {{#item-work.projects.length }}
@@ -111,7 +111,7 @@
             {{ #resume.work}}
             <div class="work-item" {{#item-work.id}} data-id="{{ item-work.id }}" {{/item-work.id}}>
                 <span class="item-work-header-date">{{ item-work.start-date}} &ndash; {{ item-work.end-date }},</span>
-                <span class="item-work-header-company-name">{{ item-work.position }}, {{ item-work.company.name }}</span>
+                <span class="item-work-header-company-name">{{#item-work.position-header}}{{{ item-work.position-header }}}{{/item-work.position-header}}{{^item-work.position-header}}{{{ item-work.position }}}{{/item-work.position-header}}, {{ item-work.company.name }}</span>
                 <span class="item-work-header-company-location" style="page-break-inside: avoid">, {{ item-work.company.city }},{{ item-work.company.country }}</span><br />
                 <div class="description-work"> {{ item-work.achievements }} </div>
                 {{ #item-work.projects.length }}

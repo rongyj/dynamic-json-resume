@@ -106,6 +106,40 @@ td.work-employer{
 	text-align:center;
 }
 
+/* Let newlines inside the employer cell render as line breaks, so a consolidated
+   entry can list one company/role/period per line instead of one run-on paragraph.
+   No effect on cells whose text contains no newlines. */
+td.work-employer p{
+	white-space: pre-line;
+}
+
+/* Consolidated earlier-career entry, summary-table left cell only: each employer is a
+   bold line with its role and dates indented underneath, left-aligned so wrapped text
+   stays readable in the narrow column. */
+.career-list{
+	display: block;
+	text-align: left;
+	margin-top: 4px;
+}
+.career-item{
+	display: block;
+	margin-bottom: 2px;
+}
+.career-co{
+	display: block;
+	font-weight: bold;
+}
+.career-yr{
+	font-weight: normal;
+	font-size: 0.75em;
+}
+.career-role{
+	display: block;
+	font-weight: normal;
+	font-size: 0.75em;
+	padding-left: 0.9em;
+}
+
 td.work-accomplishments{
 	text-align:left;
 }
