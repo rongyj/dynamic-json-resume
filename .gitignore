@@ -23,3 +23,6 @@ Thumbs.db
 *.log
 
 
+
+# apply-jobs skill: captured JobRight payloads (large, contains account data)
+applications/raw/

@@ -1,0 +1,1238 @@
+{
+    "resume": {
+        "contact": {
+            "first_name": "Yongjun",
+            "last_name": "Rong",
+            "website": "https://www.linkedin.com/in/rongyongjun/",
+            "email": "rongyj@hotmail.com",
+            "phone": "856-408-4027",
+            "github": "https://github.com/rongyj",
+            "city": "Cherry Hill, NJ, USA, 08003",
+            "visa": "US Citizen"
+        },
+        "education": [
+            {
+                "item-education": {
+                    "start-date": "Sept.,2002",
+                    "end-date": "Jun.,2006",
+                    "institution": {
+                        "name": "Texas Tech University",
+                        "city": "Lubbock, TX",
+                        "country": "USA"
+                    },
+                    "description": "Master of Computer Science",
+                    "additional-info": "GPA: 4.0/4.0"
+                }
+            },
+            {
+                "item-education": {
+                    "start-date": "Sept.,1993",
+                    "end-date": "Feb.,1996",
+                    "institution": {
+                        "name": "Shanghai JiaoTong University",
+                        "city": "Shanghai",
+                        "country": "China"
+                    },
+                    "description": "Master of Engineering",
+                    "additional-info": "Major: Hydraulic Fluid Control in Mechanical Engineering"
+                }
+            },
+            {
+                "item-education": {
+                    "start-date": "Sept.,1987-09",
+                    "end-date": "Jul.,1991",
+                    "institution": {
+                        "name": "Changsha Railway University",
+                        "city": "Changsha, Hunan",
+                        "country": "China"
+                    },
+                    "description": "Bachelor of Engineering",
+                    "additional-info": "Major: Engineering Machine"
+                }
+            }
+        ],
+        "work": [
+            {
+                "item-work": {
+                    "start-date": "Oct.,2025",
+                    "end-date": "Current",
+                    "position": "Principal Cloud and Platform Architect (JPMC)",
+                    "company": {
+                        "name": "Intuitive.ai",
+                        "city": "Cherry Hill, NJ (WFH)",
+                        "country": "USA"
+                    },
+                    "achievements": "Hands-on principal architect for the on-demand application platform used by hundreds of developers across more than 80 product teams. Own the ECS/EKS and Istio service-mesh reference architecture, the Terraform module library behind it, and the observability, secrets and TLS standards every onboarding service inherits. Cut new-service environment provisioning from weeks to hours and onboarded more than 200 microservices onto the paved road. Self-taught the firm's proprietary Environment as Code (EAC) platform and became the team's subject-matter expert, mentoring the team on it. Set the team's AI-assisted development practice, and packaged recurring platform work - service onboarding, environment triage, incident first-pass - as agent skills and subagents backed by an MCP server over the platform's own APIs.",
+                    "technologies": [
+                        "CI/CD",
+                        "IaC",
+                        "Terraform",
+                        "AWS ECS/EKS",
+                        "Istio Service Mesh",
+                        "AWS Secrets Manager",
+                        "TLS Certificate",
+                        "Splunk/Dynatrace",
+                        "AI-assisted development (Claude Code, GitHub Copilot, Cursor)"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "On Demand Environment (ODE) backend (Java Spring Boot) infrastructure (ECS) design and implementation",
+                                "description": "Designed and implemented ODE to unify the provisioning and deployment flows for hundreds of applications, microservices and their supporting infrastructure, replacing per-team bespoke scripts with a single self-service paved road.",
+                                "highlights": [
+                                    "Architected the backend infrastructure with ECS/ALB/R53/Fargate/RDS/IAM",
+                                    "Designed and implemented reusable Terraform modules for different environments (Dev/Test/Prod)",
+                                    "Built the Java Spring Boot backend that unifies provisioning and deployment behind one self-service flow, so a team requests an environment instead of assembling it",
+                                    "Ran workloads on ECS Fargate to take EC2 capacity management out of the request path, with per-service autoscaling and rolling deployments in every environment",
+                                    "Automated ALB listener and target-group wiring together with Route 53 records and ACM-issued certificates, so each provisioned environment comes up with a working TLS-terminated endpoint",
+                                    "Provisioned RDS instances with per-service IAM task and execution roles, keeping database credentials out of application configuration and images",
+                                    "Kept Dev/Test/Prod configuration DRY behind versioned module inputs, so an environment is reproduced from code rather than hand-assembled",
+                                    "Made provisioning idempotent and repeatable end to end, taking new-environment turnaround from weeks of coordinated manual setup to hours",
+                                    "Drove the team's AI-assisted development workflow on the ODE backend, drafting Spring Boot controllers, service layers and their unit tests with Claude Code and GitHub Copilot",
+                                    "Held generated code to the build, the test suite and human review rather than the assistant's confidence, writing tests first wherever generated logic touched provisioning state",
+                                    "Turned the repetitive half of platform delivery into agent-driven tasks - service onboarding, Terraform module wiring, test scaffolding - each run against the platform's own conventions with an engineer approving the diff"
+                                ],
+                                "technologies": [
+                                    "Java",
+                                    "Spring Boot",
+                                    "AWS ECS",
+                                    "AWS Fargate",
+                                    "AWS ALB",
+                                    "Amazon Route 53",
+                                    "Amazon RDS",
+                                    "AWS IAM",
+                                    "AWS ACM",
+                                    "Terraform",
+                                    "Infrastructure as Code",
+                                    "Docker",
+                                    "CI/CD"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "Cloud",
+                                    "AWS",
+                                    "Platform Engineering",
+                                    "Self-Service Platform",
+                                    "Infrastructure as Code",
+                                    "Microservices"
+                                ],
+                                "leaderships": [
+                                    "Designed the On Demand Environment as a product with a single paved-road flow, consolidating the provisioning and deployment paths individual teams had each been maintaining themselves",
+                                    "Set the reusable Terraform module contract that other platform engineers extended for new environment types",
+                                    "Partnered with application teams during onboarding to fold their environment requirements back into the shared modules instead of one-off forks"
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Design and implement AWS Secrets (ASM) solution for Java Spring Boot Microservices",
+                                "description": "Architected and implemented a comprehensive AWS Secrets Manager solution to remove the secret value from the git repo for local development and aws deployment",
+                                "highlights": [
+                                    "Designed and implemented the Terraform modules provisioning AWS Secrets Manager secrets, keys and values across every service and deployment environment",
+                                    "Developed the Terraform resources creating least-privilege IAM read policies bound to ECS task roles, replacing broad shared policies with per-service access",
+                                    "Integrated AWS SDK and Spring Cloud AWS in Java Spring Boot microservices for startup-time credential and configuration resolution, removing hardcoded secrets from the team's git repositories",
+                                    "Established a secure local development workflow in which developers fetch secrets dynamically via temporary AWS credentials, eliminating local .env files from version control",
+                                    "Enforced encryption at rest with AWS KMS and strict least-privilege access, closing the outstanding secrets-handling findings from security review"
+                                ],
+                                "technologies": [
+                                    "AWS Secrets Manager (ASM)",
+                                    "Java",
+                                    "Spring Boot",
+                                    "Terraform",
+                                    "AWS ECS",
+                                    "AWS IAM",
+                                    "AWS KMS",
+                                    "Spring Cloud AWS"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "Cloud Security",
+                                    "DevSecOps",
+                                    "AWS",
+                                    "Microservices",
+                                    "Infrastructure as Code"
+                                ],
+                                "leaderships": [
+                                    "Championed DevSecOps best practices by successfully driving the initiative to eliminate hardcoded secrets across the organization's source code repositories",
+                                    "Mentored backend engineering teams on secure credential management, IAM role assumptions, and AWS SDK integration for Spring Boot applications"
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Design and implement Splunk and Dynatrace onboarding for Spring Boot ECS Microservices",
+                                "description": "Designed and Implemented Splunk Universal Forwarder (UF) sidecar and Dynatrace OneAgent JVM instrument to collect application and JVM logs",
+                                "highlights": [
+                                    "Architected the Splunk Universal Forwarder (UF) sidecar pattern for AWS ECS task definitions, adopted across all lower and production environments as the enterprise standard for container log routing",
+                                    "Instrumented Java Spring Boot microservices with Dynatrace OneAgent injected at JVM startup via customized Dockerfiles, delivering APM, distributed tracing and JVM metric collection with no application code changes",
+                                    "Built the reusable Terraform module that bootstraps every new service with the correct IAM roles, sidecar configuration and telemetry variables, cutting observability onboarding from days of hand-wired configuration to minutes",
+                                    "Delivered Splunk dashboards and Dynatrace alerting profiles for application health and cross-service transaction latency, taking incident triage from hours of log-hunting to minutes of trace inspection",
+                                    "Optimized Splunk log ingestion through logback.xml tuning, materially reducing indexed volume and the associated license cost",
+                                    "Automated first-pass incident triage with an agent that pulls the failing service's Splunk logs and Dynatrace traces, correlates them across the call path, and hands the on-call engineer a written first hypothesis to confirm or discard"
+                                ],
+                                "technologies": [
+                                    "Splunk Universal Forwarder (UF)",
+                                    "Dynatrace OneAgent",
+                                    "AWS ECS",
+                                    "Java",
+                                    "Spring Boot",
+                                    "Terraform",
+                                    "Docker",
+                                    "AWS IAM",
+                                    "Logback",
+                                    "APM / Observability"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "Observability",
+                                    "Monitoring",
+                                    "AWS",
+                                    "Microservices",
+                                    "Infrastructure as Code"
+                                ],
+                                "leaderships": [
+                                    "Standardized enterprise observability and telemetry practices by defining reusable, scalable patterns for logging and monitoring across all containerized AWS workloads",
+                                    "Partnered with application development teams to troubleshoot complex performance issues using Dynatrace distributed tracing, significantly reducing Mean Time to Resolution (MTTR) for production incidents"
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "EKS Service Mesh (Istio) on-demand framework Design and Implementation",
+                                "description": "Architected and implemented a comprehensive EKS-based service mesh framework using Istio to enable on-demand platform capabilities for hundreds of developers. Designed a scalable, secure, and automated infrastructure that supports dynamic service provisioning, traffic management, and observability across microservices.",
+                                "highlights": [
+                                    "Designed and implemented the multi-tenant EKS + Istio architecture behind the on-demand platform, carrying the platform's full microservice estate across per-team tenant namespaces",
+                                    "Developed the automation framework for dynamic service-mesh provisioning and configuration management, cutting tenant onboarding from weeks to under a day",
+                                    "Enforced mTLS mesh-wide in STRICT mode for all service-to-service communication, replacing per-application TLS handling with a platform-level guarantee",
+                                    "Configured Istio VirtualServices and DestinationRules for advanced traffic routing, load balancing and progressive rollout",
+                                    "Designed and implemented centralized TLS/mTLS certificate management, eliminating manual per-service certificate renewal",
+                                    "Built the mesh observability stack (Prometheus, Grafana, Jaeger, Kiali), giving product teams golden-signal dashboards and distributed traces they previously had to build themselves",
+                                    "Authored the versioned Terraform modules for automated EKS and Istio deployment, consumed by product teams across the platform",
+                                    "Implemented mesh policies for authorization, rate limiting and circuit breaking, containing retry storms and cascading failures at the mesh boundary rather than in application code",
+                                    "Designed the multi-namespace isolation strategy for secure multi-tenancy, with ResourceQuota and LimitRange per tenant namespace and Istio AuthorizationPolicy enforced at each boundary",
+                                    "Established CI/CD pipelines for service-mesh configuration changes, taking rollout from multi-day manual change windows to minutes behind automated lint, policy and staged-rollout gates",
+                                    "Drafted and refactored mesh and Terraform configuration with Claude Code and Cursor - VirtualServices, DestinationRules, AuthorizationPolicies, module scaffolding - every generated change still gated by lint, policy checks and staged rollout"
+                                ],
+                                "technologies": [
+                                    "AWS EKS",
+                                    "Istio Service Mesh",
+                                    "Kubernetes",
+                                    "Terraform",
+                                    "TLS/mTLS",
+                                    "Envoy Proxy",
+                                    "Prometheus",
+                                    "Grafana",
+                                    "Jaeger",
+                                    "Kiali",
+                                    "Helm",
+                                    "AWS IAM/RBAC"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "Cloud",
+                                    "Kubernetes",
+                                    "Service Mesh",
+                                    "AWS",
+                                    "Istio",
+                                    "Microservices",
+                                    "DevOps"
+                                ],
+                                "leaderships": [
+                                    "Led the architecture and implementation of the service mesh framework that supports hundreds of developers on the on-demand platform.",
+                                    "Established service mesh best practices and patterns that improved security, observability, and operational efficiency.",
+                                    "Mentored platform and development teams on Istio service mesh concepts, traffic management, and security policies."
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Proprietary Environment As Code (EAC/IAC) self-teaching, mentoring and troubleshooting",
+                                "description": "Self-taught proprietary infrastructure as code software named Environment As Code (EAC) and mentoring team members and troubleshooting complex AWS infrastructure configuration issues.",
+                                "highlights": [
+                                    "Self-taught the firm's proprietary Environment as Code (EAC) platform in a matter of weeks with no formal training or vendor support, reaching independent delivery of production environment definitions",
+                                    "Became the team's EAC subject-matter expert, mentoring teammates and sharply reducing environment-provisioning escalations to the central platform team",
+                                    "Authored EAC onboarding runbooks and reusable environment templates, cutting new-service environment setup from days to under an hour",
+                                    "Mapped EAC abstractions onto the underlying AWS and Terraform resources to make provisioning failures diagnosable, shortening root-cause analysis from days to hours",
+                                    "Diagnosed and resolved complex AWS configuration defects across all environments, spanning IAM, VPC and security groups, ECS/EKS task and service definitions, and TLS certificate chains",
+                                    "Raised defects and enhancement requests to the EAC platform team, several of which were adopted into the product",
+                                    "Used AI coding assistants to reverse-engineer the undocumented EAC platform, summarizing its templates and mapping its abstractions onto the underlying AWS and Terraform resources, which cut the self-teaching curve sharply",
+                                    "Set the team's working practice for AI-assisted development: assistants trusted for scaffolding, refactoring, test generation and codebase exploration; kept out of security-sensitive IAM and TLS changes; every generated change reviewed before it ships",
+                                    "Built an MCP server exposing the platform's environment and provisioning APIs to coding agents, so an agent reads live environment state and drafts the matching EAC or Terraform change itself",
+                                    "Packaged the team's recurring runbooks as reusable agent skills and subagents - provisioning failures, IAM and TLS triage, EAC template scaffolding - so diagnosis paths that lived in one engineer's head became workflows anyone can run"
+                                ],
+                                "technologies": [
+                                    "Environment as Code (EAC)",
+                                    "Proprietary IaC tooling",
+                                    "Terraform",
+                                    "AWS ECS",
+                                    "AWS EKS",
+                                    "AWS IAM",
+                                    "AWS VPC / Security Groups",
+                                    "TLS / Certificate Management",
+                                    "CI/CD"
+                                ],
+                                "tags": [
+                                    "Infrastructure as Code",
+                                    "Environment as Code",
+                                    "AWS",
+                                    "Platform Engineering",
+                                    "Mentoring",
+                                    "Troubleshooting"
+                                ],
+                                "leaderships": [
+                                    "Became the team's go-to expert on an undocumented proprietary IaC platform, then transferred that knowledge across the team through runbooks, templates and pair-troubleshooting sessions",
+                                    "Reduced the team's dependency on the central platform team by resolving the large majority of environment issues in-team",
+                                    "Fed field defects and enhancement requests back to the EAC product team, influencing the platform's roadmap",
+                                    "Mentored the team on AI-assisted development - prompt and context habits, the review every generated change has to pass, and where the assistants are and are not trusted",
+                                    "Moved the team from ad-hoc assistant use to recurring work packaged as agent skills and subagents, so the automation is shared and reviewable rather than rebuilt in each engineer's prompts"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "item-work": {
+                    "start-date": "Oct. 2010",
+                    "end-date": "Apr. 2014",
+                    "position": "Senior Cloud DevOps/Infrastructure Automation Engineer",
+                    "company": {
+                        "name": "Comcast T&P",
+                        "city": "Philadelphia, PA",
+                        "country": "USA"
+                    },
+                    "achievements": "As a senior engineer in BITT(Build Integration Test Team), provided DevOps support for multiple development teams and supporting the developers for SDLC infrastructure system design/implementation, and Build/Release/Deployment/SCM/CI automation., designed, developed and implemented the AutoBuild system, OpenSource performance monitoring system for the SDLC systems, two steps bare-metal Linux bootstrap system for HP servers, Linux HA Clusters for SCM/Maven/CI/Crowd servers, Ruby/Rails software system maintenance and improvement. Managed the SCM(Gerrit/Subversion), CI(Bamboo/Jenkins) and maven repo (Nexus and Artifactory) system. Designed and developed automation scripts (bash/ruby) to improve work efficiency. Led and Trained junior team members.",
+                    "technologies": [
+                        "Jenkins",
+                        "Bamboo",
+                        "Git/Gerrit",
+                        "Subversion",
+                        "Maven",
+                        "Nexus/Artifactory",
+                        "Puppet",
+                        "Capistrano",
+                        "Ruby/Bash/Perl/Python",
+                        "Linux HA (Pacemaker/HAProxy/keepalived)",
+                        "Docker/CoreOS"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "Continuous Integration (CI) and Continuous Deployment (CD) with Bamboo and Jenkins",
+                                "description": "Standardized and automated CI/CD pipelines for 200+ microservices using Bamboo and Jenkins, improving release reliability and developer productivity.",
+                                "highlights": [
+                                    "Designed and implemented the CI/CD clustering environments using Bamboo and Jenkins for all different development and release branches",
+                                    "Developed automation scripts using Ruby/Bash/Perl/Python to launch the CI/CD environments with complex dependencies for more than 200 Microservice",
+                                    "Developed automated integration scripts to integrated Bamboo/Jenkins with Jira/Confluence, GIT/Maven repo",
+                                    "Designed and implemented complex tasks/jobs chains/pipeline with trigger or events",
+                                    "Maintained and Troubleshot complex CI/CD issues within the clustering environments with multiple Subsystems for more than 200 Microservice",
+                                    "Developed automation scripts to automatically create Bamboo tasks from git repo and capistrano",
+                                    "Developed Capistrano automation tasks to deploy Microservice stack with multiple Microservice to Dev/QA/Staging/Prod",
+                                    "Developed Capistrano tasks to generate configuration file for HAProxy automatically",
+                                    "Setup Bamboo and Jenkins Servers Cluster with multiple remote agents/nodes as the build/deployment servers"
+                                ],
+                                "technologies": [
+                                    "CI/CD",
+                                    "Bamboo",
+                                    "Jenkins",
+                                    "Ruby",
+                                    "Bash",
+                                    "Python",
+                                    "GIT",
+                                    "Maven",
+                                    "Jira/Confluence"
+                                ],
+                                "tags": [
+                                    "devops",
+                                    "Scripts",
+                                    "Automation",
+                                    "CI/CD",
+                                    "Linux"
+                                ],
+                                "leaderships": [
+                                    "Standardized CI/CD pipelines across 200+ microservices, improving release consistency and reducing deployment errors.",
+                                    "Automated integration between build systems and project management tools, streamlining developer workflows.",
+                                    "Mentored junior engineers in best practices for automation and pipeline design."
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "AutoBuild System for Build/Release more than 200 Microservice projects with GIT/SVN/Maven",
+                                "description": "Developed and automated the AutoBuild system to streamline build, release, and dependency management for over 200 microservice projects, reducing release cycles from days to hours.",
+                                "highlights": [
+                                    "Design and implement the whole AutoBuild system",
+                                    "Implement build dependency graph (directed acyclic graph - DAG) using RGL for more than 200 projects",
+                                    "Design and implement the branching/tagging process",
+                                    "Using ruby and bash scripts wraps multiple manual steps to automate the whole branching and tagging process",
+                                    "Detect and update the dependency versions in pom.xml automatically using maven versions plugin and maven repo servers REST API",
+                                    "Developed ruby/bash scripts to lock/unlock remote GIT branch in Gerrit server during branching and cutting tags period",
+                                    "Design and implement the error handling and logging system for ruby bash commands",
+                                    "Design code standards and rule to follow AutoBuild conventions for developers",
+                                    "Develop bamboo scripts using bamboo command-cli to create plans from git/svn repos automatically",
+                                    "Install and configure Bamboo, Nexus, Artifactory, Crowd/OpenID, Gerrit and Subversion servers.",
+                                    "Refactoring autoBuild to adapt to much large organization development practices"
+                                ],
+                                "technologies": [
+                                    "Ruby/Rails",
+                                    "gems",
+                                    "Bash",
+                                    "Maven",
+                                    "GIT",
+                                    "SVN",
+                                    "Bamboo/Jira/Confluence CLI",
+                                    "Nexus/Artifactory REST/XML",
+                                    "SDLC",
+                                    "CI/CD",
+                                    "Gerrit/Subversion",
+                                    "MySQL/PostgreSQL",
+                                    "Crowd/OpenID",
+                                    "Capistrano"
+                                ],
+                                "tags": [
+                                    "devops",
+                                    "automation",
+                                    "CI",
+                                    "CD",
+                                    "Scripts"
+                                ],
+                                "leaderships": [
+                                    "Invented and led the development of the AutoBuild system, reducing release cycle time from days to hours.",
+                                    "Established code standards and conventions for automated build and release processes.",
+                                    "Enabled organization-wide adoption of automated dependency management and versioning."
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Configuration management and deployment automation with Puppet and Capistrano",
+                                "description": "Implemented configuration management and deployment automation using Puppet and Capistrano, eliminating manual errors and accelerating application delivery across environments.",
+                                "highlights": [
+                                    "Setup puppet master server and agent in Linux Centos for DevOps and CI/CD environments",
+                                    "Designed and implemented develop/build/deployment process for the puppet templates files by using GIT",
+                                    "Developed puppet templates file for linux os patch and lib yum installation and updates",
+                                    "Developed capistrano deployment automation tasks and functions used by operation team for production deployment",
+                                    "Maintained and troubleshooting complex configuration and deployment automation issue within Capistrano and Puppet",
+                                    "Developed puppet templates and capistrano tasks to automate the configuration and deployment process for Microservice with Dev/CI/CD environments",
+                                    "Developed Capistrano tasks to automate the Liferay deployment to Dev/QA/Staging/Prod environments with JDBC driver configuration to Oracle DB Server 11g"
+                                ],
+                                "technologies": [
+                                    "Puppet",
+                                    "Capistrano",
+                                    "Ruby",
+                                    "bash",
+                                    "CI/CD",
+                                    "GIT",
+                                    "Maven",
+                                    "Perl",
+                                    "Python"
+                                ],
+                                "tags": [
+                                    "devops",
+                                    "Scripts",
+                                    "Automation",
+                                    "Linux",
+                                    "CI/CD"
+                                ],
+                                "leaderships": [
+                                    "Introduced configuration management automation, eliminating manual errors in deployment.",
+                                    "Developed reusable deployment tasks, empowering operations teams to manage complex environments.",
+                                    "Provided training and documentation for DevOps best practices."
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Automation scripts and tools for DevOps",
+                                "description": "Created a suite of automation tools and scripts to streamline DevOps workflows, improve efficiency, and reduce manual toil across the SDLC.",
+                                "highlights": [
+                                    "Develop migration tools to migrate git repos from different remote git repos(Gerrit, stash and gittorious) to new Gerrit server",
+                                    "Develop scripts to find the largest commit object and rewrite git history to improve git performance",
+                                    "Develop Gerrit/git hooks for rally and jira",
+                                    "Develop multiple automation tools using confluence, jira and bamboo CLI",
+                                    "Developed tools to automatically build the source dependency tree and branch/tagging parallel",
+                                    "Developed maven circular dependency checking scripts and created nightly CI jobs to run it against more than 100 Microservice projects",
+                                    "Developed Nexus replication scripts from master to slave automatically with keepalived",
+                                    "Maintain configuration management tool Capistrano and automate the environment and service configuration ",
+                                    "Using Puppet to automate the system level configuration"
+                                ],
+                                "technologies": [
+                                    "Ruby",
+                                    "Bash",
+                                    "Python",
+                                    "Capistrano",
+                                    "Jira/Rally",
+                                    "Bamboo/Confluence",
+                                    "Git/Gerrit",
+                                    "puppet",
+                                    "Nexus replication",
+                                    "REST/XML"
+                                ],
+                                "tags": [
+                                    "devops",
+                                    "automation"
+                                ],
+                                "leaderships": [
+                                    "Developed a suite of automation tools, significantly improving DevOps efficiency and reducing manual toil.",
+                                    "Pioneered migration and optimization scripts for large-scale git repositories.",
+                                    "Shared best practices and tools with the wider engineering community."
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Linux HA for Git Repo(Gerrit) and Maven Repo (Artifactory/Nexus) Servers",
+                                "description": "The two nodes Linux HA cluster is for Git repo (Gerrit) / Maven Repo(Artifactory and Nexus) master/slave failover system. Using pacemaker/corosync/cman or keepalived/haproxy, it setup Gerrit, artifactory/Nexus master/slave automatically failover cluster with PostgreSQL/RAC and GFS2 over SAN / DRBD as backend DBMS and distributed file system.",
+                                "highlights": [
+                                    "Design Linux HA master/slave failover cluster for Gerrit, Artifactory.",
+                                    "Configure pacemaker/corosync/cman for two-nodes cluster",
+                                    "Setup and configure  keepalived and haproxy for Nexus, artifactory",
+                                    "Developed HAProxy initd scripts to automatically failover to the latest good configure file if capistrano generate incorrect config file",
+                                    "Setup Gerrit cluster over SAN and PostgreSQL",
+                                    "Setup Artifactory Cluster over SAN and RAC",
+                                    "Setup Nexus Cluster via replication scripts with rsync",
+                                    "Setup Gerrit OpenID authentication with Atlassian crowd backend with Multiple LDAP servers"
+                                ],
+                                "technologies": [
+                                    "Pacemaker",
+                                    "Corosync",
+                                    "Cman",
+                                    "Keepalived",
+                                    "HAProxy",
+                                    "GFS2",
+                                    "DRBD",
+                                    "SAN",
+                                    "Gerrit",
+                                    "Artifactory",
+                                    "Nexus",
+                                    "PostgreSQL",
+                                    "OpenID",
+                                    "LDAP",
+                                    "Crowd"
+                                ],
+                                "tags": [
+                                    "devops",
+                                    "Linux HA",
+                                    "Platform",
+                                    "Clustering",
+                                    "Linux",
+                                    "Unix"
+                                ],
+                                "leaderships": [
+                                    "Architected a high-availability cluster for critical SCM and artifact repositories, ensuring business continuity.",
+                                    "Automated failover and recovery processes, minimizing downtime during incidents.",
+                                    "Standardized HA deployment patterns for future infrastructure projects."
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "SDLC process management and junior team member training and mentoring",
+                                "description": "Managed SDLC processes and mentored junior engineers, standardizing build, release, and deployment practices for over 200 projects.",
+                                "highlights": [
+                                    "Help to design and identify the build/release/deploy and configuration management strategies",
+                                    "Design standard development and code standards for developers to follow the autoBuild process.",
+                                    "Lead small team to develop autoBuild system using agile methodology",
+                                    "Administration the SCM/CI/Maven Repos clustering environments and SDLC tools",
+                                    "Research and design github enterprise branch/release process",
+                                    "Train and guide new team member",
+                                    "Troubleshooting build/release and configuration issues"
+                                ],
+                                "technologies": [
+                                    "SDLC",
+                                    "SCM",
+                                    "Git/Subversion",
+                                    "GIT Hooks",
+                                    "Ruby",
+                                    "Bash",
+                                    "Confluence",
+                                    "Jira",
+                                    "Agile"
+                                ],
+                                "tags": [
+                                    "devops",
+                                    "Docker",
+                                    "CI/CD",
+                                    "SDLC"
+                                ],
+                                "leaderships": [
+                                    "Managed the SDLC process to build/release/deploy more than 200 projects, maintaining maven repo servers, CI (Bamboo), SCM (Subversion and Git/Gerrit) and clustering integration environments.",
+                                    "Identified and troubleshooted build/release/deploy issues, and trained and mentored junior team members.",
+                                    "Wrote confluence pages for documentation and presented to other team members in brown bag sessions."
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "item-work": {
+                    "start-date": "May, 2014",
+                    "end-date": "June, 2017",
+                    "position": "Lead Software Engineer",
+                    "company": {
+                        "name": "Oracle",
+                        "city": "Redwood, CA (WFH@NJ)",
+                        "country": "USA "
+                    },
+                    "achievements": "The Cloud Connectivity software engineering team is responsible to develop the Cloud Integration Connectivity SDK and Java Connectors which enable the SOA Suite and Oracle Integration Cloud Service (ICS) connectivity to any Oracle internal or external SaaS or On-Premises Enterprise Applications.",
+                    "technologies": [
+                        "Docker Swarm/Compose/Stack",
+                        "Oracle Cloud VMs",
+                        "WebLogic",
+                        "Oracle SOA Suite / Integration Cloud Service",
+                        "Java/J2EE",
+                        "Oracle RCU / DB schema",
+                        "CI/CD test environments"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "Docker Swarm/Compose/Stack CD/CI Test Environment for  Cloud SDK/APIs/Connectors",
+                                "description": "Pioneered the use of Docker Swarm, Compose, and Stack to create scalable, automated CI/CD test environments for cloud SDKs, APIs, and Java connectors, streamlining development and testing workflows.",
+                                "highlights": [
+                                    "Designed and setup complex Docker containers network with Overlay and MACVLAN drivers ",
+                                    "Created Dockerfile to build WebLogic docker images with different external modules and libraries",
+                                    "Built Docker Hosts in Oracle Cloud VMs, Amazon EC2 and local VirtualBox by using Docker Machine",
+                                    "Designed and built the pool of Docker Cluster Environment by using Docker Swarm",
+                                    "Created Docker Stack file and deploy the service stack for multiple Microservice",
+                                    "Developed docker-compose.yml files with extending services for the full service stack including dependency Web Services, DBMS, NoSQL and JMS",
+                                    "Researched and prototyped the Docker Swarm and Docker Compose integration"
+                                ],
+                                "technologies": [
+                                    "Docker",
+                                    "Docker Machine",
+                                    "Docker Compose",
+                                    "Docker Swarm",
+                                    "Docker Stack",
+                                    "Docker CLI (Rest APIs)",
+                                    "WebLogic",
+                                    "Oracle Cloud VMs",
+                                    "AWS",
+                                    "JMS",
+                                    "NoSQL (Cassandra)",
+                                    "DBMS (MySQL and PostgreSQL)"
+                                ],
+                                "tags": [
+                                    "devops",
+                                    "cloud",
+                                    "infrastructure",
+                                    "platform",
+                                    "containers",
+                                    "OpenSource",
+                                    "Linux",
+                                    "Unix"
+                                ],
+                                "leaderships": [
+                                    "Pioneered the adoption of containerization for CI/CD environments, reducing setup time and increasing test reliability.",
+                                    "Developed reusable Docker orchestration templates, enabling rapid prototyping for SDK and connector teams.",
+                                    "Trained team members on advanced Docker networking and orchestration concepts."
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Cloud Enterprise Applications Integration(EAI) connectivity SDK/API plugin framework for Oracle SOA Suite",
+                                "description": "Developed a robust SDK and plugin framework for seamless integration between Oracle SOA Suite and a wide range of SaaS and on-premises enterprise applications, enhancing connectivity and extensibility.",
+                                "highlights": [
+                                    "Designed and implemented new APIs for the SDK to provide cache and pagination abilities for the backend persistent layer",
+                                    "Design and test Oracle RCU DB descriptive XML files for new DB tables/sequences with primary and foreign keys",
+                                    "Worked together with different connector development teams to joint debug the WSDL regeneration related issues",
+                                    "Train and transfer knowledge for the WSDL regeneration framework to geographically distributed connector development teams"
+                                ],
+                                "technologies": [
+                                    "Java",
+                                    "SOA",
+                                    "SOAP/REST",
+                                    "WSDL/JSON",
+                                    "XML",
+                                    "XML Schema",
+                                    "API",
+                                    "SDK",
+                                    "IaaS",
+                                    "RCU",
+                                    "JCA",
+                                    "XDK",
+                                    "JAXP",
+                                    "WSDL4J",
+                                    "DOM",
+                                    "WS-Security",
+                                    "Jersey REST/JSON",
+                                    "MVC",
+                                    "ADF",
+                                    "NLS/L10",
+                                    "Oracle DB",
+                                    "Jira",
+                                    "Agile",
+                                    "ADE",
+                                    "GIT",
+                                    "Maven",
+                                    "Junit",
+                                    "XMLUnit",
+                                    "SoapUI",
+                                    "OSC",
+                                    "ERP",
+                                    "HCM",
+                                    "RightNow"
+                                ],
+                                "tags": [
+                                    "Java",
+                                    "Enterprise Applications Integration",
+                                    "Web Services",
+                                    "SDK",
+                                    "API",
+                                    "SOA"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "item-work": {
+                    "start-date": "Feb.,2025",
+                    "end-date": "Oct.,2025",
+                    "position": "Director of Cloud Architecture",
+                    "company": {
+                        "name": "Biophy",
+                        "city": "Cherry Hill, NJ (WFH)",
+                        "country": "USA"
+                    },
+                    "achievements": "Hands-on director of cloud architecture for an AI-powered healthcare platform. Led the retrieval corpus pipeline behind the product's RAG system - multi-source ingestion, scraping, transformation and data-quality controls built on Python/Django/Pydantic with LangChain and the OpenAI API, structured under Clean Architecture and SOLID so the pipeline stayed testable as sources multiplied. In parallel brought the existing AWS estate under Terraform/Terragrunt by importing live resources and redesigning them to the Well-Architected Framework, and built a custom CloudWatch alerting system on EventBridge, Lambda, SQS and SNS.",
+                    "technologies": [
+                        "IaC",
+                        "Terraform/Terragrunt",
+                        "AWS/EC2/EBS/S3/VPC/ALB/Security/R53/IAM/Secrets Manager/Lambda/CloudWatch/EventBridge/SQS/SNS",
+                        "Python/DJango/Pydantic",
+                        "openAI API/LangChain",
+                        "SOLID Principles",
+                        "Clean Architecture"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "Comprehensive Infrastructure as Code (IaC) Design and Implementation",
+                                "description": "Led the transformation of AWS infrastructure to infrastructure as code (IaC), importing and redesigning resources to align with best practices. Developed modular Terraform configurations and established secure, standardized cloud operations.",
+                                "highlights": [
+                                    "Imported and catalogued existing AWS resources including EC2 instances, VPC configurations, security groups, and IAM policies",
+                                    "Redesigned infrastructure architecture following AWS Well-Architected Framework principles",
+                                    "Implemented modular Terraform configurations with reusable modules for consistent deployment",
+                                    "Established comprehensive security controls including least-privilege IAM policies and network segmentation",
+                                    "Created automated validation and testing procedures for infrastructure changes",
+                                    "Documented infrastructure patterns and best practices for team adoption"
+                                ],
+                                "technologies": [
+                                    "Terraform",
+                                    "AWS EC2/EBS/S3/VPC/ALB/Security/R53/IAM/Secrets Manager",
+                                    "Infrastructure as Code",
+                                    "AWS Best Practices",
+                                    "Security Controls"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "Cloud",
+                                    "Infrastructure",
+                                    "AWS",
+                                    "Terraform"
+                                ],
+                                "leaderships": [
+                                    "Led the transformation from manual infrastructure management to fully automated IaC practices.",
+                                    "Established infrastructure standards and patterns that improved team productivity and security posture.",
+                                    "Mentored team members on AWS best practices and Terraform/Terragrunt development."
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Custom AWS CloudWatch Alerting System with EventBridge, Lambda, SQS and SNS",
+                                "description": "Developed a proactive monitoring and alerting system using AWS CloudWatch, Lambda, SQS, and SNS, enabling automated detection and response to critical events across cloud infrastructure.",
+                                "highlights": [
+                                    "Designed custom CloudWatch metrics and dashboards for comprehensive system visibility",
+                                    "Implemented SQS-based message queuing for reliable alert processing and delivery",
+                                    "Configured SNS topics and subscriptions for multi-channel notifications (email, SMS, Slack)",
+                                    "Built automated response workflows triggered by specific alert conditions",
+                                    "Created alert escalation policies based on severity and time-based thresholds",
+                                    "Implemented alert correlation and deduplication to reduce alert fatigue"
+                                ],
+                                "technologies": [
+                                    "AWS CloudWatch",
+                                    "SQS/SNS",
+                                    "Lambda",
+                                    "EventBridge",
+                                    "Monitoring",
+                                    "Alerting"
+                                ],
+                                "tags": [
+                                    "DevOps",
+                                    "Monitoring",
+                                    "AWS",
+                                    "Automation"
+                                ],
+                                "leaderships": [
+                                    "Established comprehensive monitoring and alerting standards across the organization.",
+                                    "Reduced mean time to detection (MTTD) and mean time to resolution (MTTR) through proactive monitoring.",
+                                    "Trained operations teams on monitoring best practices and incident response procedures."
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "item-work": {
+                    "start-date": "Dec.,2021",
+                    "end-date": "Feb.,2025",
+                    "position": "Senior Cloud Engineer II (Associate)",
+                    "company": {
+                        "name": "McKinsey & Company",
+                        "city": "Cherry Hill, NJ (WFH)",
+                        "country": "USA"
+                    },
+                    "achievements": "Built GenAI platform capability for enterprise modernization engagements: retrieval systems over ChromaDB/Milvus, multi-agent orchestration with AutoGen, and FastAPI services that exposed model-backed capabilities as internal APIs other engineering teams consumed rather than rebuilt. Scaled the retrieval layer behind a call-centre chatbot copilot from a single-node prototype to a persistent, concurrently queried vector store as the knowledge corpus and user base grew. Led the GenAI + RAG system that accelerated mainframe migration to modern stacks, the RAG-assisted code generation platform for PySpark/Databricks data pipelines, and the scaling of the retrieval layer behind a call-centre chatbot copilot. Separately migrated and refactored complex mainframe event-driven systems onto AWS serverless (EventBridge, Lambda, Step Functions, SQS/SNS, CloudWatch, EKS).",
+                    "technologies": [
+                        "Terraform",
+                        "AWS EventBridge/Lambda/Step Functions/SQS/SNS",
+                        "EKS",
+                        "IBM MQ",
+                        "Event Driven Architecture (EDA)",
+                        "Databricks/pyspark",
+                        "AI-assisted development (GitHub Copilot, Cursor)"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "Migration/Refactoring of Mainframe (IBM MQ) EDA system to AWS by using EventBridge/Lambda/Step Function/CloudWatch/EKS/SQS/SNS...etc.",
+                                "description": "Engineered and deployed an EKS-based router to integrate AWS EventBridge with external MQ events, providing robust monitoring, reporting, and cloud-native migration for mainframe EDA systems.",
+                                "highlights": [
+                                    "Develop SpringBoot EKS router to convert XML/XSD to JSON schema and integrate with MQ events",
+                                    "Design and implement the monitoring terraform module for all different AWS resources (Lambda, EventBridge, S3, DynamoDB, Step Function..etc.) using cloudwatch metrics",
+                                    "Design and implement the reusable report generator using Lambda and EventBridge and deployed as Microservices which can be called to run any custom AWS CloudWatch insights queries in custom schedule"
+                                ],
+                                "technologies": [
+                                    "Java/SpringBoot",
+                                    "Terraform",
+                                    "Microservice",
+                                    "Java/JavaScript",
+                                    "EKS",
+                                    "AWS/EventBridge/CloudWatch/Lambda",
+                                    "XML/XSD/Json/Json Schema",
+                                    "DynamoDB",
+                                    "RDS/Oracle"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "Cloud",
+                                    "DevOps",
+                                    "Infrastructure",
+                                    "Microservice"
+                                ],
+                                "leaderships": [
+                                    "Led the end-to-end migration of mission-critical EDA systems to AWS, ensuring zero downtime and robust cloud integration.",
+                                    "Developed reusable infrastructure modules, empowering other teams to accelerate their own cloud migration journeys.",
+                                    "Instituted comprehensive monitoring and reporting standards, elevating operational visibility and reliability."
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "item-work": {
+                    "start-date": "Dec.,2020",
+                    "end-date": "Dec., 2021",
+                    "position": "Staff Engineer",
+                    "company": {
+                        "name": "Yotascale",
+                        "city": "Cherry Hill, NJ (WFH)",
+                        "country": "USA"
+                    },
+                    "achievements": "Lead architect and lead implementation engineer for a multi-cloud (AWS/Azure/GCP) cost analytics, optimization and management platform - the FinOps tooling layer giving customers unit-cost visibility, allocation/showback and rightsizing recommendations across enterprise customers' multi-account cloud estates and the large annual cloud spend under management. Owned both the product architecture (design-first microservices on ClickHouse/PostgreSQL) and the AWS platform it ran on (EKS/Istio/Terraform/Terragrunt).",
+                    "technologies": [
+                        "OpenAPI/Swagger",
+                        "Microservice",
+                        "Java/Kotlin/SpringBoot",
+                        "Kubernetes/EKS/AKS",
+                        "Istio",
+                        "Terraform",
+                        "CQRS",
+                        "Event Store",
+                        "Event Driven Architecture (EDA)",
+                        "Kafka/ActiveMQ/IBM MQ",
+                        "Kafka Stream",
+                        "Docker",
+                        "AWS(EC2/IAM/S3/ECS/EKS/ELB/Lambda/RDS/VPC/R53/Secret Manager/AutoScaling/SES..etc)",
+                        "Puppet/Chef/Ansible",
+                        "Git/Maven/Jenkins",
+                        "Python/Bash/Go",
+                        "ELK/AppDynamic/Datadog"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "Lead Architect and Lead Implementation Engineer for Cloud(AWS/Azure/GCP) Cost Analytics/Optimization/Management platform",
+                                "description": "Architected and implemented a cross-cloud cost analytics and optimization platform, enabling organizations to gain actionable insights and manage cloud spending across AWS, Azure, and GCP. Led the design of scalable data pipelines, analytics microservices, and secure infrastructure.",
+                                "highlights": [
+                                    "Introduce and Build Microservice Design First Methodology and team culture based on OpenAPI/Swagger Specification",
+                                    "Design and develop Cost Analytics/Lens Navigation/Lens Management Microservice using SpringBoot with ClickHouse and PostgreSQL as DW and DBMS",
+                                    "Design and implement dynamic metadata driven widget/filter configuration Microservice",
+                                    "Implement bitbucket CI/CD pipeline to build, deploy Microservices/GraphQL to eks/k8s with Istio",
+                                    "Design the AWS infrastructure architecture with EKS/ALB/Istio/S3/SES/R53/ECR/PostgreSQL/RabbitMQ/SFTP",
+                                    "Design/Implement terraform templates/scripts to deploy the full AWS infrastructure stack with IAM roles/users",
+                                    "Develop terraform templates to deploy ALB controller/RabbitMQ and PostgreSQL by using helm provider",
+                                    "Develop terraform templates to deploy k8s' CRDs, Pods, Services, Service Account by using Kubernetes-alpha and Kubernetes providers",
+                                    "Design/Develop multiple terraform modules with Terragrunt.hcl to maintain the inputs/outputs dependencies between modules and keep configurations DRY",
+                                    "Develop terraform templates to dynamically add R53 zone and records with TLS certificates validations",
+                                    "Develop terraform templates to dynamically create S3 buckets with IAM policies to allow k8's service account to assume IAM role to access control using OIDC",
+                                    "Develop terraform templates to create SFTP server backed with S3 bucket with IAM role and policy for sftp users",
+                                    "Compile Microservice design/development guide lines based on OpenAPI/Swagger Spec",
+                                    "Implement Junit test cases with local docker test containers",
+                                    "Develop common multiple DBMS (ClickHouse and PostgreSQL) access lib with AWS secrets manager",
+                                    "Implement json schema validation using open source",
+                                    "Delivered cost allocation, showback and rightsizing views over multi-terabyte cloud billing datasets in ClickHouse, holding interactive query latency on high-cardinality, multi-dimension slices",
+                                    "Established the FinOps model inside the product - tagging/allocation taxonomy, unit-cost metrics, savings-plan and rightsizing recommendations - surfacing double-digit percentage savings opportunities for customers",
+                                    "Stood up the entire AWS platform as code with versioned Terraform/Terragrunt modules, provisioning a complete environment from an empty AWS account in hours rather than weeks",
+                                    "Onboarded the engineering teams onto the design-first OpenAPI workflow, making the published contract the single source of truth for client and server code"
+                                ],
+                                "technologies": [
+                                    "Cloud Cost Analytics/Optimization/Management",
+                                    "OpenAPI/Swagger",
+                                    "Microservice",
+                                    "Java/Kotlin/Python",
+                                    "Spring/SpringBoot/Flask",
+                                    "Kubernetes/EKS/AKS/GKE",
+                                    "Terraform/Terragrunt/Ansible",
+                                    "AWS/EC2/EBS/S3/VPC/Security/R53/IAM/Secrets Manager/Lambda",
+                                    "Service Mesh/Istio/Envoy",
+                                    "Helm/Chart",
+                                    "RabbitMQ",
+                                    "Azure/GCP",
+                                    "Junit/Test Containers",
+                                    "Docker/Minikube"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "Cloud",
+                                    "DevOps",
+                                    "Infrastructure",
+                                    "Microservice"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "item-work": {
+                    "start-date": "Mar.,2020",
+                    "end-date": "Nov., 2020",
+                    "position": "Technical Infrastructure/Devops Architect",
+                    "company": {
+                        "name": "Gigster Inc.",
+                        "city": "Cherry Hill, NJ",
+                        "country": "USA"
+                    },
+                    "achievements": "Designed and implemented comprehensive AWS infrastructure architecture including CI/CD automation, Terraform infrastructure as code, and EKS container orchestration. Led the development of scalable, automated cloud infrastructure solutions to support microservices and distributed systems.",
+                    "technologies": [
+                        "Microservice",
+                        "NodeJs",
+                        "Kubernetes/EKS",
+                        "Terraform",
+                        "RabbitMQ/ActiveMQ",
+                        "Docker",
+                        "AWS(EC2/IAM/S3/EKS/ALB/RDS/VPC/R53/AutoScaling/SES/ECR..etc)",
+                        "Puppet/Chef/Ansible",
+                        "Git/Maven/Jenkins",
+                        "JavaScript"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "Fully automated AWS EKS platform provisioned end to end in Terraform/Terragrunt",
+                                "description": "AWS infrastructure for Node.js microservices and event-driven workloads on EKS, provisioned entirely from a Terraform/Terragrunt IaC repository - ALB ingress controller, IAM/OIDC service-account roles, Helm-deployed RabbitMQ and PostgreSQL, Route 53 zones with TLS certificate validation, and S3/SFTP backing services.",
+                                "highlights": [
+                                    "Design and implement AWS infrastructure for Microservices (NodeJs) and EDA within EKS cluster",
+                                    "Design and implement fully automated AWS stack in IaaS git repo by using terraform/terragrunt/bash",
+                                    "Develop terraform scripts/modules to dynamically deploy/configure multiple Microservices with pods/containers/services to EKS cluster by using kubernetes terraform provider",
+                                    "Develop terraform scripts to deploy/configure AWS ALB as eks ingress controller  by using helm terraform provider",
+                                    "Develop terraform scripts to customize IAM role/policy, k8s SA(service account) and CRD (Custom Resources Descriptor) for ALB Ingress Controller by using Kubernetes-alpha terraform provider",
+                                    "Develop terraform templates to deploy RabbitMQ and PostgreSQL by using terraform helm provider",
+                                    "Design/Develop multiple terraform modules with Terragrunt.hcl to maintain the inputs/outputs dependencies between modules and keep configurations DRY",
+                                    "Develop terraform templates to dynamically add R53 zone and records with TLS certificates validations",
+                                    "Develop terraform templates to dynamically create S3 buckets with IAM policies to allow k8's service account to assume IAM role to access control using OIDC",
+                                    "Develop terraform templates to create SFTP server backed with S3 bucket with IAM role and policy for sftp users",
+                                    "Develop terraform templates to dynamically create IAM user with customized group and policies"
+                                ],
+                                "technologies": [
+                                    "Microservice",
+                                    "Node.js",
+                                    "Event Driven Architecture (EDA)",
+                                    "Kubernetes/EKS",
+                                    "Terraform/Terragrunt/Bash",
+                                    "AWS ALB Ingress Controller",
+                                    "AWS/EC2/S3/VPC/IAM/R53/ACM/ECR",
+                                    "IAM/OIDC/IRSA for k8s Service Accounts",
+                                    "Kubernetes CRDs / Service Accounts",
+                                    "Helm",
+                                    "RabbitMQ",
+                                    "PostgreSQL",
+                                    "AWS Transfer for SFTP"
+                                ],
+                                "tags": [
+                                    "Cloud",
+                                    "DevOps",
+                                    "Infrastructure",
+                                    "Microservice"
+                                ],
+                                "leaderships": [
+                                    "Designed and implemented a fully automated cloud infrastructure, setting a new standard for deployment efficiency.",
+                                    "Enabled rapid scaling and reproducibility by modularizing infrastructure as code, empowering future project teams.",
+                                    "Provided hands-on mentorship in DevOps automation, upskilling team members in Terraform and Kubernetes."
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "item-work": {
+                    "start-date": "Jun.,2017",
+                    "end-date": "Feb., 2020",
+                    "position": "VP,Lead Architect Engineer",
+                    "company": {
+                        "name": "Barclays",
+                        "city": "Wilmington, DE",
+                        "country": "USA"
+                    },
+                    "achievements": "Directed the cloud adoption journey, migrating on-premises enterprise systems to AWS. Served as delivery lead for distributed system technology, including microservices, event-driven architecture, message transport, integration (batch/ETL), and event stream processing.",
+                    "technologies": [
+                        "Terraform",
+                        "CQRS",
+                        "Event Store",
+                        "Event Driven Architecture (EDA)",
+                        "Kafka/ActiveMQ/IBM MQ",
+                        "Kafka Stream",
+                        "Docker",
+                        "AWS(EC2/IAM/S3/ECS/EKS/ELB/Lambda/RDS/VPC/R53/Secret Manager/AutoScaling/SES..etc)",
+                        "Puppet/Chef/Ansible",
+                        "Git/Maven/Jenkins/Bamboo",
+                        "Python/Ruby/Scala/Bash/Go",
+                        "ELK/AppDynamic",
+                        "DynamoDB/MongoDB/ElasticCache/GridGain",
+                        "Linux/Windows/AIX/Solaris",
+                        "aPaaS/VMWare/Citrix"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "Delivery Lead for strategic distributed system technology domain",
+                                "description": "Directed the architecture and technology strategy for distributed systems, microservices, event-driven architecture, and stream processing, driving innovation and technology transformation across the organization.",
+                                "highlights": [
+                                    "Owned end-to-end architecture for the group's distributed-systems domain: solution-architecture guidance, design-pattern development, and architecture reviews across the domain's application estate",
+                                    "Ran architecture reviews identifying reuse opportunities and managing technical debt, with documented invest/divest and reuse decisions feeding the domain roadmap",
+                                    "Maintained the domain capability roadmap and technology heatmap, monitoring emerging technologies and industry trends for enterprise applicability",
+                                    "Influenced group-level strategic planning and drove innovation forums across the group's engineering teams",
+                                    "Drive technology transformation from on-premises to public cloud, multi-tiers monolithic to cloud-native Microservice system, strong ACID to BASE data consistency, Sync/Request/RPC driven to Async/Event driven architecture, tight coupling to loose coupling, ETL/Batch/Time to realtime streaming processing, vendor locked to resilient commodity system, vendor favor to OSS, vertical scaling to horizontal scaling",
+                                    "Establish group-wide distributed system architecture and technology strategy",
+                                    "Build PoC and Reference Architecture for common use cases for distributed system",
+                                    "Evaluate around 200 existing products/technologies and decide the invest/divest house positions",
+                                    "Create the architecture handbook for Microservice as group-wide guidance for solution Architect",
+                                    "Contribute to and review the architecture handbook for EDA, Stream Processing and Integration",
+                                    "Design vendor and technology selection and design principles/standards and best practices for the domain",
+                                    "Review and approve the new request for product/technology in the domain",
+                                    "Maintain the scope document and product list for the domain",
+                                    "Develop the roadmap to adopt new products/technology and decommission legacy products/technology",
+                                    "Lead working group (~30 members) forum to discuss and make decision on technology strategies"
+                                ],
+                                "technologies": [
+                                    "Technology strategic Design and Stewardship",
+                                    "Distributed system",
+                                    "Domain Driven Design",
+                                    "Microservice",
+                                    "ACID/BASE",
+                                    "(Event) Stream /Batch Processing",
+                                    "Event Driven Architecture (EDA)",
+                                    "Message Transports (Kafka, ActiveMQ, IBM MQ)",
+                                    "Data Integration (ETL/ELT)",
+                                    "Compensating transactions/Sagas",
+                                    "JMS/AMQP",
+                                    "Resilience and Performance",
+                                    "CQRS/SOA",
+                                    "CAP"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "Technology Strategy",
+                                    "Technology Stewardship",
+                                    "Technology Strategic Architecture"
+                                ],
+                                "leaderships": [
+                                    "Chaired a ~30-member cross-functional working group that set and executed the group-wide distributed-systems technology strategy, issuing invest/divest house positions on ~200 products and technologies",
+                                    "Authored the group-wide Microservices Architecture Handbook and contributed to the EDA, Stream Processing and Integration handbooks - reference artifacts used group-wide by Barclays solution architects",
+                                    "Owned cloud-adoption strategy and roadmap for Contact Center, Merchant Services and Fraud: assessed ~500 on-premises applications for migration readiness and guided the prioritized migration waves to AWS",
+                                    "Drove the transformation agenda - on-premises to public cloud, monolith to cloud-native microservices, ACID to BASE, synchronous RPC to asynchronous event-driven, batch/ETL to real-time streaming, vendor-locked to OSS commodity, vertical to horizontal scaling"
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Group-wide Cloud Adoption for Contact Center, Merchant Services and Fraud",
+                                "description": "Led cloud assessment and migration strategy for hundreds of on-premises applications, providing technical guidance and troubleshooting to ensure successful adoption of AWS cloud architecture.",
+                                "highlights": [
+                                    "Build python automation tools to access AWS secret manager via boto3",
+                                    "Using python boto3 to build tools to dynamically manipulate the IAM policies, roles and users",
+                                    "Using terraform to dynamically deploy whole AWS infrastructure including EKS, IAM, DNS, ALB, S3 ...etc.",
+                                    "Building and maintaining the EKS cluster via terraform and k8s yaml",
+                                    "Defined and designed cloud strategy and roadmap/journey for Merchant services, Fraud and Contact Center",
+                                    "Ensured ~500 on-premises application cloud migration journey",
+                                    "Assess ~500 on-premises applications to determine the cloud migration readiness",
+                                    "Provide guidance to application team to design cloud migration architecture",
+                                    "Guide the .NET system to AWS migration",
+                                    "Consulting to migration on-premises system to AWS ECS",
+                                    "Collect system data from Abacus, ServiceFirst query and repo tools"
+                                ],
+                                "technologies": [
+                                    "AWS",
+                                    "EC2",
+                                    "RDS",
+                                    "S3",
+                                    "ECS",
+                                    "VPC",
+                                    "ACL/Security Group/Routing table",
+                                    "ELB/NLB/ALB",
+                                    "Private Link",
+                                    "EBS"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "AWS",
+                                    "Architecture",
+                                    "Cloud"
+                                ],
+                                "leaderships": [
+                                    "Led the assessment and migration of 500+ on-premises applications to AWS, ensuring business continuity.",
+                                    "Developed cloud migration roadmaps and provided hands-on guidance to application teams.",
+                                    "Championed automation of cloud infrastructure, reducing manual errors and accelerating delivery."
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "item-work": {
+                    "start-date": "Apr.,1996",
+                    "end-date": "Oct., 2010",
+                    "position": "<span class=\"career-list\"><span class=\"career-item\"><span class=\"career-co\">Boomi<span class=\"career-yr\"> 2006-2010</span></span><span class=\"career-role\">Sr. Software Engineer</span></span><span class=\"career-item\"><span class=\"career-co\">Vantage Learning<span class=\"career-yr\"> 2006</span></span><span class=\"career-role\">Sr. System Engineer Manager</span></span><span class=\"career-item\"><span class=\"career-co\">Texas Tech University<span class=\"career-yr\"> 2002-2006</span></span><span class=\"career-role\">Programmer/Analyst, Unix SysAdmin</span></span><span class=\"career-item\"><span class=\"career-co\">Sun Microsystems China<span class=\"career-yr\"> 2000-2002</span></span><span class=\"career-role\">Sr. Software Engineer</span></span><span class=\"career-item\"><span class=\"career-co\">IBM China R&amp;D<span class=\"career-yr\"> 1998-2000</span></span><span class=\"career-role\">Software Engineer</span></span><span class=\"career-item\"><span class=\"career-co\">Taiji Computers<span class=\"career-yr\"> 1996-1997</span></span><span class=\"career-role\">System / Network Engineer</span></span></span>",
+                    "position-header": "Senior Software Engineer / Systems Engineering Manager / Unix Systems Administrator",
+                    "company": {
+                        "name": "Earlier career",
+                        "city": "USA",
+                        "country": "China"
+                    },
+                    "achievements": "Fourteen years of platform, build and systems engineering preceding the DevOps and cloud work above. At Boomi - one of the first iPaaS products - built the SOA connector framework and the clustered production cloud platform on AWS EC2/S3 and managed data centres, set up the development, build, release and deployment environments for QA, Staging and Production on Maven, Subversion and TeamCity with Ant and shell release scripts, and tuned JVM heap and GC for Apache Solr indexing at millions of transactions per day. Ran a 100+ server data centre at Vantage Learning. At Texas Tech University, administered networked Unix estates (Solaris, AIX, Mac OS X, Linux) with cross-realm Kerberos and OpenLDAP single sign-on, Veritas NetBackup and RAID disk arrays, and migrated NIS/NIS+ to LDAP, alongside an MS in Computer Science. Earlier still, enterprise Java and J2EE delivery at Sun Microsystems China and IBM China R&D, and IBM RS/6000 production support plus large-scale Cisco network design at Taiji Computers.",
+                    "technologies": [
+                        "Java/J2EE",
+                        "Maven/Subversion/TeamCity",
+                        "Ant / shell release scripting",
+                        "AWS EC2/S3",
+                        "Linux/Solaris/AIX administration",
+                        "Kerberos/LDAP/SSO",
+                        "JVM & GC tuning",
+                        "Apache Solr",
+                        "MySQL"
+                    ],
+                    "projects": [
+                        {
+                            "item-projects": {
+                                "title": "Boomi AtomSphere iPaaS: build/release environments and the production cloud platform",
+                                "description": "Development, build, release and deployment environments for QA, Staging and Production on Maven, Subversion and TeamCity with Ant and Unix shell release scripts, plus the clustered production platform on EC2/S3 including distributed caching, Solr indexing at millions of transactions per day and JVM heap/GC tuning."
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Unix estate administration, Kerberos/LDAP single sign-on and grid computing",
+                                "description": "Networked Solaris, AIX, Mac OS X and Linux servers with cross-realm Kerberos KDC, OpenLDAP and PAM single sign-on, Veritas NetBackup over RAID disk arrays, and an NIS/NIS+ to LDAP migration for the computer science research and teaching labs."
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Enterprise Java/J2EE delivery and infrastructure engineering",
+                                "description": "J2EE systems around iPlanet Application Server, Directory Server and Message Queue at Sun Microsystems China and IBM WebSphere at IBM China R&D; IBM RS/6000 and disk-array production support and large-scale Cisco router and switch network design at Taiji Computers."
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "summaries": [
+            {
+                "summary": "Hands-on systems and DevOps engineer with twenty-five years building the build, release and deployment machinery other engineers depend on. Designed and owned end-to-end CI/CD at scale: a dependency-graph (DAG) driven AutoBuild system that built, branched, tagged and released more than 200 microservice repositories at Comcast, cutting release cycles from days to hours, on a clustered Bamboo and Jenkins estate with Gerrit, Nexus and Artifactory run behind Pacemaker/HAProxy failover. Fifteen years of Infrastructure as Code from Puppet, Chef and Capistrano through Terraform and Terragrunt module libraries, and deep shell and scripting automation in Bash, Ruby, Python and Perl. Currently principal architect for an on-demand application platform at a global bank, where more than 200 microservices onboard onto a paved road that provisions environments in hours instead of weeks and inherits its secrets, TLS and observability controls by default rather than by discipline - the DevSecOps half of pipeline design. Oracle-ecosystem background from three years as a lead software engineer on Oracle's cloud integration connectivity SDK and Java connectors for SOA Suite and Integration Cloud Service, including Docker Swarm/Compose CI environments built on Oracle Cloud VMs. Sets standards as well as builds them: authored Barclays' group-wide architecture handbooks and chaired a technology strategy working group setting invest and divest positions across roughly 200 products, and mentors the engineers who extend what he writes. US Citizen; fluent English, native Chinese.",
+                "tags": [
+                    "CICD"
+                ]
+            }
+        ],
+        "skills": [
+            "CI/CD pipeline design and administration: end-to-end pipelines on Jenkins and Bamboo, clustered controllers with multiple remote build agents, complex job and task chains with event and trigger dependencies across 200+ microservice projects; pipeline integration with Git/Gerrit, Maven repositories, Jira and Confluence through their CLIs and REST APIs.",
+            "Release engineering and deployment automation: dependency-graph (DAG) driven build, branch, tag and release orchestration across 200+ repositories; automated dependency-version resolution through the Maven versions plugin and repository REST APIs; Capistrano deployment tasks promoting microservice stacks through Dev/QA/Staging/Prod; BOM-driven artifact release gating.",
+            "Version control at scale: Git and Gerrit administration, cross-server repository migration, Git history rewriting for performance, branch locking during release windows, Gerrit hooks for issue-tracker integration, plus Subversion; OpenID and Crowd/LDAP single sign-on for the SCM estate.",
+            "Shell and automation scripting: Bash, Ruby, Python and Perl for build, release, provisioning and diagnostic automation - error handling and logging frameworks, XMLRPC clients, repository replication, circular-dependency checkers run as nightly CI jobs.",
+            "DevSecOps and security controls in the delivery path: AWS Secrets Manager and KMS to keep credentials out of repositories and images, least-privilege IAM with OIDC/IRSA, mesh-wide mTLS on Istio, automated TLS certificate issuance and Route 53/ACM wiring, per-tenant isolation and quotas.",
+            "Infrastructure as Code and configuration management: Terraform and Terragrunt versioned module libraries with DRY multi-environment configuration; Puppet, Chef, Ansible and Capistrano; code-driven provisioning of full environments including networking, IAM, DNS, certificates and data stores.",
+            "Cloud and container platforms: AWS ECS/Fargate, EKS, Lambda, Step Functions, EventBridge, ALB, Route 53, ACM, RDS, S3; Docker, Docker Compose, Swarm and Stack, Kubernetes and Helm; Oracle Cloud VMs, Azure AKS and GCP exposure.",
+            "Linux systems engineering: high-availability clustering with Pacemaker, Corosync, keepalived and HAProxy; GFS2 over SAN multipath, DRBD, LVM; bare-metal provisioning with PXE/TFTP/DHCP and Cobbler; Kerberos and LDAP single sign-on; JVM heap and GC tuning.",
+            "Databases in the delivery path: Oracle DB (JDBC configuration, RCU descriptive schema definitions for tables/sequences with primary and foreign keys, Artifactory clustering over RAC), PostgreSQL master/slave clusters, MySQL, ClickHouse, DynamoDB; SQL day to day.",
+            "Observability and diagnostics: Splunk, Dynatrace, Prometheus/Grafana/Jaeger, CloudWatch; purpose-built metrics pipelines on Graphite/jmxtrans/statsd for JVM, Jetty and Linux; heap and GC analysis with the JVM tooling.",
+            "AI-assisted engineering: Claude Code, GitHub Copilot and Cursor daily; recurring platform work - service onboarding, environment triage, incident first-pass - packaged as agent skills and subagents behind an MCP server over the platform's own APIs; sets the team's trust and review boundaries for generated code.",
+            "Standards and mentoring: authored Barclays' group-wide Microservices Architecture Handbook, chaired a ~30-member technology strategy working group setting invest/divest positions across ~200 products, designed the code and branching conventions developers followed for AutoBuild, and led and trained the teams that maintained it."
+        ],
+        "technologies": [
+            {
+                "daily-programming-language": [
+                    "Bash",
+                    "Python",
+                    "Terraform",
+                    "Ruby",
+                    "Java",
+                    "SQL"
+                ]
+            }
+        ],
+        "languages": [
+            {
+                "item-languages": {
+                    "name": "English",
+                    "additional-info": "Fluent"
+                }
+            },
+            {
+                "item-languages": {
+                    "name": "Chinese",
+                    "additional-info": "Native"
+                }
+            }
+        ],
+        "hobbies": {
+            "hobby-items": [
+                {
+                    "item-hobbies": {
+                        "name": "Pickleball",
+                        "additional-info": " ~4.0 player"
+                    }
+                },
+                {
+                    "item-hobbies": {
+                        "name": "IoT or Robot programming",
+                        "additional-info": "Have iRobot and MIPOSaur at home. Programming against iRobot create SDK and MIPOSaur SDK."
+                    }
+                },
+                {
+                    "item-hobbies": {
+                        "name": "Playing with cutting-edge technologies",
+                        "additional-info": "genAI/Autogen/Multiagents, Docker, Go, Kafka, Kubernetes and Amazon CloudFormation, JavaScript, AngularJS, ReactiveJS, Node.js"
+                    }
+                }
+            ]
+        }
+    }
+}

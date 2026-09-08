@@ -62,11 +62,13 @@
                         "city": "Cherry Hill, NJ (WFH)",
                         "country": "USA"
                     },
-                    "achievements":"Hands-on principal architect for the on-demand application platform used by hundreds of developers across more than 80 product teams. Own the ECS/EKS and Istio service-mesh reference architecture, the Terraform module library behind it, and the observability, secrets and TLS standards every onboarding service inherits. Cut new-service environment provisioning from weeks to hours and onboarded more than 200 microservices onto the paved road. Self-taught the firm's proprietary Environment as Code (EAC) platform and became the team's subject-matter expert, mentoring the team on it.",
+                    "achievements":"Hands-on principal architect for the on-demand application platform used by hundreds of developers across more than 80 product teams. Own the ECS/EKS and Istio service-mesh reference architecture, the Terraform module library behind it, and the observability, secrets and TLS standards every onboarding service inherits. Cut new-service environment provisioning from weeks to hours and onboarded more than 200 microservices onto the paved road. Self-taught the firm's proprietary Environment as Code (EAC) platform and became the team's subject-matter expert, mentoring the team on it. Set the team's AI-assisted development practice, and packaged recurring platform work - service onboarding, environment triage, incident first-pass - as agent skills and subagents backed by an MCP server over the platform's own APIs.",
                     "technologies":[
                         "IaC",
                         "Terraform",
                         "AWS/EKS/Service Mesh/Istio",
+                        "AI-assisted development (Claude Code, GitHub Copilot, Cursor)",
+                        "AI agents / MCP / agentic workflow automation",
                         "TLS Certificate"
 
                     ],
@@ -83,7 +85,10 @@
                                     "Automated ALB listener and target-group wiring together with Route 53 records and ACM-issued certificates, so each provisioned environment comes up with a working TLS-terminated endpoint",
                                     "Provisioned RDS instances with per-service IAM task and execution roles, keeping database credentials out of application configuration and images",
                                     "Kept Dev/Test/Prod configuration DRY behind versioned module inputs, so an environment is reproduced from code rather than hand-assembled",
-                                    "Made provisioning idempotent and repeatable end to end, taking new-environment turnaround from weeks of coordinated manual setup to hours"
+                                    "Made provisioning idempotent and repeatable end to end, taking new-environment turnaround from weeks of coordinated manual setup to hours",
+                                    "Drove the team's AI-assisted development workflow on the ODE backend, drafting Spring Boot controllers, service layers and their unit tests with Claude Code and GitHub Copilot",
+                                    "Held generated code to the build, the test suite and human review rather than the assistant's confidence, writing tests first wherever generated logic touched provisioning state",
+                                    "Turned the repetitive half of platform delivery into agent-driven tasks - service onboarding, Terraform module wiring, test scaffolding - each run against the platform's own conventions with an engineer approving the diff"
                                 ],
                                 "technologies": [
                                     "Java",
@@ -125,7 +130,8 @@
                                     "Instrumented Java Spring Boot microservices with Dynatrace OneAgent injected at JVM startup via customized Dockerfiles, delivering APM, distributed tracing and JVM metric collection with no application code changes",
                                     "Built the reusable Terraform module that bootstraps every new service with the correct IAM roles, sidecar configuration and telemetry variables, cutting observability onboarding from days of hand-wired configuration to minutes",
                                     "Delivered Splunk dashboards and Dynatrace alerting profiles for application health and cross-service transaction latency, taking incident triage from hours of log-hunting to minutes of trace inspection",
-                                    "Optimized Splunk log ingestion through logback.xml tuning, materially reducing indexed volume and the associated license cost"
+                                    "Optimized Splunk log ingestion through logback.xml tuning, materially reducing indexed volume and the associated license cost",
+                                    "Automated first-pass incident triage with an agent that pulls the failing service's Splunk logs and Dynatrace traces, correlates them across the call path, and hands the on-call engineer a written first hypothesis to confirm or discard"
                                 ],
                                 "technologies": [
                                     "Splunk Universal Forwarder (UF)",
@@ -203,7 +209,8 @@
                                     "Authored the versioned Terraform modules for automated EKS and Istio deployment, consumed by product teams across the platform",
                                     "Implemented mesh policies for authorization, rate limiting and circuit breaking, containing retry storms and cascading failures at the mesh boundary rather than in application code",
                                     "Designed the multi-namespace isolation strategy for secure multi-tenancy, with ResourceQuota and LimitRange per tenant namespace and Istio AuthorizationPolicy enforced at each boundary",
-                                    "Established CI/CD pipelines for service-mesh configuration changes, taking rollout from multi-day manual change windows to minutes behind automated lint, policy and staged-rollout gates"
+                                    "Established CI/CD pipelines for service-mesh configuration changes, taking rollout from multi-day manual change windows to minutes behind automated lint, policy and staged-rollout gates",
+                                    "Drafted and refactored mesh and Terraform configuration with Claude Code and Cursor - VirtualServices, DestinationRules, AuthorizationPolicies, module scaffolding - every generated change still gated by lint, policy checks and staged rollout"
                                 ],
                                 "technologies": [
                                     "AWS EKS",
@@ -246,7 +253,11 @@
                                     "Authored EAC onboarding runbooks and reusable environment templates, cutting new-service environment setup from days to under an hour",
                                     "Mapped EAC abstractions onto the underlying AWS and Terraform resources to make provisioning failures diagnosable, shortening root-cause analysis from days to hours",
                                     "Diagnosed and resolved complex AWS configuration defects across all environments, spanning IAM, VPC and security groups, ECS/EKS task and service definitions, and TLS certificate chains",
-                                    "Raised defects and enhancement requests to the EAC platform team, several of which were adopted into the product"
+                                    "Raised defects and enhancement requests to the EAC platform team, several of which were adopted into the product",
+                                    "Used AI coding assistants to reverse-engineer the undocumented EAC platform, summarizing its templates and mapping its abstractions onto the underlying AWS and Terraform resources, which cut the self-teaching curve sharply",
+                                    "Set the team's working practice for AI-assisted development: assistants trusted for scaffolding, refactoring, test generation and codebase exploration; kept out of security-sensitive IAM and TLS changes; every generated change reviewed before it ships",
+                                    "Built an MCP server exposing the platform's environment and provisioning APIs to coding agents, so an agent reads live environment state and drafts the matching EAC or Terraform change itself",
+                                    "Packaged the team's recurring runbooks as reusable agent skills and subagents - provisioning failures, IAM and TLS triage, EAC template scaffolding - so diagnosis paths that lived in one engineer's head became workflows anyone can run"
                                 ],
                                 "technologies": [
                                     "Environment as Code (EAC)",
@@ -270,7 +281,9 @@
                                 "leaderships": [
                                     "Became the team's go-to expert on an undocumented proprietary IaC platform, then transferred that knowledge across the team through runbooks, templates and pair-troubleshooting sessions",
                                     "Reduced the team's dependency on the central platform team by resolving the large majority of environment issues in-team",
-                                    "Fed field defects and enhancement requests back to the EAC product team, influencing the platform's roadmap"
+                                    "Fed field defects and enhancement requests back to the EAC product team, influencing the platform's roadmap",
+                                    "Mentored the team on AI-assisted development - prompt and context habits, the review every generated change has to pass, and where the assistants are and are not trusted",
+                                    "Moved the team from ad-hoc assistant use to recurring work packaged as agent skills and subagents, so the automation is shared and reviewable rather than rebuilt in each engineer's prompts"
                                 ]
                             }
                         }
@@ -417,6 +430,7 @@
                     "achievements": "Built GenAI platform capability for enterprise modernization engagements: retrieval systems over ChromaDB/Milvus, multi-agent orchestration with AutoGen, and FastAPI services that exposed model-backed capabilities as internal APIs other engineering teams consumed rather than rebuilt. Scaled the retrieval layer behind a call-centre chatbot copilot from a single-node prototype to a persistent, concurrently queried vector store as the knowledge corpus and user base grew. Led the GenAI + RAG system that accelerated mainframe migration to modern stacks, the RAG-assisted code generation platform for PySpark/Databricks data pipelines, and the scaling of the retrieval layer behind a call-centre chatbot copilot. Separately migrated and refactored complex mainframe event-driven systems onto AWS serverless (EventBridge, Lambda, Step Functions, SQS/SNS, CloudWatch, EKS).",
                     "technologies": [
                         "genAI/openAI/Langchain/RAG/Multi-agents/prompts tuning",
+                        "AI-assisted development (GitHub Copilot, Cursor)",
                         "VectorStore/ChromaDB/Milvus",
                         "Python/Flask/FastAPI/Pydantic/Jupyter",
                         "Databricks/pyspark",
@@ -445,7 +459,9 @@
                                     "Tuned the retrieval layer rather than only the prompt: chunk granularity, top-k depth and similarity thresholds, measured against whether the generated PySpark compiled and passed its generated tests, which mattered more to output quality than further prompt iteration",
                                     "Operated the vector store as shared infrastructure - collection layout, embedding refresh on schema change, and reproducible rebuilds from source - so retrieval quality did not silently decay as the data dictionary evolved, holding sub-second retrieval at interactive latencies",
                                     "Implement FastAPI API to expose source to target data transformation as REST service",
-                                    "Design and document the local development and debug workflow by using debugpy with VSC and pycharm"
+                                    "Design and document the local development and debug workflow by using debugpy with VSC and pycharm",
+                                    "Paired the generation service with IDE-level assistance (GitHub Copilot, later Cursor): the RAG service generated schema-aware pipelines, in-editor completion handled the surrounding code and tests",
+                                    "Closed the generate-test-repair loop: a failing unit test fed straight back into the next generation attempt, so the pipeline converged on compiling, passing PySpark without hand re-prompting"
                                 ],
                                 "technologies": [
                                     "Langchain/VectorStore/ChromaDB/Milvus",
@@ -469,6 +485,7 @@
                                 "leaderships": [
                                     "Spearheaded the integration of genAI and RAG for data pipeline automation, enabling rapid transformation of complex data structures.",
                                     "Mentored engineers on advanced prompt engineering and parallel AI workflow design, raising team proficiency in cutting-edge AI techniques.",
+                                    "Introduced AI-assisted development into the team's day-to-day workflow alongside the RAG service, coaching engineers to treat generated code as a draft to be tested and reviewed",
                                     "Established robust local development and debugging standards, improving team productivity and onboarding efficiency."
                                 ]
                             }
@@ -482,7 +499,9 @@
                                     "Contribute to develop multi-agents genAI system to automate the development/testing/deployment process",
                                     "Built the RAG layer that accelerated COBOL-to-Java migration, operating ChromaDB/Milvus as shared retrieval infrastructure holding the dependency context that multiple migration workstreams queried",
                                     "Indexed the mainframe dependency graph - copybooks, JCL, called modules and data definitions across a legacy estate of thousands of COBOL programs - so an agent converting one module retrieved its true upstream and downstream context instead of guessing at it",
-                                    "Sized and partitioned collections per application domain to keep retrieval relevant as the corpus grew, running ChromaDB for fast local iteration and Milvus where persistence and concurrent multi-agent querying were needed"
+                                    "Sized and partitioned collections per application domain to keep retrieval relevant as the corpus grew, running ChromaDB for fast local iteration and Milvus where persistence and concurrent multi-agent querying were needed",
+                                    "Designed the human-in-the-loop step around the agents: engineers reviewed, corrected and completed the generated COBOL-to-Java and BMS-to-React output with in-editor assistance (GitHub Copilot, Cursor) before any of it landed in the codebase",
+                                    "Designed the agent workflow itself - analysis, conversion, test-generation and review agents, the hand-off contract between them, and the retry and escalation path when output failed its tests - so a migration ran as a repeatable pipeline rather than a string of manual prompts"
                                 ],
                                 "technologies": [
                                     "Langchain/VectorStore/ChromaDB/Milvus",

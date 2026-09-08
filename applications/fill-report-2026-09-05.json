@@ -1,0 +1,802 @@
+[
+ {
+  "company": "Foundation Health",
+  "title": "Principal Software Engineer",
+  "url": "https://jobs.ashbyhq.com/foundationhealthcareers/3d0d7d8a-6db4-49bb-bcd2-05c14d224c70/application?utm_source=jobright",
+  "filled": [],
+  "left": [],
+  "notes": [],
+  "error": "Protocol error (Runtime.callFunctionOn): Target closed",
+  "closed": true
+ },
+ {
+  "company": "RxSense",
+  "title": "Principal Platform Engineer",
+  "url": "https://boards.greenhouse.io/embed/job_app?token=4721141005&utm_source=jobright",
+  "filled": [
+   "First Name*",
+   "Last Name*",
+   "Email*",
+   "Phone*",
+   "LinkedIn Profile",
+   "country -> United States +1",
+   "candidate-location -> Cherry Hill, New Jersey, United States"
+  ],
+  "left": [
+   "Preferred First Name",
+   "Country*",
+   "Country*",
+   "Search",
+   "Location (City)*",
+   "Location (City)*",
+   "School*",
+   "School*",
+   "Degree*",
+   "Degree*",
+   "Discipline*",
+   "Discipline*",
+   "Start date month",
+   "Start date year*",
+   "End date month",
+   "End date year*",
+   "Are you legally authorized to work in the United States?*",
+   "Are you legally authorized to work in the United States?*",
+   "Will you now, or in the future, require sponsorship for empl",
+   "Will you now, or in the future, require sponsorship for empl",
+   "Do you have 8+ years of platform, infrastructure, or site re",
+   "Do you have 8+ years of platform, infrastructure, or site re",
+   "This is a hands-on-keyboard role. Are you comfortable writin",
+   "This is a hands-on-keyboard role. Are you comfortable writin",
+   "Describe a platform, internal tool, or piece of core infrast",
+   "Walk us through a production Kubernetes environment you've o",
+   "Gender",
+   "Are you Hispanic/Latino?",
+   "Veteran Status",
+   "Disability Status"
+  ],
+  "notes": [
+   "resume uploaded (principal-swe)"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/RxSense.png"
+ },
+ {
+  "company": "ParentSquare",
+  "title": "Principal Engineer",
+  "url": "https://ats.rippling.com/parentsquare/jobs/2a86ad03-8a85-4279-82d3-1aa102999b3a",
+  "filled": [
+   "First name",
+   "Last name",
+   "Email"
+  ],
+  "left": [
+   "Search",
+   "Current company",
+   "Search",
+   "Phone number",
+   "textbox"
+  ],
+  "notes": [
+   "clicked \"Apply now\" to open the form",
+   "resume uploaded (principal-swe)"
+  ],
+  "captcha": false,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/ParentSquare.png"
+ },
+ {
+  "company": "Recru",
+  "title": "Principal Software Engineer",
+  "url": "https://recru.boostie.jobs/job/3663081-principal-ai-software-engineer?utm_medium=boostie-apply-url&utm_source=jobright",
+  "filled": [],
+  "left": [
+   "Ref Code"
+  ],
+  "notes": [
+   "clicked \"Apply For This Job\" to open the form",
+   "NO file input found"
+  ],
+  "captcha": false,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/Recru.png",
+  "closed": true
+ },
+ {
+  "company": "Bellese Technologies",
+  "title": "Staff Engineer, DevOps",
+  "url": "https://jobs.lever.co/bellese/111d0849-7e33-4469-9e9a-bf02a54158ea/apply?utm_source=jobright",
+  "filled": [
+   "Full name ✱",
+   "Email ✱",
+   "Phone ✱",
+   "LinkedIn URL",
+   "GitHub URL",
+   "Portfolio URL"
+  ],
+  "left": [
+   "Current location ✱",
+   "Current company",
+   "Twitter URL",
+   "Other website",
+   "Yes",
+   "Yes",
+   "Yes",
+   "Yes",
+   "Yes",
+   "Yes",
+   "Name",
+   "Date"
+  ],
+  "notes": [
+   "resume uploaded (ai-platform)"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/BelleseTechnologies.png"
+ },
+ {
+  "company": "Oracle",
+  "title": "Lead Principal Platform Software Engineer",
+  "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/338505",
+  "filled": [],
+  "left": [],
+  "notes": [
+   "no application form on the page (no name or email field) - skipped"
+  ],
+  "closed": true
+ },
+ {
+  "company": "Oracle",
+  "title": "Principal Software Developer",
+  "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/289656",
+  "filled": [],
+  "left": [],
+  "notes": [
+   "no application form on the page (no name or email field) - skipped"
+  ],
+  "closed": true
+ },
+ {
+  "company": "Qvest US",
+  "title": "Staff Engineer",
+  "url": "https://jobs.lever.co/qvest.us/326143a8-015e-43e3-ae8c-bb0c02d3f901/apply?utm_source=jobright",
+  "filled": [
+   "Full name ✱",
+   "Email ✱",
+   "Phone ✱",
+   "LinkedIn URL",
+   "GitHub URL",
+   "Portfolio URL"
+  ],
+  "left": [
+   "Current location",
+   "Current company",
+   "Twitter URL",
+   "Other website"
+  ],
+  "notes": [
+   "resume uploaded (principal-swe)"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/QvestUS.png"
+ },
+ {
+  "company": "NOVALINK SOLUTIONS LLC",
+  "title": "Cloud Engineer- Expert",
+  "url": "https://www.ziprecruiter.com/kn/AALJCrDa8nnWmrKb2WdVnCgxs8qdMwBayPcUVfF1crRp6rpQH-1jFPw0HQ_j0zyExW808FXta5Xg26JP0GbvObHU-5C-SQXxeFZIrBd82RPBsTsa-FbeH9od-Mh9Q1DUnPM1vi6zTVKIIR1eIWootNKz6fbAV7O07tSgq3CiC6cnAJAEecVSSD-s1Pk8vEp2vzkK8daYcMNtX0x9pBg0uQ9xrkW0JPr83Aw-U7d4rt6lnomy1TuRpJR9ymA9YSHvDSXcrW6hlZzfClzUkXLArc4IiZRF0cQXtTy9dZd-AmkVATAXmpS_trxM4pVxIek63OIffDyfRPwOh0x2n7JxIrBSFoUYBuBUhQ5M_IAG_cGv35VXitZtFe8zLB_lFxhIecnWi4mY04wiwGqBRgqBwe_hQuxcd3EHDi8Tvy4hOIv4Sy5p4wsDqiiMLUoaCPJK_ZThxunsreWMEz9T?tsid=123468825",
+  "filled": [],
+  "left": [],
+  "notes": [
+   "no application form on the page (no name or email field) - skipped"
+  ],
+  "closed": true
+ },
+ {
+  "company": "Clarvos",
+  "title": "Sr. DevOps Engineer",
+  "url": "https://app.trinethire.com/companies/657292-clarvos-llc/jobs/123330-sr-devops-engineer",
+  "filled": [
+   "First name",
+   "Last name",
+   "Email address",
+   "First name",
+   "First name",
+   "First name",
+   "Phone number",
+   "First name",
+   "Linkedin url"
+  ],
+  "left": [
+   "Location",
+   "Are you authorized to work in the United States?",
+   "Will you now or in the future require sponsorship for employ",
+   "How were you referred to the company?"
+  ],
+  "notes": [
+   "resume uploaded (ai-platform)"
+  ],
+  "captcha": false,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/Clarvos.png"
+ },
+ {
+  "company": "SAP",
+  "title": "SAP NS2 Sr. DevOps Engineer",
+  "url": "https://jobs.sap.com/job/Herndon-SAP-NS2-Sr_-DevOps-Engineer-VA-20171/1426283633/",
+  "filled": [
+   "Select how often (in days) to receive an alert:"
+  ],
+  "left": [
+   "Work area",
+   "Work area",
+   "Work area",
+   "Select how often (in days) to receive an alert:",
+   "Select how often (in days) to receive an alert:"
+  ],
+  "notes": [
+   "NO file input found"
+  ],
+  "captcha": false,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/SAP.png"
+ },
+ {
+  "company": "Jack Henry",
+  "title": "Senior Cloud Infrastructure Engineer: Deployments",
+  "url": "https://careers.jackhenry.com/job/united-states/senior-cloud-infrastructure-engineer-deployments/42859/96480778192",
+  "filled": [
+   "First Name*",
+   "Last Name*",
+   "Email*",
+   "Confirm Email"
+  ],
+  "left": [
+   "Keyword",
+   "Location",
+   "Location"
+  ],
+  "notes": [
+   "NO file input found"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/JackHenry.png"
+ },
+ {
+  "company": "Pilot.com",
+  "title": "Sr. Software Engineer, Infrastructure",
+  "url": "https://boards.greenhouse.io/embed/job_app?token=8653025002&utm_source=jobright",
+  "filled": [
+   "First Name*",
+   "Last Name*",
+   "Email*",
+   "Phone*",
+   "LinkedIn Profile*",
+   "country -> United States +1",
+   "candidate-location -> Cherry Hill, New Jersey, United States"
+  ],
+  "left": [
+   "Preferred First Name",
+   "Country*",
+   "Country*",
+   "Search",
+   "Location (City)*",
+   "Location (City)*",
+   "How did you hear about this job?*",
+   "Are you legally authorized to work in the United States for ",
+   "Are you legally authorized to work in the United States for ",
+   "Do you now, or will you in the future, require sponsorship f",
+   "Do you now, or will you in the future, require sponsorship f",
+   "Location requirement: This role is available to candidates b",
+   "Location requirement: This role is available to candidates b",
+   "Final round interviews for this role may be held in person a",
+   "Final round interviews for this role may be held in person a",
+   "What aspects of this role and Pilot appeal to you?*"
+  ],
+  "notes": [
+   "resume uploaded (ai-platform)"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/Pilotcom.png"
+ },
+ {
+  "company": "Canonical",
+  "title": "Software Architect - Containers / Virtualisation",
+  "url": "https://boards.greenhouse.io/embed/job_app?token=5881447&utm_source=jobright",
+  "filled": [
+   "First Name*",
+   "Last Name*",
+   "Email*",
+   "Phone",
+   "LinkedIn Profile"
+  ],
+  "left": [
+   "Country",
+   "Search",
+   "School",
+   "Degree",
+   "Discipline",
+   "During this application process I agree to use only my own w",
+   "During this application process I agree to use only my own w",
+   "Outline your thoughts on leadership in the context of softwa",
+   "Describe your experience with Golang, and optionally any par",
+   "What is your proudest success as a software architect?*",
+   "How did you perform in mathematics at high school?*",
+   "How did you perform in mathematics at high school?*",
+   "How did you perform in your native language at high school?*",
+   "How did you perform in your native language at high school?*",
+   "Please share your rationale or evidence for the high school ",
+   "What was your bachelor's university degree result, or expect",
+   "We require all colleagues to meet in person 2-4 times a year",
+   "We require all colleagues to meet in person 2-4 times a year",
+   "In the past ten years, looking only at the time since you gr",
+   "In the past ten years, looking only at the time since you gr",
+   "Website",
+   "In which country do you currently work?*",
+   "In which country do you currently work?*",
+   "Please confirm that you have read and agree to Canonical's R",
+   "Please confirm that you have read and agree to Canonical's R",
+   "Which gender do you identify as?*",
+   "Which gender do you identify as?*",
+   "Please indicate your nationality:*",
+   "Please indicate your nationality:*",
+   "Please indicate your race or ethnicity:*",
+   "Please indicate your race or ethnicity:*",
+   "Gender",
+   "Are you Hispanic/Latino?",
+   "Veteran Status",
+   "Disability Status",
+   "country (combobox, unresolved)"
+  ],
+  "notes": [
+   "resume uploaded (ai-platform)"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/Canonical.png"
+ },
+ {
+  "company": "JobGet",
+  "title": "Principal Software Engineer - Canada",
+  "url": "https://jobget.applytojob.com/apply/TjqRxpW16a/Principal-Software-Engineer-Canada",
+  "filled": [
+   "First Name*",
+   "Last Name*",
+   "Email Address*",
+   "Phone*",
+   "First Name*",
+   "LinkedIn Profile URL:"
+  ],
+  "left": [
+   "Resume*",
+   "Cover Letter",
+   "Desired salary",
+   "If you indicated other to the above question, please list wh"
+  ],
+  "notes": [
+   "resume uploaded (principal-swe)"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/JobGet.png"
+ },
+ {
+  "company": "Photon",
+  "title": "Architect - United States",
+  "url": "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/26831",
+  "filled": [
+   "Email Address"
+  ],
+  "left": [
+   "honeypot"
+  ],
+  "notes": [
+   "clicked \"APPLY NOW\" to open the form",
+   "NO file input found"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/Photon.png"
+ },
+ {
+  "company": "Rocket",
+  "title": "Principal Engineer — Graph & API",
+  "url": "https://careers.rocket.com/us/en/job/R-082560/principal-engineer-graph-api",
+  "filled": [
+   "First Name *",
+   "Last Name *",
+   "Email address *",
+   "Phone number *",
+   "Phone Extension"
+  ],
+  "left": [
+   "Address Line 1",
+   "Address Line 2",
+   "City",
+   "Postal Code",
+   "County",
+   "country (combobox, unresolved)"
+  ],
+  "notes": [
+   "clicked \"Apply\" to open the form",
+   "resume uploaded (principal-swe)"
+  ],
+  "captcha": false,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/Rocket.png"
+ },
+ {
+  "company": "Ciklum",
+  "title": "Principal Software Engineer",
+  "url": "https://ialmme.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4235",
+  "filled": [
+   "Email Address"
+  ],
+  "left": [
+   "honeypot"
+  ],
+  "notes": [
+   "clicked \"APPLY NOW\" to open the form",
+   "NO file input found"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/Ciklum.png"
+ },
+ {
+  "company": "Accelerate Learning",
+  "title": "Software Architect",
+  "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d08d19fedb018d57d02cda2d7c&id=8a78839e9fd3ba7b01a011713ec5642a&source=&lang=en",
+  "filled": [
+   "Email*"
+  ],
+  "left": [],
+  "notes": [
+   "NO file input found"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/AccelerateLearning.png"
+ },
+ {
+  "company": "EWOR",
+  "title": "SaaS Cloud Engineer (100 % remote) (m/f/d)",
+  "url": "https://eworgmbh.recruitee.com/o/saas-cloud-engineer-100-remote-mfd-1",
+  "filled": [],
+  "left": [],
+  "notes": [],
+  "error": "file input not found: #input-candidate.cv-8",
+  "closed": true
+ },
+ {
+  "company": "EWOR",
+  "title": "Fintech Cloud Engineer (100 % remote) (m/f/d)",
+  "url": "https://eworgmbh.recruitee.com/o/fintech-cloud-engineer-100-remote-mfd-7",
+  "filled": [],
+  "left": [],
+  "notes": [],
+  "error": "file input not found: #input-candidate.cv-8",
+  "closed": true
+ },
+ {
+  "company": "PayPay Corporation",
+  "title": "Principal Software Engineer",
+  "url": "https://boards.greenhouse.io/embed/job_app?token=4888665004&utm_source=jobright",
+  "filled": [
+   "First Name*",
+   "Last Name*",
+   "Email*",
+   "Phone",
+   "country -> United States +1"
+  ],
+  "left": [
+   "Country",
+   "Search",
+   "Are you currently residing in Japan?*",
+   "Are you currently residing in Japan?*",
+   "Select the country where you currently live in *",
+   "Select the country where you currently live in *",
+   "Application route*",
+   "Application route*",
+   "IMPORTANT: We need you to reply this question in order to mo"
+  ],
+  "notes": [
+   "resume uploaded (principal-swe)"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/PayPayCorporation.png"
+ },
+ {
+  "company": "Vanta",
+  "title": "Senior Software Engineer, Developer Experience",
+  "url": "https://jobs.ashbyhq.com/vanta/dbd4e02c-0c6c-4031-a658-f57e88ec9943/application?utm_source=jobright",
+  "filled": [
+   "Full Name",
+   "Email",
+   "LinkedIn Profile",
+   "Phone Number"
+  ],
+  "left": [
+   "Current/Most Recent Company Name",
+   "Current/Most Recent Job Title",
+   "Location",
+   "What are your pronouns? (Optional)"
+  ],
+  "notes": [
+   "resume uploaded (principal-swe)"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/Vanta.png"
+ },
+ {
+  "company": "Salt AI",
+  "title": "Senior DevOps Platform Engineer",
+  "url": "https://careers.jobscore.com/careers/saltai/jobs/senior-devops-platform-engineer-c4W79noKLm-yBqpvMFhTYN",
+  "filled": [
+   "First Name:",
+   "First Name:",
+   "Last Name:",
+   "Email:",
+   "Phone:",
+   "GitHub:",
+   "LinkedIn:",
+   "Email:",
+   "First name:",
+   "Last name:"
+  ],
+  "left": [
+   "City:",
+   "State or Province:",
+   "Details:",
+   "Visa Type Details:",
+   "Details:",
+   "Password:"
+  ],
+  "notes": [
+   "clicked \"APPLY FOR THIS JOB\" to open the form",
+   "NO file input found",
+   "parser pre-ticked 1 box(es): Recommend me for jobs at other employers",
+   "reset them"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/SaltAI.png"
+ },
+ {
+  "company": "CareFirst BlueCross BlueShield",
+  "title": "Systems Engineer",
+  "url": "https://jobsapi.ceipal.com/APISource/v1/index.html?bgcolor=1ba1ff&api_key=N0JPaEh5aTFJSUtZU1NFdXlQTTRoQT09&cp_id=Z3RkUkt2OXZJVld2MjFpOVRSTXoxZz09&job_id=z5G7h3l6a1kMvyS65NP3c4JqMpB8_w7I_IceolmC7hM%3D",
+  "filled": [
+   "First Name",
+   "Last Name",
+   "Email",
+   "Phone",
+   "Phone",
+   "First Name",
+   "First Name",
+   "Last Name",
+   "Contact Number",
+   "Email",
+   "First Name*",
+   "First Name",
+   "Last Name",
+   "Contact Number",
+   "Email",
+   "First Name"
+  ],
+  "left": [
+   "[Select all]",
+   "[Select all]",
+   "[Select all]",
+   "[Select all]",
+   "[Select all]",
+   "[Select all]",
+   "[Select all]",
+   "[Select all]",
+   "[Select all]",
+   "[Select all]",
+   "Captcha",
+   "Middle Name",
+   "Job Title*",
+   "Address",
+   "City*",
+   "Postal Code",
+   "Captcha",
+   "Parse Resume and fill the details",
+   "City",
+   "Postal Code",
+   "Captcha",
+   "Parse Resume and fill the details",
+   "I have read and accept the terms and conditions. *",
+   "Parse Resume and fill the details"
+  ],
+  "notes": [
+   "resume uploaded (principal-swe)"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/CareFirstBlueCrossBlueShield.png"
+ },
+ {
+  "company": "Thumbtack",
+  "title": "Senior Software Engineer, Developer Experience",
+  "url": "https://jobs.ashbyhq.com/thumbtack/7ddfc7e0-81c6-41a5-9b18-1d8e4470c3de/application?utm_source=jobright",
+  "filled": [
+   "Full Name",
+   "Email",
+   "Phone Number",
+   "LinkedIn Profile"
+  ],
+  "left": [
+   "Preferred First Name",
+   "Thumbtack currently supports remote work in a number of loca",
+   "What did you do in your last role to improve developer produ",
+   "How have you used AI-assisted development tools in your work"
+  ],
+  "notes": [
+   "resume uploaded (principal-swe)"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/Thumbtack.png"
+ },
+ {
+  "company": "NinjaOne",
+  "title": "Staff Software Engineer, Java / Kotlin",
+  "url": "https://jobs.jobvite.com/ninjaone/job/oVgcAfwH",
+  "filled": [],
+  "left": [],
+  "notes": [
+   "clicked \"Apply\" to open the form",
+   "no application form on the page (no name or email field) - skipped"
+  ],
+  "closed": true
+ },
+ {
+  "company": "CSC Generation",
+  "title": "Principal Engineer",
+  "url": "https://jobs.lever.co/cscgeneration-2/189a5940-8dce-4fac-aaa3-852f90e4af50/apply?utm_source=jobright",
+  "filled": [
+   "Full name ✱",
+   "Email ✱",
+   "Phone ✱",
+   "LinkedIn URL",
+   "GitHub URL",
+   "Portfolio URL"
+  ],
+  "left": [
+   "Custom",
+   "Current location ✱",
+   "Current company ✱",
+   "Other website",
+   "Type your response",
+   "Type your response"
+  ],
+  "notes": [
+   "resume uploaded (principal-swe)"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/CSCGeneration.png"
+ },
+ {
+  "company": "NetApp",
+  "title": "Principal Software Engineer",
+  "url": "https://jobs.netapp.com/job/Principal-Software-Engineer/1407376500/",
+  "filled": [
+   "Enter email to start application process",
+   "Enter email to start application process"
+  ],
+  "left": [],
+  "notes": [
+   "clicked \"Apply now\" to open the form",
+   "NO file input found"
+  ],
+  "captcha": false,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/NetApp.png"
+ },
+ {
+  "company": "Pomelo Care",
+  "title": "Staff Software Engineer",
+  "url": "https://boards.greenhouse.io/embed/job_app?token=6131966004&utm_source=jobright",
+  "filled": [
+   "First Name*",
+   "Last Name*",
+   "Email*",
+   "Phone*",
+   "LinkedIn Profile*"
+  ],
+  "left": [
+   "Country*",
+   "Country*",
+   "Search",
+   "Do you currently reside in the US?*",
+   "Do you currently reside in the US?*",
+   "Are you authorized to work in the US? *",
+   "Are you authorized to work in the US? *",
+   "Will you require sponsorship to work now or in the future?*",
+   "Will you require sponsorship to work now or in the future?*",
+   "How did you hear about us?*",
+   "How did you hear about us?*",
+   "Do you have at least 8 years of full-time experience working",
+   "Do you have at least 8 years of full-time experience working",
+   "In 3-4 sentences tell us why you'd like to join Pomelo Care*",
+   "Which state do you reside in?*",
+   "Which state do you reside in?*",
+   "Gender",
+   "Are you Hispanic/Latino?",
+   "Veteran Status",
+   "Disability Status",
+   "country (combobox, unresolved)"
+  ],
+  "notes": [
+   "resume uploaded (principal-swe)"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/PomeloCare.png"
+ },
+ {
+  "company": "Maven Clinic",
+  "title": "Staff Software Engineer, Infrastructure",
+  "url": "https://boards.greenhouse.io/embed/job_app?token=8761422002&utm_source=jobright",
+  "filled": [
+   "First Name*",
+   "Last Name*",
+   "Email*",
+   "Phone*",
+   "LinkedIn Profile*",
+   "country -> United States +1",
+   "candidate-location -> Cherry Hill, New Jersey, United States"
+  ],
+  "left": [
+   "Country*",
+   "Country*",
+   "Search",
+   "Location (City)*",
+   "Location (City)*",
+   "In which state do you hold permanent residency?*",
+   "In which state do you hold permanent residency?*",
+   "Are you currently employed by Maven Clinic in any capacity? ",
+   "Will you now or in the future require sponsorship for employ",
+   "Will you now or in the future require sponsorship for employ",
+   "How would you describe your gender identity? (mark all that ",
+   "How would you describe your racial/ethnic background? (mark ",
+   "How would you describe your sexual orientation? (mark all th",
+   "Do you identify as transgender?",
+   "Do you have a disability or chronic condition (physical, vis",
+   "Are you a veteran or active member of the United States Arme",
+   "Gender",
+   "Are you Hispanic/Latino?",
+   "Veteran Status",
+   "Disability Status"
+  ],
+  "notes": [
+   "resume uploaded (principal-swe)"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/MavenClinic.png"
+ },
+ {
+  "company": "Bishop Fox",
+  "title": "Infrastructure Engineer",
+  "url": "https://boards.greenhouse.io/embed/job_app?token=8145010&utm_source=jobright",
+  "filled": [
+   "First Name*",
+   "Last Name*",
+   "Email*",
+   "Phone*",
+   "LinkedIn Profile",
+   "country -> United States +1",
+   "candidate-location -> Cherry Hill, New Jersey, United States"
+  ],
+  "left": [
+   "Country*",
+   "Country*",
+   "Search",
+   "Location (City)*",
+   "Location (City)*",
+   "Are you legally authorized to work in the United States? *",
+   "Are you legally authorized to work in the United States? *"
+  ],
+  "notes": [
+   "resume uploaded (ai-platform)"
+  ],
+  "captcha": true,
+  "shot": "/private/tmp/claude-501/-Users-rongyj-github-dynamic-json-resume/a0e9fe2c-724d-4228-a24e-19bb90f10b65/scratchpad/shots/BishopFox.png"
+ },
+ {
+  "company": "enovetic ag",
+  "title": "Technical Lead (80-100%)",
+  "url": "https://enovetic.jobs.personio.com/job/2635570",
+  "filled": [],
+  "left": [],
+  "notes": [
+   "no application form on the page (no name or email field) - skipped"
+  ],
+  "closed": true
+ }
+]

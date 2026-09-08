@@ -209,6 +209,71 @@ console.log("Listening on " + port);
 }); 
 ```
 
+## Role-targeted resumes (build-resume.js)
+
+`resume.json` is the master: the full career database, and the single place facts and
+wording live. It is not a resume to submit as-is. Each targeted resume is **generated**
+from the master plus a role profile in `roles/`:
+
+```
+node build-resume.js <role> --pdf     # build one role's JSON, HTML and PDF
+node build-resume.js all --pdf        # build every role
+node build-resume.js all --check      # report which outputs are stale (writes nothing)
+```
+
+Current roles: `principal-swe`, `principal-swe-short`, `ai-platform`, `ai-platform-short`
+(the `-short` variants are the ~5 page submission versions; the others are full detail).
+
+`resume-<role>.json` is a **build artifact** - edit `resume.json` or the profile, never
+the generated file, or your change is lost on the next build.
+
+### What lives where
+
+| | Where it lives |
+|---|---|
+| Facts, bullet wording, project descriptions | `resume.json` (master) |
+| Which employers, projects and bullets a role shows | `roles/<role>.js` |
+| Role-specific summary and skills prose | `roles/<role>.js` |
+| Tightened `achievements` lines for short views | `roles/<role>.js` |
+| Synthesized entries (collapsed "Earlier career") | `roles/<role>.js` as `literal` blocks |
+
+### Selection is by text, not index
+
+A profile names a project by a prefix of its title and a bullet by a prefix of its text:
+
+```js
+{
+    company: 'Intuitive.ai',
+    projects: [
+        { title: 'On Demand Environment',
+          highlights: [
+              'Architected the backend infrastructure',
+              'Made provisioning idempotent and repeatable',
+          ],
+          leaderships: 'all' },
+    ],
+},
+```
+
+`highlights: 'all'` keeps every bullet the master has for that project; a list selects
+specific ones; `[]` drops them. Because nothing is index-based, inserting or reordering
+content in the master cannot silently change what a role selects. A prefix that stops
+matching - or starts matching two bullets - **fails the build** with the role, project
+and prefix named, instead of quietly producing the wrong resume.
+
+Consequences worth knowing:
+
+- **Fixing wording in the master updates every role** that selects that bullet.
+- **Adding a bullet to the master** reaches roles that take the project with `'all'`;
+  roles with curated lists stay as they are until you add the prefix - a curated view
+  should not silently grow.
+
+### Adding a role
+
+Copy the closest existing profile, change `name`/`output`/`html`/`pdf`, write the
+summary and skills for that audience, and adjust the selection. Then
+`node build-resume.js <role> --pdf`.
+
 ##Tests
 
 You can run the tests by executing: ```npm test```

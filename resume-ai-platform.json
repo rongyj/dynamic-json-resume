@@ -62,12 +62,14 @@
                         "city": "Cherry Hill, NJ (WFH)",
                         "country": "USA"
                     },
-                    "achievements": "Hands-on principal architect for the on-demand application platform used by hundreds of developers across more than 80 product teams. Own the ECS/EKS and Istio service-mesh reference architecture, the Terraform module library behind it, and the observability, secrets and TLS standards every onboarding service inherits. Cut new-service environment provisioning from weeks to hours and onboarded more than 200 microservices onto the paved road. Self-taught the firm's proprietary Environment as Code (EAC) platform and became the team's subject-matter expert, mentoring the team on it.",
+                    "achievements": "Hands-on principal architect for the on-demand application platform used by hundreds of developers across more than 80 product teams. Own the ECS/EKS and Istio service-mesh reference architecture, the Terraform module library behind it, and the observability, secrets and TLS standards every onboarding service inherits. Cut new-service environment provisioning from weeks to hours and onboarded more than 200 microservices onto the paved road. Self-taught the firm's proprietary Environment as Code (EAC) platform and became the team's subject-matter expert, mentoring the team on it. Set the team's AI-assisted development practice, and packaged recurring platform work - service onboarding, environment triage, incident first-pass - as agent skills and subagents backed by an MCP server over the platform's own APIs.",
                     "technologies": [
                         "IaC",
                         "Terraform",
                         "AWS/EKS/Service Mesh/Istio",
-                        "TLS Certificate"
+                        "TLS Certificate",
+                        "AI-assisted development (Claude Code, GitHub Copilot, Cursor)",
+                        "AI agents / MCP / agentic workflow automation"
                     ],
                     "projects": [
                         {
@@ -82,7 +84,9 @@
                                     "Automated ALB listener and target-group wiring together with Route 53 records and ACM-issued certificates, so each provisioned environment comes up with a working TLS-terminated endpoint",
                                     "Provisioned RDS instances with per-service IAM task and execution roles, keeping database credentials out of application configuration and images",
                                     "Kept Dev/Test/Prod configuration DRY behind versioned module inputs, so an environment is reproduced from code rather than hand-assembled",
-                                    "Made provisioning idempotent and repeatable end to end, taking new-environment turnaround from weeks of coordinated manual setup to hours"
+                                    "Made provisioning idempotent and repeatable end to end, taking new-environment turnaround from weeks of coordinated manual setup to hours",
+                                    "Drove the team's AI-assisted development workflow on the ODE backend, drafting Spring Boot controllers, service layers and their unit tests with Claude Code and GitHub Copilot",
+                                    "Turned the repetitive half of platform delivery into agent-driven tasks - service onboarding, Terraform module wiring, test scaffolding - each run against the platform's own conventions with an engineer approving the diff"
                                 ],
                                 "technologies": [
                                     "Java",
@@ -98,6 +102,15 @@
                                     "Infrastructure as Code",
                                     "Docker",
                                     "CI/CD"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "Cloud",
+                                    "AWS",
+                                    "Platform Engineering",
+                                    "Self-Service Platform",
+                                    "Infrastructure as Code",
+                                    "Microservices"
                                 ],
                                 "leaderships": [
                                     "Designed the On Demand Environment as a product with a single paved-road flow, consolidating the provisioning and deployment paths individual teams had each been maintaining themselves",
@@ -115,7 +128,8 @@
                                     "Instrumented Java Spring Boot microservices with Dynatrace OneAgent injected at JVM startup via customized Dockerfiles, delivering APM, distributed tracing and JVM metric collection with no application code changes",
                                     "Built the reusable Terraform module that bootstraps every new service with the correct IAM roles, sidecar configuration and telemetry variables, cutting observability onboarding from days of hand-wired configuration to minutes",
                                     "Delivered Splunk dashboards and Dynatrace alerting profiles for application health and cross-service transaction latency, taking incident triage from hours of log-hunting to minutes of trace inspection",
-                                    "Optimized Splunk log ingestion through logback.xml tuning, materially reducing indexed volume and the associated license cost"
+                                    "Optimized Splunk log ingestion through logback.xml tuning, materially reducing indexed volume and the associated license cost",
+                                    "Automated first-pass incident triage with an agent that pulls the failing service's Splunk logs and Dynatrace traces, correlates them across the call path, and hands the on-call engineer a written first hypothesis to confirm or discard"
                                 ],
                                 "technologies": [
                                     "Splunk Universal Forwarder (UF)",
@@ -128,6 +142,14 @@
                                     "AWS IAM",
                                     "Logback",
                                     "APM / Observability"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "Observability",
+                                    "Monitoring",
+                                    "AWS",
+                                    "Microservices",
+                                    "Infrastructure as Code"
                                 ],
                                 "leaderships": [
                                     "Standardized enterprise observability and telemetry practices by defining reusable, scalable patterns for logging and monitoring across all containerized AWS workloads",
@@ -156,6 +178,14 @@
                                     "AWS KMS",
                                     "Spring Cloud AWS"
                                 ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "Cloud Security",
+                                    "DevSecOps",
+                                    "AWS",
+                                    "Microservices",
+                                    "Infrastructure as Code"
+                                ],
                                 "leaderships": [
                                     "Championed DevSecOps best practices by successfully driving the initiative to eliminate hardcoded secrets across the organization's source code repositories",
                                     "Mentored backend engineering teams on secure credential management, IAM role assumptions, and AWS SDK integration for Spring Boot applications"
@@ -176,7 +206,8 @@
                                     "Authored the versioned Terraform modules for automated EKS and Istio deployment, consumed by product teams across the platform",
                                     "Implemented mesh policies for authorization, rate limiting and circuit breaking, containing retry storms and cascading failures at the mesh boundary rather than in application code",
                                     "Designed the multi-namespace isolation strategy for secure multi-tenancy, with ResourceQuota and LimitRange per tenant namespace and Istio AuthorizationPolicy enforced at each boundary",
-                                    "Established CI/CD pipelines for service-mesh configuration changes, taking rollout from multi-day manual change windows to minutes behind automated lint, policy and staged-rollout gates"
+                                    "Established CI/CD pipelines for service-mesh configuration changes, taking rollout from multi-day manual change windows to minutes behind automated lint, policy and staged-rollout gates",
+                                    "Drafted and refactored mesh and Terraform configuration with Claude Code and Cursor - VirtualServices, DestinationRules, AuthorizationPolicies, module scaffolding - every generated change still gated by lint, policy checks and staged rollout"
                                 ],
                                 "technologies": [
                                     "AWS EKS",
@@ -192,10 +223,54 @@
                                     "Helm",
                                     "AWS IAM/RBAC"
                                 ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "Cloud",
+                                    "Kubernetes",
+                                    "Service Mesh",
+                                    "AWS",
+                                    "Istio",
+                                    "Microservices",
+                                    "DevOps"
+                                ],
                                 "leaderships": [
                                     "Led the architecture and implementation of the service mesh framework that supports hundreds of developers on the on-demand platform.",
                                     "Established service mesh best practices and patterns that improved security, observability, and operational efficiency.",
                                     "Mentored platform and development teams on Istio service mesh concepts, traffic management, and security policies."
+                                ]
+                            }
+                        },
+                        {
+                            "item-projects": {
+                                "title": "Agentic automation of platform operations: MCP server, agent skills and subagents",
+                                "description": "Automated the recurring operational work on the on-demand application platform - service onboarding, environment provisioning failures, IAM and TLS triage, incident first-pass - as reusable agent skills and subagents. An MCP server exposes the platform's environment and provisioning APIs to the coding agents that run them. Built on the firm's proprietary Environment as Code (EAC) platform, self-taught to subject-matter-expert level with no formal training or vendor support.",
+                                "highlights": [
+                                    "Used AI coding assistants to reverse-engineer the undocumented EAC platform, summarizing its templates and mapping its abstractions onto the underlying AWS and Terraform resources, which cut the self-teaching curve sharply",
+                                    "Set the team's working practice for AI-assisted development: assistants trusted for scaffolding, refactoring, test generation and codebase exploration; kept out of security-sensitive IAM and TLS changes; every generated change reviewed before it ships",
+                                    "Built an MCP server exposing the platform's environment and provisioning APIs to coding agents, so an agent reads live environment state and drafts the matching EAC or Terraform change itself",
+                                    "Packaged the team's recurring runbooks as reusable agent skills and subagents - provisioning failures, IAM and TLS triage, EAC template scaffolding - so diagnosis paths that lived in one engineer's head became workflows anyone can run"
+                                ],
+                                "technologies": [
+                                    "MCP",
+                                    "AI agents / subagents",
+                                    "Environment as Code (EAC)",
+                                    "Terraform",
+                                    "AWS ECS",
+                                    "AWS EKS",
+                                    "AWS IAM",
+                                    "TLS / Certificate Management",
+                                    "CI/CD"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "AI Agents",
+                                    "MCP",
+                                    "Platform Engineering",
+                                    "Mentoring"
+                                ],
+                                "leaderships": [
+                                    "Mentored the team on AI-assisted development - prompt and context habits, the review every generated change has to pass, and where the assistants are and are not trusted",
+                                    "Moved the team from ad-hoc assistant use to recurring work packaged as agent skills and subagents, so the automation is shared and reviewable rather than rebuilt in each engineer's prompts"
                                 ]
                             }
                         }
@@ -242,6 +317,13 @@
                                     "AWS Best Practices",
                                     "Security Controls"
                                 ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "Cloud",
+                                    "Infrastructure",
+                                    "AWS",
+                                    "Terraform"
+                                ],
                                 "leaderships": [
                                     "Led the transformation from manual infrastructure management to fully automated IaC practices.",
                                     "Established infrastructure standards and patterns that improved team productivity and security posture.",
@@ -269,6 +351,13 @@
                                     "Clean Architecture",
                                     "Data Processing",
                                     "Web Scraping"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "AI",
+                                    "Data Engineering",
+                                    "Python",
+                                    "RAG"
                                 ],
                                 "leaderships": [
                                     "Drove the adoption of Clean Architecture and SOLID principles across the data engineering team.",
@@ -306,7 +395,8 @@
                         "Docker/K8s/EKS/AKS",
                         "Json Schema",
                         "JOI",
-                        "OpenAPI/Swagger"
+                        "OpenAPI/Swagger",
+                        "AI-assisted development (GitHub Copilot, Cursor)"
                     ],
                     "projects": [
                         {
@@ -321,7 +411,9 @@
                                     "Tuned the retrieval layer rather than only the prompt: chunk granularity, top-k depth and similarity thresholds, measured against whether the generated PySpark compiled and passed its generated tests, which mattered more to output quality than further prompt iteration",
                                     "Operated the vector store as shared infrastructure - collection layout, embedding refresh on schema change, and reproducible rebuilds from source - so retrieval quality did not silently decay as the data dictionary evolved, holding sub-second retrieval at interactive latencies",
                                     "Implement FastAPI API to expose source to target data transformation as REST service",
-                                    "Design and document the local development and debug workflow by using debugpy with VSC and pycharm"
+                                    "Design and document the local development and debug workflow by using debugpy with VSC and pycharm",
+                                    "Paired the generation service with IDE-level assistance (GitHub Copilot, later Cursor): the RAG service generated schema-aware pipelines, in-editor completion handled the surrounding code and tests",
+                                    "Closed the generate-test-repair loop: a failing unit test fed straight back into the next generation attempt, so the pipeline converged on compiling, passing PySpark without hand re-prompting"
                                 ],
                                 "technologies": [
                                     "Langchain/VectorStore/ChromaDB/Milvus",
@@ -332,6 +424,15 @@
                                     "Microservice",
                                     "Dockerfile/Docker/Compose",
                                     "PostgreSQL"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "genAI",
+                                    "OpenAI",
+                                    "OpenAPI",
+                                    "Cloud",
+                                    "Microservice",
+                                    "REST"
                                 ],
                                 "leaderships": [
                                     "Spearheaded the integration of genAI and RAG for data pipeline automation, enabling rapid transformation of complex data structures.",
@@ -349,7 +450,9 @@
                                     "Contribute to develop multi-agents genAI system to automate the development/testing/deployment process",
                                     "Built the RAG layer that accelerated COBOL-to-Java migration, operating ChromaDB/Milvus as shared retrieval infrastructure holding the dependency context that multiple migration workstreams queried",
                                     "Indexed the mainframe dependency graph - copybooks, JCL, called modules and data definitions across a legacy estate of thousands of COBOL programs - so an agent converting one module retrieved its true upstream and downstream context instead of guessing at it",
-                                    "Sized and partitioned collections per application domain to keep retrieval relevant as the corpus grew, running ChromaDB for fast local iteration and Milvus where persistence and concurrent multi-agent querying were needed"
+                                    "Sized and partitioned collections per application domain to keep retrieval relevant as the corpus grew, running ChromaDB for fast local iteration and Milvus where persistence and concurrent multi-agent querying were needed",
+                                    "Designed the human-in-the-loop step around the agents: engineers reviewed, corrected and completed the generated COBOL-to-Java and BMS-to-React output with in-editor assistance (GitHub Copilot, Cursor) before any of it landed in the codebase",
+                                    "Designed the agent workflow itself - analysis, conversion, test-generation and review agents, the hand-off contract between them, and the retry and escalation path when output failed its tests - so a migration ran as a repeatable pipeline rather than a string of manual prompts"
                                 ],
                                 "technologies": [
                                     "Langchain/VectorStore/ChromaDB/Milvus",
@@ -361,6 +464,15 @@
                                     "Microservice",
                                     "Dockerfile/Docker Compose",
                                     "PostgreSQL"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "AI",
+                                    "OpenAI",
+                                    "OpenAPI",
+                                    "Cloud",
+                                    "Microservice",
+                                    "REST"
                                 ],
                                 "leaderships": [
                                     "Drove the integration of multi-agent genAI systems to automate legacy migration, reducing manual effort and error rates.",
@@ -388,6 +500,13 @@
                                     "XML/XSD/Json/Json Schema",
                                     "DynamoDB",
                                     "RDS/Oracle"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "Cloud",
+                                    "DevOps",
+                                    "Infrastructure",
+                                    "Microservice"
                                 ],
                                 "leaderships": [
                                     "Led the end-to-end migration of mission-critical EDA systems to AWS, ensuring zero downtime and robust cloud integration.",
@@ -471,6 +590,13 @@
                                     "Azure/GCP",
                                     "Junit/Test Containers",
                                     "Docker/Minikube"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "Cloud",
+                                    "DevOps",
+                                    "Infrastructure",
+                                    "Microservice"
                                 ]
                             }
                         }
@@ -576,6 +702,12 @@
                                     "CQRS/SOA",
                                     "CAP"
                                 ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "Technology Strategy",
+                                    "Technology Stewardship",
+                                    "Technology Strategic Architecture"
+                                ],
                                 "leaderships": [
                                     "Chaired a ~30-member cross-functional working group that set and executed the group-wide distributed-systems technology strategy, issuing invest/divest house positions on ~200 products and technologies",
                                     "Authored the group-wide Microservices Architecture Handbook and contributed to the EDA, Stream Processing and Integration handbooks - reference artifacts used group-wide by Barclays solution architects",
@@ -612,6 +744,12 @@
                                     "ELB/NLB/ALB",
                                     "Private Link",
                                     "EBS"
+                                ],
+                                "tags": [
+                                    "AIPlatform",
+                                    "AWS",
+                                    "Architecture",
+                                    "Cloud"
                                 ],
                                 "leaderships": [
                                     "Led the assessment and migration of 500+ on-premises applications to AWS, ensuring business continuity.",
@@ -677,21 +815,22 @@
         ],
         "summaries": [
             {
-                "summary": "Platform architect and hands-on engineer who builds the shared infrastructure AI applications run on. Four years delivering production GenAI systems - RAG over ChromaDB/Milvus, multi-agent orchestration with AutoGen, prompt engineering and tuning, concurrent LLM invocation, model-backed services behind FastAPI - on top of fifteen years of Infrastructure as Code and multi-tenant AWS container platforms (ECS/EKS, Istio service mesh with mesh-wide mTLS, versioned Terraform/Terragrunt module libraries). At McKinsey, built the GenAI platform capability that accelerated mainframe modernization for enterprise clients: COBOL to Java and BMS/JSF/JSP to React through multi-agent pipelines, plus LLM-generated PySpark/Databricks pipeline code shipped with generated unit tests. Now owns the reference architecture for an on-demand application platform serving hundreds of developers at a global bank. Brings the governance half as well: authored group-wide architecture handbooks, set invest/divest positions on ~200 technologies, and architected a commercial multi-cloud cost analytics and optimization platform - directly transferable to token accounting, cost attribution and quota enforcement for shared AI infrastructure. US Citizen; fluent English, native Chinese.",
+                "summary": "Platform architect and hands-on engineer who builds the shared infrastructure AI applications run on. Four years delivering production GenAI systems - RAG over ChromaDB/Milvus, multi-agent orchestration with AutoGen, prompt engineering and tuning, concurrent LLM invocation, model-backed services behind FastAPI - on top of fifteen years of Infrastructure as Code and multi-tenant AWS container platforms (ECS/EKS, Istio service mesh with mesh-wide mTLS, versioned Terraform/Terragrunt module libraries). At McKinsey, built the GenAI platform capability that accelerated mainframe modernization for enterprise clients: COBOL to Java and BMS/JSF/JSP to React through multi-agent pipelines, plus LLM-generated PySpark/Databricks pipeline code shipped with generated unit tests. Now owns the reference architecture for an on-demand application platform serving hundreds of developers at a global bank. Sets the team's AI-assisted development practice there, and packages recurring platform work as agent skills and subagents behind an MCP server. Brings the governance half as well: authored group-wide architecture handbooks, set invest/divest positions on ~200 technologies, and architected a commercial multi-cloud cost analytics and optimization platform - directly transferable to token accounting, cost attribution and quota enforcement for shared AI infrastructure. US Citizen; fluent English, native Chinese.",
                 "tags": [
                     "AIPlatform"
                 ]
             }
         ],
         "skills": [
-            "GenAI platform engineering: RAG systems over ChromaDB/Milvus with chunking strategies tuned to model context limits, multi-agent orchestration (AutoGen), prompt engineering and tuning, concurrent/async LLM invocation for throughput, and FastAPI/Flask services that expose model-backed capabilities as governed internal APIs.",
-            "AI-assisted modernization at enterprise scale: multi-agent and RAG pipelines that migrated mainframe estates to modern stacks - COBOL to Java, BMS/JSF/JSP to React/Angular - and LLM-generated PySpark/Databricks pipeline code shipped with generated unit tests.",
-            "Cloud platform architecture on AWS: multi-tenant ECS/EKS container platforms, Istio service mesh with mesh-wide mTLS, serverless event-driven systems (EventBridge, Lambda, Step Functions, SQS/SNS), and self-service environment provisioning consumed by hundreds of developers. Deepest on AWS, with multi-cloud exposure through Azure AKS and GCP in a commercial multi-cloud cost platform.",
-            "Infrastructure as Code at scale: fifteen years from Puppet/Chef/Ansible through Terraform/Terragrunt - versioned reusable module libraries, DRY multi-environment configuration, and code-driven provisioning of full AWS stacks including EKS, IAM/OIDC/IRSA, Route 53, ACM, RDS and secrets.",
-            "Platform security and governance: AWS Secrets Manager and KMS patterns that remove hardcoded credentials from source, least-privilege IAM, per-tenant isolation and quota enforcement, TLS/mTLS certificate management, and enterprise technology stewardship (invest/divest positions across ~200 products at Barclays).",
-            "Observability and cost governance: telemetry pipelines across Splunk, Dynatrace, Prometheus/Grafana/Jaeger/Kiali and CloudWatch; and a commercial multi-cloud cost analytics and optimization platform (FinOps allocation, showback, unit-cost metrics, rightsizing) architected and implemented end to end.",
-            "Distributed systems and data engineering: event-driven architecture, CQRS and event sourcing, Kafka and stream processing, design-first microservices on OpenAPI, and Databricks/PySpark pipelines. Polyglot: Python, Java/Spring Boot, TypeScript/Node.js, Terraform, Bash.",
-            "Technical leadership: authored the group-wide Microservices Architecture Handbook at Barclays, chaired a ~30-member technology strategy working group, led a ~500-application cloud migration readiness assessment, and mentors engineers on IaC, service mesh, prompt engineering and modern design practice."
+            "GenAI platform: RAG over ChromaDB and Milvus - corpus curation, OpenAI embeddings, HNSW-indexed collections, chunk and top-k tuning, embedding refresh on source change; multi-agent orchestration (AutoGen); prompt engineering; concurrent async LLM invocation; model-backed APIs on FastAPI.",
+            "Agentic automation: agent skills and subagents for recurring engineering work; MCP servers exposing platform APIs to coding agents; multi-agent pipelines with hand-off contracts, retry, escalation and human-review gates.",
+            "AI-assisted development: Claude Code, GitHub Copilot and Cursor daily; team practice for what generated code is trusted with and the review it has to pass.",
+            "AI-assisted modernization: COBOL to Java and BMS/JSF/JSP to React through multi-agent and RAG pipelines; LLM-generated PySpark/Databricks code shipped with generated unit tests.",
+            "AWS platform architecture: multi-tenant ECS/EKS, Istio with mesh-wide mTLS, serverless event-driven systems (EventBridge, Lambda, Step Functions, SQS/SNS), self-service environment provisioning. Azure AKS and GCP exposure.",
+            "Infrastructure as code: Terraform and Terragrunt module libraries, DRY multi-environment configuration, IaC-provisioned EKS, IAM/OIDC/IRSA, Route 53, ACM, RDS, secrets; Puppet, Chef, Ansible.",
+            "Security, observability and cost: Secrets Manager and KMS, least-privilege IAM, per-tenant quotas, TLS/mTLS; Splunk, Dynatrace, Prometheus/Grafana/Jaeger/Kiali, CloudWatch; FinOps allocation, showback, unit-cost metrics, rightsizing.",
+            "Distributed systems and languages: event-driven architecture, CQRS, event sourcing, Kafka streams, design-first microservices on OpenAPI, Databricks/PySpark; Python, Java/Spring Boot, TypeScript/Node.js, Terraform, Bash.",
+            "Technical leadership: group-wide architecture handbooks at Barclays, a ~30-member technology strategy working group, a ~500-application cloud migration readiness assessment; mentors engineers on IaC, service mesh, prompt engineering and agentic workflows."
         ],
         "technologies": [
             {

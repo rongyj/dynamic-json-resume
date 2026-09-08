@@ -1,0 +1,1202 @@
+<head><style>html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+footer {
+	position:fixed;
+	bottom:0;
+	vertical-align:bottom;
+	width:100%;
+}
+
+
+body {
+	line-height: 1;
+	background-color:white;
+}
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.container {
+	display: flex;
+
+}
+
+ul {
+	list-style: initial;
+}
+li {
+	margin-left: 25px;
+	padding-left: 0px;
+}
+
+#cv {
+	  padding-left: 10px;
+  	flex: 3;
+		counter-reset: company;
+}
+
+
+#extra {
+	background-color: black;
+	color: white;
+  	flex: 1;
+  	font-size: large;
+  	padding: 10px;
+}
+
+div[id$='extra'] > a:link, div[id$='extra'] > ul > a:link{
+	text-decoration: none;
+}
+
+div[id$='extra'] > a:visited, div[id$='extra'] > ul > a:link{
+	text-decoration: none;
+}
+
+div[id$='extra'] > img {
+	width: 25%;
+	height: 25%;
+}
+
+table.work-experience {
+	  border: 2px solid black;
+    border-collapse: collapse;
+		table-layout: auto;
+}
+
+tr,th,td {
+	border: 1px solid black;
+}
+tr.work-item-header {
+	text-align:center;
+}
+tr.work-item {
+	text-align:left;
+}
+
+td.work-employer{
+	text-align:center;
+}
+
+/* Let newlines inside the employer cell render as line breaks, so a consolidated
+   entry can list one company/role/period per line instead of one run-on paragraph.
+   No effect on cells whose text contains no newlines. */
+td.work-employer p{
+	white-space: pre-line;
+}
+
+/* Consolidated earlier-career entry, summary-table left cell only: each employer is a
+   bold line with its role and dates indented underneath, left-aligned so wrapped text
+   stays readable in the narrow column. */
+.career-list{
+	display: block;
+	text-align: left;
+	margin-top: 4px;
+}
+.career-item{
+	display: block;
+	margin-bottom: 2px;
+}
+.career-co{
+	display: block;
+	font-weight: bold;
+}
+.career-yr{
+	font-weight: normal;
+	font-size: 0.75em;
+}
+.career-role{
+	display: block;
+	font-weight: normal;
+	font-size: 0.75em;
+	padding-left: 0.9em;
+}
+
+td.work-accomplishments{
+	text-align:left;
+}
+
+div.work-item::before{
+	  counter-increment: company;
+    content: counter(company)". ";
+		font-size: large;
+		font-weight: bold;
+}
+.work-item{
+    counter-reset: projects;
+}
+
+#hobbies{
+	counter-reset: hobby-projects;
+}
+div.hobby-project-item::before{
+	  counter-increment: hobby-projects;
+    content: "H."counter(hobby-projects)" ";
+		font-size: large;
+		font-weight: bold;
+}
+
+div.project-item::before{
+	  counter-increment: projects;
+    content: counter(company)"."counter(projects)" ";
+		font-size: large;
+		font-weight: bold;
+}
+
+.bold-font {
+	font-weight: bold;
+}
+
+#contact {
+	padding: 8px 4px;
+	border-radius: 5px;
+	text-align: center;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.contact-name {
+	font-size: large;
+	font-weight: bold;
+}
+
+.section {
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+.projects-title-section {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: large;
+	padding-top: 8px;
+	padding-bottom: 5px;
+}
+.subtitle-section {
+	font-weight: bold;
+	font-size: medium;
+	text-decoration: underline;
+}
+
+.title-section {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: larger;
+	padding-bottom: 10px;
+}
+.item-projects-title{
+	padding-top: 1em;
+	font-size: large;
+}
+.header-date,.header-company-name{
+	font-size: medium;
+}
+
+.item-work-header-date,.item-work-header-company-name,.item-work-header-company-location {
+	font-size: large;
+	text-decoration: underline;
+}
+
+.header-date ,.header-company-name,.header-school-name,.description-education, .item-projects-title, .header-employer, .header-accomplishments, .header-technologies,.item-work-header-date,.item-work-header-company-name {
+	font-weight: bold;
+}
+
+.section > div {
+	padding-left: 45px;
+}
+.education-item {
+	padding-bottom: 5px;
+}
+.work-item, .project-item {
+	padding-bottom: 15px;
+}
+.description-work {
+	padding-bottom: 5px;
+	text-indent: 1.5em;
+}
+
+.technologies-work > span {
+	font-weight: bold;
+	font-size: medium;
+}
+
+.skills-items > span {
+	padding : 0px 10px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	border-radius: 6px;
+	border: 1px solid black;
+	background-color: #B2913F;
+	color: white;
+	font-weight: bold;
+	font-size: medium;
+	flex: 0 0 auto;
+}
+
+.skills-items {
+	padding-left: 45px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.highlighted {
+	border-radius: 5px;
+	font-size: medium;
+}
+
+@media (max-width: 900px) {
+    .container {
+        display: block;
+    }
+}
+
+@media print {
+	body {
+		margin: 0 0 0 0;
+	}
+	#extra {
+		display: none;
+	}
+}
+#extra {display: none;}</style></head><div class="container">
+
+    <div id="cv">
+        <div id="contact" >
+            <div class="contact-name">Yongjun Rong</div>
+            <div class="contact-email">
+              <span class="contact-email">Cherry Hill, NJ, USA, 08003 (US Citizen)</span>
+              <span class="header-date"> Email: </span>
+              <span class="header-school-location">  rongyj@hotmail.com </span>
+              <span class="header-date"> Tel: </span>
+              <span class="header-school-location">  856-408-4027 </span>
+            </div>
+            <div class="contact-website">
+                  <span class="header-date"> Linkedin: </span>
+                  <span class="header-school-location"> https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;rongyongjun&#x2F;,   </span>
+                  <span class="header-date"> Github: </span>
+                  <span class="header-school-location"> https:&#x2F;&#x2F;github.com&#x2F;rongyj </span>
+            </div>
+        </div>
+
+        <div id="education" class="section">
+            <div class="title-section">Education</div>
+            <div class="education-item" >
+                <span class="header-date">Jun.,2006,</span>
+                <span class="description-education">Master of Computer Science,</span>
+                <span class="header-school-name">Texas Tech University,</span>
+                <span class="header-school-location">Lubbock, TX, USA</span>
+            </div>
+            <div class="education-item" >
+                <span class="header-date">Feb.,1996,</span>
+                <span class="description-education">Master of Engineering,</span>
+                <span class="header-school-name">Shanghai JiaoTong University,</span>
+                <span class="header-school-location">Shanghai, China</span>
+            </div>
+            <div class="education-item" >
+                <span class="header-date">Jul.,1991,</span>
+                <span class="description-education">Bachelor of Engineering,</span>
+                <span class="header-school-name">Changsha Railway University,</span>
+                <span class="header-school-location">Changsha, Hunan, China</span>
+            </div>
+        </div>
+        <div id="skills" class="section">
+            <div class="title-section" style="page-break-after: avoid">Summary:</div>
+
+            <div>
+              <ul class="highlighted">
+                  <div class="description-work" style="page-break-inside: avoid"> Individual-contributor systems engineer who finds out why production is slow and then fixes it at the layer that actually causes it. Twenty-five years of root-cause work across the stack: JVM heap and GC tuning against recurring production out-of-memory, Apache Solr indexing scaled to millions of transactions a day with a work-stealing design, response-time vibration diagnosed from collected latency statistics rather than guessed at, MySQL table-lock timeouts traced to the wrong isolation level, and filesystem IO and CPU contention investigated with vmstat, iostat, sar and benchmark harnesses. Builds the instrumentation as well as reading it - designed a purpose-built metrics platform on Graphite, jmxtrans, statsd and metricsd with custom UDP collectors in Java and Scala to get deep JVM and OS visibility that off-the-shelf tooling did not provide, and today instruments Spring Boot services with Dynatrace OneAgent injected at JVM startup, delivering distributed tracing that cut mean time to resolution on cross-service latency, plus the Prometheus&#x2F;Grafana&#x2F;Jaeger&#x2F;Kiali golden-signal stack behind an Istio mesh. Holds interactive query latency on multi-terabyte datasets in ClickHouse, and raised inference pipeline throughput against a rate-limited API through asyncio concurrency rather than more hardware. Currently principal architect for an on-demand application platform serving hundreds of developers at a global bank, where the observability, secrets and TLS standards every service inherits are his. Comfortable in ambiguity and at both altitudes: authored group-wide architecture handbooks and chaired a technology strategy working group across roughly 200 products, and still writes the Python, Java and Terraform. US Citizen; fluent English, native Chinese. </div>
+                  <!--li>[object Object]</li-->
+              </ul>
+            </div>
+        </div>
+
+        <div id="skills" class="section">
+            <div class="title-section" style="page-break-after: avoid">Skills:</div>
+            <div>
+              <ul class="highlighted">
+                  <li>Performance root-cause analysis: JVM heap and garbage-collection tuning against production out-of-memory, new- and old-generation analysis with visualVM, jmap and jstat, heap-dump capture automated into the defect workflow; response-time vibration diagnosed from collected statistics; database lock-timeout and isolation-level investigation.</li>
+                  <li>Profiling, tracing and instrumentation: Dynatrace OneAgent injected at JVM startup through customized Dockerfiles for APM and distributed tracing; Jaeger and Kiali for mesh-level traces; Splunk for correlated log analysis; purpose-built metrics collectors over UDP where existing tooling could not reach the JVM and OS internals.</li>
+                  <li>Observability platforms built from scratch: a unified monitoring system on Graphite, gdash, metricsd, statsd, jmxtrans and god for Jetty, JVM and Linux, with custom UDP metrics connectors written in Java and Scala and dashboard templates generated from configuration; Prometheus&#x2F;Grafana&#x2F;Jaeger golden-signal dashboards delivered to product teams as a platform default.</li>
+                  <li>Throughput and latency engineering: work-stealing design for an Apache Solr indexing cluster sustaining millions of transactions per day; distributed caching with ehcache to take read traffic off the database; a dynamic HTTP polling algorithm that removed request-storm behaviour from the front end; comet and Jetty continuation asynchronous long-polling; asyncio concurrent inference orchestration that raised pipeline throughput without exceeding API rate limits.</li>
+                  <li>OS and infrastructure internals: filesystem IO, CPU and memory contention analysis with vmstat, iostat, top and sar plus dbench&#x2F;unixbench benchmark harnesses; disk IO tuning by partition layout; Linux HA clustering with Pacemaker, keepalived and HAProxy; GFS2 over SAN multipath, DRBD and LVM; bare-metal provisioning and storage&#x2F;RAID configuration.</li>
+                  <li>Data-layer performance: interactive query latency held on multi-terabyte datasets in ClickHouse; PostgreSQL master&#x2F;slave clustering; MySQL tuning and clustering research; Oracle DB and RAC-backed clustering; vector-store collection sizing and partitioning to keep retrieval latency flat as a corpus grows.</li>
+                  <li>Distributed systems at scale: multi-tenant AWS ECS&#x2F;EKS container platforms, Istio service mesh with mesh-wide mTLS, event-driven architecture on Kafka, IBM MQ, EventBridge, Lambda, Step Functions and SQS&#x2F;SNS; contract-first microservices on OpenAPI; CQRS and event sourcing.</li>
+                  <li>Cost as a performance dimension: architected and implemented a commercial multi-cloud cost analytics, allocation and rightsizing platform; reduced Splunk indexed volume and its licence cost through logback tuning; established a FinOps model with unit-cost metrics inside a product organization.</li>
+                  <li>Languages and runtimes: Java and Spring Boot, Python (asyncio, FastAPI), TypeScript&#x2F;Node.js, Bash, Ruby, Scala, SQL, Terraform HCL; JVM internals day to day, and Python concurrency in production GenAI services.</li>
+                  <li>AI-assisted engineering: Claude Code, GitHub Copilot and Cursor daily; automated first-pass incident triage as an agent that pulls a failing service&#39;s Splunk logs and Dynatrace traces and correlates them across the call path; recurring platform work packaged as agent skills and subagents behind an MCP server.</li>
+                  <li>Working across teams under ambiguity: partnered with application teams to run down complex performance problems using distributed tracing, authored Barclays&#39; group-wide Microservices Architecture Handbook, chaired a ~30-member technology strategy working group setting invest&#x2F;divest positions across ~200 products, and onboarded engineering teams onto platform defaults they had not asked for.</li>
+              </ul>
+            </div>
+        </div>
+        <div id="hobbies" class="section" >
+            <div class="title-section">Hobbies</div>
+            <div class="hobbies-items">
+                <ul class="highlighted">
+                    <li>
+                      Pickleball
+                          ( ~4.0 player)
+                    </li>
+                    <li>
+                      IoT or Robot programming
+                          (Have iRobot and MIPOSaur at home. Programming against iRobot create SDK and MIPOSaur SDK.)
+                    </li>
+                    <li>
+                      Playing with cutting-edge technologies
+                          (genAI&#x2F;Autogen&#x2F;Multiagents, Docker, Go, Kafka, Kubernetes and Amazon CloudFormation, JavaScript, AngularJS, ReactiveJS, Node.js)
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="work-experience" class="section">
+          <div class="title-section" style="page-break-before: always;">Work Experience Summary:</div>
+          <div >
+          <table id="work-experience" class="section" style="page-break-inside:auto;">
+            <tr class="work-item-header">
+                <th class="header-employer" style="width:20%">Employments</th>
+                <th class="header-accomplishments"> Major Accomplishments & Technologies </th>
+            </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Oct.,2025 &ndash; Current
+                  <p class="bold-font">Intuitive.ai
+                  <p>Cherry Hill, NJ (WFH),USA
+                  <p class="bold-font">Principal Cloud and Platform Architect (JPMC)
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Design and implement Splunk and Dynatrace onboarding for Spring Boot ECS Microservices</li>
+                      <li>EKS Service Mesh (Istio) on-demand framework Design and Implementation</li>
+                      <li>On Demand Environment (ODE) backend (Java Spring Boot) infrastructure (ECS) design and implementation</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      Dynatrace APM &#x2F; distributed tracing,
+                      Splunk,
+                      Prometheus&#x2F;Grafana&#x2F;Jaeger&#x2F;Kiali,
+                      JVM instrumentation,
+                      AWS ECS&#x2F;EKS,
+                      Istio Service Mesh,
+                      Terraform,
+                      AI-assisted development (Claude Code, GitHub Copilot, Cursor),
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Nov., 2006 &ndash; Oct., 2010
+                  <p class="bold-font">Boomi Inc.
+                  <p>Berwyn, PA,USA
+                  <p class="bold-font">Senior Software Engineer
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Production cloud platform performance: JVM&#x2F;GC tuning, Solr throughput and response-time diagnosis</li>
+                      <li>High-availability SOA cluster on AWS EC2&#x2F;S3: timeout, lock-contention and cache tuning</li>
+                      <li>OS-level performance diagnosis and IO tuning on virtualized infrastructure</li>
+                      <li>iPaaS integration platform: concurrency, messaging and distributed caching</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      JVM heap &amp; GC tuning,
+                      visualVM&#x2F;jmap&#x2F;jstat,
+                      Apache Solr,
+                      ehcache distributed cache,
+                      Jetty &#x2F; comet continuation,
+                      MySQL tuning,
+                      vmstat&#x2F;iostat&#x2F;sar,
+                      AWS EC2&#x2F;S3,
+                      Java&#x2F;J2EE,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Oct. 2010 &ndash; Apr. 2014
+                  <p class="bold-font">Comcast T&amp;P
+                  <p>Philadelphia, PA,USA
+                  <p class="bold-font">Senior Cloud DevOps/Infrastructure Automation Engineer
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Performance Monitoring System for Jetty, JVM, Linux and Splunk</li>
+                      <li>High-availability Linux clustering for the SCM and artifact-repository estate</li>
+                      <li>Diagnostic and repository-performance automation</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      Graphite&#x2F;gdash&#x2F;metricsd&#x2F;statsd,
+                      jmxtrans,
+                      JVM &amp; Jetty metrics,
+                      Java&#x2F;Scala UDP collectors,
+                      Splunk,
+                      Linux HA (Pacemaker&#x2F;HAProxy&#x2F;keepalived),
+                      Ruby&#x2F;Bash&#x2F;Perl&#x2F;Python,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Dec.,2020 &ndash; Dec., 2021
+                  <p class="bold-font">Yotascale
+                  <p>Cherry Hill, NJ (WFH),USA
+                  <p class="bold-font">Staff Engineer
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Multi-cloud cost analytics platform: interactive query latency over multi-terabyte datasets</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      OpenAPI&#x2F;Swagger,
+                      Microservice,
+                      Java&#x2F;Kotlin&#x2F;SpringBoot,
+                      Kubernetes&#x2F;EKS&#x2F;AKS,
+                      Istio,
+                      Terraform,
+                      CQRS,
+                      Event Store,
+                      Event Driven Architecture (EDA),
+                      Kafka&#x2F;ActiveMQ&#x2F;IBM MQ,
+                      Kafka Stream,
+                      Docker,
+                      AWS(EC2&#x2F;IAM&#x2F;S3&#x2F;ECS&#x2F;EKS&#x2F;ELB&#x2F;Lambda&#x2F;RDS&#x2F;VPC&#x2F;R53&#x2F;Secret Manager&#x2F;AutoScaling&#x2F;SES..etc),
+                      Puppet&#x2F;Chef&#x2F;Ansible,
+                      Git&#x2F;Maven&#x2F;Jenkins,
+                      Python&#x2F;Bash&#x2F;Go,
+                      ELK&#x2F;AppDynamic&#x2F;Datadog,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Dec.,2021 &ndash; Feb.,2025
+                  <p class="bold-font">McKinsey &amp; Company
+                  <p>Cherry Hill, NJ (WFH),USA
+                  <p class="bold-font">Senior Cloud Engineer II (Associate)
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Concurrent inference orchestration and retrieval tuning for a code-generation platform</li>
+                      <li>Retrieval-layer scaling for a multi-agent modernization platform</li>
+                      <li>Migration&#x2F;Refactoring of Mainframe (IBM MQ) EDA system to AWS by using EventBridge&#x2F;Lambda&#x2F;Step Function&#x2F;CloudWatch&#x2F;EKS&#x2F;SQS&#x2F;SNS...etc.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      Python&#x2F;asyncio&#x2F;FastAPI,
+                      ChromaDB&#x2F;Milvus,
+                      OpenAI API,
+                      Databricks&#x2F;pyspark,
+                      AWS EventBridge&#x2F;Lambda&#x2F;Step Functions,
+                      IBM MQ,
+                      EKS,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Jun.,2017 &ndash; Feb., 2020
+                  <p class="bold-font">Barclays
+                  <p>Wilmington, DE,USA
+                  <p class="bold-font">VP,Lead Architect Engineer
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Delivery Lead for strategic distributed system technology domain</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      Terraform,
+                      CQRS,
+                      Event Store,
+                      Event Driven Architecture (EDA),
+                      Kafka&#x2F;ActiveMQ&#x2F;IBM MQ,
+                      Kafka Stream,
+                      Docker,
+                      AWS(EC2&#x2F;IAM&#x2F;S3&#x2F;ECS&#x2F;EKS&#x2F;ELB&#x2F;Lambda&#x2F;RDS&#x2F;VPC&#x2F;R53&#x2F;Secret Manager&#x2F;AutoScaling&#x2F;SES..etc),
+                      Puppet&#x2F;Chef&#x2F;Ansible,
+                      Git&#x2F;Maven&#x2F;Jenkins&#x2F;Bamboo,
+                      Python&#x2F;Ruby&#x2F;Scala&#x2F;Bash&#x2F;Go,
+                      ELK&#x2F;AppDynamic,
+                      DynamoDB&#x2F;MongoDB&#x2F;ElasticCache&#x2F;GridGain,
+                      Linux&#x2F;Windows&#x2F;AIX&#x2F;Solaris,
+                      aPaaS&#x2F;VMWare&#x2F;Citrix,
+                  </span>
+                </td>
+             </tr>
+              <tr class="work-item"  style="page-break-before:auto;page-break-inside:avoid;page-break-after:avoid;">
+                <td class="work-employer" rowspan="2" style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <p>Apr.,1996 &ndash; Feb., 2025
+                  <p class="bold-font">Other roles
+                  <p>USA,China
+                  <p class="bold-font"><span class="career-list"><span class="career-item"><span class="career-co">Biophy<span class="career-yr"> 2025</span></span><span class="career-role">Director of Cloud Architecture</span></span><span class="career-item"><span class="career-co">Gigster<span class="career-yr"> 2020</span></span><span class="career-role">Infrastructure / DevOps Architect</span></span><span class="career-item"><span class="career-co">Oracle<span class="career-yr"> 2014-2017</span></span><span class="career-role">Lead Software Engineer</span></span><span class="career-item"><span class="career-co">Vantage Learning<span class="career-yr"> 2006</span></span><span class="career-role">Sr. System Engineer Manager</span></span><span class="career-item"><span class="career-co">Texas Tech University<span class="career-yr"> 2002-2006</span></span><span class="career-role">Programmer/Analyst, Unix SysAdmin</span></span><span class="career-item"><span class="career-co">Sun Microsystems China<span class="career-yr"> 2000-2002</span></span><span class="career-role">Sr. Software Engineer</span></span><span class="career-item"><span class="career-co">IBM China R&amp;D<span class="career-yr"> 1998-2000</span></span><span class="career-role">Software Engineer</span></span><span class="career-item"><span class="career-co">Taiji Computers<span class="career-yr"> 1996-1997</span></span><span class="career-role">System / Network Engineer</span></span></span>
+                </td>
+                <td style="page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;">
+                  <ul class="highlighted">
+                      <li>Biophy: RAG corpus pipeline, Terraform-managed AWS estate and custom CloudWatch alerting</li>
+                      <li>Oracle: cloud integration connectivity SDK, caching APIs and Docker CI environments</li>
+                      <li>Unix estate administration, Kerberos&#x2F;LDAP single sign-on and enterprise Java delivery</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                <td style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                  <span class="technologies-work" style="page-break-inside:avoid;page-break-after:auto;page-break-before:avoid;">
+                      Terraform&#x2F;Terragrunt,
+                      AWS EKS &#x2F; CloudWatch &#x2F; EventBridge,
+                      Python&#x2F;Django&#x2F;LangChain,
+                      Java&#x2F;J2EE,
+                      Docker Swarm&#x2F;Compose,
+                      Linux&#x2F;Solaris&#x2F;AIX administration,
+                      Kerberos&#x2F;LDAP&#x2F;SSO,
+                      Cisco routing and switching,
+                  </span>
+                </td>
+             </tr>
+            </table>
+          </div>
+        </div>
+        <div id="work-experience" class="section">
+            <div class="title-section" style="page-break-before:always;">Selected Projects</div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Oct.,2025 &ndash; Current,</span>
+                <span class="item-work-header-company-name">Principal Cloud and Platform Architect (JPMC), Intuitive.ai</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Cherry Hill, NJ (WFH),USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Hands-on principal architect for the on-demand application platform used by hundreds of developers across more than 80 product teams. Own the ECS&#x2F;EKS and Istio service-mesh reference architecture, the Terraform module library behind it, and the observability, secrets and TLS standards every onboarding service inherits. Cut new-service environment provisioning from weeks to hours and onboarded more than 200 microservices onto the paved road. Self-taught the firm&#39;s proprietary Environment as Code (EAC) platform and became the team&#39;s subject-matter expert, mentoring the team on it. Set the team&#39;s AI-assisted development practice, and packaged recurring platform work - service onboarding, environment triage, incident first-pass - as agent skills and subagents backed by an MCP server over the platform&#39;s own APIs. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Design and implement Splunk and Dynatrace onboarding for Spring Boot ECS Microservices </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Designed and Implemented Splunk Universal Forwarder (UF) sidecar and Dynatrace OneAgent JVM instrument to collect application and JVM logs </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Architected the Splunk Universal Forwarder (UF) sidecar pattern for AWS ECS task definitions, adopted across all lower and production environments as the enterprise standard for container log routing</li>
+                                <li>Instrumented Java Spring Boot microservices with Dynatrace OneAgent injected at JVM startup via customized Dockerfiles, delivering APM, distributed tracing and JVM metric collection with no application code changes</li>
+                                <li>Built the reusable Terraform module that bootstraps every new service with the correct IAM roles, sidecar configuration and telemetry variables, cutting observability onboarding from days of hand-wired configuration to minutes</li>
+                                <li>Delivered Splunk dashboards and Dynatrace alerting profiles for application health and cross-service transaction latency, taking incident triage from hours of log-hunting to minutes of trace inspection</li>
+                                <li>Optimized Splunk log ingestion through logback.xml tuning, materially reducing indexed volume and the associated license cost</li>
+                                <li>Automated first-pass incident triage with an agent that pulls the failing service&#39;s Splunk logs and Dynatrace traces, correlates them across the call path, and hands the on-call engineer a written first hypothesis to confirm or discard</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Splunk Universal Forwarder (UF),
+                                Dynatrace OneAgent,
+                                AWS ECS,
+                                Java,
+                                Spring Boot,
+                                Terraform,
+                                Docker,
+                                AWS IAM,
+                                Logback,
+                                APM &#x2F; Observability,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Standardized enterprise observability and telemetry practices by defining reusable, scalable patterns for logging and monitoring across all containerized AWS workloads</li>
+                                <li>Partnered with application development teams to troubleshoot complex performance issues using Dynatrace distributed tracing, significantly reducing Mean Time to Resolution (MTTR) for production incidents</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> EKS Service Mesh (Istio) on-demand framework Design and Implementation </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Architected and implemented a comprehensive EKS-based service mesh framework using Istio to enable on-demand platform capabilities for hundreds of developers. Designed a scalable, secure, and automated infrastructure that supports dynamic service provisioning, traffic management, and observability across microservices. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Designed and implemented the multi-tenant EKS + Istio architecture behind the on-demand platform, carrying the platform&#39;s full microservice estate across per-team tenant namespaces</li>
+                                <li>Developed the automation framework for dynamic service-mesh provisioning and configuration management, cutting tenant onboarding from weeks to under a day</li>
+                                <li>Enforced mTLS mesh-wide in STRICT mode for all service-to-service communication, replacing per-application TLS handling with a platform-level guarantee</li>
+                                <li>Configured Istio VirtualServices and DestinationRules for advanced traffic routing, load balancing and progressive rollout</li>
+                                <li>Designed and implemented centralized TLS&#x2F;mTLS certificate management, eliminating manual per-service certificate renewal</li>
+                                <li>Built the mesh observability stack (Prometheus, Grafana, Jaeger, Kiali), giving product teams golden-signal dashboards and distributed traces they previously had to build themselves</li>
+                                <li>Authored the versioned Terraform modules for automated EKS and Istio deployment, consumed by product teams across the platform</li>
+                                <li>Implemented mesh policies for authorization, rate limiting and circuit breaking, containing retry storms and cascading failures at the mesh boundary rather than in application code</li>
+                                <li>Designed the multi-namespace isolation strategy for secure multi-tenancy, with ResourceQuota and LimitRange per tenant namespace and Istio AuthorizationPolicy enforced at each boundary</li>
+                                <li>Established CI&#x2F;CD pipelines for service-mesh configuration changes, taking rollout from multi-day manual change windows to minutes behind automated lint, policy and staged-rollout gates</li>
+                                <li>Drafted and refactored mesh and Terraform configuration with Claude Code and Cursor - VirtualServices, DestinationRules, AuthorizationPolicies, module scaffolding - every generated change still gated by lint, policy checks and staged rollout</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                AWS EKS,
+                                Istio Service Mesh,
+                                Kubernetes,
+                                Terraform,
+                                TLS&#x2F;mTLS,
+                                Envoy Proxy,
+                                Prometheus,
+                                Grafana,
+                                Jaeger,
+                                Kiali,
+                                Helm,
+                                AWS IAM&#x2F;RBAC,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Led the architecture and implementation of the service mesh framework that supports hundreds of developers on the on-demand platform.</li>
+                                <li>Established service mesh best practices and patterns that improved security, observability, and operational efficiency.</li>
+                                <li>Mentored platform and development teams on Istio service mesh concepts, traffic management, and security policies.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> On Demand Environment (ODE) backend (Java Spring Boot) infrastructure (ECS) design and implementation </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Designed and implemented ODE to unify the provisioning and deployment flows for hundreds of applications, microservices and their supporting infrastructure, replacing per-team bespoke scripts with a single self-service paved road. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Architected the backend infrastructure with ECS&#x2F;ALB&#x2F;R53&#x2F;Fargate&#x2F;RDS&#x2F;IAM</li>
+                                <li>Ran workloads on ECS Fargate to take EC2 capacity management out of the request path, with per-service autoscaling and rolling deployments in every environment</li>
+                                <li>Built the Java Spring Boot backend that unifies provisioning and deployment behind one self-service flow, so a team requests an environment instead of assembling it</li>
+                                <li>Made provisioning idempotent and repeatable end to end, taking new-environment turnaround from weeks of coordinated manual setup to hours</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Java,
+                                Spring Boot,
+                                AWS ECS,
+                                AWS Fargate,
+                                AWS ALB,
+                                Amazon Route 53,
+                                Amazon RDS,
+                                AWS IAM,
+                                AWS ACM,
+                                Terraform,
+                                Infrastructure as Code,
+                                Docker,
+                                CI&#x2F;CD,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Designed the On Demand Environment as a product with a single paved-road flow, consolidating the provisioning and deployment paths individual teams had each been maintaining themselves</li>
+                                <li>Set the reusable Terraform module contract that other platform engineers extended for new environment types</li>
+                                <li>Partnered with application teams during onboarding to fold their environment requirements back into the shared modules instead of one-off forks</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Nov., 2006 &ndash; Oct., 2010,</span>
+                <span class="item-work-header-company-name">Senior Software Engineer, Boomi Inc.</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Berwyn, PA,USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> As the market and technology leader in on-demand integration, Boomi is the industry&#39;s first and leading integration platform-as-a-service and a two-time SIIA CODiE award winner - Best Application Integration Solution (2010) and Best On-Demand Platform (2009). </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Production cloud platform performance: JVM&#x2F;GC tuning, Solr throughput and response-time diagnosis </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> The clustered production platform behind one of the first iPaaS products, and the performance work that kept it up: heap and garbage-collection tuning against recurring out-of-memory, an Apache Solr indexing cluster carrying millions of transactions a day on a work-stealing design, distributed caching to take read load off the database, a polling algorithm that removed request-storm behaviour from the front end, and response-time vibration diagnosed from collected statistics rather than guessed at. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Design, implement and troubleshooting Apache solr out of memory and DB table transaction lock and response time vibration problem.</li>
+                                <li>Using Sun JVM troubleshooting utilities (visualVM, jmap, jstat,..etc.) to investigate the heap new generation and old generation usage</li>
+                                <li>Tuning heap size and GC algorithm parameters to solve the out of memory issue</li>
+                                <li>Collect response time statistics data to diagnose software system vibration</li>
+                                <li>Using Unix vmstat, top,...etc. to investigate the File system IO, CPU usage</li>
+                                <li>Using worker-stealing algorithm to design and implement an Apache solr indexing cluster with large throughput transactions (millions per day)</li>
+                                <li>Design distributed cache system using ehcache to reduce the DB access traffic from front end.</li>
+                                <li>Design and implement the dynamic http polling algorithm on the front end to reduce the possibility of the suppress storm requests.</li>
+                                <li>Using comet, jetty continuation to design an asynchronous http push (long polling) events system.</li>
+                                <li>Research and proto-type cluster solutions for the large SOA system.</li>
+                                <li>Research and proto-type MySQL clustering technologies</li>
+                                <li>Setup newrelic monitoring environment</li>
+                                <li>Plan, Design and setup the clustering SOA production environment in OpSource and Rackspace</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                64-bits Redhat Enterprise Linux,
+                                MySQL clustering,
+                                Apache,
+                                PHP,
+                                Jetty,
+                                64 bits Java,
+                                Apache Lucene&#x2F; Solr,
+                                Openlaszlo,
+                                distributed cache,
+                                distributed and parallel algorithm,
+                                ehcache,
+                                comet,
+                                continuation,
+                                DWR,
+                                JVM tuning,
+                                jmap,
+                                jstat,
+                                Sun JVM Heap,
+                                GC,
+                                vmstat,
+                            </span><br/>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> High-availability SOA cluster on AWS EC2&#x2F;S3: timeout, lock-contention and cache tuning </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Built and maintained a high-availability SOA environment on AWS EC2 and S3, implementing clustering, load balancing, and automated backup for robust cloud operations. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Troubleshooting timeout and performance problem</li>
+                                <li>Troubleshooting MySQL 5.x  performance (table lock timeout and setup the right isolation level)</li>
+                                <li>Configure distributed cache for the HA cluster using ehcache</li>
+                                <li>Setup Apache httpd load balancer (mod_proxy_ajp and mod_proxy_balancer) for jetty 6.1.x</li>
+                                <li>Troubleshooting EC2 instance network and AMI booting problems</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Fedora 6&#x2F;&#x2F;7&#x2F;8,
+                                AWS,
+                                EC2,
+                                S3,
+                                Jetty 6.x&#x2F;7.x,
+                                MySQL 5.x,
+                                Apache httpd 2.x  and Solr 1.3.x&#x2F;1.4.x,
+                                NFS,
+                                shell script(bash and sh),
+                                ehCache,
+                                cron,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Engineered a high-availability SOA environment on AWS, pioneering cloud adoption within the team.</li>
+                                <li>Automated deployment and backup processes, ensuring data integrity and system resilience.</li>
+                                <li>Provided training on AWS best practices and troubleshooting.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> OS-level performance diagnosis and IO tuning on virtualized infrastructure </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Researched and implemented virtualization solutions using VMware, optimizing resource utilization and performance for development and testing environments. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Using top, vmstat, iostat and sar and some benchmark tools(dbench, unicbench) to diagnostics the Linux system performance</li>
+                                <li>Tuning Disk I&#x2F;O performance via distributing the VM disk to different partition</li>
+                                <li>Adding new hard disk to Logic Volume Group (pvcreat, vgextend, lvcreate,mke2fs) </li>
+                                <li>Upgrade Dell and LSI RAID Controller BIOS firmware and Seagate SCSI Hard disk driver</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Virtualization,
+                                paravirtualization,
+                                VMware Workstation 6.2 and VMware Server 1.4,
+                                Xen,
+                                Microsoft Virtual PC,
+                                Fedora 8,
+                                RAID,
+                                SMP,
+                                Performance tuning,
+                                Subversion,
+                                Maven,
+                                PHP,
+                                MySQL,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Evaluated and implemented virtualization solutions, enabling efficient resource utilization.</li>
+                                <li>Developed performance tuning guidelines for virtualized environments.</li>
+                                <li>Shared virtualization best practices with the broader engineering team.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> iPaaS integration platform: concurrency, messaging and distributed caching </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Designed and developed a scalable, on-demand SOA integration platform enabling visual business process design, automated deployment, and seamless integration with desktop, ERP, and SaaS systems. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Multiple threads concurrent subsystem design and implementation</li>
+                                <li>Design and implement distributed cache in cluster using ehcache</li>
+                                <li>Design and implement synchronous&#x2F;asynchronous message framework using XML&#x2F;JAXB&#x2F;REST&#x2F;HTTP</li>
+                                <li>Design and deploy the load balancing and clustering SOA system in OpSource and Rackspace data center</li>
+                                <li>Deploy SOA system in Amazon&#39;s EC2 and S3</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Java,
+                                XML,
+                                XSD,
+                                JAXB,
+                                REST,
+                                HTTP,
+                                Hibernate,
+                                openlaszlo,
+                                SSL,
+                                PKI,
+                                com4j,
+                                .NET 3.0&#x2F;2.0&#x2F;1.1,
+                                COM&#x2F;DCOM,
+                                Linux,
+                                QBXML,
+                                eConnect,
+                                servlet,
+                                Jetty,
+                                IDEA,
+                                Maven,
+                                subversion,
+                                Confluence,
+                                Jira,
+                                MySQL,
+                                RAID,
+                                SQL server,
+                                QuickBooks 2005,
+                                Sage MAS 90&#x2F;200&#x2F;500,
+                                MS Dynamics GP 9.0&#x2F;10.0&#x2F;2010,
+                                SOA,
+                            </span><br/>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Oct. 2010 &ndash; Apr. 2014,</span>
+                <span class="item-work-header-company-name">Senior Cloud DevOps/Infrastructure Automation Engineer, Comcast T&amp;P</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Philadelphia, PA,USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> As a senior engineer in BITT(Build Integration Test Team), provided DevOps support for multiple development teams and supporting the developers for SDLC infrastructure system design&#x2F;implementation, and Build&#x2F;Release&#x2F;Deployment&#x2F;SCM&#x2F;CI automation., designed, developed and implemented the AutoBuild system, OpenSource performance monitoring system for the SDLC systems, two steps bare-metal Linux bootstrap system for HP servers, Linux HA Clusters for SCM&#x2F;Maven&#x2F;CI&#x2F;Crowd servers, Ruby&#x2F;Rails software system maintenance and improvement. Managed the SCM(Gerrit&#x2F;Subversion), CI(Bamboo&#x2F;Jenkins) and maven repo (Nexus and Artifactory) system. Designed and developed automation scripts (bash&#x2F;ruby) to improve work efficiency. Led and Trained junior team members. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Performance Monitoring System for Jetty, JVM, Linux and Splunk </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Designed and integrated a comprehensive performance monitoring system for JVM, Linux, and Splunk, enabling proactive detection and resolution of system bottlenecks. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Designed the whole monitoring system using open source projects such as graphite, gdash, metricsd, stated, jmxtrans and god...etc.</li>
+                                <li>Developed UDP metrics connectors and ruby splunk searcher to collect splunk stats</li>
+                                <li>Developed UDP connection for open source project jmxtrans, metricsd by using Java and Scala</li>
+                                <li>Developed Capistrano task to dynamically generate gdash templates for the metrics graphs and jmxtrans configuration files.</li>
+                                <li>Developed scripts manage the ruby processes by using open source God project</li>
+                                <li>Fixed the bug cannot listing the jmx attributes in details for open source project jmxsh</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Metrics,
+                                graphite,
+                                jmx,
+                                splunk,
+                                Ruby,
+                                splunk-ruby-SDK,
+                                performance monitoring,
+                                UDP,
+                                Capistrano,
+                                god,
+                                bash,
+                                gdash,
+                                graphite,
+                                statsd,
+                                metricsd,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Unified disparate open-source tools into a single, cohesive monitoring platform, enabling proactive performance management.</li>
+                                <li>Led the integration of custom metrics connectors, providing deep visibility into JVM and OS health.</li>
+                                <li>Mentored team members on advanced monitoring and troubleshooting techniques.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> High-availability Linux clustering for the SCM and artifact-repository estate </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> The two nodes Linux HA cluster is for Git repo (Gerrit) &#x2F; Maven Repo(Artifactory and Nexus) master&#x2F;slave failover system. Using pacemaker&#x2F;corosync&#x2F;cman or keepalived&#x2F;haproxy, it setup Gerrit, artifactory&#x2F;Nexus master&#x2F;slave automatically failover cluster with PostgreSQL&#x2F;RAC and GFS2 over SAN &#x2F; DRBD as backend DBMS and distributed file system. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Design Linux HA master&#x2F;slave failover cluster for Gerrit, Artifactory.</li>
+                                <li>Configure pacemaker&#x2F;corosync&#x2F;cman for two-nodes cluster</li>
+                                <li>Setup and configure  keepalived and haproxy for Nexus, artifactory</li>
+                                <li>Developed HAProxy initd scripts to automatically failover to the latest good configure file if capistrano generate incorrect config file</li>
+                                <li>Setup Distributed filesystem GFS2 over SAN(Multipath) and DRBD</li>
+                                <li>Setup PostgreSQL master&#x2F;slave cluster over SAN</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Pacemaker,
+                                Corosync,
+                                Cman,
+                                Keepalived,
+                                HAProxy,
+                                GFS2,
+                                DRBD,
+                                SAN,
+                                Gerrit,
+                                Artifactory,
+                                Nexus,
+                                PostgreSQL,
+                                OpenID,
+                                LDAP,
+                                Crowd,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Architected a high-availability cluster for critical SCM and artifact repositories, ensuring business continuity.</li>
+                                <li>Automated failover and recovery processes, minimizing downtime during incidents.</li>
+                                <li>Standardized HA deployment patterns for future infrastructure projects.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Diagnostic and repository-performance automation </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Created a suite of automation tools and scripts to streamline DevOps workflows, improve efficiency, and reduce manual toil across the SDLC. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Develop scripts to find the largest commit object and rewrite git history to improve git performance</li>
+                                <li>Developed automation tools to create Rally defect ticket and upload the heapDump file and grep the exception logs</li>
+                                <li>Developed maven circular dependency checking scripts and created nightly CI jobs to run it against more than 100 Microservice projects</li>
+                                <li>Migrated Solr from Single-core to multi-core with automated Capistrano tasks</li>
+                                <li>Developed bash scripts to launch python scripts to generate data parity reports and upload to confluence pages automatically</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Ruby,
+                                Bash,
+                                Python,
+                                Capistrano,
+                                Jira&#x2F;Rally,
+                                Bamboo&#x2F;Confluence,
+                                Git&#x2F;Gerrit,
+                                puppet,
+                                Nexus replication,
+                                REST&#x2F;XML,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Developed a suite of automation tools, significantly improving DevOps efficiency and reducing manual toil.</li>
+                                <li>Pioneered migration and optimization scripts for large-scale git repositories.</li>
+                                <li>Shared best practices and tools with the wider engineering community.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Dec.,2020 &ndash; Dec., 2021,</span>
+                <span class="item-work-header-company-name">Staff Engineer, Yotascale</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Cherry Hill, NJ (WFH),USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Lead architect and lead implementation engineer for a multi-cloud (AWS&#x2F;Azure&#x2F;GCP) cost analytics, optimization and management platform - the FinOps tooling layer giving customers unit-cost visibility, allocation&#x2F;showback and rightsizing recommendations across enterprise customers&#39; multi-account cloud estates and the large annual cloud spend under management. Owned both the product architecture (design-first microservices on ClickHouse&#x2F;PostgreSQL) and the AWS platform it ran on (EKS&#x2F;Istio&#x2F;Terraform&#x2F;Terragrunt). </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Multi-cloud cost analytics platform: interactive query latency over multi-terabyte datasets </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Architected and implemented a cross-cloud cost analytics and optimization platform, enabling organizations to gain actionable insights and manage cloud spending across AWS, Azure, and GCP. Led the design of scalable data pipelines, analytics microservices, and secure infrastructure. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Delivered cost allocation, showback and rightsizing views over multi-terabyte cloud billing datasets in ClickHouse, holding interactive query latency on high-cardinality, multi-dimension slices</li>
+                                <li>Design and develop Cost Analytics&#x2F;Lens Navigation&#x2F;Lens Management Microservice using SpringBoot with ClickHouse and PostgreSQL as DW and DBMS</li>
+                                <li>Develop common multiple DBMS (ClickHouse and PostgreSQL) access lib with AWS secrets manager</li>
+                                <li>Design and implement dynamic metadata driven widget&#x2F;filter configuration Microservice</li>
+                                <li>Introduce and Build Microservice Design First Methodology and team culture based on OpenAPI&#x2F;Swagger Specification</li>
+                                <li>Implement Junit test cases with local docker test containers</li>
+                                <li>Established the FinOps model inside the product - tagging&#x2F;allocation taxonomy, unit-cost metrics, savings-plan and rightsizing recommendations - surfacing double-digit percentage savings opportunities for customers</li>
+                                <li>Onboarded the engineering teams onto the design-first OpenAPI workflow, making the published contract the single source of truth for client and server code</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Cloud Cost Analytics&#x2F;Optimization&#x2F;Management,
+                                OpenAPI&#x2F;Swagger,
+                                Microservice,
+                                Java&#x2F;Kotlin&#x2F;Python,
+                                Spring&#x2F;SpringBoot&#x2F;Flask,
+                                Kubernetes&#x2F;EKS&#x2F;AKS&#x2F;GKE,
+                                Terraform&#x2F;Terragrunt&#x2F;Ansible,
+                                AWS&#x2F;EC2&#x2F;EBS&#x2F;S3&#x2F;VPC&#x2F;Security&#x2F;R53&#x2F;IAM&#x2F;Secrets Manager&#x2F;Lambda,
+                                Service Mesh&#x2F;Istio&#x2F;Envoy,
+                                Helm&#x2F;Chart,
+                                RabbitMQ,
+                                Azure&#x2F;GCP,
+                                Junit&#x2F;Test Containers,
+                                Docker&#x2F;Minikube,
+                            </span><br/>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Dec.,2021 &ndash; Feb.,2025,</span>
+                <span class="item-work-header-company-name">Senior Cloud Engineer II (Associate), McKinsey &amp; Company</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Cherry Hill, NJ (WFH),USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Built GenAI platform capability for enterprise modernization engagements: retrieval systems over ChromaDB&#x2F;Milvus, multi-agent orchestration with AutoGen, and FastAPI services that exposed model-backed capabilities as internal APIs other engineering teams consumed rather than rebuilt. Scaled the retrieval layer behind a call-centre chatbot copilot from a single-node prototype to a persistent, concurrently queried vector store as the knowledge corpus and user base grew. Led the GenAI + RAG system that accelerated mainframe migration to modern stacks, the RAG-assisted code generation platform for PySpark&#x2F;Databricks data pipelines, and the scaling of the retrieval layer behind a call-centre chatbot copilot. Separately migrated and refactored complex mainframe event-driven systems onto AWS serverless (EventBridge, Lambda, Step Functions, SQS&#x2F;SNS, CloudWatch, EKS). </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Concurrent inference orchestration and retrieval tuning for a code-generation platform </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Designed and implemented a genAI system with RAG (ChromaDB&#x2F;Milvus) to automate and accelerate the development of data pipelines, enabling seamless transformation of source tables to target tables with varying data structures. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Built concurrent inference orchestration over the OpenAI API using asyncio with generators, raising pipeline throughput without exceeding rate limits</li>
+                                <li>Prompt engineering and tuning to generate PySpark data-pipeline functions together with their unit tests</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Langchain&#x2F;VectorStore&#x2F;ChromaDB&#x2F;Milvus,
+                                genAI&#x2F;openAI,
+                                RAG,
+                                Python&#x2F;Pydantic&#x2F;Asyncio&#x2F;Flask&#x2F;FastAPI&#x2F;Debugpy,
+                                Typescript&#x2F;JavaScript&#x2F;NodeJs,
+                                Microservice,
+                                Dockerfile&#x2F;Docker&#x2F;Compose,
+                                PostgreSQL,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Spearheaded the integration of genAI and RAG for data pipeline automation, enabling rapid transformation of complex data structures.</li>
+                                <li>Mentored engineers on advanced prompt engineering and parallel AI workflow design, raising team proficiency in cutting-edge AI techniques.</li>
+                                <li>Introduced AI-assisted development into the team&#39;s day-to-day workflow alongside the RAG service, coaching engineers to treat generated code as a draft to be tested and reviewed</li>
+                                <li>Established robust local development and debugging standards, improving team productivity and onboarding efficiency.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Retrieval-layer scaling for a multi-agent modernization platform </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Built a multi-agent genAI platform to automate and accelerate the migration of mainframe applications to modern technologies, integrating RAG for context-aware transformation and process automation. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Sized and partitioned collections per application domain to keep retrieval relevant as the corpus grew, running ChromaDB for fast local iteration and Milvus where persistence and concurrent multi-agent querying were needed</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Langchain&#x2F;VectorStore&#x2F;ChromaDB&#x2F;Milvus,
+                                genAI&#x2F;openAI,
+                                RAG,
+                                Agents&#x2F;Multi-agents&#x2F;Autogen,
+                                Python&#x2F;FastAPI,
+                                Typescript&#x2F;JavaScript&#x2F;NodeJs,
+                                Microservice,
+                                Dockerfile&#x2F;Docker Compose,
+                                PostgreSQL,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Drove the integration of multi-agent genAI systems to automate legacy migration, reducing manual effort and error rates.</li>
+                                <li>Collaborated across frontend and backend teams to ensure seamless modernization from mainframe to cloud-native stacks.</li>
+                                <li>Championed the use of RAG for context-aware migration, setting a new benchmark for future modernization projects.</li>
+                            </ul>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Migration&#x2F;Refactoring of Mainframe (IBM MQ) EDA system to AWS by using EventBridge&#x2F;Lambda&#x2F;Step Function&#x2F;CloudWatch&#x2F;EKS&#x2F;SQS&#x2F;SNS...etc. </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Engineered and deployed an EKS-based router to integrate AWS EventBridge with external MQ events, providing robust monitoring, reporting, and cloud-native migration for mainframe EDA systems. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Develop SpringBoot EKS router to convert XML&#x2F;XSD to JSON schema and integrate with MQ events</li>
+                                <li>Design and implement the monitoring terraform module for all different AWS resources (Lambda, EventBridge, S3, DynamoDB, Step Function..etc.) using cloudwatch metrics</li>
+                                <li>Design and implement the reusable report generator using Lambda and EventBridge and deployed as Microservices which can be called to run any custom AWS CloudWatch insights queries in custom schedule</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Java&#x2F;SpringBoot,
+                                Terraform,
+                                Microservice,
+                                Java&#x2F;JavaScript,
+                                EKS,
+                                AWS&#x2F;EventBridge&#x2F;CloudWatch&#x2F;Lambda,
+                                XML&#x2F;XSD&#x2F;Json&#x2F;Json Schema,
+                                DynamoDB,
+                                RDS&#x2F;Oracle,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Led the end-to-end migration of mission-critical EDA systems to AWS, ensuring zero downtime and robust cloud integration.</li>
+                                <li>Developed reusable infrastructure modules, empowering other teams to accelerate their own cloud migration journeys.</li>
+                                <li>Instituted comprehensive monitoring and reporting standards, elevating operational visibility and reliability.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Jun.,2017 &ndash; Feb., 2020,</span>
+                <span class="item-work-header-company-name">VP,Lead Architect Engineer, Barclays</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, Wilmington, DE,USA</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Directed the cloud adoption journey, migrating on-premises enterprise systems to AWS. Served as delivery lead for distributed system technology, including microservices, event-driven architecture, message transport, integration (batch&#x2F;ETL), and event stream processing. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Delivery Lead for strategic distributed system technology domain </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Directed the architecture and technology strategy for distributed systems, microservices, event-driven architecture, and stream processing, driving innovation and technology transformation across the organization. </div>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Highlights:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Owned end-to-end architecture for the group&#39;s distributed-systems domain: solution-architecture guidance, design-pattern development, and architecture reviews across the domain&#39;s application estate</li>
+                                <li>Ran architecture reviews identifying reuse opportunities and managing technical debt, with documented invest&#x2F;divest and reuse decisions feeding the domain roadmap</li>
+                                <li>Maintained the domain capability roadmap and technology heatmap, monitoring emerging technologies and industry trends for enterprise applicability</li>
+                                <li>Influenced group-level strategic planning and drove innovation forums across the group&#39;s engineering teams</li>
+                                <li>Drive technology transformation from on-premises to public cloud, multi-tiers monolithic to cloud-native Microservice system, strong ACID to BASE data consistency, Sync&#x2F;Request&#x2F;RPC driven to Async&#x2F;Event driven architecture, tight coupling to loose coupling, ETL&#x2F;Batch&#x2F;Time to realtime streaming processing, vendor locked to resilient commodity system, vendor favor to OSS, vertical scaling to horizontal scaling</li>
+                                <li>Establish group-wide distributed system architecture and technology strategy</li>
+                                <li>Build PoC and Reference Architecture for common use cases for distributed system</li>
+                                <li>Evaluate around 200 existing products&#x2F;technologies and decide the invest&#x2F;divest house positions</li>
+                                <li>Create the architecture handbook for Microservice as group-wide guidance for solution Architect</li>
+                                <li>Contribute to and review the architecture handbook for EDA, Stream Processing and Integration</li>
+                                <li>Design vendor and technology selection and design principles&#x2F;standards and best practices for the domain</li>
+                                <li>Review and approve the new request for product&#x2F;technology in the domain</li>
+                                <li>Maintain the scope document and product list for the domain</li>
+                                <li>Develop the roadmap to adopt new products&#x2F;technology and decommission legacy products&#x2F;technology</li>
+                                <li>Lead working group (~30 members) forum to discuss and make decision on technology strategies</li>
+                            </ul>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Technologies:</div>
+                            <span class="technologies-work" style="page-break-before:avoid;page-break-inside:avoid;page-break-after:auto;">
+                                Technology strategic Design and Stewardship,
+                                Distributed system,
+                                Domain Driven Design,
+                                Microservice,
+                                ACID&#x2F;BASE,
+                                (Event) Stream &#x2F;Batch Processing,
+                                Event Driven Architecture (EDA),
+                                Message Transports (Kafka, ActiveMQ, IBM MQ),
+                                Data Integration (ETL&#x2F;ELT),
+                                Compensating transactions&#x2F;Sagas,
+                                JMS&#x2F;AMQP,
+                                Resilience and Performance,
+                                CQRS&#x2F;SOA,
+                                CAP,
+                            </span><br/>
+                            <div class="subtitle-section" style="page-break-after:avoid;">Leadership:</div>
+                            <ul class="highlighted" style="page-break-before:avoid;">
+                                <li>Chaired a ~30-member cross-functional working group that set and executed the group-wide distributed-systems technology strategy, issuing invest&#x2F;divest house positions on ~200 products and technologies</li>
+                                <li>Authored the group-wide Microservices Architecture Handbook and contributed to the EDA, Stream Processing and Integration handbooks - reference artifacts used group-wide by Barclays solution architects</li>
+                                <li>Owned cloud-adoption strategy and roadmap for Contact Center, Merchant Services and Fraud: assessed ~500 on-premises applications for migration readiness and guided the prioritized migration waves to AWS</li>
+                                <li>Drove the transformation agenda - on-premises to public cloud, monolith to cloud-native microservices, ACID to BASE, synchronous RPC to asynchronous event-driven, batch&#x2F;ETL to real-time streaming, vendor-locked to OSS commodity, vertical to horizontal scaling</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item"  >
+                <span class="item-work-header-date">Apr.,1996 &ndash; Feb., 2025,</span>
+                <span class="item-work-header-company-name">Director of Cloud Architecture / Lead Software Engineer / Systems and Network Engineer, Other roles</span>
+                <span class="item-work-header-company-location" style="page-break-after:avoid;page-break-inside:avoid;">, USA,China</span><br/>
+                <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> The remaining employers, summarized rather than expanded because their work is less directly about performance. At Biophy, director of cloud architecture for an AI healthcare platform - the retrieval corpus pipeline behind its RAG system, the AWS estate brought under Terraform&#x2F;Terragrunt to the Well-Architected Framework, and a custom CloudWatch alerting system on EventBridge, Lambda, SQS and SNS. At Gigster, a fully automated AWS EKS platform for Node.js microservices provisioned end to end in Terraform&#x2F;Terragrunt. At Oracle, lead software engineer on the cloud integration connectivity SDK and Java connectors joining SOA Suite and Integration Cloud Service to enterprise applications, including cache and pagination APIs for the persistence layer and Docker Swarm&#x2F;Compose CI environments. Earlier: a 100+ server data centre at Vantage Learning; networked Unix estates with cross-realm Kerberos and OpenLDAP single sign-on, Veritas NetBackup and RAID arrays at Texas Tech University alongside an MS in Computer Science; and enterprise Java, payments and storage-management systems at Sun Microsystems China and IBM China R&amp;D, plus IBM RS&#x2F;6000 production support and large-scale Cisco network design at Taiji Computers. </div>
+                <div id="projects" class="projects-section">
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Biophy: RAG corpus pipeline, Terraform-managed AWS estate and custom CloudWatch alerting </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Multi-source retrieval corpus ingestion on Python&#x2F;Django&#x2F;Pydantic with LangChain under Clean Architecture, the existing AWS estate imported and redesigned to the Well-Architected Framework in Terraform&#x2F;Terragrunt, and an event-driven alerting system on EventBridge, Lambda, SQS and SNS. </div>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Oracle: cloud integration connectivity SDK, caching APIs and Docker CI environments </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> SDK and plugin framework linking Oracle SOA Suite and Integration Cloud Service to SaaS and on-premises applications, including cache and pagination APIs for the backend persistence layer, with Docker Swarm&#x2F;Compose&#x2F;Stack CI test environments on Oracle Cloud VMs, Amazon EC2 and local hypervisors. </div>
+                    </div>
+                    <div class="project-item"  style="page-break-after:avoid;page-break-before:auto;">
+                            <span class="item-projects-title" style="page-break-after:avoid;page-break-before:auto;"> Unix estate administration, Kerberos&#x2F;LDAP single sign-on and enterprise Java delivery </span>
+                            <div class="description-work" style="page-break-before:avoid;page-break-inside:avoid;"> Networked Solaris, AIX, Mac OS X and Linux servers with cross-realm Kerberos KDC, OpenLDAP and PAM single sign-on, Veritas NetBackup over RAID disk arrays and an NIS&#x2F;NIS+ to LDAP migration; J2EE architecture at Sun Microsystems China and IBM WebSphere systems at IBM China R&amp;D. </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="hobbies" class="section"  style="page-break-inside:avoid;">
+        </div>
+    </div>
+    <div id="extra">
+    </div>
+    <!--div id="print-foot"/-->
+
+</div>

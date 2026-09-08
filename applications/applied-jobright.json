@@ -1,0 +1,6456 @@
+{
+ "capturedAt": "2026-09-04T17:09:09.425Z",
+ "count": 645,
+ "jobs": {
+  "6a99d2048a8b765bc55f5afc": {
+   "jobId": "6a99d2048a8b765bc55f5afc",
+   "title": "Principal Platform Engineer, AI Engineering",
+   "company": "RxSense",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1788488770166,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a808b49927c79391ad11095": {
+   "jobId": "6a808b49927c79391ad11095",
+   "title": "Principal, Cloud Platform Architect",
+   "company": "Alteryx",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1788487802156,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a8ca7f1581f2d7bfdfe4fa1": {
+   "jobId": "6a8ca7f1581f2d7bfdfe4fa1",
+   "title": "Staff Infra/DevOps Engineer",
+   "company": "Tetrix",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1788487544846,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a5ea96e050c423c792f0b88": {
+   "jobId": "6a5ea96e050c423c792f0b88",
+   "title": "Senior Staff Software Engineer, Platform",
+   "company": "SmithRx",
+   "score": 87.8855,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787778870483,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "699785aece78e77b4fdbd74f": {
+   "jobId": "699785aece78e77b4fdbd74f",
+   "title": "Sr Staff Distributed Systems Engineer, Platform - Storage",
+   "company": "Kentik",
+   "score": 81.8767,
+   "rankDesc": "Good Match",
+   "applyTime": 1787778689917,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a8e0f0ccc0cf27068526ee1": {
+   "jobId": "6a8e0f0ccc0cf27068526ee1",
+   "title": "Senior GenAI/Agentic AI Engineer",
+   "company": "EazyML",
+   "score": 77.3215,
+   "rankDesc": "Good Match",
+   "applyTime": 1787708234560,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a8de2e947679c68bf5e5565": {
+   "jobId": "6a8de2e947679c68bf5e5565",
+   "title": "Staff Platform Engineer",
+   "company": "Vultr",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787708149339,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a5faf08b0f20036bc632675": {
+   "jobId": "6a5faf08b0f20036bc632675",
+   "title": "Distributed Systems Software Engineer - WarpStream",
+   "company": "Confluent",
+   "score": 83.1944,
+   "rankDesc": "Good Match",
+   "applyTime": 1787708096455,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a737a2a1ce9647cdbca85d0": {
+   "jobId": "6a737a2a1ce9647cdbca85d0",
+   "title": "Senior DevOps Engineer",
+   "company": "StackAI",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787707995332,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a0d32a6538d03366dc94c7b": {
+   "jobId": "6a0d32a6538d03366dc94c7b",
+   "title": "Senior Software Engineer (Cloud)",
+   "company": "ZeroRISC",
+   "score": 89.2532,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787677950617,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a6145a511edf44d7915ff02": {
+   "jobId": "6a6145a511edf44d7915ff02",
+   "title": "Senior Software Engineer - Backend",
+   "company": "Veeva Systems",
+   "score": 74.0799,
+   "rankDesc": "Good Match",
+   "applyTime": 1787677840820,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a6ba431acb0a61f9dbc2088": {
+   "jobId": "6a6ba431acb0a61f9dbc2088",
+   "title": "Staff Software Engineer, Platform Infrastructure",
+   "company": "Astronomer",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787677533328,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a59f4f6686b4755d1e12a5c": {
+   "jobId": "6a59f4f6686b4755d1e12a5c",
+   "title": "Software Engineer, Backend (Platform)",
+   "company": "Hex",
+   "score": 84.2443,
+   "rankDesc": "Good Match",
+   "applyTime": 1787677134554,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a74c2c7b17cba569035768b": {
+   "jobId": "6a74c2c7b17cba569035768b",
+   "title": "Lead Software Engineer, Backend",
+   "company": "Cortex",
+   "score": 83.6748,
+   "rankDesc": "Good Match",
+   "applyTime": 1787623608279,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a524bf9d007ee02d95f6eb2": {
+   "jobId": "6a524bf9d007ee02d95f6eb2",
+   "title": "Staff Software Engineer",
+   "company": "Parachute Health",
+   "score": 89.7114,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787622770947,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a524d4c8576ec69c014b4fb": {
+   "jobId": "6a524d4c8576ec69c014b4fb",
+   "title": "Staff Software Engineer, Governance",
+   "company": "Domino Data Lab",
+   "score": 88.9296,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787622687192,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a5da7a0856af468ab011cc9": {
+   "jobId": "6a5da7a0856af468ab011cc9",
+   "title": "Senior Cloud DevOps Engineer",
+   "company": "Revecore",
+   "score": 91.2453,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787622594427,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a3ea2d0ce7cce40b3420f9d": {
+   "jobId": "6a3ea2d0ce7cce40b3420f9d",
+   "title": "Sr. Software Engineer",
+   "company": "SingleStore",
+   "score": 88.3161,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787621919663,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a5480478a74e077472fbfc6": {
+   "jobId": "6a5480478a74e077472fbfc6",
+   "title": "Staff Software Engineer",
+   "company": "NextPatient",
+   "score": 89.542,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787621710525,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a78e2f0a26ccc369f8392d9": {
+   "jobId": "6a78e2f0a26ccc369f8392d9",
+   "title": "Software Engineer, Distributed Systems",
+   "company": "Verse",
+   "score": 87.0322,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787621088063,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a88b02ee8b6601d129081bb": {
+   "jobId": "6a88b02ee8b6601d129081bb",
+   "title": "Sr Platform Engineer I (Remote)",
+   "company": "American Specialty Health",
+   "score": 95.635,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787620908345,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a43785cb0f2553559ed061c": {
+   "jobId": "6a43785cb0f2553559ed061c",
+   "title": "Senior Software Engineer, Cloud",
+   "company": "Redpanda Data",
+   "score": 85.0165,
+   "rankDesc": "Good Match",
+   "applyTime": 1787620503166,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a8611b52f4f0014cae27e80": {
+   "jobId": "6a8611b52f4f0014cae27e80",
+   "title": "AI Principal Software Engineer  💻 - US SaaS startup 🚀🇺🇸 | Remote",
+   "company": "Atomic - Remote Jobs",
+   "score": 83.1244,
+   "rankDesc": "Good Match",
+   "applyTime": 1787620385859,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a51b711ae4052672fe99817": {
+   "jobId": "6a51b711ae4052672fe99817",
+   "title": "Senior Engineer I",
+   "company": "CoreWeave",
+   "score": 85.7315,
+   "rankDesc": "Good Match",
+   "applyTime": 1787620150975,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a4eb60915b4965afd58465b": {
+   "jobId": "6a4eb60915b4965afd58465b",
+   "title": "Backend Engineer",
+   "company": "Augment",
+   "score": 82.5912,
+   "rankDesc": "Good Match",
+   "applyTime": 1787022840579,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a55d890ec54dd532d814980": {
+   "jobId": "6a55d890ec54dd532d814980",
+   "title": "Senior Backend Data Engineer",
+   "company": "Pendulum",
+   "score": 77.8105,
+   "rankDesc": "Good Match",
+   "applyTime": 1787022683190,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a565b42f7517b519ad55118": {
+   "jobId": "6a565b42f7517b519ad55118",
+   "title": "Senior Software Engineer (Backend)",
+   "company": "Wynd Labs",
+   "score": 83.8525,
+   "rankDesc": "Good Match",
+   "applyTime": 1787022611458,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "69e85cd70a6e09555303346c": {
+   "jobId": "69e85cd70a6e09555303346c",
+   "title": "Software Engineer, Infrastructure",
+   "company": "Serval",
+   "score": 93.4686,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787022426034,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a534a818576ec69c014f438": {
+   "jobId": "6a534a818576ec69c014f438",
+   "title": "Staff Backend Engineer, Hierarchy",
+   "company": "ClickUp",
+   "score": 78.6533,
+   "rankDesc": "Good Match",
+   "applyTime": 1787022128615,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a83135d9b859b227766c481": {
+   "jobId": "6a83135d9b859b227766c481",
+   "title": "Principal AI-Native Software Engineer",
+   "company": "ButterflyMX",
+   "score": 96.1426,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787021920456,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a5f8ae833ef5c58b4ffe8dd": {
+   "jobId": "6a5f8ae833ef5c58b4ffe8dd",
+   "title": "Senior Backend Software Engineer",
+   "company": "Effodio, Inc.",
+   "score": 83.5333,
+   "rankDesc": "Good Match",
+   "applyTime": 1787021654529,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a79cc62ab1385611f8fbb26": {
+   "jobId": "6a79cc62ab1385611f8fbb26",
+   "title": "Senior Cloud Computing Systems Engineer",
+   "company": "SAPSOL Technologies Inc. : Systems and Process Solutions for your Enterprise",
+   "score": 97.1228,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787021618820,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a7dc9a1e51a1e18a240a64f": {
+   "jobId": "6a7dc9a1e51a1e18a240a64f",
+   "title": "Senior Software Engineer - Backend",
+   "company": "Ostro",
+   "score": 76.8742,
+   "rankDesc": "Good Match",
+   "applyTime": 1787021534914,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a7de5d4e2030208f27665bb": {
+   "jobId": "6a7de5d4e2030208f27665bb",
+   "title": "Lead Backend Engineer",
+   "company": "Bright Vision Technologies",
+   "score": 82.3421,
+   "rankDesc": "Good Match",
+   "applyTime": 1787021218113,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a70bd4a1003bd7b70d6c396": {
+   "jobId": "6a70bd4a1003bd7b70d6c396",
+   "title": "Staff Software Engineer, Spend Management",
+   "company": "Tech Jobs for Good",
+   "score": 79.2295,
+   "rankDesc": "Good Match",
+   "applyTime": 1787021123009,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a7f0be9b56bea5779c08452": {
+   "jobId": "6a7f0be9b56bea5779c08452",
+   "title": "DevSecOps Engineer",
+   "company": "Orion Innovation",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787020979628,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a0d8a8947fea1610bca1a44": {
+   "jobId": "6a0d8a8947fea1610bca1a44",
+   "title": "Staff Engineer",
+   "company": "BrightEdge",
+   "score": 90.7224,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787020881487,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a7a84919ee17f276dbf361f": {
+   "jobId": "6a7a84919ee17f276dbf361f",
+   "title": "Staff Engineer",
+   "company": "Stellar Health",
+   "score": 88.3114,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787020768675,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a74daa837da8525e8cdaf77": {
+   "jobId": "6a74daa837da8525e8cdaf77",
+   "title": "Software Developer 4",
+   "company": "Oracle",
+   "score": 83.4297,
+   "rankDesc": "Good Match",
+   "applyTime": 1787020547921,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a521fc28a74e077472f3382": {
+   "jobId": "6a521fc28a74e077472f3382",
+   "title": "Senior DevOps Engineer (REMOTE)",
+   "company": "Ascension Federal Services, Inc.",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787020021039,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a5a5c8663a8f619507c6920": {
+   "jobId": "6a5a5c8663a8f619507c6920",
+   "title": "Principal Engineer, Backend",
+   "company": "Bluebeam",
+   "score": 82.9988,
+   "rankDesc": "Good Match",
+   "applyTime": 1787019849125,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a7bfa0ad77e8156a8e30be7": {
+   "jobId": "6a7bfa0ad77e8156a8e30be7",
+   "title": "Principal Engineer, Backend Job Details | nemetschek",
+   "company": "Bluebeam",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787019810304,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a63c6ad87cef057612ca872": {
+   "jobId": "6a63c6ad87cef057612ca872",
+   "title": "Staff Software Development Engineer",
+   "company": "BeyondTrust",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787019652685,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a7d7dd9d77e8156a8e3674e": {
+   "jobId": "6a7d7dd9d77e8156a8e3674e",
+   "title": "Senior Software Engineer",
+   "company": "StratusGrid",
+   "score": 90.8045,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787019577044,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a51d99c57513b72e0c68e12": {
+   "jobId": "6a51d99c57513b72e0c68e12",
+   "title": "Senior Backend Engineer",
+   "company": "Nash",
+   "score": 78.6817,
+   "rankDesc": "Good Match",
+   "applyTime": 1787019062271,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a4fb6ef1544d7246c0d62c6": {
+   "jobId": "6a4fb6ef1544d7246c0d62c6",
+   "title": "Senior Backend Software Engineer (USA Remote)",
+   "company": "Turnitin",
+   "score": 84.1268,
+   "rankDesc": "Good Match",
+   "applyTime": 1787019032198,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a51c6c68d7d3e6cf1cc2bc3": {
+   "jobId": "6a51c6c68d7d3e6cf1cc2bc3",
+   "title": "Senior Software Engineer (Backend)",
+   "company": "Tekmetric",
+   "score": 85.2719,
+   "rankDesc": "Good Match",
+   "applyTime": 1787018618457,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "69d55004891d7b11cfd00e00": {
+   "jobId": "69d55004891d7b11cfd00e00",
+   "title": "Staff Software Engineer, MDLC",
+   "company": "Domino Data Lab",
+   "score": 86.8465,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787018455830,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a833a3ab5a0ac0e84a2465d": {
+   "jobId": "6a833a3ab5a0ac0e84a2465d",
+   "title": "Senior Software Engineer",
+   "company": "INDRA",
+   "score": 90.3411,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787018315185,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a7f9669e51a1e18a24141d3": {
+   "jobId": "6a7f9669e51a1e18a24141d3",
+   "title": "Principal Engineer",
+   "company": "GSPANN Technologies, Inc",
+   "score": 86.5046,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787018164799,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a5a8d2f686b4755d1e15c9b": {
+   "jobId": "6a5a8d2f686b4755d1e15c9b",
+   "title": "Senior Software Engineer, Backend",
+   "company": "Automox",
+   "score": 85.1891,
+   "rankDesc": "Good Match",
+   "applyTime": 1787017995698,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a7b8d8decfd297707539f15": {
+   "jobId": "6a7b8d8decfd297707539f15",
+   "title": "Senior AI Infrastructure & Cloud Engineer",
+   "company": "BlueCross BlueShield of Tennessee",
+   "score": 96.9291,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787017884438,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a7a13c6bb6ca93ae5619c07": {
+   "jobId": "6a7a13c6bb6ca93ae5619c07",
+   "title": "Staff Backend Engineer",
+   "company": "Quo",
+   "score": 87.7452,
+   "rankDesc": "Strong Match",
+   "applyTime": 1787017285729,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a568dd6efb06a45240d69e7": {
+   "jobId": "6a568dd6efb06a45240d69e7",
+   "title": "Senior Backend Engineer",
+   "company": "Gremlin",
+   "score": 84.1372,
+   "rankDesc": "Good Match",
+   "applyTime": 1786935483140,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a7c887fa346cb6c8d5ee160": {
+   "jobId": "6a7c887fa346cb6c8d5ee160",
+   "title": "Senior Cloud Engineer",
+   "company": "Soteria",
+   "score": 97.8537,
+   "rankDesc": "Strong Match",
+   "applyTime": 1786935113247,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a2b0d9f1de59e0682a87c70": {
+   "jobId": "6a2b0d9f1de59e0682a87c70",
+   "title": "Senior Platform DevOps Engineer",
+   "company": "Code Metal",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1786935026288,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a7cd7dddc3dff2d1c0c95ff": {
+   "jobId": "6a7cd7dddc3dff2d1c0c95ff",
+   "title": "Senior DevOps Engineer",
+   "company": "Snowrelic Inc",
+   "score": 97.4432,
+   "rankDesc": "Strong Match",
+   "applyTime": 1786934723766,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a606c2371c79e639619b4f8": {
+   "jobId": "6a606c2371c79e639619b4f8",
+   "title": "Senior Application DevOps Engineers",
+   "company": "XM",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1786934651996,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a81cacbe51a1e18a24206e7": {
+   "jobId": "6a81cacbe51a1e18a24206e7",
+   "title": "Senior DevOps Engineer",
+   "company": "Savance",
+   "score": 92.5623,
+   "rankDesc": "Strong Match",
+   "applyTime": 1786934517438,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a7dd88ab56bea5779c0209c": {
+   "jobId": "6a7dd88ab56bea5779c0209c",
+   "title": "Senior Backend Engineer",
+   "company": "Steer Health",
+   "score": 84.3969,
+   "rankDesc": "Good Match",
+   "applyTime": 1786934436086,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a6044fe193c4d692385d992": {
+   "jobId": "6a6044fe193c4d692385d992",
+   "title": "Senior Platform Engineer",
+   "company": "Saga",
+   "score": 89.6399,
+   "rankDesc": "Strong Match",
+   "applyTime": 1786933585941,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a7cbb6983621355407ab868": {
+   "jobId": "6a7cbb6983621355407ab868",
+   "title": "Senior DevOps Engineer",
+   "company": "Solovis",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1786933361620,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a5808ce9f1f56462cf6823a": {
+   "jobId": "6a5808ce9f1f56462cf6823a",
+   "title": "DevOps Engineer - AWS",
+   "company": "TensorWave",
+   "score": 94.9278,
+   "rankDesc": "Strong Match",
+   "applyTime": 1786933176114,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a6942da36d36c1ff2998eec": {
+   "jobId": "6a6942da36d36c1ff2998eec",
+   "title": "Platform Engineer, Infrastructure",
+   "company": "Wispr Flow",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1786932987797,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a7f6915e2030208f276ddc0": {
+   "jobId": "6a7f6915e2030208f276ddc0",
+   "title": "Senior Software Engineer, Platform Infrastructure",
+   "company": "SmarterDx",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1786932381598,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a7f22a1927c79391ad067b7": {
+   "jobId": "6a7f22a1927c79391ad067b7",
+   "title": "Senior Software Engineer - Platform",
+   "company": "Loancrate",
+   "score": 97.3206,
+   "rankDesc": "Strong Match",
+   "applyTime": 1786932376905,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "67f769a6a2b4f9a76dfc31ea": {
+   "jobId": "67f769a6a2b4f9a76dfc31ea",
+   "title": "Cloud Infrastructure Engineer",
+   "company": "Braintrust",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1786932246493,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a7f32f6ad9ff00c26bad049": {
+   "jobId": "6a7f32f6ad9ff00c26bad049",
+   "title": "Platform Engineer",
+   "company": "Aklip Technologies LLC",
+   "score": 87.3013,
+   "rankDesc": "Strong Match",
+   "applyTime": 1786931664046,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a4fe299f57ed168c341723e": {
+   "jobId": "6a4fe299f57ed168c341723e",
+   "title": "Senior Software Engineer",
+   "company": "Helm.ai",
+   "score": 88.8937,
+   "rankDesc": "Strong Match",
+   "applyTime": 1786915425183,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a30782feace377055eb68e5": {
+   "jobId": "6a30782feace377055eb68e5",
+   "title": "Senior/Staff Platform Engineer",
+   "company": "Komodo Health",
+   "score": 85.529,
+   "rankDesc": "Good Match",
+   "applyTime": 1781576873053,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a2a2cf10c4972328e7e7637": {
+   "jobId": "6a2a2cf10c4972328e7e7637",
+   "title": "Staff Platform Engineer - Infra + DevOps",
+   "company": "Honor",
+   "score": 92.4076,
+   "rankDesc": "Strong Match",
+   "applyTime": 1781576719278,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a307a5aafabbe533fb8b5e3": {
+   "jobId": "6a307a5aafabbe533fb8b5e3",
+   "title": "Java AWS Architect (14+ yrs exp Required)",
+   "company": "Letitbex AI",
+   "score": 81.5481,
+   "rankDesc": "Good Match",
+   "applyTime": 1781576481957,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a06ff759f57175bd581d4f0": {
+   "jobId": "6a06ff759f57175bd581d4f0",
+   "title": "Staff Software Engineer, Backend Engineering",
+   "company": "Maven Clinic",
+   "score": 78.7385,
+   "rankDesc": "Good Match",
+   "applyTime": 1781575020560,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690bc668d046ab6061ce788c": {
+   "jobId": "690bc668d046ab6061ce788c",
+   "title": "Staff Site Reliability Engineer",
+   "company": "FloSports",
+   "score": 92.5228,
+   "rankDesc": "Strong Match",
+   "applyTime": 1781574795316,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a303b34afabbe533fb89e6d": {
+   "jobId": "6a303b34afabbe533fb89e6d",
+   "title": "Senior Java Backend Engineer (AWS)",
+   "company": "WiserBrand",
+   "score": 80.2578,
+   "rankDesc": "Good Match",
+   "applyTime": 1781574583126,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a304b5c093df201d07b0a06": {
+   "jobId": "6a304b5c093df201d07b0a06",
+   "title": "Senior Cloud & Infrastructure Engineer",
+   "company": "maxRTE",
+   "score": 90.5268,
+   "rankDesc": "Strong Match",
+   "applyTime": 1781574483985,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a2fea76524fd5657fe0e13f": {
+   "jobId": "6a2fea76524fd5657fe0e13f",
+   "title": "Senior Software Engineer",
+   "company": "Fastn",
+   "score": 90.4114,
+   "rankDesc": "Strong Match",
+   "applyTime": 1781574425340,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a2d2ac57cd40a338fae8669": {
+   "jobId": "6a2d2ac57cd40a338fae8669",
+   "title": "Principal Infrastructure Engineer",
+   "company": "Voxel51",
+   "score": 93.9407,
+   "rankDesc": "Strong Match",
+   "applyTime": 1781573579006,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a1d7560e24ef36525837ba5": {
+   "jobId": "6a1d7560e24ef36525837ba5",
+   "title": "Staff DevOps Engineer",
+   "company": "Cadence",
+   "score": 91.8607,
+   "rankDesc": "Strong Match",
+   "applyTime": 1781573447412,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a28791e883c0d3be65424b7": {
+   "jobId": "6a28791e883c0d3be65424b7",
+   "title": "Senior / Staff DevOps Engineer",
+   "company": "Vouched",
+   "score": 89.0024,
+   "rankDesc": "Strong Match",
+   "applyTime": 1781234252670,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a2a6bd41de59e0682a8474c": {
+   "jobId": "6a2a6bd41de59e0682a8474c",
+   "title": "Principal Engineer - Clari Core",
+   "company": "Salesloft",
+   "score": 94.2684,
+   "rankDesc": "Strong Match",
+   "applyTime": 1781233640704,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "69d6ccb1e63cea7a8b66c4fd": {
+   "jobId": "69d6ccb1e63cea7a8b66c4fd",
+   "title": "Senior Principal Engineer, Agentic Systems",
+   "company": "Advisor360°",
+   "score": 89.4123,
+   "rankDesc": "Strong Match",
+   "applyTime": 1781232271453,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a2a34f72cde2824469c0df3": {
+   "jobId": "6a2a34f72cde2824469c0df3",
+   "title": "Cloud Infrastructure Architect",
+   "company": "Quantiphi",
+   "score": 96.7002,
+   "rankDesc": "Strong Match",
+   "applyTime": 1781232184240,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a2089604bdf8a5a96bd150c": {
+   "jobId": "6a2089604bdf8a5a96bd150c",
+   "title": "Sr. Site Reliability Engineer",
+   "company": "AuthZed",
+   "score": 95.4758,
+   "rankDesc": "Strong Match",
+   "applyTime": 1781231949164,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a1f6fcfc5277c00c6486838": {
+   "jobId": "6a1f6fcfc5277c00c6486838",
+   "title": "Founding Backend Engineer – AI & Data",
+   "company": "Clipbook",
+   "score": 79.4562,
+   "rankDesc": "Good Match",
+   "applyTime": 1781231841655,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a2b066b1de59e0682a878ae": {
+   "jobId": "6a2b066b1de59e0682a878ae",
+   "title": "Senior Lead DevOps Engineer",
+   "company": "YPO",
+   "score": 86.2653,
+   "rankDesc": "Strong Match",
+   "applyTime": 1781231753397,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a2ae21a9bf7365df089ae7f": {
+   "jobId": "6a2ae21a9bf7365df089ae7f",
+   "title": "Senior Software Engineer",
+   "company": "Ozmo",
+   "score": 81.2936,
+   "rankDesc": "Good Match",
+   "applyTime": 1781231224058,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a2b38789bf7365df089cf0e": {
+   "jobId": "6a2b38789bf7365df089cf0e",
+   "title": "SR. CLOUD INFRASTRUCTURE ENGINEER (AI & LLM PLATFORMS)",
+   "company": "Q6 Cyber",
+   "score": 80.806,
+   "rankDesc": "Good Match",
+   "applyTime": 1781230458538,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6a2b20abd3ec8317fe147461": {
+   "jobId": "6a2b20abd3ec8317fe147461",
+   "title": "Senior Backend Engineer- AI Agents (Remote)",
+   "company": "Level AI",
+   "score": 75.9589,
+   "rankDesc": "Good Match",
+   "applyTime": 1781230353155,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "69fe392a7714cd50b90fee90": {
+   "jobId": "69fe392a7714cd50b90fee90",
+   "title": "Senior DevOps / Platform Reliability Engineer",
+   "company": "Zingtree",
+   "score": 91.5318,
+   "rankDesc": "Strong Match",
+   "applyTime": 1778293976879,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "69fe2355f363bc4dc339bc1c": {
+   "jobId": "69fe2355f363bc4dc339bc1c",
+   "title": "Infrastructure as Code (IaC) Engineer",
+   "company": "Ventechsoft INC",
+   "score": 86.5446,
+   "rankDesc": "Strong Match",
+   "applyTime": 1778293707276,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "69fe647a4b9bbf21744b12cf": {
+   "jobId": "69fe647a4b9bbf21744b12cf",
+   "title": "Senior Infrastructure Engineer",
+   "company": "Candidly",
+   "score": 96.0348,
+   "rankDesc": "Strong Match",
+   "applyTime": 1778293643335,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "69f150ea8feca91f1491fbea": {
+   "jobId": "69f150ea8feca91f1491fbea",
+   "title": "Principal/Sr Staff Engineer",
+   "company": "Canopy Connect",
+   "score": 85.2331,
+   "rankDesc": "Good Match",
+   "applyTime": 1777430653674,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "69f00390fbe0994a40eb9f88": {
+   "jobId": "69f00390fbe0994a40eb9f88",
+   "title": "Infrastructure Engineer",
+   "company": "NovusMinds AI",
+   "score": 89.5205,
+   "rankDesc": "Strong Match",
+   "applyTime": 1777345415461,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "692fb200ef4b48533d148314": {
+   "jobId": "692fb200ef4b48533d148314",
+   "title": "Staff Software Engineer, Infrastructure",
+   "company": "AeroVect",
+   "score": 95.8951,
+   "rankDesc": "Strong Match",
+   "applyTime": 1765080761732,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690a4c444a1b456627b05e7c": {
+   "jobId": "690a4c444a1b456627b05e7c",
+   "title": "Senior Platform+Ops Engineer",
+   "company": "Vest",
+   "score": 94.8225,
+   "rankDesc": "Strong Match",
+   "applyTime": 1765080558768,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6902579898707b2b0fe6e6df": {
+   "jobId": "6902579898707b2b0fe6e6df",
+   "title": "Senior DevOps Engineer",
+   "company": "Ren",
+   "score": 97.3982,
+   "rankDesc": "Strong Match",
+   "applyTime": 1765079953529,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6930ff59ef4b48533d15177c": {
+   "jobId": "6930ff59ef4b48533d15177c",
+   "title": "Sr. Automation and Release Engineer",
+   "company": "CIQ",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1765079678021,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "693200f84c474121999f58a4": {
+   "jobId": "693200f84c474121999f58a4",
+   "title": "Staff Site Reliability Engineer",
+   "company": "Palmetto",
+   "score": 96.2596,
+   "rankDesc": "Strong Match",
+   "applyTime": 1765078753668,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "692fd18def4b48533d1490fc": {
+   "jobId": "692fd18def4b48533d1490fc",
+   "title": "DevOps / Cloud Engineer (AWS)",
+   "company": "AI Partners",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1765078667324,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "693053ff4c474121999e4ded": {
+   "jobId": "693053ff4c474121999e4ded",
+   "title": "Senior DevOps Engineer",
+   "company": "CoorB",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1765078614258,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "691d0cebbcdbf3560c9ecb94": {
+   "jobId": "691d0cebbcdbf3560c9ecb94",
+   "title": "Senior DevOps Engineer",
+   "company": "Sparksoft Corporation",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763864995023,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "691cf759ff7024498416c639": {
+   "jobId": "691cf759ff7024498416c639",
+   "title": "DevOps/Site Reliability Engineer (SRE)",
+   "company": "Elligint Health",
+   "score": 97.6813,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763864781663,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "691f6c1d09cc522e8774102c": {
+   "jobId": "691f6c1d09cc522e8774102c",
+   "title": "Kubernetes DevOps Engineer",
+   "company": "APN Consulting, Inc.",
+   "score": 97.2537,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763864641918,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "691e1b6ea49a885af9a250ba": {
+   "jobId": "691e1b6ea49a885af9a250ba",
+   "title": "Site Reliability Engineer",
+   "company": "Strike",
+   "score": 76.3605,
+   "rankDesc": "Good Match",
+   "applyTime": 1763864489092,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "692206c9d1ec2c3565c46776": {
+   "jobId": "692206c9d1ec2c3565c46776",
+   "title": "Staff Infrastructure Engineer",
+   "company": "Depot",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763864326305,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "69206b1d3f782d2f1afc6ca3": {
+   "jobId": "69206b1d3f782d2f1afc6ca3",
+   "title": "Senior / Staff AI Software Engineer",
+   "company": "Aegis Ventures",
+   "score": 94.2402,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763781644060,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "69210ee73f782d2f1afceb58": {
+   "jobId": "69210ee73f782d2f1afceb58",
+   "title": "Lead Infrastructure Engineer",
+   "company": "Builder.io",
+   "score": 95.9553,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763781549034,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "691baafd15b41563671916a7": {
+   "jobId": "691baafd15b41563671916a7",
+   "title": "Staff FedRAMP DevOps & Infrastructure Engineer",
+   "company": "SandboxAQ",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763435452075,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "691bcda815b4156367192ef5": {
+   "jobId": "691bcda815b4156367192ef5",
+   "title": "Java AI/ML Developer",
+   "company": "Purview Infotech LLC",
+   "score": 89.1497,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763435069852,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "691bc51022a2cb4b9bd15ea9": {
+   "jobId": "691bc51022a2cb4b9bd15ea9",
+   "title": "DevOps & GitHub Solutions Architect AI - Remote",
+   "company": "Gibbs & Cox Australia",
+   "score": 93.2034,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763434999757,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "691b8345bcdbf3560c9df91e": {
+   "jobId": "691b8345bcdbf3560c9df91e",
+   "title": "Senior DevOps  Engineer",
+   "company": "Converge Resources",
+   "score": 97.0407,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763434925588,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "691bc3d0bcdbf3560c9e261f": {
+   "jobId": "691bc3d0bcdbf3560c9e261f",
+   "title": "Infrastructure Engineer",
+   "company": "Triunity Software, Inc.",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763434863246,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "691baa2422a2cb4b9bd14ba0": {
+   "jobId": "691baa2422a2cb4b9bd14ba0",
+   "title": "Senior Backend Engineer",
+   "company": "Stability AI",
+   "score": 83.573,
+   "rankDesc": "Good Match",
+   "applyTime": 1763434803304,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "691bc9a1bcdbf3560c9e296d": {
+   "jobId": "691bc9a1bcdbf3560c9e296d",
+   "title": "Staff DevOps Engineer",
+   "company": "LILT AI",
+   "score": 96.6132,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763434751438,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cd1429b2a74e1837ed2037": {
+   "jobId": "68cd1429b2a74e1837ed2037",
+   "title": "Senior Site Reliability Engineer",
+   "company": "Stack AV",
+   "score": 95.325,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763351419709,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6913ea5e1465e02904e988b5": {
+   "jobId": "6913ea5e1465e02904e988b5",
+   "title": "AWS Infrastructure Architect Senior Staff FULL TIME REMOTE",
+   "company": "Lockheed Martin",
+   "score": 89.1695,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763351101649,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "69139d1ce344172248f7289d": {
+   "jobId": "69139d1ce344172248f7289d",
+   "title": "Staff Engineer, Cloud Platform Services (Update: TX, CA or MA)",
+   "company": "IBM",
+   "score": 97.5704,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763350977099,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6915854c6f36db06ef04f491": {
+   "jobId": "6915854c6f36db06ef04f491",
+   "title": "Senior DevSecOps Engineer FULL TIME REMOTE",
+   "company": "Lockheed Martin",
+   "score": 90.9778,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763350713237,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6917ce1645fb6f5ead89ec25": {
+   "jobId": "6917ce1645fb6f5ead89ec25",
+   "title": "Platform Engineer, AI Inference",
+   "company": "Modular, a Qualcomm company",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763350226807,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6913683d1465e02904e9485d": {
+   "jobId": "6913683d1465e02904e9485d",
+   "title": "Principal Software Engineer - Consumer Experience",
+   "company": "Stord",
+   "score": 97.364,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763349614761,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f01f45de50091dbfa51dcd": {
+   "jobId": "68f01f45de50091dbfa51dcd",
+   "title": "Principal Architect",
+   "company": "FinThrive",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763349302834,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c316d263829b0a8a4ff759": {
+   "jobId": "68c316d263829b0a8a4ff759",
+   "title": "Staff Software Engineer - Core Infrastructure",
+   "company": "6sense",
+   "score": 90.4212,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763346473469,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6917aff015b415636717a6ac": {
+   "jobId": "6917aff015b415636717a6ac",
+   "title": "Senior Software Engineer, AI",
+   "company": "Fleetio",
+   "score": 90.0621,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763346149063,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f98a11a628d10664e8db34": {
+   "jobId": "68f98a11a628d10664e8db34",
+   "title": "Senior Platform Engineer",
+   "company": "Mambu",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763345213734,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "69166d6b9c388539cbdfb153": {
+   "jobId": "69166d6b9c388539cbdfb153",
+   "title": "DevOps Engineer",
+   "company": "Innovatech Staffing",
+   "score": 97.5284,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763175968576,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "691644b96f36db06ef0546e4": {
+   "jobId": "691644b96f36db06ef0546e4",
+   "title": "Java Software Engineer",
+   "company": "Augusta Hitech",
+   "score": 87.3226,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763094112749,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f92d1a6de2db04dc3e641b": {
+   "jobId": "68f92d1a6de2db04dc3e641b",
+   "title": "Software Engineer (Back-End Focus)",
+   "company": "Skyward",
+   "score": 96.8808,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763094047153,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68de421f44d32141e0bfeb16": {
+   "jobId": "68de421f44d32141e0bfeb16",
+   "title": "Senior Software Engineer, Tooling",
+   "company": "Mytra",
+   "score": 96.1581,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763093973699,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6915d9739c388539cbdf65cf": {
+   "jobId": "6915d9739c388539cbdf65cf",
+   "title": "Principal DevOps Engineer - 2617 (Remote)",
+   "company": "CES",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763093903170,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6914c8256f36db06ef048d73": {
+   "jobId": "6914c8256f36db06ef048d73",
+   "title": "Site Reliability Engineer (Customer-Facing)",
+   "company": "Itron, Inc.",
+   "score": 91.1906,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763093816805,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6915e39f6f36db06ef051a4e": {
+   "jobId": "6915e39f6f36db06ef051a4e",
+   "title": "Senior DevOps Engineer-2812 (Remote)",
+   "company": "CES",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763093502649,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6915b26d286ccf0a15130236": {
+   "jobId": "6915b26d286ccf0a15130236",
+   "title": "Senior Infrastructure Engineer - Crypto",
+   "company": "Career Renew",
+   "score": 96.6236,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763093382544,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "691623109c388539cbdf8095": {
+   "jobId": "691623109c388539cbdf8095",
+   "title": "Backend Software Engineer",
+   "company": "Moovx",
+   "score": 82.7505,
+   "rankDesc": "Good Match",
+   "applyTime": 1763093293796,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690ebd6d221b890c278113e3": {
+   "jobId": "690ebd6d221b890c278113e3",
+   "title": "Senior Cloud Infrastructure Engineer",
+   "company": "Omni",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763093247692,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6916a888286ccf0a15138501": {
+   "jobId": "6916a888286ccf0a15138501",
+   "title": "Senior DevOps Engineer",
+   "company": "Quantum Sky",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763093134417,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "691628e9286ccf0a15132f02": {
+   "jobId": "691628e9286ccf0a15132f02",
+   "title": "DevOps Engineer",
+   "company": "OtB Tech LLC",
+   "score": 92.1359,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763092666348,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ddcd5144d32141e0bfaef2": {
+   "jobId": "68ddcd5144d32141e0bfaef2",
+   "title": "Senior SRE",
+   "company": "Catio",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763092552343,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6914f869286ccf0a15129c34": {
+   "jobId": "6914f869286ccf0a15129c34",
+   "title": "Lead AWS DevOps Engineer (100% REMOTE/NO C2C)",
+   "company": "Amerit Consulting",
+   "score": 97.9272,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763092299992,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "691507aa9c388539cbdefc3c": {
+   "jobId": "691507aa9c388539cbdefc3c",
+   "title": "Senior DevOps Engineer",
+   "company": "DigiCert",
+   "score": 93.7651,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763092235828,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6914bf936f36db06ef0489ff": {
+   "jobId": "6914bf936f36db06ef0489ff",
+   "title": "Senior DevOps Engineer",
+   "company": "Coforge",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1763006066183,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6913304ad1047e3565d01cd7": {
+   "jobId": "6913304ad1047e3565d01cd7",
+   "title": "Lead Backend Engineer",
+   "company": "Acceler8 Talent",
+   "score": 87.3793,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762919362466,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f6485e9a65fd3458591e27": {
+   "jobId": "68f6485e9a65fd3458591e27",
+   "title": "Lead Software Engineer",
+   "company": "Grove Collaborative",
+   "score": 96.4315,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762916620034,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f69dda9a63986de75804ff": {
+   "jobId": "68f69dda9a63986de75804ff",
+   "title": "Staff Software Engineer",
+   "company": "Five9",
+   "score": 97.9516,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762916024537,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6912c0e3ea9ab01b82bf4bcd": {
+   "jobId": "6912c0e3ea9ab01b82bf4bcd",
+   "title": "Sr. Software Engineer, Infrastructure",
+   "company": "Jerry",
+   "score": 96.6857,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762915929498,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6911b9d0bb519377733f0f9c": {
+   "jobId": "6911b9d0bb519377733f0f9c",
+   "title": "Senior DevOps Engineer",
+   "company": "Granum",
+   "score": 95.7304,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762915792420,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690d44204a1b456627b1fd24": {
+   "jobId": "690d44204a1b456627b1fd24",
+   "title": "DevOps Engineer (Mobile DevOps / AWS DevOps)",
+   "company": "Informatic Technologies, Inc.",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762833455891,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690aafa0bcccf20de59e4ebb": {
+   "jobId": "690aafa0bcccf20de59e4ebb",
+   "title": "DevOps Engineer (Remote Opportunity)",
+   "company": "VetsEZ",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762833354796,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690ee6b8221b890c2781283d": {
+   "jobId": "690ee6b8221b890c2781283d",
+   "title": "Senior Software Engineer",
+   "company": "Changeis, Inc.",
+   "score": 91.942,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762833170424,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690a46eb4a1b456627b05c62": {
+   "jobId": "690a46eb4a1b456627b05c62",
+   "title": "Senior Software Engineer",
+   "company": "Eris Innovations - Creators of Eris SOFR Swap futures",
+   "score": 96.4297,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762748111499,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690978d6d046ab6061cd5c16": {
+   "jobId": "690978d6d046ab6061cd5c16",
+   "title": "Senior Cloud Infrastructure Engineer - Kubernetes (East Coast-Remote)",
+   "company": "Camunda",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762748025940,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "686d34139f7fa6cfa6d2258a": {
+   "jobId": "686d34139f7fa6cfa6d2258a",
+   "title": "Senior Site Reliability Engineer",
+   "company": "Tekmetric",
+   "score": 96.0307,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762747844754,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690aca0f4a1b456627b0b626": {
+   "jobId": "690aca0f4a1b456627b0b626",
+   "title": "DevOps Lead",
+   "company": "StraighterLine",
+   "score": 97.7922,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762747717167,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690e2c19221b890c2780b6ff": {
+   "jobId": "690e2c19221b890c2780b6ff",
+   "title": "Senior Backend Engineer | HeyCharge",
+   "company": "GT",
+   "score": 97.1514,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762747608354,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690c8481d046ab6061cede76": {
+   "jobId": "690c8481d046ab6061cede76",
+   "title": "Sr. DevOps Engineer",
+   "company": "Supplier.io",
+   "score": 96.2755,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762747448456,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6911355b988c2b7b4ec53a60": {
+   "jobId": "6911355b988c2b7b4ec53a60",
+   "title": "Senior Software Engineer, Core App (US)",
+   "company": "Scrunch",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762747377262,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690f0ce844146d3b6ec59aa3": {
+   "jobId": "690f0ce844146d3b6ec59aa3",
+   "title": "Senior Software Engineer",
+   "company": "Pathwise",
+   "score": 93.9563,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762747291841,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690bc73bd046ab6061ce797e": {
+   "jobId": "690bc73bd046ab6061ce797e",
+   "title": "Senior Cloud Engineer",
+   "company": "Brownells, Inc.",
+   "score": 92.2906,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762747246864,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690d12f24a1b456627b1d4fe": {
+   "jobId": "690d12f24a1b456627b1d4fe",
+   "title": "Cloud Infrastructure Engineer",
+   "company": "Deque Systems, Inc",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1762746957459,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e49d09b99ec3563b0ec6e8": {
+   "jobId": "68e49d09b99ec3563b0ec6e8",
+   "title": "Lead Java Developer",
+   "company": "Tavant",
+   "score": 84.863,
+   "rankDesc": "Good Match",
+   "applyTime": 1761964836575,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6903bf53d64a22104aa926e5": {
+   "jobId": "6903bf53d64a22104aa926e5",
+   "title": "Staff Software Engineer",
+   "company": "BETSOL",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761964729934,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6902796000a1816c41e9e785": {
+   "jobId": "6902796000a1816c41e9e785",
+   "title": "Staff Backend Engineer",
+   "company": "Zeta Global",
+   "score": 77.9638,
+   "rankDesc": "Good Match",
+   "applyTime": 1761964611144,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f14494f462172a5a7d5733": {
+   "jobId": "68f14494f462172a5a7d5733",
+   "title": "Sr Staff Software Engineer_Java",
+   "company": "AMISEQ",
+   "score": 86.4669,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761964455903,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690001180ab3b222462b10df": {
+   "jobId": "690001180ab3b222462b10df",
+   "title": "Sr. Infrastructure Engineer",
+   "company": "Jerry",
+   "score": 96.6857,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761964348383,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cd224be23def7af55b5ea1": {
+   "jobId": "68cd224be23def7af55b5ea1",
+   "title": "Senior Software Engineer",
+   "company": "Galileo Financial Technologies",
+   "score": 96.5037,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761964307150,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690513b7122e8474c78d5ba4": {
+   "jobId": "690513b7122e8474c78d5ba4",
+   "title": "Tech Lead – GenAI Cloud  Initiatives - US",
+   "company": "DataForce",
+   "score": 91.5678,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761964074919,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6904ccc1ff462851feff7a69": {
+   "jobId": "6904ccc1ff462851feff7a69",
+   "title": "Lead Platform/Cloud Engineer",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761963472192,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690101594539ea1f2141b797": {
+   "jobId": "690101594539ea1f2141b797",
+   "title": "Staff/Principal Site Reliability Engineer",
+   "company": "Veza",
+   "score": 97.4625,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761963394994,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6905628eff462851feffd0e7": {
+   "jobId": "6905628eff462851feffd0e7",
+   "title": "Senior Engineer - Technical Leadership or Architect Track",
+   "company": "Alt Legal - IP Management Software",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761963282896,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6903b854d64a22104aa92117": {
+   "jobId": "6903b854d64a22104aa92117",
+   "title": "Staff Software Engineer, Infrastructure",
+   "company": "Check",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761963125006,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ced075846f0b04af67d3a3": {
+   "jobId": "68ced075846f0b04af67d3a3",
+   "title": "Senior Infrastructure Software Engineer, AI/ML Platform",
+   "company": "Dropbox",
+   "score": 89.3699,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761962473885,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68de9c3b44d32141e0c010b3": {
+   "jobId": "68de9c3b44d32141e0c010b3",
+   "title": "Senior Software Infrastructure Engineer",
+   "company": "HYTE®",
+   "score": 97.2152,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761962014233,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ffa969e0c73b3a1119d369": {
+   "jobId": "68ffa969e0c73b3a1119d369",
+   "title": "Staff Software Engineer, DevOps/SRE",
+   "company": "Color",
+   "score": 97.2463,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761961979454,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ffccece04ac838fb5bb754": {
+   "jobId": "68ffccece04ac838fb5bb754",
+   "title": "Senior  Site Reliability  Engineer",
+   "company": "Donnelley Financial Solutions (DFIN)",
+   "score": 92.5599,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761961855682,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "69053b35ff462851feffc0da": {
+   "jobId": "69053b35ff462851feffc0da",
+   "title": "Principal Cloud Automation Engineer (AWS)",
+   "company": "Nightwing",
+   "score": 95.8417,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761961817974,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "69024cea98707b2b0fe6e03a": {
+   "jobId": "69024cea98707b2b0fe6e03a",
+   "title": "Senior DevOps Engineer",
+   "company": "Ren",
+   "score": 97.3982,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761961530703,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "69040d75ff462851feff22c9": {
+   "jobId": "69040d75ff462851feff22c9",
+   "title": "Sr. Cloud Platform Engineer",
+   "company": "8am",
+   "score": 89.8148,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761961257613,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6902929c00a1816c41e9fdfe": {
+   "jobId": "6902929c00a1816c41e9fdfe",
+   "title": "Platform Engineer",
+   "company": "Protech Talent",
+   "score": 97.6051,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761961148883,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "69018fabd5259a1b3cff6349": {
+   "jobId": "69018fabd5259a1b3cff6349",
+   "title": "Senior DevOps Engineer (Contract)",
+   "company": "LineVision",
+   "score": 96.6176,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761961035885,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f745b2ec6dbe7073fbac91": {
+   "jobId": "68f745b2ec6dbe7073fbac91",
+   "title": "Senior DevOps Engineer",
+   "company": "Varonis",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761960637632,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6901a7b5d5259a1b3cff7024": {
+   "jobId": "6901a7b5d5259a1b3cff7024",
+   "title": "Sr DevOps Engineer - Remote US Eastern/Central Time Zones",
+   "company": "Stealth Mode AI Fintech Startup",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761960326666,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690130c4d5259a1b3cff2aa8": {
+   "jobId": "690130c4d5259a1b3cff2aa8",
+   "title": "Senior DevOps Engineer",
+   "company": "SmithRx",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761706653849,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "69013d65d5259a1b3cff3648": {
+   "jobId": "69013d65d5259a1b3cff3648",
+   "title": "Back End engineer",
+   "company": "SoTalent",
+   "score": 97.5284,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761703543104,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "690158bf4539ea1f2141f6ba": {
+   "jobId": "690158bf4539ea1f2141f6ba",
+   "title": "Senior DevOps Engineer",
+   "company": "Cellebrite",
+   "score": 96.1275,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761703530601,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68fadbb33c99cc1d96026e0c": {
+   "jobId": "68fadbb33c99cc1d96026e0c",
+   "title": "Senior Infrastructure Engineer",
+   "company": "Pragmatike",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761702990568,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c8efc5f9c6ff7aedf14e04": {
+   "jobId": "68c8efc5f9c6ff7aedf14e04",
+   "title": "Principal Software Engineer - Remote",
+   "company": "Kastle Systems",
+   "score": 88.5171,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761103011203,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f7efa6ec6dbe7073fceb4b": {
+   "jobId": "68f7efa6ec6dbe7073fceb4b",
+   "title": "Senior Software Engineer",
+   "company": "Tria Federal (Tria)",
+   "score": 93.8835,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761102892468,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "689101644c7e851b90acb201": {
+   "jobId": "689101644c7e851b90acb201",
+   "title": "Lead Software Engineer",
+   "company": "Moovx",
+   "score": 90.4738,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761102853266,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68eb5e118369791ef7826724": {
+   "jobId": "68eb5e118369791ef7826724",
+   "title": "Lead Dev Ops Engineer",
+   "company": "Schellman",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761102804300,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d342d98c62e63bc7fdef24": {
+   "jobId": "68d342d98c62e63bc7fdef24",
+   "title": "Senior Software Engineer (AI Backend)",
+   "company": "Aura",
+   "score": 85.2157,
+   "rankDesc": "Good Match",
+   "applyTime": 1761102513839,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f7f21db0edcf159dc8c597": {
+   "jobId": "68f7f21db0edcf159dc8c597",
+   "title": "Staff Software Engineer",
+   "company": "WellSky",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761102311014,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f82d35b0edcf159dc8f158": {
+   "jobId": "68f82d35b0edcf159dc8f158",
+   "title": "Lead Software Architect – Distributed Systems",
+   "company": "Apar Technologies",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761101918592,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f84776a628d10664e813aa": {
+   "jobId": "68f84776a628d10664e813aa",
+   "title": "Kubernetes Platform Engineer (Remote) - 25523",
+   "company": "Enlighten",
+   "score": 96.6491,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761101873864,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f07b96a6b9004b5e320d6b": {
+   "jobId": "68f07b96a6b9004b5e320d6b",
+   "title": "Staff DevOps Engineer (Security Clearance Required)",
+   "company": "LILT AI",
+   "score": 96.6132,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761101804632,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f694f576a51a4307bdbed3": {
+   "jobId": "68f694f576a51a4307bdbed3",
+   "title": "Senior Software Engineer",
+   "company": "Sovos",
+   "score": 92.1076,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761101686311,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f4b1da9a65fd345858c160": {
+   "jobId": "68f4b1da9a65fd345858c160",
+   "title": "Senior Cloud DevOps Engineer",
+   "company": "Revecore",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761101466885,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f7e02a5dc1be601281d613": {
+   "jobId": "68f7e02a5dc1be601281d613",
+   "title": "Site Reliability Engineer",
+   "company": "Cisco",
+   "score": 94.2954,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761100042829,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f6ea409a65fd3458598358": {
+   "jobId": "68f6ea409a65fd3458598358",
+   "title": "Principal Cloud Engineer",
+   "company": "GE HealthCare",
+   "score": 97.4465,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761099903259,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f7e366b0edcf159dc8b2ad": {
+   "jobId": "68f7e366b0edcf159dc8b2ad",
+   "title": "DevOps Engineer",
+   "company": "Fusemachines",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761099437350,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f6e94a9a65fd3458598286": {
+   "jobId": "68f6e94a9a65fd3458598286",
+   "title": "DevSecOps Engineer - IronSled - Clearance Preferred",
+   "company": "LMI",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761099379152,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f8101fb0edcf159dc8e3e4": {
+   "jobId": "68f8101fb0edcf159dc8e3e4",
+   "title": "Back End Developer",
+   "company": "Quantum World Technologies Inc.",
+   "score": 97.6645,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761099043250,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f2bd019a65fd34585807a1": {
+   "jobId": "68f2bd019a65fd34585807a1",
+   "title": "Technical Architect",
+   "company": "VibeIQ",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761098949467,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cd70d4e23def7af55b9fb1": {
+   "jobId": "68cd70d4e23def7af55b9fb1",
+   "title": "Principal Full-stack Engineer - AI Tooling",
+   "company": "Yahoo",
+   "score": 82.5706,
+   "rankDesc": "Good Match",
+   "applyTime": 1761098491369,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f65d769a65fd3458592b36": {
+   "jobId": "68f65d769a65fd3458592b36",
+   "title": "DevOps Engineer",
+   "company": "Durlston Partners",
+   "score": 97.0252,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761098283132,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f82c8bb0edcf159dc8f104": {
+   "jobId": "68f82c8bb0edcf159dc8f104",
+   "title": "Staff Infrastructure Engineer",
+   "company": "Groq",
+   "score": 97.025,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761098203345,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f82e9b5dc1be60128217d1": {
+   "jobId": "68f82e9b5dc1be60128217d1",
+   "title": "Senior Infrastructure Engineer",
+   "company": "TalTeam",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1761098030828,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68eef5aa46e5b153e5a618d5": {
+   "jobId": "68eef5aa46e5b153e5a618d5",
+   "title": "Principal Cloud/CI/CD Engineer - DevOps : REMOTE",
+   "company": "Javen Technologies, Inc.",
+   "score": 97.2794,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760757811633,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f0f02aef766b3f0fd06d7c": {
+   "jobId": "68f0f02aef766b3f0fd06d7c",
+   "title": "Senior Cloud Infrastructure Engineer",
+   "company": "Jack Henry",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760757452667,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d3203717554c2d9eeedfe1": {
+   "jobId": "68d3203717554c2d9eeedfe1",
+   "title": "Staff Platform Engineer",
+   "company": "LTK",
+   "score": 95.8792,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760757115893,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f1ce9aef766b3f0fd1235d": {
+   "jobId": "68f1ce9aef766b3f0fd1235d",
+   "title": "Principal DevOps Engineer - AI/ML (Remote US)",
+   "company": "Revvity",
+   "score": 97.4674,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760757032459,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f10b2ff462172a5a7d26f0": {
+   "jobId": "68f10b2ff462172a5a7d26f0",
+   "title": "DevOps/Infrastructure Engineer | Lead",
+   "company": "Flipper Devices Inc",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760757007851,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f29c409a63986de756956d": {
+   "jobId": "68f29c409a63986de756956d",
+   "title": "Sr. Site Reliability Engineer",
+   "company": "Springbrook Software",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760756706730,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d67243894705799a2ebab7": {
+   "jobId": "68d67243894705799a2ebab7",
+   "title": "Senior Cloud Engineer",
+   "company": "Mambu",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760756477151,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f2e4e876a51a4307bc907a": {
+   "jobId": "68f2e4e876a51a4307bc907a",
+   "title": "Devops Engineer",
+   "company": "SPREEAI",
+   "score": 95.2129,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760756251446,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f0236fde50091dbfa5224b": {
+   "jobId": "68f0236fde50091dbfa5224b",
+   "title": "Senior Startup Engineer: Platform, QA Automation, or SRE (US)",
+   "company": "AppMakers USA",
+   "score": 95.4701,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760584065569,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68effddf9821486c423c8545": {
+   "jobId": "68effddf9821486c423c8545",
+   "title": "DevOps Infrastructure as Code Staff Consultant - W2 Only",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760583921604,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68effde078ba1621431e15fc": {
+   "jobId": "68effde078ba1621431e15fc",
+   "title": "Staff Software Engineer",
+   "company": "Omada Health",
+   "score": 95.0734,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760583890496,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68effdf79821486c423c855c": {
+   "jobId": "68effdf79821486c423c855c",
+   "title": "Application Backend Development Staff Consultant",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760583762849,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f02094de50091dbfa51ee0": {
+   "jobId": "68f02094de50091dbfa51ee0",
+   "title": "Senior Software Developer",
+   "company": "Nakupuna Companies",
+   "score": 95.4599,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760583618436,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f002b29821486c423c89eb": {
+   "jobId": "68f002b29821486c423c89eb",
+   "title": "Agentic AI Prompt Engineer",
+   "company": "Workerbee",
+   "score": 78.114,
+   "rankDesc": "Good Match",
+   "applyTime": 1760583154236,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f003e99821486c423c8af6": {
+   "jobId": "68f003e99821486c423c8af6",
+   "title": "Lead Developer",
+   "company": "Jobs via Dice",
+   "score": 83.6767,
+   "rankDesc": "Good Match",
+   "applyTime": 1760583014756,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f00abc78ba1621431e1c08": {
+   "jobId": "68f00abc78ba1621431e1c08",
+   "title": "Technical Lead Full Stack (Java / AWS / AI)",
+   "company": "Jobs via Dice",
+   "score": 91.3809,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760572575464,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68f0337d78ba1621431e35cb": {
+   "jobId": "68f0337d78ba1621431e35cb",
+   "title": "Lead AI Platform Engineer",
+   "company": "AssemblyAI",
+   "score": 89.7606,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760572446128,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cd7ba3e23def7af55baa8a": {
+   "jobId": "68cd7ba3e23def7af55baa8a",
+   "title": "SRE Cloud Architect - AWS",
+   "company": "Iodine Software, now part of Waystar",
+   "score": 97.3092,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760233948130,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6877ed61ae2f413e4a5be2c5": {
+   "jobId": "6877ed61ae2f413e4a5be2c5",
+   "title": "Staff Software Engineer, Developer Platform",
+   "company": "Zocdoc",
+   "score": 93.1197,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760233766838,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ea8afb8369791ef78224c9": {
+   "jobId": "68ea8afb8369791ef78224c9",
+   "title": "Senior Software Engineer – (AI-Powered Platform)",
+   "company": "Rockzenic Staffing, LLC",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760233641610,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e5fbbb1852e62f00816ecc": {
+   "jobId": "68e5fbbb1852e62f00816ecc",
+   "title": "Staff Machine Learning Engineer, Supply Chain Sourcing (REMOTE)",
+   "company": "The Home Depot",
+   "score": 74.0913,
+   "rankDesc": "Good Match",
+   "applyTime": 1760233565450,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68eaa0392f64880ca0b5398b": {
+   "jobId": "68eaa0392f64880ca0b5398b",
+   "title": "Senior Application Developer",
+   "company": "Gentiva",
+   "score": 88.9582,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760233373450,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68eab1528369791ef7822b96": {
+   "jobId": "68eab1528369791ef7822b96",
+   "title": "Devops Engineer with LLM, GPU",
+   "company": "Jobs via Dice",
+   "score": 96.2679,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760233195943,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68eab91076a1db7c5985c08b": {
+   "jobId": "68eab91076a1db7c5985c08b",
+   "title": "Sr Lead Software Engineer, Back End/SRE - Shopping (Remote-Eligible)",
+   "company": "Jobs via Dice",
+   "score": 91.7168,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760233161445,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68eade6e8369791ef782332c": {
+   "jobId": "68eade6e8369791ef782332c",
+   "title": "Senior Full Stack Engineer, Ecosystems",
+   "company": "Calendly",
+   "score": 88.4481,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760233080855,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68eadf9976a1db7c5985c64b": {
+   "jobId": "68eadf9976a1db7c5985c64b",
+   "title": "Staff Infrastructure Engineer",
+   "company": "Hex",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1760232855288,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e698411852e62f0081c6ff": {
+   "jobId": "68e698411852e62f0081c6ff",
+   "title": "Founding AI Engineer",
+   "company": "OWOW",
+   "score": 61.0258,
+   "rankDesc": "Fair Match",
+   "applyTime": 1759948733107,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e698bbae2b894b1d71bab4": {
+   "jobId": "68e698bbae2b894b1d71bab4",
+   "title": "Cloud Devops Platform Architect (AWS/Azure/GCP)",
+   "company": "ClifyX",
+   "score": 96.0713,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759948474203,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e6a9cee8daec61499ad491": {
+   "jobId": "68e6a9cee8daec61499ad491",
+   "title": "Generative AI Engineer (Gen AI/No H1b)",
+   "company": "NeerInfo Solutions",
+   "score": 67.366,
+   "rankDesc": "Fair Match",
+   "applyTime": 1759947890102,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "686e254f674ba2ef29a9071a": {
+   "jobId": "686e254f674ba2ef29a9071a",
+   "title": "Cloud Infrastructure Engineer",
+   "company": "PayPay Corporation",
+   "score": 85.2055,
+   "rankDesc": "Good Match",
+   "applyTime": 1759932320686,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e62c28e8daec61499a9bb2": {
+   "jobId": "68e62c28e8daec61499a9bb2",
+   "title": "Principle Engineer",
+   "company": "Stanley Black & Decker, Inc.",
+   "score": 82.709,
+   "rankDesc": "Good Match",
+   "applyTime": 1759932036415,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e65081e8daec61499aa959": {
+   "jobId": "68e65081e8daec61499aa959",
+   "title": "Python Developer (JavaScript's, AWS)- R01553607",
+   "company": "Brillio",
+   "score": 89.9786,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759931748692,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "687579545cebcd1dd51c11c7": {
+   "jobId": "687579545cebcd1dd51c11c7",
+   "title": "Staff Software Engineer",
+   "company": "Point",
+   "score": 90.4802,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759931533519,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e65b6d1852e62f0081aaac": {
+   "jobId": "68e65b6d1852e62f0081aaac",
+   "title": "Staff Software Engineer - Logistics, Operations & Tooling",
+   "company": "Courtyard",
+   "score": 72.3296,
+   "rankDesc": "Good Match",
+   "applyTime": 1759930566806,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e6638dae2b894b1d71a182": {
+   "jobId": "68e6638dae2b894b1d71a182",
+   "title": "Remote Senior Software Engineer - 35501",
+   "company": "Turing",
+   "score": 96.9613,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759930159716,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e5c4ccae2b894b1d713567": {
+   "jobId": "68e5c4ccae2b894b1d713567",
+   "title": "Senior AI Engineer",
+   "company": "PlanHub",
+   "score": 82.0076,
+   "rankDesc": "Good Match",
+   "applyTime": 1759895173611,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e5c9111852e62f008144e8": {
+   "jobId": "68e5c9111852e62f008144e8",
+   "title": "Senior Python Backend Engineer",
+   "company": "Belva Inc.",
+   "score": 74.8082,
+   "rankDesc": "Good Match",
+   "applyTime": 1759895087985,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e5c9e9ae2b894b1d713716": {
+   "jobId": "68e5c9e9ae2b894b1d713716",
+   "title": "Staff IT Systems Engineer (6443) - Microsoft Suite",
+   "company": "Blackhawk Network",
+   "score": 88.7692,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759894883333,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e5cc74ae2b894b1d713a27": {
+   "jobId": "68e5cc74ae2b894b1d713a27",
+   "title": "AI Tech Lead",
+   "company": "Belva Inc.",
+   "score": 87.0713,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759894228618,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e5d8ecae2b894b1d7142ab": {
+   "jobId": "68e5d8ecae2b894b1d7142ab",
+   "title": "Staff Data and Platform Engineer",
+   "company": "Proof",
+   "score": 85.6173,
+   "rankDesc": "Good Match",
+   "applyTime": 1759894037972,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e42cd4f758fe1f97e6502d": {
+   "jobId": "68e42cd4f758fe1f97e6502d",
+   "title": "Senior Solutions Engineer, US (Pacific Time)",
+   "company": "Pipe",
+   "score": 72.6176,
+   "rankDesc": "Good Match",
+   "applyTime": 1759784905011,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e3a933b99ec3563b0e1ce0": {
+   "jobId": "68e3a933b99ec3563b0e1ce0",
+   "title": "Cloud Architect - AI & Network Intelligence",
+   "company": "hoopit.ai",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759773877356,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e3f31c1852e62f007ff875": {
+   "jobId": "68e3f31c1852e62f007ff875",
+   "title": "Lead JavaScript Developer",
+   "company": "Tradeweb",
+   "score": 85.1861,
+   "rankDesc": "Good Match",
+   "applyTime": 1759773658334,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e3f8e6b99ec3563b0e43b4": {
+   "jobId": "68e3f8e6b99ec3563b0e43b4",
+   "title": "Application Platform Architect",
+   "company": "Zeta Global",
+   "score": 95.4582,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759773635608,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e3fcb9b99ec3563b0e48b4": {
+   "jobId": "68e3fcb9b99ec3563b0e48b4",
+   "title": "Senior Full Stack Engineer",
+   "company": "Gradient AI",
+   "score": 82.5749,
+   "rankDesc": "Good Match",
+   "applyTime": 1759773325333,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68df58315ab4977c2e95381d": {
+   "jobId": "68df58315ab4977c2e95381d",
+   "title": "Platform Engineer",
+   "company": "Onebrief",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759723251507,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68df849f6be63b6ec9970f26": {
+   "jobId": "68df849f6be63b6ec9970f26",
+   "title": "Senior Software Engineer – AI-First Development",
+   "company": "Rev.io",
+   "score": 91.9902,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759723162370,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68dc24fcd6470e72cf4d8f7f": {
+   "jobId": "68dc24fcd6470e72cf4d8f7f",
+   "title": "Senior Staff Software Engineer",
+   "company": "Pulley",
+   "score": 97.8067,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759723101606,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e00e091852e62f007e6d87": {
+   "jobId": "68e00e091852e62f007e6d87",
+   "title": "Java Architect",
+   "company": "Precision Technologies",
+   "score": 97.6425,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759723031158,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e033541852e62f007e8652": {
+   "jobId": "68e033541852e62f007e8652",
+   "title": "Infrastructure Cloud Engineer",
+   "company": "Dimensional Fund Advisors",
+   "score": 93.1077,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759722984928,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e24c28f758fe1f97e59fba": {
+   "jobId": "68e24c28f758fe1f97e59fba",
+   "title": "Senior DevOps engineer",
+   "company": "OVA.Work",
+   "score": 96.9072,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759722190896,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c8cdf0983e6768bc5519e0": {
+   "jobId": "68c8cdf0983e6768bc5519e0",
+   "title": "Staff Software Engineer",
+   "company": "Topstep",
+   "score": 95.1912,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759722106566,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e2cf3bf758fe1f97e5ad77": {
+   "jobId": "68e2cf3bf758fe1f97e5ad77",
+   "title": "Solution Architect - Automation & Observability",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759722004577,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e2cf6c1852e62f007f8795": {
+   "jobId": "68e2cf6c1852e62f007f8795",
+   "title": "Senior AWS Cloud Architect",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759721976776,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e047d6f758fe1f97e4bf74": {
+   "jobId": "68e047d6f758fe1f97e4bf74",
+   "title": "DevOps Engineer",
+   "company": "HaloMD",
+   "score": 91.2993,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759631756444,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e0cf2e1852e62f007ef5ec": {
+   "jobId": "68e0cf2e1852e62f007ef5ec",
+   "title": "Distinguished Engineer (Remote Eligible)",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759631595829,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68951a0e8c6d6b442677765e": {
+   "jobId": "68951a0e8c6d6b442677765e",
+   "title": "Solutions Architect Digital Transformation",
+   "company": "Pivotree",
+   "score": 82.9366,
+   "rankDesc": "Good Match",
+   "applyTime": 1759631029935,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68e18aa91852e62f007f3051": {
+   "jobId": "68e18aa91852e62f007f3051",
+   "title": "App Modernization & DevOps Enablement Customer Engineer",
+   "company": "JDA TSG",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759630957629,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ddae97ddc10244dd682f28": {
+   "jobId": "68ddae97ddc10244dd682f28",
+   "title": "Cloud Transformation Architect/Enterprise Solution Architect (C/Linux/Oracle/AWS)",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759428584345,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68dddd5444d32141e0bfb421": {
+   "jobId": "68dddd5444d32141e0bfb421",
+   "title": "Senior Java Back End Developers with Kotlin",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759428525009,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68de2eb7a125e75c422b1b1a": {
+   "jobId": "68de2eb7a125e75c422b1b1a",
+   "title": "Platform Engineer III",
+   "company": "Fanatics",
+   "score": 92.1723,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759428463130,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68dbf3c9d6470e72cf4d7917": {
+   "jobId": "68dbf3c9d6470e72cf4d7917",
+   "title": "DevOps Manager = Remote",
+   "company": "Avira Digital",
+   "score": 95.1377,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759428327344,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68deb507a125e75c422b5f72": {
+   "jobId": "68deb507a125e75c422b5f72",
+   "title": "Lead Engineer, Content Management Systems",
+   "company": "Codal",
+   "score": 73.077,
+   "rankDesc": "Good Match",
+   "applyTime": 1759428232525,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ddd67344d32141e0bfb185": {
+   "jobId": "68ddd67344d32141e0bfb185",
+   "title": "Engineering Manager, Core Infrastructure",
+   "company": "Compa",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759428107960,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68deacba09bda65a4b62cab2": {
+   "jobId": "68deacba09bda65a4b62cab2",
+   "title": "Director of Engineering",
+   "company": "PlanHub",
+   "score": 86.5816,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759427618345,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68dddd9bddc10244dd684335": {
+   "jobId": "68dddd9bddc10244dd684335",
+   "title": "Senior Software Engineer - Enterprise Payments",
+   "company": "Jobs via Dice",
+   "score": 96.959,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759377591533,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68dddd91a125e75c422af755": {
+   "jobId": "68dddd91a125e75c422af755",
+   "title": "Java Microservices Developer Unqork Required | 100% Remote",
+   "company": "Jobs via Dice",
+   "score": 93.2728,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759377519449,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68db1cb96df7b8311bb1627d": {
+   "jobId": "68db1cb96df7b8311bb1627d",
+   "title": "Engineering Manager, Platform - Cloud Infrastructure",
+   "company": "Valon",
+   "score": 96.9595,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759377437249,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68dd7f53ddc10244dd67ff83": {
+   "jobId": "68dd7f53ddc10244dd67ff83",
+   "title": "Senior System Engineer",
+   "company": "Atlas Search",
+   "score": 90.6402,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759377367152,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68dd87c544d32141e0bf7acd": {
+   "jobId": "68dd87c544d32141e0bf7acd",
+   "title": "DevOps Engineer - SRE, (Site Reliability)",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759377112429,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68daf6ed0dffed6f83d2b611": {
+   "jobId": "68daf6ed0dffed6f83d2b611",
+   "title": "SVP, Global SRE and DevOps, Data & Technology",
+   "company": "dentsu",
+   "score": 91.8497,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759377088676,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68dd9402ddc10244dd681155": {
+   "jobId": "68dd9402ddc10244dd681155",
+   "title": "Senior Platform Engineer",
+   "company": "BlueCross BlueShield of Tennessee",
+   "score": 94.7174,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759376909023,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68dd9ad9a125e75c422ad04a": {
+   "jobId": "68dd9ad9a125e75c422ad04a",
+   "title": "Java Microservices Developer – Unqork Required | 100% Remote",
+   "company": "HYR Global Source Inc",
+   "score": 92.131,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759376449309,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ddbc495c94f548c951a8a7": {
+   "jobId": "68ddbc495c94f548c951a8a7",
+   "title": "Engineering Manager",
+   "company": "Virtru",
+   "score": 90.8183,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759376386524,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cea777dbd9fb154ede1b5d": {
+   "jobId": "68cea777dbd9fb154ede1b5d",
+   "title": "Cloud Architect - USCIS - Remote",
+   "company": "ITC Federal",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759290742844,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68dbae506f6c5c3fadf2e9b0": {
+   "jobId": "68dbae506f6c5c3fadf2e9b0",
+   "title": "Java/Cloud Solutions Architect",
+   "company": "RIT Solutions, Inc.",
+   "score": 96.5495,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759290426195,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68af73a11f0a2a568a061d44": {
+   "jobId": "68af73a11f0a2a568a061d44",
+   "title": "Principal AI Engineer",
+   "company": "League",
+   "score": 76.4338,
+   "rankDesc": "Good Match",
+   "applyTime": 1759290334315,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "689be2b5faa4e875e8264263": {
+   "jobId": "689be2b5faa4e875e8264263",
+   "title": "Sr Staff Software Engineer DevOps",
+   "company": "Hammerspace",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759290267820,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68dadb190b832179ca4b1e29": {
+   "jobId": "68dadb190b832179ca4b1e29",
+   "title": "Senior Forward Deployed AI Engineer",
+   "company": "Adobe",
+   "score": 72.9611,
+   "rankDesc": "Good Match",
+   "applyTime": 1759176233601,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d2941717554c2d9eee83cf": {
+   "jobId": "68d2941717554c2d9eee83cf",
+   "title": "Principal Site Reliability Engineer",
+   "company": "Greystar (International)",
+   "score": 92.103,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759081337347,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d9120a9a8e451a446a43c2": {
+   "jobId": "68d9120a9a8e451a446a43c2",
+   "title": "Staff Backend Engineer",
+   "company": "MNTN",
+   "score": 94.7719,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759080860737,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cf5cd9dbd9fb154ede7562": {
+   "jobId": "68cf5cd9dbd9fb154ede7562",
+   "title": "Senior Director of Platform",
+   "company": "Alma",
+   "score": 87.1168,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759031325026,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d6eb5a894705799a2eec0b": {
+   "jobId": "68d6eb5a894705799a2eec0b",
+   "title": "Director, Cloud & Platform Engineering",
+   "company": "UKG",
+   "score": 94.4085,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759030481572,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d30e6117554c2d9eeed89f": {
+   "jobId": "68d30e6117554c2d9eeed89f",
+   "title": "VP of Technology Operations and Automation",
+   "company": "Nomi Health",
+   "score": 82.7273,
+   "rankDesc": "Good Match",
+   "applyTime": 1759030030310,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d1efea17554c2d9eee1686": {
+   "jobId": "68d1efea17554c2d9eee1686",
+   "title": "Senior DevOps Engineer",
+   "company": "The Helper Bees",
+   "score": 94.1961,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759029939674,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d747e0e5293e3538af3797": {
+   "jobId": "68d747e0e5293e3538af3797",
+   "title": "Director, Engineering",
+   "company": "hc1",
+   "score": 94.6108,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759029659654,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d7df567a37c712687d6400": {
+   "jobId": "68d7df567a37c712687d6400",
+   "title": "Senior Python Platform Architect (AI Microservices)",
+   "company": "Arrowster",
+   "score": 95.5656,
+   "rankDesc": "Strong Match",
+   "applyTime": 1759029371888,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d55ec763d77d6f6f3edda4": {
+   "jobId": "68d55ec763d77d6f6f3edda4",
+   "title": "Senior Full Stack Python Developer",
+   "company": "Interactive Resources - iR",
+   "score": 90.7935,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758940512499,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d6f5cc894705799a2ef318": {
+   "jobId": "68d6f5cc894705799a2ef318",
+   "title": "Senior Java Software Engineer",
+   "company": "ARK Solutions, Inc.",
+   "score": 93.914,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758940422251,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ce1a50b2a74e1837edf451": {
+   "jobId": "68ce1a50b2a74e1837edf451",
+   "title": "Senior DevOps Engineer",
+   "company": "Synapse Health",
+   "score": 97.2346,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758926714801,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d6ff61d3fe025a3015dd79": {
+   "jobId": "68d6ff61d3fe025a3015dd79",
+   "title": "Senior DevOps Engineer, Ephemeral Infrastructure",
+   "company": "Upstart",
+   "score": 94.5427,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758926572923,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cb3392ba798c1a501cd28e": {
+   "jobId": "68cb3392ba798c1a501cd28e",
+   "title": "AI Engineer",
+   "company": "Accroid Inc",
+   "score": 97.8309,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758926419695,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d6e36e45853d0e39ccab74": {
+   "jobId": "68d6e36e45853d0e39ccab74",
+   "title": "Senior Staff Infrastructure Engineer",
+   "company": "TwelveLabs",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758925903820,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d5c9cc2116ff37ee090438": {
+   "jobId": "68d5c9cc2116ff37ee090438",
+   "title": "Senior Software Engineer/Developer",
+   "company": "Nakupuna Companies",
+   "score": 94.0922,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758855517089,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d5e2b62116ff37ee090e32": {
+   "jobId": "68d5e2b62116ff37ee090e32",
+   "title": "DevOps Engineer",
+   "company": "micro1",
+   "score": 94.3275,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758855137854,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ce486e846f0b04af677d22": {
+   "jobId": "68ce486e846f0b04af677d22",
+   "title": "Senior Software Development Engineer - Python - Eastern Time zone",
+   "company": "Delinea",
+   "score": 86.8936,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758812476777,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d5028ee678d65ec7d8a872": {
+   "jobId": "68d5028ee678d65ec7d8a872",
+   "title": "OpenShift/Kubernetes Engineer - Must have banking sector experience",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758808916453,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d4bfc98c62e63bc7fec1f7": {
+   "jobId": "68d4bfc98c62e63bc7fec1f7",
+   "title": "Java Architect",
+   "company": "Jobs via Dice",
+   "score": 91.0867,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758808840599,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d4fbbe2ed36439e51e3f71": {
+   "jobId": "68d4fbbe2ed36439e51e3f71",
+   "title": "AWS Devops Technical Lead",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758808799416,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d5039ae678d65ec7d8a9ae": {
+   "jobId": "68d5039ae678d65ec7d8a9ae",
+   "title": "Urgent Need: AI Solutions Architect - Remote",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758808759857,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d49bbeffc1276de3fdc725": {
+   "jobId": "68d49bbeffc1276de3fdc725",
+   "title": "Senior Java Full-Stack Developer - Remote / Telecommute",
+   "company": "Jobs via Dice",
+   "score": 92.552,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758808719222,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d4a875ffc1276de3fdcd17": {
+   "jobId": "68d4a875ffc1276de3fdcd17",
+   "title": "Staff AI Engineer with DOD",
+   "company": "Jobs via Dice",
+   "score": 92.1522,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758808686594,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d4e589fcd3367e8df1918f": {
+   "jobId": "68d4e589fcd3367e8df1918f",
+   "title": "Lead Senior DevOps Engineer",
+   "company": "Motum",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758808638230,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d52f948208034919639f61": {
+   "jobId": "68d52f948208034919639f61",
+   "title": "Cloud Platform Engineer",
+   "company": "ClassDojo",
+   "score": 97.189,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758808429995,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d53b851f7fb2169ab0e0e8": {
+   "jobId": "68d53b851f7fb2169ab0e0e8",
+   "title": "Senior Implementation Engineer",
+   "company": "Artisight",
+   "score": 93.1636,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758808334274,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d4268817554c2d9eef63d9": {
+   "jobId": "68d4268817554c2d9eef63d9",
+   "title": "Principal Site Reliability Engineer",
+   "company": "Greystar",
+   "score": 86.0542,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758768694516,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d447a98c62e63bc7fe7bae": {
+   "jobId": "68d447a98c62e63bc7fe7bae",
+   "title": "Lead Infrastructure Engineer/SRE",
+   "company": "Corelight",
+   "score": 93.3039,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758768598626,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d44cb98c62e63bc7fe7dda": {
+   "jobId": "68d44cb98c62e63bc7fe7dda",
+   "title": "Cloud Infrastructure DevOps Engineer (DevOps Engineer )  - Remote",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758768504685,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d44fd4ffc1276de3fd99df": {
+   "jobId": "68d44fd4ffc1276de3fd99df",
+   "title": "AI/ML Architect",
+   "company": "COVET IT INC",
+   "score": 85.8505,
+   "rankDesc": "Good Match",
+   "applyTime": 1758768444094,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d4527017554c2d9eef86ce": {
+   "jobId": "68d4527017554c2d9eef86ce",
+   "title": "Principal Software Engineer - Full Stack",
+   "company": "Ontic",
+   "score": 92.8363,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758768410781,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d4775f77769e778f509310": {
+   "jobId": "68d4775f77769e778f509310",
+   "title": "DevOps Architect with Strong Kubernetes exp required (Only W2 resources required)",
+   "company": "Tek Leaders Inc",
+   "score": 97.6072,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758767889806,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d483fdffc1276de3fdb872": {
+   "jobId": "68d483fdffc1276de3fdb872",
+   "title": "Principal Salesforce Solutions Architect",
+   "company": "Kforce Inc",
+   "score": 78.413,
+   "rankDesc": "Good Match",
+   "applyTime": 1758767840189,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d49774ffc1276de3fdc56f": {
+   "jobId": "68d49774ffc1276de3fdc56f",
+   "title": "Director of Engineering",
+   "company": "Talently",
+   "score": 91.3321,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758767759329,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d49ac7ffc1276de3fdc5a5": {
+   "jobId": "68d49ac7ffc1276de3fdc5a5",
+   "title": "Senior Salesforce Engineer",
+   "company": "Avalara",
+   "score": 70.4421,
+   "rankDesc": "Good Match",
+   "applyTime": 1758767707932,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d49e368c62e63bc7feafc8": {
+   "jobId": "68d49e368c62e63bc7feafc8",
+   "title": "DevOps Lead Engineer",
+   "company": "Jobs via Dice",
+   "score": 97.7172,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758767286893,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d2a1fef0d9af73038d9d5a": {
+   "jobId": "68d2a1fef0d9af73038d9d5a",
+   "title": "Application Architect - Java & Web Technologies",
+   "company": "CTG",
+   "score": 89.069,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758669471241,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d2a2d7f0d9af73038d9e21": {
+   "jobId": "68d2a2d7f0d9af73038d9e21",
+   "title": "Senior Engineer (Software/System Architect)",
+   "company": "Planned Systems International",
+   "score": 92.2622,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758669139209,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d2ba3f17554c2d9eee93b1": {
+   "jobId": "68d2ba3f17554c2d9eee93b1",
+   "title": "Director/VP of Engineering",
+   "company": "Revalia Bio",
+   "score": 86.4103,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758668811864,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d2ced5f0d9af73038db73a": {
+   "jobId": "68d2ced5f0d9af73038db73a",
+   "title": "Software Development Manager",
+   "company": "Transaction Network Services (TNS)",
+   "score": 94.9098,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758668613917,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d2d7cd17554c2d9eeeacb4": {
+   "jobId": "68d2d7cd17554c2d9eeeacb4",
+   "title": "Sr API Developer",
+   "company": "American Unit, Inc",
+   "score": 85.2581,
+   "rankDesc": "Good Match",
+   "applyTime": 1758668383187,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d30fac8c62e63bc7fdd65b": {
+   "jobId": "68d30fac8c62e63bc7fdd65b",
+   "title": "Lead DevOps Engineer",
+   "company": "BMC Software",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758668324527,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d30736f0d9af73038de59d": {
+   "jobId": "68d30736f0d9af73038de59d",
+   "title": "Cloud Network Lead Engineer - Banking - Direct Client - Remote - W2 Only",
+   "company": "Jobs via Dice",
+   "score": 78.1098,
+   "rankDesc": "Good Match",
+   "applyTime": 1758667899933,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d309958c62e63bc7fdd1e2": {
+   "jobId": "68d309958c62e63bc7fdd1e2",
+   "title": "Cloud Solutions Architect",
+   "company": "S2S SOFT LLC",
+   "score": 93.7022,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758667584662,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d30f78f0d9af73038deacb": {
+   "jobId": "68d30f78f0d9af73038deacb",
+   "title": "Software Engineering Manager",
+   "company": "Mindbody",
+   "score": 92.2704,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758667515750,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d30ae917554c2d9eeed467": {
+   "jobId": "68d30ae917554c2d9eeed467",
+   "title": "Generative AI/Senior Full Stack Software Developer",
+   "company": "Astoria AI",
+   "score": 78.5295,
+   "rankDesc": "Good Match",
+   "applyTime": 1758667429555,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d1a0b4cece431f8b5861dd": {
+   "jobId": "68d1a0b4cece431f8b5861dd",
+   "title": "Sr. DevOps Engineer - 27328",
+   "company": "Daley And Associates, LLC",
+   "score": 97.9785,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758595549595,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d1a36dcece431f8b586606": {
+   "jobId": "68d1a36dcece431f8b586606",
+   "title": "Cloud Network Senior Engineer - Banking - Direct Client - Remote - Direct Client - W2 Only",
+   "company": "Jobs via Dice",
+   "score": 77.6186,
+   "rankDesc": "Good Match",
+   "applyTime": 1758595471333,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d1a239cece431f8b586432": {
+   "jobId": "68d1a239cece431f8b586432",
+   "title": "Director of Technology & Architecture",
+   "company": "Jobs via Dice",
+   "score": 96.1583,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758595405692,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d1bd60a54edb3bf3e15bdc": {
+   "jobId": "68d1bd60a54edb3bf3e15bdc",
+   "title": "Senior Oracle Integration & VBCS Developer",
+   "company": "Infoway Software",
+   "score": 85.7594,
+   "rankDesc": "Good Match",
+   "applyTime": 1758595316601,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d1c503a54edb3bf3e16174": {
+   "jobId": "68d1c503a54edb3bf3e16174",
+   "title": "Cloud Network Engineer - Banking - exp in Palo alto and Panorama - Direct Client - Remote - Direct Client - W2 Only - JOBID634",
+   "company": "Outcome Logix ( A Tech 50 Finalist company  2025 and 2022, by Pittsburgh Technology Council )",
+   "score": 74.2678,
+   "rankDesc": "Good Match",
+   "applyTime": 1758595294572,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d1c62317554c2d9eedfa91": {
+   "jobId": "68d1c62317554c2d9eedfa91",
+   "title": "Founding Backend Engineer",
+   "company": "Harnham",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758595073144,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d1c8968c62e63bc7fcfadc": {
+   "jobId": "68d1c8968c62e63bc7fcfadc",
+   "title": "Senior Software Engineer",
+   "company": "PriceSenz",
+   "score": 88.5273,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758594993069,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d1dc50a54edb3bf3e16cba": {
+   "jobId": "68d1dc50a54edb3bf3e16cba",
+   "title": "Lead DevOps Engineer (AWS) - Full Time Permanent",
+   "company": "Prodware Solutions",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758594806665,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d1eb668c62e63bc7fd1093": {
+   "jobId": "68d1eb668c62e63bc7fd1093",
+   "title": "Engineering Manager",
+   "company": "Programming.com",
+   "score": 94.1304,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758594734106,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ce24041ad6b16f028a23e4": {
+   "jobId": "68ce24041ad6b16f028a23e4",
+   "title": "Senior Manager - Site Reliability Engineering",
+   "company": "SimSpace",
+   "score": 97.9164,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758568839096,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a8d7ad6acf96396f72341d": {
+   "jobId": "68a8d7ad6acf96396f72341d",
+   "title": "Director of Engineering",
+   "company": "IRIS Software Group",
+   "score": 91.3734,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758568713622,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68792f082097a271a8975562": {
+   "jobId": "68792f082097a271a8975562",
+   "title": "Staff Software Engineer, Backend - Onchain DevX",
+   "company": "Coinbase",
+   "score": 89.0581,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758568638022,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c8683df9c6ff7aedf0e2f4": {
+   "jobId": "68c8683df9c6ff7aedf0e2f4",
+   "title": "Senior Software Engineer",
+   "company": "Baylor Genetics",
+   "score": 81.4303,
+   "rankDesc": "Good Match",
+   "applyTime": 1758568396093,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "683905e3e786fa33d0e734e0": {
+   "jobId": "683905e3e786fa33d0e734e0",
+   "title": "Lead Software Engineer",
+   "company": "Relativity",
+   "score": 89.2632,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758568064121,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d01c56846f0b04af6878bf": {
+   "jobId": "68d01c56846f0b04af6878bf",
+   "title": "GenAI Solutions Architect - Assoc Dir/Dir",
+   "company": "Aegistech",
+   "score": 86.4089,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758567623832,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c0e7ba702aa35207ab1926": {
+   "jobId": "68c0e7ba702aa35207ab1926",
+   "title": "Senior Fullstack Software Engineer - Java (R13506)",
+   "company": "Oportun",
+   "score": 87.7449,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758567570382,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d150d0cece431f8b582be7": {
+   "jobId": "68d150d0cece431f8b582be7",
+   "title": "Commercial Head of DevOps",
+   "company": "PeopleCert",
+   "score": 66.8964,
+   "rankDesc": "Fair Match",
+   "applyTime": 1758567321814,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d15f14fa731f61692de55e": {
+   "jobId": "68d15f14fa731f61692de55e",
+   "title": "Information Technology Architecture",
+   "company": "OKAYA INFOCOM",
+   "score": 95.2514,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758567226276,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d15fedfa731f61692de604": {
+   "jobId": "68d15fedfa731f61692de604",
+   "title": "AWS Cloud Ops SME",
+   "company": "Genpact",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758567209671,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b71cd92124650c1401f81e": {
+   "jobId": "68b71cd92124650c1401f81e",
+   "title": "LATAM Senior Engineer (React Native & Flutter)",
+   "company": "Praxent",
+   "score": 83.5166,
+   "rankDesc": "Good Match",
+   "applyTime": 1758567120931,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d18180cece431f8b5847d8": {
+   "jobId": "68d18180cece431f8b5847d8",
+   "title": "GCP/SAP BW Cloud Architect",
+   "company": "Global Business Ser. 4u",
+   "score": 88.7096,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758566999967,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d1764afa731f61692df13c": {
+   "jobId": "68d1764afa731f61692df13c",
+   "title": "Cloud DevOps Engineer",
+   "company": "TWO95 International, Inc",
+   "score": 95.1401,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758566913907,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68d18c228c62e63bc7fcc957": {
+   "jobId": "68d18c228c62e63bc7fcc957",
+   "title": "AWS Cloud Architect with Java Microservices",
+   "company": "Talent Groups",
+   "score": 92.3013,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758566853308,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cf3045846f0b04af67fb5b": {
+   "jobId": "68cf3045846f0b04af67fb5b",
+   "title": "Storage Infrastructure Operations and Automation Domain",
+   "company": "Crave InfoTech",
+   "score": 74.3211,
+   "rankDesc": "Good Match",
+   "applyTime": 1758423912789,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cdaf1fe23def7af55bdf89": {
+   "jobId": "68cdaf1fe23def7af55bdf89",
+   "title": "Principal DevOps Engineer",
+   "company": "ShipBob",
+   "score": 97.3137,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758318549267,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cdbb8c1ad6b16f0289e666": {
+   "jobId": "68cdbb8c1ad6b16f0289e666",
+   "title": "GenAI Technical Lead | Only W2 | 100% Remote",
+   "company": "Jobs via Dice",
+   "score": 92.4491,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758316545792,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cd88bf1ad6b16f0289af24": {
+   "jobId": "68cd88bf1ad6b16f0289af24",
+   "title": "AI Principal",
+   "company": "HCLTech",
+   "score": 73.8404,
+   "rankDesc": "Good Match",
+   "applyTime": 1758306953822,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cd9c16e23def7af55bc9a0": {
+   "jobId": "68cd9c16e23def7af55bc9a0",
+   "title": "Director of IT Engineering",
+   "company": "EZCORP",
+   "score": 97.4172,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758306298893,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ccb424128dc347fd928748": {
+   "jobId": "68ccb424128dc347fd928748",
+   "title": "Cloud Engineer with AWS, OCI - Independent Candidate",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758250783312,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ccb9877342c7623ae68af6": {
+   "jobId": "68ccb9877342c7623ae68af6",
+   "title": "Sr DevOps Manager",
+   "company": "DDN",
+   "score": 89.0955,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758250747889,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cc5ecb7342c7623ae63afc": {
+   "jobId": "68cc5ecb7342c7623ae63afc",
+   "title": "Senior Python Developer - Mortgage domain - Remote - Direct Client - Quick Interview - W2 Only",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758229593972,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cc51a0128dc347fd922820": {
+   "jobId": "68cc51a0128dc347fd922820",
+   "title": "IT Solutions Architect - Must have Healthcare Payer exp.",
+   "company": "Jobs via Dice",
+   "score": 93.1767,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758229540997,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6892641b4c7e851b90ad558f": {
+   "jobId": "6892641b4c7e851b90ad558f",
+   "title": "Senior DevOps - Infrastructure",
+   "company": "Wasabi Technologies",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758229430017,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cbfe47128dc347fd91d131": {
+   "jobId": "68cbfe47128dc347fd91d131",
+   "title": "Senior Site Reliability Engineer",
+   "company": "Chainlink Labs",
+   "score": 97.1977,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758229042499,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cc222516d00d2beeb1a50e": {
+   "jobId": "68cc222516d00d2beeb1a50e",
+   "title": "Principal Salesforce Architect, Healthcare",
+   "company": "NeoGenomics Laboratories",
+   "score": 74.1855,
+   "rankDesc": "Good Match",
+   "applyTime": 1758228426894,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cc23b816d00d2beeb1a77d": {
+   "jobId": "68cc23b816d00d2beeb1a77d",
+   "title": "Senior Cloud Engineer - AWS & Oracle Cloud Infrastructure",
+   "company": "Healthcare IT Leaders",
+   "score": 95.3645,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758228177849,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cc623616d00d2beeb1e9b0": {
+   "jobId": "68cc623616d00d2beeb1e9b0",
+   "title": "Automation Architect",
+   "company": "Jobs via Dice",
+   "score": 81.9477,
+   "rankDesc": "Good Match",
+   "applyTime": 1758227841191,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cc629c16d00d2beeb1ea7f": {
+   "jobId": "68cc629c16d00d2beeb1ea7f",
+   "title": "Tech Lead -GDCC (Google Distributed Cloud)",
+   "company": "Patton Labs Inc",
+   "score": 96.9597,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758227790388,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cc633e16d00d2beeb1ebaa": {
+   "jobId": "68cc633e16d00d2beeb1ebaa",
+   "title": "Senior Software Engineer II (Platform Engineering)",
+   "company": "Sophos",
+   "score": 95.5215,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758227722753,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cc658f16d00d2beeb1f139": {
+   "jobId": "68cc658f16d00d2beeb1f139",
+   "title": "Network Automation / Network DevOps Engineer",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758227667833,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cc66377342c7623ae64365": {
+   "jobId": "68cc66377342c7623ae64365",
+   "title": "Sr. Gen AI Architect with python",
+   "company": "Jobs via Dice",
+   "score": 95.6546,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758227521613,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cb608e9e3a822f5d24578b": {
+   "jobId": "68cb608e9e3a822f5d24578b",
+   "title": "GenAI Technical Lead | Only W2 | Remote | CTH",
+   "company": "Jobs via Dice",
+   "score": 92.4074,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758162282272,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cb60c3efdec76df36bbef6": {
+   "jobId": "68cb60c3efdec76df36bbef6",
+   "title": "Principal SW Engineer",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758162219571,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cb0607d905e25191d9e545": {
+   "jobId": "68cb0607d905e25191d9e545",
+   "title": "Salesforce Delivery Director",
+   "company": "McKesson",
+   "score": 61.2716,
+   "rankDesc": "Fair Match",
+   "applyTime": 1758144979781,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cb063befdec76df36b7a60": {
+   "jobId": "68cb063befdec76df36b7a60",
+   "title": "Senior Devops Engineer",
+   "company": "Tech9",
+   "score": 96.2355,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758144619022,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cb11029e3a822f5d2420e0": {
+   "jobId": "68cb11029e3a822f5d2420e0",
+   "title": "REMOTE - AWS Cloud Engineer - Federal Contract",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758144457828,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68cb1ef1ba798c1a501cc09c": {
+   "jobId": "68cb1ef1ba798c1a501cc09c",
+   "title": "Software Development Director - Site Reliability Engineering, Oracle Health - US Citizen Required",
+   "company": "Oracle",
+   "score": 94.3016,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758144311752,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ca14dfd4187c55157a5ecc": {
+   "jobId": "68ca14dfd4187c55157a5ecc",
+   "title": "Senior Cloud Architect",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758075245455,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c9d44a95f5211cd2cf4d08": {
+   "jobId": "68c9d44a95f5211cd2cf4d08",
+   "title": "Platform Architect",
+   "company": "Sibitalent Corp",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758075032959,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c9d9af84fc1901fd419c6c": {
+   "jobId": "68c9d9af84fc1901fd419c6c",
+   "title": "Senior Azure AI & ML Engineer",
+   "company": "Lorven Technologies Inc.",
+   "score": 82.9119,
+   "rankDesc": "Good Match",
+   "applyTime": 1758074959938,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c9dbb184fc1901fd41a1f1": {
+   "jobId": "68c9dbb184fc1901fd41a1f1",
+   "title": "Principal Software Engineer",
+   "company": "Sysdig",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758074895155,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c9e77584fc1901fd41a88c": {
+   "jobId": "68c9e77584fc1901fd41a88c",
+   "title": "Appian Developer-- W2 positon",
+   "company": "ExaTech Inc",
+   "score": 75.2174,
+   "rankDesc": "Good Match",
+   "applyTime": 1758074779824,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ca0433d4187c55157a536a": {
+   "jobId": "68ca0433d4187c55157a536a",
+   "title": "DevSecOps Engineer",
+   "company": "SRM Digital LLC",
+   "score": 95.1654,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758074270258,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ca10a2d4187c55157a5d18": {
+   "jobId": "68ca10a2d4187c55157a5d18",
+   "title": "Principal Software Engineer",
+   "company": "loanDepot",
+   "score": 84.9095,
+   "rankDesc": "Good Match",
+   "applyTime": 1758074205496,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c90dfc95f5211cd2cedd05": {
+   "jobId": "68c90dfc95f5211cd2cedd05",
+   "title": "Engineering Manager, Cloud Infrastructure & Security",
+   "company": "ChowNow",
+   "score": 94.4311,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758041603966,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ac9f4ed627244576e475cc": {
+   "jobId": "68ac9f4ed627244576e475cc",
+   "title": "Senior DevOps Engineer (Federal & Commercial)",
+   "company": "Omnissa",
+   "score": 96.8559,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758041174862,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6875522fae2f413e4a5a5c1e": {
+   "jobId": "6875522fae2f413e4a5a5c1e",
+   "title": "Principal Platform Engineer",
+   "company": "GeneDx",
+   "score": 95.6868,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758040957509,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c966e8a0c52d598ea37347": {
+   "jobId": "68c966e8a0c52d598ea37347",
+   "title": "Vice President, Engineering",
+   "company": "Bonterra",
+   "score": 93.2724,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758040716089,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c96f6f95f5211cd2cf0723": {
+   "jobId": "68c96f6f95f5211cd2cf0723",
+   "title": "Manager, DevOps Operations",
+   "company": "HealthEdge",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758040540513,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c97812a0c52d598ea37b5b": {
+   "jobId": "68c97812a0c52d598ea37b5b",
+   "title": "Software Engineer - CI Automation",
+   "company": "Viasat",
+   "score": 96.9042,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758038931462,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c97d2ef9c6ff7aedf1a348": {
+   "jobId": "68c97d2ef9c6ff7aedf1a348",
+   "title": "Oracle Cloud Infrastructure (OCI) Architect - REMOTE",
+   "company": "HYR Global Source Inc",
+   "score": 88.521,
+   "rankDesc": "Strong Match",
+   "applyTime": 1758038644200,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c88c22983e6768bc54ecc9": {
+   "jobId": "68c88c22983e6768bc54ecc9",
+   "title": "Senior Software Engineer",
+   "company": "Abrigo",
+   "score": 86.6715,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757993179803,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c8969a95f5211cd2ce7243": {
+   "jobId": "68c8969a95f5211cd2ce7243",
+   "title": "Lead DevOps Engineer",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757992917789,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c8a62df9c6ff7aedf1104f": {
+   "jobId": "68c8a62df9c6ff7aedf1104f",
+   "title": "Senior Cloud Architect",
+   "company": "T-Rex Solutions, LLC",
+   "score": 97.6592,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757992670721,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c8aebc983e6768bc5502dd": {
+   "jobId": "68c8aebc983e6768bc5502dd",
+   "title": "Principal Cloud Transformation Architect/Engineer",
+   "company": "StratITech",
+   "score": 96.8488,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757992554039,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c87b1f95f5211cd2ce5b11": {
+   "jobId": "68c87b1f95f5211cd2ce5b11",
+   "title": "Cloud Architect (AWS)",
+   "company": "Centurion",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757976921196,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c8729af9c6ff7aedf0eb0b": {
+   "jobId": "68c8729af9c6ff7aedf0eb0b",
+   "title": "Senior Azure Cloud Data Engineer",
+   "company": "E-Solutions",
+   "score": 73.5827,
+   "rankDesc": "Good Match",
+   "applyTime": 1757976824860,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c861ff983e6768bc54c583": {
+   "jobId": "68c861ff983e6768bc54c583",
+   "title": "Senior Systems Engineer - FinServ and Research",
+   "company": "VAST Data",
+   "score": 70.0324,
+   "rankDesc": "Good Match",
+   "applyTime": 1757976785111,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c86b1b983e6768bc54d41e": {
+   "jobId": "68c86b1b983e6768bc54d41e",
+   "title": "Principal Software Developer",
+   "company": "Leidos",
+   "score": 86.4713,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757976667972,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c87b3d983e6768bc54df4b": {
+   "jobId": "68c87b3d983e6768bc54df4b",
+   "title": "AWS IAM Technical Lead",
+   "company": "CBTS",
+   "score": 94.7084,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757976277187,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c882e295f5211cd2ce635e": {
+   "jobId": "68c882e295f5211cd2ce635e",
+   "title": "Senior DevOps Engineer - Pulumi",
+   "company": "SRM Digital LLC",
+   "score": 90.279,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757976177053,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c88a72983e6768bc54eabd": {
+   "jobId": "68c88a72983e6768bc54eabd",
+   "title": "Senior Java Middleware Developer",
+   "company": "Jobs via Dice",
+   "score": 79.0594,
+   "rankDesc": "Good Match",
+   "applyTime": 1757976137310,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c881e395f5211cd2ce6236": {
+   "jobId": "68c881e395f5211cd2ce6236",
+   "title": "Lead Software Engineer, MSFT Azure Technologies",
+   "company": "BlueVoyant",
+   "score": 91.4078,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757976062662,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c88cfe983e6768bc54edeb": {
+   "jobId": "68c88cfe983e6768bc54edeb",
+   "title": "GenAI Technical Lead | Only W2 | Remote",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757976007792,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c85d01983e6768bc54c2a0": {
+   "jobId": "68c85d01983e6768bc54c2a0",
+   "title": "Oracle Cloud Infrastructure (OCI) Architect - REMOTE",
+   "company": "HYR Global Source Inc",
+   "score": 88.521,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757963609760,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c625577d0db41142735c01": {
+   "jobId": "68c625577d0db41142735c01",
+   "title": "Senior Member Technical Staff - OCI",
+   "company": "Oracle",
+   "score": 90.6371,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757818472272,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b970e96105227d11894bff": {
+   "jobId": "68b970e96105227d11894bff",
+   "title": "Remote Staff SW Engineer (Ruby/React) - $180k-$230k",
+   "company": "CyberCoders",
+   "score": 87.945,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757818245827,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c4c7eb31e5763f188e387e": {
+   "jobId": "68c4c7eb31e5763f188e387e",
+   "title": "System Engineer Devops Contract to Hire DMV area",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757730436602,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bb6cc35f3832749186f143": {
+   "jobId": "68bb6cc35f3832749186f143",
+   "title": "Senior Software Engineer | AI",
+   "company": "AffiniPay",
+   "score": 87.6067,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757629227810,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c333875adaee6c9bda835b": {
+   "jobId": "68c333875adaee6c9bda835b",
+   "title": "VP of Program Management / SME Partner",
+   "company": "Blankfactor",
+   "score": 76.323,
+   "rankDesc": "Good Match",
+   "applyTime": 1757628889209,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c335dc63829b0a8a500eee": {
+   "jobId": "68c335dc63829b0a8a500eee",
+   "title": "Tech Director",
+   "company": "Blankfactor",
+   "score": 88.5928,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757628779862,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68806cd09f7280424570b16a": {
+   "jobId": "68806cd09f7280424570b16a",
+   "title": "Staff/Principal Software Engineer (Backend)",
+   "company": "GoTu",
+   "score": 81.6175,
+   "rankDesc": "Good Match",
+   "applyTime": 1757628697414,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c1c8e64d652f0447759f1f": {
+   "jobId": "68c1c8e64d652f0447759f1f",
+   "title": "Senior Solutions Engineer, US East (Remote)",
+   "company": "Pipe",
+   "score": 75.6948,
+   "rankDesc": "Good Match",
+   "applyTime": 1757537550741,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c1dd394d652f044775b292": {
+   "jobId": "68c1dd394d652f044775b292",
+   "title": "Java Solution Architect",
+   "company": "The Value Maximizer",
+   "score": 87.3238,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757537503711,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "686dd7320e8b271a3e85a1b8": {
+   "jobId": "686dd7320e8b271a3e85a1b8",
+   "title": "Staff Engineer, SoC Devops",
+   "company": "Tenstorrent",
+   "score": 95.4486,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757523938011,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c172a23fd8b059a20efdc2": {
+   "jobId": "68c172a23fd8b059a20efdc2",
+   "title": "Senior Software Engineer (Backend)",
+   "company": "Number 6",
+   "score": 86.9142,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757523895068,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c19cee233c7d3e64d02d47": {
+   "jobId": "68c19cee233c7d3e64d02d47",
+   "title": "Infrastructure Administrator",
+   "company": "Yochana",
+   "score": 80.5782,
+   "rankDesc": "Good Match",
+   "applyTime": 1757523785115,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c1a3ed4d652f0447758c81": {
+   "jobId": "68c1a3ed4d652f0447758c81",
+   "title": "Java Developer- Remote",
+   "company": "HYR Global Source Inc",
+   "score": 87.7317,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757523724011,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6885fdaffbbf032d0006f780": {
+   "jobId": "6885fdaffbbf032d0006f780",
+   "title": "Senior Java Architect",
+   "company": "InfoCepts",
+   "score": 97.1493,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757441940719,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c037a25c5d5f14f46dbd6b": {
+   "jobId": "68c037a25c5d5f14f46dbd6b",
+   "title": "Sr. API Engineer (W2 Contract) - Financial Systems",
+   "company": "Infojini Inc",
+   "score": 87.6491,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757441654182,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c04f6c702aa35207aac10f": {
+   "jobId": "68c04f6c702aa35207aac10f",
+   "title": "Cloud Platform Architect (AWS/Azure/GCP)",
+   "company": "ClifyX",
+   "score": 94.5645,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757441553471,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68c067d1702aa35207aacdc7": {
+   "jobId": "68c067d1702aa35207aacdc7",
+   "title": "DevOps Technical Lead",
+   "company": "Babel",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757441355684,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bf40e35c5d5f14f46d5648": {
+   "jobId": "68bf40e35c5d5f14f46d5648",
+   "title": "Advisor - Cloud Engineer — Research Tech@Lilly",
+   "company": "Eli Lilly and Company",
+   "score": 94.7562,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757388388171,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bf41db5c5d5f14f46d579e": {
+   "jobId": "68bf41db5c5d5f14f46d579e",
+   "title": "Solutions Architect (Azure)",
+   "company": "Sphera",
+   "score": 97.9142,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757388084726,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bf666d5c5d5f14f46d6860": {
+   "jobId": "68bf666d5c5d5f14f46d6860",
+   "title": "Senior Java Spring Boot Developer",
+   "company": "OCH Technologies, LLC",
+   "score": 86.3016,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757387855215,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bf7ded702aa35207aa6d11": {
+   "jobId": "68bf7ded702aa35207aa6d11",
+   "title": "Senior Site Reliability Engineer (SRE)",
+   "company": "Concord",
+   "score": 97.3645,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757387544034,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bf87715c5d5f14f46d7b83": {
+   "jobId": "68bf87715c5d5f14f46d7b83",
+   "title": "Senior Software Engineering Manager",
+   "company": "Careers Flow Recruit",
+   "score": 95.6923,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757387450045,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bf712a8e65e77df55ba48f": {
+   "jobId": "68bf712a8e65e77df55ba48f",
+   "title": "Senior DevOps Engineer",
+   "company": "TENEX.AI",
+   "score": 97.1172,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757387402080,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bf7ad05c5d5f14f46d728d": {
+   "jobId": "68bf7ad05c5d5f14f46d728d",
+   "title": "A/AI Research Engineer Mgr",
+   "company": "Lockheed Martin",
+   "score": 79.9337,
+   "rankDesc": "Good Match",
+   "applyTime": 1757386480798,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bf2f075c5d5f14f46d493e": {
+   "jobId": "68bf2f075c5d5f14f46d493e",
+   "title": "Lead Public Cloud Windows Engineer",
+   "company": "Jobs via Dice",
+   "score": 96.1596,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757367462573,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bf33278e65e77df55b8284": {
+   "jobId": "68bf33278e65e77df55b8284",
+   "title": "Mainframe DevOps Engineer - Remote, US-Duration: Long Term Contract",
+   "company": "Jobs via Dice",
+   "score": 96.7576,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757367370872,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bf34698e65e77df55b83a7": {
+   "jobId": "68bf34698e65e77df55b83a7",
+   "title": "Large Language Model Operations Engineer - R01554697",
+   "company": "Brillio",
+   "score": 85.4052,
+   "rankDesc": "Good Match",
+   "applyTime": 1757367334102,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bf36bd5c5d5f14f46d4f70": {
+   "jobId": "68bf36bd5c5d5f14f46d4f70",
+   "title": "Lead Engineer Data Platform - US Based Remote",
+   "company": "Anywhere Real Estate Inc.",
+   "score": 76.4486,
+   "rankDesc": "Good Match",
+   "applyTime": 1757367121700,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bf38095c5d5f14f46d50e1": {
+   "jobId": "68bf38095c5d5f14f46d50e1",
+   "title": "Senior Manager - IAM (Identity and Access Management)",
+   "company": "dsm-firmenich",
+   "score": 70.1321,
+   "rankDesc": "Good Match",
+   "applyTime": 1757366645750,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bf1df5702aa35207aa3385": {
+   "jobId": "68bf1df5702aa35207aa3385",
+   "title": "Sr. AI Ops Engineer",
+   "company": "Calix",
+   "score": 88.2004,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757366256459,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bf38e75c5d5f14f46d51e5": {
+   "jobId": "68bf38e75c5d5f14f46d51e5",
+   "title": "Staff Software Engineer - SRE/DevEx (Remote)",
+   "company": "Rula",
+   "score": 88.3884,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757366100042,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bf3e088e65e77df55b89cd": {
+   "jobId": "68bf3e088e65e77df55b89cd",
+   "title": "Cloud Engineer",
+   "company": "Med-Metrix",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757365792112,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6866bb610c725ef7354e4986": {
+   "jobId": "6866bb610c725ef7354e4986",
+   "title": "Manager, Engineering",
+   "company": "Seismic",
+   "score": 93.3543,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757351541825,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b11baae815524ae11fb2de": {
+   "jobId": "68b11baae815524ae11fb2de",
+   "title": "VP Engineering",
+   "company": "Litmus",
+   "score": 82.56,
+   "rankDesc": "Good Match",
+   "applyTime": 1757351121755,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68be5bfac4c5904ff6005c90": {
+   "jobId": "68be5bfac4c5904ff6005c90",
+   "title": "Principal Platform Engineer",
+   "company": "Conveyor",
+   "score": 88.8671,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757350471093,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68be9c853d31ec76b7e8b1bf": {
+   "jobId": "68be9c853d31ec76b7e8b1bf",
+   "title": "Senior Site Reliability Engineer",
+   "company": "InterEx Group",
+   "score": 86.3173,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757350356923,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bed7c5702aa35207aa0da3": {
+   "jobId": "68bed7c5702aa35207aa0da3",
+   "title": "Senior/ Principal Member of Technical Staff - Backend Developer - Remote",
+   "company": "Jobs via Dice",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757350132462,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bee62b5c5d5f14f46d1f48": {
+   "jobId": "68bee62b5c5d5f14f46d1f48",
+   "title": "Azure Devops Lead",
+   "company": "InfoCepts",
+   "score": 96.0559,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757350108266,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "67878e026cceb4a8560d924a": {
+   "jobId": "67878e026cceb4a8560d924a",
+   "title": "Principal Software Engineer",
+   "company": "6sense",
+   "score": 93.0123,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757350068746,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bddfc2c4c5904ff600445f": {
+   "jobId": "68bddfc2c4c5904ff600445f",
+   "title": "Principal Software Engineer",
+   "company": "Jobs via Dice",
+   "score": 94.682,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757297587649,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bdf9b8c4c5904ff6004677": {
+   "jobId": "68bdf9b8c4c5904ff6004677",
+   "title": "Senior Software Engineer",
+   "company": "Astera",
+   "score": 79.8517,
+   "rankDesc": "Good Match",
+   "applyTime": 1757297513733,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68be2c47c4c5904ff60049b2": {
+   "jobId": "68be2c47c4c5904ff60049b2",
+   "title": "Salesforce Technical Architect",
+   "company": "Jobs via Dice",
+   "score": 92.7434,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757297452929,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bc5c293bf9eb44f8323e1f": {
+   "jobId": "68bc5c293bf9eb44f8323e1f",
+   "title": "Principal Software Architect- Application & Cloud",
+   "company": "Jobot",
+   "score": 94.6633,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757179901629,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bb6c5b6105227d118a5de1": {
+   "jobId": "68bb6c5b6105227d118a5de1",
+   "title": "Manager, Engineering | AI",
+   "company": "AffiniPay",
+   "score": 79.0578,
+   "rankDesc": "Good Match",
+   "applyTime": 1757126881048,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bb76dd6105227d118a6182": {
+   "jobId": "68bb76dd6105227d118a6182",
+   "title": "Senior Director - Cloud Infrastructure & Platform Engineering",
+   "company": "GE HealthCare",
+   "score": 94.6083,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757126745051,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a35364403ad4363b1c00a4": {
+   "jobId": "68a35364403ad4363b1c00a4",
+   "title": "Solution Architect - Agentic AI",
+   "company": "ClifyX",
+   "score": 94.5645,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757108735866,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6880e3d616ea5743a3733c39": {
+   "jobId": "6880e3d616ea5743a3733c39",
+   "title": "Sr. Java Developer, Technical Lead",
+   "company": "Alpha Omega",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757108692142,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68baf93b5f3832749186af57": {
+   "jobId": "68baf93b5f3832749186af57",
+   "title": "Senior DevOps Engineer",
+   "company": "Trinnex",
+   "score": 95.5466,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757108452134,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bb36f56105227d118a416d": {
+   "jobId": "68bb36f56105227d118a416d",
+   "title": "System Architect",
+   "company": "ConnexPay",
+   "score": 91.9151,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757108042687,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bb386a5f3832749186d5d8": {
+   "jobId": "68bb386a5f3832749186d5d8",
+   "title": "Technical Infrastructure Engineering Manager",
+   "company": "Unisys",
+   "score": 96.0575,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757107982807,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bb39d08043103d4f226d49": {
+   "jobId": "68bb39d08043103d4f226d49",
+   "title": "DevOps Architect (Confluent Kafka exp)",
+   "company": "TEK NINJAS",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757107568252,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bb3bf58043103d4f226f3a": {
+   "jobId": "68bb3bf58043103d4f226f3a",
+   "title": "Network Automation Engineer (USA Remote)",
+   "company": "Presidio",
+   "score": 83.6325,
+   "rankDesc": "Good Match",
+   "applyTime": 1757107535247,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bb46956105227d118a4c35": {
+   "jobId": "68bb46956105227d118a4c35",
+   "title": "Senior Platform Engineer",
+   "company": "Encora Inc.",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757107075625,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68bb48215f3832749186e034": {
+   "jobId": "68bb48215f3832749186e034",
+   "title": "AI/ML Architect",
+   "company": "KPG99 INC",
+   "score": 81.6921,
+   "rankDesc": "Good Match",
+   "applyTime": 1757107025949,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "689d164bfaa4e875e826cf4b": {
+   "jobId": "689d164bfaa4e875e826cf4b",
+   "title": "Senior Backend Product Software Engineer, Reclaim",
+   "company": "Dropbox",
+   "score": 85.8027,
+   "rankDesc": "Good Match",
+   "applyTime": 1757044206192,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b9ca5e6105227d11897c57": {
+   "jobId": "68b9ca5e6105227d11897c57",
+   "title": "Senior Software Developer – Legacy Systems& Public Sector Solutions",
+   "company": "Zirlen Technologies Inc.,",
+   "score": 70.5038,
+   "rankDesc": "Good Match",
+   "applyTime": 1757043739418,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b9c8bc8043103d4f21a5f3": {
+   "jobId": "68b9c8bc8043103d4f21a5f3",
+   "title": "Cloud Infrastructure DevOps Engineer (DevOps Engineer )  - Remote",
+   "company": "The Dignify Solutions, LLC",
+   "score": 91.7378,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757043616048,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b9d8888043103d4f21af0b": {
+   "jobId": "68b9d8888043103d4f21af0b",
+   "title": "Staff Software Engineer",
+   "company": "Ivanti",
+   "score": 86.3751,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757043543559,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b9df585f383274918618eb": {
+   "jobId": "68b9df585f383274918618eb",
+   "title": "Director of Cloud & Platform Engineering (Remote)",
+   "company": "Jobgether",
+   "score": 96.6239,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757043472835,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b9e3248043103d4f21b6c9": {
+   "jobId": "68b9e3248043103d4f21b6c9",
+   "title": "Linux Systems Engineer/Developer",
+   "company": "Sprezzatura",
+   "score": 96.6097,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757043398107,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b9e4ee5f38327491861ebf": {
+   "jobId": "68b9e4ee5f38327491861ebf",
+   "title": "Remote Senior Member of Technical Staff – JAVA FullStack Developer",
+   "company": "Oracle",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757043327121,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b9e5ba6105227d1189902f": {
+   "jobId": "68b9e5ba6105227d1189902f",
+   "title": "Senior Developer",
+   "company": "SoftDev Incorporated",
+   "score": 74.4035,
+   "rankDesc": "Good Match",
+   "applyTime": 1757043226920,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b9e8135f383274918622e8": {
+   "jobId": "68b9e8135f383274918622e8",
+   "title": "Director of Engineering",
+   "company": "Talently",
+   "score": 82.8032,
+   "rankDesc": "Good Match",
+   "applyTime": 1757043076131,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b9e5165f38327491861f2f": {
+   "jobId": "68b9e5165f38327491861f2f",
+   "title": "Senior Software Developer Systems & Modernization Specialist",
+   "company": "ISHIR",
+   "score": 79.7974,
+   "rankDesc": "Good Match",
+   "applyTime": 1757043040508,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b9ee7b6105227d118996c5": {
+   "jobId": "68b9ee7b6105227d118996c5",
+   "title": "Senior/ Principal Member of Technical Staff - Backend Developer - Remote",
+   "company": "Oracle",
+   "score": 90.8487,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757042835264,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b9eeb96105227d1189971e": {
+   "jobId": "68b9eeb96105227d1189971e",
+   "title": "AI/ML & Python Developer",
+   "company": "JW Affinity IT",
+   "score": 75.1274,
+   "rankDesc": "Good Match",
+   "applyTime": 1757042685599,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b9f4916105227d11899a04": {
+   "jobId": "68b9f4916105227d11899a04",
+   "title": "Solution Architect, SharePoint Collaboration",
+   "company": "L3Harris Technologies",
+   "score": 69.4943,
+   "rankDesc": "Fair Match",
+   "applyTime": 1757042546323,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b9f5a05f38327491862bba": {
+   "jobId": "68b9f5a05f38327491862bba",
+   "title": "Staff Software Engineer, Full-Stack",
+   "company": "NerdWallet",
+   "score": 92.0452,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757042130009,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ba092b8043103d4f21cfab": {
+   "jobId": "68ba092b8043103d4f21cfab",
+   "title": "Senior Software Engineer - InternalOps",
+   "company": "Sphere Labs",
+   "score": 85.0579,
+   "rankDesc": "Good Match",
+   "applyTime": 1757041801337,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ba12c65f38327491863cbd": {
+   "jobId": "68ba12c65f38327491863cbd",
+   "title": "Senior Platform Engineer",
+   "company": "0x",
+   "score": 87.9029,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757041773317,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ba194a5f38327491863f93": {
+   "jobId": "68ba194a5f38327491863f93",
+   "title": "SRE Architect",
+   "company": "Mriti InfoSystems Inc.",
+   "score": 91.136,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757041731738,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ba24d36105227d1189b350": {
+   "jobId": "68ba24d36105227d1189b350",
+   "title": "DevOps Lead",
+   "company": "Kforce Inc",
+   "score": 90.6561,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757041641469,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a79ce833dd7158bbca855b": {
+   "jobId": "68a79ce833dd7158bbca855b",
+   "title": "Senior Back-end Software Engineer, Remote in the U.S.",
+   "company": "Cisco Meraki",
+   "score": 97.407,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757041625197,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ba32755f38327491864b64": {
+   "jobId": "68ba32755f38327491864b64",
+   "title": "Solution Architect (Remote Opportunity)",
+   "company": "VetsEZ",
+   "score": 83.0926,
+   "rankDesc": "Good Match",
+   "applyTime": 1757041546149,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ba33e06105227d1189ba78": {
+   "jobId": "68ba33e06105227d1189ba78",
+   "title": "Senior AWS Cloud Engineer (DevOps Lead)",
+   "company": "TalentRemedy",
+   "score": 95.3545,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757041364897,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ba0a7f6105227d1189a628": {
+   "jobId": "68ba0a7f6105227d1189a628",
+   "title": "Senior Cloud Engineer",
+   "company": "Fidelity National Financial",
+   "score": 97.6226,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757041225332,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6879c944a7fc8904e3965836": {
+   "jobId": "6879c944a7fc8904e3965836",
+   "title": "Senior Software Engineering Manager, Manufacturing and Inbound Supply Chain",
+   "company": "Acuity",
+   "score": 82.3216,
+   "rankDesc": "Good Match",
+   "applyTime": 1757040955013,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ba3b6c6105227d1189c355": {
+   "jobId": "68ba3b6c6105227d1189c355",
+   "title": "Full Stack Engineer - Senior",
+   "company": "The BitByBit Company",
+   "score": 88.4494,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757040324849,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ba40f48043103d4f21f0da": {
+   "jobId": "68ba40f48043103d4f21f0da",
+   "title": "Senior Full Stack Engineer",
+   "company": "Exactera",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1757040233849,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b89523ea901c0d269f7aa1": {
+   "jobId": "68b89523ea901c0d269f7aa1",
+   "title": "Senior Software Development Engineer - Python",
+   "company": "Delinea",
+   "score": 96.4335,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756955512690,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b896065b42bc4562825f6f": {
+   "jobId": "68b896065b42bc4562825f6f",
+   "title": "Senior Forward Deployed Engineer",
+   "company": "SpruceID",
+   "score": 79.312,
+   "rankDesc": "Good Match",
+   "applyTime": 1756955422649,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b8bdc907090163b6ba4992": {
+   "jobId": "68b8bdc907090163b6ba4992",
+   "title": "Lead Technical Architect - Salesforce FSC Transformation",
+   "company": "Recruiterthon LLC",
+   "score": 88.2267,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756955384118,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b8a358ea901c0d269f850c": {
+   "jobId": "68b8a358ea901c0d269f850c",
+   "title": "Senior Software Developer",
+   "company": "Innovee Consulting LLC",
+   "score": 81.2991,
+   "rankDesc": "Good Match",
+   "applyTime": 1756955341835,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b8ab3d5b42bc4562826d8c": {
+   "jobId": "68b8ab3d5b42bc4562826d8c",
+   "title": "Principal Software Engineer",
+   "company": "SQA Group",
+   "score": 96.8068,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756954771005,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b8ab62ea901c0d269f8a6a": {
+   "jobId": "68b8ab62ea901c0d269f8a6a",
+   "title": "Lead Java Developer",
+   "company": "Talent Groups",
+   "score": 81.9517,
+   "rankDesc": "Good Match",
+   "applyTime": 1756954722074,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b8abb05b42bc4562826df0": {
+   "jobId": "68b8abb05b42bc4562826df0",
+   "title": "Vice President of Software Engineering",
+   "company": "Tulea Health",
+   "score": 85.3989,
+   "rankDesc": "Good Match",
+   "applyTime": 1756954691435,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b8b3215b42bc4562827216": {
+   "jobId": "68b8b3215b42bc4562827216",
+   "title": "Principal DevOps Engineer",
+   "company": "nTech Workforce",
+   "score": 92.6121,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756954647154,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b8b76fea901c0d269f90ae": {
+   "jobId": "68b8b76fea901c0d269f90ae",
+   "title": "Senior Software Engineer",
+   "company": "Hirestaff.ai",
+   "score": 80.7856,
+   "rankDesc": "Good Match",
+   "applyTime": 1756954623389,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b8c1b0ea901c0d269f929e": {
+   "jobId": "68b8c1b0ea901c0d269f929e",
+   "title": "Staff Fullstack Engineer - Grapevine (AI)",
+   "company": "Gather",
+   "score": 70.744,
+   "rankDesc": "Good Match",
+   "applyTime": 1756954381841,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b8c3535b42bc4562827829": {
+   "jobId": "68b8c3535b42bc4562827829",
+   "title": "Senior Java Developer",
+   "company": "Conviso Inc.",
+   "score": 87.2944,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756954285039,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b8e2145b42bc45628287cf": {
+   "jobId": "68b8e2145b42bc45628287cf",
+   "title": "Sr Backend Software Engineer",
+   "company": "DTEX",
+   "score": 87.6546,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756954148287,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b772b72124650c14022d7d": {
+   "jobId": "68b772b72124650c14022d7d",
+   "title": "Director of Cloud & Platform Engineering (Remote)",
+   "company": "Rula",
+   "score": 90.6337,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756858177237,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b69c49f4e41a61efd93bf8": {
+   "jobId": "68b69c49f4e41a61efd93bf8",
+   "title": "Lead Architect",
+   "company": "CVS Health",
+   "score": 95.1186,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756858037577,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b6a79a1ade4306aa646096": {
+   "jobId": "68b6a79a1ade4306aa646096",
+   "title": "Principal Software Development Engineer",
+   "company": "CVS Health",
+   "score": 93.8868,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756857990869,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a54f90758f2e4ac3fddd62": {
+   "jobId": "68a54f90758f2e4ac3fddd62",
+   "title": "Principal Engineer",
+   "company": "Storm3",
+   "score": 88.3575,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756857812283,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b6c82df4e41a61efd942e4": {
+   "jobId": "68b6c82df4e41a61efd942e4",
+   "title": "Senior Backend Engineer",
+   "company": "Ethena Labs",
+   "score": 91.2121,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756857793470,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b6f50c2124650c1401e8c8": {
+   "jobId": "68b6f50c2124650c1401e8c8",
+   "title": "Sr. Manager, Software Development Engineering",
+   "company": "CVS Health",
+   "score": 92.7495,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756857633103,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b6e6411ade4306aa646876": {
+   "jobId": "68b6e6411ade4306aa646876",
+   "title": "Senior DevOps Engineer (Azure)",
+   "company": "thinkbridge",
+   "score": 97.2547,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756857433475,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b70579f4e41a61efd950a7": {
+   "jobId": "68b70579f4e41a61efd950a7",
+   "title": "Site Reliability Engineer - Public Sector",
+   "company": "Unstructured",
+   "score": 94.1964,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756857277579,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b6ffc81ade4306aa646db9": {
+   "jobId": "68b6ffc81ade4306aa646db9",
+   "title": "Staff Fullstack Engineer",
+   "company": "Private Identity",
+   "score": 93.1304,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756857181398,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6893967c4c7e851b90ade99a": {
+   "jobId": "6893967c4c7e851b90ade99a",
+   "title": "Sr. Reliability /Full Stack Developer (MPN)",
+   "company": "CBTS",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756856846085,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a6249db6a3617d7fa75b86": {
+   "jobId": "68a6249db6a3617d7fa75b86",
+   "title": "DevOps Architect",
+   "company": "Net2Source (N2S)",
+   "score": 95.1602,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756856742511,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "689d07c783d13d1f5b6accd0": {
+   "jobId": "689d07c783d13d1f5b6accd0",
+   "title": "Senior Server Automation Engineer",
+   "company": "Diligente Technologies",
+   "score": 94.5538,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756856571946,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b756a31ade4306aa64a2bb": {
+   "jobId": "68b756a31ade4306aa64a2bb",
+   "title": "Lead DevOps Engineer (Azure)",
+   "company": "Blankfactor",
+   "score": 96.7548,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756856511281,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b73dac2124650c14020bad": {
+   "jobId": "68b73dac2124650c14020bad",
+   "title": "Staff/Principal Security Engineer (HHS)",
+   "company": "Skylight",
+   "score": 63.3701,
+   "rankDesc": "Fair Match",
+   "applyTime": 1756856149569,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b74e3e1ade4306aa649e66": {
+   "jobId": "68b74e3e1ade4306aa649e66",
+   "title": "Staff Software Development Engineer",
+   "company": "CVS Health",
+   "score": 88.4377,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756855830656,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b765021ade4306aa64ac8d": {
+   "jobId": "68b765021ade4306aa64ac8d",
+   "title": "Staff Software Development Engineer - GPTOps (Backend/Cloud Focus)",
+   "company": "Delinea",
+   "score": 88.4465,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756855346298,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b76f15f4e41a61efd98e4d": {
+   "jobId": "68b76f15f4e41a61efd98e4d",
+   "title": "Salesforce Developer",
+   "company": "TEK NINJAS",
+   "score": 79.4582,
+   "rankDesc": "Good Match",
+   "applyTime": 1756855218678,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "686743e20a7d81431615af75": {
+   "jobId": "686743e20a7d81431615af75",
+   "title": "AI Software Engineer",
+   "company": "Callibrity",
+   "score": 88.7624,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756697295418,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a8dc35d627244576e3626e": {
+   "jobId": "68a8dc35d627244576e3626e",
+   "title": "Director, Cloud Architecture and Operations",
+   "company": "OneSpan",
+   "score": 97.6426,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756697268538,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b26d761ade4306aa6365dc": {
+   "jobId": "68b26d761ade4306aa6365dc",
+   "title": "Senior Manager DevOps Engineering",
+   "company": "Qventus, Inc",
+   "score": 96.1557,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756697192765,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6851515696f2af7b61082cd1": {
+   "jobId": "6851515696f2af7b61082cd1",
+   "title": "AWS DevOps Engineer (Senior)",
+   "company": "Mactores",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756697173616,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "689c194efaa4e875e82660b0": {
+   "jobId": "689c194efaa4e875e82660b0",
+   "title": "Engineering Manager, DevOps & Reliability",
+   "company": "Group 1001",
+   "score": 95.5349,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756697097289,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "689249ec4c7e851b90ad4646": {
+   "jobId": "689249ec4c7e851b90ad4646",
+   "title": "AWS Engineer ML/AI - REMOTE",
+   "company": "JSR Tech Consulting",
+   "score": 94.8657,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756696922113,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b0d31313563e782a9f99b4": {
+   "jobId": "68b0d31313563e782a9f99b4",
+   "title": "Principle DevOps Engineer",
+   "company": "Centroid Systems",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756696790786,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b13f1804557a6c207bb9f4": {
+   "jobId": "68b13f1804557a6c207bb9f4",
+   "title": "Principle AWS Cloud Architect",
+   "company": "Trustech",
+   "score": 92.4184,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756696692529,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b14b03e815524ae11fd420": {
+   "jobId": "68b14b03e815524ae11fd420",
+   "title": "Data Tech Lead",
+   "company": "Tential Solutions",
+   "score": 97.6121,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756696503892,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b159c66fab621da7b0ce6c": {
+   "jobId": "68b159c66fab621da7b0ce6c",
+   "title": "Tech Lead",
+   "company": "Tential Solutions",
+   "score": 97.6121,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756696449873,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "689745cc8c6d6b442678864b": {
+   "jobId": "689745cc8c6d6b442678864b",
+   "title": "Senior Manager - Site Reliability Engineering",
+   "company": "SimSpace",
+   "score": 97.1172,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756696222393,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b1ec5fbc187f64e1bd7d3e": {
+   "jobId": "68b1ec5fbc187f64e1bd7d3e",
+   "title": "Senior Software Engineer",
+   "company": "Top Stack",
+   "score": 87.4418,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756695492714,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b1fbaff4e41a61efd815b8": {
+   "jobId": "68b1fbaff4e41a61efd815b8",
+   "title": "Platform Engineering Reliability Services Lead",
+   "company": "Group 1001",
+   "score": 91.7682,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756695349472,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b201f21ade4306aa633b98": {
+   "jobId": "68b201f21ade4306aa633b98",
+   "title": "Principal Salesforce Architect",
+   "company": "NeoGenomics Laboratories",
+   "score": 73.1695,
+   "rankDesc": "Good Match",
+   "applyTime": 1756694892112,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b224eb1ade4306aa634992": {
+   "jobId": "68b224eb1ade4306aa634992",
+   "title": "Staff Product Engineer (Remote)",
+   "company": "Pair Team",
+   "score": 76.7749,
+   "rankDesc": "Good Match",
+   "applyTime": 1756694651382,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b22745f4e41a61efd8276a": {
+   "jobId": "68b22745f4e41a61efd8276a",
+   "title": "Senior Software Engineer - Product (Remote)",
+   "company": "Pair Team",
+   "score": 94.1073,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756694549748,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b24cd2f4e41a61efd833bf": {
+   "jobId": "68b24cd2f4e41a61efd833bf",
+   "title": "Sr. DevOps Observability Engineer",
+   "company": "ASCENDING Inc.",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756694143241,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b299c9bc187f64e1bddd28": {
+   "jobId": "68b299c9bc187f64e1bddd28",
+   "title": "Lead System/Software Developer/Technical Architect (Must have Drupal Experience)",
+   "company": "Viderity Inc.",
+   "score": 83.5267,
+   "rankDesc": "Good Match",
+   "applyTime": 1756694032488,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "689837e3faa4e875e824c068": {
+   "jobId": "689837e3faa4e875e824c068",
+   "title": "AI-Accelerated Application Modernization Engineer",
+   "company": "Liatrio",
+   "score": 89.8739,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756693961398,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68984ed45574fd6bc0c77c05": {
+   "jobId": "68984ed45574fd6bc0c77c05",
+   "title": "Software Engineer, OSS - Jupyter",
+   "company": "Anaconda",
+   "score": 87.3794,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756693835451,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b2ee53f4e41a61efd8847c": {
+   "jobId": "68b2ee53f4e41a61efd8847c",
+   "title": "Senior Site Reliability Engineer – SAP Basis and Cloud Operations",
+   "company": "NVIDIA",
+   "score": 87.6569,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756693759651,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68984e675574fd6bc0c77b3d": {
+   "jobId": "68984e675574fd6bc0c77b3d",
+   "title": "Senior Infrastructure Engineer",
+   "company": "Upstart",
+   "score": 94.5427,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756693590487,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "685b6cfc04faef4317498409": {
+   "jobId": "685b6cfc04faef4317498409",
+   "title": "Lead JavaScript Developer",
+   "company": "Tradeweb",
+   "score": 90.604,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756693409401,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68b46d26bc187f64e1be3658": {
+   "jobId": "68b46d26bc187f64e1be3658",
+   "title": "Senior IAC Engineer - Cloud Security",
+   "company": "Jobot",
+   "score": 91.1656,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756693380443,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68adf6bed627244576e50328": {
+   "jobId": "68adf6bed627244576e50328",
+   "title": "Middleware Architect",
+   "company": "Mastech Digital",
+   "score": 79.3007,
+   "rankDesc": "Good Match",
+   "applyTime": 1756242702495,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68adf6aadaf1431824c9f4c2": {
+   "jobId": "68adf6aadaf1431824c9f4c2",
+   "title": "Site Reliability Engineer",
+   "company": "Creative Information Technology, Inc.",
+   "score": 95.7542,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756242689778,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68adfcf4758f2e4ac30100f2": {
+   "jobId": "68adfcf4758f2e4ac30100f2",
+   "title": "Lead Full-Stack Software Engineer, Assurance, Remote in the U.S.",
+   "company": "Cisco",
+   "score": 86.1671,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756242661501,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ae164c758f2e4ac30113be": {
+   "jobId": "68ae164c758f2e4ac30113be",
+   "title": "Senior Systems Development Engineer",
+   "company": "Symbotic",
+   "score": 95.6642,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756242499137,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ae1940d627244576e519b3": {
+   "jobId": "68ae1940d627244576e519b3",
+   "title": "Principal Salesforce Engineer - (Service Cloud) REMOTE",
+   "company": "Claritev",
+   "score": 75.3202,
+   "rankDesc": "Good Match",
+   "applyTime": 1756242292177,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a37c5e403ad4363b1c18c8": {
+   "jobId": "68a37c5e403ad4363b1c18c8",
+   "title": "Senior/Staff Consultant - Cloud Native",
+   "company": "Nutanix",
+   "score": 84.6958,
+   "rankDesc": "Good Match",
+   "applyTime": 1756241908197,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68adc3c3758f2e4ac300e7e4": {
+   "jobId": "68adc3c3758f2e4ac300e7e4",
+   "title": "Senior Infrastructure as Code Engineer (IAC)",
+   "company": "Jobot",
+   "score": 95.2193,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756231103383,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68add557daf1431824c9e481": {
+   "jobId": "68add557daf1431824c9e481",
+   "title": "Senior Cloud Solutions Architect",
+   "company": "Rackspace Technology",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756230941337,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68adebd6758f2e4ac300f8e5": {
+   "jobId": "68adebd6758f2e4ac300f8e5",
+   "title": "Senior Site Reliability Engineer (Cloudflare)",
+   "company": "Fullsteam",
+   "score": 97.764,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756230558970,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ac29cfdaf1431824c93e93": {
+   "jobId": "68ac29cfdaf1431824c93e93",
+   "title": "Principal Engineer, Full Stack Developer (R3669)",
+   "company": "Shield AI",
+   "score": 80.0802,
+   "rankDesc": "Good Match",
+   "applyTime": 1756175788247,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ad0ae1daf1431824c9a064": {
+   "jobId": "68ad0ae1daf1431824c9a064",
+   "title": "Senior Fullstack Engineer",
+   "company": "Member Solutions",
+   "score": 86.7307,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756175365624,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68acd71adaf1431824c98b15": {
+   "jobId": "68acd71adaf1431824c98b15",
+   "title": "Platform Engineer (JOB ID 1596)",
+   "company": "OneSparQ",
+   "score": 88.9005,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756161737623,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "686ed1ba2a39bf21f1f7e490": {
+   "jobId": "686ed1ba2a39bf21f1f7e490",
+   "title": "Senior Cloud Engineer (Short Term Contract)",
+   "company": "Zencore",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756161682599,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68757a645cebcd1dd51c1258": {
+   "jobId": "68757a645cebcd1dd51c1258",
+   "title": "Senior Site Reliability Engineer",
+   "company": "EngagedMD",
+   "score": 97.6672,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756161593362,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68ac075cdaf1431824c92fcc": {
+   "jobId": "68ac075cdaf1431824c92fcc",
+   "title": "Sr. DevOps Engineer",
+   "company": "Intermedia Intelligent Communications",
+   "score": 97.7285,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756157287497,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68894a0709808a6103e468ca": {
+   "jobId": "68894a0709808a6103e468ca",
+   "title": "Principal Engineer, Productivity Engineering",
+   "company": "Netskope",
+   "score": 86.1042,
+   "rankDesc": "Strong Match",
+   "applyTime": 1756004361897,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6871d372a5ae807a59d022f7": {
+   "jobId": "6871d372a5ae807a59d022f7",
+   "title": "Infrastructure Architect Azure & Microsoft Technologies",
+   "company": "The AES Group",
+   "score": 96.7345,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755976964267,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "686d7cab7ca8d01b2625aa04": {
+   "jobId": "686d7cab7ca8d01b2625aa04",
+   "title": "Senior Cloud Architect",
+   "company": "Intelex Technologies ULC",
+   "score": 96.8002,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755976890663,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a91c1a6acf96396f724e00": {
+   "jobId": "68a91c1a6acf96396f724e00",
+   "title": "DevOps and Infra Engineer",
+   "company": "Mento",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755976602949,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a8b872758f2e4ac3ff488d": {
+   "jobId": "68a8b872758f2e4ac3ff488d",
+   "title": "Staff Engineer",
+   "company": "OneStudyTeam",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755976507911,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "687061da06ad7073463bd684": {
+   "jobId": "687061da06ad7073463bd684",
+   "title": "Senior Platform Engineer",
+   "company": "SmarterDx",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755976242054,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68916c27f5ee707a15dbe562": {
+   "jobId": "68916c27f5ee707a15dbe562",
+   "title": "Senior Director of Corporate Engineering - Internal Platforms and AI",
+   "company": "ServiceTitan",
+   "score": 82.2872,
+   "rankDesc": "Good Match",
+   "applyTime": 1755976132986,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a9cbcf758f2e4ac3ffb6b7": {
+   "jobId": "68a9cbcf758f2e4ac3ffb6b7",
+   "title": "Senior DevOps Engineer (Kubernetes, Docker, Jenkins)",
+   "company": "CatchProbe Intelligence Technologies",
+   "score": 97.07,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755975804149,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a8fe53758f2e4ac3ff685f": {
+   "jobId": "68a8fe53758f2e4ac3ff685f",
+   "title": "Director, Cloud Architecture and Operations",
+   "company": "OneSpan",
+   "score": 97.6426,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755975643520,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "688d55dd1808534a89cc2a90": {
+   "jobId": "688d55dd1808534a89cc2a90",
+   "title": "Senior Systems Engineer",
+   "company": "Spreedly",
+   "score": 94.7587,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755975499385,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a6224133dd7158bbc9e19e": {
+   "jobId": "68a6224133dd7158bbc9e19e",
+   "title": "Site Reliability Engineer (Cloud Engineering)",
+   "company": "Network to Code",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755887198966,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a89c14758f2e4ac3ff3ac7": {
+   "jobId": "68a89c14758f2e4ac3ff3ac7",
+   "title": "Dev Ops / Infrastructure Engineer - 3 Month Contract",
+   "company": "10a Labs",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755886972994,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a87068d627244576e32919": {
+   "jobId": "68a87068d627244576e32919",
+   "title": "Site Reliability Engineer",
+   "company": "IXOPAY",
+   "score": 96.565,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755886928622,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a89df8758f2e4ac3ff3c8a": {
+   "jobId": "68a89df8758f2e4ac3ff3c8a",
+   "title": "DevOps Architect",
+   "company": "OffSec",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755886765069,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a62ad5758f2e4ac3fe3455": {
+   "jobId": "68a62ad5758f2e4ac3fe3455",
+   "title": "Software Engineer - Platform (Experienced)",
+   "company": "Dagster Labs",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755834773493,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "689fe6c0faa4e875e828bdf9": {
+   "jobId": "689fe6c0faa4e875e828bdf9",
+   "title": "Senior / Staff AI Software Engineer",
+   "company": "Aegis Ventures",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755834733585,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a6ca3c33dd7158bbca3360": {
+   "jobId": "68a6ca3c33dd7158bbca3360",
+   "title": "Senior AI (IT Python and AI programming (SME) Engineer",
+   "company": "PlanIT Group, LLC",
+   "score": 76.7498,
+   "rankDesc": "Good Match",
+   "applyTime": 1755834676886,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a6bdda758f2e4ac3fe75d3": {
+   "jobId": "68a6bdda758f2e4ac3fe75d3",
+   "title": "Engineering Manager",
+   "company": "AiPrise",
+   "score": 90.1697,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755834262228,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "689fe38d83d13d1f5b6cbab8": {
+   "jobId": "689fe38d83d13d1f5b6cbab8",
+   "title": "Senior / Staff AI Software Engineer",
+   "company": "Caregentic",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755833030734,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a7842033dd7158bbca7ce8": {
+   "jobId": "68a7842033dd7158bbca7ce8",
+   "title": "Staff Software Engineer, Platform",
+   "company": "Omada Health",
+   "score": 95.5815,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755832938111,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "689df62183d13d1f5b6b5a93": {
+   "jobId": "689df62183d13d1f5b6b5a93",
+   "title": "Lead AI Engineer",
+   "company": "Bestpass by Fleetworthy",
+   "score": 91.1919,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755832841265,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a780d3758f2e4ac3fec9c4": {
+   "jobId": "68a780d3758f2e4ac3fec9c4",
+   "title": "Senior Software Engineer",
+   "company": "ClassLink",
+   "score": 95.2309,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755832551158,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "686f70fc04229046f5dece57": {
+   "jobId": "686f70fc04229046f5dece57",
+   "title": "Principal Site Reliability Engineer, Federal",
+   "company": "Okta",
+   "score": 93.7719,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755831526903,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "688a2e8b09808a6103e4cda0": {
+   "jobId": "688a2e8b09808a6103e4cda0",
+   "title": "Senior DevOps Engineer",
+   "company": "Varonis",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755831272093,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6889227e09808a6103e454f6": {
+   "jobId": "6889227e09808a6103e454f6",
+   "title": "Site Reliability Engineer - AWS",
+   "company": "Iodine Software, now part of Waystar",
+   "score": 96.696,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755831184370,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a7734fd627244576e2c766": {
+   "jobId": "68a7734fd627244576e2c766",
+   "title": "Principal Site Reliability Engineer - Cloud",
+   "company": "Donnelley Financial Solutions (DFIN)",
+   "score": 94.084,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755831038810,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a7bc74758f2e4ac3fedf63": {
+   "jobId": "68a7bc74758f2e4ac3fedf63",
+   "title": "Engineering Manager - Platform",
+   "company": "Stellar Health",
+   "score": 87.9813,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755830890362,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a75059758f2e4ac3feaf86": {
+   "jobId": "68a75059758f2e4ac3feaf86",
+   "title": "Manager, DevOps Engineering",
+   "company": "Keyfactor",
+   "score": 96.3771,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755829145896,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a7c13633dd7158bbca945c": {
+   "jobId": "68a7c13633dd7158bbca945c",
+   "title": "Systems Engineer",
+   "company": "MotivHealth",
+   "score": 94.8998,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755829057518,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a7c1a4d627244576e2e89d": {
+   "jobId": "68a7c1a4d627244576e2e89d",
+   "title": "Full Stack Lead Engineer REMOTE",
+   "company": "Realpage",
+   "score": 83.4409,
+   "rankDesc": "Good Match",
+   "applyTime": 1755828897696,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a7c20733dd7158bbca96d6": {
+   "jobId": "68a7c20733dd7158bbca96d6",
+   "title": "Senior Staff Software Engineer, IUM",
+   "company": "ServiceTitan",
+   "score": 96.5872,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755826633338,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a7c27833dd7158bbca97b3": {
+   "jobId": "68a7c27833dd7158bbca97b3",
+   "title": "Senior Data Engineer, Infrastructure",
+   "company": "Airbnb",
+   "score": 76.3304,
+   "rankDesc": "Good Match",
+   "applyTime": 1755826383488,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "687a7f01ed63844c944a36f3": {
+   "jobId": "687a7f01ed63844c944a36f3",
+   "title": "Principal Solution Architect",
+   "company": "Fractal",
+   "score": 94.9863,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755806319227,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "689decd883d13d1f5b6b54ab": {
+   "jobId": "689decd883d13d1f5b6b54ab",
+   "title": "Principal Software Development Engineer, Big Data",
+   "company": "Zillow",
+   "score": 75.5365,
+   "rankDesc": "Good Match",
+   "applyTime": 1755702879754,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68909ec14c7e851b90ac80e2": {
+   "jobId": "68909ec14c7e851b90ac80e2",
+   "title": "Senior Staff Engineer, Core Infrastructure",
+   "company": "Stripe",
+   "score": 90.2739,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755702837809,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a5d7a733dd7158bbc9c04a": {
+   "jobId": "68a5d7a733dd7158bbc9c04a",
+   "title": "Senior Data Engineer (w/m/d)",
+   "company": "Finanzguru",
+   "score": 80.1036,
+   "rankDesc": "Good Match",
+   "applyTime": 1755702336856,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a4cee7e9f1c744da1248c6": {
+   "jobId": "68a4cee7e9f1c744da1248c6",
+   "title": "Principal Data Engineer - Yahoo News",
+   "company": "Yahoo",
+   "score": 80.3742,
+   "rankDesc": "Good Match",
+   "applyTime": 1755702212481,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "686d6aceb3aa55eb0494a94f": {
+   "jobId": "686d6aceb3aa55eb0494a94f",
+   "title": "Senior Software Architect – Platform Integrations (with AI Focus)",
+   "company": "Delinea",
+   "score": 91.056,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755701953208,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a5afd833dd7158bbc9b664": {
+   "jobId": "68a5afd833dd7158bbc9b664",
+   "title": "Senior Staff Platform Engineer",
+   "company": "Veeam Software",
+   "score": 97.9189,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755701384744,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a5cc5733dd7158bbc9bb9e": {
+   "jobId": "68a5cc5733dd7158bbc9bb9e",
+   "title": "Senior Software Engineer",
+   "company": "Bolt",
+   "score": 91.9386,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755700658561,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68141b89c68705e122312b13": {
+   "jobId": "68141b89c68705e122312b13",
+   "title": "Senior Infrastructure Engineer",
+   "company": "Tyler Technologies",
+   "score": 96.8999,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755699667514,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "688997dd09808a6103e48e33": {
+   "jobId": "688997dd09808a6103e48e33",
+   "title": "Engineering Lead",
+   "company": "Cents",
+   "score": 93.2285,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755699461794,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a49026e9f1c744da122877": {
+   "jobId": "68a49026e9f1c744da122877",
+   "title": "Infrastructure Engineer",
+   "company": "Columbia Forest Products",
+   "score": 78.6319,
+   "rankDesc": "Good Match",
+   "applyTime": 1755662046497,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6842ae93c96c441a3bf78e6f": {
+   "jobId": "6842ae93c96c441a3bf78e6f",
+   "title": "Senior Backend Engineer (USA/Canada)",
+   "company": "Kalepa",
+   "score": 82.7397,
+   "rankDesc": "Good Match",
+   "applyTime": 1755661740529,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a3c004403ad4363b1c3758": {
+   "jobId": "68a3c004403ad4363b1c3758",
+   "title": "DevOps Engineer",
+   "company": "Ursi Technologies Inc",
+   "score": 97.7239,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755661609184,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a39c8f1ab5f8579e8a72ba": {
+   "jobId": "68a39c8f1ab5f8579e8a72ba",
+   "title": "Principal Site Reliability Engineer - Cloud (Remote)",
+   "company": "Donnelley Financial Solutions (DFIN)",
+   "score": 91.53,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755661560056,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a488ad541cc3479840bff2": {
+   "jobId": "68a488ad541cc3479840bff2",
+   "title": "Senior Backend Engineer",
+   "company": "Greenplaces",
+   "score": 97.0821,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755661128265,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a37435403ad4363b1c1178": {
+   "jobId": "68a37435403ad4363b1c1178",
+   "title": "IT Infrastructure Engineer",
+   "company": "Keyfactor",
+   "score": 92.3541,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755660984363,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a39749403ad4363b1c27ab": {
+   "jobId": "68a39749403ad4363b1c27ab",
+   "title": "Director, Engineering",
+   "company": "AbsenceSoft",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755660848932,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a472f02d2a252445cd6ea4": {
+   "jobId": "68a472f02d2a252445cd6ea4",
+   "title": "DevOps Engineer (Remote)",
+   "company": "Think Technologies",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755660748132,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "689fbfadcc9ee94dc911995b": {
+   "jobId": "689fbfadcc9ee94dc911995b",
+   "title": "DevOps Engineer",
+   "company": "InfoVision Inc.",
+   "score": 97.2331,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755660459967,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "686c802535584b654217fbef": {
+   "jobId": "686c802535584b654217fbef",
+   "title": "Site Reliability Engineer, Development Infrastructure (DevInfra)",
+   "company": "MongoDB",
+   "score": 94.6941,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755660407029,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a4fe92758f2e4ac3fdb2c2": {
+   "jobId": "68a4fe92758f2e4ac3fdb2c2",
+   "title": "Back End Software Engineer",
+   "company": "Ford Pro",
+   "score": 84.7299,
+   "rankDesc": "Good Match",
+   "applyTime": 1755660260571,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6855c1dd2ce5b04f9825a980": {
+   "jobId": "6855c1dd2ce5b04f9825a980",
+   "title": "Staff Engineer, Distributed Systems",
+   "company": "LaunchDarkly",
+   "score": 92.0427,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755659218990,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a514e433dd7158bbc96efd": {
+   "jobId": "68a514e433dd7158bbc96efd",
+   "title": "Staff Site Reliability Engineer",
+   "company": "honeycomb.io",
+   "score": 89.877,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755658803200,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a41ea0e9f1c744da120fd6": {
+   "jobId": "68a41ea0e9f1c744da120fd6",
+   "title": "Sr. Engineer, DevOps",
+   "company": "Syniti",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755658671969,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68884ba54174df41e0fa47d6": {
+   "jobId": "68884ba54174df41e0fa47d6",
+   "title": "Staff Software Engineer, AI Data Engineering",
+   "company": "Aledade",
+   "score": 88.7701,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755658581507,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a52982758f2e4ac3fdc78d": {
+   "jobId": "68a52982758f2e4ac3fdc78d",
+   "title": "Senior Backend Engineer, AI Platform",
+   "company": "Calendly",
+   "score": 85.3073,
+   "rankDesc": "Good Match",
+   "applyTime": 1755658267135,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a4ca61e9f1c744da1245e0": {
+   "jobId": "68a4ca61e9f1c744da1245e0",
+   "title": "Backend Tech Lead",
+   "company": "Tabby | تابي",
+   "score": 96.3961,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755658049357,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a4c531e9f1c744da123e06": {
+   "jobId": "68a4c531e9f1c744da123e06",
+   "title": "Senior Cloud Engineer",
+   "company": "Juvare",
+   "score": 97.9248,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755657926409,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a5301433dd7158bbc97d49": {
+   "jobId": "68a5301433dd7158bbc97d49",
+   "title": "Staff Backend Software Engineer",
+   "company": "Courtyard",
+   "score": 90.487,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755657825471,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a5149633dd7158bbc96ea6": {
+   "jobId": "68a5149633dd7158bbc96ea6",
+   "title": "Cloud Platform Engineer",
+   "company": "VerticalServe",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755657774307,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a5023ab6a3617d7fa6de51": {
+   "jobId": "68a5023ab6a3617d7fa6de51",
+   "title": "Sr Staff Software Engineer DevOps",
+   "company": "Hammerspace",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755657707334,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a49e5f2d2a252445cd7e5f": {
+   "jobId": "68a49e5f2d2a252445cd7e5f",
+   "title": "DevOps Engineer (US-Based /Part-Time / Immediate)",
+   "company": "Implicit",
+   "score": 96.8711,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755657651583,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a4fb72b6a3617d7fa6dc77": {
+   "jobId": "68a4fb72b6a3617d7fa6dc77",
+   "title": "Principal Infrastructure Engineer",
+   "company": "Voxel51",
+   "score": 97.2844,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755657541331,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a472f5e9f1c744da121e35": {
+   "jobId": "68a472f5e9f1c744da121e35",
+   "title": "Devops K8- Kubernetes Specialist",
+   "company": "NESsT",
+   "score": 89.2986,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755639838690,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a3d2dc1ab5f8579e8a8b4b": {
+   "jobId": "68a3d2dc1ab5f8579e8a8b4b",
+   "title": "Senior Software Engineer, Infrastructure",
+   "company": "Cribl",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755639370016,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a425fee9f1c744da12116c": {
+   "jobId": "68a425fee9f1c744da12116c",
+   "title": "Software Development Senior Manager",
+   "company": "Oracle",
+   "score": 94.8677,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755639212400,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a410da541cc3479840a18c": {
+   "jobId": "68a410da541cc3479840a18c",
+   "title": "DevOps Engineer",
+   "company": "Salt AI",
+   "score": 95.4305,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755639022143,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a4ba1e2d2a252445cd897a": {
+   "jobId": "68a4ba1e2d2a252445cd897a",
+   "title": "Principal Software Engineer",
+   "company": "Red Hat",
+   "score": 95.0134,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755638984825,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a4b452e9f1c744da123771": {
+   "jobId": "68a4b452e9f1c744da123771",
+   "title": "Cloud BI & DevOps Enablement Manager (IT Application Development Manager 2) 100 % Remote work",
+   "company": "Oregon Youth Authority",
+   "score": 86.8538,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755638692836,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a4b5e42d2a252445cd8762": {
+   "jobId": "68a4b5e42d2a252445cd8762",
+   "title": "DevOps Engineer",
+   "company": "Pienso",
+   "score": 97.2705,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755638215808,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a3c9d41ab5f8579e8a83e1": {
+   "jobId": "68a3c9d41ab5f8579e8a83e1",
+   "title": "DevSecOps Engineer",
+   "company": "AlertMedia",
+   "score": 96.9533,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755638191828,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a3c4ba403ad4363b1c3995": {
+   "jobId": "68a3c4ba403ad4363b1c3995",
+   "title": "Healthcare AI Engineer",
+   "company": "Mindoula",
+   "score": 83.7868,
+   "rankDesc": "Good Match",
+   "applyTime": 1755637983214,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a369131ab5f8579e8a556c": {
+   "jobId": "68a369131ab5f8579e8a556c",
+   "title": "Director, Site Reliability Engineer",
+   "company": "Ordergroove",
+   "score": 95.848,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755637827291,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68a3c96037d3cc6b0d579805": {
+   "jobId": "68a3c96037d3cc6b0d579805",
+   "title": "Sr. Engineer, Cloud Operations Infrastructure",
+   "company": "Syniti",
+   "score": 96.2197,
+   "rankDesc": "Strong Match",
+   "applyTime": 1755637750561,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68954a7473b3a600fe8864dd": {
+   "jobId": "68954a7473b3a600fe8864dd",
+   "title": "Backend Engineer",
+   "company": "Genios AI",
+   "score": 87.098,
+   "rankDesc": "Strong Match",
+   "applyTime": 1754791141430,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6821297ac3f13ff1ce4e3152": {
+   "jobId": "6821297ac3f13ff1ce4e3152",
+   "title": "Backend Engineer (4 openings)",
+   "company": "Clerkie",
+   "score": 87.148,
+   "rankDesc": "Strong Match",
+   "applyTime": 1754791071191,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6895156d8c6d6b4426777465": {
+   "jobId": "6895156d8c6d6b4426777465",
+   "title": "Staff Backend Engineer",
+   "company": "Arena Club",
+   "score": 80.2315,
+   "rankDesc": "Good Match",
+   "applyTime": 1754791038402,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6897dfee8c6d6b4426793544": {
+   "jobId": "6897dfee8c6d6b4426793544",
+   "title": "Application Developer IV (Salesforce)",
+   "company": "Geisinger",
+   "score": 72.5734,
+   "rankDesc": "Good Match",
+   "applyTime": 1754790961481,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6897de9a1b9e81727f1a2307": {
+   "jobId": "6897de9a1b9e81727f1a2307",
+   "title": "Senior Cloud Solutions Engineer",
+   "company": "Headspace",
+   "score": 88.2385,
+   "rankDesc": "Strong Match",
+   "applyTime": 1754789664740,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6897a46f73b3a600fe89ccc4": {
+   "jobId": "6897a46f73b3a600fe89ccc4",
+   "title": "Senior Software Engineer II",
+   "company": "dbt Labs",
+   "score": 92.6635,
+   "rankDesc": "Strong Match",
+   "applyTime": 1754789127261,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6897bd6073b3a600fe89ef73": {
+   "jobId": "6897bd6073b3a600fe89ef73",
+   "title": "Devops K8- Kubernetes Specialist",
+   "company": "Ness Digital Engineering",
+   "score": 97.9405,
+   "rankDesc": "Strong Match",
+   "applyTime": 1754781108891,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "689787048c6d6b442678d32e": {
+   "jobId": "689787048c6d6b442678d32e",
+   "title": "Remote Senior Cloud Software Engineer",
+   "company": "Oracle",
+   "score": 89.7225,
+   "rankDesc": "Strong Match",
+   "applyTime": 1754780766282,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6894406ca9199876488e3f7e": {
+   "jobId": "6894406ca9199876488e3f7e",
+   "title": "Senior Site Reliability Engineer",
+   "company": "Five9",
+   "score": 96.7547,
+   "rankDesc": "Strong Match",
+   "applyTime": 1754780153190,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6897479373b3a600fe896120": {
+   "jobId": "6897479373b3a600fe896120",
+   "title": "Senior Software Engineer",
+   "company": "Spreedly",
+   "score": 94.7587,
+   "rankDesc": "Strong Match",
+   "applyTime": 1754779738129,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "68972f7d8c6d6b442678698c": {
+   "jobId": "68972f7d8c6d6b442678698c",
+   "title": "Senior/Lead Software Engineer",
+   "company": "Nubank",
+   "score": 97.3714,
+   "rankDesc": "Strong Match",
+   "applyTime": 1754779596621,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6897ac311b9e81727f19f32a": {
+   "jobId": "6897ac311b9e81727f19f32a",
+   "title": "DevOps (Remote)",
+   "company": "TyrAds",
+   "score": 89.4998,
+   "rankDesc": "Strong Match",
+   "applyTime": 1754778753387,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6897b13673b3a600fe89e1ec": {
+   "jobId": "6897b13673b3a600fe89e1ec",
+   "title": "Senior Site Reliability Engineer- Performance",
+   "company": "Cisco",
+   "score": 96.1465,
+   "rankDesc": "Strong Match",
+   "applyTime": 1754778581627,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6897995a1b9e81727f19daaa": {
+   "jobId": "6897995a1b9e81727f19daaa",
+   "title": "Site Reliability Engineer",
+   "company": "FinThrive",
+   "score": 98,
+   "rankDesc": "Strong Match",
+   "applyTime": 1754777843118,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6894f9fe4ed2ea559ca52241": {
+   "jobId": "6894f9fe4ed2ea559ca52241",
+   "title": "AI Engineer",
+   "company": "You.com",
+   "score": 84.7157,
+   "rankDesc": "Good Match",
+   "applyTime": 1754709659885,
+   "applyStatus": 0,
+   "source": 0
+  },
+  "6895899873b3a600fe8887f3": {
+   "jobId": "6895899873b3a600fe8887f3",
+   "title": "Manager, Platform Engineering & DevEx",
+   "company": "Ford Motor Company",
+   "score": 88.8529,
+   "rankDesc": "Strong Match",
+   "applyTime": 1754709530402,
+   "applyStatus": 0,
+   "source": 0
+  }
+ }
+}

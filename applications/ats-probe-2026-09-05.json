@@ -1,0 +1,1070 @@
+[
+ {
+  "jobId": "6a8d67ee2f736c304f2a9636",
+  "company": "Foundation Health",
+  "title": "Principal Software Engineer",
+  "url": "https://jobs.ashbyhq.com/foundationhealthcareers/3d0d7d8a-6db4-49bb-bcd2-05c14d224c70/application?utm_source=jobright",
+  "finalUrl": "https://jobs.ashbyhq.com/foundationhealthcareers/3d0d7d8a-6db4-49bb-bcd2-05c14d224c70/application?utm_source=jobright",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 10,
+  "hasFile": true,
+  "hasName": false,
+  "buttons": [
+   "Upload file",
+   "Upload File",
+   "Yes",
+   "No",
+   "Yes",
+   "No"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a71ea59ee751e0c793459ea",
+  "company": "RxSense",
+  "title": "Principal Platform Engineer",
+  "url": "https://boards.greenhouse.io/embed/job_app?token=4721141005&utm_source=jobright",
+  "finalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=rxsense&token=4721141005&utm_source=jobright",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 29,
+  "hasFile": true,
+  "hasName": true,
+  "buttons": [
+   "Apply",
+   "Autofill my application",
+   "Locate me",
+   "Attach",
+   "Dropbox",
+   "Enter manually"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a7cec2da346cb6c8d5f0ef7",
+  "company": "ParentSquare",
+  "title": "Principal Engineer",
+  "url": "https://ats.rippling.com/parentsquare/jobs/2a86ad03-8a85-4279-82d3-1aa102999b3a",
+  "finalUrl": "https://ats.rippling.com/parentsquare/jobs/2a86ad03-8a85-4279-82d3-1aa102999b3a",
+  "loginWall": false,
+  "captcha": false,
+  "fields": 1,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Apply now",
+   "Apply now"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a95e7da4c22023a07936d26",
+  "company": "Recru",
+  "title": "Principal Software Engineer",
+  "url": "https://recru.boostie.jobs/job/3663081-principal-ai-software-engineer?utm_medium=boostie-apply-url&utm_source=jobright",
+  "finalUrl": "https://recru.boostie.jobs/job/3663081-principal-ai-software-engineer?utm_medium=boostie-apply-url&utm_source=jobright",
+  "loginWall": false,
+  "captcha": false,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Login / Sign up",
+   "Apply For This Job",
+   "Apply For This Job",
+   "Apply For This Job"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a7b8dd977e6b569c61c187d",
+  "company": "BlueCross BlueShield of Tennessee",
+  "title": "Principal AI Infrastructure & Cloud Engineer",
+  "url": "https://bcbst.wd1.myworkdayjobs.com/external/job/USA-TN-Chattanooga-Remote/Principal-AI-Infrastructure---Cloud-Engineer_R-50424",
+  "finalUrl": "https://bcbst.wd1.myworkdayjobs.com/external/job/USA-TN-Chattanooga-Remote/Principal-AI-Infrastructure---Cloud-Engineer_",
+  "loginWall": true,
+  "captcha": false,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Sign In",
+   "Back to BCBST.com",
+   "Search for Jobs",
+   "Introduce Yourself",
+   "Read More",
+   "Read More"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a9093af2e254e06fb9f1a97",
+  "company": "Bellese Technologies",
+  "title": "Staff Engineer, DevOps",
+  "url": "https://jobs.lever.co/bellese/111d0849-7e33-4469-9e9a-bf02a54158ea/apply?utm_source=jobright",
+  "finalUrl": "https://jobs.lever.co/bellese/111d0849-7e33-4469-9e9a-bf02a54158ea/apply?utm_source=jobright",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 28,
+  "hasFile": true,
+  "hasName": false,
+  "buttons": [
+   "SUBMIT APPLICATION"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a6130beab14335fc0f16b2f",
+  "company": "Oracle",
+  "title": "Lead Principal Platform Software Engineer",
+  "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/338505",
+  "finalUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/338505",
+  "loginWall": false,
+  "captcha": false,
+  "fields": 2,
+  "hasFile": true,
+  "hasName": false,
+  "buttons": [
+   "APPLY NOW",
+   "SEE MORE JOBS",
+   "End Session",
+   "Continue Working",
+   "Discard",
+   "Add Summary"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "68971a158c6d6b442678453c",
+  "company": "Oracle",
+  "title": "Principal Software Developer",
+  "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/289656",
+  "finalUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/289656",
+  "loginWall": false,
+  "captcha": false,
+  "fields": 2,
+  "hasFile": true,
+  "hasName": false,
+  "buttons": [
+   "APPLY NOW",
+   "SEE MORE JOBS",
+   "End Session",
+   "Continue Working",
+   "Discard",
+   "Add Summary"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "690c0e3f221b890c277fafea",
+  "company": "Qvest US",
+  "title": "Staff Engineer",
+  "url": "https://jobs.lever.co/qvest.us/326143a8-015e-43e3-ae8c-bb0c02d3f901/apply?utm_source=jobright",
+  "finalUrl": "https://jobs.lever.co/qvest.us/326143a8-015e-43e3-ae8c-bb0c02d3f901/apply?utm_source=jobright",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 19,
+  "hasFile": true,
+  "hasName": false,
+  "buttons": [
+   "dismiss",
+   "Dismiss",
+   "SUBMIT APPLICATION"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a513b9a57513b72e0c6510a",
+  "company": "WellSky",
+  "title": "Staff Software Engineer",
+  "url": "https://wellsky.wd1.myworkdayjobs.com/wellskycareers/job/Overland-Park-KS/Staff-Software-Engineer_JR4773",
+  "finalUrl": "https://wellsky.wd1.myworkdayjobs.com/wellskycareers/job/Overland-Park-KS/Staff-Software-Engineer_JR4773",
+  "loginWall": true,
+  "captcha": false,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Sign In",
+   "Visit Us",
+   "Search for Jobs",
+   "Introduce Yourself",
+   "View All 5 Jobs",
+   "Read More"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a9b51eb90a313642c659bcf",
+  "company": "Damcosoft",
+  "title": "Senior Python Fast API React Full Stack Engineer/Lead/Architect(IC) with AI and Azure Experience) ( FTE/Remote USA/ but travel when required)",
+  "url": "https://www.linkedin.com/jobs/view/4462335344",
+  "finalUrl": "https://www.linkedin.com/jobs/view/4462335344",
+  "loginWall": true,
+  "captcha": false,
+  "fields": 15,
+  "hasFile": false,
+  "hasName": true,
+  "buttons": [
+   "Senior Python Fast API React Full Stack Engineer/Lead/Architect(IC) with AI and Azure Experience) ( FTE/Remote USA/ but travel when required) in Marlton, NJ\n        \n        Expand search",
+   "Jobs",
+   "Jobs",
+   "People",
+   "Learning",
+   "Clear text"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a970e29d13b4819f39ded06",
+  "company": "CareSource",
+  "title": "Architect III - Cloud, DevOps, and SRE",
+  "url": "https://caresource.wd1.myworkdayjobs.com/caresource/job/Remote/Architect-III---Cloud--DevOps--and-SRE_R13442-1",
+  "finalUrl": "https://caresource.wd1.myworkdayjobs.com/caresource/job/Remote/Architect-III---Cloud--DevOps--and-SRE_R13442-1",
+  "loginWall": true,
+  "captcha": false,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Sign In",
+   "Introduce Yourself",
+   "Read More"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a98508edef18223c854ea05",
+  "company": "WEX",
+  "title": "Tech Lead, Benefits Engineering",
+  "url": "https://wexinc.wd5.myworkdayjobs.com/wexinc/job/US---Remote/Tech-Lead--Benefits-Engineering_R22793-1",
+  "finalUrl": "https://wexinc.wd5.myworkdayjobs.com/wexinc/job/US---Remote/Tech-Lead--Benefits-Engineering_R22793-1",
+  "loginWall": true,
+  "captcha": false,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Decline",
+   "Accept Cookies",
+   "English",
+   "Sign In",
+   "Search for Jobs",
+   "View All 5 Jobs"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a8c4ecfcde3717f9e9bc406",
+  "company": "Quantiphi",
+  "title": "Associate Technical Architect - Platform",
+  "url": "https://quantiphi.wd1.myworkdayjobs.com/careers_at_quantiphi/job/USA---Remote/Associate-Technical-Architect---Platform_JR11794",
+  "finalUrl": "https://quantiphi.wd1.myworkdayjobs.com/careers_at_quantiphi/job/USA---Remote/Associate-Technical-Architect---Platform_J",
+  "loginWall": true,
+  "captcha": false,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Read Full Privacy Message",
+   "Decline",
+   "Accept Cookies",
+   "Sign In",
+   "Careers Home",
+   "Search for Jobs"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a92715ea27a2d3c9848bbff",
+  "company": "NOVALINK SOLUTIONS LLC",
+  "title": "Cloud Engineer- Expert",
+  "url": "https://www.ziprecruiter.com/kn/AALJCrDa8nnWmrKb2WdVnCgxs8qdMwBayPcUVfF1crRp6rpQH-1jFPw0HQ_j0zyExW808FXta5Xg26JP0GbvObHU-5C-SQXxeFZIrBd82RPBsTsa-FbeH9od-Mh9Q1DUnPM1vi6zTVKIIR1eIWootNKz6fbAV7O07tSgq3CiC6cnAJAEecVSSD-s1Pk8vEp2vzkK8daYcMNtX0x9pBg0uQ9xrkW0JPr83Aw-U7d4rt6lnomy1TuRpJR9ymA9YSHvDSXcrW6hlZzfClzUkXLArc4IiZRF0cQXtTy9dZd-AmkVATAXmpS_trxM4pVxIek63OIffDyfRPwOh0x2n7JxIrBSFoUYBuBUhQ5M_IAG_cGv35VXitZtFe8zLB_lFxhIecnWi4mY04wiwGqBRgqBwe_hQuxcd3EHDi8Tvy4hOIv4Sy5p4wsDqiiMLUoaCPJK_ZThxunsreWMEz9T?tsid=123468825",
+  "finalUrl": "https://www.ziprecruiter.com/kn/AALJCrDa8nnWmrKb2WdVnCgxs8qdMwBayPcUVfF1crRp6rpQH-1jFPw0HQ_j0zyExW808FXta5Xg26JP0GbvObHU",
+  "loginWall": false,
+  "captcha": false,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [],
+  "fillable": false
+ },
+ {
+  "jobId": "6a9b24fed5ff1f3f1c39dcdb",
+  "company": "McKesson",
+  "title": "Lead Software Development Engineering",
+  "url": "https://mckesson.wd3.myworkdayjobs.com/external_careers/job/USA-TX-Irving/Lead-Software-Development-Engineering_JR0153357",
+  "finalUrl": "https://mckesson.wd3.myworkdayjobs.com/external_careers/job/USA-TX-Irving/Lead-Software-Development-Engineering_JR015335",
+  "loginWall": true,
+  "captcha": false,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "English",
+   "Sign In",
+   "Careers.McKesson.com",
+   "Search for Jobs",
+   "Read More"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a74eb3bbb6ca93ae560cb17",
+  "company": "Clarvos",
+  "title": "Sr. DevOps Engineer",
+  "url": "https://app.trinethire.com/companies/657292-clarvos-llc/jobs/123330-sr-devops-engineer",
+  "finalUrl": "https://app.trinethire.com/companies/657292-clarvos-llc/jobs/123330-sr-devops-engineer",
+  "loginWall": false,
+  "captcha": false,
+  "fields": 27,
+  "hasFile": true,
+  "hasName": true,
+  "buttons": [
+   "Add another",
+   "Submit Application"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a7e2c14ad9ff00c26baa103",
+  "company": "SAP",
+  "title": "SAP NS2 Sr. DevOps Engineer",
+  "url": "https://jobs.sap.com/job/Herndon-SAP-NS2-Sr_-DevOps-Engineer-VA-20171/1426283633/",
+  "finalUrl": "https://jobs.sap.com/job/Herndon-SAP-NS2-Sr_-DevOps-Engineer-VA-20171/1426283633/",
+  "loginWall": false,
+  "captcha": false,
+  "fields": 8,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Search jobs",
+   "Create Alert",
+   "×",
+   "Create Alert",
+   "Understood",
+   "Reject All"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a97a23e1e082875c173e2cf",
+  "company": "NVIDIA",
+  "title": "Senior Engineer, Build and DevOps - ADI",
+  "url": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-NY-Remote/Senior-Engineer--Build-and-DevOps---ADI_JR2021994",
+  "finalUrl": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-NY-Remote/Senior-Engineer--Build-and-DevOps---ADI_J",
+  "loginWall": true,
+  "captcha": false,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Sign In",
+   "Home",
+   "Search for Jobs",
+   "View All 6 Locations",
+   "View All 5 Jobs"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a976160d13b4819f39e0cfe",
+  "company": "NVIDIA",
+  "title": "Senior Software Engineer, Linux Platform",
+  "url": "https://nvidia.eightfold.ai/careers?pid=893396584094",
+  "finalUrl": "https://nvidia.eightfold.ai/careers?start=0&pid=893396584094&sort_by=timestamp",
+  "loginWall": true,
+  "captcha": true,
+  "fields": 31,
+  "hasFile": true,
+  "hasName": false,
+  "buttons": [
+   "Search jobs",
+   "Job Category",
+   "Location Type",
+   "All Filters",
+   "Clear All",
+   "Upload Your Resume (English)"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a7394558dc3d52d8eda04a3",
+  "company": "Jack Henry",
+  "title": "Senior Cloud Infrastructure Engineer: Deployments",
+  "url": "https://careers.jackhenry.com/job/united-states/senior-cloud-infrastructure-engineer-deployments/42859/96480778192",
+  "finalUrl": "https://careers.jackhenry.com/job/united-states/senior-cloud-infrastructure-engineer-deployments/42859/96480778192",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 10,
+  "hasFile": false,
+  "hasName": true,
+  "buttons": [
+   "Search Jobs",
+   "Search",
+   "Save Job",
+   "Save",
+   "Save",
+   "Add"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a681f78ca8eb3452eadaf49",
+  "company": "Pilot.com",
+  "title": "Sr. Software Engineer, Infrastructure",
+  "url": "https://boards.greenhouse.io/embed/job_app?token=8653025002&utm_source=jobright",
+  "finalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=pilothq&token=8653025002&utm_source=jobright",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 18,
+  "hasFile": true,
+  "hasName": true,
+  "buttons": [
+   "Apply",
+   "Autofill my application",
+   "Locate me",
+   "Attach",
+   "Dropbox",
+   "Enter manually"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a96d630f5337b2cf731e1c7",
+  "company": "Fiserv",
+  "title": "Software Architecture - Sr Advisor I",
+  "url": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Remote-Florida/Software-Architecture---Sr-Advisor-I_R-10401362",
+  "finalUrl": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Remote-Florida/Software-Architecture---Sr-Advisor-I_R-10401362",
+  "loginWall": true,
+  "captcha": false,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "English",
+   "Sign In",
+   "Search for Jobs",
+   "Join the Fiserv Talent Network",
+   "Read More"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "69205e0900c9ee50eaec2604",
+  "company": "Canonical",
+  "title": "Software Architect - Containers / Virtualisation",
+  "url": "https://boards.greenhouse.io/embed/job_app?token=5881447&utm_source=jobright",
+  "finalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=canonical&token=5881447&utm_source=jobright",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 32,
+  "hasFile": true,
+  "hasName": true,
+  "buttons": [
+   "Submit application",
+   "Attach",
+   "Dropbox",
+   "Enter manually",
+   "Add another",
+   "Submit application"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a4fceb7f57ed168c3416d21",
+  "company": "JobGet",
+  "title": "Principal Software Engineer - Canada",
+  "url": "https://jobget.applytojob.com/apply/TjqRxpW16a/Principal-Software-Engineer-Canada",
+  "finalUrl": "https://jobget.applytojob.com/apply/TjqRxpW16a/Principal-Software-Engineer-Canada",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 14,
+  "hasFile": true,
+  "hasName": true,
+  "buttons": [
+   "Apply",
+   "ALLOW",
+   "REJECT ALL"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a8c753ed34f700f87fd097a",
+  "company": "CVS Health",
+  "title": "Principal Software Development Engineer",
+  "url": "https://jobs.cvshealth.com/us/en/job/R0840263/principal-software-development-engineer",
+  "finalUrl": "https://jobs.cvshealth.com/us/en/job/R0840263/Principal-Software-Development-Engineer",
+  "loginWall": true,
+  "captcha": false,
+  "fields": 18,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Careers",
+   "Available in 11 locations See all\nSee all",
+   "Save",
+   "Save",
+   "Submit",
+   "Manage Alerts"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a85fc8fe459fa3baa8652f6",
+  "company": "Striveworks",
+  "title": "Tacoma, Washington - Sr DevOps Engineer (Active Secret Clearance)",
+  "url": "https://www.linkedin.com/jobs/view/4456373067",
+  "finalUrl": "https://www.linkedin.com/jobs/view/4456373067",
+  "loginWall": true,
+  "captcha": false,
+  "fields": 17,
+  "hasFile": false,
+  "hasName": true,
+  "buttons": [
+   "Tacoma, Washington - Sr DevOps Engineer (Active Secret Clearance) in Marlton, NJ\n        \n        Expand search",
+   "Jobs",
+   "Jobs",
+   "People",
+   "Learning",
+   "Clear text"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a90c0432e254e06fb9f2ced",
+  "company": "Photon",
+  "title": "Architect - United States",
+  "url": "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/26831",
+  "finalUrl": "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26831",
+  "loginWall": false,
+  "captcha": false,
+  "fields": 2,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "APPLY NOW",
+   "End Session",
+   "Continue Working",
+   "Discard",
+   "Add Summary"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a6244681e089c0cc884b726",
+  "company": "Rocket",
+  "title": "Principal Engineer — Graph & API",
+  "url": "https://careers.rocket.com/us/en/job/R-082560/principal-engineer-graph-api",
+  "finalUrl": "https://careers.rocket.com/us/en/job/R-082560/Principal-Engineer-%E2%80%94-Graph-API",
+  "loginWall": false,
+  "captcha": false,
+  "fields": 3,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Culture",
+   "Teams",
+   "Culture",
+   "Teams",
+   "Save",
+   "Share via twitter"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a7c50fb83621355407a9453",
+  "company": "Ciklum",
+  "title": "Principal Software Engineer",
+  "url": "https://ialmme.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4235",
+  "finalUrl": "https://ialmme.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4235",
+  "loginWall": false,
+  "captcha": false,
+  "fields": 2,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "APPLY NOW",
+   "End Session",
+   "Continue Working",
+   "Discard",
+   "Add Summary"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a8d8f04581f2d7bfdfe7a0c",
+  "company": "Accelerate Learning",
+  "title": "Software Architect",
+  "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d08d19fedb018d57d02cda2d7c&id=8a78839e9fd3ba7b01a011713ec5642a&source=&lang=en",
+  "finalUrl": "https://acceleratelearning.com/careers/?gnk=job&gni=8a78839e9fd3ba7b01a011713ec5642a&lang=en",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 8,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Customize",
+   "Reject All",
+   "Accept All",
+   "Show more",
+   "Necessary",
+   "Functional"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a7c8dc383621355407aa128",
+  "company": "NEOGOV",
+  "title": "Software Architect (Java)",
+  "url": "https://www.governmentjobs.com/careers/neogovpe/jobs/5359920/software-architect-java?src=jobright",
+  "finalUrl": "https://www.governmentjobs.com/careers/neogovpe/jobs/5359920/software-architect-java?src=jobright",
+  "loginWall": true,
+  "captcha": true,
+  "fields": 3,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Accept",
+   "Deny Non-Essential",
+   "Manage Preferences",
+   "Skip to main content",
+   "Menu",
+   "Sign In"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a9a88cf6c308f08f89c60c0",
+  "company": "EWOR",
+  "title": "SaaS Cloud Engineer (100 % remote) (m/f/d)",
+  "url": "https://eworgmbh.recruitee.com/o/saas-cloud-engineer-100-remote-mfd-1",
+  "finalUrl": "https://eworgmbh.recruitee.com/o/saas-cloud-engineer-100-remote-mfd-1",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 5,
+  "hasFile": true,
+  "hasName": false,
+  "buttons": [
+   "Job details",
+   "Apply",
+   "Apply",
+   "Share job",
+   "United StatesUnited States",
+   "Write it here instead"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a9a88a61388387060593a06",
+  "company": "EWOR",
+  "title": "Fintech Cloud Engineer (100 % remote) (m/f/d)",
+  "url": "https://eworgmbh.recruitee.com/o/fintech-cloud-engineer-100-remote-mfd-7",
+  "finalUrl": "https://eworgmbh.recruitee.com/o/fintech-cloud-engineer-100-remote-mfd-7",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 5,
+  "hasFile": true,
+  "hasName": false,
+  "buttons": [
+   "Job details",
+   "Apply",
+   "Apply",
+   "Share job",
+   "United StatesUnited States",
+   "Write it here instead"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a5f3f71b0f20036bc630243",
+  "company": "PayPay Corporation",
+  "title": "Principal Software Engineer",
+  "url": "https://boards.greenhouse.io/embed/job_app?token=4888665004&utm_source=jobright",
+  "finalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=paypay&token=4888665004&utm_source=jobright",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 21,
+  "hasFile": true,
+  "hasName": true,
+  "buttons": [
+   "Apply",
+   "Attach",
+   "Dropbox",
+   "Enter manually",
+   "Attach",
+   "Dropbox"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a221369902d19201c7bbe3a",
+  "company": "Vanta",
+  "title": "Senior Software Engineer, Developer Experience",
+  "url": "https://jobs.ashbyhq.com/vanta/dbd4e02c-0c6c-4031-a658-f57e88ec9943/application?utm_source=jobright",
+  "finalUrl": "https://jobs.ashbyhq.com/vanta/dbd4e02c-0c6c-4031-a658-f57e88ec9943/application?utm_source=jobright",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 27,
+  "hasFile": true,
+  "hasName": false,
+  "buttons": [
+   "Upload file",
+   "Upload File",
+   "Yes",
+   "No",
+   "Yes",
+   "No"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a762e2bbb6ca93ae56115dd",
+  "company": "Quicken Loans",
+  "title": "Senior Software Engineer I - Infrastructure",
+  "url": "https://quickenloans.wd5.myworkdayjobs.com/rocket_careers/job/Remote---Michigan/Senior-Software-Engineer-I---Infrastructure_R-083755",
+  "finalUrl": "https://quickenloans.wd5.myworkdayjobs.com/rocket_careers/job/Remote---Michigan/Senior-Software-Engineer-I---Infrastruct",
+  "loginWall": true,
+  "captcha": false,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Sign In",
+   "Search for Jobs",
+   "View All 5 Jobs",
+   "Read More"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a85c4abe459fa3baa863b4d",
+  "company": "JSI",
+  "title": "Software Architect",
+  "url": "https://jsitel.pinpointhq.com/en/postings/b64f06ef-41f4-4a6e-8285-bd6e7b1a01b4",
+  "finalUrl": "https://careers.jsitel.com/en/postings/b64f06ef-41f4-4a6e-8285-bd6e7b1a01b4",
+  "loginWall": true,
+  "captcha": true,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "1",
+   "2",
+   "Accept all",
+   "Reject all",
+   "Settings"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a80b5e6927c79391ad12029",
+  "company": "Salt AI",
+  "title": "Senior DevOps Platform Engineer",
+  "url": "https://careers.jobscore.com/careers/saltai/jobs/senior-devops-platform-engineer-c4W79noKLm-yBqpvMFhTYN",
+  "finalUrl": "https://careers.jobscore.com/careers/saltai/jobs/senior-devops-platform-engineer-c4W79noKLm-yBqpvMFhTYN",
+  "loginWall": false,
+  "captcha": false,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [],
+  "fillable": false
+ },
+ {
+  "jobId": "6a8473a82f4f0014cae2096d",
+  "company": "CareFirst BlueCross BlueShield",
+  "title": "Systems Engineer",
+  "url": "https://jobsapi.ceipal.com/APISource/v1/index.html?bgcolor=1ba1ff&api_key=N0JPaEh5aTFJSUtZU1NFdXlQTTRoQT09&cp_id=Z3RkUkt2OXZJVld2MjFpOVRSTXoxZz09&job_id=z5G7h3l6a1kMvyS65NP3c4JqMpB8_w7I_IceolmC7hM%3D",
+  "finalUrl": "https://jobsapi.ceipal.com/APISource/v1/index.html?bgcolor=1ba1ff&api_key=N0JPaEh5aTFJSUtZU1NFdXlQTTRoQT09&cp_id=Z3RkUkt",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 48,
+  "hasFile": true,
+  "hasName": true,
+  "buttons": [
+   "Search",
+   "Offering",
+   "Profession",
+   "Speciality",
+   "Job Type",
+   "State"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a2088bc3a5f0145f4c1518e",
+  "company": "Thumbtack",
+  "title": "Senior Software Engineer, Developer Experience",
+  "url": "https://jobs.ashbyhq.com/thumbtack/7ddfc7e0-81c6-41a5-9b18-1d8e4470c3de/application?utm_source=jobright",
+  "finalUrl": "https://jobs.ashbyhq.com/thumbtack/7ddfc7e0-81c6-41a5-9b18-1d8e4470c3de/application?utm_source=jobright",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 28,
+  "hasFile": true,
+  "hasName": false,
+  "buttons": [
+   "Upload file",
+   "Upload File",
+   "Yes",
+   "No",
+   "Submit Application"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a875eace8b6601d12903317",
+  "company": "NinjaOne",
+  "title": "Staff Software Engineer, Java / Kotlin",
+  "url": "https://jobs.jobvite.com/ninjaone/job/oVgcAfwH",
+  "finalUrl": "https://jobs.jobvite.com/ninjaone/job/oVgcAfwH",
+  "loginWall": false,
+  "captcha": false,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [],
+  "fillable": false
+ },
+ {
+  "jobId": "6a99c2ef551435518ebf0e2d",
+  "company": "Inspira Financial",
+  "title": "Lead Platform Software Engineer (Remote)",
+  "url": "https://myjobs.adp.com/inspiracareers/cx/job-details?reqId=5001214784906",
+  "finalUrl": "https://myjobs.adp.com/inspiracareers/cx/job-details?reqId=5001214784906",
+  "loginWall": true,
+  "captcha": false,
+  "fields": 8,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Sign in",
+   "To manage your preferences, click here",
+   "To manage your preferences, click here",
+   "To manage your preferences, click here",
+   "Select All",
+   "Back Button"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a5fa838b0f20036bc63227e",
+  "company": "CSC Generation",
+  "title": "Principal Engineer",
+  "url": "https://jobs.lever.co/cscgeneration-2/189a5940-8dce-4fac-aaa3-852f90e4af50/apply?utm_source=jobright",
+  "finalUrl": "https://jobs.lever.co/cscgeneration-2/189a5940-8dce-4fac-aaa3-852f90e4af50/apply?utm_source=jobright",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 37,
+  "hasFile": true,
+  "hasName": false,
+  "buttons": [
+   "Apply with LinkedIn",
+   "SUBMIT APPLICATION"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a5124c5ae4052672fe975d7",
+  "company": "NetApp",
+  "title": "Principal Software Engineer",
+  "url": "https://jobs.netapp.com/job/Principal-Software-Engineer/1407376500/",
+  "finalUrl": "https://jobs.netapp.com/job/Principal-Software-Engineer/1407376500/",
+  "loginWall": false,
+  "captcha": false,
+  "fields": 2,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Accept",
+   "Close",
+   "Apply now",
+   "Start",
+   "Apply now",
+   "Start"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a990906af954907d6574cce",
+  "company": "Yahoo",
+  "title": "Sr Software Dev Engineer",
+  "url": "https://ouryahoo.wd5.myworkdayjobs.com/en-US/careers/job/United-States-of-America/Sr-Software-Dev-Engineer_JR0027507?source=jobright",
+  "finalUrl": "https://ouryahoo.wd5.myworkdayjobs.com/en-US/careers/job/United-States-of-America/Sr-Software-Dev-Engineer_JR0027507?sou",
+  "loginWall": true,
+  "captcha": false,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Sign In",
+   "Search for Jobs",
+   "Introduce Yourself",
+   "View All 5 Jobs",
+   "Read More"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a9a0a58551435518ebf2c21",
+  "company": "Collectors",
+  "title": "Staff Software Engineer, Beckett",
+  "url": "https://collectorsuniverse.wd1.myworkdayjobs.com/collectors/job/Santa-Ana-CA/Staff-Software-Engineer--Beckett_JR106361",
+  "finalUrl": "https://collectorsuniverse.wd1.myworkdayjobs.com/collectors/job/Santa-Ana-CA/Staff-Software-Engineer--Beckett_JR106361",
+  "loginWall": true,
+  "captcha": false,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "English",
+   "Sign In",
+   "Home",
+   "Search for Jobs",
+   "Read More"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a6ccf6632f9300c3a3e5430",
+  "company": "Pomelo Care",
+  "title": "Staff Software Engineer",
+  "url": "https://boards.greenhouse.io/embed/job_app?token=6131966004&utm_source=jobright",
+  "finalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=pomelocare&token=6131966004&utm_source=jobright",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 20,
+  "hasFile": true,
+  "hasName": true,
+  "buttons": [
+   "Apply",
+   "Autofill my application",
+   "Attach",
+   "Dropbox",
+   "Enter manually",
+   "Submit application"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a91edb83603630099195272",
+  "company": "Maven Clinic",
+  "title": "Staff Software Engineer, Infrastructure",
+  "url": "https://boards.greenhouse.io/embed/job_app?token=8761422002&utm_source=jobright",
+  "finalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=mavenclinic&token=8761422002&utm_source=jobright",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 23,
+  "hasFile": true,
+  "hasName": true,
+  "buttons": [
+   "Apply",
+   "Autofill my application",
+   "Locate me",
+   "Attach",
+   "Dropbox",
+   "Enter manually"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a99b2dd040e5c3d0759824c",
+  "company": "ASCENDING Inc.",
+  "title": "Senior Cloud Engineer",
+  "url": "https://www1.jobdiva.com/portal/?a=7mjdnwzqdc2ko9b1vcs3bgnxd300120ade7c25nmm1ebcc1nttljjbqucdc35ubz#/jobs/32957667",
+  "finalUrl": "https://www1.jobdiva.com/portal/?a=7mjdnwzqdc2ko9b1vcs3bgnxd300120ade7c25nmm1ebcc1nttljjbqucdc35ubz#/jobs/32957667",
+  "loginWall": true,
+  "captcha": false,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Job List",
+   "Apply Now"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a99dcf5551435518ebf1b7e",
+  "company": "EazyML",
+  "title": "Senior Technical Lead / Architect – Agentic AI",
+  "url": "https://www.linkedin.com/jobs/view/4461698620",
+  "finalUrl": "https://www.linkedin.com/jobs/view/4461698620",
+  "loginWall": true,
+  "captcha": false,
+  "fields": 17,
+  "hasFile": false,
+  "hasName": true,
+  "buttons": [
+   "Senior Technical Lead / Architect – Agentic AI in Marlton, NJ\n        \n        Expand search",
+   "Jobs",
+   "Jobs",
+   "People",
+   "Learning",
+   "Clear text"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a8762dfd34f700f87fc5196",
+  "company": "Bishop Fox",
+  "title": "Infrastructure Engineer",
+  "url": "https://boards.greenhouse.io/embed/job_app?token=8145010&utm_source=jobright",
+  "finalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=bishopfox&token=8145010&utm_source=jobright",
+  "loginWall": false,
+  "captcha": true,
+  "fields": 12,
+  "hasFile": true,
+  "hasName": true,
+  "buttons": [
+   "Apply",
+   "Autofill my application",
+   "Locate me",
+   "Attach",
+   "Dropbox",
+   "Enter manually"
+  ],
+  "fillable": true
+ },
+ {
+  "jobId": "6a60ed12d51f6101c8fb96a7",
+  "company": "enovetic ag",
+  "title": "Technical Lead (80-100%)",
+  "url": "https://enovetic.jobs.personio.com/job/2635570",
+  "finalUrl": "https://enovetic.jobs.personio.com/job/2635570",
+  "loginWall": false,
+  "captcha": false,
+  "fields": 0,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "Deutsch",
+   "Deutsch",
+   "Auf diese Stelle bewerben",
+   "Auf diese Stelle bewerben"
+  ],
+  "fillable": false
+ },
+ {
+  "jobId": "6a930ed8c12c90443efcb4ae",
+  "company": "Deltek",
+  "title": "Advanced Software Architect",
+  "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25397&siteid=5259&PageType=JobDetails&jobid=623192",
+  "finalUrl": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25397&siteid=5259&PageType=JobDetails&jobid=62",
+  "loginWall": true,
+  "captcha": true,
+  "fields": 1,
+  "hasFile": false,
+  "hasName": false,
+  "buttons": [
+   "0\n                        \n                        notifications and messages\n                        0 new notifications or messages",
+   "Share",
+   "Apply to job",
+   "Easy Apply",
+   "Save",
+   "External Referral"
+  ],
+  "fillable": false
+ }
+]
